@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud developer tools — 40 tools across Security, Compliance, Analysis, and Utilities domains with status badges, descriptions, and domain distribution.">
 <meta name="keywords" content="anticloud tools, developer tools, security tools, compliance tools, cryptography tools">
-<meta property="og:title" content="Anticloud Developer Tools">
-<meta property="og:description" content="40 developer tools across Security, Compliance, Analysis, and Utilities domains.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Developer Tools">
-<meta name="twitter:description" content="40 developer tools across 4 domains with status badges.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Tools">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Developer Tools",
-  "description": "40 tools across Security, Compliance, Analysis, and Utilities domains with status badges and descriptions.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://github.com/kleinnner/Anticloud/wiki/Tools" }
-    ]
-  }
-}
-</script>
 
 <!-- Breadcrumb: Home > Tools -->
 

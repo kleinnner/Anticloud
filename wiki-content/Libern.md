@@ -2,27 +2,7 @@
 <meta name="description" content="Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.">
 <meta name="keywords" content="libern, cryptographic library, Ed25519, SHA3, digital signatures, blockchain">
 
-<meta property="og:title" content="Libern — Anticloud Wiki">
-<meta property="og:description" content="Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Libern">
-<meta name="twitter:description" content="Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Libern">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Libern",
-  "description": "Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.",
-  "applicationCategory": "Crypto",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Rust",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Libern -->
 

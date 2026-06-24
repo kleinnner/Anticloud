@@ -2,27 +2,7 @@
 <meta name="description" content="Kamelot — cloud runtime & AI orchestration with semantic vector file system, 1536-dim embedding search (91% recall), BLAKE3 hash-chain integrity.">
 <meta name="keywords" content="kamelot, cloud runtime, AI orchestration, serverless, container orchestration, multi-cloud">
 
-<meta property="og:title" content="Kamelot — Anticloud Wiki">
-<meta property="og:description" content="Kamelot — cloud runtime & AI orchestration with semantic vector file system, 1536-dim embedding search (91% recall), BLAKE3 hash-chain integrity.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kamelot">
-<meta name="twitter:description" content="Kamelot — cloud runtime & AI orchestration with semantic vector file system, 1536-dim embedding search (91% recall), BLAKE3 hash-chain integrity.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Kamelot">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Kamelot",
-  "description": "Kamelot — cloud runtime & AI orchestration with semantic vector file system, 1536-dim embedding search (91% recall), BLAKE3 hash-chain integrity.",
-  "applicationCategory": "Cloud",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Rust",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Kamelot -->
 

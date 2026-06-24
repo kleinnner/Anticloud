@@ -2,27 +2,7 @@
 <meta name="description" content="Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.">
 <meta name="keywords" content="kazcade, vector file system, content-addressed storage, VFS, distributed filesystem">
 
-<meta property="og:title" content="Kazcade — Anticloud Wiki">
-<meta property="og:description" content="Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kazcade">
-<meta name="twitter:description" content="Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Kazcade">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Kazcade",
-  "description": "Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.",
-  "applicationCategory": "Storage",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Rust",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Kazcade -->
 

@@ -2,27 +2,7 @@
 <meta name="description" content="Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.">
 <meta name="keywords" content="kathon, cryptographic browser, vision LLM, ad blocking, CRDT, P2P sync, anti-enshittification">
 
-<meta property="og:title" content="Kathon — Anticloud Wiki">
-<meta property="og:description" content="Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kathon">
-<meta name="twitter:description" content="Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Kathon">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Kathon",
-  "description": "Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.",
-  "applicationCategory": "Browser",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Rust",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Kathon -->
 

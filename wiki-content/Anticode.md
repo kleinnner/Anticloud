@@ -2,27 +2,7 @@
 <meta name="description" content="Anticode — terminal-native AI coding engine running fully local LLMs with MCP protocol agent system, cryptographic audit trail for all AI actions, autonomous code generation.">
 <meta name="keywords" content="anticode, AI IDE, code generation, developer tools, AI-assisted development">
 
-<meta property="og:title" content="Anticode — Anticloud Wiki">
-<meta property="og:description" content="Anticode — terminal-native AI coding engine running fully local LLMs with MCP protocol agent system, cryptographic audit trail for all AI actions, autonomous code generation.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticode">
-<meta name="twitter:description" content="Anticode — terminal-native AI coding engine running fully local LLMs with MCP protocol agent system, cryptographic audit trail for all AI actions, autonomous code generation.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Anticode">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Anticode",
-  "description": "Anticode — terminal-native AI coding engine running fully local LLMs with MCP protocol agent system, cryptographic audit trail for all AI actions, autonomous code generation.",
-  "applicationCategory": "Browser",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "TypeScript",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Anticode -->
 

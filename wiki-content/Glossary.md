@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud ecosystem glossary — 35+ technical terms covering projects, cryptographic primitives, protocols, and architecture concepts.">
 <meta name="keywords" content="anticloud glossary, terminology, cryptographic terms, protocol glossary, technical terms">
-<meta property="og:title" content="Anticloud Glossary">
-<meta property="og:description" content="35+ technical terms covering Anticloud projects, cryptographic primitives, protocols, and architecture concepts.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Glossary">
-<meta name="twitter:description" content="35+ technical terms covering the Anticloud ecosystem.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Glossary">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Glossary",
-  "description": "35+ technical terms covering projects, cryptographic primitives, protocols, and architecture concepts.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://github.com/kleinnner/Anticloud/wiki/Glossary" }
-    ]
-  }
-}
-</script>
 
 ![Glossary](https://img.shields.io/badge/Section-Glossary-1d1d1f?style=for-the-badge)
 ![Terms](https://img.shields.io/badge/Terms-36-0071e3?style=for-the-badge)

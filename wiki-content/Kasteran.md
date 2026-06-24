@@ -2,27 +2,7 @@
 <meta name="description" content="Kasteran — rune-based systems language with linear capability types, self-hosted compiler with Cranelift JIT, WebAssembly, and C backends, formal verification.">
 <meta name="keywords" content="kasteran, systems programming, rune-based language, symbolic syntax, memory safety, cryptography">
 
-<meta property="og:title" content="Kasteran — Anticloud Wiki">
-<meta property="og:description" content="Kasteran — rune-based systems language with linear capability types, self-hosted compiler with Cranelift JIT, WebAssembly, and C backends, formal verification.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kasteran">
-<meta name="twitter:description" content="Kasteran — rune-based systems language with linear capability types, self-hosted compiler with Cranelift JIT, WebAssembly, and C backends, formal verification.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Kasteran">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Kasteran",
-  "description": "Kasteran — rune-based systems language with linear capability types, self-hosted compiler with Cranelift JIT, WebAssembly, and C backends, formal verification.",
-  "applicationCategory": "Language",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Rust",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Kasteran -->
 

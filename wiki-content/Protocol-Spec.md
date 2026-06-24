@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud inter-project protocol specifications — REST, gRPC, WebSocket, CRDT/P2P, LSP, MCP, FFI connections across all 11 projects.">
 <meta name="keywords" content="anticloud protocol, REST API, gRPC, CRDT, P2P, LSP, MCP, FFI, inter-project communication">
-<meta property="og:title" content="Anticloud Protocol Specifications">
-<meta property="og:description" content="REST, gRPC, WebSocket, CRDT/P2P, LSP, MCP, FFI connections across all 11 projects.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Protocol Specifications">
-<meta name="twitter:description" content="Inter-project protocol specifications across all 11 Anticloud projects.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Protocol-Spec">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Protocol Specifications",
-  "description": "REST, gRPC, WebSocket, CRDT/P2P, LSP, MCP, FFI connections across all 11 projects.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Protocol-Spec", "item": "https://github.com/kleinnner/Anticloud/wiki/Protocol-Spec" }
-    ]
-  }
-}
-</script>
 
 ![Protocols](https://img.shields.io/badge/Section-Protocols-0071e3?style=for-the-badge)
 ![Protocols](https://img.shields.io/badge/Protocols-7-34c759?style=for-the-badge)

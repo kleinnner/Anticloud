@@ -2,27 +2,7 @@
 <meta name="description" content="API-OSS — sovereign API gateway with multi-agent deliberation councils, contradiction detection, 162 feature docs, WASM sandbox, and 30 research papers.">
 <meta name="keywords" content="api-oss, API gateway, sovereign engine, rust, graphql, wasm">
 
-<meta property="og:title" content="API-OSS — Anticloud Wiki">
-<meta property="og:description" content="API-OSS — sovereign API gateway with multi-agent deliberation councils, contradiction detection, 162 feature docs, WASM sandbox, and 30 research papers.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="API-OSS">
-<meta name="twitter:description" content="API-OSS — sovereign API gateway with multi-agent deliberation councils, contradiction detection, 162 feature docs, WASM sandbox, and 30 research papers.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/API-OSS">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "API-OSS",
-  "description": "API-OSS — sovereign API gateway with multi-agent deliberation councils, contradiction detection, 162 feature docs, WASM sandbox, and 30 research papers.",
-  "applicationCategory": "Cloud",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Rust",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > API-OSS -->
 

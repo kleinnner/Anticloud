@@ -2,27 +2,7 @@
 <meta name="description" content="Inte11ect — modular AI platform with 72 modules, Eigenvector Routing, GOD-11 deterministic orchestrator, domain-specific AI personas, RAG pipeline, Tauri desktop app.">
 <meta name="keywords" content="inte11ect, AI gateway, model routing, LLM proxy, AI caching, prompt management">
 
-<meta property="og:title" content="Inte11ect — Anticloud Wiki">
-<meta property="og:description" content="Inte11ect — modular AI platform with 72 modules, Eigenvector Routing, GOD-11 deterministic orchestrator, domain-specific AI personas, RAG pipeline, Tauri desktop app.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Inte11ect">
-<meta name="twitter:description" content="Inte11ect — modular AI platform with 72 modules, Eigenvector Routing, GOD-11 deterministic orchestrator, domain-specific AI personas, RAG pipeline, Tauri desktop app.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Inte11ect">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Inte11ect",
-  "description": "Inte11ect — modular AI platform with 72 modules, Eigenvector Routing, GOD-11 deterministic orchestrator, domain-specific AI personas, RAG pipeline, Tauri desktop app.",
-  "applicationCategory": "AI",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Go",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Inte11ect -->
 

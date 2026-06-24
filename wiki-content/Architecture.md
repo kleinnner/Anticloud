@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud system architecture — 4-layer stack with cryptographic foundation, project clusters, quadrant positioning, and data flow diagrams.">
 <meta name="keywords" content="anticloud, architecture, system design, cryptographic foundation, layers, quadrant, maturity">
-<meta property="og:title" content="Anticloud System Architecture">
-<meta property="og:description" content="4-layer architecture with cryptographic foundation, project clusters, and quadrant positioning.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud System Architecture">
-<meta name="twitter:description" content="4-layer architecture with cryptographic foundation, project clusters, and quadrant positioning.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Architecture">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud System Architecture",
-  "description": "4-layer stack with cryptographic foundation, project clusters, quadrant positioning, and data flow diagrams.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Architecture", "item": "https://github.com/kleinnner/Anticloud/wiki/Architecture" }
-    ]
-  }
-}
-</script>
 
 <!-- Breadcrumb: Home > Architecture -->
 

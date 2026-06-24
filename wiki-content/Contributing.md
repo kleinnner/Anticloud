@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Contribute to the Anticloud ecosystem — code, docs, research, testing, and community guidelines.">
 <meta name="keywords" content="anticloud, contributing, open source, community">
-<meta property="og:title" content="Contributing to Anticloud">
-<meta property="og:description" content="Contribute to the Anticloud ecosystem — code, docs, research, testing, and community guidelines.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Contributing to Anticloud">
-<meta name="twitter:description" content="Ways to contribute to the Anticloud ecosystem.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Contributing">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Contributing to Anticloud",
-  "description": "Contribute to the Anticloud ecosystem — code, docs, research, testing, and community guidelines.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Contributing", "item": "https://github.com/kleinnner/Anticloud/wiki/Contributing" }
-    ]
-  }
-}
-</script>
 
 <!-- Breadcrumb: Home > Contributing -->
 

@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud security model — cryptographic guarantees, threat analysis, attack surface, and verification architecture across the ecosystem.">
 <meta name="keywords" content="anticloud security, threat model, cryptography, attack surface, verification, tamper-evident">
-<meta property="og:title" content="Anticloud Security Model">
-<meta property="og:description" content="Cryptographic guarantees, threat analysis, attack surface, and verification architecture across the ecosystem.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Security Model">
-<meta name="twitter:description" content="Cryptographic guarantees, threat analysis, attack surface.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Security">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Security Model",
-  "description": "Cryptographic guarantees, threat analysis, attack surface, and verification architecture across the ecosystem.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Security", "item": "https://github.com/kleinnner/Anticloud/wiki/Security" }
-    ]
-  }
-}
-</script>
 
 ![Security](https://img.shields.io/badge/Section-Security-ff3b30?style=for-the-badge)
 ![Primitives](https://img.shields.io/badge/Primitives-5-34c759?style=for-the-badge)

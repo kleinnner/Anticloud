@@ -2,27 +2,7 @@
 <meta name="description" content="Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.">
 <meta name="keywords" content="sovereign os, privacy OS, linux, cryptography, TPM, attestation">
 
-<meta property="og:title" content="Sovereign-OS — Anticloud Wiki">
-<meta property="og:description" content="Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Sovereign-OS">
-<meta name="twitter:description" content="Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Sovereign-OS">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Sovereign-OS",
-  "description": "Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.",
-  "applicationCategory": "OS",
-  "operatingSystem": "Cross-platform",
-  "programmingLanguage": "Linux",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects > Sovereign-OS -->
 

@@ -1,46 +1,8 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud ecosystem wiki — 11 open-source projects building sovereign, privacy-first, cryptographically-verified technology. 40 developer tools across 4 domains.">
 <meta name="keywords" content="anticloud, wiki, sovereign technology, cryptography, open source, kathon, kamelot, kasteran">
-<meta property="og:title" content="Anticloud Wiki — Sovereign Technology Research">
-<meta property="og:description" content="11 open-source projects building sovereign, privacy-first, cryptographically-verified technology. 40 developer tools across 4 domains.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Wiki">
-<meta name="twitter:description" content="11 open-source projects building sovereign, privacy-first, cryptographically-verified technology.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Home">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Anticloud Wiki",
-  "url": "https://github.com/kleinnner/Anticloud/wiki",
-  "description": "Knowledge base for the Anticloud sovereign technology research ecosystem.",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://github.com/kleinnner/Anticloud/wiki/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Anticloud",
-  "url": "https://github.com/kleinnner/Anticloud",
-  "sameAs": [
-    "https://github.com/kleinnner/Anticloud",
-    "https://linkedin.com/in/kleinner",
-    "https://dev.to/kleinner",
-    "https://huggingface.co/Anticloud",
-    "https://anticlouds.wordpress.com",
-    "https://anticloud.fandom.com"
-  ]
-}
-</script>
 
 <!-- Breadcrumb: Home -->
 

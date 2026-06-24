@@ -1,30 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Frequently asked questions about the Anticloud ecosystem — 16 questions covering projects, tools, cryptography, and community.">
 <meta name="keywords" content="anticloud faq, frequently asked questions, ecosystem guide, getting started">
-<meta property="og:title" content="Anticloud FAQ">
-<meta property="og:description" content="16 frequently asked questions about the Anticloud ecosystem covering projects, tools, cryptography, and community.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud FAQ">
-<meta name="twitter:description" content="16 frequently asked questions about the Anticloud ecosystem.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/FAQ">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type":"Question","name":"What is Anticloud?","acceptedAnswer":{"@type":"Answer","text":"Anticloud is a sovereign technology research ecosystem comprising 11 open-source projects and 40 developer tools building privacy-first, cryptographically-verified technology."}},
-    {"@type":"Question","name":"What does 'sovereign technology' mean?","acceptedAnswer":{"@type":"Answer","text":"Technology that operates independently of centralized cloud providers, giving users full control over their data, computation, and identity through cryptographic verification."}},
-    {"@type":"Question","name":"How many projects are in the ecosystem?","acceptedAnswer":{"@type":"Answer","text":"11 platform projects spanning browsers, cloud infrastructure, programming languages, storage systems, operating systems, and cryptographic libraries."}},
-    {"@type":"Question","name":"How do I get started?","acceptedAnswer":{"@type":"Answer","text":"Start with the Getting Started guide, then browse Projects to find your area of interest, or explore the 40 developer tools."}},
-    {"@type":"Question","name":"What programming languages are used?","acceptedAnswer":{"@type":"Answer","text":"Primarily Rust, with TypeScript, Go, and Python used in specific projects. The Kasteran language is a custom rune-based systems language."}},
-    {"@type":"Question","name":"What is the cryptographic foundation?","acceptedAnswer":{"@type":"Answer","text":"SHA3-256 hashing, Ed25519 digital signatures, and the .aioss tamper-evident ledger format — all provided by the Libern cryptographic library."}},
-    {"@type":"Question","name":"Can I contribute?","acceptedAnswer":{"@type":"Answer","text":"Yes — see the Contributing guide. All projects are open source under MIT/Apache 2.0 licenses."}}
-  ]
-}
-</script>
 
 ![FAQ](https://img.shields.io/badge/Section-FAQ-1d1d1f?style=for-the-badge)
 ![Questions](https://img.shields.io/badge/Questions-16-0071e3?style=for-the-badge)

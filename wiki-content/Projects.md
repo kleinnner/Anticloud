@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud platform projects — 11 open-source projects status, tech stacks, language distribution, and inter-project dependency graph.">
 <meta name="keywords" content="anticloud projects, kathon, kamelot, kasteran, kazcade, api-oss, inte11ect, aioss-format, libern, anticode, sovereign-os, mfso">
-<meta property="og:title" content="Anticloud Platform Projects">
-<meta property="og:description" content="11 open-source projects across browsers, cloud, storage, and core infrastructure with status badges and dependency graph.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Platform Projects">
-<meta name="twitter:description" content="11 open-source projects with status badges and dependency graph.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Projects">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Platform Projects",
-  "description": "11 open-source projects status, tech stacks, language distribution, and inter-project dependency graph.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Projects", "item": "https://github.com/kleinnner/Anticloud/wiki/Projects" }
-    ]
-  }
-}
-</script>
 
 <!-- Breadcrumb: Home > Projects -->
 

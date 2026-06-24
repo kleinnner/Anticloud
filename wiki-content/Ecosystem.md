@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud ecosystem — all platforms, profiles, research repositories, and community connections across the web.">
 <meta name="keywords" content="anticloud ecosystem, github, linkedin, dev.to, hugging face, zenodo, dataverse">
-<meta property="og:title" content="Anticloud Ecosystem & Platforms">
-<meta property="og:description" content="All platforms, profiles, research repositories, and community connections across the web.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Ecosystem & Platforms">
-<meta name="twitter:description" content="All platforms, profiles, research repositories, and community connections.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Ecosystem">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Ecosystem & Platforms",
-  "description": "All platforms, profiles, research repositories, and community connections across the web.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Ecosystem", "item": "https://github.com/kleinnner/Anticloud/wiki/Ecosystem" }
-    ]
-  }
-}
-</script>
 
 <!-- Breadcrumb: Home > Ecosystem -->
 

@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud performance benchmarks — cryptographic operation speeds, query latency, browser performance, and storage throughput across all projects.">
 <meta name="keywords" content="anticloud performance, benchmarks, cryptographic ops, query latency, throughput">
-<meta property="og:title" content="Anticloud Performance Benchmarks">
-<meta property="og:description" content="Cryptographic operation speeds, query latency, browser performance, and storage throughput across all projects.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Performance Benchmarks">
-<meta name="twitter:description" content="Performance benchmarks across the Anticloud ecosystem.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Performance">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Performance Benchmarks",
-  "description": "Cryptographic operation speeds, query latency, browser performance, and storage throughput across all projects.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Performance", "item": "https://github.com/kleinnner/Anticloud/wiki/Performance" }
-    ]
-  }
-}
-</script>
 
 ![Performance](https://img.shields.io/badge/Section-Performance-34c759?style=for-the-badge)
 ![Benchmarks](https://img.shields.io/badge/Benchmarks-12-0071e3?style=for-the-badge)

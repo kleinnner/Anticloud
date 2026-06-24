@@ -1,31 +1,7 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud development roadmap — quarter-by-quarter release timeline for all 11 platform projects across 2025-2027.">
 <meta name="keywords" content="anticloud roadmap, release timeline, development milestones, kathon beta, kasteran stable">
-<meta property="og:title" content="Anticloud Development Roadmap">
-<meta property="og:description" content="Quarter-by-quarter release timeline for all 11 platform projects spanning 2025-2027.">
-<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Anticloud Development Roadmap">
-<meta name="twitter:description" content="Quarter-by-quarter release timeline for all 11 platform projects.">
-<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Roadmap">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anticloud Development Roadmap",
-  "description": "Quarter-by-quarter release timeline for all 11 platform projects spanning 2025-2027.",
-  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
-      { "@type": "ListItem", "position": 2, "name": "Roadmap", "item": "https://github.com/kleinnner/Anticloud/wiki/Roadmap" }
-    ]
-  }
-}
-</script>
 
 ![Roadmap](https://img.shields.io/badge/Section-Roadmap-1d1d1f?style=for-the-badge)
 ![Projects](https://img.shields.io/badge/Tracking-11%20Projects-0071e3?style=for-the-badge)
