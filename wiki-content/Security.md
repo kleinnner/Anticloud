@@ -16,7 +16,6 @@ The Anticloud ecosystem is built on a foundation of cryptographic verification. 
 ## Cryptographic Verification Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     actor User
     participant App as Application (Kathon/Kamelot)
@@ -38,7 +37,6 @@ sequenceDiagram
 ## Threat Model
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     subgraph Threats[Identified Threats]
         NET[Network Eavesdropping]
@@ -97,7 +95,6 @@ flowchart TB
 ## Security Architecture
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph App[Application Layer]
         KATHON[Kathon]

@@ -21,7 +21,6 @@ The Anticloud ecosystem includes **40 developer tools** organized into four doma
 ## Tool Clusters
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 mindmap
   root((40 Tools))
     Security
@@ -72,8 +71,7 @@ mindmap
 ## Domain Distribution
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-pie showData
+pie
     title Tool Distribution by Domain
     "Security & Cryptography" : 10
     "Compliance & Governance" : 9

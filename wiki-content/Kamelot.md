@@ -29,7 +29,6 @@ Cloud Runtime & AI Orchestration with serverless containers and multi-cloud depl
 ## Architecture Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     F[Function] -->|Deploy| OR[Orchestrator]
     OR -->|Schedule| CR[Container Runtime]
@@ -44,7 +43,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     KAM[Kamelot] -->|Gateway| API[API-OSS]
     KAM -->|Storage| KAZ[Kazcade]
@@ -56,8 +54,7 @@ flowchart LR
 ## Deployment Lifecycle
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-stateDiagram-v2
+stateDiagram
     [*] --> Provisioned
     Provisioned --> Running: deploy
     Running --> Scaling: load increase

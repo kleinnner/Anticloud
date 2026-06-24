@@ -13,7 +13,6 @@
 ## Common Questions Overview
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     Q[Question] -->|What is Anticloud?| A1[11 open-source projects<br/>40 developer tools<br/>Sovereign technology research]
     Q -->|How to contribute?| A2[Open source<br/>MIT / Apache 2.0<br/>See Contributing guide]

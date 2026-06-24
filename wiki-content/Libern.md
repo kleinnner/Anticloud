@@ -29,7 +29,6 @@ P2P Communication Engine with CRDT convergence, Ed25519-signed hash chains, loca
 ## P2P Message Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     S[Sender] -->|Message| CR[CRDT Merge]
     CR -->|Converge| HC[Hash Chain<br/>Ed25519 Signed]
@@ -44,7 +43,6 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     LIB[Libern] -->|Crypto| AIO[aioss-format]
     LIB -->|FFI| KAS[Kasteran]
@@ -58,7 +56,6 @@ flowchart LR
 ## Cryptographic Trait Hierarchy
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 classDiagram
     class Signer {
         +sign(data: &[u8]) -> Signature

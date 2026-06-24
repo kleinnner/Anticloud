@@ -29,7 +29,6 @@ Multi-Factor Sovereign Sign-On identity vault with Shamir secret sharing, BIP39 
 ## Identity Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     U[User] -->|MFA| AU[Auth Gateway]
     AU -->|Factor Split| SS[Shamir Secret<br/>Sharing]
@@ -48,7 +47,6 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     MF[MFSO] -->|Storage| KAZ[Kazcade]
     MF -->|Crypto| LIB[Libern]
@@ -59,7 +57,6 @@ flowchart LR
 ## Search Query Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     Client->>Oracle: search(query)
     Oracle->>Factor1: analyze(credential)

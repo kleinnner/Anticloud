@@ -15,7 +15,6 @@ Performance data for cryptographic operations, AI inference, storage throughput,
 ## Cryptographic Operations
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Metrics[Crypto Performance]
         SHA3[<b>SHA3-256</b><br/>2.1 μs/op<br/>476K ops/s]

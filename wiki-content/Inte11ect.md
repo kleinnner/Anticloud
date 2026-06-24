@@ -29,7 +29,6 @@ Modular AI Platform with 72 modules, Eigenvector Routing, GOD-11 deterministic o
 ## Orchestrator Architecture
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     U[User] -->|Query| TA[Tauri Desktop App]
     TA -->|REST| GOD[GOD-11<br/>Deterministic Orchestrator]
@@ -55,7 +54,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     INT[Inte11ect] -->|API Gateway| API[API-OSS]
     INT -->|Crypto| LIB[Libern]
@@ -66,7 +64,6 @@ flowchart LR
 ## AI Inference Routing
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     Client->>Router: inference(query)
     Router->>Analyzer: analyze(query)

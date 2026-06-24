@@ -29,7 +29,6 @@ Rune-based Systems Language with linear capability types, self-hosted compiler w
 ## Compiler Pipeline
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     S[Source Code<br/>Rune-Based Syntax] -->|Lex| L[Lexer]
     L -->|Tokens| P[Parser]
@@ -45,7 +44,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     KAS[Kasteran] -->|FFI| LIB[Libern]
     KAS -->|Compiled| KAZ[Kazcade]
@@ -56,8 +54,7 @@ flowchart LR
 ## Compilation Pipeline
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-stateDiagram-v2
+stateDiagram
     [*] --> Source
     Source --> Parsed: lexical analysis
     Parsed --> Checked: type checking

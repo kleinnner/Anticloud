@@ -23,7 +23,6 @@ Welcome to the Anticloud ecosystem wiki — a unified knowledge base for **11 op
 ## Ecosystem Overview
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 mindmap
   root((Anticloud))
     Browsers & Clients
@@ -57,7 +56,6 @@ mindmap
 All Anticloud projects share a common cryptographic layer:
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Foundation[Cryptographic Foundation]
         SHA3[SHA3-256<br/>Hashing]

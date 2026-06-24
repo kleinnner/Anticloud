@@ -29,7 +29,6 @@ Cryptographic Browser with vision-LLM ad blocking, CRDT P2P sync, spatial worksp
 ## Architecture Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     U[User] -->|HTTP Request| PR[Proxy Router]
     PR -->|Per-Tab| VPN[VPN Tunnel]
@@ -45,7 +44,6 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     KATHON[Kathon] -->|CRDT Sync| KAZ[Kazcade]
     KATHON -->|Crypto| LIB[Libern]
@@ -56,7 +54,6 @@ flowchart LR
 ## Ad Blocking Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     U[User] -->|Browse| REQ[HTTP Request]
     REQ --> VL[Vision-LLM Classifier]

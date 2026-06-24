@@ -17,7 +17,6 @@ The Anticloud ecosystem development roadmap organized by quarter, showing planne
 ## Release Timeline
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 gantt
     title Anticloud Project Releases
     dateFormat  YYYY-MM
@@ -43,18 +42,29 @@ gantt
     MFSO 0.1-exp         :        mfs1, 2026-06, 2027-06
 ```
 
-## Milestone Map
+## Milestone Gantt
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-timeline
+gantt
     title Development Milestones
-    2025 Q1-Q2 : Foundation complete : Libern 1.0 : aioss-format 1.0
-    2025 Q3-Q4 : API-OSS 2.0 stable : Kathon beta launch
-    2026 Q1-Q2 : Kasteran beta : Kamelot alpha complete : Sovereign-OS alpha
-    2026 Q3-Q4 : Inte11ect beta : Anticode alpha : Kazcade experimental
-    2027 Q1-Q2 : Kathon 1.0 stable : Kasteran 1.0 stable
-    2027 Q3-Q4 : Kamelot beta : MFSO experimental : Sovereign-OS beta
+    dateFormat  YYYY-MM
+    axisFormat  %Y Q%q
+
+    section 2025
+    Foundation Complete     :milestone, m1, 2025-06, 0d
+    API-OSS 2.0 Stable      :milestone, m2, 2025-12, 0d
+
+    section 2026
+    Kathon Beta Launch      :milestone, m3, 2026-03, 0d
+    Kasteran Beta           :milestone, m4, 2026-06, 0d
+    Sovereign-OS Alpha      :milestone, m5, 2026-09, 0d
+    Inte11ect Beta          :milestone, m6, 2026-12, 0d
+
+    section 2027
+    Kathon 1.0 Stable       :milestone, m7, 2027-03, 0d
+    Kasteran 1.0 Stable     :milestone, m8, 2027-06, 0d
+    Kamelot Beta            :milestone, m9, 2027-09, 0d
+    MFSO Experimental       :milestone, m10, 2027-12, 0d
 ```
 
 ## Project Phase Roadmap
@@ -76,7 +86,6 @@ timeline
 ## Dependency Chain
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Foundation[Foundation Layer]
         LIB[Libern] --> AIO[aioss-format]

@@ -29,7 +29,6 @@ Sovereign Open-Source API Gateway with multi-agent deliberation councils, contra
 ## AI Gateway Pipeline
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     R[Request] -->|Route| OR[Orchestrator]
     OR -->|Dispatch| DC[Deliberation Council]
@@ -50,7 +49,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     API[API-OSS] -->|Runtime| KAM[Kamelot]
     API -->|AI Routing| INT[Inte11ect]
@@ -61,7 +59,6 @@ flowchart LR
 ## API Request Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     Client->>Gateway: HTTP Request
     Gateway->>Auth: verify(Ed25519 signature)

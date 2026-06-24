@@ -48,7 +48,6 @@ Explore [research papers](https://zenodo.org/search?q=anticloud) on cryptographi
 ## Architecture Overview
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph User[User Facing]
         KATHON[Kathon Browser]

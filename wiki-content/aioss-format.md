@@ -29,7 +29,6 @@ Dual-Format Cryptographic Ledger with SHA3-256 hash chaining, Ed25519 state proo
 ## Ledger Architecture
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     E[Event] -->|SHA3-256| H[Hash Chain]
     H -->|Append| MM[Memory-Mapped IO]
@@ -43,7 +42,6 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     AIOS[aioss-format] -->|Crypto| LIB[Libern]
     AIOS -->|Used By| KAT[Kathon]
@@ -57,7 +55,6 @@ flowchart LR
 ## Ledger Append Sequence
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     App->>Ledger: append(data)
     Ledger->>Hasher: SHA3-256(data)

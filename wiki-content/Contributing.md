@@ -24,7 +24,6 @@ We welcome contributions across all Anticloud projects. This guide explains how 
 ## Development Workflow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     FORK[Fork Repo] --> BRANCH[Create Branch]
     BRANCH --> CODE[Make Changes]

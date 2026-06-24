@@ -29,7 +29,6 @@ Terminal-Native AI Coding Engine running fully local LLMs, MCP protocol agent sy
 ## Agent System Flow
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     P[Prompt] -->|MCP| AG[Agent<br/>Orchestrator]
     AG -->|Task| LL[Local LLM<br/>llama.cpp]
@@ -44,7 +43,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     ANT[Anticode] -->|MCP| KAT[Kathon]
     ANT -->|Crypto| LIB[Libern]
@@ -55,8 +53,7 @@ flowchart LR
 ## AI Agent Lifecycle
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-stateDiagram-v2
+stateDiagram
     [*] --> Idle
     Idle --> Thinking: user input
     Thinking --> Acting: plan formulated

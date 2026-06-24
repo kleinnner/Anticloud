@@ -18,7 +18,6 @@ The Anticloud presence extends across multiple platforms for code, research, pub
 ## Platform Map
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     CENTER((Anticloud))
     CENTER --> GIT[GitHub<br/>kleinnner/Anticloud]
@@ -39,7 +38,6 @@ flowchart LR
 ## Platform Categories
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     subgraph Code[Code & Development]
         GH[GitHub] --> HF[Hugging Face]

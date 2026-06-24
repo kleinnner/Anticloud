@@ -17,7 +17,6 @@ The Anticloud ecosystem includes 11 platform projects spanning browsers, cloud i
 ## Project Domain Map
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Browser[Browser & Client]
         KATHON[Kathon<br/>![Beta](https://img.shields.io/badge/-beta-0071e3)]
@@ -43,8 +42,7 @@ flowchart LR
 ## Distribution
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-pie showData
+pie
     title Language Distribution
     "Rust" : 6
     "TypeScript" : 1
@@ -55,8 +53,7 @@ pie showData
 ```
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
-pie showData
+pie
     title Status Distribution
     "Stable" : 3
     "Beta" : 1
@@ -98,7 +95,6 @@ pie showData
 ## Inter-Project Dependencies
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     LIBERN[Libern] --> AIOSS[aioss-format]
     LIBERN --> KASTERAN[Kasteran]

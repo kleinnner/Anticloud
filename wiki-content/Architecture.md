@@ -19,7 +19,6 @@ The Anticloud ecosystem is organized into four architectural layers connected by
 ## Layer Architecture
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     subgraph Layer4[Application Layer]
         KATHON[Kathon<br/>Cryptographic Browser]
@@ -50,7 +49,6 @@ flowchart TB
 Project maturity vs. architectural complexity:
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     subgraph Quadrant1[High Maturity / High Complexity]
         API[API-OSS]:::stable
@@ -88,7 +86,6 @@ flowchart TB
 Projects grouped by domain, sharing architectural patterns and protocols:
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Browser[Browser Cluster]
         KATHON[Kathon] --> ANTICODE[Anticode]
@@ -114,7 +111,6 @@ flowchart LR
 All projects communicate through a unified cryptographic layer:
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Data[Data Sources]
         USER[User Input]

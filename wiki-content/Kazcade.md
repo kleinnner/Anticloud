@@ -29,7 +29,6 @@ CPU-Only Columnar Compute Engine with SIMD-accelerated linear algebra (AVX-512),
 ## Compute Pipeline
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     Q[Query] -->|Columnar| CS[Column Store]
     CS -->|SIMD| LA[Linear Algebra<br/>AVX-512]
@@ -43,7 +42,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     KAZ[Kazcade] -->|Content-Addressed| MF[MFSO]
     KAZ -->|Storage| KAM[Kamelot]
@@ -54,7 +52,6 @@ flowchart LR
 ## File Write Sequence
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     Client->>VFS: write(file, data)
     VFS->>Embedder: embed(content)

@@ -29,7 +29,6 @@ Arch Linux-based Sovereign Operating System with .aioss ledger daemon, custom to
 ## Boot Chain
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     P[Power On] -->|UEFI| TB[TPM Measured Boot]
     TB -->|PCR Values| AT[Attestation]
@@ -46,7 +45,6 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     SOV[Sovereign-OS] -->|Custom Toolchain| KAS[Kasteran]
     SOV -->|Crypto| LIB[Libern]
@@ -57,7 +55,6 @@ flowchart LR
 ## Boot Attestation
 
 ```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 sequenceDiagram
     UEFI->>TPM: measure(firmware)
     TPM-->>UEFI: PCR_0
