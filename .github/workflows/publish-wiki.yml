@@ -16,6 +16,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Verify Internal Links
+        run: |
+          cd wiki-content
+          ERROR=false
+          for file in *.md; do
+            grep -oP '(?<=\]\()[\w-]+(?=\))' "$file" | while IFS= read -r link; do
+              [ -f "${link}.md" ] || [ -f "_${link}.md" ] || { echo "ERROR: $file has broken link: $link"; ERROR=true; }
+            done
+            if [ "$ERROR" = true ]; then exit 1; fi
+          done
+          echo "All wiki links verified ✓"
+
       - name: Push Wiki Content
         env:
           WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
@@ -33,10 +45,10 @@ jobs:
           }
 
           cd "$TMP_DIR"
-          # Remove old wiki pages
-          find . -maxdepth 1 -name '*.md' -delete
+          # Remove all existing files (keep .git)
+          find . -maxdepth 1 -type f -delete
 
-          # Copy all 20 wiki pages
+          # Copy all wiki pages
           cp "$GITHUB_WORKSPACE/wiki-content/"*.md ./
 
           git config user.name "github-actions[bot]"

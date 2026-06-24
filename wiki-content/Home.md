@@ -1,12 +1,56 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud ecosystem wiki — 11 open-source projects building sovereign, privacy-first, cryptographically-verified technology. 40 developer tools across 4 domains.">
 <meta name="keywords" content="anticloud, wiki, sovereign technology, cryptography, open source, kathon, kamelot, kasteran">
+<meta property="og:title" content="Anticloud Wiki — Sovereign Technology Research">
+<meta property="og:description" content="11 open-source projects building sovereign, privacy-first, cryptographically-verified technology. 40 developer tools across 4 domains.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anticloud Wiki">
+<meta name="twitter:description" content="11 open-source projects building sovereign, privacy-first, cryptographically-verified technology.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Home">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Anticloud Wiki",
+  "url": "https://github.com/kleinnner/Anticloud/wiki",
+  "description": "Knowledge base for the Anticloud sovereign technology research ecosystem.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://github.com/kleinnner/Anticloud/wiki/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Anticloud",
+  "url": "https://github.com/kleinnner/Anticloud",
+  "sameAs": [
+    "https://github.com/kleinnner/Anticloud",
+    "https://linkedin.com/in/kleinner",
+    "https://dev.to/kleinner",
+    "https://huggingface.co/Anticloud",
+    "https://anticlouds.wordpress.com",
+    "https://anticloud.fandom.com"
+  ]
+}
+</script>
+
+<!-- Breadcrumb: Home -->
 
 ![Anticloud](https://img.shields.io/badge/Anticloud-Sovereign%20Technology%20Research-1d1d1f?style=for-the-badge)
 ![Projects](https://img.shields.io/badge/Projects-11-0071e3?style=for-the-badge)
 ![Tools](https://img.shields.io/badge/Tools-40-34c759?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT%20%2F%20Apache%202.0-ff9f0a?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-Rust%20%7C%20Go%20%7C%20TS%20%7C%20JSON-8b5cf6?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 ---
 
@@ -17,6 +61,7 @@ Welcome to the Anticloud ecosystem wiki — a unified knowledge base for **11 op
 ## Ecosystem Overview
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 mindmap
   root((Anticloud))
     Browsers & Clients
@@ -50,6 +95,7 @@ mindmap
 All Anticloud projects share a common cryptographic layer:
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Foundation[Cryptographic Foundation]
         SHA3[SHA3-256<br/>Hashing]
@@ -88,6 +134,12 @@ flowchart LR
 | [Ecosystem](Ecosystem) | All platforms, profiles, and research repos |
 | [Getting Started](Getting-Started) | Quick start guide and first steps |
 | [Contributing](Contributing) | How to contribute to the ecosystem |
+| [Roadmap](Roadmap) | Development timeline through 2027 |
+| [FAQ](FAQ) | Frequently asked questions |
+| [Glossary](Glossary) | Technical terms and definitions |
+| [Security](Security) | Threat model and cryptographic guarantees |
+| [Protocol Spec](Protocol-Spec) | Inter-project protocol specifications |
+| [Performance](Performance) | Benchmarks and performance data |
 
 ## Stats
 
@@ -99,4 +151,4 @@ flowchart LR
 
 ---
 
-> 📖 **Full documentation**: [Docusaurus Portal](https://kleinnner.github.io/Anticloud/) · [GitHub Repository](https://github.com/kleinnner/Anticloud) · [Fandom Wiki](https://anticloud.fandom.com)
+> 📖 **Full documentation**: [Docusaurus Portal](https://kleinnner.github.io/Anticloud/) · [GitHub Repository](https://github.com/kleinnner/Anticloud) · [Fandom Wiki](https://anticloud.fandom.com) · [Architecture](Architecture) · [Projects](Projects) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary)

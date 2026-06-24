@@ -2,9 +2,35 @@
 <meta name="description" content="aioss-format — dual-format cryptographic ledger with SHA3-256 hash chaining, Ed25519 state proofs, memory-mapped IO, SQLite event store, post-quantum migration.">
 <meta name="keywords" content="aioss format, cryptographic ledger, proof-of-usefulness, hash chain, SHA3-256, Ed25519">
 
+<meta property="og:title" content="aioss-format — Anticloud Wiki">
+<meta property="og:description" content="aioss-format — dual-format cryptographic ledger with SHA3-256 hash chaining, Ed25519 state proofs, memory-mapped IO, SQLite event store, post-quantum migration.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="aioss-format">
+<meta name="twitter:description" content="aioss-format — dual-format cryptographic ledger with SHA3-256 hash chaining, Ed25519 state proofs, memory-mapped IO, SQLite event store, post-quantum migration.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/aioss-format">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "aioss-format",
+  "description": "aioss-format — dual-format cryptographic ledger with SHA3-256 hash chaining, Ed25519 state proofs, memory-mapped IO, SQLite event store, post-quantum migration.",
+  "applicationCategory": "Crypto",
+  "operatingSystem": "Cross-platform",
+  "programmingLanguage": "JSON Schema",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<!-- Breadcrumb: Home > Projects > aioss-format -->
+
 ![Status](https://img.shields.io/badge/status-stable-34c759?style=for-the-badge)
 ![Category](https://img.shields.io/badge/category-Crypto-1d1d1f?style=for-the-badge)
 ![Language](https://img.shields.io/badge/language-JSON-8b5cf6?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # aioss-format
 
@@ -23,6 +49,7 @@ Dual-Format Cryptographic Ledger with SHA3-256 hash chaining, Ed25519 state proo
 ## Ledger Architecture
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     E[Event] -->|SHA3-256| H[Hash Chain]
     H -->|Append| MM[Memory-Mapped IO]
@@ -36,6 +63,7 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     AIOS[aioss-format] -->|Crypto| LIB[Libern]
     AIOS -->|Used By| KAT[Kathon]
@@ -44,6 +72,21 @@ flowchart LR
     AIOS -->|Used By| INT[Inte11ect]
     AIOS -->|Used By| SOV[Sovereign-OS]
     AIOS -->|Used By| MF[MFSO]
+```
+
+## Ledger Append Sequence
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+sequenceDiagram
+    App->>Ledger: append(data)
+    Ledger->>Hasher: SHA3-256(data)
+    Hasher-->>Ledger: hash
+    Ledger->>Signer: Ed25519(hash)
+    Signer-->>Ledger: signature
+    Ledger->>Chain: link(prev_hash, hash, signature)
+    Chain-->>Ledger: entry_hash
+    Ledger-->>App: ok(entry_hash)
 ```
 
 ## Key Features
@@ -55,6 +98,14 @@ flowchart LR
 - **SQLite Event Store**: Embedded queryable event history
 - **Post-Quantum Migration**: Future-proofing against quantum attacks
 
+## Related Projects
+
+| Project | Relationship | Protocol |
+|---------|-------------|----------|
+| [Libern](Libern) | Cryptographic dependency — provides Ed25519, SHA3-256 | FFI |
+| [Kathon](Kathon) | Consumer — browser audit logging | File |
+| [Sovereign-OS](Sovereign-OS) | OS integration — system-wide ledger daemon | IPC |
+
 ---
 
-> 📖 **Full docs**: [Docusaurus aioss-format](https://kleinnner.github.io/Anticloud/docs/projects/aioss-format) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture)
+> 📖 **Full docs**: [Docusaurus aioss-format](https://kleinnner.github.io/Anticloud/docs/projects/aioss-format) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary) · [Protocol-Spec](Protocol-Spec)

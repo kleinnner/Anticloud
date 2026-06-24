@@ -2,9 +2,35 @@
 <meta name="description" content="Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.">
 <meta name="keywords" content="sovereign os, privacy OS, linux, cryptography, TPM, attestation">
 
+<meta property="og:title" content="Sovereign-OS — Anticloud Wiki">
+<meta property="og:description" content="Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sovereign-OS">
+<meta name="twitter:description" content="Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Sovereign-OS">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Sovereign-OS",
+  "description": "Sovereign-OS — Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, 20 GNOME shell extensions.",
+  "applicationCategory": "OS",
+  "operatingSystem": "Cross-platform",
+  "programmingLanguage": "Linux",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<!-- Breadcrumb: Home > Projects > Sovereign-OS -->
+
 ![Status](https://img.shields.io/badge/status-experimental-ff3b30?style=for-the-badge)
 ![Category](https://img.shields.io/badge/category-OS-ff3b30?style=for-the-badge)
 ![Language](https://img.shields.io/badge/language-Linux-000000?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Sovereign-OS
 
@@ -23,6 +49,7 @@ Arch Linux-based Sovereign Operating System with .aioss ledger daemon, custom to
 ## Boot Chain
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     P[Power On] -->|UEFI| TB[TPM Measured Boot]
     TB -->|PCR Values| AT[Attestation]
@@ -39,11 +66,30 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     SOV[Sovereign-OS] -->|Custom Toolchain| KAS[Kasteran]
     SOV -->|Crypto| LIB[Libern]
     SOV -->|Ledger| AIO[aioss-format]
     SOV -->|Attestation| VS[Verification Server]
+```
+
+## Boot Attestation
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+sequenceDiagram
+    UEFI->>TPM: measure(firmware)
+    TPM-->>UEFI: PCR_0
+    UEFI->>Bootloader: start
+    Bootloader->>TPM: measure(kernel)
+    TPM-->>Bootloader: PCR_1
+    Bootloader->>Kernel: start
+    Kernel->>TPM: measure(initramfs)
+    TPM-->>Kernel: PCR_2
+    Kernel->>aioss: attest(PCR_0, PCR_1, PCR_2)
+    aioss-->>Kernel: ledger_entry
+    Kernel->>User: verified boot complete
 ```
 
 ## Key Features
@@ -55,6 +101,14 @@ flowchart LR
 - **Remote Attestation**: Verify system integrity over network
 - **Privacy-First Design**: No telemetry, no cloud dependencies
 
+## Related Projects
+
+| Project | Relationship | Protocol |
+|---------|-------------|----------|
+| [Kasteran](Kasteran) | Custom toolchain — compiled with Kasteran | Native |
+| [Libern](Libern) | Cryptographic dependency — provides Ed25519, SHA3-256 | FFI |
+| [aioss-format](aioss-format) | Ledger — system-wide cryptographic audit | IPC |
+
 ---
 
-> 📖 **Full docs**: [Docusaurus Sovereign-OS](https://kleinnner.github.io/Anticloud/docs/projects/sovereign-os) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture)
+> 📖 **Full docs**: [Docusaurus Sovereign-OS](https://kleinnner.github.io/Anticloud/docs/projects/sovereign-os) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary) · [Protocol-Spec](Protocol-Spec)

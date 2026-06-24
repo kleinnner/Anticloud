@@ -2,9 +2,35 @@
 <meta name="description" content="Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.">
 <meta name="keywords" content="kazcade, vector file system, content-addressed storage, VFS, distributed filesystem">
 
+<meta property="og:title" content="Kazcade — Anticloud Wiki">
+<meta property="og:description" content="Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kazcade">
+<meta name="twitter:description" content="Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Kazcade">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Kazcade",
+  "description": "Kazcade — CPU-only columnar compute engine with SIMD-accelerated linear algebra (AVX-512), quantized neural inference, software rasterizer, zero-copy mmap/io_uring.",
+  "applicationCategory": "Storage",
+  "operatingSystem": "Cross-platform",
+  "programmingLanguage": "Rust",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<!-- Breadcrumb: Home > Projects > Kazcade -->
+
 ![Status](https://img.shields.io/badge/status-experimental-ff3b30?style=for-the-badge)
 ![Category](https://img.shields.io/badge/category-Storage-ff3b30?style=for-the-badge)
 ![Language](https://img.shields.io/badge/language-Rust-f74c00?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Kazcade
 
@@ -23,6 +49,7 @@ CPU-Only Columnar Compute Engine with SIMD-accelerated linear algebra (AVX-512),
 ## Compute Pipeline
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TD
     Q[Query] -->|Columnar| CS[Column Store]
     CS -->|SIMD| LA[Linear Algebra<br/>AVX-512]
@@ -36,11 +63,26 @@ flowchart TD
 ## Relationship Graph
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     KAZ[Kazcade] -->|Content-Addressed| MF[MFSO]
     KAZ -->|Storage| KAM[Kamelot]
     KAZ -->|CRDT Sync| KAT[Kathon]
     KAZ -->|Built With| KAS[Kasteran]
+```
+
+## File Write Sequence
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+sequenceDiagram
+    Client->>VFS: write(file, data)
+    VFS->>Embedder: embed(content)
+    Embedder-->>VFS: vector(1536-dim)
+    VFS->>Storage: store(content, vector)
+    Storage-->>VFS: content_hash
+    VFS->>CRDT: sync(nodes)
+    VFS-->>Client: ok(hash)
 ```
 
 ## Key Features
@@ -52,6 +94,14 @@ flowchart LR
 - **Software Rasterizer**: GPU-free rendering pipeline
 - **CRDT Sync**: Conflict-free replication across nodes
 
+## Related Projects
+
+| Project | Relationship | Protocol |
+|---------|-------------|----------|
+| [Kasteran](Kasteran) | Build dependency — compiled with Kasteran | Native |
+| [Libern](Libern) | Cryptographic dependency — provides Ed25519, SHA3-256 | FFI |
+| [Kathon](Kathon) | CRDT sync — P2P state replication | P2P/CRDT |
+
 ---
 
-> 📖 **Full docs**: [Docusaurus Kazcade](https://kleinnner.github.io/Anticloud/docs/projects/kazcade) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture)
+> 📖 **Full docs**: [Docusaurus Kazcade](https://kleinnner.github.io/Anticloud/docs/projects/kazcade) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary) · [Protocol-Spec](Protocol-Spec)

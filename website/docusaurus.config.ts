@@ -362,6 +362,26 @@ const config: Config = {
               label: 'Ecosystem',
               href: 'https://github.com/kleinnner/Anticloud/wiki/Ecosystem',
             },
+            {
+              label: 'Roadmap',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Roadmap',
+            },
+            {
+              label: 'FAQ',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/FAQ',
+            },
+            {
+              label: 'Glossary',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Glossary',
+            },
+            {
+              label: 'Security',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Security',
+            },
+            {
+              label: 'Performance',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Performance',
+            },
           ],
         },
         {

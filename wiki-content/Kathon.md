@@ -2,9 +2,35 @@
 <meta name="description" content="Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.">
 <meta name="keywords" content="kathon, cryptographic browser, vision LLM, ad blocking, CRDT, P2P sync, anti-enshittification">
 
+<meta property="og:title" content="Kathon — Anticloud Wiki">
+<meta property="og:description" content="Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kathon">
+<meta name="twitter:description" content="Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Kathon">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Kathon",
+  "description": "Kathon — cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, per-tab VPN.",
+  "applicationCategory": "Browser",
+  "operatingSystem": "Cross-platform",
+  "programmingLanguage": "Rust",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<!-- Breadcrumb: Home > Projects > Kathon -->
+
 ![Status](https://img.shields.io/badge/status-beta-0071e3?style=for-the-badge)
 ![Category](https://img.shields.io/badge/category-Browser-0071e3?style=for-the-badge)
 ![Language](https://img.shields.io/badge/language-Rust-f74c00?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Kathon
 
@@ -23,6 +49,7 @@ Cryptographic Browser with vision-LLM ad blocking, CRDT P2P sync, spatial worksp
 ## Architecture Flow
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     U[User] -->|HTTP Request| PR[Proxy Router]
     PR -->|Per-Tab| VPN[VPN Tunnel]
@@ -38,11 +65,24 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     KATHON[Kathon] -->|CRDT Sync| KAZ[Kazcade]
     KATHON -->|Crypto| LIB[Libern]
     KATHON -->|Audit| AIOS[aioss-format]
     KATHON -->|MCP| ANT[Anticode]
+```
+
+## Ad Blocking Flow
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+flowchart LR
+    U[User] -->|Browse| REQ[HTTP Request]
+    REQ --> VL[Vision-LLM Classifier]
+    VL -->|Ad?| FILTER[On-Device Filter]
+    FILTER -->|Clean| RENDER[Render Page]
+    FILTER -->|Blocked| LOG[.aioss Audit Log]
 ```
 
 ## Key Features
@@ -54,6 +94,14 @@ flowchart LR
 - **Anti-Enshittification Engine**: Prevents platform degradation
 - **Audit Trail**: All actions logged to .aioss ledger
 
+## Related Projects
+
+| Project | Relationship | Protocol |
+|---------|-------------|----------|
+| [Libern](Libern) | Cryptographic dependency — provides Ed25519, SHA3-256 | FFI |
+| [Kazcade](Kazcade) | Storage backend — CRDT-synced vector state | P2P/CRDT |
+| [API-OSS](API-OSS) | API gateway — REST interface for service orchestration | REST |
+
 ---
 
-> 📖 **Full docs**: [Docusaurus Kathon](https://kleinnner.github.io/Anticloud/docs/projects/kathon) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture)
+> 📖 **Full docs**: [Docusaurus Kathon](https://kleinnner.github.io/Anticloud/docs/projects/kathon) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary) · [Protocol-Spec](Protocol-Spec)

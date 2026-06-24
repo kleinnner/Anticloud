@@ -1,9 +1,38 @@
 <!-- SEO -->
-<meta name="description" content="Anticloud platform projects — 11 open-source projects status, tech stacks, and inter-project dependency graph.">
+<meta name="description" content="Anticloud platform projects — 11 open-source projects status, tech stacks, language distribution, and inter-project dependency graph.">
 <meta name="keywords" content="anticloud projects, kathon, kamelot, kasteran, kazcade, api-oss, inte11ect, aioss-format, libern, anticode, sovereign-os, mfso">
+<meta property="og:title" content="Anticloud Platform Projects">
+<meta property="og:description" content="11 open-source projects across browsers, cloud, storage, and core infrastructure with status badges and dependency graph.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anticloud Platform Projects">
+<meta name="twitter:description" content="11 open-source projects with status badges and dependency graph.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Projects">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anticloud Platform Projects",
+  "description": "11 open-source projects status, tech stacks, language distribution, and inter-project dependency graph.",
+  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
+      { "@type": "ListItem", "position": 2, "name": "Projects", "item": "https://github.com/kleinnner/Anticloud/wiki/Projects" }
+    ]
+  }
+}
+</script>
+
+<!-- Breadcrumb: Home > Projects -->
 
 ![Projects](https://img.shields.io/badge/Section-Projects-0071e3?style=for-the-badge)
 ![Total](https://img.shields.io/badge/Total-11%20Projects-34c759?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Platform Projects
 
@@ -12,6 +41,7 @@ The Anticloud ecosystem includes 11 platform projects spanning browsers, cloud i
 ## Project Domain Map
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Browser[Browser & Client]
         KATHON[Kathon<br/>![Beta](https://img.shields.io/badge/-beta-0071e3)]
@@ -32,6 +62,30 @@ flowchart LR
         AIOSS[aioss-format<br/>![Stable](https://img.shields.io/badge/-stable-34c759)]
         LIBERN[Libern<br/>![Stable](https://img.shields.io/badge/-stable-34c759)]
     end
+```
+
+## Distribution
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+pie showData
+    title Language Distribution
+    "Rust" : 6
+    "TypeScript" : 1
+    "Go" : 1
+    "JSON" : 1
+    "Linux" : 1
+    "Kasteran" : 1
+```
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+pie showData
+    title Status Distribution
+    "Stable" : 3
+    "Beta" : 1
+    "Alpha" : 4
+    "Experimental" : 3
 ```
 
 ## ![Stable](https://img.shields.io/badge/status-stable-34c759) Stable Projects
@@ -68,6 +122,7 @@ flowchart LR
 ## Inter-Project Dependencies
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     LIBERN[Libern] --> AIOSS[aioss-format]
     LIBERN --> KASTERAN[Kasteran]
@@ -84,4 +139,4 @@ flowchart TB
 
 ---
 
-> 📖 **Full docs**: [Docusaurus Projects](https://kleinnner.github.io/Anticloud/docs/projects) · [Home](Home) · [Architecture](Architecture) · [Tools](Tools) · [Ecosystem](Ecosystem)
+> 📖 **Full docs**: [Docusaurus Projects](https://kleinnner.github.io/Anticloud/docs/projects) · [Home](Home) · [Architecture](Architecture) · [Tools](Tools) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary) · [Security](Security)

@@ -2,9 +2,35 @@
 <meta name="description" content="Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.">
 <meta name="keywords" content="libern, cryptographic library, Ed25519, SHA3, digital signatures, blockchain">
 
+<meta property="og:title" content="Libern — Anticloud Wiki">
+<meta property="og:description" content="Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Libern">
+<meta name="twitter:description" content="Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Libern">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Libern",
+  "description": "Libern — P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability.",
+  "applicationCategory": "Crypto",
+  "operatingSystem": "Cross-platform",
+  "programmingLanguage": "Rust",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<!-- Breadcrumb: Home > Projects > Libern -->
+
 ![Status](https://img.shields.io/badge/status-stable-34c759?style=for-the-badge)
 ![Category](https://img.shields.io/badge/category-Crypto-1d1d1f?style=for-the-badge)
 ![Language](https://img.shields.io/badge/language-Rust-f74c00?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Libern
 
@@ -23,6 +49,7 @@ P2P Communication Engine with CRDT convergence, Ed25519-signed hash chains, loca
 ## P2P Message Flow
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     S[Sender] -->|Message| CR[CRDT Merge]
     CR -->|Converge| HC[Hash Chain<br/>Ed25519 Signed]
@@ -37,6 +64,7 @@ flowchart LR
 ## Relationship Graph
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     LIB[Libern] -->|Crypto| AIO[aioss-format]
     LIB -->|FFI| KAS[Kasteran]
@@ -45,6 +73,40 @@ flowchart LR
     LIB -->|Signing| API[API-OSS]
     LIB -->|Signing| INT[Inte11ect]
     LIB -->|Signing| MF[MFSO]
+```
+
+## Cryptographic Trait Hierarchy
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+classDiagram
+    class Signer {
+        +sign(data: &[u8]) -> Signature
+    }
+    class Verifier {
+        +verify(data: &[u8], sig: &Signature) -> bool
+    }
+    class Hasher {
+        +hash(data: &[u8]) -> Hash
+        +hash_stream(reader: &mut Read) -> Hash
+    }
+    class KeyPair {
+        +generate() -> KeyPair
+        +from_seed(seed: &[u8]) -> KeyPair
+        +public() -> PublicKey
+    }
+    class Ed25519 {
+        +sign(data) -> Signature
+        +verify(data, sig) -> bool
+    }
+    class SHA3 {
+        +hash(data) -> Hash
+        +hash_stream(reader) -> Hash
+    }
+    Ed25519 --|> Signer
+    Ed25519 --|> Verifier
+    Ed25519 --|> KeyPair
+    SHA3 --|> Hasher
 ```
 
 ## Key Features
@@ -56,6 +118,14 @@ flowchart LR
 - **3D Sandbox World**: Immersive spatial communication
 - **Enterprise Auditability**: Framework for AI interaction auditing
 
+## Related Projects
+
+| Project | Relationship | Protocol |
+|---------|-------------|----------|
+| [Kathon](Kathon) | Consumer — browser crypto signing | FFI |
+| [Kamelot](Kamelot) | Consumer — cloud runtime signing | FFI |
+| [aioss-format](aioss-format) | Consumer — ledger state proofs | FFI |
+
 ---
 
-> 📖 **Full docs**: [Docusaurus Libern](https://kleinnner.github.io/Anticloud/docs/projects/libern) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture)
+> 📖 **Full docs**: [Docusaurus Libern](https://kleinnner.github.io/Anticloud/docs/projects/libern) · [Home](Home) · [Projects](Projects) · [Architecture](Architecture) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Glossary](Glossary) · [Protocol-Spec](Protocol-Spec)

@@ -1,8 +1,39 @@
 <!-- SEO -->
 <meta name="description" content="Anticloud ecosystem — all platforms, profiles, research repositories, and community connections across the web.">
 <meta name="keywords" content="anticloud ecosystem, github, linkedin, dev.to, hugging face, zenodo, dataverse">
+<meta property="og:title" content="Anticloud Ecosystem & Platforms">
+<meta property="og:description" content="All platforms, profiles, research repositories, and community connections across the web.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anticloud Ecosystem & Platforms">
+<meta name="twitter:description" content="All platforms, profiles, research repositories, and community connections.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Ecosystem">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anticloud Ecosystem & Platforms",
+  "description": "All platforms, profiles, research repositories, and community connections across the web.",
+  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
+      { "@type": "ListItem", "position": 2, "name": "Ecosystem", "item": "https://github.com/kleinnner/Anticloud/wiki/Ecosystem" }
+    ]
+  }
+}
+</script>
+
+<!-- Breadcrumb: Home > Ecosystem -->
 
 ![Ecosystem](https://img.shields.io/badge/Section-Ecosystem-ff9f0a?style=for-the-badge)
+![Platforms](https://img.shields.io/badge/Platforms-12-0071e3?style=for-the-badge)
+![Categories](https://img.shields.io/badge/Categories-5-34c759?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Ecosystem & Platforms
 
@@ -11,6 +42,7 @@ The Anticloud presence extends across multiple platforms for code, research, pub
 ## Platform Map
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     CENTER((Anticloud))
     CENTER --> GIT[GitHub<br/>kleinnner/Anticloud]
@@ -31,6 +63,7 @@ flowchart LR
 ## Platform Categories
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     subgraph Code[Code & Development]
         GH[GitHub] --> HF[Hugging Face]
@@ -93,4 +126,4 @@ flowchart TB
 
 ---
 
-> 📖 **Full docs**: [Docusaurus Links](https://kleinnner.github.io/Anticloud/docs/links) · [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Tools](Tools)
+> 📖 **Full docs**: [Docusaurus Links](https://kleinnner.github.io/Anticloud/docs/links) · [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Tools](Tools) · [Roadmap](Roadmap) · [FAQ](FAQ) · [Glossary](Glossary)

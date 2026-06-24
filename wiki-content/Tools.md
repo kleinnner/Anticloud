@@ -1,6 +1,33 @@
 <!-- SEO -->
-<meta name="description" content="Anticloud developer tools — 40 tools across Security, Compliance, Analysis, and Utilities domains with status badges and descriptions.">
+<meta name="description" content="Anticloud developer tools — 40 tools across Security, Compliance, Analysis, and Utilities domains with status badges, descriptions, and domain distribution.">
 <meta name="keywords" content="anticloud tools, developer tools, security tools, compliance tools, cryptography tools">
+<meta property="og:title" content="Anticloud Developer Tools">
+<meta property="og:description" content="40 developer tools across Security, Compliance, Analysis, and Utilities domains.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anticloud Developer Tools">
+<meta name="twitter:description" content="40 developer tools across 4 domains with status badges.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Tools">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anticloud Developer Tools",
+  "description": "40 tools across Security, Compliance, Analysis, and Utilities domains with status badges and descriptions.",
+  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
+      { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://github.com/kleinnner/Anticloud/wiki/Tools" }
+    ]
+  }
+}
+</script>
+
+<!-- Breadcrumb: Home > Tools -->
 
 ![Tools](https://img.shields.io/badge/Section-Tools-34c759?style=for-the-badge)
 ![Total](https://img.shields.io/badge/Total-40%20Tools-34c759?style=for-the-badge)
@@ -8,6 +35,8 @@
 ![Compliance](https://img.shields.io/badge/Compliance-9-ff9f0a?style=flat-square)
 ![Analysis](https://img.shields.io/badge/Analysis-8-0071e3?style=flat-square)
 ![Utilities](https://img.shields.io/badge/Utilities-13-8b5cf6?style=flat-square)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Developer Tools
 
@@ -16,6 +45,7 @@ The Anticloud ecosystem includes **40 developer tools** organized into four doma
 ## Tool Clusters
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 mindmap
   root((40 Tools))
     Security
@@ -63,6 +93,18 @@ mindmap
       Readiness Quiz
 ```
 
+## Domain Distribution
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+pie showData
+    title Tool Distribution by Domain
+    "Security & Cryptography" : 10
+    "Compliance & Governance" : 9
+    "Analysis & Planning" : 8
+    "Developer Utilities" : 13
+```
+
 ## ![Stable](https://img.shields.io/badge/status-stable-34c759) Stable Tools
 
 ### Security & Cryptography
@@ -100,4 +142,4 @@ mindmap
 
 ---
 
-> 📖 **Full docs**: [Docusaurus Tools](https://kleinnner.github.io/Anticloud/docs/tools) · [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Ecosystem](Ecosystem)
+> 📖 **Full docs**: [Docusaurus Tools](https://kleinnner.github.io/Anticloud/docs/tools) · [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Ecosystem](Ecosystem) · [Performance](Performance) · [Glossary](Glossary)

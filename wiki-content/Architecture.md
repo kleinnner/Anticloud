@@ -1,8 +1,40 @@
 <!-- SEO -->
-<meta name="description" content="Anticloud system architecture — 4-layer stack with cryptographic foundation, project clusters, and data flow diagrams.">
-<meta name="keywords" content="anticloud, architecture, system design, cryptographic foundation, layers">
+<meta name="description" content="Anticloud system architecture — 4-layer stack with cryptographic foundation, project clusters, quadrant positioning, and data flow diagrams.">
+<meta name="keywords" content="anticloud, architecture, system design, cryptographic foundation, layers, quadrant, maturity">
+<meta property="og:title" content="Anticloud System Architecture">
+<meta property="og:description" content="4-layer architecture with cryptographic foundation, project clusters, and quadrant positioning.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anticloud System Architecture">
+<meta name="twitter:description" content="4-layer architecture with cryptographic foundation, project clusters, and quadrant positioning.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Architecture">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anticloud System Architecture",
+  "description": "4-layer stack with cryptographic foundation, project clusters, quadrant positioning, and data flow diagrams.",
+  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
+      { "@type": "ListItem", "position": 2, "name": "Architecture", "item": "https://github.com/kleinnner/Anticloud/wiki/Architecture" }
+    ]
+  }
+}
+</script>
+
+<!-- Breadcrumb: Home > Architecture -->
 
 ![Architecture](https://img.shields.io/badge/Section-Architecture-1d1d1f?style=for-the-badge)
+![Layers](https://img.shields.io/badge/Layers-4-0071e3?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-11-34c759?style=for-the-badge)
+![Protocols](https://img.shields.io/badge/Protocols-7-ff9f0a?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # System Architecture
 
@@ -11,6 +43,7 @@ The Anticloud ecosystem is organized into four architectural layers connected by
 ## Layer Architecture
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart TB
     subgraph Layer4[Application Layer]
         KATHON[Kathon<br/>Cryptographic Browser]
@@ -36,11 +69,50 @@ flowchart TB
     Layer3 --> Layer4
 ```
 
+## Project Positioning
+
+Project maturity vs. architectural complexity:
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
+flowchart TB
+    subgraph Quadrant1[High Maturity / High Complexity]
+        API[API-OSS]:::stable
+        AIO[aioss-format]:::stable
+        LIB[Libern]:::stable
+    end
+    subgraph Quadrant2[Medium Maturity / High Complexity]
+        KAS[Kasteran]:::alpha
+        KAT[Kathon]:::beta
+        SOV[Sovereign-OS]:::exp
+    end
+    subgraph Quadrant3[Medium Maturity / Medium Complexity]
+        INT[Inte11ect]:::alpha
+        KAM[Kamelot]:::alpha
+        ANT[Anticode]:::alpha
+    end
+    subgraph Quadrant4[Low Maturity / Medium Complexity]
+        KAZ[Kazcade]:::exp
+        MFS[MFSO]:::exp
+    end
+
+    classDef stable fill:#34c759,color:#fff
+    classDef beta fill:#0071e3,color:#fff
+    classDef alpha fill:#ff9f0a,color:#fff
+    classDef exp fill:#ff3b30,color:#fff
+```
+
+> **Quadrant 1 (Top-Right)**: Production-ready, architecturally complex — core infrastructure
+> **Quadrant 2 (Top-Left)**: In development, high complexity — ambitious systems
+> **Quadrant 3 (Bottom-Right)**: Active development, moderate complexity — platform services
+> **Quadrant 4 (Bottom-Left)**: Early stage, moderate complexity — emerging projects
+
 ## Project Clusters
 
 Projects grouped by domain, sharing architectural patterns and protocols:
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Browser[Browser Cluster]
         KATHON[Kathon] --> ANTICODE[Anticode]
@@ -66,6 +138,7 @@ flowchart LR
 All projects communicate through a unified cryptographic layer:
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph Data[Data Sources]
         USER[User Input]
@@ -102,4 +175,4 @@ flowchart LR
 
 ---
 
-> 📖 **Full docs**: [Docusaurus Architecture](https://kleinnner.github.io/Anticloud/docs/intro) · [Home](Home) · [Projects](Projects) · [Tools](Tools) · [Ecosystem](Ecosystem)
+> 📖 **Full docs**: [Docusaurus Architecture](https://kleinnner.github.io/Anticloud/docs/intro) · [Home](Home) · [Projects](Projects) · [Tools](Tools) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [Protocol-Spec](Protocol-Spec) · [Security](Security) · [Glossary](Glossary)

@@ -24,6 +24,15 @@
 
 - [All Tools](Tools)
 
+## 📚 Resources
+
+- [Roadmap](Roadmap) ![Todo](https://img.shields.io/badge/-roadmap-1d1d1f?style=flat-square&label=%20)
+- [FAQ](FAQ)
+- [Glossary](Glossary)
+- [Security](Security)
+- [Protocol Spec](Protocol-Spec)
+- [Performance](Performance)
+
 ## 👥 Community
 
 - [Contributing](Contributing)

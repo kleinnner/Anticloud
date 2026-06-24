@@ -1,8 +1,37 @@
 <!-- SEO -->
 <meta name="description" content="Get started with the Anticloud ecosystem — explore projects, use developer tools, and read research papers.">
 <meta name="keywords" content="anticloud, getting started, quick start, guide">
+<meta property="og:title" content="Getting Started with Anticloud">
+<meta property="og:description" content="Get started with the Anticloud ecosystem — explore projects, use developer tools, and read research papers.">
+<meta property="og:image" content="https://kleinnner.github.io/Anticloud/img/og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Getting Started with Anticloud">
+<meta name="twitter:description" content="Get started with the Anticloud ecosystem.">
+<link rel="canonical" href="https://github.com/kleinnner/Anticloud/wiki/Getting-Started">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Getting Started with Anticloud",
+  "description": "Guide to exploring the Anticloud ecosystem — projects, tools, and research.",
+  "isPartOf": { "@id": "https://github.com/kleinnner/Anticloud/wiki" },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://github.com/kleinnner/Anticloud/wiki/Home" },
+      { "@type": "ListItem", "position": 2, "name": "Getting Started", "item": "https://github.com/kleinnner/Anticloud/wiki/Getting-Started" }
+    ]
+  }
+}
+</script>
+
+<!-- Breadcrumb: Home > Getting-Started -->
 
 ![Getting Started](https://img.shields.io/badge/Section-Getting%20Started-34c759?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Getting Started
 
@@ -43,6 +72,7 @@ Explore [research papers](https://zenodo.org/search?q=anticloud) on cryptographi
 ## Architecture Overview
 
 ```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#1d1d1f', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#0071e3', 'tertiaryColor': '#f5f5f7' } }}%%
 flowchart LR
     subgraph User[User Facing]
         KATHON[Kathon Browser]
@@ -78,4 +108,4 @@ flowchart LR
 
 ---
 
-> 📖 **Full docs**: [Docusaurus Intro](https://kleinnner.github.io/Anticloud/docs/intro) · [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Tools](Tools)
+> 📖 **Full docs**: [Docusaurus Intro](https://kleinnner.github.io/Anticloud/docs/intro) · [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Tools](Tools) · [Ecosystem](Ecosystem) · [FAQ](FAQ) · [Glossary](Glossary) · [Roadmap](Roadmap)
