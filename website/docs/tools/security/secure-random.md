@@ -1,6 +1,8 @@
 ---
 sidebar_label: Secure Random
 description: Generate cryptographically secure random numbers, strings, UUIDs, and byte sequences suitable for keys, tokens, salts, and nonces.
+keywords: [cryptography, security, secure random, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Secure Random

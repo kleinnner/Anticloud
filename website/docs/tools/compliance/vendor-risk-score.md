@@ -1,6 +1,8 @@
 ---
 sidebar_label: Vendor Risk Score
 description: Assess and score third-party vendor risk across security, compliance, financial stability, and operational resilience dimensions.
+keywords: [compliance, governance, vendor risk score, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Vendor Risk Score

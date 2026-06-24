@@ -1,6 +1,8 @@
 ---
 sidebar_label: Readiness Quiz
 description: Assess team and organizational readiness for cloud migration, zero-trust adoption, or compliance certification with interactive quizzes and scoring.
+keywords: [developer utilities, productivity, readiness quiz, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Readiness Quiz

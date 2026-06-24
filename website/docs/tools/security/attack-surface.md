@@ -1,6 +1,8 @@
 ---
 sidebar_label: Attack Surface Analyzer
 description: Map and analyze your cloud infrastructure attack surface with real-time vulnerability discovery, asset enumeration, and exposure scoring.
+keywords: [cryptography, security, attack surface, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Attack Surface Analyzer

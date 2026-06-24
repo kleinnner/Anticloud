@@ -1,6 +1,8 @@
 ---
 sidebar_label: Deployment Cost Estimator
 description: Estimate and optimize cloud infrastructure costs across providers with usage forecasting, reserved instance analysis, and budget tracking.
+keywords: [analysis, planning, deployment cost estimator, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Deployment Cost Estimator

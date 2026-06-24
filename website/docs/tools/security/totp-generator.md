@@ -1,6 +1,8 @@
 ---
 sidebar_label: TOTP Generator
 description: Generate and validate time-based one-time passwords for multi-factor authentication with support for HOTP, time-step configuration, and QR provisioning.
+keywords: [cryptography, security, totp generator, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # TOTP Generator

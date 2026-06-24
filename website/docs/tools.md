@@ -1,6 +1,8 @@
 ---
 sidebar_label: Developer Tools
 description: Complete catalog of all 40 Anticloud developer tools organized into Security & Cryptography, Compliance & Governance, Analysis & Planning, and Developer Utilities. With tool hierarchy mindmap and pipeline flow.
+keywords: [tools, Anticloud, sovereign technology, open source, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # 40 Developer Tools

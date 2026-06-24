@@ -1,6 +1,8 @@
 ---
 sidebar_label: Local Notes
 description: A privacy-first local note-taking tool with markdown editing, tagging, full-text search, and optional Git-based version control for developers.
+keywords: [developer utilities, productivity, local notes, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Local Notes

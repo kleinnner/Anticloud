@@ -1,6 +1,8 @@
 ---
 sidebar_label: Platform Projects
 description: Overview of all 11 Anticloud platform projects — cryptographic browser, vector file system, systems language, sovereign OS, AI platforms, identity, and compute engine. Architecture diagram included.
+keywords: [projects, Anticloud, sovereign technology, open source, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # Platform Projects

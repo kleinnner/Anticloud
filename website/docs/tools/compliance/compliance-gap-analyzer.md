@@ -1,6 +1,8 @@
 ---
 sidebar_label: Compliance Gap Analyzer
 description: Identify gaps between current security controls and target compliance frameworks with automated mapping and remediation prioritization.
+keywords: [compliance, governance, compliance gap analyzer, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Compliance Gap Analyzer

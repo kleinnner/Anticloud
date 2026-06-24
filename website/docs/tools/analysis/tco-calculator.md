@@ -1,6 +1,8 @@
 ---
 sidebar_label: TCO Calculator
 description: Compute total cost of ownership for cloud and on-premises infrastructure including hidden costs, operational overhead, and multi-year projections.
+keywords: [analysis, planning, tco calculator, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # TCO Calculator

@@ -1,6 +1,8 @@
 ---
 sidebar_label: JSON Explorer
 description: Navigate, search, and transform JSON documents with a tree explorer, path queries, schema validation, and format conversion tools.
+keywords: [developer utilities, productivity, json explorer, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # JSON Explorer

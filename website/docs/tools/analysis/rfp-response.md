@@ -1,6 +1,8 @@
 ---
 sidebar_label: RFP Response
 description: Accelerate RFP responses for cloud and security projects with intelligent answer libraries, compliance mappings, and collaborative review workflows.
+keywords: [analysis, planning, rfp response, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # RFP Response

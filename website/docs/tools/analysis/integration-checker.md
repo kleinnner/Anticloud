@@ -1,6 +1,8 @@
 ---
 sidebar_label: Integration Checker
 description: Validate API and service integration compatibility across cloud providers with dependency mapping, version checks, and connectivity testing.
+keywords: [analysis, planning, integration checker, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Integration Checker

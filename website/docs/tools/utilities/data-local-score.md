@@ -1,6 +1,8 @@
 ---
 sidebar_label: Data Local Score
 description: Measure and optimize data localization compliance by analyzing where application data is stored, processed, and transmitted across regions.
+keywords: [developer utilities, productivity, data local score, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Data Local Score

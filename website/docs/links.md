@@ -1,6 +1,8 @@
 ---
 sidebar_label: Published Links
 description: All Anticloud external profiles, platforms, and research repositories — GitHub, LinkedIn, DEV, Hugging Face, WordPress, Tumblr, Fandom Wiki, Zenodo, Harvard Dataverse.
+keywords: [links, Anticloud, sovereign technology, open source, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # Published Links

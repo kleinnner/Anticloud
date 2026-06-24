@@ -1,6 +1,8 @@
 ---
 sidebar_label: Compliance Generator
 description: Auto-generate compliance documentation, control narratives, and policy templates mapped to SOC 2, ISO 27001, NIST, and FedRAMP frameworks.
+keywords: [compliance, governance, compliance generator, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Compliance Generator

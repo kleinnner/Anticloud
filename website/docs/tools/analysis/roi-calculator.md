@@ -1,6 +1,8 @@
 ---
 sidebar_label: ROI Calculator
 description: Calculate return on investment for cloud migrations and security initiatives with payback period analysis, NPV modeling, and sensitivity testing.
+keywords: [analysis, planning, roi calculator, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # ROI Calculator

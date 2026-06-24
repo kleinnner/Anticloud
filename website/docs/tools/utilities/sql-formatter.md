@@ -1,6 +1,8 @@
 ---
 sidebar_label: SQL Formatter
 description: Format, lint, and beautify SQL queries with configurable dialects, indentation styles, keyword casing, and syntax validation.
+keywords: [developer utilities, productivity, sql formatter, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # SQL Formatter

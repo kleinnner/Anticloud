@@ -1,6 +1,8 @@
 ---
 sidebar_label: kazcade
 description: kazcade CPU-only columnar compute engine with SIMD-accelerated linear algebra, quantized neural inference, software rasterizer, and zero-copy mmap/io_uring architecture.
+keywords: [vector file system, content-addressed storage, VFS, distributed filesystem]
+image: /img/anticloud-social.png
 ---
 
 # kazcade

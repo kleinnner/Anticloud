@@ -1,6 +1,8 @@
 ---
 sidebar_label: Port Protocol Mapper
 description: Look up, map, and validate network port assignments and protocol configurations across IANA registry, cloud services, and common applications.
+keywords: [developer utilities, productivity, port protocol mapper, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Port Protocol Mapper

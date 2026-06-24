@@ -1,6 +1,8 @@
 ---
 sidebar_label: JWT Inspector
 description: Decode, inspect, and validate JSON Web Tokens with real-time signature verification, payload analysis, and security claim auditing.
+keywords: [cryptography, security, jwt inspector, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # JWT Inspector

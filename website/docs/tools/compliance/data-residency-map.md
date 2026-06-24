@@ -1,6 +1,8 @@
 ---
 sidebar_label: Data Residency Map
 description: Visualize where data flows across geographic regions and cloud providers to ensure compliance with GDPR, CCPA, and data sovereignty laws.
+keywords: [compliance, governance, data residency map, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Data Residency Map

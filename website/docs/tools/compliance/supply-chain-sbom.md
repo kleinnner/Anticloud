@@ -1,6 +1,8 @@
 ---
 sidebar_label: Supply Chain SBOM
 description: Generate, validate, and analyze Software Bill of Materials in SPDX and CycloneDX formats for supply chain transparency and vulnerability management.
+keywords: [compliance, governance, supply chain sbom, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Supply Chain SBOM

@@ -1,6 +1,8 @@
 ---
 sidebar_label: Deploy Simulator
 description: Simulate cloud deployments to predict resource conflicts, scaling behavior, cost implications, and performance bottlenecks before production rollout.
+keywords: [analysis, planning, deploy simulator, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Deploy Simulator

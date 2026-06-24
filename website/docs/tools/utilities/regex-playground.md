@@ -1,6 +1,8 @@
 ---
 sidebar_label: Regex Playground
 description: Test and debug regular expressions interactively with real-time matching, substitution previews, reference guides, and performance profiling.
+keywords: [developer utilities, productivity, regex playground, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Regex Playground

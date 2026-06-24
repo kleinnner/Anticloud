@@ -1,6 +1,8 @@
 ---
 sidebar_label: api-oss
 description: api-oss AI gateway with multi-agent deliberation councils, contradiction detection engine, 162 feature docs, WASM sandbox, 30 research papers, and comprehensive NLP tooling.
+keywords: [api oss, Anticloud, sovereign technology, open source, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # api-oss

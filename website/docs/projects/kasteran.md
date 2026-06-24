@@ -1,6 +1,8 @@
 ---
 sidebar_label: Kasteran
 description: Kasteran systems language with rune-based symbolic syntax, linear capability types, self-hosted compiler with Cranelift JIT, WebAssembly, and C backends, plus formal verification pipeline.
+keywords: [systems programming, rune-based language, symbolic syntax, memory safety, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # Kasteran

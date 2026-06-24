@@ -1,6 +1,8 @@
 ---
 sidebar_label: Architecture Canvas
 description: Design and document cloud architecture with interactive canvases, component libraries, and automated infrastructure diagram generation.
+keywords: [analysis, planning, architecture canvas, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Architecture Canvas

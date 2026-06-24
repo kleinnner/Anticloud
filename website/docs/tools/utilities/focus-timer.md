@@ -1,6 +1,8 @@
 ---
 sidebar_label: Focus Timer
 description: Boost productivity with a Pomodoro-style focus timer featuring task tracking, break scheduling, and session analytics for deep work sessions.
+keywords: [developer utilities, productivity, focus timer, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Focus Timer

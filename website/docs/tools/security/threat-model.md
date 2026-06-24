@@ -1,6 +1,8 @@
 ---
 sidebar_label: Threat Model
 description: Create, visualize, and analyze threat models using STRIDE, PASTA, and LINDDUN frameworks with automated mitigation suggestions.
+keywords: [cryptography, security, threat model, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Threat Model

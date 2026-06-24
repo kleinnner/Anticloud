@@ -1,6 +1,8 @@
 ---
 sidebar_label: Encrypt Text
 description: Instantly encrypt and decrypt text strings using industry-standard algorithms with support for custom keys, salts, and encoding formats.
+keywords: [cryptography, security, encrypt text, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Encrypt Text

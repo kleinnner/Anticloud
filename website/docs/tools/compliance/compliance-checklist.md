@@ -1,6 +1,8 @@
 ---
 sidebar_label: Compliance Checklist
 description: Track and manage compliance requirements across frameworks with progress tracking, evidence collection, and audit-ready reporting.
+keywords: [compliance, governance, compliance checklist, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Compliance Checklist

@@ -1,6 +1,8 @@
 ---
 sidebar_label: Kamelot
 description: Kamelot semantic vector file system replacing directory trees with 1536-dim dense embedding search achieving 91% recall at rank 10, with BLAKE3 hash-chain integrity verification.
+keywords: [cloud runtime, AI orchestration, serverless, container orchestration, multi-cloud]
+image: /img/anticloud-social.png
 ---
 
 # Kamelot

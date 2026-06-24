@@ -1,6 +1,8 @@
 ---
 sidebar_label: SSP Generator
 description: Create FedRAMP and SOC 2 System Security Plans with automated control implementation descriptions, appendices, and authorization package assembly.
+keywords: [compliance, governance, ssp generator, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # SSP Generator

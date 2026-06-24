@@ -1,6 +1,8 @@
 ---
 sidebar_label: libern
 description: libern P2P communication engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, and enterprise AI auditability framework.
+keywords: [cryptographic library, Ed25519, SHA3, digital signatures, blockchain]
+image: /img/anticloud-social.png
 ---
 
 # libern

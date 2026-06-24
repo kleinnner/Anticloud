@@ -1,6 +1,8 @@
 ---
 sidebar_label: Model Benchmark
 description: Benchmark AI and ML model performance across latency, throughput, memory usage, and accuracy metrics with side-by-side provider comparisons.
+keywords: [developer utilities, productivity, model benchmark, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Model Benchmark

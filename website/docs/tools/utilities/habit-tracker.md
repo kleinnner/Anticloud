@@ -1,6 +1,8 @@
 ---
 sidebar_label: Habit Tracker
 description: Build and maintain engineering habits with streak tracking, customizable goals, progress dashboards, and motivational reminders.
+keywords: [developer utilities, productivity, habit tracker, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Habit Tracker

@@ -1,6 +1,8 @@
 ---
 sidebar_label: Contract Clause Analyzer
 description: Analyze cloud service agreements and vendor contracts for risk clauses, SLA commitments, data processing terms, and termination conditions.
+keywords: [analysis, planning, contract clause analyzer, cost estimation, architecture, ROI, TCO, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Contract Clause Analyzer

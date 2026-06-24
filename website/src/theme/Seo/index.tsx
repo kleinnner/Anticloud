@@ -15,6 +15,7 @@ export default function Seo(): ReactNode {
   const isDoc = currentPath.startsWith(`${baseUrl}docs/`);
   const isTool = currentPath.includes('/tools/');
   const isProject = currentPath.includes('/projects/');
+  const isBlog = currentPath.startsWith(`${baseUrl}blog/`);
 
   const webSiteSchema = {
     '@context': 'https://schema.org',
@@ -94,6 +95,17 @@ export default function Seo(): ReactNode {
     pageSchema.name = projectName;
     pageSchema.description = `${projectName} — an open-source project in the Anticloud ecosystem.`;
     pageSchema.codeRepository = `https://github.com/kleinnner/Anticloud/tree/main/0${parts[parts.length - 1] === 'kathon' ? '1' : parts[parts.length - 1] === 'kamelot' ? '2' : '0'}-${parts[parts.length - 1] || ''}`;
+  } else if (isBlog) {
+    const blogTitle = parts[parts.length - 1]?.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || 'Blog Post';
+    pageSchema['@type'] = 'Article';
+    pageSchema.headline = blogTitle;
+    pageSchema.author = {
+      '@type': 'Person',
+      name: 'Lois-Kleinner',
+      url: 'https://github.com/kleinnner',
+    };
+    pageSchema.datePublished = '2026-06-24';
+    pageSchema.image = 'https://kleinnner.github.io/Anticloud/img/anticloud-social.png';
   }
 
   return (

@@ -1,6 +1,8 @@
 ---
 sidebar_label: Introduction
 description: The Anticloud ecosystem overview — 50+ privacy-first, cryptographically-verified, AI-native open-source projects. Architecture diagrams, domain map, inter-project data flow, and quick links.
+keywords: [intro, Anticloud, sovereign technology, open source, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # Anticloud Ecosystem

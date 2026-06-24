@@ -1,6 +1,8 @@
 ---
 sidebar_label: Credential Vault
 description: Securely store, rotate, and audit API keys, tokens, and secrets with encryption-at-rest and granular access controls for cloud-native applications.
+keywords: [cryptography, security, credential vault, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Credential Vault

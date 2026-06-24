@@ -9,7 +9,7 @@ tags: [anticloud, sovereign-technology, open-source, privacy, cryptography, ai]
 
 Today we're launching the Anticloud documentation portal — a unified home for 50+ open-source projects united by a shared cryptographic foundation.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## What is Anticloud?
 
@@ -26,3 +26,6 @@ The ecosystem includes 40 developer tools organized into four domains: Security 
 ## Get Started
 
 Browse the [documentation](/docs/intro), explore the [projects](/docs/projects), or dive into the [source code](https://github.com/kleinnner/Anticloud).
+<script type="application/ld+json">
+  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Welcome to the Anticloud Ecosystem","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://kleinnner.github.io/Anticloud/"},"image":"https://kleinnner.github.io/Anticloud/img/anticloud-social.png","url":"https://kleinnner.github.io/Anticloud/blog/2026-06-24/welcome-to-anticloud"})}
+</script>

@@ -1,6 +1,8 @@
 ---
 sidebar_label: Diff Viewer
 description: Compare files, directories, and text with a side-by-side diff viewer supporting syntax highlighting, merge previews, and patch generation.
+keywords: [developer utilities, productivity, diff viewer, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Diff Viewer

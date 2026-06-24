@@ -1,6 +1,8 @@
 ---
 sidebar_label: Hash Checker
 description: Verify file integrity and data authenticity by computing and comparing cryptographic hashes across multiple algorithms including SHA and BLAKE families.
+keywords: [cryptography, security, hash checker, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Hash Checker

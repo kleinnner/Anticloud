@@ -1,6 +1,8 @@
 ---
 sidebar_label: Cert Badges
 description: Generate and manage compliance certification badges for SOC 2, ISO 27001, FedRAMP, HIPAA, and GDPR with embeddable status widgets.
+keywords: [compliance, governance, cert badges, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Cert Badges

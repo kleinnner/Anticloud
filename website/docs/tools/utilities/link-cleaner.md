@@ -1,6 +1,8 @@
 ---
 sidebar_label: Link Cleaner
 description: Strip tracking parameters, remove URL redirect wrappers, and format clean markdown links from messy clipboard URLs.
+keywords: [developer utilities, productivity, link cleaner, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Link Cleaner

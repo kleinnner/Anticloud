@@ -1,6 +1,8 @@
 ---
 sidebar_label: Capability Matrix
 description: Compare cloud service providers and tools across security, compliance, performance, and cost dimensions with interactive matrix scoring.
+keywords: [compliance, governance, capability matrix, FedRAMP, SOC2, audit, risk management, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Capability Matrix

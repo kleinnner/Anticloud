@@ -1,6 +1,8 @@
 ---
 sidebar_label: Passphrase Generator
 description: Generate memorable, cryptographically secure passphrases using word lists, entropy customization, and strength visualization for authentication systems.
+keywords: [developer utilities, productivity, passphrase generator, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Passphrase Generator

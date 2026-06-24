@@ -9,6 +9,7 @@ const config: Config = {
 
   future: {
     v4: true,
+    faster: true,
   },
 
   themes: ['@docusaurus/theme-mermaid'],
@@ -24,7 +25,11 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'pt-BR'],
+    localeConfigs: {
+      en: { label: 'English' },
+      'pt-BR': { label: 'Português (Brasil)' },
+    },
   },
 
   presets: [
@@ -138,6 +143,8 @@ const config: Config = {
       attributes: {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
+        media: 'print',
+        onload: "this.media='all'",
       },
     },
     {
@@ -199,8 +206,31 @@ const config: Config = {
     {
       tagName: 'meta',
       attributes: {
+        'http-equiv': 'Content-Security-Policy',
+        content: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'",
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'alternate', type: 'application/rss+xml', title: 'Anticloud Blog RSS', href: '/Anticloud/blog/rss.xml' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'alternate', type: 'application/atom+xml', title: 'Anticloud Blog Atom', href: '/Anticloud/blog/atom.xml' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'alternate', type: 'application/feed+json', title: 'Anticloud Blog JSON', href: '/Anticloud/blog/feed.json' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'sitemap', type: 'application/xml', title: 'Sitemap', href: '/Anticloud/sitemap.xml' },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
         name: 'google-site-verification',
-        content: 'fKZzY1kZm2nJ0Z5bR0H5tL0X5c5v5b5R0H5tL0X5c5v5b5R0',
+        content: 'We9US_CeKk8QncGpXpVIjA4lNWRue3Ns_M2N65cUSyc',
       },
     },
   ],

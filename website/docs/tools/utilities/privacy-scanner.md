@@ -1,6 +1,8 @@
 ---
 sidebar_label: Privacy Scanner
 description: Scan applications and websites for privacy risks including tracker detection, cookie analysis, data collection practices, and third-party sharing.
+keywords: [developer utilities, productivity, privacy scanner, CLI tools, developer experience, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Privacy Scanner

@@ -1,6 +1,8 @@
 ---
 sidebar_label: Ledger Verifier
 description: Validate the integrity of audit logs and blockchain-style ledgers through cryptographic chain verification and tamper detection.
+keywords: [cryptography, security, ledger verifier, hash, encryption, verification, penetration testing, Anticloud]
+image: /img/anticloud-social.png
 ---
 
 # Ledger Verifier

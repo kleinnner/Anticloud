@@ -1,6 +1,8 @@
 ---
 sidebar_label: aioss-format
 description: aioss-format dual-format cryptographic ledger with SHA3-256 hash chaining, Ed25519 state proofs, memory-mapped IO, SQLite event store, and post-quantum migration support.
+keywords: [aioss format, Anticloud, sovereign technology, open source, cryptography]
+image: /img/anticloud-social.png
 ---
 
 # aioss-format
