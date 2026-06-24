@@ -1,10 +1,20 @@
 import {ReactNode} from 'react';
 import Head from '@docusaurus/Head';
 import {useLocation} from '@docusaurus/router';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useGlobalData from '@docusaurus/useGlobalData';
 
 export default function Seo(): ReactNode {
   const location = useLocation();
-  const url = `https://kleinnner.github.io/Anticloud${location.pathname}`;
+  const {siteConfig} = useDocusaurusContext();
+  const globalData = useGlobalData();
+  const baseUrl = siteConfig.baseUrl || '/';
+  const currentPath = location.pathname;
+  const url = `https://kleinnner.github.io${baseUrl.replace(/\/$/, '')}${currentPath}`;
+
+  const isDoc = currentPath.startsWith(`${baseUrl}docs/`);
+  const isTool = currentPath.includes('/tools/');
+  const isProject = currentPath.includes('/projects/');
 
   const webSiteSchema = {
     '@context': 'https://schema.org',
@@ -17,8 +27,7 @@ export default function Seo(): ReactNode {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate:
-          'https://kleinnner.github.io/Anticloud/docs/?q={search_term_string}',
+        urlTemplate: `https://kleinnner.github.io/Anticloud/docs/?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -42,43 +51,57 @@ export default function Seo(): ReactNode {
     ],
   };
 
-  const techArticleSchema = {
+  const breadcrumbSchema = {
     '@context': 'https://schema.org',
-    '@type': 'TechArticle',
-    headline: 'Anticloud Ecosystem Documentation',
-    description:
-      'Comprehensive documentation for 50+ privacy-first, cryptographically-verified, AI-native open-source projects.',
-    url: url,
-    author: {
-      '@type': 'Person',
-      name: 'Lois-Kleinner',
-      url: 'https://linkedin.com/in/kleinner',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Anticloud',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://kleinnner.github.io/Anticloud/img/icon.svg',
-      },
-    },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': url,
-    },
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {'@type': 'ListItem', position: 1, name: 'Anticloud', item: 'https://kleinnner.github.io/Anticloud/'},
+    ],
   };
+
+  const parts = currentPath.replace(baseUrl, '').split('/').filter(Boolean);
+  if (parts.length > 0) {
+    parts.forEach((part, i) => {
+      const name = part.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+      const path = '/' + parts.slice(0, i + 1).join('/');
+      breadcrumbSchema.itemListElement.push({
+        '@type': 'ListItem',
+        position: i + 2,
+        name,
+        item: `https://kleinnner.github.io${baseUrl}${path}`,
+      });
+    });
+  }
+
+  const pageSchema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: siteConfig.title,
+    description: siteConfig.tagline,
+    url,
+  };
+
+  if (isTool) {
+    const toolName = parts[parts.length - 1]?.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || 'Developer Tool';
+    pageSchema['@type'] = 'WebApplication';
+    pageSchema.name = toolName;
+    pageSchema.applicationCategory = 'DeveloperApplication';
+    pageSchema.operatingSystem = 'Cross-platform (Web, CLI)';
+    pageSchema.description = `${toolName} — part of the Anticloud ecosystem of privacy-first, cryptographically-verified developer tools.`;
+  } else if (isProject) {
+    const projectName = parts[parts.length - 1]?.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || 'Project';
+    pageSchema['@type'] = 'SoftwareSourceCode';
+    pageSchema.name = projectName;
+    pageSchema.description = `${projectName} — an open-source project in the Anticloud ecosystem.`;
+    pageSchema.codeRepository = `https://github.com/kleinnner/Anticloud/tree/main/0${parts[parts.length - 1] === 'kathon' ? '1' : parts[parts.length - 1] === 'kamelot' ? '2' : '0'}-${parts[parts.length - 1] || ''}`;
+  }
 
   return (
     <Head>
-      <script type="application/ld+json">
-        {JSON.stringify(webSiteSchema)}
-      </script>
-      <script type="application/ld+json">
-        {JSON.stringify(orgSchema)}
-      </script>
-      <script type="application/ld+json">
-        {JSON.stringify(techArticleSchema)}
-      </script>
+      <script type="application/ld+json">{JSON.stringify(webSiteSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(orgSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
     </Head>
   );
 }

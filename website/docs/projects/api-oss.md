@@ -1,5 +1,6 @@
 ---
 sidebar_label: api-oss
+description: api-oss AI gateway with multi-agent deliberation councils, contradiction detection engine, 162 feature docs, WASM sandbox, 30 research papers, and comprehensive NLP tooling.
 ---
 
 # api-oss

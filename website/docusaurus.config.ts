@@ -35,7 +35,17 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/kleinnner/Anticloud/tree/main/',
         },
-        blog: false,
+        blog: {
+          routeBasePath: '/blog',
+          showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            title: 'Anticloud Blog',
+            description: 'Sovereign Technology Research — Privacy-first, cryptographically-verified, AI-native projects',
+          },
+          blogTitle: 'Anticloud Blog',
+          blogDescription: 'Deep dives into cryptographic browsers, vector file systems, AI gateways, and sovereign technology.',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -200,7 +210,7 @@ const config: Config = {
   scripts: [
     {
       src: '/Anticloud/loading.js',
-      async: false,
+      strategy: 'beforeInteractive',
     },
   ],
 

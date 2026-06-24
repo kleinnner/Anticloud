@@ -1,5 +1,6 @@
 ---
 sidebar_label: aioss-format
+description: aioss-format dual-format cryptographic ledger with SHA3-256 hash chaining, Ed25519 state proofs, memory-mapped IO, SQLite event store, and post-quantum migration support.
 ---
 
 # aioss-format

@@ -1,5 +1,6 @@
 ---
 sidebar_label: MF+SO
+description: MF+SO Multi-Factor Sovereign Sign-On identity vault with Shamir secret sharing, BIP39 entropy analysis, Ed25519 vs ECDSA comparative analysis, and hardware-backed key storage.
 ---
 
 # MF+SO

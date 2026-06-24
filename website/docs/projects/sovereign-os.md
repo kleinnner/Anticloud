@@ -1,5 +1,6 @@
 ---
 sidebar_label: sovereign-os
+description: sovereign-os Arch Linux-based sovereign operating system with .aioss ledger daemon, custom toolchain, TPM attestation, measured boot, and 20 GNOME shell extensions.
 ---
 
 # sovereign-os

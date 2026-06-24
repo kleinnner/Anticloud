@@ -1,5 +1,6 @@
 ---
 sidebar_label: inte11ect
+description: inte11ect modular AI platform with 72 modules, Eigenvector Routing, GOD-11 deterministic orchestrator, domain-specific AI personas, RAG pipeline, and Tauri desktop application.
 ---
 
 # inte11ect

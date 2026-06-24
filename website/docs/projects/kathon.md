@@ -1,5 +1,6 @@
 ---
 sidebar_label: Kathon
+description: Kathon cryptographic browser with vision-LLM ad blocking (94.3% precision), CRDT P2P sync, spatial workspace, anti-enshittification engine, and per-tab VPN. Architecture diagram included.
 ---
 
 # Kathon

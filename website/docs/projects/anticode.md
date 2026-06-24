@@ -1,5 +1,6 @@
 ---
 sidebar_label: Anticode
+description: Anticode terminal-native AI coding engine running fully local LLMs with MCP protocol agent system, cryptographic audit trail for all AI actions, and autonomous code generation.
 ---
 
 # Anticode
