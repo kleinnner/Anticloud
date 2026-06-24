@@ -49,6 +49,7 @@ mindmap
 | Hugging Face | https://huggingface.co/Anticloud |
 | Blog (WordPress) | https://anticlouds.wordpress.com |
 | Tumblr | http://anticloud.tumblr.com |
+| Wiki (GitHub) | https://github.com/kleinnner/Anticloud/wiki |
 | Wiki (Fandom) | https://anticloud.fandom.com |
 | Bluesky | https://bsky.app/profile/kleinner.bsky.social |
 | Mastodon | https://mastodon.social/@kleinner |

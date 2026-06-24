@@ -33,6 +33,7 @@ const profiles = [
   {label: 'Blog', href: 'https://anticlouds.wordpress.com', icon: 'wordpress'},
   {label: 'Zenodo', href: 'https://zenodo.org/search?q=anticloud', icon: 'zenodo'},
   {label: 'Harvard Dataverse', href: 'https://dataverse.harvard.edu/dataverse/anticloud', icon: 'dataverse'},
+  {label: 'Wiki', href: 'https://github.com/kleinnner/Anticloud/wiki', icon: 'wiki'},
 ];
 
 const allCategories = [...new Set(projects.map((p) => p.badge))];
@@ -252,6 +253,7 @@ function Home(): ReactNode {
             <Link className="button button--primary" to="/docs/intro">Read the Docs</Link>
             <Link className="button button--secondary" to="https://github.com/kleinnner/Anticloud/blob/main/ROADMAP.md">View Roadmap</Link>
             <Link className="button button--secondary" to="https://github.com/kleinnner/Anticloud/blob/main/CONTRIBUTING.md">Contributing</Link>
+            <Link className="button button--secondary" to="https://github.com/kleinnner/Anticloud/wiki">Explore Wiki</Link>
           </div>
         </section>
       </main>

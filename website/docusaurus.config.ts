@@ -280,6 +280,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: 'https://github.com/kleinnner/Anticloud/wiki',
+          label: 'Wiki',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/kleinnner/Anticloud',
           position: 'right',
           className: 'header-github-link',
@@ -335,6 +340,27 @@ const config: Config = {
             {
               label: 'Architecture',
               href: 'https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md',
+            },
+          ],
+        },
+        {
+          title: 'Wiki',
+          items: [
+            {
+              label: 'Home',
+              href: 'https://github.com/kleinnner/Anticloud/wiki',
+            },
+            {
+              label: 'Architecture',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Architecture',
+            },
+            {
+              label: 'Projects',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Projects',
+            },
+            {
+              label: 'Ecosystem',
+              href: 'https://github.com/kleinnner/Anticloud/wiki/Ecosystem',
             },
           ],
         },
