@@ -1,0 +1,55 @@
+name: Feature Request
+description: Suggest new documentation, a new project, or an enhancement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project does this relate to?
+      options:
+        - 01-kathon (Browser)
+        - 02-kamelot (File System)
+        - 03-kasteran (Language)
+        - 04-aioss-format (Ledger)
+        - 05-sovereign-os (OS)
+        - 06-api-oss (AI Gateway)
+        - 07-mfso (Identity)
+        - 08-libern (Communication)
+        - 09-kazcade (Compute)
+        - 10-anticode (AI Coding)
+        - 11-inte11ect (AI Platform)
+        - 12-api-oss-tools (Developer Tools)
+        - New Project Proposal
+        - Ecosystem-wide
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What gap or need does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: What should be created or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+    validations:
+      required: false

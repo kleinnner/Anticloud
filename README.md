@@ -2,10 +2,14 @@
 
 **Sovereign Technology Research — A Unified Ecosystem of 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects**
 
-[![Docs](https://img.shields.io/badge/docs-1,597%20papers-blue)](#)
-[![Cryptography](https://img.shields.io/badge/crypto-SHA3--256%20%7C%20Ed25519%20%7C%20BLAKE3-green)](#)
-[![AI](https://img.shields.io/badge/AI-Multi--Agent%20%7C%20Vision%20LLM%20%7C%20Eigenvector-orange)](#)
-[![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey)](#)
+[![Docs](https://img.shields.io/badge/documents-1,597-7c3aed?style=flat-square&logo=readthedocs)](#)
+[![Platform Projects](https://img.shields.io/badge/platform%20projects-11-7c3aed?style=flat-square)](#)
+[![Developer Tools](https://img.shields.io/badge/developer%20tools-40-7c3aed?style=flat-square)](#)
+[![Cryptography](https://img.shields.io/badge/crypto-SHA3--256%20%7C%20Ed25519%20%7C%20BLAKE3-22c55e?style=flat-square)](#)
+[![Post-Quantum](https://img.shields.io/badge/post--quantum-ML--DSA%20%7C%20FALCON%20%7C%20SPHINCS+-f59e0b?style=flat-square)](#)
+[![AI](https://img.shields.io/badge/AI-Multi--Agent%20%7C%20Eigenvector%20%7C%20RAG-06b6d4?style=flat-square)](#)
+[![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-6b7280?style=flat-square)](./LICENSE)
+[![Governance](https://img.shields.io/badge/governance-BDFL%20%7C%20Core%20Team-8b5cf6?style=flat-square)](./GOVERNANCE.md)
 
 > Whitepapers, specifications, tutorials, and architectural documentation for a complete sovereign technology stack spanning browsers, operating systems, programming languages, AI platforms, cryptographic formats, file systems, communication engines, and 40 developer tools.
 
@@ -149,14 +153,14 @@ flowchart TD
 | Tool | Docs | Description |
 |------|------|-------------|
 | [Attack Surface Analyzer](./12-api-oss-tools/attack-surface/) | 5 | Attack surface analysis and visualization |
-| [Credential Vault](./12-api-oss-tools/credential-vault/) | — | Secure credential storage |
-| [Encrypt Text](./12-api-oss-tools/encrypt-text/) | — | Text encryption utility |
-| [Hash Checker](./12-api-oss-tools/hash-checker/) | — | Cryptographic hash verification |
-| [JWT Inspector](./12-api-oss-tools/jwt-inspector/) | — | JWT token inspection and debugging |
+| [Credential Vault](./12-api-oss-tools/credential-vault/) | 5 | Secure credential storage |
+| [Encrypt Text](./12-api-oss-tools/encrypt-text/) | 5 | Text encryption utility |
+| [Hash Checker](./12-api-oss-tools/hash-checker/) | 5 | Cryptographic hash verification |
+| [JWT Inspector](./12-api-oss-tools/jwt-inspector/) | 5 | JWT token inspection and debugging |
 | [Ledger Verifier](./12-api-oss-tools/ledger-verifier/) | 5 | Cryptographic ledger verification |
-| [Secure Random](./12-api-oss-tools/secure-random/) | — | Cryptographically secure random generation |
+| [Secure Random](./12-api-oss-tools/secure-random/) | 5 | Cryptographically secure random generation |
 | [Threat Model](./12-api-oss-tools/threat-model/) | 5 | Threat modeling and risk analysis |
-| [TOTP Generator](./12-api-oss-tools/totp-generator/) | — | Time-based one-time password generator |
+| [TOTP Generator](./12-api-oss-tools/totp-generator/) | 5 | Time-based one-time password generator |
 
 ### Compliance & Governance
 
@@ -170,40 +174,39 @@ flowchart TD
 | [Data Residency Map](./12-api-oss-tools/data-residency-map/) | 5 | Data residency visualization |
 | [SSP Generator](./12-api-oss-tools/ssp-generator/) | 5 | System security plan generator |
 | [Supply Chain SBOM](./12-api-oss-tools/supply-chain-sbom/) | 5 | Software bill of materials analysis |
-| [Vendor Risk Score](./12-api-oss-tools/vendor-risk-score/) | — | Vendor risk assessment tool |
+| [Vendor Risk Score](./12-api-oss-tools/vendor-risk-score/) | 5 | Vendor risk assessment tool |
 
 ### Analysis & Planning
 
 | Tool | Docs | Description |
 |------|------|-------------|
 | [Architecture Canvas](./12-api-oss-tools/architecture-canvas/) | 5 | System architecture modeling |
-| [Contract Clause Analyzer](./12-api-oss-tools/contract-clause-analyzer/) | — | Contract clause analysis |
+| [Contract Clause Analyzer](./12-api-oss-tools/contract-clause-analyzer/) | 5 | Contract clause analysis |
 | [Deploy Simulator](./12-api-oss-tools/deploy-simulator/) | 5 | Deployment scenario simulation |
 | [Deployment Cost Estimator](./12-api-oss-tools/deployment-cost-estimator/) | 5 | Infrastructure cost estimation |
 | [Integration Checker](./12-api-oss-tools/integration-checker/) | 5 | System integration verification |
 | [RFP Response](./12-api-oss-tools/rfp-response/) | 5 | RFP response generation |
-| [ROI Calculator](./12-api-oss-tools/roi-calculator/) | — | Return on investment calculator |
+| [ROI Calculator](./12-api-oss-tools/roi-calculator/) | 5 | Return on investment calculator |
 | [TCO Calculator](./12-api-oss-tools/tco-calculator/) | 5 | Total cost of ownership calculator |
 
 ### Developer Utilities
 
 | Tool | Docs | Description |
 |------|------|-------------|
-| [Data Local Score](./12-api-oss-tools/data-local-score/) | — | Data localization scoring |
-| [Data Residency Map](./12-api-oss-tools/data-residency-map/) | 5 | Data residency visualization |
-| [Diff Viewer](./12-api-oss-tools/diff-viewer/) | — | File comparison viewer |
-| [Focus Timer](./12-api-oss-tools/focus-timer/) | — | Productivity focus timer |
-| [Habit Tracker](./12-api-oss-tools/habit-tracker/) | — | Habit tracking tool |
-| [JSON Explorer](./12-api-oss-tools/json-explorer/) | — | JSON structure explorer |
-| [Link Cleaner](./12-api-oss-tools/link-cleaner/) | — | URL sanitization tool |
-| [Local Notes](./12-api-oss-tools/local-notes/) | — | Local note-taking app |
+| [Data Local Score](./12-api-oss-tools/data-local-score/) | 5 | Data localization scoring |
+| [Diff Viewer](./12-api-oss-tools/diff-viewer/) | 5 | File comparison viewer |
+| [Focus Timer](./12-api-oss-tools/focus-timer/) | 5 | Productivity focus timer |
+| [Habit Tracker](./12-api-oss-tools/habit-tracker/) | 5 | Habit tracking tool |
+| [JSON Explorer](./12-api-oss-tools/json-explorer/) | 5 | JSON structure explorer |
+| [Link Cleaner](./12-api-oss-tools/link-cleaner/) | 5 | URL sanitization tool |
+| [Local Notes](./12-api-oss-tools/local-notes/) | 5 | Local note-taking app |
 | [Model Benchmark](./12-api-oss-tools/model-benchmark/) | 5 | AI model benchmarking |
-| [Passphrase Generator](./12-api-oss-tools/passphrase-generator/) | — | Secure passphrase generation |
+| [Passphrase Generator](./12-api-oss-tools/passphrase-generator/) | 5 | Secure passphrase generation |
 | [Port Protocol Mapper](./12-api-oss-tools/port-protocol-mapper/) | 5 | Network port mapping utility |
-| [Privacy Scanner](./12-api-oss-tools/privacy-scanner/) | — | Privacy compliance scanner |
+| [Privacy Scanner](./12-api-oss-tools/privacy-scanner/) | 5 | Privacy compliance scanner |
 | [Readiness Quiz](./12-api-oss-tools/readiness-quiz/) | 5 | Organizational readiness assessment |
 | [Regex Playground](./12-api-oss-tools/regex-playground/) | 1 | Regular expression testing |
-| [SQL Formatter](./12-api-oss-tools/sql-formatter/) | — | SQL query formatting |
+| [SQL Formatter](./12-api-oss-tools/sql-formatter/) | 5 | SQL query formatting |
 
 ---
 

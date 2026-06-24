@@ -1,0 +1,47 @@
+name: Documentation Issue
+description: Report missing, outdated, or unclear documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve our documentation.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue Type
+      options:
+        - Missing documentation
+        - Outdated documentation
+        - Unclear / confusing
+        - Missing tutorial or guide
+        - Translation needed
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: file
+    attributes:
+      label: File Path
+      placeholder: e.g., 06-api-oss/docs/README.md
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: What's missing or wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Content
+      description: If you have draft content, share it here
+    validations:
+      required: false

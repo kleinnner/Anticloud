@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/kleinnner/Anticloud/security/policy
+    about: Please report security vulnerabilities via email to kleinner@0-1.gg
+  - name: GitHub Discussions
+    url: https://github.com/kleinnner/Anticloud/discussions
+    about: Questions, ideas, and community discussion

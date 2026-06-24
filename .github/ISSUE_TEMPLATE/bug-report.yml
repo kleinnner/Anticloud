@@ -1,0 +1,65 @@
+name: Bug Report
+description: Report a documentation error, broken link, or factual inaccuracy
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project is affected?
+      options:
+        - 01-kathon (Browser)
+        - 02-kamelot (File System)
+        - 03-kasteran (Language)
+        - 04-aioss-format (Ledger)
+        - 05-sovereign-os (OS)
+        - 06-api-oss (AI Gateway)
+        - 07-mfso (Identity)
+        - 08-libern (Communication)
+        - 09-kazcade (Compute)
+        - 10-anticode (AI Coding)
+        - 11-inte11ect (AI Platform)
+        - 12-api-oss-tools (Developer Tools)
+        - Other / Ecosystem-wide
+    validations:
+      required: true
+
+  - type: input
+    id: file
+    attributes:
+      label: File Path
+      description: Path to the affected file(s)
+      placeholder: e.g., 03-kasteran/docs/README.md
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clear description of the issue
+      placeholder: What's wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should it say or do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable
+    validations:
+      required: false
