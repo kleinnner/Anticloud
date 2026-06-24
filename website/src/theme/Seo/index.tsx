@@ -2,15 +2,14 @@ import {ReactNode} from 'react';
 import Head from '@docusaurus/Head';
 import {useLocation} from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useGlobalData from '@docusaurus/useGlobalData';
 
 export default function Seo(): ReactNode {
   const location = useLocation();
   const {siteConfig} = useDocusaurusContext();
-  const globalData = useGlobalData();
   const baseUrl = siteConfig.baseUrl || '/';
+  const siteUrl = siteConfig.url || 'https://0-1.gg';
   const currentPath = location.pathname;
-  const url = `https://kleinnner.github.io${baseUrl.replace(/\/$/, '')}${currentPath}`;
+  const url = `${siteUrl}${baseUrl.replace(/\/$/, '')}${currentPath}`;
 
   const isDoc = currentPath.startsWith(`${baseUrl}docs/`);
   const isTool = currentPath.includes('/tools/');
@@ -21,14 +20,14 @@ export default function Seo(): ReactNode {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Anticloud',
-    url: 'https://kleinnner.github.io/Anticloud/',
+    url: `${siteUrl}/`,
     description:
       'Sovereign Technology Research — A Unified Ecosystem of 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `https://kleinnner.github.io/Anticloud/docs/?q={search_term_string}`,
+        urlTemplate: `${siteUrl}/docs/?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -38,8 +37,8 @@ export default function Seo(): ReactNode {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Anticloud',
-    url: 'https://kleinnner.github.io/Anticloud/',
-    logo: 'https://kleinnner.github.io/Anticloud/img/icon.svg',
+    url: `${siteUrl}/`,
+    logo: `${siteUrl}/img/icon.svg`,
     description:
       'Sovereign Technology Research — 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects',
     sameAs: [
@@ -56,7 +55,7 @@ export default function Seo(): ReactNode {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      {'@type': 'ListItem', position: 1, name: 'Anticloud', item: 'https://kleinnner.github.io/Anticloud/'},
+      {'@type': 'ListItem', position: 1, name: 'Anticloud', item: `${siteUrl}/`},
     ],
   };
 
@@ -69,7 +68,7 @@ export default function Seo(): ReactNode {
         '@type': 'ListItem',
         position: i + 2,
         name,
-        item: `https://kleinnner.github.io${baseUrl}${path}`,
+        item: `${siteUrl}${baseUrl}${path}`,
       });
     });
   }
@@ -105,7 +104,7 @@ export default function Seo(): ReactNode {
       url: 'https://github.com/kleinnner',
     };
     pageSchema.datePublished = '2026-06-24';
-    pageSchema.image = 'https://kleinnner.github.io/Anticloud/img/anticloud-social.png';
+    pageSchema.image = `${siteUrl}/img/anticloud-social.png`;
   }
 
   return (

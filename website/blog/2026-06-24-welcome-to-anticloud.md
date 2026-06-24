@@ -27,5 +27,5 @@ The ecosystem includes 40 developer tools organized into four domains: Security 
 
 Browse the [documentation](/docs/intro), explore the [projects](/docs/projects), or dive into the [source code](https://github.com/kleinnner/Anticloud).
 <script type="application/ld+json">
-  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Welcome to the Anticloud Ecosystem","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://kleinnner.github.io/Anticloud/"},"image":"https://kleinnner.github.io/Anticloud/img/anticloud-social.png","url":"https://kleinnner.github.io/Anticloud/blog/2026-06-24/welcome-to-anticloud"})}
+  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Welcome to the Anticloud Ecosystem","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://0-1.gg/"},"image":"https://0-1.gg/img/anticloud-social.png","url":"https://0-1.gg/blog/2026-06-24/welcome-to-anticloud"})}
 </script>

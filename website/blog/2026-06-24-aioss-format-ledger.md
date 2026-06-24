@@ -100,5 +100,5 @@ See the [aioss-format documentation](/docs/projects/aioss-format) for the comple
 - [Kathon](/docs/projects/kathon) — Anti-enshittification engine logs detections to .aioss
 - [SSP Generator](/docs/tools/compliance/ssp-generator) — Compliance reports signed with .aioss
 <script type="application/ld+json">
-  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"aioss-format — Tamper-Evident Proof-of-Usefulness Ledger","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://kleinnner.github.io/Anticloud/"},"image":"https://kleinnner.github.io/Anticloud/img/anticloud-social.png","url":"https://kleinnner.github.io/Anticloud/blog/2026-06-24/aioss-format-ledger"})}
+  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"aioss-format — Tamper-Evident Proof-of-Usefulness Ledger","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://0-1.gg/"},"image":"https://0-1.gg/img/anticloud-social.png","url":"https://0-1.gg/blog/2026-06-24/aioss-format-ledger"})}
 </script>
