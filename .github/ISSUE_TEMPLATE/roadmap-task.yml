@@ -1,0 +1,104 @@
+name: Roadmap Task
+description: Track a roadmap milestone, deliverable, or cross-project initiative
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Track progress on the Anticloud development roadmap.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project does this belong to?
+      options:
+        - Kathon (Browser)
+        - Kamelot (Cloud)
+        - Kasteran (Language)
+        - Kazcade (Storage)
+        - Anticode (IDE)
+        - Inte11ect (AI)
+        - API-OSS (Gateway)
+        - Libern (Crypto)
+        - aioss-format (Ledger)
+        - MFSO (Search)
+        - Sovereign-OS (OS)
+        - Ecosystem-wide
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - Browser & Client
+        - Cloud & AI
+        - Storage & Search
+        - Core Infrastructure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - 🔥 Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Release Phase
+      options:
+        - Experimental
+        - Alpha
+        - Beta
+        - Stable
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Target Release
+      description: Target quarter or date (e.g. 2026 Q3)
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done?
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition of Done
+      description: What qualifies this task as complete?
+      placeholder: |
+        - [ ] Feature implemented
+        - [ ] Tests passing
+        - [ ] Documentation updated
+        - [ ] Review approved
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Blocked by or blocks other tasks
+      placeholder: "Blocked by: #123\nBlocks: #456"
+    validations:
+      required: false

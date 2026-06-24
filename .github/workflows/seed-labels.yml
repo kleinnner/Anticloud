@@ -1,0 +1,20 @@
+name: Seed Repository Labels
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/labels.yml"
+
+permissions:
+  issues: write
+
+jobs:
+  seed-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: .github/labels.yml
+          token: ${{ github.token }}
