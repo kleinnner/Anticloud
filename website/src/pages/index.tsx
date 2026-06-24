@@ -142,11 +142,9 @@ function Home(): ReactNode {
           </div>
         </section>
 
-        <section style={{margin: '3rem 0', textAlign: 'center', padding: '2rem', border: '1px solid rgba(124,58,237,0.2)', borderRadius: '16px', background: 'rgba(124,58,237,0.03)'}}>
-          <h2 style={{fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.5rem'}}>Get Started</h2>
-          <p style={{opacity: 0.7, marginBottom: '1.5rem', maxWidth: 600, margin: '0 auto 1.5rem'}}>
-            Browse the documentation, explore the research papers, or dive into a specific project.
-          </p>
+        <section className="cta-section">
+          <h2>Get Started</h2>
+          <p>Browse the documentation, explore the research papers, or dive into a specific project.</p>
           <div style={{display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap'}}>
             <Link className="button button--primary" to="/docs/intro">Read the Docs</Link>
             <Link className="button button--secondary" to="https://github.com/kleinnner/Anticloud/blob/main/ROADMAP.md">View Roadmap</Link>

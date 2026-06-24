@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Anticloud',
-  tagline: 'Sovereign Technology Research — 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects',
-  favicon: 'img/favicon.ico',
+  tagline: 'Sovereign Technology Research — A Unified Ecosystem of 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
@@ -41,24 +41,124 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: false,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'img/favicon.svg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/Anticloud/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: 'default',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'img/apple-touch-icon.svg',
+            sizes: '180x180',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'img/icon.svg',
+            color: '#1d1d1f',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: 'img/icon.svg',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#f5f5f7',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#f5f5f7',
+          },
+        ],
+      },
+    ],
+  ],
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
+      },
+    },
+  ],
+
+  stylesheets: [],
+
+  scripts: [
+    {
+      src: '/Anticloud/loading.js',
+      async: false,
+    },
+  ],
+
   themeConfig: {
     image: 'img/anticloud-social.png',
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Anticloud',
+      title: '',
       logo: {
         alt: 'Anticloud',
         src: 'img/logo.svg',
+        srcDark: 'img/logo.svg',
+        width: 120,
+        height: 24,
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'ecosystemSidebar',
           position: 'left',
-          label: 'Ecosystem',
+          label: 'Docs',
         },
         {
           to: '/docs/projects',
@@ -67,13 +167,14 @@ const config: Config = {
         },
         {
           to: '/docs/tools',
-          label: 'Developer Tools',
+          label: 'Tools',
           position: 'left',
         },
         {
           href: 'https://github.com/kleinnner/Anticloud',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
