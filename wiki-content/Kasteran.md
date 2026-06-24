@@ -54,7 +54,7 @@ flowchart LR
 ## Compilation Pipeline
 
 ```mermaid
-stateDiagram
+stateDiagram-v2
     [*] --> Source
     Source --> Parsed: lexical analysis
     Parsed --> Checked: type checking

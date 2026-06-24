@@ -71,7 +71,7 @@ mindmap
 ## Domain Distribution
 
 ```mermaid
-pie
+pie showData
     title Tool Distribution by Domain
     "Security & Cryptography" : 10
     "Compliance & Governance" : 9

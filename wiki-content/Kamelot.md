@@ -54,7 +54,7 @@ flowchart LR
 ## Deployment Lifecycle
 
 ```mermaid
-stateDiagram
+stateDiagram-v2
     [*] --> Provisioned
     Provisioned --> Running: deploy
     Running --> Scaling: load increase

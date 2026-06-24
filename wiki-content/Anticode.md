@@ -53,7 +53,7 @@ flowchart LR
 ## AI Agent Lifecycle
 
 ```mermaid
-stateDiagram
+stateDiagram-v2
     [*] --> Idle
     Idle --> Thinking: user input
     Thinking --> Acting: plan formulated

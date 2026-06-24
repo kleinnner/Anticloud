@@ -42,7 +42,7 @@ flowchart LR
 ## Distribution
 
 ```mermaid
-pie
+pie showData
     title Language Distribution
     "Rust" : 6
     "TypeScript" : 1
@@ -53,7 +53,7 @@ pie
 ```
 
 ```mermaid
-pie
+pie showData
     title Status Distribution
     "Stable" : 3
     "Beta" : 1
