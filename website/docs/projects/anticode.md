@@ -4,7 +4,21 @@ sidebar_label: Anticode
 
 # Anticode
 
-Terminal AI Coding Engine with local LLMs, MCP protocol, cryptographic audit trail
+Terminal-Native AI Coding Engine running fully local LLMs, agent system with MCP protocol, cryptographic audit trail for all AI actions
+
+## Agent System Flow
+
+```mermaid
+flowchart TD
+    P[Prompt] -->|MCP| AG[Agent<br/>Orchestrator]
+    AG -->|Task| LL[Local LLM<br/>llama.cpp]
+    LL -->|Code| RE[Review Engine]
+    RE -->|Approved| AP[Apply Patch]
+    RE -->|Rejected| FB[Feedback]
+    FB -->|Loop| LL
+    AP -->|All Actions| AT[Audit Trail]
+    AT -->|Signed| AF[.aioss Ledger]
+```
 
 ## Documentation
 

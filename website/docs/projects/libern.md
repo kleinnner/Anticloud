@@ -4,7 +4,21 @@ sidebar_label: libern
 
 # libern
 
-P2P Communication Engine with CRDT convergence, Ed25519-signed chains, local AI moderation
+P2P Communication Engine with CRDT convergence, Ed25519-signed hash chains, local AI summarization, 3D sandbox world, enterprise AI auditability framework
+
+## P2P Message Flow
+
+```mermaid
+flowchart LR
+    S[Sender] -->|Message| CR[CRDT Merge]
+    CR -->|Converge| HC[Hash Chain<br/>Ed25519 Signed]
+    HC -->|Broadcast| PN[P2P Network]
+    PN -->|Receive| CR2[CRDT Merge]
+    CR2 -->|Converged| R[Recipient]
+    CR2 -->|Summarize| AI[Local AI<br/>Summarization]
+    R -->|Events| SV[3D Sandbox<br/>World]
+    HC -->|Audit| AF[.aioss Ledger]
+```
 
 ## Documentation
 

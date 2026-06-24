@@ -25,6 +25,16 @@ const projects = [
   {id: '11', title: 'inte11ect', badge: 'AI Platform', desc: 'Modular AI platform with 72 modules, Eigenvector Routing, GOD-11 deterministic orchestrator, domain-specific AI personas, RAG pipeline, Tauri desktop app.', docs: 122, link: 'https://github.com/kleinnner/Anticloud/tree/main/11-inte11ect'},
 ];
 
+const profiles = [
+  {label: 'Main Site', href: 'https://0-1.gg', icon: 'globe'},
+  {label: 'LinkedIn', href: 'https://linkedin.com/in/kleinner', icon: 'linkedin'},
+  {label: 'DEV', href: 'https://dev.to/kleinner', icon: 'dev'},
+  {label: 'Hugging Face', href: 'https://huggingface.co/Anticloud', icon: 'hf'},
+  {label: 'Blog', href: 'https://anticlouds.wordpress.com', icon: 'wordpress'},
+  {label: 'Zenodo', href: 'https://zenodo.org/search?q=anticloud', icon: 'zenodo'},
+  {label: 'Harvard Dataverse', href: 'https://dataverse.harvard.edu/dataverse/anticloud', icon: 'dataverse'},
+];
+
 const techStack = [
   'Rust', 'TypeScript', 'Python', 'React', 'Tauri',
   'WebAssembly', 'CRDT', 'SIMD (AVX-512)', 'WGPU',
@@ -138,6 +148,19 @@ function Home(): ReactNode {
           <div className="tech-grid">
             {techStack.map((tech) => (
               <div key={tech} className="tech-tag">{tech}</div>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="section-title">Connect</h2>
+          <p className="section-subtitle">Find the Anticloud ecosystem across the web.</p>
+          <div className="connect-grid">
+            {profiles.map((p) => (
+              <a key={p.label} href={p.href} className="connect-link" target="_blank" rel="noopener noreferrer">
+                <span className={`connect-icon connect-icon--${p.icon}`} />
+                <span className="connect-label">{p.label}</span>
+              </a>
             ))}
           </div>
         </section>

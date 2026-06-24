@@ -11,6 +11,8 @@ const config: Config = {
     v4: true,
   },
 
+  themes: ['@docusaurus/theme-mermaid'],
+
   url: 'https://kleinnner.github.io',
   baseUrl: '/Anticloud/',
 
@@ -37,6 +39,7 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {},
       } satisfies Preset.Options,
     ],
   ],
@@ -127,6 +130,69 @@ const config: Config = {
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
       },
     },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:site_name',
+        content: 'Anticloud',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:type',
+        content: 'website',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:width',
+        content: '1200',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:height',
+        content: '630',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:alt',
+        content: 'Anticloud — Sovereign Technology Research — 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:site',
+        content: '@kleinner',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:creator',
+        content: '@kleinner',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'referrer',
+        content: 'no-referrer-when-downgrade',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: 'fKZzY1kZm2nJ0Z5bR0H5tL0X5c5v5b5R0H5tL0X5c5v5b5R0',
+      },
+    },
   ],
 
   stylesheets: [],
@@ -143,6 +209,9 @@ const config: Config = {
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
+    },
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
     },
     navbar: {
       title: '',
@@ -176,13 +245,19 @@ const config: Config = {
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
         },
+        {
+          href: 'https://linkedin.com/in/kleinner',
+          position: 'right',
+          className: 'header-linkedin-link',
+          'aria-label': 'LinkedIn profile',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Ecosystem',
+          title: 'Docs',
           items: [
             {
               label: 'Platform Projects',
@@ -196,15 +271,15 @@ const config: Config = {
               label: 'Published Links',
               to: '/docs/links',
             },
+            {
+              label: 'Introduction',
+              to: '/docs/intro',
+            },
           ],
         },
         {
           title: 'Enterprise',
           items: [
-            {
-              label: 'Architecture',
-              href: 'https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md',
-            },
             {
               label: 'Compliance Matrix',
               href: 'https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md',
@@ -217,22 +292,55 @@ const config: Config = {
               label: 'Glossary',
               href: 'https://github.com/kleinnner/Anticloud/blob/main/GLOSSARY.md',
             },
+            {
+              label: 'Architecture',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Profiles',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/kleinnner/Anticloud',
+              label: 'Main Site',
+              href: 'https://0-1.gg',
             },
             {
-              label: 'Issues',
-              href: 'https://github.com/kleinnner/Anticloud/issues',
+              label: 'LinkedIn',
+              href: 'https://linkedin.com/in/kleinner',
             },
             {
-              label: 'Discussions',
-              href: 'https://github.com/kleinnner/Anticloud/discussions',
+              label: 'DEV',
+              href: 'https://dev.to/kleinner',
+            },
+            {
+              label: 'Hugging Face',
+              href: 'https://huggingface.co/Anticloud',
+            },
+            {
+              label: 'WordPress Blog',
+              href: 'https://anticlouds.wordpress.com',
+            },
+          ],
+        },
+        {
+          title: 'Research',
+          items: [
+            {
+              label: 'Zenodo',
+              href: 'https://zenodo.org/search?q=anticloud',
+            },
+            {
+              label: 'Harvard Dataverse',
+              href: 'https://dataverse.harvard.edu/dataverse/anticloud',
+            },
+            {
+              label: 'Architecture',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md',
+            },
+            {
+              label: 'Published Links',
+              to: '/docs/links',
             },
           ],
         },

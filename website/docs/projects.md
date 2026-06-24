@@ -8,6 +8,58 @@ The Anticloud ecosystem consists of 11 platform projects spanning browsers, oper
 
 Each project contains its own README with architecture diagrams, a docs/ directory with detailed documentation, tutorials, quickstart guides, and FAQs.
 
+## Project Architecture Overview
+
+```mermaid
+flowchart LR
+    subgraph Users
+        U1[Web User]
+        U2[Developer]
+        U3[AI Agent]
+    end
+
+    subgraph Access
+        KA[Kathon<br/>Browser]
+        AK[Anticode<br/>Terminal]
+        IT[inte11ect<br/>Desktop App]
+    end
+
+    subgraph Intelligence
+        AO[api-oss<br/>AI Gateway]
+        KC[kazcade<br/>Compute Engine]
+    end
+
+    subgraph Storage
+        KM[Kamelot<br/>Vector FS]
+        AF[aioss-format<br/>Ledger]
+    end
+
+    subgraph Identity
+        MF[MF+SO<br/>Auth Vault]
+        LI[libern<br/>P2P Comms]
+    end
+
+    subgraph Core
+        KS[Kasteran<br/>Language]
+        SO[sovereign-os<br/>OS]
+    end
+
+    U1 --> KA
+    U2 --> AK
+    U3 --> IT
+    KA --> AO
+    AK --> AO
+    IT --> AO
+    AO --> KC
+    AO --> MF
+    KA --> LI
+    KC --> KM
+    KA --> AF
+    SO --> KS
+    KS --> KC
+    KS --> KM
+```
+
 ## Project List
 
 | # | Project | Docs | Description |
@@ -30,6 +82,7 @@ All projects share:
 - SHA3-256 hash chains for tamper-evident data structures
 - Ed25519 digital signatures for identity and attestation
 - .aioss ledger format for cryptographically-verified event logging
+- Post-quantum readiness with ML-DSA and FALCON signatures
 
 ## Browse on GitHub
 

@@ -1,4 +1,5 @@
 import {ReactNode, useEffect, useState} from 'react';
+import Seo from '@theme/Seo';
 
 function BackToTopArrow() {
   return (
@@ -37,6 +38,13 @@ function Root({children}: {children: ReactNode}): ReactNode {
 
   return (
     <>
+      <Seo />
+      <noscript>
+        <div style={{padding: '2rem', textAlign: 'center', fontFamily: 'sans-serif'}}>
+          <p>Anticloud requires JavaScript to render. Please enable JavaScript in your browser.</p>
+          <p>Visit <a href="https://github.com/kleinnner/Anticloud">our GitHub repository</a> for raw documentation.</p>
+        </div>
+      </noscript>
       {children}
       <div className={`back-to-top${showBackToTop ? ' visible' : ''}`} onClick={scrollToTop} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') scrollToTop(); }} aria-label="Back to top">
         <BackToTopArrow />

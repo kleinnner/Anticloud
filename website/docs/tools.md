@@ -6,6 +6,69 @@ sidebar_label: Developer Tools
 
 The developer tools collection provides 40 utilities organized into four domains, each with full documentation (README, Quickstart, Tutorial, FAQ).
 
+## Tool Categories
+
+```mermaid
+mindmap
+  root((40 Developer Tools))
+    Security & Cryptography
+      Attack Surface Analyzer
+      Credential Vault
+      Encrypt Text
+      Hash Checker
+      JWT Inspector
+      Ledger Verifier
+      Secure Random
+      Threat Modeler
+      TOTP Generator
+    Compliance & Governance
+      Capability Matrix
+      Cert Badges
+      Compliance Checklist
+      Compliance Gap Analyzer
+      Compliance Generator
+      Data Residency Map
+      SSP Generator
+      Supply Chain SBOM
+      Vendor Risk Score
+    Analysis & Planning
+      Architecture Canvas
+      Contract Clause Analyzer
+      Deploy Simulator
+      Deployment Cost Estimator
+      Integration Checker
+      RFP Response
+      ROI Calculator
+      TCO Calculator
+    Developer Utilities
+      Data Local Score
+      Diff Viewer
+      Focus Timer
+      Habit Tracker
+      JSON Explorer
+      Link Cleaner
+      Local Notes
+      Model Benchmark
+      Passphrase Generator
+      Port Protocol Mapper
+      Privacy Scanner
+      Readiness Quiz
+      Regex Playground
+      SQL Formatter
+```
+
+## Tool Pipeline Flow
+
+```mermaid
+flowchart LR
+    A[Security &<br/>Cryptography] -->|Analyzed Threats| B[Compliance &<br/>Governance]
+    B -->|Requirements| C[Analysis &<br/>Planning]
+    C -->|Specifications| D[Developer<br/>Utilities]
+    D -->|Implementation| E[Production<br/>Deployment]
+    A -->|Audit Logs| F[.aioss Ledger]
+    E -->|Monitoring| A
+```
+
 ## Security and Cryptography
 
 | Tool | Description |

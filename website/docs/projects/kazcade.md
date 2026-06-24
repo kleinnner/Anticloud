@@ -4,7 +4,20 @@ sidebar_label: kazcade
 
 # kazcade
 
-Columnar Compute Engine with SIMD linear algebra, quantized neural inference, zero-copy architecture
+CPU-Only Columnar Compute Engine with SIMD-accelerated linear algebra, quantized neural inference, software rasterizer, zero-copy mmap/io_uring architecture
+
+## Compute Pipeline
+
+```mermaid
+flowchart TD
+    Q[Query] -->|Columnar| CS[Column Store]
+    CS -->|SIMD| LA[Linear Algebra<br/>AVX-512]
+    LA -->|Features| QN[Quantized Neural<br/>Inference]
+    QN -->|Results| SR[Software Rasterizer]
+    CS -->|Zero-Copy| MM[mmap/io_uring]
+    MM -->|Direct| DS[Disk Storage]
+    SR -->|Render| O[Output]
+```
 
 ## Documentation
 
