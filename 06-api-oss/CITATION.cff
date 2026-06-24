@@ -1,0 +1,21 @@
+# This CITATION.cff file is the citation metadata for API-OSS.
+# Format: https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use API-OSS in your research, please cite it as below."
+authors:
+  - family-names: "Alpasan"
+    given-names: "L.-K."
+title: "API-OSS: AI Gateway with Multi-Agent Deliberation Councils and Cryptographic Audit Infrastructure"
+version: 1.0.0
+date-released: 2026-06-24
+url: "https://github.com/anticloud/api-oss"
+license: "Apache-2.0"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Alpasan"
+      given-names: "L.-K."
+  title: "API-OSS: Sovereign AI Gateway Architecture with Multi-Agent Deliberation and Tamper-Evident Audit"
+  journal: "The Anticloud Research Corpus"
+  year: 2026

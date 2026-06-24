@@ -7,7 +7,7 @@
 <!-- Breadcrumb: Home -->
 
 ![Anticloud](https://img.shields.io/badge/Anticloud-Sovereign%20Technology%20Research-1d1d1f?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-11-0071e3?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-13-0071e3?style=for-the-badge)
 ![Tools](https://img.shields.io/badge/Tools-40-34c759?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT%20%2F%20Apache%202.0-ff9f0a?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-Rust%20%7C%20Go%20%7C%20TS%20%7C%20JSON-8b5cf6?style=for-the-badge)
@@ -18,7 +18,7 @@
 
 # Anticloud Wiki
 
-Welcome to the Anticloud ecosystem wiki — a unified knowledge base for **11 open-source projects** and **40 developer tools** building sovereign, privacy-first, cryptographically-verified technology.
+Welcome to the Anticloud ecosystem wiki — a unified knowledge base for **13 open-source projects** and **40 developer tools** building sovereign, privacy-first, cryptographically-verified technology.
 
 ## Ecosystem Overview
 
@@ -32,6 +32,7 @@ mindmap
       Kamelot
       API-OSS
       Inte11ect
+      Camus
     Languages & Storage
       Kasteran
       Kazcade
@@ -40,6 +41,8 @@ mindmap
       aioss-format
       Libern
       Sovereign-OS
+    Philosophy
+      DeltaaaS
 ```
 
 ## Project Status Legend
@@ -78,13 +81,15 @@ flowchart LR
 | Section | Description |
 |---------|-------------|
 | [Architecture](Architecture) | System architecture, cluster graphs, data flow |
-| [Projects](Projects) | All 11 platform projects with status badges |
+| [Projects](Projects) | All 13 platform projects with status badges |
 | [Kathon](Kathon) | Cryptographic browser with vision-LLM ad blocking |
 | [Kamelot](Kamelot) | Cloud runtime & AI orchestration |
 | [Kasteran](Kasteran) | Rune-based systems language |
 | [Kazcade](Kazcade) | Vector file system |
 | [API-OSS](API-OSS) | Sovereign API gateway |
 | [Inte11ect](Inte11ect) | AI gateway & model router |
+| [Camus](Camus) | Terminal-native vision-language AI shell |
+| [ΔaaS](DeltaaaS) | Post-cloud superposition computing manifesto |
 | [aioss-format](aioss-format) | Proof-of-usefulness ledger |
 | [Libern](Libern) | Cryptographic library |
 | [Anticode](Anticode) | AI-native IDE |
@@ -103,7 +108,7 @@ flowchart LR
 
 ## Stats
 
-- **11** Platform Projects
+- **13** Platform Projects
 - **40** Developer Tools
 - **4** Domains: Security, Compliance, Analysis, Utilities
 - **1** Cryptographic Foundation: SHA3-256 + Ed25519 + .aioss

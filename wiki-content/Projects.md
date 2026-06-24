@@ -6,13 +6,13 @@
 <!-- Breadcrumb: Home > Projects -->
 
 ![Projects](https://img.shields.io/badge/Section-Projects-0071e3?style=for-the-badge)
-![Total](https://img.shields.io/badge/Total-11%20Projects-34c759?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-13%20Projects-34c759?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
 ![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
 
 # Platform Projects
 
-The Anticloud ecosystem includes 11 platform projects spanning browsers, cloud infrastructure, programming languages, storage systems, and operating systems.
+The Anticloud ecosystem includes 13 platform projects spanning browsers, cloud infrastructure, programming languages, storage systems, operating systems, AI, and philosophical foundations.
 
 ## Project Domain Map
 
@@ -23,9 +23,10 @@ flowchart LR
         ANTICODE[Anticode<br/>![Alpha](https://img.shields.io/badge/-alpha-ff9f0a)]
     end
     subgraph Cloud[Cloud & AI]
-        KAMELOT[Kamelot<br/>![Alpha](https://img.shields.io/badge/-alpha-ff9f0a)]
+        KAMELOT[Kamelot<br/>![Beta](https://img.shields.io/badge/-beta-0071e3)]
         APIOSS[API-OSS<br/>![Stable](https://img.shields.io/badge/-stable-34c759)]
         INTE11ECT[Inte11ect<br/>![Alpha](https://img.shields.io/badge/-alpha-ff9f0a)]
+        CAMUS[Camus<br/>![Experimental](https://img.shields.io/badge/-experimental-ff3b30)]
     end
     subgraph Storage[Storage & Search]
         KAZCADE[Kazcade<br/>![Experimental](https://img.shields.io/badge/-experimental-ff3b30)]
@@ -36,6 +37,9 @@ flowchart LR
         SOVEREIGNOS[Sovereign-OS<br/>![Experimental](https://img.shields.io/badge/-experimental-ff3b30)]
         AIOSS[aioss-format<br/>![Stable](https://img.shields.io/badge/-stable-34c759)]
         LIBERN[Libern<br/>![Stable](https://img.shields.io/badge/-stable-34c759)]
+    end
+    subgraph Philosophy[Philosophy]
+        DAAS[ΔaaS<br/>![Research](https://img.shields.io/badge/-research-8b5cf6)]
     end
 ```
 
@@ -50,6 +54,8 @@ pie showData
     "JSON" : 1
     "Linux" : 1
     "Kasteran" : 1
+    "Python" : 1
+    "Manifesto" : 1
 ```
 
 ```mermaid
@@ -58,7 +64,8 @@ pie showData
     "Stable" : 3
     "Beta" : 1
     "Alpha" : 4
-    "Experimental" : 3
+    "Experimental" : 4
+    "Research" : 1
 ```
 
 ## ![Stable](https://img.shields.io/badge/status-stable-34c759) Stable Projects
@@ -89,8 +96,15 @@ pie showData
 | Project | Status | Description | Language |
 |---------|--------|-------------|----------|
 | [Kazcade](Kazcade) | ![Experimental](https://img.shields.io/badge/-experimental-ff3b30) | Vector file system | Rust |
+| [Camus](Camus) | ![Experimental](https://img.shields.io/badge/-experimental-ff3b30) | Terminal-native vision-language AI shell | Python |
 | [MFSO](MFSO) | ![Experimental](https://img.shields.io/badge/-experimental-ff3b30) | Multi-Factor Search Oracle | Rust |
 | [Sovereign-OS](Sovereign-OS) | ![Experimental](https://img.shields.io/badge/-experimental-ff3b30) | Privacy-first operating system | Linux |
+
+## ![Research](https://img.shields.io/badge/status-research-8b5cf6) Research Projects
+
+| Project | Status | Description | Language |
+|---------|--------|-------------|----------|
+| [ΔaaS](DeltaaaS) | ![Research](https://img.shields.io/badge/-research-8b5cf6) | Post-cloud superposition computing manifesto | Manifesto |
 
 ## Inter-Project Dependencies
 
