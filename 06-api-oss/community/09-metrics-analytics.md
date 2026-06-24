@@ -1,0 +1,151 @@
+---
+title: "Community Playbook 9: Metrics & Analytics"
+sidebar_position: 9
+description: "Track and analyze community health and growth."
+tags: [community]
+---
+
+# Community Playbook 9: Metrics & Analytics
+
+## Overview
+
+Track and analyze community health and growth.
+
+## Key Metrics
+
+### Growth Metrics
+
+```yaml
+Total members:
+  - Discord: active members (DAU/MAU ratio)
+  - GitHub: stars, watchers, forks
+  - Newsletter: subscribers
+
+Growth rate:
+  - New members per week
+  - MoM growth (target: 10–20%)
+  - Traffic sources (where do members come from?)
+
+Retention:
+  - Week-1 retention (target: >40%)
+  - Month-1 retention (target: >20%)
+  - Month-3 retention (target: >10%)
+```
+
+### Engagement Metrics
+
+```yaml
+Discord:
+  - Messages per day (target: >200)
+  - Active channels (top 5 by volume)
+  - @mentions of support team (track support load)
+  - Reaction count (community positivity)
+
+GitHub:
+  - Issues opened/closed per week
+  - PRs submitted/merged per week
+  - Mean time to first response (target: <2 hours)
+  - Mean time to merge (target: <48 hours for docs)
+
+Events:
+  - Attendance rate (registered vs showed)
+  - Repeat attendance rate
+  - NPS (post-event survey)
+```
+
+### Contribution Metrics
+
+```yaml
+Total contributors (lifetime):
+  - First-time contributors per month
+  - Returning contributors (%) 
+  - Active contributors (merged at least 1 PR in last 90 days)
+  - Core contributors (merged 10+ PRs)
+
+Contribution types:
+  - Code: feature, bug fix, test
+  - Documentation
+  - Community support (answers in Discord)
+  - Plugin development
+
+Conversion funnel:
+  Visitor → Discord member → First PR → 5 PRs → Maintainer
+  Measure: % conversion at each step
+```
+
+### Satisfaction Metrics
+
+```yaml
+Community health score (composite):
+  - % of members who feel welcome (survey)
+  - % who would recommend (NPS)
+  - % who feel their contributions are valued
+
+Track:
+  - Survey (biannual): 5-question community health survey
+  - Sentiment analysis: Discord message sentiment (positive/negative)
+  - Churn interviews: why did someone leave?
+```
+
+## Dashboard Template
+
+```yaml
+Daily:
+  - New members
+  - Messages sent
+  - PRs + issues
+  - Support tickets
+
+Weekly:
+  - Active members (DAU/MAU)
+  - New contributors
+  - Engagement by channel
+  - Newsletter open rate
+
+Monthly:
+  - Growth metrics vs targets
+  - Contributor funnel
+  - Event attendance + NPS
+  - Community health score
+```
+
+## Tools
+
+| Tool | Purpose | Cost |
+|------|---------|------|
+| Orbit | Community analytics platform | Free/$99/mo |
+| Statbot | Discord analytics | Free/$10/mo |
+| GitHub Insights | Repository metrics | Free |
+| Google Analytics | Website/blog traffic | Free |
+| Typeform | Community surveys | Free/$25/mo |
+| Metabase | Custom dashboards | Free |
+
+## Review Cadence
+
+```yaml
+Weekly (15 min):
+  - Review weekly dashboard
+  - Identify anomalies (spikes/drops)
+  - Plan one improvement for next week
+
+Monthly (1 hour):
+  - Review all metrics vs targets
+  - Analyze churned members (why?)
+  - Adjust community strategy
+  - Report to core team
+
+Quarterly (2 hours):
+  - Deep dive: contributor funnel analysis
+  - Survey results review
+  - Set next quarter's goals
+  - Strategy refresh
+```
+
+## See Also
+
+Related community, contributing, and governance documentation.
+
+- [Community Overview](../community/01-building-community.md)
+- [Contributing Guide](../contributing/01-contributing-overview.md)
+- [Community Projects](../community-projects/01-community-projects-overview.md)
+- [Governance](../governance/01-governance-overview.md)

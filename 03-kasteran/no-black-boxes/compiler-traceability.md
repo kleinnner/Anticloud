@@ -1,0 +1,183 @@
+<!--
+KASTERAN* — The Last Programming Language
+© Lois-Kleinner & 0-1.gg 2026. All rights reserved.
+
+ ▄▄   ▄▄▄                                           ▄     
+ ██  ██▀                         ██              ▄▄ █ ▄▄  
+ ██▄██      ▄█████▄  ▄▄█████▄  ███████    ▄████▄    ██▄████   ▄█████▄  ██▄████▄   █████   
+ █████      ▀ ▄▄▄██  ██▄▄▄▄ ▀    ██      ██▄▄▄▄██   ██▀       ▀ ▄▄▄██  ██▀   ██  ▀▀ █ ▀▀  
+ ██  ██▄   ▄██▀▀▀██   ▀▀▀▀██▄    ██      ██▀▀▀▀▀▀   ██       ▄██▀▀▀██  ██    ██     ▀     
+ ██   ██▄  ██▄▄▄███  █▄▄▄▄▄██    ██▄▄▄   ▀██▄▄▄▄█   ██       ██▄▄▄███  ██    ██           
+ ▀▀    ▀▀   ▀▀▀▀ ▀▀   ▀▀▀▀▀▀      ▀▀▀▀     ▀▀▀▀▀    ▀▀        ▀▀▀▀ ▀▀  ▀▀    ▀▀           
+-->
+
+# Kasteran* — Compiler Traceability
+© Lois-Kleinner & 0-1.gg 2026
+
+## Overview
+
+Compiler traceability means that every transformation the compiler makes from source code to executable can be traced, logged, and verified. The Kasteran* compiler logs every transformation, supports deterministic builds, and provides detailed compilation traces for auditing.
+
+## Compilation Pipeline
+
+The Kasteran* compilation pipeline consists of well-defined stages:
+
+```
+Source → Lexing → Parsing → HIR → MIR → LIR → Machine Code
+                                ↓      ↓       ↓
+                           Type Check   Optimization   Code Gen
+```
+
+Each stage is logged and traceable.
+
+## Transformation Logging
+
+The compiler logs every transformation:
+
+```
+kasteran build --trace
+```
+
+This produces a trace file containing:
+
+```
+Stage: Lexing
+Input: "fn add(a: i32, b: i32) -> i32 { a + b }"
+Output: [Token::Fn, Token::Ident("add"), ...]
+Duration: 0.23ms
+Optimizations: none
+
+Stage: Type Checking
+Input: HIR for function "add"
+Output: Type-checked HIR
+Decisions:
+  - Parameter "a" inferred as i32
+  - Parameter "b" inferred as i32
+  - Return type i32 verified
+  - Binary operation "+" valid for (i32, i32) → i32
+Errors: none
+Warnings: none
+```
+
+## Intermediate Representations
+
+Each IR stage is serializable and inspectable:
+
+### HIR (High-Level IR)
+```
+let hir = compiler.hir()
+println(hir)
+// fn add(a: i32, b: i32) -> i32 {
+//   return (add (a, b))
+// }
+```
+
+### MIR (Mid-Level IR)
+```
+let mir = compiler.mir()
+println(mir)
+// function add(a: i32, b: i32) -> i32 {
+//   _0 = a + b
+//   return _0
+// }
+```
+
+### LIR (Low-Level IR)
+```
+let lir = compiler.lir()
+println(lir)
+// add:
+//   mov eax, edi
+//   add eax, esi
+//   ret
+```
+
+## Optimization Logging
+
+Every optimization is logged with its rationale:
+
+```
+Optimization: Inlining
+Function: add_called_from_main
+Inline target: add
+Benefit: 75% call overhead eliminated
+Result: Direct computation without function call
+
+Optimization: Constant propagation
+Expression: 2 + 2 → 4
+Reason: Both operands are compile-time constants
+Impact: Eliminated runtime computation
+```
+
+## Deterministic Builds
+
+The compiler produces deterministic output:
+
+### Determinism Requirements
+- Same source → same binary (bit-for-bit identical)
+- Independent of build machine
+- Independent of build time
+- Independent of file system ordering
+
+### Determinism Mechanisms
+```
+determinism:
+  - debug_info_stripping: strip non-deterministic metadata
+  - path_normalization: normalize file paths
+  - timestamps: zero or constant timestamps
+  - random_seeds: fixed seeds
+  - parallelism: deterministic scheduling
+  - hash_order: sorted hash maps
+```
+
+## Build Artifact Verification
+
+```
+kasteran build --verify
+```
+
+This command:
+- Records all compiler inputs and outputs
+- Hashes each intermediate representation
+- Verifies the hash chain is complete
+- Signs the build manifest
+
+## Trace Visualization
+
+The trace can be visualized:
+
+```
+kasteran trace --visualize build.trace
+```
+
+This generates a graph showing:
+- Each compilation stage
+- Transformations applied
+- Time spent in each stage
+- Optimization decisions
+- Error and warning locations
+
+## Audit Trail
+
+Every build produces an audit trail:
+
+```
+build_audit:
+  timestamp: 2026-06-19T10:30:00Z
+  compiler_version: 1.0.0
+  source_hash: sha256:abc123
+  config_hash: sha256:def456
+  dependency_hashes: [...]
+  stages:
+    - name: lexing
+      input_hash: ...
+      output_hash: ...
+      duration: 0.23ms
+    - name: parsing
+      ...
+  binary_hash: sha256:xyz789
+```
+
+## Conclusion
+
+Kasteran* compiler traceability ensures that every transformation from source to executable is logged, verifiable, and auditable. This eliminates black boxes in the compilation process and provides confidence in the integrity of the generated code.
