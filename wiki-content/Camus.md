@@ -9,6 +9,8 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-34c759?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache%202.0-ff9f0a?style=for-the-badge)
 ![Model](https://img.shields.io/badge/Model-Qwen2--VL--2B-8b5cf6?style=for-the-badge)
+[![Hugging Face](https://img.shields.io/badge/Models-HuggingFace-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Anticloud)
+[![Zenodo](https://img.shields.io/badge/Research-Zenodo-1682D4?style=flat-square&logo=zenodo)](https://zenodo.org/search?q=anticloud)
 
 # Camus — Terminal-Native Vision-Language AI Shell
 
@@ -105,3 +107,36 @@ Camus is supported by 20 research papers covering confidence scoring, contradict
 ---
 
 > 📖 **Full documentation**: [Home](Home) · [Projects](Projects) · [Architecture](Architecture) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap)
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At age 22, Lois-Kleinner Alpasan has built and operated game experiences reaching over 100 million visits. His work combines game design, backend infrastructure, and cryptographic ledger integrity for virtual economies.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/SZJMZA
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

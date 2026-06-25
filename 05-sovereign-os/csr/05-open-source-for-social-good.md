@@ -6,7 +6,7 @@ Open source software has the power to bridge digital divides, enable educational
 
 ## 1. Introduction
 
-The 01s Sovereign OS is more than a technical project — it is a social mission. By providing a completely free, high-quality operating system that runs on older hardware, the project aims to make computing accessible to those who cannot afford constant hardware upgrades.
+The 01s Sovereign OS is more than a technical project ï¿½ it is a social mission. By providing a completely free, high-quality operating system that runs on older hardware, the project aims to make computing accessible to those who cannot afford constant hardware upgrades.
 
 ### Core Social Principles
 
@@ -81,7 +81,7 @@ ansible-playbook school-lab-setup.yml
 
 | University | Program | Students/year | Focus |
 |------------|---------|---------------|-------|
-| University of São Paulo | Computer Science course projects | 200 | OS development |
+| University of Sï¿½o Paulo | Computer Science course projects | 200 | OS development |
 | TU Berlin | Research projects | 50 | Sustainable computing |
 | University of Nairobi | Open source lab | 150 | Digital inclusion |
 | Indian Institute of Technology | Capstone projects | 100 | System optimization |
@@ -549,11 +549,11 @@ echo "training:password" | chpasswd
 | Myth | Reality |
 |------|---------|
 | "Open source software is too complex for non-technical users" | The 01s desktop environment (Xfce) is designed for users of all skill levels, with familiar interfaces and extensive documentation |
-| "Refurbished hardware is unreliable" | With proper quality control, refurbished systems have <5% failure rate in the first year — comparable to entry-level new hardware |
+| "Refurbished hardware is unreliable" | With proper quality control, refurbished systems have <5% failure rate in the first year ï¿½ comparable to entry-level new hardware |
 | "Digital inclusion programs don't scale" | 01s deployment model is designed for scale: standardized configurations, automated installation, and community training creates a self-sustaining ecosystem |
 | "Free software means no support" | 01s provides community support, documentation, paid support tiers, and a global network of trained local technicians |
 | "Old hardware can't run modern applications" | 01s runs Firefox, LibreOffice, and most modern applications on hardware from 2008-2012 with acceptable performance |
-| "Translation is enough for localization" | True localization requires culturally appropriate content, local support networks, and integration with local education systems — beyond just language translation |
+| "Translation is enough for localization" | True localization requires culturally appropriate content, local support networks, and integration with local education systems ï¿½ beyond just language translation |
 
 ### 16.2 Addressing Skepticism
 
@@ -561,7 +561,7 @@ echo "training:password" | chpasswd
 |-------------------|------------------------|
 | "Can refurbished computers really compete with new ones?" | A 2012 Dell OptiPlex with SSD upgrade runs 01s with performance equivalent to a $300 new Chromebook |
 | "Do users really want old computers?" | User satisfaction surveys across deployments: 85-92% satisfaction with 01s on refurbished hardware |
-| "Isn't this just dumping e-waste on developing countries?" | No — programs include support, training, and responsible end-of-life planning. Devices are certified functional and deployment is accompanied by ongoing partnership |
+| "Isn't this just dumping e-waste on developing countries?" | No ï¿½ programs include support, training, and responsible end-of-life planning. Devices are certified functional and deployment is accompanied by ongoing partnership |
 | "Can open source really create jobs?" | 01s ecosystem has created 200+ jobs in refurbishment, training, support, and development across 78 countries |
 
 ## 17. Comparison with Alternatives
@@ -639,3 +639,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+22-year-old Lois-Kleinner Alpasan builds across AI, media, infrastructure, and design, maintaining 11+ active projects spanning software, hardware, and creative works, all open-source.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/FDEBAB
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

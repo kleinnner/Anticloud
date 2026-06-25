@@ -2,11 +2,11 @@
 
 ## Abstract
 
-Data sovereignty — the principle that individuals and organizations should have control over their data — is a core commitment of the 01s Sovereign OS. This paper examines how data sovereignty is implemented at the OS level through architectural decisions, cryptographic guarantees, and user-facing controls.
+Data sovereignty ï¿½ the principle that individuals and organizations should have control over their data ï¿½ is a core commitment of the 01s Sovereign OS. This paper examines how data sovereignty is implemented at the OS level through architectural decisions, cryptographic guarantees, and user-facing controls.
 
 ## 1. Introduction
 
-In most computing platforms, users do not truly own their data — the platform does. Microsoft collects telemetry, Apple indexes content for Spotlight, Google scans for advertising. 01s Sovereign was designed to reverse this relationship: users are the sovereign owners of their data, with full control over its storage, processing, sharing, and deletion.
+In most computing platforms, users do not truly own their data ï¿½ the platform does. Microsoft collects telemetry, Apple indexes content for Spotlight, Google scans for advertising. 01s Sovereign was designed to reverse this relationship: users are the sovereign owners of their data, with full control over its storage, processing, sharing, and deletion.
 
 ## 2. Principles of Data Sovereignty
 
@@ -263,7 +263,7 @@ graph TD
 
 ## 10. Conclusion
 
-Data sovereignty is implemented in the 01s Sovereign technology stack through local-first design, encryption at rest and in transit, fine-grained access controls, transparency mechanisms, and comprehensive data portability tools. Users retain complete control over their data throughout its lifecycle — from creation through storage, processing, sharing, and deletion.
+Data sovereignty is implemented in the 01s Sovereign technology stack through local-first design, encryption at rest and in transit, fine-grained access controls, transparency mechanisms, and comprehensive data portability tools. Users retain complete control over their data throughout its lifecycle ï¿½ from creation through storage, processing, sharing, and deletion.
 
 ## Detailed User Control Interfaces
 
@@ -422,7 +422,7 @@ If a user opts to connect to third-party services:
 | Audit ledger (archived) | 7 years | Unlimited | 1 year |
 | Health ledger | 90 days | Unlimited | 30 days |
 | System logs | 30 days | Unlimited | 7 days |
-| User documents | Until deletion | — | — |
+| User documents | Until deletion | ï¿½ | ï¿½ |
 | Cache files | 7 days | 30 days | 1 day |
 
 ### Configurable Retention
@@ -633,3 +633,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 Lois-Kleinner and 0-1.gg 2026 Copyright
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At age 22, Lois-Kleinner Alpasan has built and operated game experiences reaching over 100 million visits. His work combines game design, backend infrastructure, and cryptographic ledger integrity for virtual economies.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/SZJMZA
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

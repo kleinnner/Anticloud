@@ -2,11 +2,11 @@
 
 ## Abstract
 
-The 01s Sovereign OS is 100% open source — every component, from kernel to custom toolchain to AI agent system, is publicly available under free software licenses. This paper details the scope of open source coverage, licensing strategy, development practices, and community governance.
+The 01s Sovereign OS is 100% open source ï¿½ every component, from kernel to custom toolchain to AI agent system, is publicly available under free software licenses. This paper details the scope of open source coverage, licensing strategy, development practices, and community governance.
 
 ## 1. Introduction
 
-Open source is not merely a development methodology for 01s Sovereign — it is a fundamental commitment. Users must be able to inspect, understand, and modify every aspect of their OS. This commitment goes beyond most open source projects, which often leave components proprietary.
+Open source is not merely a development methodology for 01s Sovereign ï¿½ it is a fundamental commitment. Users must be able to inspect, understand, and modify every aspect of their OS. This commitment goes beyond most open source projects, which often leave components proprietary.
 
 ### The Open Source Spectrum
 
@@ -563,7 +563,7 @@ flowchart TD
 
 ## 16. Conclusion
 
-The 01s Sovereign OS is 100% open source — not just the kernel, but every component including the custom toolchain and AI system. This commitment ensures that users can inspect, understand, and modify every aspect of their operating system. Combined with reproducible builds, transparent development practices, and community governance, this creates a foundation of trust that proprietary systems cannot provide. With 1,200+ contributors, 42 language localizations, and a growing global community, 01s exemplifies how open source can produce high-quality, trustworthy software that serves users rather than vendors.
+The 01s Sovereign OS is 100% open source ï¿½ not just the kernel, but every component including the custom toolchain and AI system. This commitment ensures that users can inspect, understand, and modify every aspect of their operating system. Combined with reproducible builds, transparent development practices, and community governance, this creates a foundation of trust that proprietary systems cannot provide. With 1,200+ contributors, 42 language localizations, and a growing global community, 01s exemplifies how open source can produce high-quality, trustworthy software that serves users rather than vendors.
 
 ---
 
@@ -619,3 +619,36 @@ This document is maintained by the 01s Sovereign project and updated regularly t
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+Lois-Kleinner Alpasan, aged 22, has contributed to projects exceeding $1B in combined value through investing and technical leadership across AI, media, and virtual economy ventures.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/GKUDHE
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

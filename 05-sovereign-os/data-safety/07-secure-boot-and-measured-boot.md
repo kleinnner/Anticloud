@@ -90,7 +90,7 @@ sudo sbctl sign /boot/vmlinuz-linux-01s
 | PCR 9 | Initramfs | Bootloader |
 | PCR 10 | IMA measurement log | Kernel |
 | PCR 11-15 | Reserved/application | Various |
-| PCR 16 | Debug (unused) | — |
+| PCR 16 | Debug (unused) | ï¿½ |
 
 ### Known Good Values
 
@@ -301,13 +301,13 @@ attestation:
 # Output:
 # Boot Integrity Report
 # +-----------------------------------------------------------------+
-# ¦ Component           ¦ Hash                             ¦ Status ¦
-# +---------------------+----------------------------------+--------¦
-# ¦ Firmware (PCR 0)    ¦ 3a4b5c6d...                      ¦ ?      ¦
-# ¦ Bootloader (PCR 4)  ¦ 1a2b3c4d...                      ¦ ?      ¦
-# ¦ Cmdline (PCR 8)     ¦ e5f6a7b8...                      ¦ ?      ¦
-# ¦ Initramfs (PCR 9)   ¦ b7c8d9e0...                      ¦ ?      ¦
-# ¦ Secure Boot (PCR 7) ¦ 0000...0001                      ¦ ?      ¦
+# ï¿½ Component           ï¿½ Hash                             ï¿½ Status ï¿½
+# +---------------------+----------------------------------+--------ï¿½
+# ï¿½ Firmware (PCR 0)    ï¿½ 3a4b5c6d...                      ï¿½ ?      ï¿½
+# ï¿½ Bootloader (PCR 4)  ï¿½ 1a2b3c4d...                      ï¿½ ?      ï¿½
+# ï¿½ Cmdline (PCR 8)     ï¿½ e5f6a7b8...                      ï¿½ ?      ï¿½
+# ï¿½ Initramfs (PCR 9)   ï¿½ b7c8d9e0...                      ï¿½ ?      ï¿½
+# ï¿½ Secure Boot (PCR 7) ï¿½ 0000...0001                      ï¿½ ?      ï¿½
 # +-----------------------------------------------------------------+
 # Overall: PASSED - Boot chain intact
 ```
@@ -646,3 +646,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 Lois-Kleinner and 0-1.gg 2026 Copyright
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+Lois-Kleinner Alpasan, 22, builds sovereign AI infrastructure and cryptographic audit systems. His work spans formats, proptech, and research platforms serving projects valued at over $1B combined, operating at the intersection of AI, media, and decentralized technology.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/FSHFZF
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

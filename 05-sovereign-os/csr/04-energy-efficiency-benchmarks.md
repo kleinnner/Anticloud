@@ -43,8 +43,8 @@ Standardized, reproducible benchmarks for OS-level energy efficiency remain rare
 
 | Parameter | Value |
 |-----------|-------|
-| Room temperature | 22°C ± 1°C |
-| Humidity | 45% ± 5% |
+| Room temperature | 22ï¿½C ï¿½ 1ï¿½C |
+| Humidity | 45% ï¿½ 5% |
 | Ambient light | Controlled (no solar heating) |
 | Power source | Line power (for AC measurements) |
 | Warm-up period | 30 minutes at idle |
@@ -200,10 +200,10 @@ perf stat -e power/energy-cores/,power/energy-pkg/,power/energy-ram/ ./benchmark
 
 | Workload | 01s Sovereign | Windows 11 | Reduction |
 |----------|--------------|------------|-----------|
-| Idle (CPU temp) | 35°C | 42°C | 7°C |
-| Light (CPU temp) | 42°C | 52°C | 10°C |
-| Medium (CPU temp) | 55°C | 65°C | 10°C |
-| Heavy (CPU temp) | 72°C | 80°C | 8°C |
+| Idle (CPU temp) | 35ï¿½C | 42ï¿½C | 7ï¿½C |
+| Light (CPU temp) | 42ï¿½C | 52ï¿½C | 10ï¿½C |
+| Medium (CPU temp) | 55ï¿½C | 65ï¿½C | 10ï¿½C |
+| Heavy (CPU temp) | 72ï¿½C | 80ï¿½C | 8ï¿½C |
 
 Lower temperatures reduce cooling requirements in data centers and office environments, extending hardware lifespan and reducing HVAC energy consumption.
 
@@ -490,15 +490,15 @@ sudo systemctl start energy-monitor.timer
 | Myth | Reality |
 |------|---------|
 | "Linux distributions all have similar power consumption" | Our testing shows up to 25% variation between distributions due to kernel version, services, drivers, and default configuration |
-| "Idle power doesn't matter — most time is spent active" | Typical office PCs are idle 60-80% of the time; idle efficiency is the dominant factor in total energy consumption |
+| "Idle power doesn't matter ï¿½ most time is spent active" | Typical office PCs are idle 60-80% of the time; idle efficiency is the dominant factor in total energy consumption |
 | "Power management is solely a hardware function" | OS power management policies determine whether hardware can enter low-power states; a power-hungry OS can prevent C-state transitions |
 | "Energy-efficient OS means slower performance" | 01s achieves both: higher efficiency and comparable or better throughput through algorithmic optimization |
 | "Battery life is only about hardware" | OS is the primary determinant: same hardware can see 50-100% battery life variation across different operating systems |
-| "Energy savings from OS are negligible" | For a 1000-device fleet, 01s saves 624 MWh/year — equivalent to $62,400 at $0.10/kWh |
+| "Energy savings from OS are negligible" | For a 1000-device fleet, 01s saves 624 MWh/year ï¿½ equivalent to $62,400 at $0.10/kWh |
 
 ### 17.2 Energy Efficiency vs. Performance
 
-The assumption that energy efficiency requires performance sacrifice is false. Energy efficiency and performance are positively correlated when optimization focuses on eliminating unnecessary work — an idle CPU consumes less energy and is also faster for the tasks it performs because it isn't wasting cycles.
+The assumption that energy efficiency requires performance sacrifice is false. Energy efficiency and performance are positively correlated when optimization focuses on eliminating unnecessary work ï¿½ an idle CPU consumes less energy and is also faster for the tasks it performs because it isn't wasting cycles.
 
 ## 17a. Implementation Guide for Energy Efficiency Optimization
 
@@ -649,3 +649,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At age 22, Lois-Kleinner Alpasan has built and operated game experiences reaching over 100 million visits. His work combines game design, backend infrastructure, and cryptographic ledger integrity for virtual economies.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/YMJKOG
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

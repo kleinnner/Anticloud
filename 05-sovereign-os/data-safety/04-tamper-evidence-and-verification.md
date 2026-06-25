@@ -6,7 +6,7 @@ Tamper evidence is the property that unauthorized modifications to data can be d
 
 ## 1. Introduction
 
-Trust in a computing system depends on the ability to verify that data has not been tampered with. The 01s Sovereign OS provides tools and procedures for verification at multiple levels — from individual files to the entire system state — with cryptographic certainty.
+Trust in a computing system depends on the ability to verify that data has not been tampered with. The 01s Sovereign OS provides tools and procedures for verification at multiple levels ï¿½ from individual files to the entire system state ï¿½ with cryptographic certainty.
 
 ## 2. Levels of Tamper Evidence
 
@@ -256,31 +256,31 @@ Meaning: Cryptographic integrity failure detected. System may be compromised.
 
 ### Daily Operations
 
-- [ ] Run `01s-ledger verify --incremental` — automated
-- [ ] Check integrity dashboard — 5 minutes
-- [ ] Review critical alerts — 10 minutes
-- [ ] Verify backup integrity — automated
+- [ ] Run `01s-ledger verify --incremental` ï¿½ automated
+- [ ] Check integrity dashboard ï¿½ 5 minutes
+- [ ] Review critical alerts ï¿½ 10 minutes
+- [ ] Verify backup integrity ï¿½ automated
 
 ### Weekly Operations
 
-- [ ] Run full ledger verification — automated
-- [ ] Review permission changes — 15 minutes
-- [ ] Check certificate expiration — 5 minutes
-- [ ] Verify backup integrity — automated
+- [ ] Run full ledger verification ï¿½ automated
+- [ ] Review permission changes ï¿½ 15 minutes
+- [ ] Check certificate expiration ï¿½ 5 minutes
+- [ ] Verify backup integrity ï¿½ automated
 
 ### Monthly Operations
 
-- [ ] Full filesystem integrity scan — automated
-- [ ] Compliance report generation — 30 minutes
-- [ ] Security policy review — 1 hour
-- [ ] Third-party evidence collection — 2 hours
+- [ ] Full filesystem integrity scan ï¿½ automated
+- [ ] Compliance report generation ï¿½ 30 minutes
+- [ ] Security policy review ï¿½ 1 hour
+- [ ] Third-party evidence collection ï¿½ 2 hours
 
 ### Quarterly Operations
 
-- [ ] Third-party penetration test — 2 days
-- [ ] Disaster recovery drill — 1 day
-- [ ] Full audit evidence package — 1 week
-- [ ] Risk assessment update — 1 week
+- [ ] Third-party penetration test ï¿½ 2 days
+- [ ] Disaster recovery drill ï¿½ 1 day
+- [ ] Full audit evidence package ï¿½ 1 week
+- [ ] Risk assessment update ï¿½ 1 week
 
 ## 9. Comparative Analysis
 
@@ -297,7 +297,7 @@ Meaning: Cryptographic integrity failure detected. System may be compromised.
 
 ## 10. Conclusion
 
-Tamper evidence is a foundational requirement for trustworthy computing. The 01s Sovereign OS provides multiple layers of integrity verification with cryptographic certainty — from individual file hashes through the .aioss ledger chain to hardware-based measured boot and remote attestation.
+Tamper evidence is a foundational requirement for trustworthy computing. The 01s Sovereign OS provides multiple layers of integrity verification with cryptographic certainty ï¿½ from individual file hashes through the .aioss ledger chain to hardware-based measured boot and remote attestation.
 
 The verification tools and procedures documented here enable users, administrators, and third-party auditors to independently verify system integrity at any level of granularity, from a single entry to the complete system state.
 
@@ -358,14 +358,14 @@ pacman-key --verify /var/lib/pacman/sync/*.db.sig
 # Output:
 # Health Summary (last 7 days)
 # +---------------------------------------------------+
-# ¦ Metric                      ¦ Average  ¦ Peak     ¦
-# +-----------------------------+----------+----------¦
-# ¦ CPU usage                   ¦ 12.5%    ¦ 85.2%    ¦
-# ¦ Memory usage                ¦ 2.4 GB   ¦ 6.8 GB   ¦
-# ¦ Disk I/O                    ¦ 15 MB/s  ¦ 450 MB/s ¦
-# ¦ Network traffic              ¦ 2 KB/s   ¦ 1.2 MB/s ¦
-# ¦ Service failures            ¦ 0/day    ¦ 2/day    ¦
-# ¦ Integrity check failures    ¦ 0        ¦ 0        ¦
+# ï¿½ Metric                      ï¿½ Average  ï¿½ Peak     ï¿½
+# +-----------------------------+----------+----------ï¿½
+# ï¿½ CPU usage                   ï¿½ 12.5%    ï¿½ 85.2%    ï¿½
+# ï¿½ Memory usage                ï¿½ 2.4 GB   ï¿½ 6.8 GB   ï¿½
+# ï¿½ Disk I/O                    ï¿½ 15 MB/s  ï¿½ 450 MB/s ï¿½
+# ï¿½ Network traffic              ï¿½ 2 KB/s   ï¿½ 1.2 MB/s ï¿½
+# ï¿½ Service failures            ï¿½ 0/day    ï¿½ 2/day    ï¿½
+# ï¿½ Integrity check failures    ï¿½ 0        ï¿½ 0        ï¿½
 # +---------------------------------------------------+
 ```
 
@@ -379,13 +379,13 @@ pacman-key --verify /var/lib/pacman/sync/*.db.sig
 # Cross-Chain Consistency Report
 # Session: sess_a1b2c3d4
 # +-------------------------------------------------------------------+
-# ¦ Check              ¦ Main Ledger      ¦ Health Ledger    ¦ Status ¦
-# +--------------------+------------------+------------------+--------¦
-# ¦ Session ID         ¦ sess_a1b2c3d4    ¦ sess_a1b2c3d4    ¦ ?      ¦
-# ¦ Entry count         ¦ 1,427            ¦ 1,400            ¦ ?      ¦
-# ¦ Time range          ¦ 8h - 14:23       ¦ 8h - 14:22       ¦ ?      ¦
-# ¦ Genesis consistency ¦ a000...          ¦ a000...          ¦ ?      ¦
-# ¦ Head consistency    ¦ e444...          ¦ e444...          ¦ ?      ¦
+# ï¿½ Check              ï¿½ Main Ledger      ï¿½ Health Ledger    ï¿½ Status ï¿½
+# +--------------------+------------------+------------------+--------ï¿½
+# ï¿½ Session ID         ï¿½ sess_a1b2c3d4    ï¿½ sess_a1b2c3d4    ï¿½ ?      ï¿½
+# ï¿½ Entry count         ï¿½ 1,427            ï¿½ 1,400            ï¿½ ?      ï¿½
+# ï¿½ Time range          ï¿½ 8h - 14:23       ï¿½ 8h - 14:22       ï¿½ ?      ï¿½
+# ï¿½ Genesis consistency ï¿½ a000...          ï¿½ a000...          ï¿½ ?      ï¿½
+# ï¿½ Head consistency    ï¿½ e444...          ï¿½ e444...          ï¿½ ?      ï¿½
 # +-------------------------------------------------------------------+
 # Overall: CONSISTENT
 ```
@@ -651,3 +651,36 @@ sha3sum /evidence_package.tar.gz > /evidence_package.tar.gz.sha3
 ---
 
 Lois-Kleinner and 0-1.gg 2026 Copyright
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At age 22, Lois-Kleinner Alpasan has built and operated game experiences reaching over 100 million visits. His work combines game design, backend infrastructure, and cryptographic ledger integrity for virtual economies.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/GKUDHE
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

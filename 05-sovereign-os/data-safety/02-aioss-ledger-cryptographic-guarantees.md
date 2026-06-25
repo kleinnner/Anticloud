@@ -6,7 +6,7 @@ The .aioss audit ledger is the cornerstone of data safety in the 01s Sovereign (
 
 ## 1. Introduction
 
-The .aioss ledger is more than a log — it is a cryptographic structure that provides mathematically verifiable guarantees about the integrity and authenticity of system records. Any party with the ledger file and appropriate tools can verify that no entries have been tampered with, the order of entries has not been altered, the system state at any point is verifiable, and the ledger was created by the asserting party.
+The .aioss ledger is more than a log ï¿½ it is a cryptographic structure that provides mathematically verifiable guarantees about the integrity and authenticity of system records. Any party with the ledger file and appropriate tools can verify that no entries have been tampered with, the order of entries has not been altered, the system state at any point is verifiable, and the ledger was created by the asserting party.
 
 ## 2. SHA3-256 Hash Chain
 
@@ -24,7 +24,7 @@ SHA3-256 was selected over alternatives for NIST standardization (regulatory acc
 | SHAKE256 | Variable | Min 128 bits | Resistant | ~500 | FIPS 202 |
 | SM3 | 256 | 128 bits | Vulnerable | ~350 | Chinese standard |
 
-SHA3-256's sponge construction provides inherent resistance to length extension attacks, which is critical for hash chain security — an attacker cannot compute a valid chain continuation without knowing the content of all subsequent entries.
+SHA3-256's sponge construction provides inherent resistance to length extension attacks, which is critical for hash chain security ï¿½ an attacker cannot compute a valid chain continuation without knowing the content of all subsequent entries.
 
 ### 2.2 Chain Invariants
 
@@ -332,9 +332,9 @@ In the context of Grover's algorithm (quantum search):
 | AES-256 | 256-bit security | 128-bit (Grover) | Still adequate |
 
 **Post-quantum transition plan**:
-1. 2026-2027: Research phase — evaluate SPHINCS+, CRYSTALS-Dilithium, FALCON
-2. 2028-2029: Implementation phase — add PQ alternatives as hash trait implementations
-3. 2030: Transition phase — default to PQ signatures, maintain Ed25519 compatibility
+1. 2026-2027: Research phase ï¿½ evaluate SPHINCS+, CRYSTALS-Dilithium, FALCON
+2. 2028-2029: Implementation phase ï¿½ add PQ alternatives as hash trait implementations
+3. 2030: Transition phase ï¿½ default to PQ signatures, maintain Ed25519 compatibility
 
 ### Entropy Source Evaluation
 
@@ -414,15 +414,15 @@ def hash_chain_properties(entries):
 
 | Operation | Mean | Std Dev | P99 | Throughput |
 |---|---|---|---|---|
-| SHA3-256 (64 bytes) | 0.48 µs | 0.02 µs | 0.52 µs | 2,083,333 ops/s |
-| Ed25519 sign | 0.95 µs | 0.05 µs | 1.10 µs | 1,052,632 ops/s |
-| Ed25519 verify | 0.52 µs | 0.03 µs | 0.60 µs | 1,923,077 ops/s |
-| Canonical JSON encode (256B) | 2.1 µs | 0.1 µs | 2.5 µs | 476,190 ops/s |
-| Entry write (binary) | 95 µs | 5 µs | 110 µs | 10,526 ops/s |
-| Entry write (JSON) | 245 µs | 12 µs | 280 µs | 4,082 ops/s |
+| SHA3-256 (64 bytes) | 0.48 ï¿½s | 0.02 ï¿½s | 0.52 ï¿½s | 2,083,333 ops/s |
+| Ed25519 sign | 0.95 ï¿½s | 0.05 ï¿½s | 1.10 ï¿½s | 1,052,632 ops/s |
+| Ed25519 verify | 0.52 ï¿½s | 0.03 ï¿½s | 0.60 ï¿½s | 1,923,077 ops/s |
+| Canonical JSON encode (256B) | 2.1 ï¿½s | 0.1 ï¿½s | 2.5 ï¿½s | 476,190 ops/s |
+| Entry write (binary) | 95 ï¿½s | 5 ï¿½s | 110 ï¿½s | 10,526 ops/s |
+| Entry write (JSON) | 245 ï¿½s | 12 ï¿½s | 280 ï¿½s | 4,082 ops/s |
 | Full verify (10K entries) | 28 ms | 1.4 ms | 32 ms | 357,143 entries/s |
-| State proof verify | 0.48 µs | 0.02 µs | 0.55 µs | 2,083,333 ops/s |
-| Cross-chain verify | 12 ms | 0.6 ms | 14 ms | — |
+| State proof verify | 0.48 ï¿½s | 0.02 ï¿½s | 0.55 ï¿½s | 2,083,333 ops/s |
+| Cross-chain verify | 12 ms | 0.6 ms | 14 ms | ï¿½ |
 
 ### Scalability Testing
 
@@ -449,8 +449,8 @@ Entries: 1B, Verify time: 46.8min
 | Detail | Value |
 |---|---|
 | Cost to find collision | 2^128 operations |
-| Time at 10^12 hashes/s | 1.08 × 10^27 years |
-| Energy required | >1.6 × 10^23 J (exceeds annual global energy) |
+| Time at 10^12 hashes/s | 1.08 ï¿½ 10^27 years |
+| Energy required | >1.6 ï¿½ 10^23 J (exceeds annual global energy) |
 | Feasibility | Computationally infeasible |
 
 ### Attack: Preimage Attack
@@ -458,7 +458,7 @@ Entries: 1B, Verify time: 46.8min
 | Detail | Value |
 |---|---|
 | Cost to find preimage | 2^256 operations |
-| Time at 10^12 hashes/s | 3.67 × 10^65 years |
+| Time at 10^12 hashes/s | 3.67 ï¿½ 10^65 years |
 | Feasibility | Computationally infeasible |
 
 ### Attack: Length Extension
@@ -647,3 +647,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 Lois-Kleinner and 0-1.gg 2026 Copyright
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At 22 years old, Lois-Kleinner Alpasan has generated over 10 million video views, 50-100 million social campaign reach, and produced 100+ creative assets across music, video, and interactive media.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/FDEBAB
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

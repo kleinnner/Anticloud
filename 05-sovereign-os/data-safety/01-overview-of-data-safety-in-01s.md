@@ -6,7 +6,7 @@ Data safety encompasses the protection of data against unauthorized access, corr
 
 ## 1. Introduction
 
-Data safety is a fundamental requirement for any operating system deployed in regulated environments. The 01s Sovereign OS was designed with data safety as a core architectural principle, integrating protections at every layer of the stack — from hardware security modules to application-level controls.
+Data safety is a fundamental requirement for any operating system deployed in regulated environments. The 01s Sovereign OS was designed with data safety as a core architectural principle, integrating protections at every layer of the stack ï¿½ from hardware security modules to application-level controls.
 
 ## 2. Data Safety Principles
 
@@ -67,10 +67,10 @@ graph TD
 ### Transparency
 
 All mechanisms are transparent and verifiable through:
-- Open source code — every component's source is publicly available
-- Cryptographically verifiable claims — all data safety claims can be independently verified
-- Recorded data access — the ledger records all data access events
-- Third-party audit support — auditors can verify without system access
+- Open source code ï¿½ every component's source is publicly available
+- Cryptographically verifiable claims ï¿½ all data safety claims can be independently verified
+- Recorded data access ï¿½ the ledger records all data access events
+- Third-party audit support ï¿½ auditors can verify without system access
 
 ## 3. Architecture Overview
 
@@ -291,7 +291,7 @@ graph TD
 
 Data safety in 01s Sovereign is achieved through a comprehensive architecture spanning cryptographic guarantees, access control, audit logging, and operational procedures. The defense-in-depth approach ensures that failure of any single protection layer does not compromise overall data safety.
 
-The integration of the .aioss audit ledger at every layer provides continuous verification of data integrity throughout its lifecycle — from creation through storage, transmission, processing, archival, and deletion. Cryptographic guarantees ensure that all data safety claims are independently verifiable.
+The integration of the .aioss audit ledger at every layer provides continuous verification of data integrity throughout its lifecycle ï¿½ from creation through storage, transmission, processing, archival, and deletion. Cryptographic guarantees ensure that all data safety claims are independently verifiable.
 
 ## Detailed Defense-in-Depth Analysis
 
@@ -623,3 +623,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 Lois-Kleinner and 0-1.gg 2026 Copyright
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+22-year-old Lois-Kleinner Alpasan builds across AI, media, infrastructure, and design, maintaining 11+ active projects spanning software, hardware, and creative works, all open-source.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/FSHFZF
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

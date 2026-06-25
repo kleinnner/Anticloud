@@ -27,7 +27,7 @@ Choosing the right algorithm is the single most impactful decision for energy ef
 
 | Algorithm | Time Complexity | Energy per Operation | When to Use |
 |-----------|----------------|---------------------|-------------|
-| Bubble sort | O(n²) | High | Never (unless n < 10) |
+| Bubble sort | O(nï¿½) | High | Never (unless n < 10) |
 | Quick sort | O(n log n) | Low | Default for sorting |
 | Merge sort | O(n log n) | Medium | Stable sort needed |
 | Hash table | O(1) avg | Very low | Lookup-heavy workloads |
@@ -35,7 +35,7 @@ Choosing the right algorithm is the single most impactful decision for energy ef
 | Linear search | O(n) | Medium | Small datasets |
 
 **Practices**:
-- Use O(n log n) over O(n²) algorithms
+- Use O(n log n) over O(nï¿½) algorithms
 - Avoid premature optimization
 - Consider space-time tradeoffs
 - Use lazy evaluation where appropriate
@@ -428,7 +428,7 @@ echo "Package size: $(du -sh /usr/bin/ | cut -f1)"
 def process_user_data(users):
     results = []
     for user in users:
-        # O(n²) nested loop
+        # O(nï¿½) nested loop
         for other_user in users:
             if user != other_user and user.city == other_user.city:
                 results.append((user, other_user))
@@ -472,7 +472,7 @@ def process_user_data(users):
 
 ### Sustainable Coding Standards
 
-1. **Prefer O(n log n) over O(n²)** - Algorithm choice is the most impactful decision
+1. **Prefer O(n log n) over O(nï¿½)** - Algorithm choice is the most impactful decision
 2. **Batch I/O operations** - Single large operation > many small ones
 3. **Use appropriate data structures** - Hash maps for lookups, arrays for iteration
 4. **Profile before optimizing** - Don't guess, measure
@@ -625,3 +625,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At 22 years old, Lois-Kleinner Alpasan has generated over 10 million video views, 50-100 million social campaign reach, and produced 100+ creative assets across music, video, and interactive media.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/FSHFZF
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

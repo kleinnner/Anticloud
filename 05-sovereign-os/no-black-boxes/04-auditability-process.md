@@ -2,11 +2,11 @@
 
 ## Abstract
 
-Auditability — the property that actions can be independently reviewed and verified — is a core requirement for regulated computing environments. This paper documents the auditability process in the 01s Sovereign (Kaiman) operating system, covering how every action is captured, recorded, verified, and made available for audit. We present practical guidance for conducting audits, the cryptographic guarantees that make audit results trustworthy, and the complete audit lifecycle from event generation to evidence preservation.
+Auditability ï¿½ the property that actions can be independently reviewed and verified ï¿½ is a core requirement for regulated computing environments. This paper documents the auditability process in the 01s Sovereign (Kaiman) operating system, covering how every action is captured, recorded, verified, and made available for audit. We present practical guidance for conducting audits, the cryptographic guarantees that make audit results trustworthy, and the complete audit lifecycle from event generation to evidence preservation.
 
 ## 1. Introduction
 
-In regulated industries, "trust but verify" is not optional — it is mandatory. Regulators, auditors, and compliance officers must be able to independently verify that systems operate as claimed. The 01s Sovereign OS provides auditability as a fundamental system property, not an add-on feature. This document describes the complete auditability framework, from the philosophical foundations to the technical implementation to the operational procedures.
+In regulated industries, "trust but verify" is not optional ï¿½ it is mandatory. Regulators, auditors, and compliance officers must be able to independently verify that systems operate as claimed. The 01s Sovereign OS provides auditability as a fundamental system property, not an add-on feature. This document describes the complete auditability framework, from the philosophical foundations to the technical implementation to the operational procedures.
 
 ## 2. What Makes an Action Auditable
 
@@ -14,7 +14,7 @@ An action is auditable when:
 
 1. **It is recorded**: The action is captured in an immutable record at the moment it occurs.
 2. **It is identifiable**: The actor, time, nature, and context of the action are clearly documented.
-3. **It is verifiable**: The record cannot be tampered with — any modification is cryptographically detectable.
+3. **It is verifiable**: The record cannot be tampered with ï¿½ any modification is cryptographically detectable.
 4. **It is accessible**: Authorized parties can review the record through standard interfaces.
 5. **It is interpretable**: The record can be understood in context by humans and automated tools.
 6. **It is durable**: The record persists for the required retention period without degradation.
@@ -227,7 +227,7 @@ aioss compliance-report --framework soc2 --period 2026-Q2
 # GDPR Article 30 report (Records of Processing Activities)
 aioss compliance-report --framework gdpr-article-30 --period 2026-01-01:2026-06-30
 
-# HIPAA audit control evidence (§164.312(b))
+# HIPAA audit control evidence (ï¿½164.312(b))
 aioss compliance-report --framework hipaa-audit-controls --period 2026-01-01:2026-06-30
 
 # PCI DSS Requirement 10 audit trail
@@ -551,7 +551,7 @@ Configurable retention policies with tiered storage:
 |-----------|-------------------|--------|
 | SOC 2 Type II | Cryptographic audit trails accepted as evidence | Verified |
 | GDPR Article 30 | Record of processing activities supported | Automated export |
-| HIPAA §164.312(b) | Audit controls requirement satisfied | Built-in |
+| HIPAA ï¿½164.312(b) | Audit controls requirement satisfied | Built-in |
 | PCI DSS Requirement 10 | Audit trail requirement satisfied | Built-in |
 | EU AI Act Article 12 | Record-keeping requirement satisfied | Built-in |
 
@@ -656,3 +656,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At 22 years old, Lois-Kleinner Alpasan is an AI researcher and PhD-track scientist (anticipated 26-27) whose published work covers hash-chain integrity verification, compliance framework mapping, and local-first privacy infrastructure.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/GKUDHE
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

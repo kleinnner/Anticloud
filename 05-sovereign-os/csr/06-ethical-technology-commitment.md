@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Technology is never neutral — it embodies the values of its creators. The 01s Sovereign OS is built on a foundation of ethical technology principles: user sovereignty, transparency, privacy, sustainability, and accessibility. This document details the ethical framework that guides every aspect of the OS.
+Technology is never neutral ï¿½ it embodies the values of its creators. The 01s Sovereign OS is built on a foundation of ethical technology principles: user sovereignty, transparency, privacy, sustainability, and accessibility. This document details the ethical framework that guides every aspect of the OS.
 
 ## 1. Introduction
 
@@ -12,26 +12,26 @@ As computing systems mediate ever more of human life, the ethical dimensions of 
 
 ```
 +-------------------------------------------------+
-¦ 01s Sovereign Ethical Framework                  ¦
-+-------------------------------------------------¦
-¦                                                   ¦
-¦  User Sovereignty  ¦  Transparency               ¦
-¦  • Data ownership  ¦  • Open source              ¦
-¦  • User choice     ¦  • Audit trail              ¦
-¦  • User control    ¦  • No dark patterns         ¦
-¦  • No vendor lock  ¦  • Clear communication      ¦
-+----------------------+---------------------------¦
-¦  Privacy            ¦  Sustainability            ¦
-¦  • Data minimization¦  • Energy efficiency       ¦
-¦  • Local processing ¦  • Hardware longevity      ¦
-¦  • User consent     ¦  • Efficient development   ¦
-¦  • Encryption       ¦  • Green infrastructure    ¦
-+----------------------+---------------------------¦
-¦  Accessibility      ¦  Ethical AI                ¦
-¦  • Economic (free)  ¦  • Explainability          ¦
-¦  • Physical (assist)¦  • Accountability          ¦
-¦  • Language (42+)   ¦  • Fairness testing        ¦
-¦  • Skills (all)     ¦  • User control            ¦
+ï¿½ 01s Sovereign Ethical Framework                  ï¿½
++-------------------------------------------------ï¿½
+ï¿½                                                   ï¿½
+ï¿½  User Sovereignty  ï¿½  Transparency               ï¿½
+ï¿½  ï¿½ Data ownership  ï¿½  ï¿½ Open source              ï¿½
+ï¿½  ï¿½ User choice     ï¿½  ï¿½ Audit trail              ï¿½
+ï¿½  ï¿½ User control    ï¿½  ï¿½ No dark patterns         ï¿½
+ï¿½  ï¿½ No vendor lock  ï¿½  ï¿½ Clear communication      ï¿½
++----------------------+---------------------------ï¿½
+ï¿½  Privacy            ï¿½  Sustainability            ï¿½
+ï¿½  ï¿½ Data minimizationï¿½  ï¿½ Energy efficiency       ï¿½
+ï¿½  ï¿½ Local processing ï¿½  ï¿½ Hardware longevity      ï¿½
+ï¿½  ï¿½ User consent     ï¿½  ï¿½ Efficient development   ï¿½
+ï¿½  ï¿½ Encryption       ï¿½  ï¿½ Green infrastructure    ï¿½
++----------------------+---------------------------ï¿½
+ï¿½  Accessibility      ï¿½  Ethical AI                ï¿½
+ï¿½  ï¿½ Economic (free)  ï¿½  ï¿½ Explainability          ï¿½
+ï¿½  ï¿½ Physical (assist)ï¿½  ï¿½ Accountability          ï¿½
+ï¿½  ï¿½ Language (42+)   ï¿½  ï¿½ Fairness testing        ï¿½
+ï¿½  ï¿½ Skills (all)     ï¿½  ï¿½ User control            ï¿½
 +-------------------------------------------------+
 ```
 
@@ -103,21 +103,21 @@ As computing systems mediate ever more of human life, the ethical dimensions of 
 ```
 ? GOOD: Clear consent with easy opt-out
 +---------------------------------+
-¦ Enable shell command logging?    ¦
-¦ This records terminal commands   ¦
-¦ for security audit purposes.     ¦
-¦                                 ¦
-¦ [Yes]  [No]                     ¦
+ï¿½ Enable shell command logging?    ï¿½
+ï¿½ This records terminal commands   ï¿½
+ï¿½ for security audit purposes.     ï¿½
+ï¿½                                 ï¿½
+ï¿½ [Yes]  [No]                     ï¿½
 +---------------------------------+
 
 ? BAD: Dark pattern (will not be used)
 +---------------------------------+
-¦ Would you like to help us       ¦
-¦ improve your experience by      ¦
-¦ enabling helpful usage          ¦
-¦ statistics?                     ¦
-¦ [Yes, I'd love to help!]        ¦
-¦ [No, I hate progress]           ¦
+ï¿½ Would you like to help us       ï¿½
+ï¿½ improve your experience by      ï¿½
+ï¿½ enabling helpful usage          ï¿½
+ï¿½ statistics?                     ï¿½
+ï¿½ [Yes, I'd love to help!]        ï¿½
+ï¿½ [No, I hate progress]           ï¿½
 +---------------------------------+
 ```
 
@@ -538,9 +538,9 @@ Source: 01s Sovereign User Trust Survey 2025, n=5,000 respondents across 12 coun
 
 | Criticism | Response |
 |-----------|----------|
-| "No dark patterns is just a marketing claim" | Verified by independent UX audit, open source code review, and user testing — all accessible for inspection |
+| "No dark patterns is just a marketing claim" | Verified by independent UX audit, open source code review, and user testing ï¿½ all accessible for inspection |
 | "You can't have transparency and privacy" | 01s balances both: transparent system operations with pseudonymized user identities, aggregate metrics without individual profiling |
-| "Free software can't be sustainable" | 01s is funded through grants, support services, and donations — transparent, sustainable model |
+| "Free software can't be sustainable" | 01s is funded through grants, support services, and donations ï¿½ transparent, sustainable model |
 
 ## 17. Comparison with Alternatives
 
@@ -626,3 +626,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At 22 years old, Lois-Kleinner Alpasan is an AI researcher and PhD-track scientist (anticipated 26-27) whose published work covers hash-chain integrity verification, compliance framework mapping, and local-first privacy infrastructure.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/YMJKOG
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

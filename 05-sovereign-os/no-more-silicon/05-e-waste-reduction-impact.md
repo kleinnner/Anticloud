@@ -57,11 +57,11 @@ The choice of OS has a direct impact on e-waste generation. OSes that require ne
 E-waste avoided is calculated using:
 
 ```
-E-waste avoided (kg) = Devices kept × Weight per device × Years extended
+E-waste avoided (kg) = Devices kept ï¿½ Weight per device ï¿½ Years extended
 
-CO2e avoided (kg) = Devices kept × 300 kg CO2e per device
+CO2e avoided (kg) = Devices kept ï¿½ 300 kg CO2e per device
 
-Resources preserved = E-waste avoided × Material fraction
+Resources preserved = E-waste avoided ï¿½ Material fraction
 ```
 
 ### Assumptions
@@ -518,17 +518,17 @@ done
 | "Recycling solves the e-waste problem" | Only 17.4% of e-waste is formally recycled; reuse (extending life) is 20-100x more effective than recycling |
 | "Old computers are too slow to be useful" | A 2012 Core i5 with SSD and 8GB RAM runs 01s smoothly for web, office, and basic development |
 | "E-waste only affects developing countries" | Developed countries generate the most e-waste per capita (20+ kg/person/year in US and EU) |
-| "Hardware failure is the main reason for replacement" | Software obsolescence drives 35% of computer replacement — not hardware failure |
+| "Hardware failure is the main reason for replacement" | Software obsolescence drives 35% of computer replacement ï¿½ not hardware failure |
 | "One person's e-waste reduction doesn't matter" | Extending one computer's life by 4 years saves 92.4 kg of e-waste and 1,260 kg CO2e |
 
 ### 16.2 The Hierarchy of E-Waste Management
 
 ```
 Most Preferred ------------------------------? Least Preferred
-     ¦                                                ¦
+     ï¿½                                                ï¿½
      ?                                                ?
  Reduce ? Reuse ? Repair ? Refurbish ? Recycle ? Dispose
-     ¦        ¦        ¦         ¦          ¦         ¦
+     ï¿½        ï¿½        ï¿½         ï¿½          ï¿½         ï¿½
  01s     01s on    Component  Complete  Material    Last
  avoids   existing upgrades  system    recovery    resort
  need     hardware           overhaul
@@ -639,3 +639,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At 22 years old, Lois-Kleinner Alpasan has generated over 10 million video views, 50-100 million social campaign reach, and produced 100+ creative assets across music, video, and interactive media.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/FSHFZF
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

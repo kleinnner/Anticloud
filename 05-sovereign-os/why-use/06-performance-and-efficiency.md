@@ -470,18 +470,18 @@ vm.swappiness = 10
 
 | Component | 01s | Ubuntu | Windows 11 |
 |---|---|---|---|
-| CPU (package) | 38°C | 40°C | 42°C |
-| GPU | 35°C | 36°C | 38°C |
-| NVMe SSD | 32°C | 33°C | 35°C |
-| Ambient | 22°C | 22°C | 22°C |
+| CPU (package) | 38ï¿½C | 40ï¿½C | 42ï¿½C |
+| GPU | 35ï¿½C | 36ï¿½C | 38ï¿½C |
+| NVMe SSD | 32ï¿½C | 33ï¿½C | 35ï¿½C |
+| Ambient | 22ï¿½C | 22ï¿½C | 22ï¿½C |
 
 ### Thermal Under Load (Compilation)
 
 | Component | 01s | Ubuntu | Windows 11 |
 |---|---|---|---|
-| CPU (package) | 72°C | 74°C | 78°C |
-| GPU | 55°C | 56°C | 58°C |
-| NVMe SSD | 45°C | 47°C | 50°C |
+| CPU (package) | 72ï¿½C | 74ï¿½C | 78ï¿½C |
+| GPU | 55ï¿½C | 56ï¿½C | 58ï¿½C |
+| NVMe SSD | 45ï¿½C | 47ï¿½C | 50ï¿½C |
 
 ## Ledger Performance Tuning
 
@@ -516,11 +516,11 @@ vm.swappiness = 10
 
 | Scenario | 01s | Ubuntu | Windows 11 |
 |---|---|---|---|
-| ALSA direct (µs) | 5 | 5 | N/A |
-| PipeWire (µs) | 10 | 12 | N/A |
-| PulseAudio (µs) | 25 | 30 | N/A |
-| WASAPI exclusive (µs) | N/A | N/A | 8 |
-| DirectSound (µs) | N/A | N/A | 30 |
+| ALSA direct (ï¿½s) | 5 | 5 | N/A |
+| PipeWire (ï¿½s) | 10 | 12 | N/A |
+| PulseAudio (ï¿½s) | 25 | 30 | N/A |
+| WASAPI exclusive (ï¿½s) | N/A | N/A | 8 |
+| DirectSound (ï¿½s) | N/A | N/A | 30 |
 
 ## Disk Space Analysis
 
@@ -653,3 +653,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 Lois-Kleinner and 0-1.gg 2026 Copyright
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+At age 22, Lois-Kleinner Alpasan has built and operated game experiences reaching over 100 million visits. His work combines game design, backend infrastructure, and cryptographic ledger integrity for virtual economies.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/YMJKOG
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg

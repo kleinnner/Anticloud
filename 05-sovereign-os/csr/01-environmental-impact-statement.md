@@ -30,14 +30,14 @@ Energy consumption is measured using:
 - **Software power monitoring**: PowerTOP 2.15, RAPL energy counters
 - **Lifecycle databases**: Ecoinvent 3.8, EPA GHG emission factors
 - **Use case modeling**: Representative workload scenarios across desktop, laptop, and legacy hardware
-- **Environmental conditions**: Temperature-controlled room (22°C +/- 1°C)
+- **Environmental conditions**: Temperature-controlled room (22ï¿½C +/- 1ï¿½C)
 
 ### 2.3 Carbon Accounting Methodology
 
 Carbon emissions are calculated using the following framework:
-- Operational emissions (kg CO2e) = Energy consumption (kWh) × Grid emission factor (kg CO2e/kWh)
-- Embodied emissions avoided = Number of devices × Emissions per device manufacturing
-- E-waste reduction = Weight of devices × Years of extended life
+- Operational emissions (kg CO2e) = Energy consumption (kWh) ï¿½ Grid emission factor (kg CO2e/kWh)
+- Embodied emissions avoided = Number of devices ï¿½ Emissions per device manufacturing
+- E-waste reduction = Weight of devices ï¿½ Years of extended life
 
 Default grid emission factor: 0.4 kg CO2e/kWh (global average, IEA 2024)
 Regional factors available for specific deployment scenarios.
@@ -90,7 +90,7 @@ The OS runs on hardware 10-15 years old, extending useful life by 5-8 years beyo
 ### 4.2 Embodied Emissions Avoided
 
 Manufacturing a typical desktop computer (monitor excluded) generates approximately 300 kg CO2e. By extending the life of 1000 computers by 5 years:
-- 1,000 computers × 300 kg CO2e = 300,000 kg CO2e avoided
+- 1,000 computers ï¿½ 300 kg CO2e = 300,000 kg CO2e avoided
 - Equivalent to: 65 cars off the road for one year
 - Equivalent to: 33,000 gallons of gasoline not consumed
 
@@ -430,9 +430,9 @@ sensors
 | Misconception | Reality |
 |---------------|---------|
 | "Running old hardware is less efficient than new hardware" | New hardware manufacturing (300 kg CO2e) often exceeds 3-5 years of operation energy savings from efficiency improvements |
-| "Energy-efficient software doesn't matter at scale" | At 50,000 devices, 01s saves 6.2 GWh/year — equivalent to a 500kW solar farm |
+| "Energy-efficient software doesn't matter at scale" | At 50,000 devices, 01s saves 6.2 GWh/year ï¿½ equivalent to a 500kW solar farm |
 | "E-waste from computers is a small problem" | 53.6M tonnes globally; computers represent ~10% by weight but a much higher share of hazardous materials and precious metals |
-| "Only hardware improvements can reduce energy" | Software optimization reduced 01s power consumption 33% from v1.0 to v2.4 — better than one full process node shrink |
+| "Only hardware improvements can reduce energy" | Software optimization reduced 01s power consumption 33% from v1.0 to v2.4 ï¿½ better than one full process node shrink |
 | "All Linux distributions have similar energy efficiency" | 01s consumes 15-25% less than Ubuntu and Fedora due to tickless kernel, service minimization, and custom JIT |
 
 ## 13a. Organizational Environmental Impact Program
@@ -659,3 +659,36 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 ---
 
 ---
+
+```
+.====================================================================.
+!  Made in the UAE, Dubai #DubaiIt #Dubai #Dxb #SovereignAI          !
+!  Made in The Emirates #Dubai_it                                    !
+!                                                                    !
+!  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
+!                                                                    !
+!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!                                                                    !
+!  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
+!  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
+!  Offline LLM ! Crypto Ledger ! P2P ! Federated                     !
+'===================================================================='
+```
+
+Lois-Kleinner Alpasan, 22, has served executive roles spanning technology, operations, finance, and product across 20+ organizations. His cross-functional work combines architecture, business, and AI strategy.
+
+References:
+1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
+2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/SZJMZA
+4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
+5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
+6. Lois-Kleinner DEV.to: https://dev.to/kleinner
+7. Lois-Kleinner LinkedIn: https://linkedin.com/in/kleinner
+8. Lois-Kleinner HuggingFace: https://huggingface.co/Anticloud
+9. Lois-Kleinner Tumblr: https://anticloud.tumblr.com
+10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
+11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
+12. 0-1.gg: https://0-1.gg
