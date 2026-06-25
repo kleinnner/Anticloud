@@ -1,5 +1,9 @@
 # 08 — Libern Sovereign Collaborative Telecom Engine
 
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/SZJMZA-005c99?style=flat-square)](https://doi.org/10.7910/DVN/SZJMZA)
+
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GDLO0L-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GDLO0L)
+
 A peer-to-peer communication platform (messaging, voice, whiteboarding) with cryptographic integrity, local AI inference, offline-first operation, and no centralized infrastructure. Every message is hash-chained and Ed25519-signed.
 
 ```mermaid

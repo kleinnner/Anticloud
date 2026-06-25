@@ -1,0 +1,25 @@
+# We built a browser where every tab is a probability amplitude.
+
+**Δ × Kathon: The Browser as a Superposition Machine**
+
+---
+
+## The Problem
+
+The modern browser is a classical state machine. Every tab is either loaded or not. Every page is either visible or not. Every history entry is either visited or not. This binary model works for simple browsing, but it breaks when the browser becomes an AI agent — when it must consider multiple possible pages simultaneously, when it must maintain state across sessions without committing to a single timeline, when it must act autonomously without collapsing all possibilities into a single action. The browser's classical architecture limits what the browser can become.
+
+## What We Built
+
+We applied the Δ principle to browser architecture through Kathon: every tab exists in superposition until the user interacts with it. A tab is not a loaded page or an unloaded page — it is a probability amplitude across all pages it could load. The spatial canvas (Kathon's infinite 2D workspace) visualizes this superposition: tabs are nodes that oscillate between possible states, their visual properties (size, opacity, position) reflecting their probability distribution. The user collapses a tab by clicking it — the oscillation resolves into a single page, and the browser commits to that state. Until then, the tab exists in all its possible states simultaneously.
+
+## The Research
+
+We present the application of the Δ principle to browser architecture through Kathon, the sovereign AI-native browser. In the Δ browser, each tab exists in superposition — it is not a single URL but a probability amplitude across all pages it could load. The spatial canvas renders this superposition as oscillating nodes whose visual properties reflect their probability distribution. User interaction (clicking a tab) collapses the superposition into a single page. The browser's .aioss ledger records both the collapsed state and the superposition boundary at the time of collapse, enabling temporal navigation through the space of possible browsing histories. We demonstrate that this architecture enables fundamentally new browsing paradigms: speculative preloading (the browser loads all likely pages in superposition), temporal browsing (navigating backward through the probability space), and autonomous agent operation (the browser acts in superposition until user confirmation collapses the action).
+
+> **Full citation:** Alpasan, L.-K. (2026). Δ × Kathon: The Browser as a Superposition Machine. *The Anticloud Research Corpus.*
+
+## Why The Anticloud
+
+The browser is the most important application on your computer. It is where you work, where you communicate, where you create. And it is the application most compromised by the cloud — every major browser is built by an advertising company that monetizes your attention. Kathon applies the Δ principle to the browser itself. Your tabs exist in superposition because your attention should not be pre-committed. Your history exists in superposition because your past should not define your future. The Δ browser is not a tool. It is a space of possibilities.
+
+ΔaaS requires one machine, one binary, and zero trust in anyone.

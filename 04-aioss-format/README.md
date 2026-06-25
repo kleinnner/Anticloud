@@ -1,5 +1,7 @@
 # 04 — AIOSS Format
 
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/FSHFZF-005c99?style=flat-square)](https://doi.org/10.7910/DVN/FSHFZF)
+
 **AI Open Signed Storage Format** — a cryptographic ledger file format standard designed for tamper-evident, auditable record-keeping. Defines a dual-format (binary + JSON) ledger with SHA3-256 hash chaining, Ed25519 signatures, and memory-mapped I/O.
 
 ```mermaid

@@ -1,0 +1,25 @@
+# We traced cloud dependency to its root — the kernel — and built the off switch.
+
+**Δ Down to the Kernel: Why the Cloud's Grip Starts at Ring-0**
+
+---
+
+## The Problem
+
+Most sovereignty-focused systems operate at the application layer. They run on standard operating systems, on standard kernels, and assume that application-level changes are sufficient to guarantee independence from cloud providers. This is false. The kernel is the first and most fundamental point of collapse. Every operating system kernel makes assumptions about the hardware it runs on, the storage it uses, the network it connects to. These assumptions are a form of hidden lock-in — they commit the system to a specific vision of how computing works. If that vision was shaped by cloud assumptions, the system is already collapsed into a cloud-dependent state before any application code runs.
+
+## What We Built
+
+We designed the Δ kernel architecture: a kernel that exists in superposition across all possible hardware, storage, and network configurations until the moment of boot. The Δ kernel uses TPM 2.0 measured boot to attest to every possible hardware configuration simultaneously, deferring the collapse into a specific configuration until the system actually encounters the hardware. This means the same kernel binary can boot on bare metal, in a VM, on a container runtime, or on a cloud instance — and it will collapse into exactly the driver set, memory model, and I/O scheduler that the hardware requires, without ever being recompiled or reconfigured. The kernel does not know what it will run on. It holds all possibilities until measurement forces collapse.
+
+## The Research
+
+The operating system kernel is the deepest layer at which cloud dependency can be embedded. We analyze the assumptions that standard kernels make about hardware, storage, networking, and trust, and demonstrate that each assumption is a point of collapse into cloud dependency. We propose the Δ kernel architecture: a kernel designed from first principles to exist in superposition across all possible hardware configurations. The Δ kernel uses TPM 2.0 measured boot as its collapse mechanism — the hardware itself tells the kernel which state to collapse into, through PCR measurements that form a unique hardware identity. The same binary can boot on any hardware because it was never written for specific hardware. It was written for all hardware simultaneously.
+
+> **Full citation:** Alpasan, L.-K. (2026). Δ Down to the Kernel: Why the Cloud's Grip Starts at Ring-0. *The Anticloud Research Corpus.*
+
+## Why The Anticloud
+
+Every layer above the kernel inherits the kernel's assumptions. If your kernel expects a network to configure itself via DHCP, your system has already collapsed into a network-dependent state before your application starts. If your kernel expects block storage from a specific vendor, your system has already committed to that vendor's ecosystem. The Anticloud does not operate at the application layer and assume the kernel is safe. The Anticloud redefines the kernel itself — the Δ kernel that holds all hardware possibilities until the moment it meets the hardware. That is the only way to guarantee that sovereignty is not compromised at the deepest level.
+
+ΔaaS requires one machine, one binary, and zero trust in anyone.

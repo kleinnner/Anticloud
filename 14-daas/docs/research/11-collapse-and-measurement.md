@@ -1,0 +1,25 @@
+# We defined when a Δ system should collapse — and when it should not.
+
+**Collapse and Measurement: The Observer Effect in Sovereign Computing**
+
+---
+
+## The Problem
+
+If a computing system exists in superposition across all possible states, at what point does it settle into a single reality? This is not a theoretical question — it is the central design problem of Δ computing. If the system collapses too early, it loses the benefits of superposition (flexibility, adaptability, sovereignty over alternatives). If it collapses too late, it becomes indeterminate — incapable of making decisions because it is always holding all possibilities open. The collapse point determines every aspect of the system's behavior, and there is no existing framework for deciding where that point should be.
+
+## What We Built
+
+We defined the Δ collapse principle: a system collapses when it must interact with the classical world — when it writes to storage, sends a network packet, displays output to a user, or makes a decision that affects irreversible state. Until that moment, the system remains in superposition. We further defined levels of collapse: soft collapse (temporary, reversible, local) and hard collapse (permanent, irreversible, globally committed). The system architect decides which operations trigger which type of collapse, giving fine-grained control over the balance between superposition and determinacy.
+
+## The Research
+
+We formalize the collapse principle for computing systems: a Δ system collapses into a classical state when it performs an operation that produces irreversible classical effects. We define a hierarchy of collapse levels: no collapse (pure superposition), soft collapse (determinate within a scope, reversible through the state-vector ledger), and hard collapse (globally determinate, irreversible without cryptographic invalidation). Each operation in the system is annotated with its collapse level, determined by whether it reads or writes classical state. The result is a system that is determinate where it must be (for correctness) and superposed where it can be (for flexibility). We prove that this hybrid approach preserves the benefits of both paradigms.
+
+> **Full citation:** Alpasan, L.-K. (2026). Collapse and Measurement: The Observer Effect in Sovereign Computing. *The Anticloud Research Corpus.*
+
+## Why The Anticloud
+
+The entire cloud industry is built on premature collapse. Systems collapse into a specific provider, a specific region, a specific pricing model, a specific API version — and then they spend years trying to uncollapse. The Anticloud delays collapse until the last possible moment. Your system does not decide what it is until it must. And when it does collapse, it collapses into the state that serves you — not the state that serves a provider's business model. That is what sovereignty means: the right to delay commitment until commitment is necessary.
+
+ΔaaS requires one machine, one binary, and zero trust in anyone.

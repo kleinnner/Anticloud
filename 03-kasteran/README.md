@@ -1,5 +1,7 @@
 # 03 — Kasteran Programming Language
 
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/KFK12Y-005c99?style=flat-square)](https://doi.org/10.7910/DVN/KFK12Y) [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GDLO0L-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GDLO0L)
+
 A systems programming language with rune-based visual syntax (symbolic glyphs inspired by Urbit's Hoon and APL), a gradual type system with linear capability model, self-hosted compiler with formal verification, and multiple compilation targets.
 
 ```mermaid

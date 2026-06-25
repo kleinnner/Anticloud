@@ -15,6 +15,21 @@
 
 ---
 
+## 📊 Published Research Data
+
+Six peer-reviewed benchmark datasets published on Harvard Dataverse. Each includes raw measurements, statistical distributions, methodology, and reproducibility packages.
+
+| Dataset | Project | DOI |
+|---------|---------|-----|
+| SHA3-256 Hash Chain & Ed25519 Crypto Benchmarks | aioss-format | [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/FSHFZF-005c99?style=flat-square)](https://doi.org/10.7910/DVN/FSHFZF) |
+| SIMD AVX2 GEMM, Vector Ops & MLP Benchmarks | kazcade | [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/YMJKOG-005c99?style=flat-square)](https://doi.org/10.7910/DVN/YMJKOG) |
+| Cross-Project Crypto Consistency Validation | libern / MF+SO / Kathon / Kasteran | [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GDLO0L-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GDLO0L) |
+| Compiler Pipeline & VM Performance | Kasteran | [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/KFK12Y-005c99?style=flat-square)](https://doi.org/10.7910/DVN/KFK12Y) |
+| Browser Desktop Application Benchmarks | Kathon | [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/3VDF75-005c99?style=flat-square)](https://doi.org/10.7910/DVN/3VDF75) |
+| Cryptographic Primitive Test Vectors | MF+SO | [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GKUDHE-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GKUDHE) |
+
+---
+
 ## Domain Map
 
 ```mermaid

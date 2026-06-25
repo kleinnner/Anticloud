@@ -1,5 +1,7 @@
 # 09 — Kazkade Compute Engine
 
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/YMJKOG-005c99?style=flat-square)](https://doi.org/10.7910/DVN/YMJKOG)
+
 A high-performance, CPU-only compute runtime focused on zero-copy columnar data processing (`.acol` format). Covers low-level systems optimization: memory-mapped I/O, SIMD vectorization, quantized neural inference, software rasterization, and columnar storage compression for edge/air-gapped environments.
 
 ```mermaid

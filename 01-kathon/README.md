@@ -1,5 +1,7 @@
 # 01 — Kathon Cryptographic Browser
 
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/3VDF75-005c99?style=flat-square)](https://doi.org/10.7910/DVN/3VDF75) [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GDLO0L-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GDLO0L)
+
 A privacy-first, AI-augmented web browser built on Tauri/Rust. Features vision-LLM ad blocking, CRDT-based P2P synchronization, spatial workspace browsing, autonomous agent execution, per-tab VPN, and a cryptographic audit ledger for all browsing actions.
 
 ```mermaid

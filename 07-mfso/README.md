@@ -1,5 +1,7 @@
 # 07 — MF+SO Sovereign Identity & Authentication Vault
 
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GKUDHE-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GKUDHE) [![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/GDLO0L-005c99?style=flat-square)](https://doi.org/10.7910/DVN/GDLO0L)
+
 **Multi-Factor + Sign On** — A cryptographic authentication and identity management system with defense-in-depth: AES-256-GCM, PBKDF2-SHA256, SHA3-256, HMAC, Ed25519, Shamir's secret sharing, and TPM/Secure Enclave/StrongBox hardware-backed key storage.
 
 ```mermaid

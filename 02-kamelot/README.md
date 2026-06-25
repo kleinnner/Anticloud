@@ -1,4 +1,6 @@
-# 02 — Kamelot Semantic Vector File System
+# 02 — Kamelot Semantic Vector File Syste
+
+[![DOI](https://img.shields.io/badge/DOI-10.7910/DVN/FDEBAB-005c99?style=flat-square)](https://doi.org/10.7910/DVN/FDEBAB)m
 
 A next-generation file system that replaces traditional hierarchical directory trees with semantic vector search. Files are indexed by 1536-dimensional dense embeddings, enabling natural-language file retrieval with 91% recall at rank 10 versus 28% for filename search.
 

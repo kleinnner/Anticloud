@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use Camus in your research, please cite it as below."
+authors:
+  - family-names: "Alpasan"
+    given-names: "L.-K."
+title: "Camus: A Terminal-Native Vision-Language AI Shell"
+version: 1.0.0
+date-released: 2026-06-24
+license: "Apache-2.0"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Alpasan"
+      given-names: "L.-K."
+  title: "Camus: Local-First Vision-Language Inference with Confidence Scoring and Hybrid RAG"
+  journal: "The Anticloud Research Corpus"
+  year: 2026

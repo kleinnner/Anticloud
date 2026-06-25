@@ -100,7 +100,7 @@ const config: Config = {
             tagName: 'link',
             rel: 'mask-icon',
             href: 'img/icon.svg',
-            color: '#1d1d1f',
+            color: '#0071e3',
           },
           {
             tagName: 'meta',
@@ -110,12 +110,12 @@ const config: Config = {
           {
             tagName: 'meta',
             name: 'msapplication-TileColor',
-            content: '#f5f5f7',
+            content: '#0071e3',
           },
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: '#f5f5f7',
+            content: '#0071e3',
           },
         ],
       },
@@ -245,7 +245,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/anticloud-social.png',
+    image: 'img/anticloud-social.svg',
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
