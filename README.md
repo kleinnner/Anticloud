@@ -319,6 +319,21 @@ Each project folder contains its own README with an architecture diagram, docume
 
 ---
 
+## 🏢 For Enterprise
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| **Compliance Matrix** | SOC 2, GDPR, HIPAA, FedRAMP, PCI DSS mappings across all projects | [View Matrix](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md) |
+| **Adoption Model** | Phased adoption framework for enterprise deployment | [View Model](https://github.com/kleinnner/Anticloud/blob/main/ADOPTION.md) |
+| **Security Policy** | Vulnerability disclosure, supported versions, PGP key | [Security](https://github.com/kleinnner/Anticloud/blob/main/SECURITY.md) |
+| **Architecture** | 4+1 architectural view model for the ecosystem | [Architecture](https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md) |
+| **Governance** | BDFL model with maintainership ladder | [Governance](GOVERNANCE.md) |
+| **Support** | Community support, enterprise SLAs, consulting | [Support](SUPPORT.md) |
+
+All projects are **local-first, zero-trust, and air-gap capable** — deploy on-premises, in air-gapped environments, or on commodity hardware with no cloud dependency.
+
+---
+
 ## License
 
 Research documentation © 2026 Lois-Kleinner & 0-1.gg. All rights reserved.

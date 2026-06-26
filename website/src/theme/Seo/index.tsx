@@ -96,6 +96,7 @@ export default function Seo(): ReactNode {
     pageSchema.codeRepository = `https://github.com/kleinnner/Anticloud/tree/main/0${parts[parts.length - 1] === 'kathon' ? '1' : parts[parts.length - 1] === 'kamelot' ? '2' : '0'}-${parts[parts.length - 1] || ''}`;
   } else if (isBlog) {
     const blogTitle = parts[parts.length - 1]?.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || 'Blog Post';
+    const dateStr = parts[0]?.match(/^(\d{4}-\d{2}-\d{2})/)?.[1] || '2026-06-24';
     pageSchema['@type'] = 'Article';
     pageSchema.headline = blogTitle;
     pageSchema.author = {
@@ -103,7 +104,7 @@ export default function Seo(): ReactNode {
       name: 'Lois-Kleinner',
       url: 'https://github.com/kleinnner',
     };
-    pageSchema.datePublished = '2026-06-24';
+    pageSchema.datePublished = dateStr;
     pageSchema.image = `${siteUrl}/img/anticloud-social.png`;
   }
 

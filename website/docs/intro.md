@@ -15,6 +15,12 @@ image: /img/anticloud-social.png
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
 [![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
 
+[![SOC 2](https://img.shields.io/badge/Compliance-SOC%202-8B4513?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
+[![GDPR](https://img.shields.io/badge/Compliance-GDPR-0066FF?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
+[![HIPAA](https://img.shields.io/badge/Compliance-HIPAA-009688?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
+[![FedRAMP](https://img.shields.io/badge/Compliance-FedRAMP-FF6F00?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
+[![PCI DSS](https://img.shields.io/badge/Compliance-PCI%20DSS-512DA8?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
+
 The Anticloud ecosystem is a comprehensive collection of research documentation, specifications, and architectural papers spanning 11 platform projects and 40 developer tools. Every project shares a common cryptographic foundation built on SHA3-256 hash chains, Ed25519 digital signatures, and the `.aioss` tamper-evident ledger format.
 
 ## Ecosystem Architecture

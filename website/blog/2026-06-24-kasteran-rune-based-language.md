@@ -96,9 +96,7 @@ See the [Kasteran documentation](/docs/projects/kasteran) for full language spec
 - [Kathon](/docs/projects/kathon) — Cryptographic browser implemented in Kasteran
 - [Libern](/docs/projects/libern) — The cryptographic library that Kasteran wraps as native primitives
 - [Kazcade](/docs/projects/kazcade) — Vector file system with native Kasteran bindings
-<script type="application/ld+json">
-  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Kasteran — A Rune-Based Systems Language for the Cryptographic Era","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://0-1.gg/"},"image":"https://0-1.gg/img/anticloud-social.png","url":"https://0-1.gg/blog/2026-06-24/kasteran-rune-based-language"})}
-</script>
+
 
 ```
 .====================================================================.

@@ -87,9 +87,7 @@ See the [Kathon documentation](/docs/projects/kathon) for the full architecture 
 - [Kasteran](/docs/projects/kasteran) — The rune-based systems language that powers Kathon's cryptographic primitives
 - [Libern](/docs/projects/libern) — The cryptographic library providing Ed25519 and SHA3 implementations
 - [aioss-format](/docs/projects/aioss-format) — The tamper-evident ledger format used by Kathon's audit trail
-<script type="application/ld+json">
-  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Kathon — The Cryptographic Browser with Vision-LLM Ad Blocking","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://0-1.gg/"},"image":"https://0-1.gg/img/anticloud-social.png","url":"https://0-1.gg/blog/2026-06-24/kathon-cryptographic-browser"})}
-</script>
+
 
 ```
 .====================================================================.

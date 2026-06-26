@@ -103,9 +103,7 @@ Browse all [Compliance & Governance tools](/docs/tools/) in the documentation.
 - [Security Tools](/docs/tools/) — Cryptographic primitives and security analysis tools across four domains
 - [Integ11ect](/docs/projects/inte11ect) — AI gateway with built-in compliance logging
 - [aioss-format](/docs/projects/aioss-format) — The tamper-evident ledger that powers compliance evidence chains
-<script type="application/ld+json">
-  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Anticloud Compliance Tool Suite — SSP, SBOM, Gap Analysis, and More","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://0-1.gg/"},"image":"https://0-1.gg/img/anticloud-social.png","url":"https://0-1.gg/blog/2026-06-24/compliance-tool-suite"})}
-</script>
+
 
 ```
 .====================================================================.

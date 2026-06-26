@@ -185,6 +185,27 @@ const config: Config = {
     {
       tagName: 'meta',
       attributes: {
+        property: 'og:locale',
+        content: 'en_US',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:url',
+        content: 'https://0-1.gg',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
         name: 'twitter:site',
         content: '@kleinner',
       },
@@ -327,19 +348,19 @@ const config: Config = {
           items: [
             {
               label: 'Compliance Matrix',
-              href: 'https://github.com/kleinnner/blob/main/COMPLIANCE-MATRIX.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md',
             },
             {
               label: 'Adoption Model',
-              href: 'https://github.com/kleinnner/blob/main/ADOPTION.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/ADOPTION.md',
             },
             {
               label: 'Glossary',
-              href: 'https://github.com/kleinnner/blob/main/GLOSSARY.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/GLOSSARY.md',
             },
             {
               label: 'Architecture',
-              href: 'https://github.com/kleinnner/blob/main/ARCHITECTURE.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md',
             },
           ],
         },
@@ -422,7 +443,7 @@ const config: Config = {
             },
             {
               label: 'Architecture',
-              href: 'https://github.com/kleinnner/blob/main/ARCHITECTURE.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/ARCHITECTURE.md',
             },
             {
               label: 'Published Links',
@@ -435,15 +456,15 @@ const config: Config = {
           items: [
             {
               label: 'Changelog',
-              href: 'https://github.com/kleinnner/blob/main/CHANGELOG.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/CHANGELOG.md',
             },
             {
               label: 'Roadmap',
-              href: 'https://github.com/kleinnner/blob/main/ROADMAP.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/ROADMAP.md',
             },
             {
               label: 'Security',
-              href: 'https://github.com/kleinnner/blob/main/SECURITY.md',
+              href: 'https://github.com/kleinnner/Anticloud/blob/main/SECURITY.md',
             },
           ],
         },

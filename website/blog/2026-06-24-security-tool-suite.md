@@ -88,9 +88,7 @@ Browse all [Security & Cryptography tools](/docs/tools/) in the documentation.
 
 - [Compliance Checklist](/docs/tools/compliance/compliance-checklist) — Security controls mapped to compliance frameworks
 - [SSP Generator](/docs/tools/compliance/ssp-generator) — System Security Plan generation with security control mappings
-<script type="application/ld+json">
-  {JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Anticloud Security Tool Suite — Encryption, Hashing, JWT, and More","datePublished":"2026-06-24T00:00:00.000Z","author":{"@type":"Person","name":"Lois-Kleinner","url":"https://github.com/kleinnner"},"publisher":{"@type":"Organization","name":"Anticloud","url":"https://0-1.gg/"},"image":"https://0-1.gg/img/anticloud-social.png","url":"https://0-1.gg/blog/2026-06-24/security-tool-suite"})}
-</script>
+
 
 ```
 .====================================================================.
