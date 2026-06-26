@@ -110,6 +110,7 @@ export default function Seo(): ReactNode {
 
   return (
     <Head>
+      <link rel="canonical" href={url} />
       <script type="application/ld+json">{JSON.stringify(webSiteSchema)}</script>
       <script type="application/ld+json">{JSON.stringify(orgSchema)}</script>
       <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>

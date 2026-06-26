@@ -248,6 +248,30 @@ const config: Config = {
       attributes: { rel: 'sitemap', type: 'application/xml', title: 'Sitemap', href: '/sitemap.xml' },
     },
     {
+      tagName: 'link',
+      attributes: { rel: 'alternate', hreflang: 'en', href: 'https://0-1.gg/' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'alternate', hreflang: 'pt-BR', href: 'https://0-1.gg/pt-BR/' },
+    },
+    {
+      tagName: 'meta',
+      attributes: { name: 'geo.region', content: 'AE-DU' },
+    },
+    {
+      tagName: 'meta',
+      attributes: { name: 'geo.placename', content: 'Dubai, United Arab Emirates' },
+    },
+    {
+      tagName: 'meta',
+      attributes: { name: 'geo.position', content: '25.2048;55.2708' },
+    },
+    {
+      tagName: 'meta',
+      attributes: { name: 'ICBM', content: '25.2048, 55.2708' },
+    },
+    {
       tagName: 'meta',
       attributes: {
         name: 'google-site-verification',

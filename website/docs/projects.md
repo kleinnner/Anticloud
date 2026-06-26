@@ -1,13 +1,13 @@
 ---
 sidebar_label: Platform Projects
-description: Overview of all 11 Anticloud platform projects — cryptographic browser, vector file system, systems language, sovereign OS, AI platforms, identity, and compute engine. Architecture diagram included.
-keywords: [projects, Anticloud, sovereign technology, open source, cryptography]
+description: Overview of all 13 Anticloud platform projects — cryptographic browser, vector file system, systems language, sovereign OS, AI platforms, terminal AI shell, philosophy, and compute engine. Architecture diagram included.
+keywords: [projects, Anticloud, sovereign technology, open source, cryptography, camus, daas]
 image: /img/anticloud-social.png
 ---
 
 # Platform Projects
 
-The Anticloud ecosystem consists of 11 platform projects spanning browsers, operating systems, programming languages, AI platforms, identity systems, and more.
+The Anticloud ecosystem consists of 13 platform projects spanning browsers, operating systems, programming languages, AI platforms, terminal AI, philosophy, identity systems, and more.
 
 Each project contains its own README with architecture diagrams, a docs/ directory with detailed documentation, tutorials, quickstart guides, and FAQs.
 
@@ -30,6 +30,7 @@ flowchart LR
     subgraph Intelligence
         AO[api-oss<br/>AI Gateway]
         KC[kazcade<br/>Compute Engine]
+        CM[Camus<br/>Vision AI Shell]
     end
 
     subgraph Storage
@@ -45,6 +46,7 @@ flowchart LR
     subgraph Core
         KS[Kasteran<br/>Language]
         SO[sovereign-os<br/>OS]
+        DS[ΔaaS<br/>Philosophy]
     end
 
     U1 --> KA
@@ -78,6 +80,8 @@ flowchart LR
 | 09 | kazcade | 158 | Columnar compute engine |
 | 10 | Anticode | 65 | Terminal AI coding engine |
 | 11 | inte11ect | 122 | Modular AI platform |
+| 12 | Camus | 11 | Terminal-native vision-language AI shell |
+| 13 | ΔaaS | 20 | Post-cloud superposition manifesto |
 
 ## Shared Foundation
 
@@ -101,6 +105,8 @@ See the full documentation for each project on GitHub:
 - [09-kazcade](https://github.com/kleinnner/Anticloud/tree/main/09-kazcade)
 - [10-anticode](https://github.com/kleinnner/Anticloud/tree/main/10-anticode)
 - [11-inte11ect](https://github.com/kleinnner/Anticloud/tree/main/11-inte11ect)
+- [13-camus](https://github.com/kleinnner/Anticloud/tree/main/13-camus)
+- [14-daas](https://github.com/kleinnner/Anticloud/tree/main/14-daas)
 
 ```
 .====================================================================.
