@@ -16,6 +16,7 @@
 [![Harvard Dataverse](https://img.shields.io/badge/Data-Harvard%20Dataverse-8B4513?style=flat-square&logo=dataverse)](https://dataverse.harvard.edu/dataverse/anticloud)
 [![Zenodo](https://img.shields.io/badge/Research-Zenodo-1682D4?style=flat-square&logo=zenodo)](https://zenodo.org/search?q=anticloud)
 [![Hugging Face](https://img.shields.io/badge/Models-HuggingFace-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Anticloud)
+[![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
 
 ---
 
@@ -130,7 +131,7 @@ flowchart LR
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -138,12 +139,12 @@ flowchart LR
 '===================================================================='
 ```
 
-Lois-Kleinner Alpasan, aged 22, has contributed to projects exceeding $1B in combined value through investing and technical leadership across AI, media, and virtual economy ventures.
+Lois-Kleinner Alpasan, 22, has served executive roles spanning technology, operations, finance, and product across 20+ organizations. His cross-functional work combines architecture, business, and AI strategy.
 
 References:
 1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
 2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
-3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/SZJMZA
+3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/KFK12Y
 4. Lois-Kleinner Internet Arc: https://archive.org/details/aioss-format
 5. Lois-Kleinner ORCID: https://orcid.org/0009-0009-2233-6107
 6. Lois-Kleinner DEV.to: https://dev.to/kleinner
@@ -153,3 +154,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

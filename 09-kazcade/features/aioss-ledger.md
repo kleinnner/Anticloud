@@ -1,33 +1,33 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # `.aioss` Tamper-Proof Ledger
 
-The `.aioss` ledger is an append-only, cryptographically authenticated record format used by Kazkade for benchmark results, diagnostic history, licensing, and audit trails. Every entry is chained to its predecessor via SHA3â€‘256, and the entire state is provable with an Ed25519 signature.
+The `.aioss` ledger is an append-only, cryptographically authenticated record format used by Kazkade for benchmark results, diagnostic history, licensing, and audit trails. Every entry is chained to its predecessor via SHA3-256, and the entire state is provable with an Ed25519 signature.
 
 ## File Structure
 
 An `.aioss` file is a binary sequence of variable-length records. Each record is:
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ Magic: 0xA1 0x0S 0x53 0x01          â”‚  4 bytes
-â”‚ Record Length (big-endian u64)       â”‚  8 bytes
-â”‚ Previous Hash (SHA3-256)             â”‚ 32 bytes
-â”‚ Timestamp (unix millis, big-endian)  â”‚  8 bytes
-â”‚ Entry Type (u8)                      â”‚  1 byte
-â”‚ Payload (JSON or binary)             â”‚  variable
-â”‚ Entry Hash (SHA3-256 over all above) â”‚ 32 bytes
-â”‚ Ed25519 Signature                    â”‚ 64 bytes
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
++--------------------------------------+
+¦ Magic: 0xA1 0x0S 0x53 0x01          ¦  4 bytes
+¦ Record Length (big-endian u64)       ¦  8 bytes
+¦ Previous Hash (SHA3-256)             ¦ 32 bytes
+¦ Timestamp (unix millis, big-endian)  ¦  8 bytes
+¦ Entry Type (u8)                      ¦  1 byte
+¦ Payload (JSON or binary)             ¦  variable
+¦ Entry Hash (SHA3-256 over all above) ¦ 32 bytes
+¦ Ed25519 Signature                    ¦ 64 bytes
++--------------------------------------+
 ```
 
 The very first record (genesis) has `Previous Hash = [0; 32]`.
@@ -36,14 +36,14 @@ The very first record (genesis) has `Previous Hash = [0; 32]`.
 
 ```mermaid
 flowchart LR
-    G[Genesis<br/>Prev=0...0<br/>Hash=Hâ‚€<br/>Sigâ‚€] --> R1[Record 1<br/>Prev=Hâ‚€<br/>Hash=Hâ‚<br/>Sigâ‚]
-    R1 --> R2[Record 2<br/>Prev=Hâ‚<br/>Hash=Hâ‚‚<br/>Sigâ‚‚]
-    R2 --> R3[Record N<br/>Prev=Hâ‚™â‚‹â‚<br/>Hash=Hâ‚™<br/>Sigâ‚™]
+    G[Genesis<br/>Prev=0...0<br/>Hash=H0<br/>Sig0] --> R1[Record 1<br/>Prev=H0<br/>Hash=H1<br/>Sig1]
+    R1 --> R2[Record 2<br/>Prev=H1<br/>Hash=H2<br/>Sig2]
+    R2 --> R3[Record N<br/>Prev=H??1<br/>Hash=H?<br/>Sig?]
     R3 --> V[Verifier]
 
     subgraph Verify
-        V --> C1{Hash(Hâ‚™) matches?}
-        C1 --> C2{Sigâ‚™ verifies?}
+        V --> C1{Hash(H?) matches?}
+        C1 --> C2{Sig? verifies?}
         C2 --> C3{Prev chain intact?}
         C3 --> OK[Trusted State]
     end
@@ -55,8 +55,8 @@ Tempering any byte in a record causes a cascade of hash mismatches that is immed
 
 Each record payload can be either:
 
-- **Binary** (type `0x01`) â€” compact, used for benchmark timestamps and counters. Schema is inferred from the reader.
-- **JSON** (type `0x02`) â€” self-describing, used for configuration snapshots and diagnostics. Encoded as UTF-8 without pretty-print.
+- **Binary** (type `0x01`) — compact, used for benchmark timestamps and counters. Schema is inferred from the reader.
+- **JSON** (type `0x02`) — self-describing, used for configuration snapshots and diagnostics. Encoded as UTF-8 without pretty-print.
 
 A record that mixes binary and JSON in the same file is valid; the type byte disambiguates.
 
@@ -105,12 +105,12 @@ The `entry_hash` covers every byte from `Magic` through `Payload`, ensuring that
 
 ## Use Cases
 
-- **Benchmark history** â€” each `kazkade bench` run appends a record with mean latency, throughput, and CPU config.
-- **Diagnostic snapshots** â€” the diagnostics dashboard appends periodic state summaries.
-- **Licensing and provenance** â€” signed records certify model origins and training hashes.
+- **Benchmark history** — each `kazkade bench` run appends a record with mean latency, throughput, and CPU config.
+- **Diagnostic snapshots** — the diagnostics dashboard appends periodic state summaries.
+- **Licensing and provenance** — signed records certify model origins and training hashes.
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -121,7 +121,7 @@ The `entry_hash` covers every byte from `Magic` through `Payload`, ensuring that
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -144,3 +144,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

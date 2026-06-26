@@ -1,8 +1,8 @@
-﻿# Source Code and Build Transparency: Verifiable Builds in the 01s Sovereign OS
+# Source Code and Build Transparency: Verifiable Builds in the 01s Sovereign OS
 
 ## Abstract
 
-Source code transparency alone is insufficient — users must also be able to verify that distributed binaries correspond to published source code. This paper documents reproducible builds, build attestation, supply chain verification, and the complete source-to-binary verification pipeline in the 01s Sovereign OS.
+Source code transparency alone is insufficient � users must also be able to verify that distributed binaries correspond to published source code. This paper documents reproducible builds, build attestation, supply chain verification, and the complete source-to-binary verification pipeline in the 01s Sovereign OS.
 
 ## 1. Introduction
 
@@ -39,16 +39,16 @@ flowchart LR
 
 ```
 01s/
-├── kernel/          # Linux kernel configuration and patches
-├── drivers/         # Additional driver support
-├── toolchain/       # Custom compiler, lexer, parser, code generator
-├── ai/              # AI agent framework and models
-├── ledger/          # Audit ledger implementation
-├── build/           # Build scripts and configuration
-├── docs/            # Documentation
-├── packages/        # Package definitions
-├── installer/       # Installation system
-└── tests/           # Test suites
++-- kernel/          # Linux kernel configuration and patches
++-- drivers/         # Additional driver support
++-- toolchain/       # Custom compiler, lexer, parser, code generator
++-- ai/              # AI agent framework and models
++-- ledger/          # Audit ledger implementation
++-- build/           # Build scripts and configuration
++-- docs/            # Documentation
++-- packages/        # Package definitions
++-- installer/       # Installation system
++-- tests/           # Test suites
 ```
 
 ### Release Tagging
@@ -78,7 +78,7 @@ A build is reproducible when the same source, tools, and environment produce bit
 
 ```
 Source (commit SHA) + Build Environment + Build Script
-                        ↓
+                        ?
             Bit-identical Binary Output
 ```
 
@@ -148,8 +148,8 @@ sequenceDiagram
     B2->>V: Build result hash
     B3->>V: Build result hash
     V->>V: Compare hashes
-    V->>V: All match? → Verified
-    V->>V: Mismatch? → Investigation
+    V->>V: All match? ? Verified
+    V->>V: Mismatch? ? Investigation
 ```
 
 ## 4. Build Verification
@@ -186,9 +186,9 @@ gpg --verify sha3sum.txt.asc sha3sum.txt
 
 echo "Step 7: Compare checksums"
 if diff my_checksum.txt sha3sum.txt; then
-    echo "✅ BUILD VERIFIED - Binary matches published source"
+    echo "? BUILD VERIFIED - Binary matches published source"
 else
-    echo "❌ BUILD MISMATCH - Binary may be tampered"
+    echo "? BUILD MISMATCH - Binary may be tampered"
     exit 1
 fi
 ```
@@ -334,8 +334,8 @@ curl https://builds.01s.sovereign/v2.4.1/attestations.json | \
 # Release: v2.4.1
 # Build Date: 2026-06-19
 # Output Hash: sha3-256:9f8e7d6c...
-# Reproducible: ✅ YES (3 of 3 builders match)
-# Verification: ✅ PASS
+# Reproducible: ? YES (3 of 3 builders match)
+# Verification: ? PASS
 ```
 
 ## 9. Build Environment Reproducibility
@@ -410,10 +410,10 @@ docker run --rm \
 ACTUAL_HASH=$(sha3sum 01s.iso | cut -d' ' -f1)
 
 if [ "$ACTUAL_HASH" = "$EXPECTED_HASH" ]; then
-    echo "✅ BUILD VERIFIED - Bit-identical output"
+    echo "? BUILD VERIFIED - Bit-identical output"
     exit 0
 else
-    echo "❌ BUILD MISMATCH"
+    echo "? BUILD MISMATCH"
     echo "Expected: $EXPECTED_HASH"
     echo "Actual:   $ACTUAL_HASH"
     exit 1
@@ -550,9 +550,9 @@ jobs:
         run: |
           cat attestation-*/checksum.txt | sort | uniq -c
           if [ $(cat attestation-*/checksum.txt | sort -u | wc -l) -eq 1 ]; then
-            echo "✅ BUILD VERIFIED - All builders agree"
+            echo "? BUILD VERIFIED - All builders agree"
           else
-            echo "❌ BUILD MISMATCH - Builders disagree"
+            echo "? BUILD MISMATCH - Builders disagree"
             exit 1
           fi
 ```
@@ -602,9 +602,9 @@ curl -sOL "https://releases.01s.sovereign/$RELEASE/sha3sum.txt.asc"
 echo "Verifying GPG signature..."
 gpg --verify sha3sum.txt.asc sha3sum.txt 2>/dev/null
 if [ $? -eq 0 ]; then
-    echo "✅ GPG signature valid"
+    echo "? GPG signature valid"
 else
-    echo "❌ GPG signature invalid"
+    echo "? GPG signature invalid"
     exit 1
 fi
 
@@ -613,13 +613,13 @@ echo "Comparing checksums..."
 if diff my-checksum.txt sha3sum.txt; then
     echo ""
     echo "========================================"
-    echo "✅ BUILD VERIFIED SUCCESSFULLY"
+    echo "? BUILD VERIFIED SUCCESSFULLY"
     echo "Your binary matches the published source"
     echo "========================================"
 else
     echo ""
     echo "========================================"
-    echo "❌ BUILD VERIFICATION FAILED"
+    echo "? BUILD VERIFICATION FAILED"
     echo "Binary does NOT match published source"
     echo "Possible tampering or build mismatch"
     echo "========================================"
@@ -634,24 +634,24 @@ fi
 01s-ledger build-status
 
 # Example output:
-# ┌────────────────────────────────────────────────────┐
-# │ 01s Sovereign Build Transparency Dashboard        │
-# ├────────────────────────────────────────────────────┤
-# │ Release: v2.4.1                                    │
-# │ Source Commit: a1b2c3d4e5f6...                     │
-# │ Build Date: 2026-06-19                             │
-# │                                                    │
-# │ Builder Results:                                   │
-# │   builder-01: sha3-256:9f8e7d6c... ✅              │
-# │   builder-02: sha3-256:9f8e7d6c... ✅              │
-# │   builder-03: sha3-256:9f8e7d6c... ✅              │
-# │                                                    │
-# │ Status: ✅ REPRODUCIBLE (3/3 builders match)       │
-# │ Attestation: ✅ GPG signed                         │
-# │ SBOM: ✅ Generated (CycloneDX 1.5)                 │
-# │                                                    │
-# │ Last verified: 2026-06-19T10:30:00Z                │
-# └────────────────────────────────────────────────────┘
+# +----------------------------------------------------+
+# � 01s Sovereign Build Transparency Dashboard        �
+# +----------------------------------------------------�
+# � Release: v2.4.1                                    �
+# � Source Commit: a1b2c3d4e5f6...                     �
+# � Build Date: 2026-06-19                             �
+# �                                                    �
+# � Builder Results:                                   �
+# �   builder-01: sha3-256:9f8e7d6c... ?              �
+# �   builder-02: sha3-256:9f8e7d6c... ?              �
+# �   builder-03: sha3-256:9f8e7d6c... ?              �
+# �                                                    �
+# � Status: ? REPRODUCIBLE (3/3 builders match)       �
+# � Attestation: ? GPG signed                         �
+# � SBOM: ? Generated (CycloneDX 1.5)                 �
+# �                                                    �
+# � Last verified: 2026-06-19T10:30:00Z                �
+# +----------------------------------------------------+
 ```
 
 ## 12. Conclusion
@@ -671,7 +671,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -694,3 +694,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

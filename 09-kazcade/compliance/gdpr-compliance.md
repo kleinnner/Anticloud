@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # GDPR Compliance
@@ -14,7 +14,7 @@
 **Document ID:** KAZ-COMP-GDPR-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Compliance Evidence  
+**Classification:** Internal — Compliance Evidence  
 
 ---
 
@@ -24,13 +24,13 @@
 2. GDPR Principles (Art. 5)
 3. Lawfulness of Processing (Art. 6)
 4. Consent (Art. 7)
-5. Data Subject Rights (Art. 12â€“23)
+5. Data Subject Rights (Art. 12–23)
 6. Data Controller vs. Processor
 7. Data Protection by Design (Art. 25)
 8. Data Protection Impact Assessment (Art. 35)
 9. Records of Processing Activities (Art. 30)
-10. Data Breach Notification (Art. 33â€“34)
-11. Cross-Border Data Transfers (Art. 44â€“49)
+10. Data Breach Notification (Art. 33–34)
+11. Cross-Border Data Transfers (Art. 44–49)
 12. Local-First Architecture Benefits
 13. `.aioss` Ledger for GDPR
 14. `.acol` Storage Controls
@@ -118,7 +118,7 @@ kazkade acol acl set \
 
 ### 2.3 Data Minimization
 
-The columnar storage model inherently supports data minimization â€” only the columns needed for a specific purpose are loaded:
+The columnar storage model inherently supports data minimization — only the columns needed for a specific purpose are loaded:
 
 ```sql
 -- Query only necessary columns (minimization)
@@ -282,9 +282,9 @@ ORDER BY purpose;
 
 ---
 
-## 5. Data Subject Rights (Art. 12â€“23)
+## 5. Data Subject Rights (Art. 12–23)
 
-### 5.1 Right to be Informed (Art. 13â€“14)
+### 5.1 Right to be Informed (Art. 13–14)
 
 Privacy information is documented and versioned in the `.aioss` ledger:
 
@@ -422,7 +422,7 @@ When deploying Kazkade, the organization acts as the data controller. Kazkade pr
 | Records of Processing | `.aioss` ledger | Art. 30 |
 | Data Protection Impact Assessment | Risk assessment module | Art. 35 |
 | DPA Engagement | Compliance reporting | Art. 37 |
-| Data Breach Notification | Incident ledger | Art. 33â€“34 |
+| Data Breach Notification | Incident ledger | Art. 33–34 |
 
 ### 6.2 Processor Obligations
 
@@ -567,7 +567,7 @@ ORDER BY activity_id;
 
 ---
 
-## 10. Data Breach Notification (Art. 33â€“34)
+## 10. Data Breach Notification (Art. 33–34)
 
 ### 10.1 Breach Detection and Notification
 
@@ -627,7 +627,7 @@ kazkade ledger query "
 
 ---
 
-## 11. Cross-Border Data Transfers (Art. 44â€“49)
+## 11. Cross-Border Data Transfers (Art. 44–49)
 
 ### 11.1 Transfer Mechanisms
 
@@ -905,7 +905,7 @@ kazkade ledger append \
 | 1 | Art. 5 Principles | All seven principles supported | Implemented |
 | 2 | Art. 6 Lawful Basis | Ledger-based basis recording | Implemented |
 | 3 | Art. 7 Consent | Full consent lifecycle | Implemented |
-| 4 | Art. 12â€“23 Data Subject Rights | CLI commands for all rights | Implemented |
+| 4 | Art. 12–23 Data Subject Rights | CLI commands for all rights | Implemented |
 | 5 | Art. 25 by Design | Column-level controls | Implemented |
 | 6 | Art. 30 ROPA | Ledger-based ROPA | Implemented |
 | 7 | Art. 32 Security | SHA3-256 + Ed25519 + AES | Implemented |
@@ -914,7 +914,7 @@ kazkade ledger append \
 | 10 | Art. 37 DPO | DPO appointment records | Implemented |
 | 11 | Art. 17 Erasure | Secure shredding | Implemented |
 | 12 | Art. 20 Portability | JSON/CSV export | Implemented |
-| 13 | Art. 44â€“49 Transfers | Local-first eliminates transfers | Implemented |
+| 13 | Art. 44–49 Transfers | Local-first eliminates transfers | Implemented |
 | 14 | Accountability | Full `.aioss` audit trail | Implemented |
 | 15 | Processor Records | Processor activity logging | Implemented |
 
@@ -922,15 +922,15 @@ kazkade ledger append \
 
 ## References
 
-- Regulation (EU) 2016/679 â€” General Data Protection Regulation
+- Regulation (EU) 2016/679 — General Data Protection Regulation
 - Article 29 Working Party Guidelines
 - EDPB Guidelines 4/2019 on Art. 25
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -941,7 +941,7 @@ kazkade ledger append \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -964,3 +964,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

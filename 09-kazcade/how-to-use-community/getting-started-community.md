@@ -1,15 +1,15 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Getting Started â€” Community Edition
+# Getting Started — Community Edition
 
 Kazkade is a zero-copy compute runtime built in Rust. This guide gets you up and running in under five minutes.
 
@@ -38,7 +38,7 @@ Invoke-WebRequest -Uri "https://releases.kazcade.io/v0.6.0/kazcade-windows-x64.z
 Expand-Archive -Path "kazcade.zip" -DestinationPath "."
 ```
 
-No installer requiredâ€”just a single static binary.
+No installer required—just a single static binary.
 
 ## Verify the Binary
 
@@ -49,13 +49,13 @@ No installer requiredâ€”just a single static binary.
 This runs a built-in integrity check. You should see:
 
 ```
-âœ“ Binary integrity: PASS
-âœ“ CPU features: AVX2
-âœ“ Memory map: OK
-âœ“ Self-test: All 47 checks passed
+? Binary integrity: PASS
+? CPU features: AVX2
+? Memory map: OK
+? Self-test: All 47 checks passed
 ```
 
-## First Run â€” `kazkade info`
+## First Run — `kazkade info`
 
 ```bash
 ./kazkade info
@@ -100,7 +100,7 @@ Benchmark suite: standard
   mlp_infer     1.8 GB/s    (batch=4096)
 ```
 
-Each result is measured in zero-copy modeâ€”no data is copied between kernel and userspace.
+Each result is measured in zero-copy mode—no data is copied between kernel and userspace.
 
 ## Explore an `.acol` File
 
@@ -131,7 +131,7 @@ Opens the local web dashboard at `http://127.0.0.1:8742`. From here you can:
 - View benchmark results
 - Inspect ledger state
 
-The dashboard is fully localâ€”zero network traffic leaves your machine.
+The dashboard is fully local—zero network traffic leaves your machine.
 
 ## Next Steps
 
@@ -169,7 +169,7 @@ kazkade ledger       Show ledger status
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -180,7 +180,7 @@ kazkade ledger       Show ledger status
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -203,3 +203,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

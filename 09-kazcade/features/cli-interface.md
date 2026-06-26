@@ -1,15 +1,15 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# CLI Interface â€” `kazkade`
+# CLI Interface — `kazkade`
 
 The `kazkade` binary exposes a unified command-line interface built on the `clap` v4 derive API. Every subcommand supports `--help` for detailed flag documentation, `--json` for machine-readable output, and `--ledger` for `.aioss` audit logging.
 
@@ -30,7 +30,7 @@ Options:
 
 ### `bench`
 
-Run micro-benchmarks for GEMM, scan, rasterizer, and fullâ€‘pipeline throughput.
+Run micro-benchmarks for GEMM, scan, rasterizer, and full-pipeline throughput.
 
 ```
 kazkade bench [OPTIONS]
@@ -106,7 +106,7 @@ kazkade ledger <SUBCOMMAND>
 
 ### `verify`
 
-Shortcut for `ledger verify` â€” convenience for quick integrity checks.
+Shortcut for `ledger verify` — convenience for quick integrity checks.
 
 ```
 kazkade verify [PATH]
@@ -158,7 +158,7 @@ kazkade neural model.kaz data.acol -b 64
 ```
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -169,7 +169,7 @@ kazkade neural model.kaz data.acol -b 64
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -192,3 +192,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

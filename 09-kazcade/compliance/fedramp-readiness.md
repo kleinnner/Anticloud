@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # FedRAMP Readiness
@@ -42,7 +42,7 @@
 
 ## 1. Overview
 
-FedRAMP (Federal Risk and Authorization Management Program) provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services used by U.S. federal agencies. FedRAMP defines three impact levels â€” Low, Moderate, and High â€” based on the potential impact of a security breach on organizational operations, assets, or individuals.
+FedRAMP (Federal Risk and Authorization Management Program) provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services used by U.S. federal agencies. FedRAMP defines three impact levels — Low, Moderate, and High — based on the potential impact of a security breach on organizational operations, assets, or individuals.
 
 Kazkade, as a local-first zero-copy compute runtime, operates in a unique position within the FedRAMP landscape. While traditionally FedRAMP applies to cloud services, Kazkade's local-first architecture allows it to be deployed within federal agency on-premises environments (FedRAMP Tailored or agency-authorized) or as a containerized workload within an authorized cloud infrastructure.
 
@@ -844,41 +844,41 @@ kazkade ledger verify --export 3pao-evidence-package.zip
 
 | # | Control Family | FedRAMP Moderate | Kazkade Status | Action |
 |---|---|---|---|---|
-| 1 | AC â€” Access Control | 23 controls | Native support | Configure RBAC |
-| 2 | AT â€” Awareness and Training | 4 controls | Ledger-based | Record training |
-| 3 | AU â€” Audit and Accountability | 22 controls | `.aioss` native | Verify event coverage |
-| 4 | CA â€” Assessment and Authorization | 12 controls | Continuous monitor | Enable monitoring |
-| 5 | CM â€” Configuration Management | 18 controls | Ledger config | Baseline capture |
-| 6 | CP â€” Contingency Planning | 17 controls | `.acol` backup | Schedule backups |
-| 7 | IA â€” Identification and Auth | 16 controls | Ed25519 native | Configure keys |
-| 8 | IR â€” Incident Response | 13 controls | `.aioss` incidents | Deploy playbooks |
-| 9 | MA â€” Maintenance | 6 controls | Ledger tracking | Maintenance log |
-| 10 | MP â€” Media Protection | 7 controls | Column encryption | Encrypt CUI |
-| 11 | PE â€” Physical Protection | 7 controls | N/A | Facility controls |
-| 12 | PL â€” Planning | 6 controls | Ledger documents | SSP in ledger |
-| 13 | PM â€” Program Management | 9 controls | Ledger program | ISMP document |
-| 14 | PS â€” Personnel Security | 6 controls | N/A | HR integration |
-| 15 | RA â€” Risk Assessment | 12 controls | Ledger risk | Risk register |
-| 16 | SA â€” System Acquisition | 17 controls | Binary provenance | Build chain |
-| 17 | SC â€” System Comm Protection | 31 controls | Full encryption | FIPS mode |
-| 18 | SI â€” System Info Integrity | 28 controls | Full coverage | Configure SI |
+| 1 | AC — Access Control | 23 controls | Native support | Configure RBAC |
+| 2 | AT — Awareness and Training | 4 controls | Ledger-based | Record training |
+| 3 | AU — Audit and Accountability | 22 controls | `.aioss` native | Verify event coverage |
+| 4 | CA — Assessment and Authorization | 12 controls | Continuous monitor | Enable monitoring |
+| 5 | CM — Configuration Management | 18 controls | Ledger config | Baseline capture |
+| 6 | CP — Contingency Planning | 17 controls | `.acol` backup | Schedule backups |
+| 7 | IA — Identification and Auth | 16 controls | Ed25519 native | Configure keys |
+| 8 | IR — Incident Response | 13 controls | `.aioss` incidents | Deploy playbooks |
+| 9 | MA — Maintenance | 6 controls | Ledger tracking | Maintenance log |
+| 10 | MP — Media Protection | 7 controls | Column encryption | Encrypt CUI |
+| 11 | PE — Physical Protection | 7 controls | N/A | Facility controls |
+| 12 | PL — Planning | 6 controls | Ledger documents | SSP in ledger |
+| 13 | PM — Program Management | 9 controls | Ledger program | ISMP document |
+| 14 | PS — Personnel Security | 6 controls | N/A | HR integration |
+| 15 | RA — Risk Assessment | 12 controls | Ledger risk | Risk register |
+| 16 | SA — System Acquisition | 17 controls | Binary provenance | Build chain |
+| 17 | SC — System Comm Protection | 31 controls | Full encryption | FIPS mode |
+| 18 | SI — System Info Integrity | 28 controls | Full coverage | Configure SI |
 | | **Total** | **254 controls** | **~220 native** | **~34 complementary** |
 
 ---
 
 ## References
 
-- FedRAMP Rev. 5 Baseline â€” PMO 2024
-- NIST SP 800-53 Rev. 5 â€” Security and Privacy Controls
-- NIST SP 800-37 Rev. 2 â€” Risk Management Framework
-- FIPS 199 â€” Security Categorization
-- FedRAMP OSCAL v1.1.0 â€” Open Security Controls Assessment Language
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- FedRAMP Rev. 5 Baseline — PMO 2024
+- NIST SP 800-53 Rev. 5 — Security and Privacy Controls
+- NIST SP 800-37 Rev. 2 — Risk Management Framework
+- FIPS 199 — Security Categorization
+- FedRAMP OSCAL v1.1.0 — Open Security Controls Assessment Language
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -889,7 +889,7 @@ kazkade ledger verify --export 3pao-evidence-package.zip
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -912,3 +912,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

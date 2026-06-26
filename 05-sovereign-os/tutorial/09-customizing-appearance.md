@@ -1,4 +1,4 @@
-﻿# Customizing Appearance
+# Customizing Appearance
 
 01s Sovereign comes with a unique look out of the box, but you can customize every visual aspect to match your preferences.
 
@@ -242,12 +242,12 @@ sudo mkinitcpio -P
 
 ```
 /usr/share/plymouth/themes/01s/
-â”œâ”€â”€ 01s.plymouth     # Theme definition
-â”œâ”€â”€ 01s.script       # Animation script
-â”œâ”€â”€ logo.png         # Static logo
-â”œâ”€â”€ progress-bar.png # Progress bar
-â”œâ”€â”€ throbber-*.png   # Spinner frames
-â””â”€â”€ box.png         # Background box
+├── 01s.plymouth     # Theme definition
+├── 01s.script       # Animation script
+├── logo.png         # Static logo
+├── progress-bar.png # Progress bar
+├── throbber-*.png   # Spinner frames
+└── box.png         # Background box
 ```
 
 ## Customizing Conky
@@ -513,28 +513,28 @@ Once you've completed this guide, move to the next tutorial, practice on a test 
 
 ## Further Reading
 
-- [Desktop Tour](08-desktop-tour.md) â€” GNOME environment overview
-- [Theming and Branding](../features/15-theming-and-branding-system.md) â€” System theming
-- [GNOME Extensions](../features/04-gnome-shell-extensions.md) â€” Extension development
-- [Desktop Environment](../features/03-desktop-environment.md) â€” Technical details
-- [Firefox Customization](15-configuring-firefox.md) â€” Browser theming
-- [Boot Splash Customization](../features/02-day1-iso-build-system.md) â€” Plymouth themes
-- [Desktop FAQ](../faq/05-desktop-faq.md) â€” Common questions
-- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) â€” Issue resolution
-- [Developer Art Guide](../developers/14-gnome-extension-development.md) â€” UI development
-- [Community Themes](../community/07-community-projects-and-ecosystem.md) â€” Shared themes
+- [Desktop Tour](08-desktop-tour.md) — GNOME environment overview
+- [Theming and Branding](../features/15-theming-and-branding-system.md) — System theming
+- [GNOME Extensions](../features/04-gnome-shell-extensions.md) — Extension development
+- [Desktop Environment](../features/03-desktop-environment.md) — Technical details
+- [Firefox Customization](15-configuring-firefox.md) — Browser theming
+- [Boot Splash Customization](../features/02-day1-iso-build-system.md) — Plymouth themes
+- [Desktop FAQ](../faq/05-desktop-faq.md) — Common questions
+- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) — Issue resolution
+- [Developer Art Guide](../developers/14-gnome-extension-development.md) — UI development
+- [Community Themes](../community/07-community-projects-and-ecosystem.md) — Shared themes
 
 ## Theme Structure Reference
 
 ```
 MyTheme/
-â”œâ”€â”€ gtk-3.0/gtk.css          # GTK3 widget styling
-â”œâ”€â”€ gtk-4.0/gtk.css          # GTK4 styling
-â”œâ”€â”€ gnome-shell/gnome-shell.css  # Shell theming
-â”œâ”€â”€ metacity-1/metacity-theme-1.xml  # Window decorations
-â”œâ”€â”€ cinnamon/cinnamon.css    # Cinnamon support
-â”œâ”€â”€ unity/unity.css          # Unity support
-â””â”€â”€ index.theme              # Theme metadata
+├── gtk-3.0/gtk.css          # GTK3 widget styling
+├── gtk-4.0/gtk.css          # GTK4 styling
+├── gnome-shell/gnome-shell.css  # Shell theming
+├── metacity-1/metacity-theme-1.xml  # Window decorations
+├── cinnamon/cinnamon.css    # Cinnamon support
+├── unity/unity.css          # Unity support
+└── index.theme              # Theme metadata
 ```
 
 ## Custom Shell Theme Snippet
@@ -680,7 +680,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -703,3 +703,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

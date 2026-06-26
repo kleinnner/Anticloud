@@ -1,4 +1,4 @@
-ï»¿<!-- ASCII Art for Ball-11 -->
+<!-- ASCII Art for Ball-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 06 â€” Quantization Techniques
+# research - Document 06 — Quantization Techniques
 
 > **Associated Module:** Ball-11
 > **Category:** Research & Development
@@ -16,11 +16,11 @@
 
 ## Abstract
 
-This document provides a comprehensive analysis of quantization techniques employed in the Inte11ect platform, with particular emphasis on the Q4_K_M quantization scheme and GGUF format integration. We evaluate the perplexity trade-offs, memory footprint reductions, and inference speedups across five quantization levels (FP16, INT8, INT4, NF4, Q4_K_M) applied to the Qwen2-VL-2B model. Our results demonstrate that Q4_K_M achieves a 3.85Ã— memory reduction (from 8.5 GB to 2.2 GB) with a perplexity increase of only 0.47 points on the WikiText-2 benchmark. The GGUF format provides an additional 12% compression through header optimization and key-value metadata organization. We further analyze the interaction between quantization granularity (per-channel vs per-tensor), calibration dataset selection, and downstream task performance across the seven Inte11ect evaluation benchmarks.
+This document provides a comprehensive analysis of quantization techniques employed in the Inte11ect platform, with particular emphasis on the Q4_K_M quantization scheme and GGUF format integration. We evaluate the perplexity trade-offs, memory footprint reductions, and inference speedups across five quantization levels (FP16, INT8, INT4, NF4, Q4_K_M) applied to the Qwen2-VL-2B model. Our results demonstrate that Q4_K_M achieves a 3.85× memory reduction (from 8.5 GB to 2.2 GB) with a perplexity increase of only 0.47 points on the WikiText-2 benchmark. The GGUF format provides an additional 12% compression through header optimization and key-value metadata organization. We further analyze the interaction between quantization granularity (per-channel vs per-tensor), calibration dataset selection, and downstream task performance across the seven Inte11ect evaluation benchmarks.
 
 ## 1. Introduction
 
-Model quantization is a fundamental technique for deploying large language models in resource-constrained environments. By reducing the numerical precision of model weights and activations from 16-bit floating point to 4-bit integer representations, quantization can achieve 4Ã— memory compression with minimal impact on output quality. The Inte11ect platform leverages state-of-the-art quantization techniques to enable CPU-based inference of the 2-billion parameter Qwen2-VL-2B model with less than 2% accuracy degradation across standard benchmarks.
+Model quantization is a fundamental technique for deploying large language models in resource-constrained environments. By reducing the numerical precision of model weights and activations from 16-bit floating point to 4-bit integer representations, quantization can achieve 4× memory compression with minimal impact on output quality. The Inte11ect platform leverages state-of-the-art quantization techniques to enable CPU-based inference of the 2-billion parameter Qwen2-VL-2B model with less than 2% accuracy degradation across standard benchmarks.
 
 The quantization landscape has evolved rapidly, with techniques ranging from simple post-training round-to-nearest quantization to sophisticated mixed-precision schemes that allocate variable bit widths based on weight importance. The Q4_K_M scheme, popularized by the llama.cpp ecosystem, represents a compelling middle ground: it provides the compression benefits of 4-bit quantization while using a medium-sized block (32 weights per block) to balance quantization error and implementation efficiency.
 
@@ -30,7 +30,7 @@ This document is organized as follows: Section 2 provides theoretical background
 
 ### 2.1 Uniform Quantization
 
-Uniform quantization maps a floating-point range [Î², Î±] to a discrete integer grid {0, 1, ..., 2^n - 1}:
+Uniform quantization maps a floating-point range [ß, a] to a discrete integer grid {0, 1, ..., 2^n - 1}:
 
 ```python
 import numpy as np
@@ -116,12 +116,12 @@ def analyze_quantization_error(original: torch.Tensor, num_bits: int) -> dict:
 
 | Bit Width | MSE | SNR (dB) | Cosine Similarity |
 |---|---|---|---|
-| 16 (FP16) | 3.2 Ã— 10^-8 | 78.5 | 0.99999 |
-| 8 (INT8) | 1.5 Ã— 10^-5 | 52.3 | 0.99989 |
-| 6 (INT6) | 2.3 Ã— 10^-4 | 42.1 | 0.99912 |
-| 4 (INT4) | 4.8 Ã— 10^-3 | 29.8 | 0.99456 |
-| 3 (INT3) | 2.1 Ã— 10^-2 | 21.4 | 0.97890 |
-| 2 (INT2) | 8.5 Ã— 10^-2 | 14.7 | 0.93210 |
+| 16 (FP16) | 3.2 × 10^-8 | 78.5 | 0.99999 |
+| 8 (INT8) | 1.5 × 10^-5 | 52.3 | 0.99989 |
+| 6 (INT6) | 2.3 × 10^-4 | 42.1 | 0.99912 |
+| 4 (INT4) | 4.8 × 10^-3 | 29.8 | 0.99456 |
+| 3 (INT3) | 2.1 × 10^-2 | 21.4 | 0.97890 |
+| 2 (INT2) | 8.5 × 10^-2 | 14.7 | 0.93210 |
 
 ## 3. Quantization Schemes
 
@@ -429,22 +429,22 @@ impl GGUFFile {
 
 ### 5.1 Perplexity on WikiText-2
 
-| Quantization | PPL | Î”PPL | Model Size | Compression |
+| Quantization | PPL | ?PPL | Model Size | Compression |
 |---|---|---|---|---|
-| FP16 (baseline) | 8.42 | â€” | 8.50 GB | 1.00Ã— |
-| INT8 | 8.45 | +0.03 | 4.25 GB | 2.00Ã— |
-| INT6 | 8.51 | +0.09 | 3.19 GB | 2.67Ã— |
-| INT4 | 8.78 | +0.36 | 2.13 GB | 4.00Ã— |
-| NF4 | 8.75 | +0.33 | 2.13 GB | 4.00Ã— |
-| Q4_K_M | 8.89 | +0.47 | 2.21 GB | 3.85Ã— |
-| Q4_K_S | 8.95 | +0.53 | 2.10 GB | 4.05Ã— |
-| Q5_K_M | 8.62 | +0.20 | 2.65 GB | 3.21Ã— |
-| Q6_K | 8.52 | +0.10 | 3.19 GB | 2.66Ã— |
-| Q8_0 | 8.46 | +0.04 | 4.41 GB | 1.93Ã— |
+| FP16 (baseline) | 8.42 | — | 8.50 GB | 1.00× |
+| INT8 | 8.45 | +0.03 | 4.25 GB | 2.00× |
+| INT6 | 8.51 | +0.09 | 3.19 GB | 2.67× |
+| INT4 | 8.78 | +0.36 | 2.13 GB | 4.00× |
+| NF4 | 8.75 | +0.33 | 2.13 GB | 4.00× |
+| Q4_K_M | 8.89 | +0.47 | 2.21 GB | 3.85× |
+| Q4_K_S | 8.95 | +0.53 | 2.10 GB | 4.05× |
+| Q5_K_M | 8.62 | +0.20 | 2.65 GB | 3.21× |
+| Q6_K | 8.52 | +0.10 | 3.19 GB | 2.66× |
+| Q8_0 | 8.46 | +0.04 | 4.41 GB | 1.93× |
 
 ### 5.2 Task-Specific Accuracy
 
-| Benchmark | FP16 | INT8 | Q4_K_M | Î” (Q4_K_M) |
+| Benchmark | FP16 | INT8 | Q4_K_M | ? (Q4_K_M) |
 |---|---|---|---|---|
 | MMLU | 68.2% | 67.9% | 67.1% | -1.1% |
 | HellaSwag | 71.5% | 71.1% | 70.2% | -1.3% |
@@ -633,7 +633,7 @@ class QuantizationDriftMonitor:
 
 ## 8. Conclusion
 
-The Inte11ect platform's quantization framework demonstrates that aggressive 4-bit compression is viable for production deployment with minimal quality degradation. Q4_K_M achieves a 3.85Ã— memory reduction (from 8.5 GB to 2.21 GB) with a perplexity increase of only 0.47 points, enabling CPU-based inference of the 2B-parameter Qwen2-VL-2B model at 42.3 tokens per second on consumer hardware. The GGUF format provides efficient storage organization with only 2.1 KB of overhead, and the mixed-precision deployment strategy further optimizes the accuracy-efficiency trade-off. The systematic analysis of calibration datasets, block sizes, and quantization schemes provides actionable guidance for deployment across diverse hardware configurations.
+The Inte11ect platform's quantization framework demonstrates that aggressive 4-bit compression is viable for production deployment with minimal quality degradation. Q4_K_M achieves a 3.85× memory reduction (from 8.5 GB to 2.21 GB) with a perplexity increase of only 0.47 points, enabling CPU-based inference of the 2B-parameter Qwen2-VL-2B model at 42.3 tokens per second on consumer hardware. The GGUF format provides efficient storage organization with only 2.1 KB of overhead, and the mixed-precision deployment strategy further optimizes the accuracy-efficiency trade-off. The systematic analysis of calibration datasets, block sizes, and quantization schemes provides actionable guidance for deployment across diverse hardware configurations.
 
 ---
 
@@ -689,7 +689,7 @@ The Inte11ect platform's quantization framework demonstrates that aggressive 4-b
 
 25. Sheng, Y., Zheng, L., Yuan, B., Li, Z., Ryabinin, M., Chen, B., ... & Zhang, C. (2023). FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU. *International Conference on Machine Learning*, 31094-31116.
 
-26. Stock, P., Fan, A., Graham, B., Grave, E., & JÃ©gou, H. (2021). Training with Quantization Noise for Extreme Model Compression. *International Conference on Learning Representations*.
+26. Stock, P., Fan, A., Graham, B., Grave, E., & Jégou, H. (2021). Training with Quantization Noise for Extreme Model Compression. *International Conference on Learning Representations*.
 
 27. Sun, X., Wang, X., & Choi, J. (2024). A Comprehensive Evaluation of Quantization Methods for LLMs. *Advances in Neural Information Processing Systems*, 37.
 
@@ -723,7 +723,7 @@ The Inte11ect platform's quantization framework demonstrates that aggressive 4-b
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -746,3 +746,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

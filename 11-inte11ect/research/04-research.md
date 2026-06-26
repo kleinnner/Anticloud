@@ -1,4 +1,4 @@
-ï»¿<!-- ASCII Art for Taut-11 -->
+<!-- ASCII Art for Taut-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 04 â€” RAG and Knowledge Retrieval
+# research - Document 04 — RAG and Knowledge Retrieval
 
 > **Associated Module:** Taut-11
 > **Category:** Research & Development
@@ -16,7 +16,7 @@
 
 ## Abstract
 
-This document presents the design and evaluation of the Retrieval-Augmented Generation (RAG) system within the Inte11ect platform, built on an SQLite-backed knowledge base with domain-specific embeddings. The system implements a hybrid retrieval strategy combining dense vector search (using Sentence-BERT embeddings) with sparse keyword-based BM25 retrieval to achieve 94.7% recall@10 across 72 specialized knowledge domains. The SQLite-based architecture supports approximately 1.2M embedded document chunks with a 95th-percentile retrieval latency of 23ms, making it suitable for real-time inference pipelines. We further demonstrate that domain-specific context isolation through the GOD-11 routing system improves answer accuracy by 18.3% compared to monolithic RAG approaches, with a 4.2Ã— reduction in irrelevant context injection.
+This document presents the design and evaluation of the Retrieval-Augmented Generation (RAG) system within the Inte11ect platform, built on an SQLite-backed knowledge base with domain-specific embeddings. The system implements a hybrid retrieval strategy combining dense vector search (using Sentence-BERT embeddings) with sparse keyword-based BM25 retrieval to achieve 94.7% recall@10 across 72 specialized knowledge domains. The SQLite-based architecture supports approximately 1.2M embedded document chunks with a 95th-percentile retrieval latency of 23ms, making it suitable for real-time inference pipelines. We further demonstrate that domain-specific context isolation through the GOD-11 routing system improves answer accuracy by 18.3% compared to monolithic RAG approaches, with a 4.2× reduction in irrelevant context injection.
 
 ## 1. Introduction
 
@@ -178,7 +178,7 @@ def configure_sqlite_pragmas(db: sqlite3.Connection):
     db.commit()
 ```
 
-These pragmas improve write throughput by approximately 5.3Ã— and read throughput by 2.7Ã— compared to default SQLite settings.
+These pragmas improve write throughput by approximately 5.3× and read throughput by 2.7× compared to default SQLite settings.
 
 ### 3.3 Storage Efficiency
 
@@ -524,10 +524,10 @@ class DomainIsolatedRAG:
 | Metric | Monolithic RAG | Domain-Isolated RAG | Improvement |
 |---|---|---|---|
 | Answer accuracy | 64.2% | 82.5% | +18.3% |
-| Irrelevant context rate | 28.5% | 6.8% | 4.2Ã— reduction |
-| Retrieval latency | 18.5 ms | 12.3 ms | 1.5Ã— faster |
+| Irrelevant context rate | 28.5% | 6.8% | 4.2× reduction |
+| Retrieval latency | 18.5 ms | 12.3 ms | 1.5× faster |
 | Context window usage | 64.8% | 91.2% | +26.4% |
-| Hallucination rate | 8.2% | 3.1% | 2.6Ã— reduction |
+| Hallucination rate | 8.2% | 3.1% | 2.6× reduction |
 
 ```mermaid
 graph TD
@@ -593,7 +593,7 @@ Knowledge propagation increases cross-module answer coverage by 22% while mainta
 - **Hierarchical retrieval**: Coarse-to-fine retrieval that first selects relevant modules, then retrieves within modules.
 - **Query expansion**: Generation of query variants to improve recall for ambiguous or underspecified queries.
 - **Online learning**: Implicit feedback from user interactions to refine retrieval rankings over time.
-- **Vector compression**: Scalar quantization of embeddings to reduce storage requirements by 4Ã—.
+- **Vector compression**: Scalar quantization of embeddings to reduce storage requirements by 4×.
 
 ### 8.3 Integration with .aioss Auditing
 
@@ -646,7 +646,7 @@ The Inte11ect RAG system demonstrates that a well-architected hybrid retrieval p
 
 4. Dai, Z., Xiong, C., Callan, J., & Liu, Z. (2022). ConvsBERT: Conversational Retrieval with BERT. *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics*, 4814-4829.
 
-5. DollÃ¡r, P., & Zisserman, A. (2023). Efficient Retrieval for Large-Scale Language Models. *Advances in Neural Information Processing Systems*, 36.
+5. Dollár, P., & Zisserman, A. (2023). Efficient Retrieval for Large-Scale Language Models. *Advances in Neural Information Processing Systems*, 36.
 
 6. Gao, T., Yao, X., & Chen, D. (2023). Enhancing Retrieval-Augmented Language Models with Iterative Retrieval. *International Conference on Learning Representations*.
 
@@ -654,15 +654,15 @@ The Inte11ect RAG system demonstrates that a well-architected hybrid retrieval p
 
 8. Guu, K., Lee, K., Tung, Z., Pasupat, P., & Chang, M. W. (2020). REALM: Retrieval-Augmented Language Model Pre-Training. *International Conference on Machine Learning*, 3929-3938.
 
-9. HofstÃ¤tter, S., Lin, S. C., Yang, J. H., Lin, J., & Hanbury, A. (2021). Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling. *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*, 113-122.
+9. Hofstätter, S., Lin, S. C., Yang, J. H., Lin, J., & Hanbury, A. (2021). Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling. *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*, 113-122.
 
 10. Izacard, G., & Grave, E. (2021). Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering. *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics*, 874-880.
 
 11. Jiang, Z., Xu, F. F., Araki, J., & Neubig, G. (2023). How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering. *Transactions of the Association for Computational Linguistics*, 11, 1073-1089.
 
-12. Johnson, J., Douze, M., & JÃ©gou, H. (2019). Billion-Scale Similarity Search with GPUs. *IEEE Transactions on Big Data*, 7(3), 535-547.
+12. Johnson, J., Douze, M., & Jégou, H. (2019). Billion-Scale Similarity Search with GPUs. *IEEE Transactions on Big Data*, 7(3), 535-547.
 
-13. Karpukhin, V., OÄŸuz, B., Min, S., Lewis, P., Wu, L., Edunov, S., ... & Yih, W. T. (2020). Dense Passage Retrieval for Open-Domain Question Answering. *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing*, 6769-6781.
+13. Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., ... & Yih, W. T. (2020). Dense Passage Retrieval for Open-Domain Question Answering. *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing*, 6769-6781.
 
 14. Khattab, O., & Zaharia, M. (2020). ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT. *Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval*, 39-48.
 
@@ -700,7 +700,7 @@ The Inte11ect RAG system demonstrates that a well-architected hybrid retrieval p
 
 31. Tao, Y., & Zhai, C. (2023). A Comparative Study of Dense and Sparse Retrieval for Open-Domain Question Answering. *Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval*.
 
-32. Thakur, N., Reimers, N., RÃ¼cklÃ©, A., Srivastava, A., & Gurevych, I. (2021). BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models. *Advances in Neural Information Processing Systems*, 34.
+32. Thakur, N., Reimers, N., Rücklé, A., Srivastava, A., & Gurevych, I. (2021). BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models. *Advances in Neural Information Processing Systems*, 34.
 
 33. Wang, K., Reimers, N., & Gurevych, I. (2022). TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning. *Findings of the Association for Computational Linguistics: EMNLP 2022*, 671-688.
 
@@ -722,7 +722,7 @@ The Inte11ect RAG system demonstrates that a well-architected hybrid retrieval p
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -745,3 +745,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

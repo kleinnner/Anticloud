@@ -1,4 +1,4 @@
-﻿# Post-Installation Setup
+# Post-Installation Setup
 
 After installing 01s Sovereign, follow this guide to configure your system for daily use.
 
@@ -550,16 +550,16 @@ ftables rules for your services |
 
 ## Further Reading
 
-- [Installation Guide](06-installation-guide.md) â€” Previous installation step
-- [Desktop Tour](08-desktop-tour.md) â€” GNOME environment overview
-- [Security Hardening](18-security-hardening.md) â€” Advanced security setup
-- [Using 01s-Ledger](10-using-01s-ledger.md) â€” Ledger initialization
-- [Networking and Connectivity](16-networking-and-connectivity.md) â€” Network setup
-- [Managing Packages](14-managing-packages.md) â€” Package management
-- [Development Environment](17-development-environment.md) â€” Dev tools setup
-- [Installation FAQ](../faq/02-installation-faq.md) â€” Common issues
-- [Desktop FAQ](../faq/05-desktop-faq.md) â€” Desktop configuration
-- [Community Setup Guide](../community/02-getting-started-as-contributor.md) â€” Contributing
+- [Installation Guide](06-installation-guide.md) — Previous installation step
+- [Desktop Tour](08-desktop-tour.md) — GNOME environment overview
+- [Security Hardening](18-security-hardening.md) — Advanced security setup
+- [Using 01s-Ledger](10-using-01s-ledger.md) — Ledger initialization
+- [Networking and Connectivity](16-networking-and-connectivity.md) — Network setup
+- [Managing Packages](14-managing-packages.md) — Package management
+- [Development Environment](17-development-environment.md) — Dev tools setup
+- [Installation FAQ](../faq/02-installation-faq.md) — Common issues
+- [Desktop FAQ](../faq/05-desktop-faq.md) — Desktop configuration
+- [Community Setup Guide](../community/02-getting-started-as-contributor.md) — Contributing
 
 ## User Account Configuration
 
@@ -701,7 +701,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -724,3 +724,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

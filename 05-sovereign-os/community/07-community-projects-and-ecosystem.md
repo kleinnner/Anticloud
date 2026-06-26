@@ -1,4 +1,4 @@
-﻿# Community Projects and Ecosystem
+# Community Projects and Ecosystem
 
 This document highlights projects, tools, and resources built by the 01s Sovereign community.
 
@@ -76,14 +76,14 @@ docker pull ghcr.io/0-1.gg/01s-sovereign:latest
 |----------|--------|-------------|
 | German | In progress | Community member (M. Schmidt) |
 | Spanish | In progress | Community member (C. Rodriguez) |
-| French | In progress | Community member (J. Dubois) â€” 3 documents translated |
-| Japanese | In progress | Community member (T. Yamamoto) â€” 2 documents translated |
+| French | In progress | Community member (J. Dubois) — 3 documents translated |
+| Japanese | In progress | Community member (T. Yamamoto) — 2 documents translated |
 | Chinese (Simplified) | Not started | Seeking coordinator |
 | Portuguese (Brazil) | Not started | Seeking coordinator |
 | Russian | Not started | Seeking coordinator |
 | Arabic | Not started | Seeking coordinator |
 
-**Status Update**: French and Japanese translations are no longer "Planned â€” TBD". Both have active translators. French has 3 documents completed (welcome, governance, code of conduct) with more in progress. Japanese has 2 documents completed (welcome, getting started as contributor) with FAQ translations beginning. New translators are welcome to join and assist.
+**Status Update**: French and Japanese translations are no longer "Planned — TBD". Both have active translators. French has 3 documents completed (welcome, governance, code of conduct) with more in progress. Japanese has 2 documents completed (welcome, getting started as contributor) with FAQ translations beginning. New translators are welcome to join and assist.
 
 ### Video Tutorials
 
@@ -425,16 +425,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Community overview
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” Join a project
-- [Community Governance](03-community-governance.md) â€” Project oversight
-- [Communication Channels](04-communication-channels.md) â€” Project discussion
-- [Reporting Bugs](05-reporting-bugs-and-features.md) â€” Project issues
-- [Code of Conduct](06-code-of-conduct.md) â€” Standards
-- [Localization](08-localization-and-translation.md) â€” Translation projects
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Project rewards
-- [Package Maintainer Guide](../developers/16-package-maintainer-guide.md) â€” Package hosting
-- [Contributing Code](../developers/11-contributing-code.md) â€” Code guidelines
+- [Welcome to the Community](01-welcome-to-the-community.md) — Community overview
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — Join a project
+- [Community Governance](03-community-governance.md) — Project oversight
+- [Communication Channels](04-communication-channels.md) — Project discussion
+- [Reporting Bugs](05-reporting-bugs-and-features.md) — Project issues
+- [Code of Conduct](06-code-of-conduct.md) — Standards
+- [Localization](08-localization-and-translation.md) — Translation projects
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Project rewards
+- [Package Maintainer Guide](../developers/16-package-maintainer-guide.md) — Package hosting
+- [Contributing Code](../developers/11-contributing-code.md) — Code guidelines
 
 ## Project Spotlight: 01s-Ledger SDK
 
@@ -706,7 +706,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -729,3 +729,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

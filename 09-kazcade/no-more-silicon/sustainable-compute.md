@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Sustainable Compute
@@ -15,7 +15,7 @@
 
 The computing industry's carbon footprint is growing at 6-8% annually, driven largely by specialized hardware accelerators. GPU production alone is estimated to generate 10-15 tons of CO2 per chip. Kazkade's CPU-only approach eliminates this hardware demand, reducing both financial and environmental costs.
 
-> "The most sustainable compute is the compute you never had to manufacture." — Kazkade Sustainability Philosophy
+> "The most sustainable compute is the compute you never had to manufacture." � Kazkade Sustainability Philosophy
 
 ---
 
@@ -37,16 +37,16 @@ The computing industry's carbon footprint is growing at 6-8% annually, driven la
 $ kazkade bench --carbon --compare --workload mlp --duration 1year
 
 Carbon Footprint Comparison (MLP Inference, 8760 hours):
-┌────────────────────┬──────────┬──────────┬──────────┬──────────┐
-│ Platform           │ Hardware │ Annual   │ Carbon   │ Cost     │
-│                    │ CO2e     │ kWh      │ (CO2e)   │ (energy) │
-├────────────────────┼──────────┼──────────┼──────────┼──────────┤
-│ Kazkade CPU (AVX2) │ 0 (exist)│ 520 kWh  │ 234 kg   │ $78      │
-│ Kazkade CPU (AVX5) │ 0 (exist)│ 760 kWh  │ 342 kg   │ $114     │
-│ RTX 4090           │ 800 kg   │ 3,066 kWh│ 2,180 kg │ $460     │
-│ A100               │ 1,500 kg │ 5,256 kWh│ 3,865 kg │ $788     │
-│ TPU v4             │ 2,500 kg │ 4,380 kWh│ 4,471 kg │ $657     │
-└────────────────────┴──────────┴──────────┴──────────┴──────────┘
++----------------------------------------------------------------+
+� Platform           � Hardware � Annual   � Carbon   � Cost     �
+�                    � CO2e     � kWh      � (CO2e)   � (energy) �
++--------------------+----------+----------+----------+----------�
+� Kazkade CPU (AVX2) � 0 (exist)� 520 kWh  � 234 kg   � $78      �
+� Kazkade CPU (AVX5) � 0 (exist)� 760 kWh  � 342 kg   � $114     �
+� RTX 4090           � 800 kg   � 3,066 kWh� 2,180 kg � $460     �
+� A100               � 1,500 kg � 5,256 kWh� 3,865 kg � $788     �
+� TPU v4             � 2,500 kg � 4,380 kWh� 4,471 kg � $657     �
++----------------------------------------------------------------+
 ```
 
 ---
@@ -59,15 +59,15 @@ Carbon Footprint Comparison (MLP Inference, 8760 hours):
 $ kazkade bench --power --idle
 
 Idle Power Consumption:
-┌────────────────────┬──────────┬──────────┐
-│ Component          │ Idle (W) │ Active(W)│
-├────────────────────┼──────────┼──────────┤
-│ CPU (AMD Ryzen 9)  │ 35       │ 145      │
-│ GPU (RTX 4090)     │ 85       │ 450      │
-│ GPU (RTX 3060)     │ 45       │ 170      │
-│ CPU + GPU system   │ 120      │ 595      │
-│ CPU-only system    │ 45       │ 155      │
-└────────────────────┴──────────┴──────────┘
++------------------------------------------+
+� Component          � Idle (W) � Active(W)�
++--------------------+----------+----------�
+� CPU (AMD Ryzen 9)  � 35       � 145      �
+� GPU (RTX 4090)     � 85       � 450      �
+� GPU (RTX 3060)     � 45       � 170      �
+� CPU + GPU system   � 120      � 595      �
+� CPU-only system    � 45       � 155      �
++------------------------------------------+
 
 Note: GPU idle power (85W) exceeds CPU active power (65W)
 for many workloads. A GPU sitting idle draws more power
@@ -80,11 +80,11 @@ than a CPU doing useful work.
 Annual Energy Consumption (kWh)
 8760 hours of operation
 
-CPU Only (Kazkade):     ┌────────────────────┐  1,358 kWh
-                       └────────────────────┘
+CPU Only (Kazkade):     +--------------------+  1,358 kWh
+                       +--------------------+
 
-CPU + GPU (RTX 4090):   ┌──────────────────────────────────────────────┐  4,422 kWh
-                       └──────────────────────────────────────────────┘
+CPU + GPU (RTX 4090):   +----------------------------------------------+  4,422 kWh
+                       +----------------------------------------------+
 
 Savings: 3,064 kWh/year (69% reduction)
 At $0.15/kWh: $460/year savings per server
@@ -115,12 +115,12 @@ Deploying CPU-only Kazkade on 100 servers instead of GPU-accelerated infrastruct
 Carbon Savings: 425 tons CO2e over 3 years
 
 Equivalent to:
-├── 94 passenger vehicles taken off the road annually
-├── 1,062,500 miles driven by an average car
-├── 4,250 tree seedlings grown for 10 years
-├── 47 homes' energy use for one year
-├── 170,000 pounds of coal burned
-└── 1,020 barrels of oil consumed
++-- 94 passenger vehicles taken off the road annually
++-- 1,062,500 miles driven by an average car
++-- 4,250 tree seedlings grown for 10 years
++-- 47 homes' energy use for one year
++-- 170,000 pounds of coal burned
++-- 1,020 barrels of oil consumed
 ```
 
 ---
@@ -140,29 +140,29 @@ $ kazkade config set scheduler.carbon_aware=true
 $ kazkade inspect --carbon-schedule
 
 Carbon-Aware Schedule:
-┌──────────┬──────────┬──────────┐
-│ Hour     │ gCO2/kWh│ Action   │
-├──────────┼──────────┼──────────┤
-│ 00:00-06:00 │ 180   │ Heavy    │
-│ 06:00-12:00 │ 350   │ Normal   │
-│ 12:00-18:00 │ 450   │ Light    │
-│ 18:00-24:00 │ 280   │ Normal   │
-└──────────┴──────────┴──────────┘
++--------------------------------+
+� Hour     � gCO2/kWh� Action   �
++----------+----------+----------�
+� 00:00-06:00 � 180   � Heavy    �
+� 06:00-12:00 � 350   � Normal   �
+� 12:00-18:00 � 450   � Light    �
+� 18:00-24:00 � 280   � Normal   �
++--------------------------------+
 ```
 
 ### 2. Energy Efficiency
 
 ```
 Kazkade operations per joule:
-┌─────────────────┬────────────────┬────────────┐
-│ Operation       │ Ops/J (Kazkade)│ Ops/J (std)│
-├─────────────────┼────────────────┼────────────┤
-│ GEMM (FP32)     │ 1.2e9          │ 0.3e9      │
-│ SHA3-256        │ 4.5e7          │ 1.2e7      │
-│ .acol scan      │ 2.1e8          │ 0.8e8      │
-│ RLE compression │ 5.6e7          │ 1.8e7      │
-│ SQL query       │ 3.4e5          │ 0.9e5      │
-└─────────────────┴────────────────┴────────────┘
++-----------------------------------------------+
+� Operation       � Ops/J (Kazkade)� Ops/J (std)�
++-----------------+----------------+------------�
+� GEMM (FP32)     � 1.2e9          � 0.3e9      �
+� SHA3-256        � 4.5e7          � 1.2e7      �
+� .acol scan      � 2.1e8          � 0.8e8      �
+� RLE compression � 5.6e7          � 1.8e7      �
+� SQL query       � 3.4e5          � 0.9e5      �
++-----------------------------------------------+
 ```
 
 ### 3. Hardware Efficiency
@@ -183,18 +183,18 @@ Kazkade scales power consumption with workload:
 $ kazkade bench --power --scale
 
 Energy Proportionality:
-┌──────────┬──────────┬──────────┬──────────┐
-│ Load %   │ Throughput│ Power (W)│ Efficiency│
-├──────────┼──────────┼──────────┼──────────┤
-│ 10%      │ 12,000   │ 65       │ 185      │
-│ 25%      │ 30,000   │ 82       │ 366      │
-│ 50%      │ 60,000   │ 105      │ 571      │
-│ 75%      │ 90,000   │ 125      │ 720      │
-│ 100%     │ 120,000  │ 145      │ 828      │
-└──────────┴──────────┴──────────┴──────────┘
++-------------------------------------------+
+� Load %   � Throughput� Power (W)� Efficiency�
++----------+----------+----------+----------�
+� 10%      � 12,000   � 65       � 185      �
+� 25%      � 30,000   � 82       � 366      �
+� 50%      � 60,000   � 105      � 571      �
+� 75%      � 90,000   � 125      � 720      �
+� 100%     � 120,000  � 145      � 828      �
++-------------------------------------------+
 
-Ideal: Power ∝ Load (linear)
-Actual: Power α Load^0.65 (sub-linear — good!)
+Ideal: Power ? Load (linear)
+Actual: Power a Load^0.65 (sub-linear � good!)
 ```
 
 ---
@@ -205,7 +205,7 @@ Actual: Power α Load^0.65 (sub-linear — good!)
 |---------------|-----------------|----------------|---------|
 | Air cooling | 3.5 PUE | 1.3 PUE | 63% |
 | Liquid cooling | 1.2 PUE | N/A | N/A |
-| Free cooling | Not possible | 1.1 PUE | — |
+| Free cooling | Not possible | 1.1 PUE | � |
 | **Annual cooling cost** | **$12,000** | **$2,400** | **80%** |
 
 ---
@@ -235,14 +235,14 @@ Optimal Hardware Suggestion:
 $ kazkade config set power.dynamic_frequency=true
 
 Frequency Schedule:
-┌──────────┬──────────┬──────────┬──────────┐
-│ Workload │ Frequency│ Power    │ Perf/W   │
-├──────────┼──────────┼──────────┼──────────┤
-│ Idle     │ 800 MHz  │ 35 W     │ —        │
-│ Light    │ 2.0 GHz  │ 65 W     │ 1.0x     │
-│ Medium   │ 3.5 GHz  │ 105 W    │ 0.85x    │
-│ Heavy    │ 5.0 GHz  │ 145 W    │ 0.72x    │
-└──────────┴──────────┴──────────┴──────────┘
++-------------------------------------------+
+� Workload � Frequency� Power    � Perf/W   �
++----------+----------+----------+----------�
+� Idle     � 800 MHz  � 35 W     � �        �
+� Light    � 2.0 GHz  � 65 W     � 1.0x     �
+� Medium   � 3.5 GHz  � 105 W    � 0.85x    �
+� Heavy    � 5.0 GHz  � 145 W    � 0.72x    �
++-------------------------------------------+
 ```
 
 ---
@@ -301,10 +301,10 @@ Hardware Lifespan:
 
 ## Related Documentation
 
-- [Performance Per Watt](./performance-per-watt.md) — Detailed efficiency analysis
-- [Extending Hardware Lifespan](./extending-hardware-lifespan.md) — Case studies
-- [Existing Hardware Optimization](./existing-hardware-optimization.md) — Legacy support
-- [Hardware Agnosticism](./hardware-agnosticism.md) — Cross-platform deployment
+- [Performance Per Watt](./performance-per-watt.md) � Detailed efficiency analysis
+- [Extending Hardware Lifespan](./extending-hardware-lifespan.md) � Case studies
+- [Existing Hardware Optimization](./existing-hardware-optimization.md) � Legacy support
+- [Hardware Agnosticism](./hardware-agnosticism.md) � Cross-platform deployment
 
 ---
 
@@ -329,7 +329,7 @@ kazkade bench --carbon --compare --workload mlp
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -340,7 +340,7 @@ kazkade bench --carbon --compare --workload mlp
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -363,3 +363,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

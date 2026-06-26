@@ -1,15 +1,15 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Objection Handling â€” Kazkade BDR Scripts
+# Objection Handling — Kazkade BDR Scripts
 
 ## Objection 1: "Why not just use Python?"
 
@@ -17,13 +17,13 @@
 
 **BDR response:**
 
-> "I hear that â€” Python is everywhere, and NumPy is genuinely fast for what it does. Here's the difference: Kazkade isn't trying to replace your Python data science workflow. It's a benchmarking and audit runtime that produces results Python can't.
+> "I hear that — Python is everywhere, and NumPy is genuinely fast for what it does. Here's the difference: Kazkade isn't trying to replace your Python data science workflow. It's a benchmarking and audit runtime that produces results Python can't.
 >
 > *NumPy results change* depending on which BLAS backend you linked (OpenBLAS, MKL, BLIS) and which CPU you run on. Kazkade locks results to a specific binary, specific SIMD path, and signs them into an `.aioss` ledger. You can't do that with `pip freeze`.
 >
-> Also â€” Kazkade runs where Python can't: bare-metal edge devices, RISC-V SBCs, and air-gapped HPC nodes where installing a Python environment is a security violation.
+> Also — Kazkade runs where Python can't: bare-metal edge devices, RISC-V SBCs, and air-gapped HPC nodes where installing a Python environment is a security violation.
 >
-> Think of Kazkade as the tungsten-carbide tip of your stack â€” small, hard, and verifiable. Python wraps around it."
+> Think of Kazkade as the tungsten-carbide tip of your stack — small, hard, and verifiable. Python wraps around it."
 
 ---
 
@@ -33,13 +33,13 @@
 
 **BDR response:**
 
-> "Great question â€” we benchmarked *against* those tools. Let me give you the short version:
+> "Great question — we benchmarked *against* those tools. Let me give you the short version:
 >
 > - **Google Benchmark** is excellent for microbenchmarking C++ code, but it has no cross-platform SIMD detection, no ledger, and no columnar engine.
-> - **Hyperfine** is a shell-level timer â€” it measures wall clock of any command, but it doesn't instrument CPU-level counters or produce hardware-context-rich output.
+> - **Hyperfine** is a shell-level timer — it measures wall clock of any command, but it doesn't instrument CPU-level counters or produce hardware-context-rich output.
 > - **Phoronix Test Suite** is the closest competitor feature-wise, but it's a 200 MB install with dozens of PHP dependencies, and results aren't cryptographically chained.
 >
-> Kazkade is one ~4 MB binary. You get microbenchmarks (cycle-level), a tamper-proof ledger, a columnar SQL engine for result analysis, and native SIMD tuning â€” all without installing a single dependency.
+> Kazkade is one ~4 MB binary. You get microbenchmarks (cycle-level), a tamper-proof ledger, a columnar SQL engine for result analysis, and native SIMD tuning — all without installing a single dependency.
 >
 > It's not that the others are bad. It's that Kazkade combines what they do into a single, auditable, zero-dependency package."
 
@@ -51,9 +51,9 @@
 
 **BDR response:**
 
-> "Kazkade isn't a runtime you deploy â€” it's a **binary you invoke**. There's no daemon, no service, no server, no package manager. You `curl` it once and run it ad-hoc.
+> "Kazkade isn't a runtime you deploy — it's a **binary you invoke**. There's no daemon, no service, no server, no package manager. You `curl` it once and run it ad-hoc.
 >
-> It's not in your critical path. It's an instrumentation tool, like `htop` or `lscpu` â€” but with a ledger.
+> It's not in your critical path. It's an instrumentation tool, like `htop` or `lscpu` — but with a ledger.
 >
 > If you change your mind later, delete the binary. There's no registry, no uninstall script, no orphaned services. Zero commitment."
 
@@ -72,7 +72,7 @@
 > 3. **Commercial backing.** Lois-Kleinner and 0-1.gg are our anchor investors with a 3-year run-rate commitment.
 > 4. **Enterprise SLA.** Team and Enterprise tiers come with guaranteed response times and priority patches.
 >
-> And â€” you don't have to bet your *whole* pipeline. Start with one non-critical benchmark run. Validate the output. If you like it, expand. If not, you've lost 10 minutes."
+> And — you don't have to bet your *whole* pipeline. Start with one non-critical benchmark run. Validate the output. If you like it, expand. If not, you've lost 10 minutes."
 
 ---
 
@@ -91,7 +91,7 @@
 > | **AI/ML** | An open-source model hub publishes Kazkade inference benchmarks for every release |
 > | **Edge** | A robotics startup embeds Kazkade in their CI to validate SBC performance per batch |
 >
-> I can arrange a reference call with a peer in your industry â€” let me check their availability. When works for you?"
+> I can arrange a reference call with a peer in your industry — let me check their availability. When works for you?"
 
 ---
 
@@ -101,7 +101,7 @@
 
 **BDR response:**
 
-> "Kazkade is CPU-only today, but most of our customers use it to benchmark the *CPU data pipeline* that feeds the GPU â€” preprocessing, augmentation, batching â€” and sign those results.
+> "Kazkade is CPU-only today, but most of our customers use it to benchmark the *CPU data pipeline* that feeds the GPU — preprocessing, augmentation, batching — and sign those results.
 >
 > For the GPU kernel itself, you'd still use nvidia-smi, CUDA events, or your own profiler. But you can wrap those results in a Kazkade ledger by piping GPU metrics into `kazkade ledger append`. The `.aioss` format is extensible with custom metrics.
 >
@@ -121,7 +121,7 @@
 | "We need GPU." | CPU pipeline + ledger-wrapped GPU metrics today; native GPU support in Q4. |
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -132,7 +132,7 @@
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -155,3 +155,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

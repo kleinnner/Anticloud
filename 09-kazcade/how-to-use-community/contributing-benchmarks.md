@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # Contributing Benchmarks
@@ -16,11 +16,11 @@ This guide covers running, recording, and sharing benchmark results with the Kaz
 ## Overview
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ kazkade     â”‚â”€â”€â”€â”€>â”‚ .aioss       â”‚â”€â”€â”€â”€>â”‚ Community       â”‚
-â”‚ bench       â”‚     â”‚ signed        â”‚     â”‚ Leaderboard     â”‚
-â”‚ --record    â”‚     â”‚ ledger        â”‚     â”‚ (shared)        â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜     â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜     â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
++-------------+     +--------------+     +-----------------+
+¦ kazkade     ¦---->¦ .aioss       ¦---->¦ Community       ¦
+¦ bench       ¦     ¦ signed        ¦     ¦ Leaderboard     ¦
+¦ --record    ¦     ¦ ledger        ¦     ¦ (shared)        ¦
++-------------+     +--------------+     +-----------------+
       zero-copy           SHA3-256+         web dashboard
       measurements        Ed25519            & CSV export
 ```
@@ -52,9 +52,9 @@ This creates:
 
 ```
 ~/.kazcade/benchmarks/
-  â”œâ”€â”€ 2026-06-19T12-00-00.acol
-  â”œâ”€â”€ 2026-06-19T12-00-00.aioss
-  â””â”€â”€ 2026-06-19T12-00-00.json
+  +-- 2026-06-19T12-00-00.acol
+  +-- 2026-06-19T12-00-00.aioss
+  +-- 2026-06-19T12-00-00.json
 ```
 
 The `.acol` file stores columnar benchmark data:
@@ -130,10 +130,10 @@ kazkade bench share --url https://leaderboard.kazcade.io
 kazkade ledger verify results.aioss
 
 # Output:
-# âœ“ Signature: VALID (key: ed25519:abcd...)
-# âœ“ Hash match: SHA3-256 verified
-# âœ“ Chain: continuous from genesis
-#   Entry: 2026-06-19T12:00:00Z â€” BenchmarkResult
+# ? Signature: VALID (key: ed25519:abcd...)
+# ? Hash match: SHA3-256 verified
+# ? Chain: continuous from genesis
+#   Entry: 2026-06-19T12:00:00Z — BenchmarkResult
 
 # Batch verify multiple results
 kazkade ledger verify --batch *.aioss
@@ -179,8 +179,8 @@ kazkade bench --suite custom-bench.yml
 ## Benchmarking Best Practices
 
 1. **Close other apps** during benchmarking for consistent results
-2. **Run 3+ iterations** â€” Kazkade reports min/mean/max automatically
-3. **Note CPU frequency scaling** â€” if using a laptop, plug in and set high-performance mode
+2. **Run 3+ iterations** — Kazkade reports min/mean/max automatically
+3. **Note CPU frequency scaling** — if using a laptop, plug in and set high-performance mode
 4. **Use `--record`** for reproducibility
 5. **Pin CPU frequency** if possible:
 
@@ -239,7 +239,7 @@ The `--ci` flag reduces warm-up iterations and produces machine-readable output.
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -250,7 +250,7 @@ The `--ci` flag reduces warm-up iterations and produces machine-readable output.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -273,3 +273,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

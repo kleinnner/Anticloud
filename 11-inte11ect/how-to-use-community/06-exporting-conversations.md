@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║         HOW-TO-USE COMMUNITY — EXPORTING CONVERSATIONS               ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �         HOW-TO-USE COMMUNITY � EXPORTING CONVERSATIONS               �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -166,7 +166,7 @@ timestamp,role,content,tokens,model
 ## Export via Web UI
 
 1. Open a conversation
-2. Click the menu (⋮) in the top right
+2. Click the menu (?) in the top right
 3. Select "Export"
 4. Choose format (JSON, Markdown, TXT, CSV, or PDF)
 5. Optionally select "Include metadata" for JSON format
@@ -604,7 +604,7 @@ class LocalExport:
 8. Set appropriate date ranges to limit export size
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -616,7 +616,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -639,3 +639,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

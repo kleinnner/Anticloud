@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — COMPLIANCE DOCUMENTATION          ║
-║                   04 — HIPAA COMPLIANCE                          ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � COMPLIANCE DOCUMENTATION          �
+�                   04 � HIPAA COMPLIANCE                          �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -98,7 +98,7 @@ impl PhiPattern {
 
 ## Privacy Rule Mapping
 
-### 45 CFR § 164.502 - Uses and Disclosures
+### 45 CFR � 164.502 - Uses and Disclosures
 
 | Requirement | Implementation | Verification |
 |-------------|---------------|--------------|
@@ -107,7 +107,7 @@ impl PhiPattern {
 | Notice of privacy practices | Built-in privacy notice display | Versioned policy docs |
 | Consent management | Granular consent tracking | Consent ledger entries |
 
-### 45 CFR § 164.514 - De-identification
+### 45 CFR � 164.514 - De-identification
 
 ```rust
 pub struct DeIdentifier {
@@ -175,7 +175,7 @@ impl SafeHarborMethod {
 
 ## Security Rule Mapping
 
-### Administrative Safeguards (§ 164.308)
+### Administrative Safeguards (� 164.308)
 
 | Standard | Implementation | Evidence |
 |----------|---------------|----------|
@@ -189,7 +189,7 @@ impl SafeHarborMethod {
 | Evaluation | Automated compliance checks | Compliance reports |
 | BA Contracts | Automated BA agreement tracking | BA registry |
 
-### Physical Safeguards (§ 164.310)
+### Physical Safeguards (� 164.310)
 
 *Note: Physical safeguards are primarily the responsibility of the deployment environment (cloud provider or on-premises infrastructure). Inte11ect provides configuration support.*
 
@@ -200,7 +200,7 @@ impl SafeHarborMethod {
 | Workstation Security | OS-level configuration guide |
 | Device/Media Controls | Encryption config, media disposal |
 
-### Technical Safeguards (§ 164.312)
+### Technical Safeguards (� 164.312)
 
 ```rust
 // src/compliance/hipaa/technical.rs
@@ -212,7 +212,7 @@ pub struct HipaaTechnicalSafeguards {
     transmission_security: TransmissionSecurity,
 }
 
-/// § 164.312(a)(1) - Access Control
+/// � 164.312(a)(1) - Access Control
 pub struct AccessControlSystem {
     unique_user_id: UniqueUserIdProvider,
     emergency_access: EmergencyAccessProcedure,
@@ -238,7 +238,7 @@ impl AccessControlSystem {
     }
 }
 
-/// § 164.312(b) - Audit Controls
+/// � 164.312(b) - Audit Controls
 pub struct AuditControlSystem {
     ledger: Arc<RwLock<AiossLedger>>,
     audit_config: AuditConfig,
@@ -280,7 +280,7 @@ impl AuditControlSystem {
     }
 }
 
-/// § 164.312(c)(1) - Integrity Controls
+/// � 164.312(c)(1) - Integrity Controls
 pub struct IntegrityControlSystem {
     ledger: Arc<RwLock<AiossLedger>>,
     hash_verifier: HashVerifier,
@@ -306,7 +306,7 @@ impl IntegrityControlSystem {
     }
 }
 
-/// § 164.312(d) - Person or Entity Authentication
+/// � 164.312(d) - Person or Entity Authentication
 pub struct AuthenticationSystem {
     mfa_provider: MfaProvider,
     session_manager: SessionManager,
@@ -333,7 +333,7 @@ impl AuthenticationSystem {
     }
 }
 
-/// § 164.312(e)(1) - Transmission Security
+/// � 164.312(e)(1) - Transmission Security
 pub struct TransmissionSecurity {
     tls_config: TlsConfig,
     integrity_check: IntegrityCheck,
@@ -361,7 +361,7 @@ impl TransmissionSecurity {
 
 ## Breach Notification Rule
 
-### § 164.400-414 - Breach Notification
+### � 164.400-414 - Breach Notification
 
 ```rust
 pub struct HipaaBreachManager {
@@ -485,13 +485,13 @@ inte11ect compliance dashboard --framework hipaa
 
 | Control | Status | Last Verified | Evidence |
 |---------|--------|---------------|----------|
-| 164.312(a)(1) Access Control | ✓ Compliant | 2026-06-19 | Ledger export |
-| 164.312(a)(2)(i) Unique User ID | ✓ Compliant | 2026-06-19 | Config audit |
-| 164.312(a)(2)(iii) Automatic Logoff | ✓ Compliant | 2026-06-19 | Config audit |
-| 164.312(b) Audit Controls | ✓ Compliant | 2026-06-19 | Ledger export |
-| 164.312(c)(1) Integrity | ✓ Compliant | 2026-06-19 | Proof verification |
-| 164.312(d) Authentication | ✓ Compliant | 2026-06-19 | Auth logs |
-| 164.312(e)(1) Transmission Security | ✓ Compliant | 2026-06-19 | TLS config |
+| 164.312(a)(1) Access Control | ? Compliant | 2026-06-19 | Ledger export |
+| 164.312(a)(2)(i) Unique User ID | ? Compliant | 2026-06-19 | Config audit |
+| 164.312(a)(2)(iii) Automatic Logoff | ? Compliant | 2026-06-19 | Config audit |
+| 164.312(b) Audit Controls | ? Compliant | 2026-06-19 | Ledger export |
+| 164.312(c)(1) Integrity | ? Compliant | 2026-06-19 | Proof verification |
+| 164.312(d) Authentication | ? Compliant | 2026-06-19 | Auth logs |
+| 164.312(e)(1) Transmission Security | ? Compliant | 2026-06-19 | TLS config |
 
 ---
 
@@ -578,7 +578,7 @@ echo -n "Tamper detection: "
 
 ## HIPAA Risk Assessment
 
-### Security Risk Analysis (45 CFR § 164.308(a)(1))
+### Security Risk Analysis (45 CFR � 164.308(a)(1))
 
 | Asset | Threat | Vulnerability | Risk | Mitigation | Residual |
 |-------|--------|---------------|------|------------|----------|
@@ -673,7 +673,7 @@ risk_mitigations:
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -684,7 +684,7 @@ risk_mitigations:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -707,3 +707,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

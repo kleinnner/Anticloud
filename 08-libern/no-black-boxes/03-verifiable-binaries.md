@@ -1,15 +1,15 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Verifiable Binaries
 
@@ -353,15 +353,15 @@ Each release includes:
 
 ```
 libern-v1.0.0/
-â”œâ”€â”€ libern-desktop-x86_64-pc-windows-msvc.exe
-â”œâ”€â”€ libern-desktop-x86_64-pc-windows-msvc.exe.sig
-â”œâ”€â”€ libern-desktop-x86_64-apple-darwin.dmg
-â”œâ”€â”€ libern-desktop-x86_64-apple-darwin.dmg.sig
-â”œâ”€â”€ libern-desktop-x86_64-unknown-linux-gnu.AppImage
-â”œâ”€â”€ libern-desktop-x86_64-unknown-linux-gnu.AppImage.sig
-â”œâ”€â”€ SHA256SUMS
-â”œâ”€â”€ SHA256SUMS.sig
-â””â”€â”€ SIGNING_KEY.txt
+├── libern-desktop-x86_64-pc-windows-msvc.exe
+├── libern-desktop-x86_64-pc-windows-msvc.exe.sig
+├── libern-desktop-x86_64-apple-darwin.dmg
+├── libern-desktop-x86_64-apple-darwin.dmg.sig
+├── libern-desktop-x86_64-unknown-linux-gnu.AppImage
+├── libern-desktop-x86_64-unknown-linux-gnu.AppImage.sig
+├── SHA256SUMS
+├── SHA256SUMS.sig
+└── SIGNING_KEY.txt
 ```
 
 ---
@@ -372,9 +372,9 @@ libern-v1.0.0/
 
 ```
 Root Signing Key (offline storage)
-  â””â”€ Release Signing Key (CI/CD)
-       â””â”€ Release Binary Signature
-            â””â”€ Binary
+  └─ Release Signing Key (CI/CD)
+       └─ Release Binary Signature
+            └─ Binary
 
 Verification path:
   User downloads binary + signature
@@ -402,7 +402,7 @@ If a signing key is compromised:
 ---
 
 
-## Build Environment â€” Expanded
+## Build Environment — Expanded
 
 ### Docker Build Environment
 
@@ -474,7 +474,7 @@ RUN cargo build --release
 CMD ["certutil", "-hashfile", "target\\release\\libern-desktop.exe", "SHA256"]
 ```
 
-## Verification Tools â€” Expanded
+## Verification Tools — Expanded
 
 ### Libern Built-in Verification Commands
 
@@ -527,7 +527,7 @@ Step 1: Obtain the official public key
    Source 1: GitHub repository (SIGNING_KEY.txt)
    Source 2: Official website
    Source 3: Keybase / social media
-   â†’ Cross-reference all three sources
+   → Cross-reference all three sources
 
 Step 2: Verify the release signature
    wget https://github.com/libern/libern/releases/download/v1.0.0/libern-desktop.exe
@@ -562,11 +562,11 @@ For high-security environments without internet access:
 
 ## References
 
-- **Source code:** `crates/libern-aioss/src/state_proof.rs` â€” Ed25519 signing and verification
-- **Source code:** `Cargo.toml` â€” Workspace and dependency configuration
-- **Build script:** `build.bat` â€” Automated build instructions
+- **Source code:** `crates/libern-aioss/src/state_proof.rs` — Ed25519 signing and verification
+- **Source code:** `Cargo.toml` — Workspace and dependency configuration
+- **Build script:** `build.bat` — Automated build instructions
 - **Reproducible Builds:** `https://reproducible-builds.org/`
-- **Ed25519:** RFC 8032 â€” Edwards-Curve Digital Signature Algorithm
+- **Ed25519:** RFC 8032 — Edwards-Curve Digital Signature Algorithm
 
 ```
 .====================================================================.
@@ -577,7 +577,7 @@ For high-security environments without internet access:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -600,3 +600,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

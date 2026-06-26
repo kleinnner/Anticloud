@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # ISO 27001:2022 Alignment
@@ -14,19 +14,19 @@
 **Document ID:** KAZ-COMP-ISO27K-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Compliance Evidence  
+**Classification:** Internal — Compliance Evidence  
 
 ---
 
 ## Table of Contents
 
 1. Overview
-2. ISMS Context (Clauses 4â€“10)
+2. ISMS Context (Clauses 4–10)
 3. Annex A Control Mapping
-4. A.5 â€” Organizational Controls
-5. A.6 â€” People Controls
-6. A.7 â€” Physical Controls
-7. A.8 â€” Technological Controls
+4. A.5 — Organizational Controls
+5. A.6 — People Controls
+6. A.7 — Physical Controls
+7. A.8 — Technological Controls
 8. `.aioss` Ledger as ISMS Evidence
 9. `.acol` Storage in ISMS Scope
 10. Risk Treatment with Kazkade
@@ -40,7 +40,7 @@
 
 ## 1. Overview
 
-ISO 27001:2022 is the international standard for Information Security Management Systems (ISMS). It specifies requirements for establishing, implementing, maintaining, and continually improving an ISMS. The standard consists of normative clauses (4â€“10) and an Annex A containing 93 controls organized into 4 themes.
+ISO 27001:2022 is the international standard for Information Security Management Systems (ISMS). It specifies requirements for establishing, implementing, maintaining, and continually improving an ISMS. The standard consists of normative clauses (4–10) and an Annex A containing 93 controls organized into 4 themes.
 
 Kazkade provides native technological controls that satisfy a significant portion of Annex A requirements directly. The `.aioss` tamper-proof ledger serves as an automated evidence collection layer for ISMS audits, while the `.acol` columnar storage provides data-level security controls. The local-first architecture reduces the attack surface and simplifies the ISMS scope.
 
@@ -92,9 +92,9 @@ flowchart TB
 
 ---
 
-## 2. ISMS Context (Clauses 4â€“10)
+## 2. ISMS Context (Clauses 4–10)
 
-### 2.1 Clause 4 â€” Context of the Organization
+### 2.1 Clause 4 — Context of the Organization
 
 Kazkade's local-first architecture determines the ISMS scope: each deployment is a self-contained system with no inherent external dependencies. External parties (cloud providers, third-party services) are excluded from the core scope, simplifying context analysis.
 
@@ -107,7 +107,7 @@ kazkade ledger append \
   --boundary "No external cloud dependencies. All data local."
 ```
 
-### 2.2 Clause 5 â€” Leadership
+### 2.2 Clause 5 — Leadership
 
 Top management demonstrates leadership by approving the ISMS policy and ensuring resources are allocated. Kazkade provides dashboards and reports for management review:
 
@@ -123,7 +123,7 @@ kazkade ledger append \
   --date 2026-06-19
 ```
 
-### 2.3 Clause 6 â€” Planning
+### 2.3 Clause 6 — Planning
 
 Risk assessment and treatment planning are supported by Kazkade's security controls. The `.aioss` ledger records the risk assessment process:
 
@@ -136,7 +136,7 @@ WHERE status = 'open'
 ORDER BY risk_score DESC;
 ```
 
-### 2.4 Clause 7 â€” Support
+### 2.4 Clause 7 — Support
 
 Resources, competence, awareness, and documented information are managed through the CLI and ledger:
 
@@ -149,7 +149,7 @@ kazkade ledger append \
   --version "2.1"
 ```
 
-### 2.5 Clause 8 â€” Operation
+### 2.5 Clause 8 — Operation
 
 Operational planning and control are executed through Kazkade's runtime. Security controls are implemented at the `.acol` storage layer and enforced by the SQL engine:
 
@@ -158,7 +158,7 @@ Operational planning and control are executed through Kazkade's runtime. Securit
 kazkade monitor controls --standard iso27001 --output operational-assessment.json
 ```
 
-### 2.6 Clause 9 â€” Evaluation
+### 2.6 Clause 9 — Evaluation
 
 Monitoring, measurement, analysis, and evaluation are automated through continuous monitoring:
 
@@ -170,7 +170,7 @@ kazkade monitor schedule --audit iso27001 --interval weekly
 kazkade report isms --section evaluation --output eval-report.pdf
 ```
 
-### 2.7 Clause 10 â€” Improvement
+### 2.7 Clause 10 — Improvement
 
 Nonconformities and corrective actions are tracked in the `.aioss` ledger:
 
@@ -291,9 +291,9 @@ The following table maps ISO 27001:2022 Annex A controls to Kazkade components.
 
 ---
 
-## 4. A.5 â€” Organizational Controls
+## 4. A.5 — Organizational Controls
 
-### 4.1 A.5.1 â€” Information Security Policy
+### 4.1 A.5.1 — Information Security Policy
 
 The information security policy is documented and recorded in the `.aioss` ledger:
 
@@ -311,7 +311,7 @@ kazkade ledger append \
 kazkade ledger query "SELECT * FROM policy.* WHERE policy_id = 'ISMS-POL-001' ORDER BY timestamp"
 ```
 
-### 4.2 A.5.15â€“5.18 â€” Access Control
+### 4.2 A.5.15–5.18 — Access Control
 
 Access control is enforced at multiple levels:
 
@@ -349,7 +349,7 @@ kazkade auth user assign --user audit_smith --role isms_auditor
 kazkade ledger query "SELECT actor, role, resource, permission, granted_at FROM access.role_assignments"
 ```
 
-### 4.3 A.5.24â€“5.27 â€” Incident Management
+### 4.3 A.5.24–5.27 — Incident Management
 
 Incident management is fully supported by the `.aioss` ledger:
 
@@ -375,9 +375,9 @@ kazkade ledger query "SELECT * FROM incident.* WHERE incident_id = 'INC-2026-008
 
 ---
 
-## 5. A.6 â€” People Controls
+## 5. A.6 — People Controls
 
-### 5.1 A.6.3 â€” Awareness Training
+### 5.1 A.6.3 — Awareness Training
 
 Training records are maintained in the ledger:
 
@@ -391,7 +391,7 @@ kazkade ledger append \
   --date 2026-06-19
 ```
 
-### 5.2 A.6.5 â€” Termination
+### 5.2 A.6.5 — Termination
 
 Access revocation is immediate upon termination:
 
@@ -409,11 +409,11 @@ kazkade ledger append \
 
 ---
 
-## 6. A.7 â€” Physical Controls
+## 6. A.7 — Physical Controls
 
 While physical controls are facility-specific, Kazkade supports data-centric physical security:
 
-### 6.1 A.7.10 â€” Storage Media
+### 6.1 A.7.10 — Storage Media
 
 ```bash
 # Secure erase column data
@@ -423,7 +423,7 @@ kazkade acol shred --table employees --column salary --passes 3
 kazkade acol info --table employees --column salary | grep encrypted
 ```
 
-### 6.2 A.7.14 â€” Secure Disposal
+### 6.2 A.7.14 — Secure Disposal
 
 ```bash
 # Full database secure disposal
@@ -432,9 +432,9 @@ kazkade acol shred --database production --algorithm dod-5220.22-m
 
 ---
 
-## 7. A.8 â€” Technological Controls
+## 7. A.8 — Technological Controls
 
-### 7.1 A.8.15 â€” Logging
+### 7.1 A.8.15 — Logging
 
 The `.aioss` ledger provides comprehensive logging:
 
@@ -446,7 +446,7 @@ kazkade ledger config set --log-level debug --log-events all
 kazkade ledger export --format syslog --since 2026-01-01 --output syslog-events.syslog
 ```
 
-### 7.2 A.8.24 â€” Cryptography
+### 7.2 A.8.24 — Cryptography
 
 Kazkade provides built-in cryptographic primitives:
 
@@ -469,7 +469,7 @@ kazkade crypto rotate \
 kazkade crypto list --all-keys
 ```
 
-### 7.3 A.8.32 â€” Change Management
+### 7.3 A.8.32 — Change Management
 
 Change management is recorded immutably:
 
@@ -636,8 +636,8 @@ kazkade ledger query "
 | A.5.2 | Yes | RBAC roles | Implemented |
 | A.5.3 | Yes | Multi-sig approval | Implemented |
 | ... | ... | ... | ... |
-| A.7.1â€“7.8 | No | Facility controls | Excluded |
-| A.8.20â€“8.23 | No | OS network controls | Excluded |
+| A.7.1–7.8 | No | Facility controls | Excluded |
+| A.8.20–8.23 | No | OS network controls | Excluded |
 
 ---
 
@@ -710,10 +710,10 @@ kazkade ledger append \
 
 | Phase | Activities | Kazkade Tasks | Timeline |
 |---|---|---|---|
-| 1. Scoping | Define ISMS scope, identify assets | `kazkade acol inventory` | Week 1â€“2 |
-| 2. Risk Assessment | Identify risks, assess impact | Risk register in ledger | Week 3â€“4 |
-| 3. Control Selection | Select Annex A controls | Configure RBAC, encryption | Week 5â€“6 |
-| 4. Implementation | Deploy controls | `.aioss` ledger, `.acol` config | Week 7â€“10 |
+| 1. Scoping | Define ISMS scope, identify assets | `kazkade acol inventory` | Week 1–2 |
+| 2. Risk Assessment | Identify risks, assess impact | Risk register in ledger | Week 3–4 |
+| 3. Control Selection | Select Annex A controls | Configure RBAC, encryption | Week 5–6 |
+| 4. Implementation | Deploy controls | `.aioss` ledger, `.acol` config | Week 7–10 |
 | 5. Monitoring | Continuous monitoring | `kazkade monitor enable` | Week 11 |
 | 6. Internal Audit | Audit preparation | `kazkade audit run` | Week 12 |
 | 7. Certification Audit | External audit | Ledger export | Week 14 |
@@ -722,14 +722,14 @@ kazkade ledger append \
 
 ## References
 
-- ISO/IEC 27001:2022 â€” Information Security Management Systems
-- ISO/IEC 27002:2022 â€” Information Security Controls
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- ISO/IEC 27001:2022 — Information Security Management Systems
+- ISO/IEC 27002:2022 — Information Security Controls
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -740,7 +740,7 @@ kazkade ledger append \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -763,3 +763,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

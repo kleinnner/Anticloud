@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # RBAC Guide
@@ -16,20 +16,20 @@ This guide covers role-based access control including role definitions, permissi
 ## RBAC Model
 
 `
-┌──────────────────────────────────────────────────────────┐
-│                    RBAC Hierarchy                         │
-│                                                           │
-│  ┌──────────┐    ┌──────────┐    ┌──────────────┐       │
-│  │ User     │───>│ Role     │───>│ Permissions   │       │
-│  │ (Ed25519)│    │ (Group)  │    │ (Scopes)      │       │
-│  └──────────┘    └──────────┘    └──────────────┘       │
-│       │                │                │                │
-│       ▼                ▼                ▼                │
-│  ┌──────────┐    ┌──────────┐    ┌──────────────┐       │
-│  │ Keypair  │    │ Inherits │    │ Resources    │       │
-│  │ Auth     │    │ from org │    │ (stores, API)│       │
-│  └──────────┘    └──────────┘    └──────────────┘       │
-└──────────────────────────────────────────────────────────┘
++----------------------------------------------------------+
+�                    RBAC Hierarchy                         �
+�                                                           �
+�  +----------+    +----------+    +--------------+       �
+�  � User     �--->� Role     �--->� Permissions   �       �
+�  � (Ed25519)�    � (Group)  �    � (Scopes)      �       �
+�  +----------+    +----------+    +--------------+       �
+�       �                �                �                �
+�       ?                ?                ?                �
+�  +----------+    +----------+    +--------------+       �
+�  � Keypair  �    � Inherits �    � Resources    �       �
+�  � Auth     �    � from org �    � (stores, API)�       �
+�  +----------+    +----------+    +--------------+       �
++----------------------------------------------------------+
 `
 
 ## Built-in Roles
@@ -285,15 +285,15 @@ kazkade ledger keyverify ed25519:abcd1234...
 
 `
 Organization Level
-└── superadmin
-    └── admin
-        └── auditor
++-- superadmin
+    +-- admin
+        +-- auditor
 
 Team Level
-└── team-admin
-    ├── operator
-    ├── analyst
-    └── viewer
++-- team-admin
+    +-- operator
+    +-- analyst
+    +-- viewer
 `
 
 Inheritance:
@@ -323,22 +323,22 @@ kazcade-ctl audit --type rbac --since 24h
 `
 
 `
-2026-06-19 12:00  RoleBinding   admin@co  key:abcd → analyst (scope:analytics)
+2026-06-19 12:00  RoleBinding   admin@co  key:abcd ? analyst (scope:analytics)
 2026-06-19 11:30  RoleCreate    admin@co  role:custom-analyst created
-2026-06-19 10:00  KeyRevoke     admin@co  key:dead → revoked (compromised)
+2026-06-19 10:00  KeyRevoke     admin@co  key:dead ? revoked (compromised)
 `
 
 ## Best Practices
 
-1. **Principle of least privilege** — Start with viewer, grant as needed
-2. **Key rotation** — Rotate keys every 90 days
-3. **Role separation** — Admin and auditor must be different people
-4. **Audit all changes** — Every permission change is a ledger entry
-5. **Default deny** — Unspecified permissions are denied
+1. **Principle of least privilege** � Start with viewer, grant as needed
+2. **Key rotation** � Rotate keys every 90 days
+3. **Role separation** � Admin and auditor must be different people
+4. **Audit all changes** � Every permission change is a ledger entry
+5. **Default deny** � Unspecified permissions are denied
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -349,7 +349,7 @@ kazcade-ctl audit --type rbac --since 24h
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -372,3 +372,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

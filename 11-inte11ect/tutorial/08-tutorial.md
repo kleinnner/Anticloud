@@ -1,19 +1,19 @@
-ï»¿<!-- ASCII Art for Emo-11 -->
+<!-- ASCII Art for Emo-11 -->
 
 
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â•â•â•
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•”â–ˆâ–ˆâ–ˆâ–ˆâ•”â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â–ˆâ–ˆâ•— â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  
-â–ˆâ–ˆâ•”â•â•â•â• â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•  
-â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘ â•šâ•â• â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘ â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â•šâ•â•     â•šâ•â•â•â•â•â•â•â•šâ•â•  â•šâ•â•â•šâ•â•      â•šâ•â•â•â•â•â• â•šâ•â•  â•šâ•â•â•šâ•â•     â•šâ•â•â•šâ•â•  â•šâ•â•â•šâ•â•  â•šâ•â•â•â• â•šâ•â•â•â•â•â•â•šâ•â•â•â•â•â•â•
+¦¦¦¦¦¦+ ¦¦¦¦¦¦¦+¦¦¦¦¦¦+ ¦¦¦¦¦¦¦+ ¦¦¦¦¦¦+ ¦¦¦¦¦¦+ ¦¦¦+   ¦¦¦+ ¦¦¦¦¦+ ¦¦¦+   ¦¦+ ¦¦¦¦¦¦+¦¦¦¦¦¦¦+
+¦¦+--¦¦+¦¦+----+¦¦+--¦¦+¦¦+----+¦¦+---¦¦+¦¦+--¦¦+¦¦¦¦+ ¦¦¦¦¦¦¦+--¦¦+¦¦¦¦+  ¦¦¦¦¦+----+¦¦+----+
+¦¦¦¦¦¦++¦¦¦¦¦+  ¦¦¦¦¦¦++¦¦¦¦¦+  ¦¦¦   ¦¦¦¦¦¦¦¦¦++¦¦+¦¦¦¦+¦¦¦¦¦¦¦¦¦¦¦¦¦+¦¦+ ¦¦¦¦¦¦     ¦¦¦¦¦+  
+¦¦+---+ ¦¦+--+  ¦¦+--¦¦+¦¦+--+  ¦¦¦   ¦¦¦¦¦+--¦¦+¦¦¦+¦¦++¦¦¦¦¦+--¦¦¦¦¦¦+¦¦+¦¦¦¦¦¦     ¦¦+--+  
+¦¦¦     ¦¦¦¦¦¦¦+¦¦¦  ¦¦¦¦¦¦     +¦¦¦¦¦¦++¦¦¦  ¦¦¦¦¦¦ +-+ ¦¦¦¦¦¦  ¦¦¦¦¦¦ +¦¦¦¦¦+¦¦¦¦¦¦+¦¦¦¦¦¦¦+
++-+     +------++-+  +-++-+      +-----+ +-+  +-++-+     +-++-+  +-++-+  +---+ +-----++------+
 
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— 
-â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â•â• 
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â–ˆâ–ˆâ•— â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â–ˆâ–ˆâ•— â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ–ˆâ•—
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘
-   â–ˆâ–ˆâ•‘   â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘ â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘ â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
-   â•šâ•â•    â•šâ•â•â•â•â•â• â•šâ•â•  â•šâ•â•â•â•â•šâ•â•â•šâ•â•  â•šâ•â•â•â• â•šâ•â•â•â•â•â• 
+¦¦¦¦¦¦¦¦+¦¦+   ¦¦+¦¦¦+   ¦¦+¦¦+¦¦¦+   ¦¦+ ¦¦¦¦¦¦+ 
++--¦¦+--+¦¦¦   ¦¦¦¦¦¦¦+  ¦¦¦¦¦¦¦¦¦¦+  ¦¦¦¦¦+----+ 
+   ¦¦¦   ¦¦¦   ¦¦¦¦¦+¦¦+ ¦¦¦¦¦¦¦¦+¦¦+ ¦¦¦¦¦¦  ¦¦¦+
+   ¦¦¦   ¦¦¦   ¦¦¦¦¦¦+¦¦+¦¦¦¦¦¦¦¦¦+¦¦+¦¦¦¦¦¦   ¦¦¦
+   ¦¦¦   +¦¦¦¦¦¦++¦¦¦ +¦¦¦¦¦¦¦¦¦¦¦ +¦¦¦¦¦+¦¦¦¦¦¦++
+   +-+    +-----+ +-+  +---++-++-+  +---+ +-----+ 
 
 *Lois-Kleinner and 0-1.gg 2026 - Inte11ect Platform Documentation*
 *Confidential - All Rights Reserved*
@@ -23,12 +23,12 @@
 
 # Performance Tuning
 
-> **Associated Module:** Emo-11 â€” Performance Optimization & Resource Management
-> **Tutorial 08 of 12** â€” Estimated reading time: 18 min | Hands-on time: 30 min
+> **Associated Module:** Emo-11 — Performance Optimization & Resource Management
+> **Tutorial 08 of 12** — Estimated reading time: 18 min | Hands-on time: 30 min
 
 ## Overview
 
-This tutorial covers performance tuning for Inte11ect. We examine every layer of the stack â€” model inference, GOD-11 routing, module execution, memory management, and I/O â€” and provide actionable techniques to improve throughput, reduce latency, and optimize resource usage.
+This tutorial covers performance tuning for Inte11ect. We examine every layer of the stack — model inference, GOD-11 routing, module execution, memory management, and I/O — and provide actionable techniques to improve throughput, reduce latency, and optimize resource usage.
 
 Topics covered:
 
@@ -44,7 +44,7 @@ Topics covered:
 
 ---
 
-## Section 1 â€” Benchmarking
+## Section 1 — Benchmarking
 
 Before tuning, establish a baseline.
 
@@ -114,7 +114,7 @@ inte11ect benchmark --model Qwen2-VL-2B-Instruct --device cpu
 
 ---
 
-## Section 2 â€” Model Inference Optimization
+## Section 2 — Model Inference Optimization
 
 ### Quantization Trade-offs
 
@@ -185,7 +185,7 @@ inte11ect infer \
 
 ---
 
-## Section 3 â€” GOD-11 Routing Optimization
+## Section 3 — GOD-11 Routing Optimization
 
 ### Router Strategy Comparison
 
@@ -235,7 +235,7 @@ inte11ect god config --set router.route_cache_size=5000
 
 ---
 
-## Section 4 â€” Module Pipeline Optimization
+## Section 4 — Module Pipeline Optimization
 
 ### Parallel Module Execution
 
@@ -285,7 +285,7 @@ priority = 5
 
 ---
 
-## Section 5 â€” Memory Management
+## Section 5 — Memory Management
 
 ### VRAM Monitoring
 
@@ -294,9 +294,9 @@ inte11ect doctor --gpu
 
 # GPU 0: NVIDIA RTX 4090
 # VRAM: 14.2 GB / 24 GB (59%)
-# Process: Inte11ect (PID 3847) â€” 2.1 GB
-# Process: Qwen2-VL-2B-Instruct â€” 2.1 GB
-# Temperature: 62Â°C
+# Process: Inte11ect (PID 3847) — 2.1 GB
+# Process: Qwen2-VL-2B-Instruct — 2.1 GB
+# Temperature: 62°C
 # Power: 185W / 450W
 ```
 
@@ -339,7 +339,7 @@ password = ""
 
 ---
 
-## Section 6 â€” GPU Optimization
+## Section 6 — GPU Optimization
 
 ### CUDA Configuration
 
@@ -376,7 +376,7 @@ inte11ect benchmark --model Qwen2-VL-2B-Instruct --cuda-graphs
 
 ---
 
-## Section 7 â€” CPU Optimization
+## Section 7 — CPU Optimization
 
 ### Thread Configuration
 
@@ -396,10 +396,10 @@ mkl_enabled = true         # Intel MKL acceleration
 inte11ect doctor --cpu
 
 # CPU: Intel Core i9-14900K
-# MKL: âœ“ Available
-# oneDNN: âœ“ Available
-# AVX-512: âœ“ Supported
-# AMX: âœ“ Supported
+# MKL: ? Available
+# oneDNN: ? Available
+# AVX-512: ? Supported
+# AMX: ? Supported
 ```
 
 ### CPU Inference Tuning
@@ -413,7 +413,7 @@ cpu_inference_precision = "int8"  # Use INT8 on CPU for best perf
 
 ---
 
-## Section 8 â€” I/O and Network Optimization
+## Section 8 — I/O and Network Optimization
 
 ### Disk I/O
 
@@ -450,7 +450,7 @@ compression = "gzip"      # "gzip", "zstd", "none"
 
 ---
 
-## Section 9 â€” Profiling
+## Section 9 — Profiling
 
 ### CPU Profiling
 
@@ -495,7 +495,7 @@ inte11ect profile gpu --duration 30
 
 ---
 
-## Section 10 â€” Configuration Best Practices
+## Section 10 — Configuration Best Practices
 
 ### Production Configuration
 
@@ -557,7 +557,7 @@ flush_interval_ms = 50
 
 ---
 
-## Section 11 â€” Performance Checklist
+## Section 11 — Performance Checklist
 
 - [ ] Run initial benchmark: `inte11ect benchmark --model [model]`
 - [ ] Choose optimal quantization (int8 recommended for most)
@@ -577,7 +577,7 @@ flush_interval_ms = 50
 
 ---
 
-## Section 12 â€” Benchmark Comparison
+## Section 12 — Benchmark Comparison
 
 ```bash
 inte11ect benchmark compare \
@@ -585,31 +585,31 @@ inte11ect benchmark compare \
   --current current.json
 
 #  Performance Comparison
-# â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-# â”‚ Metric                  â”‚ Baseline â”‚ Current  â”‚ Change   â”‚
-# â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-# â”‚ tok/s                   â”‚ 47.2     â”‚ 78.4     â”‚ â–² +66%   â”‚
-# â”‚ avg latency             â”‚ 342 ms   â”‚ 205 ms   â”‚ â–¼ -40%   â”‚
-# â”‚ p95 latency             â”‚ 890 ms   â”‚ 510 ms   â”‚ â–¼ -43%   â”‚
-# â”‚ TTFT (avg)              â”‚ 145 ms   â”‚ 88 ms    â”‚ â–¼ -39%   â”‚
-# â”‚ VRAM (peak)             â”‚ 2.1 GB   â”‚ 1.4 GB   â”‚ â–¼ -33%   â”‚
-# â”‚ cache hit rate          â”‚ 72%      â”‚ 91%      â”‚ â–² +26%   â”‚
-# â”‚ routing latency         â”‚ 12 ms    â”‚ 4 ms     â”‚ â–¼ -67%   â”‚
-# â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+# +----------------------------------------------------------+
+# ¦ Metric                  ¦ Baseline ¦ Current  ¦ Change   ¦
+# +-------------------------+----------+----------+----------¦
+# ¦ tok/s                   ¦ 47.2     ¦ 78.4     ¦ ? +66%   ¦
+# ¦ avg latency             ¦ 342 ms   ¦ 205 ms   ¦ ? -40%   ¦
+# ¦ p95 latency             ¦ 890 ms   ¦ 510 ms   ¦ ? -43%   ¦
+# ¦ TTFT (avg)              ¦ 145 ms   ¦ 88 ms    ¦ ? -39%   ¦
+# ¦ VRAM (peak)             ¦ 2.1 GB   ¦ 1.4 GB   ¦ ? -33%   ¦
+# ¦ cache hit rate          ¦ 72%      ¦ 91%      ¦ ? +26%   ¦
+# ¦ routing latency         ¦ 12 ms    ¦ 4 ms     ¦ ? -67%   ¦
+# +----------------------------------------------------------+
 ```
 
 ---
 
 ## Next Steps
 
-- [09-tutorial.md](./09-tutorial.md) â€” Building from source
-- [10-tutorial.md](./10-tutorial.md) â€” Troubleshooting
-- [02-tutorial.md](./02-tutorial.md) â€” Installing the model
-- [04-tutorial.md](./04-tutorial.md) â€” Using GOD-11 meta-cognition
+- [09-tutorial.md](./09-tutorial.md) — Building from source
+- [10-tutorial.md](./10-tutorial.md) — Troubleshooting
+- [02-tutorial.md](./02-tutorial.md) — Installing the model
+- [04-tutorial.md](./04-tutorial.md) — Using GOD-11 meta-cognition
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 â€” Confidential*
+*Lois-Kleinner and 0-1.gg 2026 — Confidential*
 
 ```
 .====================================================================.
@@ -620,7 +620,7 @@ inte11ect benchmark compare \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -643,3 +643,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

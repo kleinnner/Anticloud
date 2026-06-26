@@ -1,20 +1,20 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# User Journey Mapping â€” From Download to Production Deployment
+# User Journey Mapping — From Download to Production Deployment
 
 **Document ID:** KAZ-FP-UJM-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Product Strategy  
+**Classification:** Internal — Product Strategy  
 
 ---
 
@@ -47,7 +47,7 @@ This document maps the complete end-to-end user journey for Kazkade, from initia
 ### 2.3 Pain Points
 
 - **Information overload**: Competing columnar formats (Parquet, Arrow, ORC)
-- **Skepticism**: "CPU-only rasterization?" â€” many don't believe it's viable
+- **Skepticism**: "CPU-only rasterization?" — many don't believe it's viable
 - **Fear of lock-in**: Proprietary `.acol` format raises questions
 - **Missing benchmarks**: Need to see real numbers for specific hardware
 
@@ -55,15 +55,15 @@ This document maps the complete end-to-end user journey for Kazkade, from initia
 
 - README shows 5.6 GB/s scan throughput
 - Self-test passes on first try
-- Single binary â€” no dependencies, no JVM, no Python
+- Single binary — no dependencies, no JVM, no Python
 
 ### 2.5 Conversion Metrics
 
 | Metric | Current Baseline | Target |
 |--------|-----------------|--------|
-| Landing page â†’ Download | 8.2% | 12% |
-| GitHub â†’ Star | 3.1% | 5% |
-| Download â†’ First run | 62% | 75% |
+| Landing page ? Download | 8.2% | 12% |
+| GitHub ? Star | 3.1% | 5% |
+| Download ? First run | 62% | 75% |
 
 ---
 
@@ -72,12 +72,12 @@ This document maps the complete end-to-end user journey for Kazkade, from initia
 ### 3.1 Journey Steps
 
 1. **Download**: Visit kazkade.io/releases, download platform-specific binary
-2. **Verify**: Run `kazkade self-test` â€” integrity check passes
-3. **Info**: Run `kazkade info` â€” see CPU features, SIMD capabilities
-4. **Benchmark**: Run `kazkade bench` â€” see performance numbers
+2. **Verify**: Run `kazkade self-test` — integrity check passes
+3. **Info**: Run `kazkade info` — see CPU features, SIMD capabilities
+4. **Benchmark**: Run `kazkade bench` — see performance numbers
 5. **Explore**: Run `kazkade inspect` on included sample `.acol` file
 6. **Query**: Run `kazkade query "SELECT * FROM sample LIMIT 10"`
-7. **Dashboard**: Run `kazkade dashboard` â€” see web UI
+7. **Dashboard**: Run `kazkade dashboard` — see web UI
 
 ### 3.2 Pain Points
 
@@ -97,7 +97,7 @@ This document maps the complete end-to-end user journey for Kazkade, from initia
 
 | Stage | Rate | Drop-off Cause |
 |-------|------|----------------|
-| Download complete | 100% | â€” |
+| Download complete | 100% | — |
 | `self-test` run | 68% | Binary permissions, confusion |
 | `info` run | 55% | Not discovering CLI |
 | `bench` run | 42% | Time investment concern |
@@ -241,21 +241,21 @@ This document maps the complete end-to-end user journey for Kazkade, from initia
 
 ---
 
-## 8. Funnel Analysis â€” Full Journey
+## 8. Funnel Analysis — Full Journey
 
 | Phase | Users Entering | Conversion | Drop-off |
 |-------|---------------|------------|----------|
 | Discovery | 100,000 | 8.2% download | 91.8% |
-| First Run | 8,200 | 22% query | 78% â†’ evaluation |
-| Evaluation | 1,804 | 34% compare Parquet | 66% â†’ churn |
-| Adoption | 613 | 18% pro trial | 82% â†’ churn |
-| Production | 110 | 40% enterprise | 60% â†’ churn |
-| Advocacy | 44 | 25% case study | 75% â†’ passive |
+| First Run | 8,200 | 22% query | 78% ? evaluation |
+| Evaluation | 1,804 | 34% compare Parquet | 66% ? churn |
+| Adoption | 613 | 18% pro trial | 82% ? churn |
+| Production | 110 | 40% enterprise | 60% ? churn |
+| Advocacy | 44 | 25% case study | 75% ? passive |
 
 ### 8.1 Overall Conversion
 
-- **100K visitors â†’ 44 case studies**: 0.044% overall conversion
-- **100K visitors â†’ 110 production deployments**: 0.11% conversion rate
+- **100K visitors ? 44 case studies**: 0.044% overall conversion
+- **100K visitors ? 110 production deployments**: 0.11% conversion rate
 
 ---
 
@@ -286,7 +286,7 @@ The user journey from discovery to advocacy reveals key conversion bottlenecks a
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -297,7 +297,7 @@ The user journey from discovery to advocacy reveals key conversion bottlenecks a
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -320,3 +320,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

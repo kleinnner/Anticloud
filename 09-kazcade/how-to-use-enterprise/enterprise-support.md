@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Enterprise Support
@@ -92,61 +92,61 @@ kazcade-ctl support ticket status TKT-12345
 ### Portal
 
 `
-┌──────────────────────────────────────────────┐
-│  Kazkade Enterprise Support Portal            │
-│  https://support.kazcade.io                   │
-│                                               │
-│  ┌──────────────────────────────────────┐    │
-│  │ New Support Ticket                   │    │
-│  │                                      │    │
-│  │ Subject: * [_____________________]   │    │
-│  │ Severity: * [Critical ▼]            │    │
-│  │ Product:  [Kazkade Enterprise ▼]    │    │
-│  │ Version:  [0.6.0 ▼]                 │    │
-│  │                                      │    │
-│  │ Description: *                       │    │
-│  │ ┌──────────────────────────────────┐ │    │
-│  │ │                                  │ │    │
-│  │ │                                  │ │    │
-│  │ └──────────────────────────────────┘ │    │
-│  │                                      │    │
-│  │ Attachments: [Choose Files]         │    │
-│  │                                      │    │
-│  │ System Info: [Attach Diagnostics]   │    │
-│  │                                      │    │
-│  │ [Submit]                             │    │
-│  └──────────────────────────────────────┘    │
-└──────────────────────────────────────────────┘
++----------------------------------------------+
+�  Kazkade Enterprise Support Portal            �
+�  https://support.kazcade.io                   �
+�                                               �
+�  +--------------------------------------+    �
+�  � New Support Ticket                   �    �
+�  �                                      �    �
+�  � Subject: * [_____________________]   �    �
+�  � Severity: * [Critical ?]            �    �
+�  � Product:  [Kazkade Enterprise ?]    �    �
+�  � Version:  [0.6.0 ?]                 �    �
+�  �                                      �    �
+�  � Description: *                       �    �
+�  � +----------------------------------+ �    �
+�  � �                                  � �    �
+�  � �                                  � �    �
+�  � +----------------------------------+ �    �
+�  �                                      �    �
+�  � Attachments: [Choose Files]         �    �
+�  �                                      �    �
+�  � System Info: [Attach Diagnostics]   �    �
+�  �                                      �    �
+�  � [Submit]                             �    �
+�  +--------------------------------------+    �
++----------------------------------------------+
 `
 
 ## Escalation Path
 
 `
-┌──────────────────────────────────────────────────────────┐
-│                    Escalation Ladder                       │
-│                                                           │
-│  Level 1: L1 Support Engineer                             │
-│  Response: 5-15 min (depends on tier)                    │
-│  Scope: Common issues, known solutions                   │
-│           │                                               │
-│           ▼ (if unresolved after 30 min)                  │
-│                                                           │
-│  Level 2: L2 Senior Engineer                             │
-│  Response: Within 1 hour                                 │
-│  Scope: Complex issues, debugging, workarounds           │
-│           │                                               │
-│           ▼ (if unresolved after 2 hours)                 │
-│                                                           │
-│  Level 3: L3 Engineering Team                            │
-│  Response: Within 4 hours                                │
-│  Scope: Code-level debugging, hotfixes                   │
-│           │                                               │
-│           ▼ (if unresolved after 8 hours)                 │
-│                                                           │
-│  Level 4: Engineering Management                         │
-│  Response: Within 24 hours                               │
-│  Scope: Resource allocation, priority escalation         │
-└──────────────────────────────────────────────────────────┘
++----------------------------------------------------------+
+�                    Escalation Ladder                       �
+�                                                           �
+�  Level 1: L1 Support Engineer                             �
+�  Response: 5-15 min (depends on tier)                    �
+�  Scope: Common issues, known solutions                   �
+�           �                                               �
+�           ? (if unresolved after 30 min)                  �
+�                                                           �
+�  Level 2: L2 Senior Engineer                             �
+�  Response: Within 1 hour                                 �
+�  Scope: Complex issues, debugging, workarounds           �
+�           �                                               �
+�           ? (if unresolved after 2 hours)                 �
+�                                                           �
+�  Level 3: L3 Engineering Team                            �
+�  Response: Within 4 hours                                �
+�  Scope: Code-level debugging, hotfixes                   �
+�           �                                               �
+�           ? (if unresolved after 8 hours)                 �
+�                                                           �
+�  Level 4: Engineering Management                         �
+�  Response: Within 24 hours                               �
+�  Scope: Resource allocation, priority escalation         �
++----------------------------------------------------------+
 `
 
 ### Escalate a Ticket
@@ -245,14 +245,14 @@ kazcade-ctl support status subscribe \
 
 `
 Kazkade Enterprise Status
-══════════════════════════
+--------------------------
 All Systems Operational
 
-API:           ✓ Operational
-Query Engine:  ✓ Operational
-Ledger:        ✓ Operational
-Dashboard:     ✓ Operational
-Ingestion:     ✓ Operational
+API:           ? Operational
+Query Engine:  ? Operational
+Ledger:        ? Operational
+Dashboard:     ? Operational
+Ingestion:     ? Operational
 
 Recent Incidents:
   None in the last 7 days
@@ -274,7 +274,7 @@ kazcade-ctl support releases notes --version 0.7.0
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -285,7 +285,7 @@ kazcade-ctl support releases notes --version 0.7.0
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -308,3 +308,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

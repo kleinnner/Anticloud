@@ -1,4 +1,4 @@
-﻿# Advanced Toolchain Usage
+# Advanced Toolchain Usage
 
 This guide covers advanced topics for the 01s Sovereign custom toolchain, including custom lexer grammars, JIT optimization flags, and extending the pipeline.
 
@@ -248,12 +248,12 @@ Create custom rune glyphs:
 sudo mkdir -p /usr/local/share/01s/runes/glyphs
 
 sudo tee /usr/local/share/01s/runes/glyphs/my-rune << 'EOF'
-  â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•—
-  â•šâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•
-   â•šâ–ˆâ–ˆâ–ˆâ•”â•
-   â–ˆâ–ˆâ•”â–ˆâ–ˆâ•—
-  â–ˆâ–ˆâ•”â• â–ˆâ–ˆâ•—
-  â•šâ•â•  â•šâ•â•
+  ██╗  ██╗
+  ╚██╗██╔╝
+   ╚███╔╝
+   ██╔██╗
+  ██╔╝ ██╗
+  ╚═╝  ╚═╝
 EOF
 
 # Display custom rune
@@ -481,16 +481,16 @@ Once you've completed this guide, move to the next tutorial, practice on a test 
 
 ## Further Reading
 
-- [Custom Toolchain](12-using-the-custom-toolchain.md) â€” Basic toolchain usage
-- [Writing Your First Program](13-writing-your-first-program.md) â€” Getting started
-- [Codegen Backend Development](../developers/08-codegen-backend-development.md) â€” Backend dev
-- [Lexer Customization](../developers/06-lexer-customization-guide.md) â€” Lexer changes
-- [Parser Grammar Extension](../developers/07-parser-grammar-extension.md) â€” Grammar changes
-- [Runes Glyph API](../developers/09-runes-glyph-api.md) â€” Runes reference
-- [Binary Format Spec](../developers/10-binary-format-specification.md) â€” Format reference
-- [Compiler Optimization Research](../research/09-custom-compiler-and-toolchain-optimization.md) â€” Research
-- [Toolchain FAQ](../faq/03-toolchain-faq.md) â€” Common questions
-- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) â€” Issue resolution
+- [Custom Toolchain](12-using-the-custom-toolchain.md) — Basic toolchain usage
+- [Writing Your First Program](13-writing-your-first-program.md) — Getting started
+- [Codegen Backend Development](../developers/08-codegen-backend-development.md) — Backend dev
+- [Lexer Customization](../developers/06-lexer-customization-guide.md) — Lexer changes
+- [Parser Grammar Extension](../developers/07-parser-grammar-extension.md) — Grammar changes
+- [Runes Glyph API](../developers/09-runes-glyph-api.md) — Runes reference
+- [Binary Format Spec](../developers/10-binary-format-specification.md) — Format reference
+- [Compiler Optimization Research](../research/09-custom-compiler-and-toolchain-optimization.md) — Research
+- [Toolchain FAQ](../faq/03-toolchain-faq.md) — Common questions
+- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) — Issue resolution
 
 ## Optimization Pass Example: Constant Folding
 
@@ -674,7 +674,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -697,3 +697,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

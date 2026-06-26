@@ -1,21 +1,21 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Dependency Disclosure
 
 ## Complete Supply Chain Transparency
 
-Kazkade maintains complete transparency about every dependency in the project. Every crate, every transitive dependency, every build tool — all are documented, audited, and tracked for vulnerabilities.
+Kazkade maintains complete transparency about every dependency in the project. Every crate, every transitive dependency, every build tool � all are documented, audited, and tracked for vulnerabilities.
 
-> "Your security is only as strong as your weakest transitive dependency." — Kazkade Supply Chain Philosophy
+> "Your security is only as strong as your weakest transitive dependency." � Kazkade Supply Chain Philosophy
 
 ---
 
@@ -27,52 +27,52 @@ Kazkade's carefully curated dependency tree:
 $ kazkade sbom --tree
 
 kazkade v0.1.0
-├── kazcade-core v0.1.0
-│   ├── memmap2 v0.9.4
-│   ├── libc v0.2.155
-│   ├── sha3 v0.10.8
-│   │   └── keccak v0.1.6
-│   ├── ed25519-dalek v2.1.1
-│   │   ├── ed25519 v2.2.3
-│   │   ├── signature v2.2.0
-│   │   ├── sha2 v0.10.8
-│   │   └── curve25519-dalek v4.1.2
-│   │       └── fiat-crypto v0.2.6
-│   └── crossbeam v0.8.5
-│       ├── crossbeam-channel v0.5.13
-│       ├── crossbeam-deque v0.8.5
-│       └── crossbeam-epoch v0.9.18
-├── kazcade-simd v0.1.0
-│   ├── core_simd v1.0.1
-│   ├── wide v0.7.28
-│   └── safe_arch v0.7.4
-├── kazcade-storage v0.1.0
-│   ├── byteorder v1.5.0
-│   └── zerocopy v0.7.35
-├── kazcade-sql v0.1.0
-│   ├── sqlparser v0.51.0
-│   └── regex v1.10.5
-├── kazcade-raster v0.1.0
-│   └── imagepipe v0.4.3
-├── kazcade-codec v0.1.0
-│   └── varint-simd v0.2.1
-├── kazcade-ledger v0.1.0
-│   ├── sha3 v0.10.8
-│   └── ed25519-dalek v2.1.1
-├── kazcade-cli v0.1.0
-│   ├── clap v4.5.4
-│   ├── serde v1.0.204
-│   ├── serde_json v1.0.120
-│   ├── toml v0.8.14
-│   ├── colored v2.1.0
-│   └── indicatif v0.17.8
-├── kazcade-dashboard v0.1.0
-│   ├── axum v0.7.9
-│   ├── tower-http v0.5.2
-│   └── rust-embed v8.5.0
-└── kazcade-bench v0.1.0
-    ├── criterion v0.5.1
-    └── plotly v0.9.5
++-- kazcade-core v0.1.0
+�   +-- memmap2 v0.9.4
+�   +-- libc v0.2.155
+�   +-- sha3 v0.10.8
+�   �   +-- keccak v0.1.6
+�   +-- ed25519-dalek v2.1.1
+�   �   +-- ed25519 v2.2.3
+�   �   +-- signature v2.2.0
+�   �   +-- sha2 v0.10.8
+�   �   +-- curve25519-dalek v4.1.2
+�   �       +-- fiat-crypto v0.2.6
+�   +-- crossbeam v0.8.5
+�       +-- crossbeam-channel v0.5.13
+�       +-- crossbeam-deque v0.8.5
+�       +-- crossbeam-epoch v0.9.18
++-- kazcade-simd v0.1.0
+�   +-- core_simd v1.0.1
+�   +-- wide v0.7.28
+�   +-- safe_arch v0.7.4
++-- kazcade-storage v0.1.0
+�   +-- byteorder v1.5.0
+�   +-- zerocopy v0.7.35
++-- kazcade-sql v0.1.0
+�   +-- sqlparser v0.51.0
+�   +-- regex v1.10.5
++-- kazcade-raster v0.1.0
+�   +-- imagepipe v0.4.3
++-- kazcade-codec v0.1.0
+�   +-- varint-simd v0.2.1
++-- kazcade-ledger v0.1.0
+�   +-- sha3 v0.10.8
+�   +-- ed25519-dalek v2.1.1
++-- kazcade-cli v0.1.0
+�   +-- clap v4.5.4
+�   +-- serde v1.0.204
+�   +-- serde_json v1.0.120
+�   +-- toml v0.8.14
+�   +-- colored v2.1.0
+�   +-- indicatif v0.17.8
++-- kazcade-dashboard v0.1.0
+�   +-- axum v0.7.9
+�   +-- tower-http v0.5.2
+�   +-- rust-embed v8.5.0
++-- kazcade-bench v0.1.0
+    +-- criterion v0.5.1
+    +-- plotly v0.9.5
 ```
 
 ---
@@ -149,17 +149,17 @@ License count: 17
 
 | License Category | Allowed | Examples |
 |-----------------|---------|----------|
-| MIT | ✓ Always | Most Rust crates |
-| Apache 2.0 | ✓ Always | Serde, Tokio, Axum |
-| BSD-2/3-Clause | ✓ Always | curl, libgit2 |
-| Zlib | ✓ Always | miniz, libpng |
-| ISC | ✓ Always | OpenSSL-style licensing |
-| MPL-2.0 | ✓ With review | ring |
-| Unlicense/CC0 | ✓ Always | Public domain |
-| GPL-2/3 | ✗ Never | Copyleft restrictions |
-| AGPL | ✗ Never | Network copyleft |
-| Proprietary | ✗ Never | Closed source |
-| Unknown | ✗ Never | Unclear licensing |
+| MIT | ? Always | Most Rust crates |
+| Apache 2.0 | ? Always | Serde, Tokio, Axum |
+| BSD-2/3-Clause | ? Always | curl, libgit2 |
+| Zlib | ? Always | miniz, libpng |
+| ISC | ? Always | OpenSSL-style licensing |
+| MPL-2.0 | ? With review | ring |
+| Unlicense/CC0 | ? Always | Public domain |
+| GPL-2/3 | ? Never | Copyleft restrictions |
+| AGPL | ? Never | Network copyleft |
+| Proprietary | ? Never | Closed source |
+| Unknown | ? Never | Unclear licensing |
 
 ### Dependency Approval Process
 
@@ -219,21 +219,21 @@ $ cargo audit
 $ kazkade sbom --cve-history
 
 CVE History for kazkade v0.1.0:
-┌────────────┬────────────┬──────────┬────────────┬───────────┐
-│ CVE ID     │ Package    │ Severity │ Status     │ Resolved │
-├────────────┼────────────┼──────────┼────────────┼───────────┤
-│ CVE-2026-  │ tokio      │ High     │ Patched    │ v0.0.9   │
-│ 1234       │ v1.38.0    │          │            │           │
-├────────────┼────────────┼──────────┼────────────┼───────────┤
-│ CVE-2026-  │ rustls     │ Medium   │ Patched    │ v0.0.8   │
-│ 5678       │ v0.22.0    │          │            │           │
-├────────────┼────────────┼──────────┼────────────┼───────────┤
-│ CVE-2026-  │ serde_json │ Low      │ Patched    │ v0.0.7   │
-│ 9012       │ v1.0.114   │          │            │           │
-├────────────┼────────────┼──────────┼────────────┼───────────┤
-│ CVE-2026-  │ libc       │ Medium   │ Patched    │ v0.0.5   │
-│ 3456       │ v0.2.150   │          │            │           │
-└────────────┴────────────┴──────────┴────────────┴───────────┘
++-------------------------------------------------------------+
+� CVE ID     � Package    � Severity � Status     � Resolved �
++------------+------------+----------+------------+-----------�
+� CVE-2026-  � tokio      � High     � Patched    � v0.0.9   �
+� 1234       � v1.38.0    �          �            �           �
++------------+------------+----------+------------+-----------�
+� CVE-2026-  � rustls     � Medium   � Patched    � v0.0.8   �
+� 5678       � v0.22.0    �          �            �           �
++------------+------------+----------+------------+-----------�
+� CVE-2026-  � serde_json � Low      � Patched    � v0.0.7   �
+� 9012       � v1.0.114   �          �            �           �
++------------+------------+----------+------------+-----------�
+� CVE-2026-  � libc       � Medium   � Patched    � v0.0.5   �
+� 3456       � v0.2.150   �          �            �           �
++-------------------------------------------------------------+
 ```
 
 ---
@@ -253,23 +253,23 @@ Approver: Lois Kleinner
 Review: PR #142 "Add memmap2 dependency for mmap support"
 
 Audit History:
-┌──────────┬────────────┬──────────┬────────────────┐
-│ Date     │ Auditor    │ Type     │ Result         │
-├──────────┼────────────┼──────────┼────────────────┤
-│ 2026-06  │ Automated  │ CVE scan │ No vulns       │
-│ 2026-03  │ Automated  │ CVE scan │ No vulns       │
-│ 2025-12  │ Automated  │ CVE scan │ No vulns       │
-│ 2025-09  │ Trail of   │ Manual   │ No issues      │
-│          │ Bits       │ audit    │                │
-│ 2025-06  │ Automated  │ CVE scan │ No vulns       │
-│ 2025-03  │ Lois       │ Code     │ Approved       │
-│          │ Kleinner   │ review   │                │
-└──────────┴────────────┴──────────┴────────────────┘
++---------------------------------------------------+
+� Date     � Auditor    � Type     � Result         �
++----------+------------+----------+----------------�
+� 2026-06  � Automated  � CVE scan � No vulns       �
+� 2026-03  � Automated  � CVE scan � No vulns       �
+� 2025-12  � Automated  � CVE scan � No vulns       �
+� 2025-09  � Trail of   � Manual   � No issues      �
+�          � Bits       � audit    �                �
+� 2025-06  � Automated  � CVE scan � No vulns       �
+� 2025-03  � Lois       � Code     � Approved       �
+�          � Kleinner   � review   �                �
++---------------------------------------------------+
 
 Source Code: https://github.com/danburkert/memmap2-rs
 Lines of Code: 1,234
 Test Coverage: 94.2%
-Documentation: ✓ Full
+Documentation: ? Full
 ```
 
 ---
@@ -291,15 +291,15 @@ Documentation: ✓ Full
 ```bash
 # Step 1: Check for outdated dependencies
 $ cargo outdated
-┌──────────────┬─────────┬─────────┬──────────┐
-│ Crate        │ Current │ Latest  │ Status   │
-├──────────────┼─────────┼─────────┼──────────┤
-│ clap         │ 4.5.4   │ 4.5.6   │ Patch    │
-│ serde        │ 1.0.204 │ 1.0.210 │ Minor    │
-│ axum         │ 0.7.9   │ 0.8.0   │ Major    │
-│ tokio        │ 1.38.0  │ 1.40.0  │ Minor    │
-│ sha3         │ 0.10.8  │ 0.11.0  │ Major    │
-└──────────────┴─────────┴─────────┴──────────┘
++---------------------------------------------+
+� Crate        � Current � Latest  � Status   �
++--------------+---------+---------+----------�
+� clap         � 4.5.4   � 4.5.6   � Patch    �
+� serde        � 1.0.204 � 1.0.210 � Minor    �
+� axum         � 0.7.9   � 0.8.0   � Major    �
+� tokio        � 1.38.0  � 1.40.0  � Minor    �
+� sha3         � 0.10.8  � 0.11.0  � Major    �
++---------------------------------------------+
 
 # Step 2: Update with verification
 $ cargo update -p clap --precise 4.5.6
@@ -328,31 +328,31 @@ Dependency Dashboard
 Total Dependencies: 342
 Direct: 34
 Transitive: 308
-License Compliance: ✅ 100%
-CVE Status: ✅ 0 vulnerabilities
-Audit Coverage: ✅ 100% of direct deps audited
+License Compliance: ? 100%
+CVE Status: ? 0 vulnerabilities
+Audit Coverage: ? 100% of direct deps audited
 
 Dependency by License:
-┌──────────────────┬──────┬──────────────────────────────────┐
-│ License          │ Count│ Examples                         │
-├──────────────────┼──────┼──────────────────────────────────┤
-│ MIT              │ 204  │ memmap2, clap, serde             │
-│ Apache 2.0       │ 89   │ tokio, axum, tower-http          │
-│ MIT OR Apache 2.0│ 34   │ sha3, ed25519-dalek, crossbeam   │
-│ BSD-3-Clause     │ 12   │ curl-sys, libgit2-sys            │
-│ Zlib             │ 2    │ miniz, adler32                   │
-│ ISC              │ 1    │ ring                             │
-│ Unlicense        │ 0    │ (none)                           │
-└──────────────────┴──────┴──────────────────────────────────┘
++------------------------------------------------------------+
+� License          � Count� Examples                         �
++------------------+------+----------------------------------�
+� MIT              � 204  � memmap2, clap, serde             �
+� Apache 2.0       � 89   � tokio, axum, tower-http          �
+� MIT OR Apache 2.0� 34   � sha3, ed25519-dalek, crossbeam   �
+� BSD-3-Clause     � 12   � curl-sys, libgit2-sys            �
+� Zlib             � 2    � miniz, adler32                   �
+� ISC              � 1    � ring                             �
+� Unlicense        � 0    � (none)                           �
++------------------------------------------------------------+
 
 Recent Updates (last 30 days):
-┌──────────────────────┬──────────┬──────────┬──────────┐
-│ Package              │ Previous │ Current  │ Reason   │
-├──────────────────────┼──────────┼──────────┼──────────┤
-│ tokio                │ 1.38.0   │ 1.40.0   │ Security │
-│ serde                │ 1.0.204  │ 1.0.210  │ Bugfix   │
-│ sha3                 │ 0.10.8   │ 0.10.8   │ Current  │
-└──────────────────────┴──────────┴──────────┴──────────┘
++-------------------------------------------------------+
+� Package              � Previous � Current  � Reason   �
++----------------------+----------+----------+----------�
+� tokio                � 1.38.0   � 1.40.0   � Security �
+� serde                � 1.0.204  � 1.0.210  � Bugfix   �
+� sha3                 � 0.10.8   � 0.10.8   � Current  �
++-------------------------------------------------------+
 ```
 
 ---
@@ -377,14 +377,14 @@ The visualization shows:
 
 ### How Kazkade Prevents Supply Chain Attacks
 
-1. **Cargo.lock committed** — No version resolution at build time
-2. **Dependency hash verification** — All crates verified against registry
-3. **Dependency audit in CI** — `cargo audit` on every build
-4. **Minimal dependency surface** — Only necessary dependencies
-5. **Pin to exact versions** — No wildcard version ranges
-6. **Vendor critical dependencies** — SHA3, Ed25519, mmap vendored
-7. **Source verification** — All deps from crates.io, verified by hash
-8. **Dependency tree frozen** — Changes only by explicit PR
+1. **Cargo.lock committed** � No version resolution at build time
+2. **Dependency hash verification** � All crates verified against registry
+3. **Dependency audit in CI** � `cargo audit` on every build
+4. **Minimal dependency surface** � Only necessary dependencies
+5. **Pin to exact versions** � No wildcard version ranges
+6. **Vendor critical dependencies** � SHA3, Ed25519, mmap vendored
+7. **Source verification** � All deps from crates.io, verified by hash
+8. **Dependency tree frozen** � Changes only by explicit PR
 
 ### Attack Scenarios and Mitigations
 
@@ -407,7 +407,7 @@ Kazkade aggressively minimizes its dependency surface:
 $ kazkade sbom --stats
 
 Dependency Statistics:
-─────────────────────────────────
+---------------------------------
 Total crates:         342
 Unique authors:       127
 Total lines of dep code: 1,234,567
@@ -415,15 +415,15 @@ Kazkade lines of code:   234,567
 Dependency ratio:         5.26x
 
 Trend:
-┌──────────┬─────────┬────────┐
-│ Version  │ Deps    │ Change │
-├──────────┼─────────┼────────┤
-│ v0.1.0   │ 342     │ +12    │
-│ v0.0.9   │ 330     │ -5     │
-│ v0.0.8   │ 335     │ +3     │
-│ v0.0.7   │ 332     │ -8     │
-│ v0.0.6   │ 340     │ baseline │
-└──────────┴─────────┴────────┘
++-----------------------------+
+� Version  � Deps    � Change �
++----------+---------+--------�
+� v0.1.0   � 342     � +12    �
+� v0.0.9   � 330     � -5     �
+� v0.0.8   � 335     � +3     �
+� v0.0.7   � 332     � -8     �
+� v0.0.6   � 340     � baseline �
++-----------------------------+
 ```
 
 ### Vendored Dependencies
@@ -432,10 +432,10 @@ Critical dependencies are vendored for additional security:
 
 ```
 kazcade-core/vendor/
-├── sha3/          # Vendored SHA3-256 implementation
-├── ed25519/       # Vendored Ed25519 implementation
-├── memmap2/       # Vendored mmap abstraction
-└── crc32c/        # Vendored CRC32C implementation
++-- sha3/          # Vendored SHA3-256 implementation
++-- ed25519/       # Vendored Ed25519 implementation
++-- memmap2/       # Vendored mmap abstraction
++-- crc32c/        # Vendored CRC32C implementation
 ```
 
 Vendoring allows:
@@ -457,19 +457,19 @@ Kazkade Dependency Compliance Report
 Date: 2026-06-19
 Generator: kazcade-sbom v0.1.0
 
-License Compliance: ✅ PASS
+License Compliance: ? PASS
 - GNU GPL detected: 0
 - GNU AGPL detected: 0
 - Proprietary detected: 0
 - Unknown detected: 0
 
-CVE Compliance: ✅ PASS
+CVE Compliance: ? PASS
 - Critical: 0
 - High: 0
 - Medium: 0
 - Low: 0
 
-Export Control: ✅ PASS
+Export Control: ? PASS
 - No encryption software restrictions apply
 
 Attribution:
@@ -482,9 +482,9 @@ Report hash: a1b2c3d4e5f6a7b8c9d0...
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Source availability
-- [Deterministic Builds](./deterministic-builds.md) — Pinned dependencies
-- [Open Core Model](./open-core-model.md) — Feature licensing
+- [Source Code Transparency](./source-code-transparency.md) � Source availability
+- [Deterministic Builds](./deterministic-builds.md) � Pinned dependencies
+- [Open Core Model](./open-core-model.md) � Feature licensing
 
 ---
 
@@ -515,7 +515,7 @@ kazkade dashboard --dependencies
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -526,7 +526,7 @@ kazkade dashboard --dependencies
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -549,3 +549,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

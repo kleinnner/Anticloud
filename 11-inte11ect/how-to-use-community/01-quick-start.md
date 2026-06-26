@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║              HOW-TO-USE COMMUNITY — QUICK START                      ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �              HOW-TO-USE COMMUNITY � QUICK START                      �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -139,7 +139,7 @@ sequenceDiagram
 
 **User:** Tell me more about the Louvre.
 
-**Assistant:** The Louvre Museum (Musée du Louvre) is the world's largest art museum and a historic monument in Paris. It is located on the Right Bank of the Seine River. Here are some key facts:
+**Assistant:** The Louvre Museum (Mus�e du Louvre) is the world's largest art museum and a historic monument in Paris. It is located on the Right Bank of the Seine River. Here are some key facts:
 
 - **Size**: Approximately 72,735 square meters of exhibition space
 - **Collection**: Over 380,000 objects, 35,000 works of art on display
@@ -149,7 +149,7 @@ sequenceDiagram
 
 **User:** How do I get tickets?
 
-**Assistant:** You can purchase tickets online at the official Louvre website. Prices are €17 for adults, free for under 18s. The museum is closed on Tuesdays. I recommend booking at least 2 weeks in advance for peak seasons.
+**Assistant:** You can purchase tickets online at the official Louvre website. Prices are �17 for adults, free for under 18s. The museum is closed on Tuesdays. I recommend booking at least 2 weeks in advance for peak seasons.
 
 ### Conversation Management
 
@@ -558,7 +558,7 @@ Not yet. The web app is mobile-responsive and works on all devices.
 Yes, subject to the Terms of Service. Enterprise tier is recommended for commercial use.
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -570,7 +570,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -593,3 +593,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

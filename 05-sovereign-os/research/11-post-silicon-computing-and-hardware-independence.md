@@ -1,16 +1,16 @@
-ï»¿# Post-Silicon Computing and Hardware Independence: Software-Defined Futures in the 01s Sovereign OS
+# Post-Silicon Computing and Hardware Independence: Software-Defined Futures in the 01s Sovereign OS
 
 ## Abstract
 
-The computing industry operates on a cycle of continuous hardware replacement: new software demands new hardware, which drives e-waste and resource consumption. The 01s Sovereign (Kaiman) operating system challenges this paradigm through its "No More Silicon" philosophy, arguing that software optimization can render hardware upgrades unnecessary for most use cases. This paper examines the theoretical foundations of hardware-independent computing â€” including computational sustainability, virtual machine abstraction, and software-defined hardware â€” and demonstrates how the 01s Sovereign OS achieves hardware independence through its custom toolchain, modular architecture, and optimization-focused design.
+The computing industry operates on a cycle of continuous hardware replacement: new software demands new hardware, which drives e-waste and resource consumption. The 01s Sovereign (Kaiman) operating system challenges this paradigm through its "No More Silicon" philosophy, arguing that software optimization can render hardware upgrades unnecessary for most use cases. This paper examines the theoretical foundations of hardware-independent computing — including computational sustainability, virtual machine abstraction, and software-defined hardware — and demonstrates how the 01s Sovereign OS achieves hardware independence through its custom toolchain, modular architecture, and optimization-focused design.
 
 ## 1. Introduction
 
-Moore's Law â€” the observation that transistor density doubles approximately every two years â€” has been the driving force of the computing industry for five decades. However, as transistor scaling approaches physical limits and the environmental cost of manufacturing grows, the assumption that software should require ever-newer hardware becomes unsustainable. The 01s Sovereign OS offers an alternative: computing performance through software excellence rather than silicon consumption. This paper examines the technical, economic, and environmental dimensions of this approach.
+Moore's Law — the observation that transistor density doubles approximately every two years — has been the driving force of the computing industry for five decades. However, as transistor scaling approaches physical limits and the environmental cost of manufacturing grows, the assumption that software should require ever-newer hardware becomes unsustainable. The 01s Sovereign OS offers an alternative: computing performance through software excellence rather than silicon consumption. This paper examines the technical, economic, and environmental dimensions of this approach.
 
 ### 1.1 The Post-Silicon Thesis
 
-The central thesis of post-silicon computing is that software optimization can substitute for hardware advancement in most computing scenarios. This does not imply the end of hardware innovation â€” specialized hardware for AI training, scientific computing, and real-time graphics will continue to advance. Rather, it argues that general-purpose computing (web browsing, document editing, email, programming, media consumption) has already reached a plateau where further hardware advances provide diminishing returns, and software optimization can deliver comparable or superior user experience improvements.
+The central thesis of post-silicon computing is that software optimization can substitute for hardware advancement in most computing scenarios. This does not imply the end of hardware innovation — specialized hardware for AI training, scientific computing, and real-time graphics will continue to advance. Rather, it argues that general-purpose computing (web browsing, document editing, email, programming, media consumption) has already reached a plateau where further hardware advances provide diminishing returns, and software optimization can deliver comparable or superior user experience improvements.
 
 ### 1.2 Paper Structure
 
@@ -28,7 +28,7 @@ Dennard scaling (Dennard et al. 256-268) held that as transistors shrink, power 
 
 ### 2.3 Economic Implications
 
-The cost of advanced fabrication nodes has increased dramatically â€” a 3nm fab facility costs approximately $20 billion, with only TSMC, Samsung, and Intel able to afford leading-edge fabrication. The cost-per-transistor has stopped decreasing for advanced nodes, breaking the economic equation that drove the industry for five decades.
+The cost of advanced fabrication nodes has increased dramatically — a 3nm fab facility costs approximately $20 billion, with only TSMC, Samsung, and Intel able to afford leading-edge fabrication. The cost-per-transistor has stopped decreasing for advanced nodes, breaking the economic equation that drove the industry for five decades.
 
 ## 3. The Environmental Imperative
 
@@ -44,7 +44,7 @@ The software industry perpetuates hardware churn through new OS versions requiri
 
 ### 4.1 Algorithmic Improvements
 
-Better algorithms can provide orders of magnitude improvement over hardware upgrades: sorting (Quicksort O(n log n) vs bubble sort O(nÂ²)), search (binary O(log n) vs linear O(n)), matrix multiplication (Strassen O(n^2.81) vs naive O(nÂ³)), and compression (modern codecs achieving 2-3x better compression than 1990s codecs).
+Better algorithms can provide orders of magnitude improvement over hardware upgrades: sorting (Quicksort O(n log n) vs bubble sort O(n²)), search (binary O(log n) vs linear O(n)), matrix multiplication (Strassen O(n^2.81) vs naive O(n³)), and compression (modern codecs achieving 2-3x better compression than 1990s codecs).
 
 ### 4.2 Compiler and Runtime Optimization
 
@@ -88,7 +88,7 @@ Future work includes integration of heterogeneous computing resources across net
 
 ## 10. Conclusion
 
-The "No More Silicon" philosophy is not anti-technology â€” it is pro-efficiency. By challenging the assumption that new software requires new hardware, the 01s Sovereign OS demonstrates that software optimization can deliver useful computing performance on hardware that the industry has deemed obsolete.
+The "No More Silicon" philosophy is not anti-technology — it is pro-efficiency. By challenging the assumption that new software requires new hardware, the 01s Sovereign OS demonstrates that software optimization can deliver useful computing performance on hardware that the industry has deemed obsolete.
 
 ## Works Cited
 
@@ -202,10 +202,10 @@ Deploying cryptographic audit at the OS level requires:
 5. Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." CRYPTO, 1992.
 6. Ferguson, Niels, et al. Cryptography Engineering. Wiley, 2010.
 7. Goodman, Seymour, and Herbert Lin. "Software Transparency." Communications of the ACM, vol. 65, no. 3, 2022, pp. 40-42.
-8. Johansen, HÃ¥vard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
+8. Johansen, Håvard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
 9. Kelsey, John, et al. "Cryptographic Standards in the Post-Quantum Era." NIST IR 8413, 2022.
 10. Lamport, Leslie. "The Part-Time Parliament." ACM Transactions on Computer Systems, vol. 16, no. 2, 1998, pp. 133-169.
-11. Maillet, SÃ©bastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
+11. Maillet, Sébastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
 12. Paar, Christof, and Jan Pelzl. Understanding Cryptography. Springer, 2010.
 13. Rescorla, Eric. SSL and TLS: Designing and Building Secure Systems. Addison-Wesley, 2001.
 14. Schneier, Bruce. "Security in the Age of AI." Schneier on Security, 2023.
@@ -288,7 +288,7 @@ This analysis demonstrates that the cryptographic audit infrastructure in 01s So
 9. Stallings, William. Cryptography and Network Security: Principles and Practice. 7th ed., Pearson, 2017.
 10. Goldreich, Oded. Foundations of Cryptography: Basic Tools. Cambridge University Press, 2001.
 11. Cramer, Ronald, et al. "Design and Analysis of Cryptographic Protocols." Springer, 2020.
-12. DamgÃ¥rd, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
+12. Damgård, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
 13. Dziembowski, Stefan, et al. "Introduction to Modern Cryptography." University of Warsaw, 2021.
 14. Gentry, Craig. "A Fully Homomorphic Encryption Scheme." Stanford PhD Thesis, 2009.
 15. Bellare, Mihir, and Phillip Rogaway. "Introduction to Modern Cryptography." UCSD, 2005.
@@ -339,7 +339,7 @@ This research employed a multi-method approach combining: (1) a systematic liter
 The literature review followed PRISMA guidelines. Database searches were conducted on ACM Digital Library, IEEE Xplore, USENIX, IACR ePrint, arXiv, and Google Scholar using query strings combining topic-specific terms (e.g., "hash chain integrity," "tamper-evident logging") with "operating system," "audit," and "transparency." Initial searches yielded 847 unique results. After title/abstract screening, 312 papers proceeded to full-text review. A final corpus of 89 papers were included in the synthesis based on relevance to desktop OS auditability.
 
 ### Empirical Measurement Methodology
-All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Ã‚Â±2% accuracy, sampled every second over a 30-minute measurement period.
+All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Â±2% accuracy, sampled every second over a 30-minute measurement period.
 
 ## Comparison with Related Work
 
@@ -528,7 +528,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -551,3 +551,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

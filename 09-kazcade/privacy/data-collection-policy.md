@@ -1,21 +1,21 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Data Collection Policy
 
 ## Exactly What Kazkade Collects (Nothing by Default)
 
-Kazkade is designed with a **zero-data-by-default** policy. The software collects absolutely no telemetry, usage statistics, or personal information unless you explicitly opt in. This is not a privacy mode — this is the default behavior.
+Kazkade is designed with a **zero-data-by-default** policy. The software collects absolutely no telemetry, usage statistics, or personal information unless you explicitly opt in. This is not a privacy mode � this is the default behavior.
 
-> "Privacy is not a configuration option. It is the architectural default." — Kazkade Privacy Philosophy
+> "Privacy is not a configuration option. It is the architectural default." � Kazkade Privacy Philosophy
 
 ---
 
@@ -23,16 +23,16 @@ Kazkade is designed with a **zero-data-by-default** policy. The software collect
 
 | Data Type | Collected by Default | Requires Explicit Action |
 |-----------|---------------------|-------------------------|
-| Usage statistics | ✗ No | `--share-statistics` flag |
-| Crash reports | ✗ No | `--share-crash-report` flag |
-| Benchmark results | ✗ No | `--publish` flag |
-| Error logs | ✗ Local only | Manual upload |
-| Performance metrics | ✗ Local only | Dashboard displays locally |
-| Personal information | ✗ No data stored | Not applicable |
-| IP addresses | ✗ Not logged | Network requests require flag |
-| Hardware identifiers | ✗ Not collected | `--include-hardware-id` |
-| Software versions | ✗ Local version only | Sent with `--share-*` flags |
-| Feature usage | ✗ Not tracked | Never tracked |
+| Usage statistics | ? No | `--share-statistics` flag |
+| Crash reports | ? No | `--share-crash-report` flag |
+| Benchmark results | ? No | `--publish` flag |
+| Error logs | ? Local only | Manual upload |
+| Performance metrics | ? Local only | Dashboard displays locally |
+| Personal information | ? No data stored | Not applicable |
+| IP addresses | ? Not logged | Network requests require flag |
+| Hardware identifiers | ? Not collected | `--include-hardware-id` |
+| Software versions | ? Local version only | Sent with `--share-*` flags |
+| Feature usage | ? Not tracked | Never tracked |
 
 ---
 
@@ -141,11 +141,11 @@ Kazkade provides tools to monitor its own network activity:
 $ kazkade inspect --network
 
 Network Activity Monitor (real-time):
-┌────────────────┬──────────┬──────────────┬──────────┐
-│ Time           │ Protocol │ Destination   │ Size     │
-├────────────────┼──────────┼──────────────┼──────────┤
-│ (no activity)  │ —        │ —            │ —        │
-└────────────────┴──────────┴──────────────┴──────────┘
++-----------------------------------------------------+
+� Time           � Protocol � Destination   � Size     �
++----------------+----------+--------------+----------�
+� (no activity)  � �        � �            � �        �
++-----------------------------------------------------+
 
 Total connections: 0
 Total data sent: 0 bytes
@@ -273,12 +273,12 @@ To actually share, run without --dry-run.
 $ kazkade data --list-shared
 
 Shared Data:
-┌──────────────────────┬──────────┬──────────┬──────────┐
-│ Publication ID       │ Type     │ Date     │ Status   │
-├──────────────────────┼──────────┼──────────┼──────────┤
-│ bench-20260619-001   │ Benchmark│ 2026-06-19│ Active  │
-│ crash-20260618-001   │ Crash rpt│ 2026-06-18│ Active  │
-└──────────────────────┴──────────┴──────────┴──────────┘
++-------------------------------------------------------+
+� Publication ID       � Type     � Date     � Status   �
++----------------------+----------+----------+----------�
+� bench-20260619-001   � Benchmark� 2026-06-19� Active  �
+� crash-20260618-001   � Crash rpt� 2026-06-18� Active  �
++-------------------------------------------------------+
 
 # Delete shared data
 $ kazkade data --delete-shared --publication-id bench-20260619-001
@@ -294,14 +294,14 @@ Deletion confirmed. Publication ID bench-20260619-001 removed.
 $ kazkade self-test --privacy --data-collection
 
 Data Collection Policy Verification:
-  Default telemetry:        DISABLED ✓
-  Default crash reporting:  DISABLED ✓
-  Default benchmark share:  DISABLED ✓
-  Default usage tracking:   DISABLED ✓
-  Opt-in required:          ENFORCED ✓
-  DRY-RUN available:        YES ✓
-  Data deletion:            SUPPORTED ✓
-  Network monitoring:       AVAILABLE ✓
+  Default telemetry:        DISABLED ?
+  Default crash reporting:  DISABLED ?
+  Default benchmark share:  DISABLED ?
+  Default usage tracking:   DISABLED ?
+  Opt-in required:          ENFORCED ?
+  DRY-RUN available:        YES ?
+  Data deletion:            SUPPORTED ?
+  Network monitoring:       AVAILABLE ?
 
 Result: PASS - Kazkade complies with zero-data-by-default policy
 ```
@@ -325,23 +325,23 @@ Result: PASS - Kazkade complies with zero-data-by-default policy
 
 Kazkade commits to:
 
-1. **Zero data collection by default** — No telemetry, no usage stats, no crash reports
-2. **Explicit opt-in only** — Every data sharing requires user action
-3. **Granular consent** — Each data type has its own opt-in
-4. **Dry-run preview** — See what will be shared before sharing
-5. **Full deletion** — All shared data can be deleted on request
-6. **Network transparency** — Monitor all network activity
-7. **No third-party sharing** — Shared data never sold or shared with third parties
-8. **Open source verification** — The entire data collection code is visible
+1. **Zero data collection by default** � No telemetry, no usage stats, no crash reports
+2. **Explicit opt-in only** � Every data sharing requires user action
+3. **Granular consent** � Each data type has its own opt-in
+4. **Dry-run preview** � See what will be shared before sharing
+5. **Full deletion** � All shared data can be deleted on request
+6. **Network transparency** � Monitor all network activity
+7. **No third-party sharing** � Shared data never sold or shared with third parties
+8. **Open source verification** � The entire data collection code is visible
 
 ---
 
 ## Related Documentation
 
-- [Privacy by Design](./privacy-by-design.md) — Architecture principles
-- [No Telemetry Mode](./no-telemetry-mode.md) — Air-gapped operation
-- [Data Minimization](./data-minimization.md) — Collect-only-what's-needed
-- [Consent Management](./consent-management.md) — User consent flows
+- [Privacy by Design](./privacy-by-design.md) � Architecture principles
+- [No Telemetry Mode](./no-telemetry-mode.md) � Air-gapped operation
+- [Data Minimization](./data-minimization.md) � Collect-only-what's-needed
+- [Consent Management](./consent-management.md) � User consent flows
 
 ---
 
@@ -370,7 +370,7 @@ kazkade data clean
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -381,7 +381,7 @@ kazkade data clean
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -404,3 +404,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

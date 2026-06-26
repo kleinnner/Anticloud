@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Encryption at Rest & In Transit
@@ -20,37 +20,37 @@ Kazkade applies defense-in-depth encryption across all data paths. At rest, ledg
 ## 1. Encryption Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                    Kazkade Encryption Stack                        │
-├──────────────────────────────────────────────────────────────────┤
-│  Data Plane                                                       │
-│  ┌──────────────────────┐  ┌──────────────────┐  ┌─────────────┐  │
-│  │ .aioss Ledger        │  │ .acol Columnar    │  │ Dashboard    │  │
-│  │ AES-256-GCM per      │  │ ChaCha20-Poly1305 │  │ TLS 1.3     │  │
-│  │ record encrypt       │  │ page-level encrypt│  │ HTTP/2      │  │
-│  └──────────────────────┘  └──────────────────┘  └─────────────┘  │
-├──────────────────────────────────────────────────────────────────┤
-│  Key Management Layer                                             │
-│  ┌──────────────────────┐  ┌──────────────────┐  ┌─────────────┐  │
-│  │ OS Keychain          │  │ TPM 2.0          │  │ Derived Keys│  │
-│  │ (macOS Keychain,     │  │ (TPM_Seal,        │  │ HKDF-SHA256 │  │
-│  │  Windows Credential  │  │  TPM_Unseal)      │  │ per-file     │  │
-│  │  Manager, libsecret) │  │                   │  │ per-record   │  │
-│  └──────────────────────┘  └──────────────────┘  └─────────────┘  │
-├──────────────────────────────────────────────────────────────────┤
-│  Authentication Layer                                             │
-│  ┌──────────────────────┐  ┌──────────────────┐                   │
-│  │ Ed25519 Signatures   │  │ TLS Client Certs │                   │
-│  │ for ledger ops       │  │ for replication  │                   │
-│  └──────────────────────┘  └──────────────────┘                   │
-└──────────────────────────────────────────────────────────────────┘
++------------------------------------------------------------------+
+�                    Kazkade Encryption Stack                        �
++------------------------------------------------------------------�
+�  Data Plane                                                       �
+�  +----------------------+  +------------------+  +-------------+  �
+�  � .aioss Ledger        �  � .acol Columnar    �  � Dashboard    �  �
+�  � AES-256-GCM per      �  � ChaCha20-Poly1305 �  � TLS 1.3     �  �
+�  � record encrypt       �  � page-level encrypt�  � HTTP/2      �  �
+�  +----------------------+  +------------------+  +-------------+  �
++------------------------------------------------------------------�
+�  Key Management Layer                                             �
+�  +----------------------+  +------------------+  +-------------+  �
+�  � OS Keychain          �  � TPM 2.0          �  � Derived Keys�  �
+�  � (macOS Keychain,     �  � (TPM_Seal,        �  � HKDF-SHA256 �  �
+�  �  Windows Credential  �  �  TPM_Unseal)      �  � per-file     �  �
+�  �  Manager, libsecret) �  �                   �  � per-record   �  �
+�  +----------------------+  +------------------+  +-------------+  �
++------------------------------------------------------------------�
+�  Authentication Layer                                             �
+�  +----------------------+  +------------------+                   �
+�  � Ed25519 Signatures   �  � TLS Client Certs �                   �
+�  � for ledger ops       �  � for replication  �                   �
+�  +----------------------+  +------------------+                   �
++------------------------------------------------------------------+
 ```
 
 ---
 
 ## 2. Encryption at Rest
 
-### 2.1 `.aioss` Ledger — AES-256-GCM
+### 2.1 `.aioss` Ledger � AES-256-GCM
 
 Each ledger record is individually encrypted with AES-256-GCM (Galois/Counter Mode), providing both confidentiality and authentication. Every record uses a unique 96-bit nonce derived from the record sequence number and a file-level salt.
 
@@ -122,22 +122,22 @@ impl AiossEncryptor {
 #### Record Encryption Layout
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│ .aioss Encrypted Record (variable size)                          │
-├─────────────────────────────────────────────────────────────────┤
-│ Seqno        │ u64 LE      │ 8 bytes                            │
-│ Nonce        │ 12 bytes    │ seqno || zeros                     │
-│ Ciphertext   │ variable    │ AES-256-GCM encrypted payload      │
-│ Tag          │ 16 bytes    │ GCM authentication tag             │
-│ Region       │ 4 bytes     │ RegionTag (plaintext, authenticated)│
-│ Prev Hash    │ 32 bytes    │ SHA3-256 (plaintext, authenticated)│
-│ Signature    │ 64 bytes    │ Ed25519 (over plaintext header)    │
-└─────────────────────────────────────────────────────────────────┘
++-----------------------------------------------------------------+
+� .aioss Encrypted Record (variable size)                          �
++-----------------------------------------------------------------�
+� Seqno        � u64 LE      � 8 bytes                            �
+� Nonce        � 12 bytes    � seqno || zeros                     �
+� Ciphertext   � variable    � AES-256-GCM encrypted payload      �
+� Tag          � 16 bytes    � GCM authentication tag             �
+� Region       � 4 bytes     � RegionTag (plaintext, authenticated)�
+� Prev Hash    � 32 bytes    � SHA3-256 (plaintext, authenticated)�
+� Signature    � 64 bytes    � Ed25519 (over plaintext header)    �
++-----------------------------------------------------------------+
 ```
 
-The `region`, `prev_hash`, and `signature` fields are authenticated but not encrypted — they are needed for chain verification without decryption.
+The `region`, `prev_hash`, and `signature` fields are authenticated but not encrypted � they are needed for chain verification without decryption.
 
-### 2.2 `.acol` Columnar Files — ChaCha20-Poly1305
+### 2.2 `.acol` Columnar Files � ChaCha20-Poly1305
 
 Columnar `.acol` files use ChaCha20-Poly1305 for page-level encryption. ChaCha20 is chosen for its performance on SIMD-capable hardware (AVX2, AVX-512, NEON), which aligns with Kazkade's zero-copy SIMD pipeline.
 
@@ -200,15 +200,15 @@ impl AcolPageEncryptor {
 #### Page Encryption Layout
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│ .acol Page (16 KB – 64 KB)                                    │
-├──────────────────────────────────────────────────────────────┤
-│ Page Header    │ PageID, NumRows, CodecType (plaintext)      │
-│ Nonce          │ 12 bytes                                    │
-│ Ciphertext     │ ChaCha20-Poly1305 encrypted column data     │
-│ Tag            │ 16 bytes Poly1305 auth tag                  │
-│ Footer         │ Checksum, row count (encrypted)             │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+� .acol Page (16 KB � 64 KB)                                    �
++--------------------------------------------------------------�
+� Page Header    � PageID, NumRows, CodecType (plaintext)      �
+� Nonce          � 12 bytes                                    �
+� Ciphertext     � ChaCha20-Poly1305 encrypted column data     �
+� Tag            � 16 bytes Poly1305 auth tag                  �
+� Footer         � Checksum, row count (encrypted)             �
++--------------------------------------------------------------+
 ```
 
 ### 2.3 Key Derivation Hierarchy
@@ -233,7 +233,7 @@ graph TD
 
 ## 3. Encryption in Transit
 
-### 3.1 Dashboard API — TLS 1.3
+### 3.1 Dashboard API � TLS 1.3
 
 The local web dashboard serves over TLS 1.3 with HTTP/2. A self-signed certificate is generated on first launch, or a user-provided certificate can be specified.
 
@@ -320,11 +320,11 @@ pub fn build_tls_config(
 
 | Ciphersuite                     | Key Exchange | Auth           | Encryption        | PFS  |
 |---------------------------------|--------------|----------------|-------------------|------|
-| `TLS_AES_256_GCM_SHA384`       | (HKDF)       | Certificate    | AES-256-GCM       | ✅   |
-| `TLS_CHACHA20_POLY1305_SHA256` | (HKDF)       | Certificate    | ChaCha20-Poly1305 | ✅   |
-| `TLS_AES_128_GCM_SHA256`       | (HKDF)       | Certificate    | AES-128-GCM       | ✅   |
+| `TLS_AES_256_GCM_SHA384`       | (HKDF)       | Certificate    | AES-256-GCM       | ?   |
+| `TLS_CHACHA20_POLY1305_SHA256` | (HKDF)       | Certificate    | ChaCha20-Poly1305 | ?   |
+| `TLS_AES_128_GCM_SHA256`       | (HKDF)       | Certificate    | AES-128-GCM       | ?   |
 
-### 3.2 Inter-Node Replication — TLS 1.3 + mTLS
+### 3.2 Inter-Node Replication � TLS 1.3 + mTLS
 
 Replication between Kazkade nodes is secured with mutual TLS (mTLS) 1.3. Each node presents a certificate signed by the deployment's internal CA.
 
@@ -476,8 +476,8 @@ Benchmarks on an Intel Xeon Platinum 8480C (Sapphire Rapids) with AVX-512:
 | AES-256-GCM decrypt (1 KB)     | 13.1 GB/s        | 74 ns           |
 | ChaCha20-Poly1305 encrypt      | 8.2 GB/s         | 118 ns          |
 | ChaCha20-Poly1305 decrypt      | 8.5 GB/s         | 114 ns          |
-| TLS 1.3 handshake (mTLS)       | —                | 1.2 ms          |
-| TLS 1.3 bulk transfer (16 KB)  | 6.8 Gbps         | 22 µs           |
+| TLS 1.3 handshake (mTLS)       | �                | 1.2 ms          |
+| TLS 1.3 bulk transfer (16 KB)  | 6.8 Gbps         | 22 �s           |
 
 ### 5.2 SIMD Acceleration
 
@@ -591,7 +591,7 @@ kazkade encrypt attest --ledger compliance.aioss
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -602,7 +602,7 @@ kazkade encrypt attest --ledger compliance.aioss
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -625,3 +625,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: governance | ID: LIB-GOV-001
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Governance Model
 
@@ -65,13 +65,13 @@ most responsibility:
 
 ```
 Community Participants
-        â”‚
+        │
    Contributors
-        â”‚
+        │
    Maintainers
-        â”‚
+        │
   Core Team
-        â”‚
+        │
    Steering Committee
 ```
 
@@ -243,7 +243,7 @@ Most project decisions use a consensus-based process:
 5. **Consensus Check:** If no blocking objections remain, consensus is reached
 6. **Document:** The decision is recorded
 
-Consensus does not mean unanimous agreement â€” it means that no participant has
+Consensus does not mean unanimous agreement — it means that no participant has
 a blocking objection that has not been addressed.
 
 ### 4.3 Voting
@@ -284,7 +284,7 @@ Significant changes use the RFC process:
 ### 5.2 Contribution Path
 
 ```
-Newcomer â†’ Regular Contributor â†’ Maintainer â†’ Core Team â†’ Steering Committee
+Newcomer → Regular Contributor → Maintainer → Core Team → Steering Committee
 ```
 
 Each step earns more responsibility and voice in project governance.
@@ -330,7 +330,7 @@ Repository ownership is managed by the Steering Committee.
 
 ### 7.2 Domain Names
 
-- libern.ai â€” Primary project website
+- libern.ai — Primary project website
 - Libern-related domains are managed by the Steering Committee
 
 ### 7.3 Communication Channels
@@ -385,7 +385,7 @@ The Core Team publishes an annual report covering:
 - Roadmap and priorities
 
 
-## 11. Governance in Practice â€” Scenarios
+## 11. Governance in Practice — Scenarios
 
 ### 11.1 Scenario: Feature Addition Decision
 
@@ -395,32 +395,32 @@ The Core Team publishes an annual report covering:
 
 ```
 Proposal submitted (GitHub Discussion)
-        â”‚
-        â–¼
+        │
+        ▼
 Pre-RFC discussion (7 days)
-   â”œâ”€ Community feedback
-   â”œâ”€ Technical feasibility assessment
-   â””â”€ Security implications reviewed
-        â”‚
-        â–¼
+   ├─ Community feedback
+   ├─ Technical feasibility assessment
+   └─ Security implications reviewed
+        │
+        ▼
 RFC Draft created
-   â”œâ”€ Specification document
-   â”œâ”€ Implementation plan
-   â””â”€ Migration/compatibility analysis
-        â”‚
-        â–¼
+   ├─ Specification document
+   ├─ Implementation plan
+   └─ Migration/compatibility analysis
+        │
+        ▼
 RFC Review (14 days)
-   â”œâ”€ Core Team review
-   â”œâ”€ Security Team review
-   â””â”€ Community comment period
-        â”‚
-        â–¼
+   ├─ Core Team review
+   ├─ Security Team review
+   └─ Community comment period
+        │
+        ▼
 RFC Decision
-   â”œâ”€ Accept â†’ Implementation
-   â”œâ”€ Reject â†’ Document rationale
-   â””â”€ Changes Requested â†’ Revise and resubmit
-        â”‚
-        â–¼
+   ├─ Accept → Implementation
+   ├─ Reject → Document rationale
+   └─ Changes Requested → Revise and resubmit
+        │
+        ▼
 Implementation tracked in RFC registry
 ```
 
@@ -449,20 +449,20 @@ Implementation tracked in RFC registry
 5. Governance model updated to include Security Team
 6. Amendment documented in RFC registry
 
-## 12. Governance Roles â€” Expanded Responsibilities
+## 12. Governance Roles — Expanded Responsibilities
 
 ### 12.1 Community Participant Responsibilities Matrix
 
 | Activity | Participant | Contributor | Maintainer | Core Team | Steering |
 |----------|-------------|-------------|------------|-----------|----------|
-| File bugs | âœ“ | âœ“ | âœ“ | âœ“ | âœ“ |
-| Submit PRs | âœ“ | âœ“ | âœ“ | âœ“ | |
-| Review PRs | | âœ“ | âœ“ | âœ“ | |
-| Merge PRs | | | âœ“ | âœ“ | |
-| Triage issues | | | âœ“ | âœ“ | |
-| Create RFCs | âœ“ | âœ“ | âœ“ | âœ“ | |
-| Approve RFCs | | | | âœ“ | âœ“ |
-| Manage releases | | | | âœ“ | âœ“ |
+| File bugs | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Submit PRs | ✓ | ✓ | ✓ | ✓ | |
+| Review PRs | | ✓ | ✓ | ✓ | |
+| Merge PRs | | | ✓ | ✓ | |
+| Triage issues | | | ✓ | ✓ | |
+| Create RFCs | ✓ | ✓ | ✓ | ✓ | |
+| Approve RFCs | | | | ✓ | ✓ |
+| Manage releases | | | | ✓ | ✓ |
 | Code of Conduct | | | | Enforce | Appeal |
 | Strategic direction | | | | Input | Decide |
 | Budget/funding | | | | Input | Decide |
@@ -486,42 +486,42 @@ Maintainers and Core Team members who become inactive for 12+ months are moved t
 - Listed in project documentation as Emeritus
 - Can attend meetings as observers
 
-## 13. Decision-Making Process â€” Expanded
+## 13. Decision-Making Process — Expanded
 
 ### 13.1 RFC Template
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  RFC Template â€” Libern Governance                             â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                              â”‚
-â”‚  RFC ID: LIB-RFC-YYYY-NNN                                    â”‚
-â”‚  Title: [Brief descriptive title]                            â”‚
-â”‚  Author: [Name/Handle]                                       â”‚
-â”‚  Status: [Draft/Review/Accepted/Rejected/Implemented]        â”‚
-â”‚  Type: [Feature/Process/Policy/Architecture]                  â”‚
-â”‚  Created: [Date]                                             â”‚
-â”‚  Resolution: [Date if accepted/rejected]                     â”‚
-â”‚                                                              â”‚
-â”‚  ## Summary                                                  â”‚
-â”‚  [1-2 paragraph summary]                                     â”‚
-â”‚                                                              â”‚
-â”‚  ## Motivation                                               â”‚
-â”‚  [Why is this change needed?]                                â”‚
-â”‚                                                              â”‚
-â”‚  ## Design                                                   â”‚
-â”‚  [Technical or process design]                               â”‚
-â”‚                                                              â”‚
-â”‚  ## Alternatives Considered                                  â”‚
-â”‚  [What else was considered and why rejected]                 â”‚
-â”‚                                                              â”‚
-â”‚  ## Impact                                                   â”‚
-â”‚  [Backward compatibility, security, performance implications]â”‚
-â”‚                                                              â”‚
-â”‚  ## Open Questions                                           â”‚
-â”‚  [What is unresolved]                                        â”‚
-â”‚                                                              â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────────────────────────────────────────────────────┐
+│  RFC Template — Libern Governance                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  RFC ID: LIB-RFC-YYYY-NNN                                    │
+│  Title: [Brief descriptive title]                            │
+│  Author: [Name/Handle]                                       │
+│  Status: [Draft/Review/Accepted/Rejected/Implemented]        │
+│  Type: [Feature/Process/Policy/Architecture]                  │
+│  Created: [Date]                                             │
+│  Resolution: [Date if accepted/rejected]                     │
+│                                                              │
+│  ## Summary                                                  │
+│  [1-2 paragraph summary]                                     │
+│                                                              │
+│  ## Motivation                                               │
+│  [Why is this change needed?]                                │
+│                                                              │
+│  ## Design                                                   │
+│  [Technical or process design]                               │
+│                                                              │
+│  ## Alternatives Considered                                  │
+│  [What else was considered and why rejected]                 │
+│                                                              │
+│  ## Impact                                                   │
+│  [Backward compatibility, security, performance implications]│
+│                                                              │
+│  ## Open Questions                                           │
+│  [What is unresolved]                                        │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ### 13.2 Voting Procedures
@@ -560,43 +560,43 @@ Members must recuse themselves from votes where they have:
 ## 15. Annual Report Template
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  Libern Annual Report â€” YYYY                                 â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                              â”‚
-â”‚  1. Executive Summary                                        â”‚
-â”‚     - Project growth and milestones                          â”‚
-â”‚     - Key achievements                                       â”‚
-â”‚                                                              â”‚
-â”‚  2. Community Metrics                                        â”‚
-â”‚     - Total contributors: [N]                                â”‚
-â”‚     - New contributors: [N]                                  â”‚
-â”‚     - Active maintainers: [N]                                â”‚
-â”‚     - Core Team members: [N]                                 â”‚
-â”‚     - GitHub stars: [N]                                      â”‚
-â”‚     - Total commits: [N]                                     â”‚
-â”‚     - Languages: [N]                                         â”‚
-â”‚                                                              â”‚
-â”‚  3. Financial Report                                         â”‚
-â”‚     - Income: [Sources and amounts]                          â”‚
-â”‚     - Expenses: [Categories and amounts]                     â”‚
-â”‚     - Balance: [Current funds]                               â”‚
-â”‚                                                              â”‚
-â”‚  4. Governance Activity                                      â”‚
-â”‚     - RFCs submitted/accepted                                â”‚
-â”‚     - Maintainer changes                                     â”‚
-â”‚     - Code of Conduct cases                                  â”‚
-â”‚                                                              â”‚
-â”‚  5. Roadmap Progress                                         â”‚
-â”‚     - Planned vs. completed                                  â”‚
-â”‚     - Revised timeline                                       â”‚
-â”‚                                                              â”‚
-â”‚  6. Community Health                                         â”‚
-â”‚     - Survey results                                         â”‚
-â”‚     - Diversity metrics                                      â”‚
-â”‚     - Retention rates                                        â”‚
-â”‚                                                              â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────────────────────────────────────────────────────┐
+│  Libern Annual Report — YYYY                                 │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  1. Executive Summary                                        │
+│     - Project growth and milestones                          │
+│     - Key achievements                                       │
+│                                                              │
+│  2. Community Metrics                                        │
+│     - Total contributors: [N]                                │
+│     - New contributors: [N]                                  │
+│     - Active maintainers: [N]                                │
+│     - Core Team members: [N]                                 │
+│     - GitHub stars: [N]                                      │
+│     - Total commits: [N]                                     │
+│     - Languages: [N]                                         │
+│                                                              │
+│  3. Financial Report                                         │
+│     - Income: [Sources and amounts]                          │
+│     - Expenses: [Categories and amounts]                     │
+│     - Balance: [Current funds]                               │
+│                                                              │
+│  4. Governance Activity                                      │
+│     - RFCs submitted/accepted                                │
+│     - Maintainer changes                                     │
+│     - Code of Conduct cases                                  │
+│                                                              │
+│  5. Roadmap Progress                                         │
+│     - Planned vs. completed                                  │
+│     - Revised timeline                                       │
+│                                                              │
+│  6. Community Health                                         │
+│     - Survey results                                         │
+│     - Diversity metrics                                      │
+│     - Retention rates                                        │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 
@@ -621,7 +621,7 @@ governance model itself is always welcome.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -644,3 +644,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

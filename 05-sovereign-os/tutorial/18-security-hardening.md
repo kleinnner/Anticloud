@@ -1,4 +1,4 @@
-﻿# Security Hardening
+# Security Hardening
 
 This guide covers hardening your 01s Sovereign installation for production or security-sensitive use.
 
@@ -488,16 +488,16 @@ Once you've completed this guide, move to the next tutorial, practice on a test 
 
 ## Further Reading
 
-- [Post-Installation Setup](07-post-installation-setup.md) â€” Initial security setup
-- [Networking and Connectivity](16-networking-and-connectivity.md) â€” Network security
-- [OS Security Architectures](../research/08-operating-system-security-architectures.md) â€” Research background
-- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) â€” Data protection
-- [Incident Response Plan](../incident-reporting/01-incident-response-plan.md) â€” Security events
-- [Security FAQ](../faq/06-security-faq.md) â€” Common questions
-- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) â€” Audit issues
-- [Enterprise Security](../enterprise/03-compliance-and-certifications.md) â€” Enterprise
-- [Compliance Guide](../compliance/01-gdpr-compliance.md) â€” Regulatory compliance
-- [Privacy by Design](../privacy/08-privacy-by-design-architecture.md) â€” Privacy architecture
+- [Post-Installation Setup](07-post-installation-setup.md) — Initial security setup
+- [Networking and Connectivity](16-networking-and-connectivity.md) — Network security
+- [OS Security Architectures](../research/08-operating-system-security-architectures.md) — Research background
+- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) — Data protection
+- [Incident Response Plan](../incident-reporting/01-incident-response-plan.md) — Security events
+- [Security FAQ](../faq/06-security-faq.md) — Common questions
+- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) — Audit issues
+- [Enterprise Security](../enterprise/03-compliance-and-certifications.md) — Enterprise
+- [Compliance Guide](../compliance/01-gdpr-compliance.md) — Regulatory compliance
+- [Privacy by Design](../privacy/08-privacy-by-design-architecture.md) — Privacy architecture
 
 ## AppArmor Profile Example
 
@@ -686,7 +686,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -709,3 +709,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

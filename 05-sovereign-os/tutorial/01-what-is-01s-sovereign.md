@@ -1,10 +1,10 @@
-﻿# What Is 01s Sovereign (Kaiman)?
+# What Is 01s Sovereign (Kaiman)?
 
 **01s Sovereign** (codename: *Kaiman*) is an Arch Linux-based operating system built from the ground up for transparency, auditability, and sovereign control. Unlike conventional Linux distributions that rely on opaque package management and closed build pipelines, 01s Sovereign ships with a **cryptographically-linked audit ledger** (.aioss format), a **custom toolchain** (lexer, parser, JIT codegen, runes glyph system, binary loader), and a **zero-trust CLI** (`zerocli`) that records every action taken on the system.
 
 ## Philosophy
 
-The guiding philosophy of 01s Sovereign is **radical transparency**. Every operation â€” from package installation to kernel boot to developer toolchain usage â€” is recorded in an append-only, hash-chained ledger. This makes 01s Sovereign suitable for:
+The guiding philosophy of 01s Sovereign is **radical transparency**. Every operation — from package installation to kernel boot to developer toolchain usage — is recorded in an append-only, hash-chained ledger. This makes 01s Sovereign suitable for:
 
 - **Regulated industries** (legal, finance, healthcare, government) where audit trails are mandatory
 - **Security-conscious users** who want tamper-evident system records
@@ -126,7 +126,7 @@ The name reflects the project's core belief: users should have **complete sovere
 
 ### 1. The .aioss Audit Ledger
 
-Every session on 01s Sovereign generates a `.aioss` file â€” a JSON-based, cryptographically-linked append-only log. Each entry carries:
+Every session on 01s Sovereign generates a `.aioss` file — a JSON-based, cryptographically-linked append-only log. Each entry carries:
 
 ```
 {timestamp} + {event_type} + {content_hash} + {parent_hash}
@@ -256,7 +256,7 @@ flowchart TB
 
 ### Detailed Release Notes
 
-**v1.0.0 (Day 1) â€” Base System**
+**v1.0.0 (Day 1) — Base System**
 - Bootable Arch Linux ISO with Xfce desktop environment
 - Custom GRUB theme (Particle-circle-window)
 - Custom Plymouth boot splash
@@ -264,7 +264,7 @@ flowchart TB
 - API-OSS Tauri binary for ledger management
 - Toolchain base (Makefiles, source structure)
 
-**v1.0.1 (Day 2) â€” Toolchain Addition**
+**v1.0.1 (Day 2) — Toolchain Addition**
 - 01s-lexer: Complete tokenizer with keyword, operator, and literal recognition
 - 01s-parser: Recursive-descent parser building AST from token streams
 - 01s-codegen: x86_64 JIT compiler emitting machine code
@@ -439,7 +439,7 @@ After reading this document, verify your understanding:
 
 1. [ ] Can explain what makes 01s different from other Linux distros
 2. [ ] Know the five core principles (Transparency, Sovereignty, Trust, Openness, Integrity)
-3. [ ] Understand the toolchain pipeline: lexer â†’ parser â†’ codegen
+3. [ ] Understand the toolchain pipeline: lexer → parser → codegen
 4. [ ] Know what `.aioss` files are and where they're stored
 5. [ ] Can explain the "no black boxes" philosophy
 
@@ -485,16 +485,16 @@ If any concept in this document is unclear:
 
 ## Further Reading
 
-- [System Requirements](02-system-requirements.md) â€” Hardware prerequisites
-- [Using 01s-Ledger](10-using-01s-ledger.md) â€” Ledger operations reference
-- [Introduction to zerocli](11-introduction-to-zerocli.md) â€” CLI command reference
-- [Cryptographic Audit Ledgers](../research/01-cryptographic-audit-ledgers.md) â€” Research background
-- [No Black Boxes Philosophy](../no-black-boxes/01-the-no-black-boxes-philosophy.md) â€” Design rationale
-- [Hash Chain Integrity Verification](../research/02-hash-chain-integrity-verification.md) â€” Technical deep-dive
-- [Community Governance](../community/03-community-governance.md) â€” How decisions are made
-- [Data Sovereignty and Digital Rights](../research/10-data-sovereignty-and-digital-rights.md) â€” Policy context
-- [Trustworthy Computing Foundations](../research/13-trustworthy-computing-foundations.md) â€” Theoretical basis
-- [General FAQ](../faq/01-general-faq.md) â€” Common questions
+- [System Requirements](02-system-requirements.md) — Hardware prerequisites
+- [Using 01s-Ledger](10-using-01s-ledger.md) — Ledger operations reference
+- [Introduction to zerocli](11-introduction-to-zerocli.md) — CLI command reference
+- [Cryptographic Audit Ledgers](../research/01-cryptographic-audit-ledgers.md) — Research background
+- [No Black Boxes Philosophy](../no-black-boxes/01-the-no-black-boxes-philosophy.md) — Design rationale
+- [Hash Chain Integrity Verification](../research/02-hash-chain-integrity-verification.md) — Technical deep-dive
+- [Community Governance](../community/03-community-governance.md) — How decisions are made
+- [Data Sovereignty and Digital Rights](../research/10-data-sovereignty-and-digital-rights.md) — Policy context
+- [Trustworthy Computing Foundations](../research/13-trustworthy-computing-foundations.md) — Theoretical basis
+- [General FAQ](../faq/01-general-faq.md) — Common questions
 
 ### Common Pitfalls
 
@@ -509,8 +509,8 @@ If any concept in this document is unclear:
 
 ## Further Reading
 
-- [Test Link](test.md) — Test description
-- [Test Link](test.md) — Test description
+- [Test Link](test.md) � Test description
+- [Test Link](test.md) � Test description
 
 ## Detailed Example: Auditing a Package Installation
 
@@ -672,7 +672,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -695,3 +695,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

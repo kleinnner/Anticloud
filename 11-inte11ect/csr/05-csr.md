@@ -1,4 +1,4 @@
-﻿<!-- ASCII Art for Math-11 -->
+<!-- ASCII Art for Math-11 -->
 
 
 
@@ -288,11 +288,11 @@ impl SsdHealthMonitor {
 
 ```
 System Upgrade Advisor
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+══════════════════════
 Current: NVIDIA RTX 2060 (6GB)
-  âœ… Meets minimum requirements
-  âš  Some models at reduced speed
-  â„¹ ~2 more years of compatibility
+  ✅ Meets minimum requirements
+  ⚠ Some models at reduced speed
+  ℹ ~2 more years of compatibility
 
 Recommendations:
   1. Continue current hardware (best for environment)
@@ -300,14 +300,14 @@ Recommendations:
   3. Purchase RTX 4060 ($299)
   4. Used RTX 3090 ($500)
 Not Recommended:
-  âŒ RTX 3060 to RTX 4060 (12% gain, not worth e-waste)
+  ❌ RTX 3060 to RTX 4060 (12% gain, not worth e-waste)
 ```
 
 ### E-Waste Impact Dashboard
 
 ```
 E-Waste Impact Dashboard
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+════════════════════════
 Your GPU: RTX 3060 (2022)
 Expected Life: 2022-2030 (8 years)
 Extended by Inte11ect: +3 years
@@ -347,15 +347,15 @@ This section provides comprehensive technical analysis of the implementation det
 
 #### Architecture Decision Records
 
-**ADR-001: Local-First Processing** â€” All inference operations execute on user local hardware to maximize privacy, minimize latency, and eliminate cloud dependency. This fundamental decision drives all subsequent architecture choices and is non-negotiable for the platform.
+**ADR-001: Local-First Processing** — All inference operations execute on user local hardware to maximize privacy, minimize latency, and eliminate cloud dependency. This fundamental decision drives all subsequent architecture choices and is non-negotiable for the platform.
 
-**ADR-002: INT4 Quantization by Default** â€” Models use INT4 precision by default, providing optimal balance of quality, memory footprint, and speed. Users can select INT8 or FP16 when hardware permits higher quality requirements.
+**ADR-002: INT4 Quantization by Default** — Models use INT4 precision by default, providing optimal balance of quality, memory footprint, and speed. Users can select INT8 or FP16 when hardware permits higher quality requirements.
 
-**ADR-003: Ed25519 Cryptographic Signatures** â€” All artifacts use Ed25519 signatures for verification, chosen for 128-bit security level, fast verification (~20K ops/sec), compact 64-byte signatures, and widespread standardization.
+**ADR-003: Ed25519 Cryptographic Signatures** — All artifacts use Ed25519 signatures for verification, chosen for 128-bit security level, fast verification (~20K ops/sec), compact 64-byte signatures, and widespread standardization.
 
-**ADR-004: Tauri Desktop Framework** â€” The desktop client uses Tauri for its small binary size (<10MB), native Rust backend performance, cross-platform support, and strong security model without Node.js in production.
+**ADR-004: Tauri Desktop Framework** — The desktop client uses Tauri for its small binary size (<10MB), native Rust backend performance, cross-platform support, and strong security model without Node.js in production.
 
-**ADR-005: Modular 72-Component Architecture** â€” The platform decomposes into 72 independently versioned modules, each responsible for a specific domain, enabling independent development, testing, deployment, and scaling.
+**ADR-005: Modular 72-Component Architecture** — The platform decomposes into 72 independently versioned modules, each responsible for a specific domain, enabling independent development, testing, deployment, and scaling.
 
 #### Algorithm Selection and Rationale
 
@@ -399,7 +399,7 @@ Module specification (MOD-SPEC), API reference (API-REF), integration guide (INT
 
 #### Glossary
 
-Key terminology: Local Inference â€” AI execution on user hardware without cloud dependency, Quantization â€” numerical precision reduction for memory/compute efficiency, .aioss â€” AI Open Signed Storage format for verifiable artifacts, Ed25519 â€” high-security elliptic curve signature algorithm, Tauri â€” Rust-based desktop framework, Module â€” independent component of 72-module architecture, SBOM â€” Software Bill of Materials for supply chain transparency.
+Key terminology: Local Inference — AI execution on user hardware without cloud dependency, Quantization — numerical precision reduction for memory/compute efficiency, .aioss — AI Open Signed Storage format for verifiable artifacts, Ed25519 — high-security elliptic curve signature algorithm, Tauri — Rust-based desktop framework, Module — independent component of 72-module architecture, SBOM — Software Bill of Materials for supply chain transparency.
 
 ### Additional Implementation Details
 
@@ -572,7 +572,7 @@ E-waste is an invisible cost of the AI revolution. Inte11ect's commitment to run
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -595,3 +595,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

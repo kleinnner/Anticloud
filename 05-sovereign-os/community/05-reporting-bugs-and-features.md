@@ -1,4 +1,4 @@
-﻿# Reporting Bugs and Features
+# Reporting Bugs and Features
 
 This guide explains how to report bugs and request features for 01s Sovereign.
 
@@ -124,7 +124,7 @@ The project currently does not have a formal bug bounty program. Security vulner
 ## Feature Voting
 
 Features can be upvoted on GitHub Discussions:
-- Use ðŸ‘ reactions to show support
+- Use 👍 reactions to show support
 - Leave constructive comments
 - Avoid "me too" posts (use reactions instead)
 
@@ -472,16 +472,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Overview
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” Contributing
-- [Community Governance](03-community-governance.md) â€” Decision process
-- [Communication Channels](04-communication-channels.md) â€” Where to discuss
-- [Code of Conduct](06-code-of-conduct.md) â€” Standards
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Projects
-- [Incident Response Plan](../incident-reporting/01-incident-response-plan.md) â€” Security bugs
-- [Known Issues](../help/01-known-issues.md) â€” Current known issues
-- [Getting Support](../help/09-getting-support.md) â€” Support channels
-- [Security FAQ](../faq/06-security-faq.md) â€” Security questions
+- [Welcome to the Community](01-welcome-to-the-community.md) — Overview
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — Contributing
+- [Community Governance](03-community-governance.md) — Decision process
+- [Communication Channels](04-communication-channels.md) — Where to discuss
+- [Code of Conduct](06-code-of-conduct.md) — Standards
+- [Community Projects](07-community-projects-and-ecosystem.md) — Projects
+- [Incident Response Plan](../incident-reporting/01-incident-response-plan.md) — Security bugs
+- [Known Issues](../help/01-known-issues.md) — Current known issues
+- [Getting Support](../help/09-getting-support.md) — Support channels
+- [Security FAQ](../faq/06-security-faq.md) — Security questions
 
 ## Security Bug Reporting
 
@@ -710,7 +710,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -733,3 +733,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Collaborative Analysis
@@ -16,25 +16,25 @@ This guide covers multi-user workflows with shared `.acol` files, Git-based vers
 ## Workflow Overview
 
 ```
-┌──────────┐    ┌──────────┐    ┌──────────┐
-│ Alice    │    │ Bob      │    │ Carol    │
-│ .acol    │    │ .acol    │    │ .acol    │
-│ queries  │    │ queries  │    │ queries  │
-└────┬─────┘    └────┬─────┘    └────┬─────┘
-     │               │               │
-     └───────────────┼───────────────┘
-                     │
-                     ▼
-           ┌─────────────────┐
-           │ Shared Git Repo │
-           │ .acol + .aioss  │
-           └─────────────────┘
-                     │
-                     ▼
-           ┌─────────────────┐
-           │ CI Verification │
-           │ (auto-sign)     │
-           └─────────────────┘
++----------+    +----------+    +----------+
+� Alice    �    � Bob      �    � Carol    �
+� .acol    �    � .acol    �    � .acol    �
+� queries  �    � queries  �    � queries  �
++----------+    +----------+    +----------+
+     �               �               �
+     +---------------+---------------+
+                     �
+                     ?
+           +-----------------+
+           � Shared Git Repo �
+           � .acol + .aioss  �
+           +-----------------+
+                     �
+                     ?
+           +-----------------+
+           � CI Verification �
+           � (auto-sign)     �
+           +-----------------+
 ```
 
 ## Sharing `.acol` Files via Git
@@ -106,12 +106,12 @@ Output:
 ```
 Schema changes:
   + region: utf8 (new)
-  ~ amount: f64 → i64 (type change, backward-incompatible)
+  ~ amount: f64 ? i64 (type change, backward-incompatible)
   - old_flag: u32 (removed)
   
 Data changes:
-  Rows: 1,048,576 → 2,097,152 (+100%)
-  Size: 42.3 MB → 85.1 MB
+  Rows: 1,048,576 ? 2,097,152 (+100%)
+  Size: 42.3 MB ? 85.1 MB
 ```
 
 ## Collaborative Query Sharing
@@ -145,16 +145,16 @@ Build a query catalog in the repo:
 
 ```
 queries/
-├── revenue/
-│   ├── by-region.sql
-│   ├── by-product.sql
-│   └── trend-monthly.sql
-├── performance/
-│   ├── scan-bench.sql
-│   └── agg-bench.sql
-└── audit/
-    ├── ledger-check.sql
-    └── integrity.sql
++-- revenue/
+�   +-- by-region.sql
+�   +-- by-product.sql
+�   +-- trend-monthly.sql
++-- performance/
+�   +-- scan-bench.sql
+�   +-- agg-bench.sql
++-- audit/
+    +-- ledger-check.sql
+    +-- integrity.sql
 ```
 
 List available queries:
@@ -310,7 +310,7 @@ git push
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -321,7 +321,7 @@ git push
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -344,3 +344,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

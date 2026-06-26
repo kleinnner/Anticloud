@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: compliance | ID: LIB-COMP-006
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # EU AI Act Compliance
 
@@ -83,7 +83,7 @@ rights, safety, or access to essential services.
 
 ## 3. Transparency Obligations (Title IV)
 
-### 3.1 Article 50 â€” Transparency for Certain AI Systems
+### 3.1 Article 50 — Transparency for Certain AI Systems
 
 Article 50 requires that users be informed when they are interacting with an AI
 system. Libern satisfies this obligation by:
@@ -93,12 +93,12 @@ system. Libern satisfies this obligation by:
 - Providing a visual indicator when AI processing is occurring
 - Including settings that show which AI features are enabled
 
-### 3.2 Article 50(2) â€” Emotional Detection
+### 3.2 Article 50(2) — Emotional Detection
 
 Libern does not perform emotion detection. Voice processing is limited to audio
 transmission for voice chat; no emotional analysis is performed.
 
-### 3.3 Article 50(3) â€” Deep Fakes
+### 3.3 Article 50(3) — Deep Fakes
 
 Libern's AI does not generate synthetic content (images, video, audio). It only
 processes text for summarization and suggestions. The AI does not create deep
@@ -110,7 +110,7 @@ fakes or manipulate media.
 
 The AI Act defines General-Purpose AI as AI systems that can serve a variety of
 purposes. Libern's AI is narrowly scoped to communication assistance within the
-application. It is not a general-purpose model like GPT-4 or Llama â€” it is a
+application. It is not a general-purpose model like GPT-4 or Llama — it is a
 specialized, small-footprint model designed for specific tasks.
 
 ### 4.2 If Classified as GPAI
@@ -187,13 +187,13 @@ Copilot) that may use user data for model improvement.
 The AI Act does not override GDPR requirements. The interaction between the AI
 Act and GDPR for Libern's AI:
 
-- **GDPR Article 5(1)(b):** Purpose limitation is satisfied â€” AI processes only
+- **GDPR Article 5(1)(b):** Purpose limitation is satisfied — AI processes only
   the data the user provides for the specific task
-- **GDPR Article 5(1)(c):** Data minimization is satisfied â€” only the current
+- **GDPR Article 5(1)(c):** Data minimization is satisfied — only the current
   context is processed
-- **GDPR Article 22:** Automated decision-making â€” Libern's AI makes suggestions,
+- **GDPR Article 22:** Automated decision-making — Libern's AI makes suggestions,
   not decisions affecting legal rights
-- **GDPR Article 35:** DPIA â€” not required due to minimal risk profile
+- **GDPR Article 35:** DPIA — not required due to minimal risk profile
 
 ## 8. AI Model Properties
 
@@ -427,33 +427,33 @@ required beyond the transparency measures already implemented in the software.
 - [ ] Conduct annual AI compliance review
 
 
-## 19. AI Act Compliance Procedures â€” Expanded
+## 19. AI Act Compliance Procedures — Expanded
 
 ### 19.1 Risk Classification Confirmation Process
 
 ```
 Step 1: Identify all AI features in use
-        â”œâ”€ Message summarization
-        â”œâ”€ Smart reply suggestions
-        â”œâ”€ Content moderation
-        â””â”€ Document RAG query
-        â†“
+        ├─ Message summarization
+        ├─ Smart reply suggestions
+        ├─ Content moderation
+        └─ Document RAG query
+        ↓
 Step 2: Classify each feature per AI Act Annex III
-        â”œâ”€ Biometric identification? No
-        â”œâ”€ Critical infrastructure? No
-        â”œâ”€ Education/training? No
-        â”œâ”€ Employment/workers? No
-        â”œâ”€ Essential services? No
-        â”œâ”€ Law enforcement? No
-        â”œâ”€ Migration/borders? No
-        â””â”€ Administration of justice? No
-        â†“
+        ├─ Biometric identification? No
+        ├─ Critical infrastructure? No
+        ├─ Education/training? No
+        ├─ Employment/workers? No
+        ├─ Essential services? No
+        ├─ Law enforcement? No
+        ├─ Migration/borders? No
+        └─ Administration of justice? No
+        ↓
 Step 3: Determine risk level
-        All features â†’ Minimal Risk (no regulatory obligations)
-        â†“
+        All features → Minimal Risk (no regulatory obligations)
+        ↓
 Step 4: Document classification
         See Section 2.2 of this document
-        â†“
+        ↓
 Step 5: Implement voluntary transparency measures
         See Section 3
 ```
@@ -479,7 +479,7 @@ libern --ai-test-relevance --test-set query_samples.json
 **Scenario:** A Frankfurt-based bank deploys Libern for internal communications and uses the local AI for meeting summarization and compliance monitoring.
 
 **AI Act analysis:**
-1. **Risk classification:** Minimal risk â€” AI is auxiliary, optional, and makes only suggestions
+1. **Risk classification:** Minimal risk — AI is auxiliary, optional, and makes only suggestions
 2. **GDPR interaction:** No training on user data; all processing local
 3. **Transparency:** AI-generated content clearly labeled; users informed
 4. **Human oversight:** All AI suggestions require human approval
@@ -490,27 +490,27 @@ libern --ai-test-relevance --test-set query_samples.json
 ### 19.4 Model Transparency Card
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚              LIBERN AI MODEL TRANSPARENCY CARD               â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                              â”‚
-â”‚  Model Name:         Libern AI v1.0                          â”‚
-â”‚  Architecture:       Transformer (Candle engine)             â”‚
-â”‚  Parameters:         1.5B (Qwen 2.5 based)                  â”‚
-â”‚  Quantization:       Q4_K_M (4-bit)                         â”‚
-â”‚  Training Data:      Public corpus only (no user data)       â”‚
-â”‚  Fine-tuning:        None on user data                       â”‚
-â”‚  Inference:          100% local device                       â”‚
-â”‚  Data Transmission:  Zero â€” no data leaves device            â”‚
-â”‚  Temperature Range:  0.0 (moderation) â€” 1.0 (creative)      â”‚
-â”‚  Context Window:     2048 tokens                             â”‚
-â”‚  Languages:          Multi-language (base model)             â”‚
-â”‚  Intended Use:       Communication assistance only           â”‚
-â”‚  Prohibited Uses:    Medical, legal, financial advice        â”‚
-â”‚  Known Biases:       As inherited from base model            â”‚
-â”‚  Mitigations:        Moderation system + human review        â”‚
-â”‚                                                              â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────────────────────────────────────────────────────┐
+│              LIBERN AI MODEL TRANSPARENCY CARD               │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  Model Name:         Libern AI v1.0                          │
+│  Architecture:       Transformer (Candle engine)             │
+│  Parameters:         1.5B (Qwen 2.5 based)                  │
+│  Quantization:       Q4_K_M (4-bit)                         │
+│  Training Data:      Public corpus only (no user data)       │
+│  Fine-tuning:        None on user data                       │
+│  Inference:          100% local device                       │
+│  Data Transmission:  Zero — no data leaves device            │
+│  Temperature Range:  0.0 (moderation) — 1.0 (creative)      │
+│  Context Window:     2048 tokens                             │
+│  Languages:          Multi-language (base model)             │
+│  Intended Use:       Communication assistance only           │
+│  Prohibited Uses:    Medical, legal, financial advice        │
+│  Known Biases:       As inherited from base model            │
+│  Mitigations:        Moderation system + human review        │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ## 20. GPAI Obligations Reference Table
@@ -541,7 +541,7 @@ libern --ai-test-relevance --test-set query_samples.json
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -564,3 +564,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

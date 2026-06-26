@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # No Telemetry Mode
@@ -15,7 +15,7 @@
 
 Kazkade supports a strict **no-telemetry mode** that guarantees no data leaves your machine. This mode is the default, but the `--no-telemetry` flag and `kazkade self-test --privacy` command provide explicit verification.
 
-> "If the network is disconnected, the software must still work perfectly." — Kazkade Air-Gap Requirement
+> "If the network is disconnected, the software must still work perfectly." � Kazkade Air-Gap Requirement
 
 ---
 
@@ -27,12 +27,12 @@ $ kazkade --no-telemetry bench --gemm
 
 Kazkade v0.1.0 (NO TELEMETRY MODE)
 ====================================
-✓ Telemetry: DISABLED
-✓ Network: DISABLED  
-✓ Data sharing: DISABLED
-✓ Crash reporting: DISABLED
-✓ Benchmark sharing: DISABLED
-✓ Usage tracking: DISABLED
+? Telemetry: DISABLED
+? Network: DISABLED  
+? Data sharing: DISABLED
+? Crash reporting: DISABLED
+? Benchmark sharing: DISABLED
+? Usage tracking: DISABLED
 
 All processing is local. No data will leave this machine.
 ```
@@ -41,13 +41,13 @@ All processing is local. No data will leave this machine.
 
 | Capability | With `--no-telemetry` | Without |
 |-----------|----------------------|---------|
-| Telemetry | ✗ Forced off | Default off (can opt in) |
-| Network connections | ✗ Blocked | Default off (can enable) |
-| Data sharing | ✗ Forced off | Default off (can opt in) |
-| Crash reporting | ✗ Forced off | Default off (can opt in) |
-| Benchmark publishing | ✗ Forced off | Default off (can opt in) |
-| Software updates | ✗ Manual only | Manual only |
-| License validation | ✓ Works offline | ✓ Works offline |
+| Telemetry | ? Forced off | Default off (can opt in) |
+| Network connections | ? Blocked | Default off (can enable) |
+| Data sharing | ? Forced off | Default off (can opt in) |
+| Crash reporting | ? Forced off | Default off (can opt in) |
+| Benchmark publishing | ? Forced off | Default off (can opt in) |
+| Software updates | ? Manual only | Manual only |
+| License validation | ? Works offline | ? Works offline |
 
 ---
 
@@ -116,11 +116,11 @@ Result: PASS - No outbound connections detected
 $ kazkade inspect --network --watch
 
 Network Monitor (press Ctrl+C to stop):
-┌──────────┬──────────┬──────────────┬──────────┬──────────┐
-│ Time     │ Protocol │ Destination  │ Direction│ Size     │
-├──────────┼──────────┼──────────────┼──────────┼──────────┤
-│ (waiting)│ —        │ —            │ —        │ —        │
-└──────────┴──────────┴──────────────┴──────────┴──────────┘
++----------------------------------------------------------+
+� Time     � Protocol � Destination  � Direction� Size     �
++----------+----------+--------------+----------+----------�
+� (waiting)� �        � �            � �        � �        �
++----------------------------------------------------------+
 
 Total outbound: 0 bytes
 Total inbound: 0 bytes
@@ -238,7 +238,7 @@ If a privacy test fails:
 
 ```bash
 $ kazkade self-test --privacy --connections
-⚠ WARNING: Outbound connection detected!
+? WARNING: Outbound connection detected!
 
 Connection Details:
   Protocol: TCP
@@ -260,10 +260,10 @@ To prevent future connections:
 
 ## Related Documentation
 
-- [Data Collection Policy](./data-collection-policy.md) — What data is collected
-- [Local-First Architecture](./local-first-architecture.md) — Processing locus
-- [Anonymization Framework](./anonymization-framework.md) — Data anonymization
-- [Privacy Compliance](./privacy-compliance.md) — Regulatory requirements
+- [Data Collection Policy](./data-collection-policy.md) � What data is collected
+- [Local-First Architecture](./local-first-architecture.md) � Processing locus
+- [Anonymization Framework](./anonymization-framework.md) � Data anonymization
+- [Privacy Compliance](./privacy-compliance.md) � Regulatory requirements
 
 ---
 
@@ -293,7 +293,7 @@ kazkade self-test --privacy
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -304,7 +304,7 @@ kazkade self-test --privacy
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -327,3 +327,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

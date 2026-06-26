@@ -1,32 +1,32 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Competitive Comparison Cheatsheet â€” Kazkade
+# Competitive Comparison Cheatsheet — Kazkade
 
 ## At-a-Glance Feature Matrix
 
 | Feature | Kazkade | NumPy | JBlas | OpenBLAS | Google Benchmark | Hyperfine | Phoronix Test Suite |
 |---------|---------|-------|-------|----------|-----------------|-----------|---------------------|
-| **Single binary** | âœ… | âŒ (2+ GB env) | âŒ (JAR + JVM) | âŒ (build + deps) | âŒ (C++ build) | âœ… | âŒ (200+ MB, PHP deps) |
-| **Zero dependencies** | âœ… | âŒ | âŒ | âŒ | âŒ | âœ… | âŒ |
-| **Native SIMD (auto-detect)** | âœ… | âŒ (BLAS-dependent) | âŒ | âœ… | âŒ | âŒ | âŒ (separate builds) |
-| **Cross-platform binary** | âœ… | âŒ | âœ… (JVM) | âŒ (build per OS) | âŒ (build per OS) | âœ… | âŒ |
-| **Tamper-proof ledger (`.aioss`)** | âœ… | âŒ | âŒ | âŒ | âŒ | âŒ | âŒ |
-| **Columnar SQL engine** | âœ… | âŒ (pandas separate) | âŒ | âŒ | âŒ | âŒ | âŒ |
-| **Cycle-level microbenchmarks** | âœ… | âŒ | âŒ | âŒ | âœ… | âŒ | âŒ |
-| **Wall-clock benchmarks** | âœ… | âŒ | âŒ | âŒ | âŒ | âœ… | âœ… |
-| **GEMM/FFT kernels** | âœ… | âœ… (via BLAS) | âœ… (via BLAS) | âœ… | âŒ | âŒ | âœ… |
-| **Ledger verification** | âœ… | âŒ | âŒ | âŒ | âŒ | âŒ | âŒ |
-| **Headless / edge compatible** | âœ… | âŒ | âŒ | âŒ | âœ… | âœ… | âŒ |
-| **Open source** | âœ… Apache 2.0 | âœ… BSD | âœ… Apache 2.0 | âœ… BSD 3-Clause | âœ… Apache 2.0 | âœ… MIT | âœ… GPLv3 |
+| **Single binary** | ? | ? (2+ GB env) | ? (JAR + JVM) | ? (build + deps) | ? (C++ build) | ? | ? (200+ MB, PHP deps) |
+| **Zero dependencies** | ? | ? | ? | ? | ? | ? | ? |
+| **Native SIMD (auto-detect)** | ? | ? (BLAS-dependent) | ? | ? | ? | ? | ? (separate builds) |
+| **Cross-platform binary** | ? | ? | ? (JVM) | ? (build per OS) | ? (build per OS) | ? | ? |
+| **Tamper-proof ledger (`.aioss`)** | ? | ? | ? | ? | ? | ? | ? |
+| **Columnar SQL engine** | ? | ? (pandas separate) | ? | ? | ? | ? | ? |
+| **Cycle-level microbenchmarks** | ? | ? | ? | ? | ? | ? | ? |
+| **Wall-clock benchmarks** | ? | ? | ? | ? | ? | ? | ? |
+| **GEMM/FFT kernels** | ? | ? (via BLAS) | ? (via BLAS) | ? | ? | ? | ? |
+| **Ledger verification** | ? | ? | ? | ? | ? | ? | ? |
+| **Headless / edge compatible** | ? | ? | ? | ? | ? | ? | ? |
+| **Open source** | ? Apache 2.0 | ? BSD | ? Apache 2.0 | ? BSD 3-Clause | ? Apache 2.0 | ? MIT | ? GPLv3 |
 | **Binary size** | ~4 MB | N/A | ~2 MB (JAR alone) | ~10 MB (shared lib) | N/A (build-time) | ~1 MB | ~200 MB |
 
 ---
@@ -39,11 +39,11 @@ Kazkade maps input files directly into the process address space. No deserializa
 
 | Competitor | Data Handling |
 |------------|--------------|
-| **NumPy** | Reads CSV/Parquet into Python objects â†’ converts to ndarray (2â€“3 copies) |
-| **Pandas** | Similar â€” each intermediate DataFrame stage adds a copy |
-| **Kazkade** | Memory-maps â†’ processes in-place â†’ produces output |
+| **NumPy** | Reads CSV/Parquet into Python objects ? converts to ndarray (2–3 copies) |
+| **Pandas** | Similar — each intermediate DataFrame stage adds a copy |
+| **Kazkade** | Memory-maps ? processes in-place ? produces output |
 
-**Impact:** 2â€“5x faster on CSV/Parquet-heavy workloads with 1/3 the memory.
+**Impact:** 2–5x faster on CSV/Parquet-heavy workloads with 1/3 the memory.
 
 ---
 
@@ -53,9 +53,9 @@ No competitor offers a cryptographic ledger chaining benchmark runs.
 
 | Competitor | Output |
 |------------|--------|
-| **Google Benchmark** | JSON/console output â€” trivially editable |
-| **Hyperfine** | JSON/Markdown â€” no integrity guarantees |
-| **Phoronix** | XML/PDF â€” signed only if manually GPG'd |
+| **Google Benchmark** | JSON/console output — trivially editable |
+| **Hyperfine** | JSON/Markdown — no integrity guarantees |
+| **Phoronix** | XML/PDF — signed only if manually GPG'd |
 | **Kazkade** | SHA-256 chained ledger with binary hash anchoring |
 
 **Prospect quote:** "Our regulators told us JSON logs aren't sufficient. Kazkade's `.aioss` was the only tool that satisfied their requirements."
@@ -66,11 +66,11 @@ No competitor offers a cryptographic ledger chaining benchmark runs.
 
 | Competitor | Windows | Linux | macOS | ARM64 | RISC-V |
 |------------|---------|-------|-------|-------|--------|
-| **Kazkade** | âœ… native | âœ… native | âœ… native | âœ… native | âœ… (Q2 2026) |
-| **NumPy** | âš ï¸ (via WSL/conda) | âœ… | âœ… | âš ï¸ (conda-forge) | âŒ |
-| **JBlas** | âœ… (JVM) | âœ… (JVM) | âœ… (JVM) | âœ… (JVM) | âš ï¸ (JVM) |
-| **OpenBLAS** | âš ï¸ (MSVC build) | âœ… | âœ… | âš ï¸ (cross-compile) | âŒ |
-| **Google Benchmark** | âš ï¸ (MSVC build) | âœ… | âœ… | âš ï¸ (cross-compile) | âŒ |
+| **Kazkade** | ? native | ? native | ? native | ? native | ? (Q2 2026) |
+| **NumPy** | ?? (via WSL/conda) | ? | ? | ?? (conda-forge) | ? |
+| **JBlas** | ? (JVM) | ? (JVM) | ? (JVM) | ? (JVM) | ?? (JVM) |
+| **OpenBLAS** | ?? (MSVC build) | ? | ? | ?? (cross-compile) | ? |
+| **Google Benchmark** | ?? (MSVC build) | ? | ? | ?? (cross-compile) | ? |
 
 ---
 
@@ -78,7 +78,7 @@ No competitor offers a cryptographic ledger chaining benchmark runs.
 
 | Competitor | What You Ship |
 |------------|---------------|
-| **Kazkade** | `kazkade` â€” one file, statically linked |
+| **Kazkade** | `kazkade` — one file, statically linked |
 | **Python stack** | Python 3.x + pip + NumPy + 50+ transitive deps |
 | **JBlas** | JAR + JVM + BLAS native lib |
 | **Phoronix** | PHP + 70+ PHP modules + test suites |
@@ -104,16 +104,16 @@ No competitor offers a cryptographic ledger chaining benchmark runs.
 
 ## Competitive Positioning Statements
 
-| Againstâ€¦ | Kazkade Message |
+| Against… | Kazkade Message |
 |-----------|----------------|
-| **NumPy** | "NumPy is a library. Kazkade is a runtime with a ledger. Use both â€” Kazkade for the audit trail, NumPy for exploration." |
+| **NumPy** | "NumPy is a library. Kazkade is a runtime with a ledger. Use both — Kazkade for the audit trail, NumPy for exploration." |
 | **Google Benchmark** | "GBench is great for C++ code. Kazkade adds cross-platform SIMD detection and cryptographic output." |
-| **Hyperfine** | "Hyperfine measures wall time. Kazkade measures wall time + cycles + cache + power â€” all signed." |
-| **Phoronix** | "Phoronix is a benchmark suite. Kazkade is a benchmarking *runtime* â€” 200x smaller, 10x faster to set up, and audit-ready." |
+| **Hyperfine** | "Hyperfine measures wall time. Kazkade measures wall time + cycles + cache + power — all signed." |
+| **Phoronix** | "Phoronix is a benchmark suite. Kazkade is a benchmarking *runtime* — 200x smaller, 10x faster to set up, and audit-ready." |
 | **JBlas** | "JBlas ties you to the JVM. Kazkade is a native binary with no GC pauses and no heap warm-up." |
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -124,7 +124,7 @@ No competitor offers a cryptographic ledger chaining benchmark runs.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -147,3 +147,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

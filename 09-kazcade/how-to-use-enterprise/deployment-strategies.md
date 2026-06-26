@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Deployment Strategies
@@ -16,14 +16,14 @@ This guide covers blue/green, canary, and rolling update strategies with zero-do
 ## Deployment Overview
 
 `
-┌──────────────────────────────────────────────────────────┐
-│                 Deployment Strategies                     │
-│                                                           │
-│  Rolling     ──> Gradual node replacement                │
-│  Blue/Green  ──> Swap environments                       │
-│  Canary      ──> Percentage-based rollout                │
-│  Recreate    ──> Full stop-and-start (maintenance)       │
-└──────────────────────────────────────────────────────────┘
++----------------------------------------------------------+
+�                 Deployment Strategies                     �
+�                                                           �
+�  Rolling     --> Gradual node replacement                �
+�  Blue/Green  --> Swap environments                       �
+�  Canary      --> Percentage-based rollout                �
+�  Recreate    --> Full stop-and-start (maintenance)       �
++----------------------------------------------------------+
 `
 
 ## Blue/Green Deployment
@@ -31,23 +31,23 @@ This guide covers blue/green, canary, and rolling update strategies with zero-do
 ### Architecture
 
 `
-┌─────────────┐         ┌─────────────┐
-│  Blue       │         │  Green      │
-│  (current)  │         │  (new)      │
-│  v0.6.0     │         │  v0.7.0     │
-│             │         │             │
-│  .acol: ✓   │         │  .acol: ✓   │
-│  .aioss: ✓  │         │  .aioss: ✓  │
-│  Users: 100%│         │  Users: 0%  │
-└──────┬──────┘         └──────┬──────┘
-       │                       │
-       └───────────┬───────────┘
-                   │
-                   ▼
-          ┌─────────────────┐
-          │ Load Balancer   │
-          │ (HAProxy/NGINX) │
-          └─────────────────┘
++-------------+         +-------------+
+�  Blue       �         �  Green      �
+�  (current)  �         �  (new)      �
+�  v0.6.0     �         �  v0.7.0     �
+�             �         �             �
+�  .acol: ?   �         �  .acol: ?   �
+�  .aioss: ?  �         �  .aioss: ?  �
+�  Users: 100%�         �  Users: 0%  �
++-------------+         +-------------+
+       �                       �
+       +-----------------------+
+                   �
+                   ?
+          +-----------------+
+          � Load Balancer   �
+          � (HAProxy/NGINX) �
+          +-----------------+
 `
 
 ### Step-by-Step
@@ -74,11 +74,11 @@ kazcade-ctl deploy warmup \
 kazcade-ctl deploy check green
 
 # Output:
-# ✓ Health check: PASS
-# ✓ Query test: PASS (42 queries, avg 12ms)
-# ✓ Ledger integrity: PASS
-# ✓ Data consistency: PASS
-# ✓ Benchmark: Within 2% of baseline
+# ? Health check: PASS
+# ? Query test: PASS (42 queries, avg 12ms)
+# ? Ledger integrity: PASS
+# ? Data consistency: PASS
+# ? Benchmark: Within 2% of baseline
 
 # 5. Switch traffic
 kazcade-ctl deploy switch blue-green \
@@ -231,10 +231,10 @@ kazcade-ctl deploy migrate-ledger \
   --ledger-path /data/ledgers
 
 # Migration steps:
-# ✓ Schema verification
-# ✓ Entry re-signing (v2 format)
-# ✓ Chain continuity check
-# ✓ Genesis backward compatibility
+# ? Schema verification
+# ? Entry re-signing (v2 format)
+# ? Chain continuity check
+# ? Genesis backward compatibility
 `
 
 ### Post-Migration
@@ -329,7 +329,7 @@ kazcade-ctl deploy global --config global-deployment.yml
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -340,7 +340,7 @@ kazcade-ctl deploy global --config global-deployment.yml
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -363,3 +363,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

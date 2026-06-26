@@ -1,4 +1,4 @@
-﻿# The Future of Computing Without New Silicon: A Software-Defined Computing Vision
+# The Future of Computing Without New Silicon: A Software-Defined Computing Vision
 
 ## Abstract
 
@@ -127,18 +127,18 @@ else:
 ### Over-Provisioning Strategy
 
 ```
-┌─────────────────────────────────────────┐
-│ Recommended Over-Provisioning            │
-├─────────────────────────────────────────┤
-│ CPU: Choose 2-3 tiers above current need │
-│ RAM: Max out motherboard support         │
-│ Storage: Choose 2x estimated need        │
-│ PSU: Choose 1.5-2x peak power estimate   │
-│                                     │
-│ Cost premium: 20-40%                   │
-│ Lifecycle extension: 3-5 years          │
-│ TCO savings: 40-60% over 10 years       │
-└─────────────────────────────────────────┘
++-----------------------------------------+
+� Recommended Over-Provisioning            �
++-----------------------------------------�
+� CPU: Choose 2-3 tiers above current need �
+� RAM: Max out motherboard support         �
+� Storage: Choose 2x estimated need        �
+� PSU: Choose 1.5-2x peak power estimate   �
+�                                     �
+� Cost premium: 20-40%                   �
+� Lifecycle extension: 3-5 years          �
+� TCO savings: 40-60% over 10 years       �
++-----------------------------------------+
 ```
 
 ## 4. The Role of Open Source
@@ -555,12 +555,12 @@ for r in model:
 
 | Technology | Current Maturity | 2030 Maturity | Readiness for Widespread Adoption |
 |------------|-----------------|---------------|-----------------------------------|
-| Software optimization (JIT, PGO) | Proven | Mature | High — demonstrated by 01s |
-| AI-guided compilation | Emerging | Mature | Medium — requires more research |
-| Open firmware (coreboot) | Growing | Mature | Medium — OEM adoption needed |
-| Modular hardware design | Niche | Growing | Medium — requires industry standards |
-| Long-life batteries | R&D | Growing | Low — chemical limitations |
-| Repairable device design | Emerging | Growing | Low — needs Right to Repair legislation |
+| Software optimization (JIT, PGO) | Proven | Mature | High � demonstrated by 01s |
+| AI-guided compilation | Emerging | Mature | Medium � requires more research |
+| Open firmware (coreboot) | Growing | Mature | Medium � OEM adoption needed |
+| Modular hardware design | Niche | Growing | Medium � requires industry standards |
+| Long-life batteries | R&D | Growing | Low � chemical limitations |
+| Repairable device design | Emerging | Growing | Low � needs Right to Repair legislation |
 
 ## 13. Best Practices
 
@@ -619,7 +619,7 @@ for r in model:
 
 ## 16. Conclusion
 
-The future of computing does not have to be more silicon, more e-waste, more planned obsolescence. A software-defined future is possible where computing capacity grows through optimization and hardware is designed for longevity. The 01s Sovereign project demonstrates that this future is technically feasible, economically beneficial, environmentally necessary, and socially inclusive today — not in some distant future. The path forward requires changes in education, policy, standards, and investment, but the destination is a computing ecosystem that serves human needs without consuming the planet. Academic research, industry trends, and user acceptance data all point toward the viability and desirability of this alternative computing future.
+The future of computing does not have to be more silicon, more e-waste, more planned obsolescence. A software-defined future is possible where computing capacity grows through optimization and hardware is designed for longevity. The 01s Sovereign project demonstrates that this future is technically feasible, economically beneficial, environmentally necessary, and socially inclusive today � not in some distant future. The path forward requires changes in education, policy, standards, and investment, but the destination is a computing ecosystem that serves human needs without consuming the planet. Academic research, industry trends, and user acceptance data all point toward the viability and desirability of this alternative computing future.
 
 ## 13. References
 
@@ -645,7 +645,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -668,3 +668,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

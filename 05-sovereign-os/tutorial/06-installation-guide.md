@@ -1,4 +1,4 @@
-﻿# Installation Guide
+# Installation Guide
 
 This guide covers installing 01s Sovereign to your hard drive from the live ISO environment.
 
@@ -481,16 +481,16 @@ ls /mnt/boot/initramfs-*.img
 
 ## Further Reading
 
-- [System Requirements](02-system-requirements.md) â€” Hardware prerequisites
-- [Downloading the ISO](03-downloading-the-iso.md) â€” ISO acquisition
-- [Post-Installation Setup](07-post-installation-setup.md) â€” After installation
-- [Desktop Tour](08-desktop-tour.md) â€” GNOME overview
-- [Partition Layout Reference](02-system-requirements.md) â€” Disk partitioning
-- [Dual-Boot Guide](../help/04-dual-boot-troubleshooting.md) â€” Multi-OS setup
-- [Installation FAQ](../faq/02-installation-faq.md) â€” Common issues
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Boot problems
-- [QEMU Testing](22-qemu-testing.md) â€” Test before installing
-- [Enterprise Deployment](../enterprise/02-deployment-models.md) â€” Mass deployment
+- [System Requirements](02-system-requirements.md) — Hardware prerequisites
+- [Downloading the ISO](03-downloading-the-iso.md) — ISO acquisition
+- [Post-Installation Setup](07-post-installation-setup.md) — After installation
+- [Desktop Tour](08-desktop-tour.md) — GNOME overview
+- [Partition Layout Reference](02-system-requirements.md) — Disk partitioning
+- [Dual-Boot Guide](../help/04-dual-boot-troubleshooting.md) — Multi-OS setup
+- [Installation FAQ](../faq/02-installation-faq.md) — Common issues
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Boot problems
+- [QEMU Testing](22-qemu-testing.md) — Test before installing
+- [Enterprise Deployment](../enterprise/02-deployment-models.md) — Mass deployment
 
 ## Installation Walk Summary
 
@@ -659,7 +659,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -682,3 +682,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

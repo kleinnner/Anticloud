@@ -1,4 +1,4 @@
-﻿# Running on Existing Hardware: Making Old Computers Useful Again with the 01s Sovereign OS
+# Running on Existing Hardware: Making Old Computers Useful Again with the 01s Sovereign OS
 
 ## Abstract
 
@@ -24,55 +24,55 @@ There are hundreds of millions of functional computers worldwide deemed "obsolet
 
 | Generation | Years | Typical CPU | RAM | Storage | 01s Support |
 |------------|-------|-------------|-----|---------|-------------|
-| Retro | 1995-2000 | Pentium II/III | 64-256 MB | 2-10 GB HDD | ❌ Not supported |
-| Legacy | 2000-2005 | Pentium 4, Core 2 Duo | 256 MB - 2 GB | 20-80 GB HDD | ⚠️ Limited |
-| Modern Legacy | 2006-2012 | Core 2 Duo/Quad, Core i | 2-4 GB DDR2/DDR3 | 80-250 GB HDD | ✅ Primary target |
-| Recent Legacy | 2013-2018 | Core i3/i5/i7 (4th-8th gen) | 4-8 GB DDR3/DDR4 | 256-512 GB SSD/HDD | ✅ Primary target |
-| Current | 2019+ | Core i5/i7/i9 (10th+ gen) | 8-32 GB DDR4/DDR5 | 512 GB+ NVMe | ✅ Excellent |
+| Retro | 1995-2000 | Pentium II/III | 64-256 MB | 2-10 GB HDD | ? Not supported |
+| Legacy | 2000-2005 | Pentium 4, Core 2 Duo | 256 MB - 2 GB | 20-80 GB HDD | ?? Limited |
+| Modern Legacy | 2006-2012 | Core 2 Duo/Quad, Core i | 2-4 GB DDR2/DDR3 | 80-250 GB HDD | ? Primary target |
+| Recent Legacy | 2013-2018 | Core i3/i5/i7 (4th-8th gen) | 4-8 GB DDR3/DDR4 | 256-512 GB SSD/HDD | ? Primary target |
+| Current | 2019+ | Core i5/i7/i9 (10th+ gen) | 8-32 GB DDR4/DDR5 | 512 GB+ NVMe | ? Excellent |
 
 ### Hardware Compatibility Catalog
 
-**Retro (1995-2000)** — Not supported
+**Retro (1995-2000)** � Not supported
 - Insufficient RAM (< 256 MB)
 - No PAE support on many CPUs
 - IDE-only storage (no SATA)
 - USB 1.0 or no USB
 
-**Legacy (2000-2005)** — Limited support
+**Legacy (2000-2005)** � Limited support
 | Component | Support Level | Notes |
 |-----------|---------------|-------|
-| CPU | ✅ Works | PAE required, NX recommended |
-| RAM (>512 MB) | ⚠️ Minimal | Xfce runs, browsing slow |
-| SATA (if available) | ✅ Works | AHCI mode recommended |
-| IDE | ✅ Works | PATA support included |
-| GPU (integrated) | ⚠️ Basic | VESA driver, no 3D |
-| GPU (PCIe) | ✅ Works | Legacy NV/AMD drivers |
-| USB 2.0 | ✅ Works | EHCI support |
-| Audio (AC97) | ✅ Works | snd-intel8x0 driver |
-| Networking (100Mbit) | ✅ Works | Driver support |
+| CPU | ? Works | PAE required, NX recommended |
+| RAM (>512 MB) | ?? Minimal | Xfce runs, browsing slow |
+| SATA (if available) | ? Works | AHCI mode recommended |
+| IDE | ? Works | PATA support included |
+| GPU (integrated) | ?? Basic | VESA driver, no 3D |
+| GPU (PCIe) | ? Works | Legacy NV/AMD drivers |
+| USB 2.0 | ? Works | EHCI support |
+| Audio (AC97) | ? Works | snd-intel8x0 driver |
+| Networking (100Mbit) | ? Works | Driver support |
 
-**Modern Legacy (2006-2012)** — Full support
+**Modern Legacy (2006-2012)** � Full support
 | Component | Support Level | Notes |
 |-----------|---------------|-------|
-| CPU (Core 2/1st gen Core) | ✅ Excellent | All features |
-| RAM (2-4 GB DDR3) | ✅ Excellent | ZRAM for swap |
-| SATA 2/3 | ✅ Excellent | AHCI, TRIM for SSD |
-| GPU (mid-range era) | ✅ Good | Proprietary drivers available |
-| USB 3.0 | ✅ Works | xHCI support |
-| Audio (HD Audio) | ✅ Excellent | snd-hda-intel |
-| Gigabit Ethernet | ✅ Excellent | Driver support |
-| WiFi (a/b/g/n) | ⚠️ Varied | Some require non-free firmware |
+| CPU (Core 2/1st gen Core) | ? Excellent | All features |
+| RAM (2-4 GB DDR3) | ? Excellent | ZRAM for swap |
+| SATA 2/3 | ? Excellent | AHCI, TRIM for SSD |
+| GPU (mid-range era) | ? Good | Proprietary drivers available |
+| USB 3.0 | ? Works | xHCI support |
+| Audio (HD Audio) | ? Excellent | snd-hda-intel |
+| Gigabit Ethernet | ? Excellent | Driver support |
+| WiFi (a/b/g/n) | ?? Varied | Some require non-free firmware |
 
-**Recent Legacy (2013-2018)** — Excellent support
+**Recent Legacy (2013-2018)** � Excellent support
 | Component | Support Level | Notes |
 |-----------|---------------|-------|
-| CPU (2nd-8th gen Core) | ✅ Excellent | Full features |
-| RAM (4-8 GB DDR3/DDR4) | ✅ Excellent | Full utilization |
-| SATA 3 / NVMe | ✅ Excellent | Full performance |
-| GPU (modern era) | ✅ Excellent | Full open/closed drivers |
-| USB 3.x | ✅ Excellent | Full support |
-| Thunderbolt | ✅ Works | hotplug support |
-| WiFi (ac) | ✅ Works | iwlwifi, ath10k |
+| CPU (2nd-8th gen Core) | ? Excellent | Full features |
+| RAM (4-8 GB DDR3/DDR4) | ? Excellent | Full utilization |
+| SATA 3 / NVMe | ? Excellent | Full performance |
+| GPU (modern era) | ? Excellent | Full open/closed drivers |
+| USB 3.x | ? Excellent | Full support |
+| Thunderbolt | ? Works | hotplug support |
+| WiFi (ac) | ? Works | iwlwifi, ath10k |
 
 ## 3. Optimization Strategies
 
@@ -161,8 +161,8 @@ flowchart TD
 
 | Upgrade | Cost | Benefit | Payback |
 |---------|------|---------|---------|
-| HDD → 240GB SSD | $30 | 5-10x I/O speed | Immediate |
-| 2GB → 8GB RAM | $25 | 2-4x multitasking | Immediate |
+| HDD ? 240GB SSD | $30 | 5-10x I/O speed | Immediate |
+| 2GB ? 8GB RAM | $25 | 2-4x multitasking | Immediate |
 | CPU (if socketed) | $40-80 | 20-50% CPU perf | 3-6 months |
 | Full upgrade (RAM+SSD) | $55 | Transformative | Immediate |
 | New budget PC | $400-500 | All new | - |
@@ -286,37 +286,37 @@ systemctl enable lightdm-kiosk
 
 | Chipset | SATA | USB | PCIe | Audio | Network | Status |
 |---------|------|-----|------|-------|---------|--------|
-| Intel G31/G33 | 3Gb/s | 2.0 | 1.0a | HDA | GbE | ✅ Excellent |
-| Intel G41/G43 | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ✅ Excellent |
-| Intel P35/X38 | 3Gb/s | 2.0 | 1.0a | HDA | GbE | ✅ Excellent |
-| Intel P45/X48 | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ✅ Excellent |
-| Intel H55/H57 | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ✅ Excellent |
-| Intel H61/B75 | 3Gb/s | 2.0/3.0 | 2.0/3.0 | HDA | GbE | ✅ Excellent |
-| Intel Z77/H77 | 6Gb/s | 3.0 | 3.0 | HDA | GbE | ✅ Excellent |
-| Intel Z87/H87 | 6Gb/s | 3.0 | 3.0 | HDA | GbE | ✅ Excellent |
-| AMD 760G/780G | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ✅ Good |
-| AMD 880G/890GX | 6Gb/s | 2.0/3.0 | 2.0 | HDA | GbE | ✅ Good |
-| AMD A75/A85X | 6Gb/s | 3.0 | 2.0/3.0 | HDA | GbE | ✅ Good |
-| NVIDIA nForce 7xxx | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ⚠️ (proprietary) |
+| Intel G31/G33 | 3Gb/s | 2.0 | 1.0a | HDA | GbE | ? Excellent |
+| Intel G41/G43 | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ? Excellent |
+| Intel P35/X38 | 3Gb/s | 2.0 | 1.0a | HDA | GbE | ? Excellent |
+| Intel P45/X48 | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ? Excellent |
+| Intel H55/H57 | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ? Excellent |
+| Intel H61/B75 | 3Gb/s | 2.0/3.0 | 2.0/3.0 | HDA | GbE | ? Excellent |
+| Intel Z77/H77 | 6Gb/s | 3.0 | 3.0 | HDA | GbE | ? Excellent |
+| Intel Z87/H87 | 6Gb/s | 3.0 | 3.0 | HDA | GbE | ? Excellent |
+| AMD 760G/780G | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ? Good |
+| AMD 880G/890GX | 6Gb/s | 2.0/3.0 | 2.0 | HDA | GbE | ? Good |
+| AMD A75/A85X | 6Gb/s | 3.0 | 2.0/3.0 | HDA | GbE | ? Good |
+| NVIDIA nForce 7xxx | 3Gb/s | 2.0 | 2.0 | HDA | GbE | ?? (proprietary) |
 
 ### Laptop Compatibility
 
 | Component | Support Level | Common Issues |
 |-----------|---------------|---------------|
-| Intel integrated graphics | ✅ Excellent | Rarely issues |
-| AMD integrated graphics | ✅ Good | Some older cards |
-| NVIDIA Optimus | ⚠️ Moderate | Requires bumblebee/prime |
-| Realtek audio | ✅ Excellent | Most chips work |
-| Conexant audio | ✅ Good | Some quirks |
-| Intel WiFi | ✅ Excellent | iwlwifi covers most |
-| Broadcom WiFi | ⚠️ Moderate | Requires non-free firmware |
-| Atheros WiFi | ✅ Good | ath9k great, ath10k good |
-| Realtek WiFi | ⚠️ Varied | Some chips well supported |
-| Synaptics touchpad | ✅ Excellent | Well supported |
-| ALPS touchpad | ✅ Good | Some issues |
-| Elan touchpad | ✅ Good | Supported in recent kernels |
-| Webcams (UVC) | ✅ Excellent | Most work |
-| Card readers | ⚠️ Varied | Some work, some don't |
+| Intel integrated graphics | ? Excellent | Rarely issues |
+| AMD integrated graphics | ? Good | Some older cards |
+| NVIDIA Optimus | ?? Moderate | Requires bumblebee/prime |
+| Realtek audio | ? Excellent | Most chips work |
+| Conexant audio | ? Good | Some quirks |
+| Intel WiFi | ? Excellent | iwlwifi covers most |
+| Broadcom WiFi | ?? Moderate | Requires non-free firmware |
+| Atheros WiFi | ? Good | ath9k great, ath10k good |
+| Realtek WiFi | ?? Varied | Some chips well supported |
+| Synaptics touchpad | ? Excellent | Well supported |
+| ALPS touchpad | ? Good | Some issues |
+| Elan touchpad | ? Good | Supported in recent kernels |
+| Webcams (UVC) | ? Excellent | Most work |
+| Card readers | ?? Varied | Some work, some don't |
 
 ## 10. Performance Tuning for Specific Hardware
 
@@ -503,9 +503,9 @@ echo "Testing boot time..."
 BOOT_TIME=$(systemd-analyze | grep "Startup finished" | grep -oP '=\K[0-9.]+')
 echo "Boot time: ${BOOT_TIME}s"
 if (( $(echo "$BOOT_TIME > 45" | bc -l) )); then
-    echo "❌ Boot time too slow (target: < 45s)"
+    echo "? Boot time too slow (target: < 45s)"
 else
-    echo "✅ Boot time acceptable"
+    echo "? Boot time acceptable"
 fi
 
 # Application launch test
@@ -518,9 +518,9 @@ END_TIME=$(date +%s%N)
 LAUNCH_TIME=$(echo "scale=2; ($END_TIME - $START_TIME) / 1000000000" | bc)
 echo "Firefox launch: ${LAUNCH_TIME}s"
 if (( $(echo "$LAUNCH_TIME > 10" | bc -l) )); then
-    echo "❌ Application launch too slow"
+    echo "? Application launch too slow"
 else
-    echo "✅ Application launch acceptable"
+    echo "? Application launch acceptable"
 fi
 
 # Memory pressure test
@@ -528,11 +528,11 @@ echo "Testing memory..."
 MEM_PRESSURE=$(free -m | grep Mem | awk '{print ($3/$2)*100}')
 echo "Memory usage: ${MEM_PRESSURE}%"
 if (( $(echo "$MEM_PRESSURE > 90" | bc -l) )); then
-    echo "⚠️ High memory pressure - consider RAM upgrade"
+    echo "?? High memory pressure - consider RAM upgrade"
 elif (( $(echo "$MEM_PRESSURE > 80" | bc -l) )); then
-    echo "⚠️ Moderate memory pressure"
+    echo "?? Moderate memory pressure"
 else
-    echo "✅ Memory usage acceptable"
+    echo "? Memory usage acceptable"
 fi
 
 # Overall result
@@ -582,9 +582,9 @@ echo "=== Compatibility Check ==="
 RAM_MB=$(free -m | grep Mem | awk '{print $2}')
 DISK_GB=$(df / | tail -1 | awk '{print $2/1024/1024}')
 if [ $RAM_MB -ge 1024 ] && [ $(echo "$DISK_GB >= 8" | bc) -eq 1 ]; then
-    echo "✅ Device meets minimum requirements"
+    echo "? Device meets minimum requirements"
 else
-    echo "⚠️ Device may need upgrades"
+    echo "?? Device may need upgrades"
 fi
 ```
 
@@ -645,7 +645,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -668,3 +668,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

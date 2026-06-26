@@ -1,20 +1,20 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Product-Market Fit Analysis â€” Survey Methodology and Cohort Tracking
+# Product-Market Fit Analysis — Survey Methodology and Cohort Tracking
 
 **Document ID:** KAZ-FP-PMF-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Product Strategy  
+**Classification:** Internal — Product Strategy  
 
 ---
 
@@ -33,11 +33,11 @@ The Sean Ellis test asks: "How would you feel if you could no longer use Kazkade
 | Response | PMF Threshold | Current (N=847) | Target |
 |----------|--------------|-----------------|--------|
 | Very disappointed | >40% | 38.2% | >40% |
-| Somewhat disappointed | â€” | 31.4% | â€” |
-| Not disappointed | â€” | 18.7% | â€” |
-| N/A (don't use anymore) | â€” | 11.7% | â€” |
+| Somewhat disappointed | — | 31.4% | — |
+| Not disappointed | — | 18.7% | — |
+| N/A (don't use anymore) | — | 11.7% | — |
 
-**Current PMF score: 38.2%** â€” Approaching but not yet meeting the 40% threshold.
+**Current PMF score: 38.2%** — Approaching but not yet meeting the 40% threshold.
 
 ### 2.2 Survey Distribution
 
@@ -122,10 +122,10 @@ Cohorts are defined by the month of first `kazkade bench` execution (proxy for a
 | Cohort | Size | M1 | M2 | M3 | M4 | M5 | M6 |
 |--------|------|-----|-----|-----|-----|-----|-----|
 | Jan 2026 | 142 | 100% | 54% | 42% | 36% | 31% | 28% |
-| Feb 2026 | 158 | 100% | 52% | 40% | 34% | 30% | â€” |
-| Mar 2026 | 171 | 100% | 55% | 43% | 37% | â€” | â€” |
-| Apr 2026 | 189 | 100% | 53% | 41% | â€” | â€” | â€” |
-| May 2026 | 204 | 100% | 56% | â€” | â€” | â€” | â€” |
+| Feb 2026 | 158 | 100% | 52% | 40% | 34% | 30% | — |
+| Mar 2026 | 171 | 100% | 55% | 43% | 37% | — | — |
+| Apr 2026 | 189 | 100% | 53% | 41% | — | — | — |
+| May 2026 | 204 | 100% | 56% | — | — | — | — |
 
 ### 4.3 Retention by Segment (6-Month)
 
@@ -181,7 +181,7 @@ Analysis of open-text survey responses (Q3: "most valuable feature") using thema
 **DevOps**: Single binary (84%), No dependencies (72%), SIMD dispatch (41%)
 **Enterprise**: Ledger (76%), No telemetry (62%), Single binary (48%)
 
-### 5.4 Gap Analysis â€” Most Requested Missing Features
+### 5.4 Gap Analysis — Most Requested Missing Features
 
 | Requested Feature | % Requesting | Current Status | Priority |
 |------------------|-------------|----------------|----------|
@@ -194,7 +194,7 @@ Analysis of open-text survey responses (Q3: "most valuable feature") using thema
 
 ---
 
-## 6. Qualitative Insights â€” User Interview Summary
+## 6. Qualitative Insights — User Interview Summary
 
 ### 6.1 Interview Protocol
 
@@ -210,19 +210,19 @@ Semi-structured interviews (30 min) with 24 users across segments. Key questions
 **Theme 1: "The benchmark sold me" (n=18/24)**
 - The `kazkade bench` output is the highest-converting experience
 - Users compare with `pandas`/`numpy` benchmarks immediately
-- "I saw 5 GB/s and my jaw dropped" â€” Quant user
+- "I saw 5 GB/s and my jaw dropped" — Quant user
 
 **Theme 2: "SQL is the gatekeeper" (n=14/24)**
 - Non-SQL users feel excluded; Python bindings would double the addressable base
-- "I know Python, I don't know SQL. Now I have to learn both Kazkade and SQL" â€” Data scientist
+- "I know Python, I don't know SQL. Now I have to learn both Kazkade and SQL" — Data scientist
 
 **Theme 3: "The ledger is the killer feature nobody talks about" (n=11/24)**
 - Enterprise users discover `.aioss` late but find it transformative
-- "We replaced a $200K compliance tool with a `kazkade ledger verify` command" â€” Enterprise architect
+- "We replaced a $200K compliance tool with a `kazkade ledger verify` command" — Enterprise architect
 
 **Theme 4: "Format lock-in anxiety" (n=9/24)**
 - Users worry about being locked into `.acol` format
-- "I love the performance, but I need to know I can get my data out" â€” Platform engineer
+- "I love the performance, but I need to know I can get my data out" — Platform engineer
 
 ---
 
@@ -232,11 +232,11 @@ Semi-structured interviews (30 min) with 24 users across segments. Key questions
 
 | Segment | % Very Disappointed | Above 40%? |
 |---------|--------------------|------------|
-| Quant/Trading | 52% | âœ“ |
-| Enterprise (security-focused) | 41% | âœ“ |
-| DevOps/Platform | 38% | âœ— |
-| Individual Developer | 35% | âœ— |
-| Data Scientist | 28% | âœ— |
+| Quant/Trading | 52% | ? |
+| Enterprise (security-focused) | 41% | ? |
+| DevOps/Platform | 38% | ? |
+| Individual Developer | 35% | ? |
+| Data Scientist | 28% | ? |
 
 Two segments (Quants, Enterprise) have crossed the 40% PMF threshold. However, the overall score is pulled down by Data Scientists (28%) who lack Python bindings.
 
@@ -268,7 +268,7 @@ Kazkade is approaching product-market fit with a current Sean Ellis score of 38.
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -279,7 +279,7 @@ Kazkade is approaching product-market fit with a current Sean Ellis score of 38.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -302,3 +302,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

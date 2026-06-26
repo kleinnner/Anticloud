@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # CPU Offload Software
@@ -15,7 +15,7 @@
 
 Graphics processing has long been synonymous with GPU acceleration. But what if your use case doesn't justify a dedicated graphics card? What if you're running on a server, a headless machine, or embedded hardware with no GPU at all? Kazkade's **software rasterizer** provides a complete graphics pipeline that runs entirely on the CPU.
 
-> "A GPU is not a requirement. It is an optimization that many workloads simply do not need." — Kazkade Rasterizer Philosophy
+> "A GPU is not a requirement. It is an optimization that many workloads simply do not need." � Kazkade Rasterizer Philosophy
 
 ---
 
@@ -24,44 +24,44 @@ Graphics processing has long been synonymous with GPU acceleration. But what if 
 ### Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                    Kazkade Software Rasterizer                 │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  Scene Input                                                 │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Vertex data │ Index data │ Shader params │ Textures    │ │
-│  └───────────────────────────┬────────────────────────────┘ │
-│                              │                                │
-│  Vertex Pipeline (SIMD)                                      │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Transform    │ Lighting    │ Clipping    │ Culling      │ │
-│  │ (AVX-512)    │ (AVX-512)   │ (AVX-512)   │ (AVX-512)    │ │
-│  └───────────────────────────┬────────────────────────────┘ │
-│                              │                                │
-│  Primitive Assembly                                          │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Triangle setup │ Edge equations │ Barycentric coords    │ │
-│  └───────────────────────────┬────────────────────────────┘ │
-│                              │                                │
-│  Rasterization (SIMD)                                        │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Tile scan │ Pixel coverage │ Depth test │ Stencil test  │ │
-│  │ (AVX-512) │ (AVX-512)     │ (AVX-512)  │ (AVX-512)     │ │
-│  └───────────────────────────┬────────────────────────────┘ │
-│                              │                                │
-│  Fragment Pipeline (SIMD)                                    │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Texture    │ Blending    │ Fog / effects │ Output       │ │
-│  │ (AVX-512)  │ (AVX-512)   │ (AVX-512)    │ merger       │ │
-│  └───────────────────────────┬────────────────────────────┘ │
-│                              │                                │
-│  Output Frame Buffer                                         │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ RGBA8 | RGBA16F | R32F frame buffer                     │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+�                    Kazkade Software Rasterizer                 �
++--------------------------------------------------------------�
+�                                                              �
+�  Scene Input                                                 �
+�  +--------------------------------------------------------+ �
+�  � Vertex data � Index data � Shader params � Textures    � �
+�  +--------------------------------------------------------+ �
+�                              �                                �
+�  Vertex Pipeline (SIMD)                                      �
+�  +--------------------------------------------------------+ �
+�  � Transform    � Lighting    � Clipping    � Culling      � �
+�  � (AVX-512)    � (AVX-512)   � (AVX-512)   � (AVX-512)    � �
+�  +--------------------------------------------------------+ �
+�                              �                                �
+�  Primitive Assembly                                          �
+�  +--------------------------------------------------------+ �
+�  � Triangle setup � Edge equations � Barycentric coords    � �
+�  +--------------------------------------------------------+ �
+�                              �                                �
+�  Rasterization (SIMD)                                        �
+�  +--------------------------------------------------------+ �
+�  � Tile scan � Pixel coverage � Depth test � Stencil test  � �
+�  � (AVX-512) � (AVX-512)     � (AVX-512)  � (AVX-512)     � �
+�  +--------------------------------------------------------+ �
+�                              �                                �
+�  Fragment Pipeline (SIMD)                                    �
+�  +--------------------------------------------------------+ �
+�  � Texture    � Blending    � Fog / effects � Output       � �
+�  � (AVX-512)  � (AVX-512)   � (AVX-512)    � merger       � �
+�  +--------------------------------------------------------+ �
+�                              �                                �
+�  Output Frame Buffer                                         �
+�  +--------------------------------------------------------+ �
+�  � RGBA8 | RGBA16F | R32F frame buffer                     � �
+�  +--------------------------------------------------------+ �
+�                                                              �
++--------------------------------------------------------------+
 ```
 
 ### Performance Comparison
@@ -70,19 +70,19 @@ Graphics processing has long been synonymous with GPU acceleration. But what if 
 $ kazkade bench --raster --scene teapot --resolution 1920x1080
 
 Software Rasterizer Performance:
-┌─────────────────────────┬──────────┬──────────┬──────────┐
-│ Implementation          │ FPS      │ CPU Usage│ Memory   │
-├─────────────────────────┼──────────┼──────────┼──────────┤
-│ Kazkade AVX-512        │ 142      │ 65%      │ 128 MB   │
-│ Kazkade AVX2           │ 98       │ 72%      │ 128 MB   │
-│ Kazkade SSE4.2         │ 45       │ 85%      │ 128 MB   │
-│ Kazkade NEON (M1 Max)  │ 128      │ 60%      │ 128 MB   │
-│ Kazkade SVE (Graviton3)│ 112      │ 62%      │ 128 MB   │
-├─────────────────────────┼──────────┼──────────┼──────────┤
-│ OpenGL (integrated GPU) │ 85       │ 15% GPU  │ 256 MB   │
-│ Vulkan (integrated GPU) │ 92       │ 12% GPU  │ 256 MB   │
-│ OpenGL (discrete GPU)   │ 780      │ 5% GPU   │ 512 MB   │
-└─────────────────────────┴──────────┴──────────┴──────────┘
++----------------------------------------------------------+
+� Implementation          � FPS      � CPU Usage� Memory   �
++-------------------------+----------+----------+----------�
+� Kazkade AVX-512        � 142      � 65%      � 128 MB   �
+� Kazkade AVX2           � 98       � 72%      � 128 MB   �
+� Kazkade SSE4.2         � 45       � 85%      � 128 MB   �
+� Kazkade NEON (M1 Max)  � 128      � 60%      � 128 MB   �
+� Kazkade SVE (Graviton3)� 112      � 62%      � 128 MB   �
++-------------------------+----------+----------+----------�
+� OpenGL (integrated GPU) � 85       � 15% GPU  � 256 MB   �
+� Vulkan (integrated GPU) � 92       � 12% GPU  � 256 MB   �
+� OpenGL (discrete GPU)   � 780      � 5% GPU   � 512 MB   �
++----------------------------------------------------------+
 ```
 
 ---
@@ -158,16 +158,16 @@ fn edge_function_avx2(
 $ kazkade bench --raster --tile-size 32
 
 Tile Size Performance Impact:
-┌──────────┬──────────┬──────────┬──────────┐
-│ Tile Size│ FPS      │ L1 Misses│ BW (GB/s)│
-├──────────┼──────────┼──────────┼──────────┤
-│ 4×4      │ 52       │ 12.4%    │ 18.2     │
-│ 8×8      │ 78       │ 8.1%     │ 24.5     │
-│ 16×16    │ 112      │ 4.2%     │ 32.1     │
-│ 32×32    │ 142      │ 2.1%     │ 38.4     │
-│ 64×64    │ 138      │ 3.4%     │ 36.2     │
-│ 128×128  │ 124      │ 5.8%     │ 31.8     │
-└──────────┴──────────┴──────────┴──────────┘
++-------------------------------------------+
+� Tile Size� FPS      � L1 Misses� BW (GB/s)�
++----------+----------+----------+----------�
+� 4�4      � 52       � 12.4%    � 18.2     �
+� 8�8      � 78       � 8.1%     � 24.5     �
+� 16�16    � 112      � 4.2%     � 32.1     �
+� 32�32    � 142      � 2.1%     � 38.4     �
+� 64�64    � 138      � 3.4%     � 36.2     �
+� 128�128  � 124      � 5.8%     � 31.8     �
++-------------------------------------------+
 ```
 
 ---
@@ -176,25 +176,25 @@ Tile Size Performance Impact:
 
 | Feature | Kazkade SW Rasterizer | OpenGL (Integrated GPU) | Vulkan (Integrated GPU) |
 |---------|----------------------|------------------------|------------------------|
-| Triangle rasterization | ✓ Full | ✓ Full | ✓ Full |
-| Line/point rasterization | ✓ Full | ✓ Full | ✓ Full |
-| Depth testing | ✓ Full | ✓ Full | ✓ Full |
-| Stencil buffer | ✓ Full | ✓ Full | ✓ Full |
-| Scissor test | ✓ Full | ✓ Full | ✓ Full |
-| Alpha blending | ✓ Full | ✓ Full | ✓ Full |
-| Texture mapping | ✓ Bilinear/Trilinear | ✓ Full | ✓ Full |
-| Mipmapping | ✓ Full | ✓ Full | ✓ Full |
-| MSAA | ✓ 2x/4x/8x | ✓ 2x/4x/8x | ✓ 2x/4x/8x |
-| Programmable shaders | ✓ Rust functions | ✓ GLSL | ✓ SPIR-V |
-| Compute shaders | ✓ SIMD compute | ✓ Limited | ✓ Full |
-| Tessellation | ✓ Tessellation | ✓ Tessellation | ✓ Tessellation |
-| Geometry shaders | ✓ Emulated | ✓ Full | ✓ Full |
-| Transform feedback | ✓ Full | ✓ Full | ✓ Full |
-| Multi-viewport | ✓ Full | ✓ Full | ✓ Full |
-| Indirect drawing | ✓ Full | ✓ Full | ✓ Full |
-| **No GPU required** | **✓ Yes** | **✗ No** | **✗ No** |
-| **No driver install** | **✓ Yes** | **✗ No** | **✗ No** |
-| **Deterministic output** | **✓ Yes** | **✗ No** | **✗ No** |
+| Triangle rasterization | ? Full | ? Full | ? Full |
+| Line/point rasterization | ? Full | ? Full | ? Full |
+| Depth testing | ? Full | ? Full | ? Full |
+| Stencil buffer | ? Full | ? Full | ? Full |
+| Scissor test | ? Full | ? Full | ? Full |
+| Alpha blending | ? Full | ? Full | ? Full |
+| Texture mapping | ? Bilinear/Trilinear | ? Full | ? Full |
+| Mipmapping | ? Full | ? Full | ? Full |
+| MSAA | ? 2x/4x/8x | ? 2x/4x/8x | ? 2x/4x/8x |
+| Programmable shaders | ? Rust functions | ? GLSL | ? SPIR-V |
+| Compute shaders | ? SIMD compute | ? Limited | ? Full |
+| Tessellation | ? Tessellation | ? Tessellation | ? Tessellation |
+| Geometry shaders | ? Emulated | ? Full | ? Full |
+| Transform feedback | ? Full | ? Full | ? Full |
+| Multi-viewport | ? Full | ? Full | ? Full |
+| Indirect drawing | ? Full | ? Full | ? Full |
+| **No GPU required** | **? Yes** | **? No** | **? No** |
+| **No driver install** | **? Yes** | **? No** | **? No** |
+| **Deterministic output** | **? Yes** | **? No** | **? No** |
 
 ---
 
@@ -235,15 +235,15 @@ fn render_visualization(data: &[f32], width: u32, height: u32) -> Vec<u8> {
 $ kazkade bench --raster --scene line-chart --resolution 3840x2160
 
 Server-Side Chart Rendering (4K):
-┌──────────────────────────┬──────────┬──────────┐
-│ Implementation           │ Time (ms)│ FPS      │
-├──────────────────────────┼──────────┼──────────┤
-│ Kazkade SW (AVX-512)     │ 4.2      │ 238      │
-│ Kazkade SW (AVX2)        │ 6.8      │ 147      │
-│ Cairo (CPU)              │ 28.4     │ 35       │
-│ Skia (CPU)               │ 15.2     │ 66       │
-│ OpenGL (Intel UHD)       │ 8.9      │ 112      │
-└──────────────────────────┴──────────┴──────────┘
++------------------------------------------------+
+� Implementation           � Time (ms)� FPS      �
++--------------------------+----------+----------�
+� Kazkade SW (AVX-512)     � 4.2      � 238      �
+� Kazkade SW (AVX2)        � 6.8      � 147      �
+� Cairo (CPU)              � 28.4     � 35       �
+� Skia (CPU)               � 15.2     � 66       �
+� OpenGL (Intel UHD)       � 8.9      � 112      �
++------------------------------------------------+
 ```
 
 ### Offline Rendering
@@ -252,12 +252,12 @@ Server-Side Chart Rendering (4K):
 $ kazkade bench --raster --scene complex-mesh --frames 1000
 
 Offline Rendering (1000 frames, 1920x1080):
-┌──────────────────────┬──────────────┬────────────┐
-│ Implementation       │ Total Time   │ Per Frame  │
-├──────────────────────┼──────────────┼────────────┤
-│ Kazkade SW (AVX-512) │ 7.2 seconds  │ 7.2 ms     │
-│ Blender Cycles (CPU) │ 3.4 minutes  │ 204 ms     │
-└──────────────────────┴──────────────┴────────────┘
++--------------------------------------------------+
+� Implementation       � Total Time   � Per Frame  �
++----------------------+--------------+------------�
+� Kazkade SW (AVX-512) � 7.2 seconds  � 7.2 ms     �
+� Blender Cycles (CPU) � 3.4 minutes  � 204 ms     �
++--------------------------------------------------+
 ```
 
 ---
@@ -268,16 +268,16 @@ Kazkade's software rasterizer eliminates the most common GPU-related problems:
 
 | Problem | GPU Required | Kazkade SW |
 |---------|-------------|------------|
-| Driver crashes | Common | ✗ No driver |
-| Driver installation | Complex | ✗ Not needed |
-| Version conflicts | Frequent | ✗ None |
-| Security vulnerabilities | Regular CVEs | ✗ Smaller surface |
-| Memory leaks | Driver bugs | ✗ Pure Rust |
-| System-specific bugs | Vendor-dependent | ✗ Cross-platform |
-| GPU reset required | On hang | ✗ Not applicable |
-| Headless compatibility | Limited | ✓ Native |
-| Container compatibility | Complex | ✓ Native (Docker) |
-| CI/CD compatibility | Rarely works | ✓ Always works |
+| Driver crashes | Common | ? No driver |
+| Driver installation | Complex | ? Not needed |
+| Version conflicts | Frequent | ? None |
+| Security vulnerabilities | Regular CVEs | ? Smaller surface |
+| Memory leaks | Driver bugs | ? Pure Rust |
+| System-specific bugs | Vendor-dependent | ? Cross-platform |
+| GPU reset required | On hang | ? Not applicable |
+| Headless compatibility | Limited | ? Native |
+| Container compatibility | Complex | ? Native (Docker) |
+| CI/CD compatibility | Rarely works | ? Always works |
 
 ---
 
@@ -294,11 +294,11 @@ Kazkade's software rasterizer produces **bit-identical output** on every run:
 ```bash
 $ kazkade bench --raster --scene teapot --frames 10 --deterministic
 
-Frame 1: hash = a1b2c3d4... ✓ Match
-Frame 2: hash = a1b2c3d4... ✓ Match
-Frame 3: hash = a1b2c3d4... ✓ Match
+Frame 1: hash = a1b2c3d4... ? Match
+Frame 2: hash = a1b2c3d4... ? Match
+Frame 3: hash = a1b2c3d4... ? Match
 ...
-Frame 10: hash = a1b2c3d4... ✓ Match
+Frame 10: hash = a1b2c3d4... ? Match
 All frames: 100% deterministic
 ```
 
@@ -319,10 +319,10 @@ All frames: 100% deterministic
 
 ## Related Documentation
 
-- [Software-Defined Compute](./software-defined-compute.md) — SIMD philosophy
-- [No GPU Required](./no-gpu-required.md) — CPU MLP inference
-- [Existing Hardware Optimization](./existing-hardware-optimization.md) — Legacy hardware
-- [Performance Per Watt](./performance-per-watt.md) — Efficiency analysis
+- [Software-Defined Compute](./software-defined-compute.md) � SIMD philosophy
+- [No GPU Required](./no-gpu-required.md) � CPU MLP inference
+- [Existing Hardware Optimization](./existing-hardware-optimization.md) � Legacy hardware
+- [Performance Per Watt](./performance-per-watt.md) � Efficiency analysis
 
 ---
 
@@ -347,7 +347,7 @@ kazkade bench --raster --compare-gpu
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -358,7 +358,7 @@ kazkade bench --raster --compare-gpu
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -381,3 +381,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

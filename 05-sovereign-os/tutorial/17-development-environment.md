@@ -1,4 +1,4 @@
-﻿# Development Environment
+# Development Environment
 
 This guide covers setting up a complete development environment on 01s Sovereign for working with the custom toolchain and general software development.
 
@@ -236,14 +236,14 @@ Recommended project structure:
 
 ```
 my-project/
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ main.01s
-â”‚   â””â”€â”€ lib.01s
-â”œâ”€â”€ tests/
-â”‚   â””â”€â”€ test_main.01s
-â”œâ”€â”€ Makefile
-â”œâ”€â”€ README.md
-â””â”€â”€ .gitignore
+├── src/
+│   ├── main.01s
+│   └── lib.01s
+├── tests/
+│   └── test_main.01s
+├── Makefile
+├── README.md
+└── .gitignore
 ```
 
 ### Example Makefile
@@ -477,16 +477,16 @@ Once you've completed this guide, move to the next tutorial, practice on a test 
 
 ## Further Reading
 
-- [Writing Your First Program](13-writing-your-first-program.md) â€” Getting started
-- [Custom Toolchain](12-using-the-custom-toolchain.md) â€” Toolchain usage
-- [Advanced Toolchain](20-advanced-toolchain-usage.md) â€” Advanced tools
-- [Source Repository Structure](../developers/02-source-code-repository-structure.md) â€” Code layout
-- [Building from Source](../developers/03-building-from-source.md) â€” Build process
-- [Testing Framework](../developers/12-testing-framework.md) â€” Testing tools
-- [Debugging and Profiling](../developers/17-debugging-and-profiling.md) â€” Debug tools
-- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) â€” Automation
-- [Development FAQ](../faq/12-development-faq.md) â€” Common questions
-- [Contributing Code](../developers/11-contributing-code.md) â€” Code contributions
+- [Writing Your First Program](13-writing-your-first-program.md) — Getting started
+- [Custom Toolchain](12-using-the-custom-toolchain.md) — Toolchain usage
+- [Advanced Toolchain](20-advanced-toolchain-usage.md) — Advanced tools
+- [Source Repository Structure](../developers/02-source-code-repository-structure.md) — Code layout
+- [Building from Source](../developers/03-building-from-source.md) — Build process
+- [Testing Framework](../developers/12-testing-framework.md) — Testing tools
+- [Debugging and Profiling](../developers/17-debugging-and-profiling.md) — Debug tools
+- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) — Automation
+- [Development FAQ](../faq/12-development-faq.md) — Common questions
+- [Contributing Code](../developers/11-contributing-code.md) — Code contributions
 
 ## Multi-Language Setup
 
@@ -705,7 +705,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -728,3 +728,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

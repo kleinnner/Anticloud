@@ -1,79 +1,79 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Community Code Review
 
 ## Peer Review as a Security Mechanism
 
-Code review is not just a quality practice — it is a security control. Kazkade's review process ensures that every change is examined by multiple qualified reviewers before it enters the codebase. All review decisions are recorded in the `.aioss` ledger for accountability.
+Code review is not just a quality practice � it is a security control. Kazkade's review process ensures that every change is examined by multiple qualified reviewers before it enters the codebase. All review decisions are recorded in the `.aioss` ledger for accountability.
 
-> "Code review is where trust is built. Every line should be seen by at least two pairs of eyes." — Kazkade Review Philosophy
+> "Code review is where trust is built. Every line should be seen by at least two pairs of eyes." � Kazkade Review Philosophy
 
 ---
 
 ## Review Workflow
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                    Kazkade Review Process                     │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  Stage 1: Submission                                         │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │ PR Created → Draft → Ready for Review                 │    │
-│  │                                                       │    │
-│  │ Requirements:                                         │    │
-│  │ • Descriptive title + description                     │    │
-│  │ • Link to issue (if applicable)                       │    │
-│  │ • Tests included                                      │    │
-│  │ • Documentation updated                               │    │
-│  │ • No failing tests                                    │    │
-│  │ • Signed commit                                       │    │
-│  └──────────────────────────────────────────────────────┘    │
-│                                                              │
-│  Stage 2: Automated Checks                                   │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │ Required (must pass):                                  │    │
-│  │ ✓ CI build succeeds                                   │    │
-│  │ ✓ All tests pass                                      │    │
-│  │ ✓ Lint passes (clippy --deny)                        │    │
-│  │ ✓ Formatting (rustfmt)                                │    │
-│  │ ✓ No CVE vulnerabilities                             │    │
-│  │ ✓ No binary blobs                                     │    │
-│  │ ✓ SBOM updated (if deps changed)                     │    │
-│  │                                                       │    │
-│  │ Optional (recommended):                               │    │
-│  │ ○ Fuzz testing (for parsers)                          │    │
-│  │ ○ Performance regression check                        │    │
-│  └──────────────────────────────────────────────────────┘    │
-│                                                              │
-│  Stage 3: Human Review                                       │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │ Required reviewers per change category:               │    │
-│  │                                                       │    │
-│  │ Minor (docs, comments, formatting): 1 reviewer        │    │
-│  │ Moderate (bug fixes, tests): 2 reviewers              │    │
-│  │ Major (features, refactors): 2 reviewers + lead       │    │
-│  │ Security (crypto, auth, memory): 3 reviewers + lead   │    │
-│  └──────────────────────────────────────────────────────┘    │
-│                                                              │
-│  Stage 4: Approval                                           │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │ All reviewers must approve                            │    │
-│  │ All comments must be resolved                         │    │
-│  │ Review approval signed in .aioss ledger              │    │
-│  │ Merge performed by maintainer                        │    │
-│  └──────────────────────────────────────────────────────┘    │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+�                    Kazkade Review Process                     �
++--------------------------------------------------------------�
+�                                                              �
+�  Stage 1: Submission                                         �
+�  +------------------------------------------------------+    �
+�  � PR Created ? Draft ? Ready for Review                 �    �
+�  �                                                       �    �
+�  � Requirements:                                         �    �
+�  � � Descriptive title + description                     �    �
+�  � � Link to issue (if applicable)                       �    �
+�  � � Tests included                                      �    �
+�  � � Documentation updated                               �    �
+�  � � No failing tests                                    �    �
+�  � � Signed commit                                       �    �
+�  +------------------------------------------------------+    �
+�                                                              �
+�  Stage 2: Automated Checks                                   �
+�  +------------------------------------------------------+    �
+�  � Required (must pass):                                  �    �
+�  � ? CI build succeeds                                   �    �
+�  � ? All tests pass                                      �    �
+�  � ? Lint passes (clippy --deny)                        �    �
+�  � ? Formatting (rustfmt)                                �    �
+�  � ? No CVE vulnerabilities                             �    �
+�  � ? No binary blobs                                     �    �
+�  � ? SBOM updated (if deps changed)                     �    �
+�  �                                                       �    �
+�  � Optional (recommended):                               �    �
+�  � ? Fuzz testing (for parsers)                          �    �
+�  � ? Performance regression check                        �    �
+�  +------------------------------------------------------+    �
+�                                                              �
+�  Stage 3: Human Review                                       �
+�  +------------------------------------------------------+    �
+�  � Required reviewers per change category:               �    �
+�  �                                                       �    �
+�  � Minor (docs, comments, formatting): 1 reviewer        �    �
+�  � Moderate (bug fixes, tests): 2 reviewers              �    �
+�  � Major (features, refactors): 2 reviewers + lead       �    �
+�  � Security (crypto, auth, memory): 3 reviewers + lead   �    �
+�  +------------------------------------------------------+    �
+�                                                              �
+�  Stage 4: Approval                                           �
+�  +------------------------------------------------------+    �
+�  � All reviewers must approve                            �    �
+�  � All comments must be resolved                         �    �
+�  � Review approval signed in .aioss ledger              �    �
+�  � Merge performed by maintainer                        �    �
+�  +------------------------------------------------------+    �
+�                                                              �
++--------------------------------------------------------------+
 ```
 
 ---
@@ -116,9 +116,9 @@ $ kazkade review --request --reviewers @lois-kleinner,@security-team
 # Auto-assign based on code ownership
 $ kazkade review --auto-assign
 Auto-assign results:
-  kazcade-core/src/runtime/mmap.rs → @lois-kleinner (owner)
-  kazcade-core/src/crypto/sha3_256.rs → @security-team (owner)
-  kazcade-cli/src/commands/bench.rs → @bench-maintainer (owner)
+  kazcade-core/src/runtime/mmap.rs ? @lois-kleinner (owner)
+  kazcade-core/src/crypto/sha3_256.rs ? @security-team (owner)
+  kazcade-cli/src/commands/bench.rs ? @bench-maintainer (owner)
 ```
 
 ### CODEOWNERS
@@ -209,10 +209,10 @@ Required reviewers:
   3. @lois-kleinner (automatically assigned)
 
 Automated checks:
-  ✓ Static analysis (security ruleset): PASS
-  ✓ Fuzz testing (1h): PASS (0 crashes)
-  ✓ Memory safety: PASS (3 unsafe blocks audited)
-  ✓ Constant-time verification: PASS
+  ? Static analysis (security ruleset): PASS
+  ? Fuzz testing (1h): PASS (0 crashes)
+  ? Memory safety: PASS (3 unsafe blocks audited)
+  ? Constant-time verification: PASS
 
 Security Review Checklist:
   [ ] Is the cryptographic implementation correct?
@@ -278,12 +278,12 @@ $ kazkade ledger query --label "review:pr-892"
 $ kazkade verify --review --pr 892
 
 Review PR #892:
-  Author: contributor@example.com ✓ Valid
-  Approvals: 3 ✓ All signed
-  Reviewers: 3 ✓ All authorized
-  Security review: ✓ Completed
-  Merge commit: ✓ In history
-  Ledger entry: ✓ Unchanged
+  Author: contributor@example.com ? Valid
+  Approvals: 3 ? All signed
+  Reviewers: 3 ? All authorized
+  Security review: ? Completed
+  Merge commit: ? In history
+  Ledger entry: ? Unchanged
   Review is authentic and complete
 ```
 
@@ -303,28 +303,28 @@ Rejected PRs: 24 (1.9%)
 Stale PRs: 12 (1.0%)
 
 Review Statistics:
-┌────────────────────────────┬──────────┐
-│ Metric                     │ Value    │
-├────────────────────────────┼──────────┤
-│ Mean time to first review  │ 4.2 hours│
-│ Mean time to merge         │ 2.3 days │
-│ Mean reviewers per PR      │ 2.4      │
-│ Mean review comments per PR│ 5.8      │
-│ Review coverage            │ 100%     │
-│ Security reviews triggered │ 48       │
-│ Unsafe blocks audited      │ 127      │
-└────────────────────────────┴──────────┘
++---------------------------------------+
+� Metric                     � Value    �
++----------------------------+----------�
+� Mean time to first review  � 4.2 hours�
+� Mean time to merge         � 2.3 days �
+� Mean reviewers per PR      � 2.4      �
+� Mean review comments per PR� 5.8      �
+� Review coverage            � 100%     �
+� Security reviews triggered � 48       �
+� Unsafe blocks audited      � 127      �
++---------------------------------------+
 
 Reviewers by Activity (last 90 days):
-┌──────────────────────┬──────────┬──────────┐
-│ Reviewer             │ Reviews  │ Avg Time │
-├──────────────────────┼──────────┼──────────┤
-│ Lois Kleinner        │ 234      │ 2.1h     │
-│ Security Team Bot    │ 198      │ 0.1h     │
-│ Community Reviewer 1 │ 89       │ 6.2h     │
-│ Community Reviewer 2 │ 67       │ 8.4h     │
-│ Community Reviewer 3 │ 45       │ 12.1h    │
-└──────────────────────┴──────────┴──────────┘
++--------------------------------------------+
+� Reviewer             � Reviews  � Avg Time �
++----------------------+----------+----------�
+� Lois Kleinner        � 234      � 2.1h     �
+� Security Team Bot    � 198      � 0.1h     �
+� Community Reviewer 1 � 89       � 6.2h     �
+� Community Reviewer 2 � 67       � 8.4h     �
+� Community Reviewer 3 � 45       � 12.1h    �
++--------------------------------------------+
 ```
 
 ---
@@ -349,7 +349,7 @@ Reviewers by Activity (last 90 days):
 $ kazkade review --nominate @community-member
 
 Reviewer Nomination: @community-member
-─────────────────────────────────────
+-------------------------------------
 Merged PRs: 34
 Reviews given: 56
 Areas of expertise: SIMD, compression
@@ -357,10 +357,10 @@ Nominated by: @lois-kleinner
 Status: Under consideration (voting period: 7 days)
 
 Current votes:
-  @lois-kleinner: ✓ Approve
-  @maintainer-2:  ✓ Approve
-  @maintainer-3:  ✓ Approve
-  @maintainer-4:  ✓ Approve
+  @lois-kleinner: ? Approve
+  @maintainer-2:  ? Approve
+  @maintainer-3:  ? Approve
+  @maintainer-4:  ? Approve
   4/4 maintainers approved
 
 Result: Approved! @community-member is now a reviewer.
@@ -451,21 +451,21 @@ Kazkade provides AI-assisted review tools:
 $ kazkade review --suggest --pr 892
 
 Review Suggestions for PR #892:
-─────────────────────────────────
+---------------------------------
 1. kazcade-core/src/crypto/ed25519.rs:142
-   ⚠ Potential timing side-channel in comparison
+   ? Potential timing side-channel in comparison
    Suggestion: Use constant-time comparison function `ct_eq()`
 
 2. kazcade-simd/src/avx512/ed25519.rs:89
-   ⚠ Unsafe block without safety comment
+   ? Unsafe block without safety comment
    Suggestion: Add // SAFETY: explanation
 
 3. kazcade-core/src/crypto/ed25519.rs:204
-   ℹ Test coverage could be improved
+   ? Test coverage could be improved
    Suggestion: Add test for zero-length input
 
 4. kazcade-core/src/crypto/ed25519.rs:312
-   ℹ No benchmark for AVX-512 path
+   ? No benchmark for AVX-512 path
    Suggestion: Add benchmark in kazcade-bench
 ```
 
@@ -496,9 +496,9 @@ Security reviews: 127 triggered, 127 completed
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Source availability
-- [Auditability](./auditability.md) — Third-party audit process
-- [Open Core Model](./open-core-model.md) — Community involvement
+- [Source Code Transparency](./source-code-transparency.md) � Source availability
+- [Auditability](./auditability.md) � Third-party audit process
+- [Open Core Model](./open-core-model.md) � Community involvement
 
 ---
 
@@ -531,7 +531,7 @@ kazkade dashboard --reviews
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -542,7 +542,7 @@ kazkade dashboard --reviews
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -565,3 +565,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

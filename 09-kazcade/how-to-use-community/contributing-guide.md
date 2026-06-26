@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Contributing Guide
@@ -33,29 +33,29 @@ cargo clippy --all-targets -- -D warnings
 ## Contribution Workflow
 
 ```
-┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
-│ Fork     │───>│ Branch   │───>│ Commit   │───>│ Push     │
-│ repo     │    │ feature/ │    │ signed   │    │ to fork  │
-└──────────┘    └──────────┘    └──────────┘    └──────────┘
-                                          │
-                                          ▼
-                                 ┌──────────────────┐
-                                 │ Open Pull Request│
-                                 │ (Draft → Review) │
-                                 └────────┬─────────┘
-                                          │
-                                          ▼
-                                 ┌──────────────────┐
-                                 │ CI Checks Pass   │
-                                 │ Clippy, Tests,   │
-                                 │ Bench, Audit     │
-                                 └────────┬─────────┘
-                                          │
-                                          ▼
-                                 ┌──────────────────┐
-                                 │ Maintainer       │
-                                 │ Review & Merge   │
-                                 └──────────────────┘
++----------+    +----------+    +----------+    +----------+
+� Fork     �--->� Branch   �--->� Commit   �--->� Push     �
+� repo     �    � feature/ �    � signed   �    � to fork  �
++----------+    +----------+    +----------+    +----------+
+                                          �
+                                          ?
+                                 +------------------+
+                                 � Open Pull Request�
+                                 � (Draft ? Review) �
+                                 +------------------+
+                                          �
+                                          ?
+                                 +------------------+
+                                 � CI Checks Pass   �
+                                 � Clippy, Tests,   �
+                                 � Bench, Audit     �
+                                 +------------------+
+                                          �
+                                          ?
+                                 +------------------+
+                                 � Maintainer       �
+                                 � Review & Merge   �
+                                 +------------------+
 ```
 
 ## PR Workflow
@@ -68,11 +68,11 @@ git checkout -b feature/my-feature
 
 Branch naming:
 
-- `feature/` — New features
-- `fix/` — Bug fixes
-- `docs/` — Documentation
-- `bench/` — Benchmark contributions
-- `perf/` — Performance improvements
+- `feature/` � New features
+- `fix/` � Bug fixes
+- `docs/` � Documentation
+- `bench/` � Benchmark contributions
+- `perf/` � Performance improvements
 
 ### 2. Development
 
@@ -217,12 +217,12 @@ The CLA is stored in the `.aioss` ledger and can be verified by anyone.
 
 Reviewers check:
 
-- [ ] Correctness — does the code do what it claims?
-- [ ] Safety — no unsafe code without justification
-- [ ] Performance — no obvious regressions
-- [ ] Testing — adequate coverage
-- [ ] Documentation — API docs and usage examples
-- [ ] Style — matches existing codebase conventions
+- [ ] Correctness � does the code do what it claims?
+- [ ] Safety � no unsafe code without justification
+- [ ] Performance � no obvious regressions
+- [ ] Testing � adequate coverage
+- [ ] Documentation � API docs and usage examples
+- [ ] Style � matches existing codebase conventions
 
 ## Development Environment
 
@@ -313,13 +313,13 @@ Include in PR description:
 
 Contributors are recognized in:
 
-- `CONTRIBUTORS.md` — All contributors
-- Release notes — Major contributors called out
-- Dashboard — Contributor badge on leaderboard
+- `CONTRIBUTORS.md` � All contributors
+- Release notes � Major contributors called out
+- Dashboard � Contributor badge on leaderboard
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -330,7 +330,7 @@ Contributors are recognized in:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -353,3 +353,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

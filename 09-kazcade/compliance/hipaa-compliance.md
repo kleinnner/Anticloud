@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # HIPAA Compliance
@@ -14,7 +14,7 @@
 **Document ID:** KAZ-COMP-HIPAA-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** PHI â€” Sensitive  
+**Classification:** PHI — Sensitive  
 
 ---
 
@@ -22,9 +22,9 @@
 
 1. Overview
 2. HIPAA Rules
-3. Security Rule â€” Administrative Safeguards
-4. Security Rule â€” Physical Safeguards
-5. Security Rule â€” Technical Safeguards
+3. Security Rule — Administrative Safeguards
+4. Security Rule — Physical Safeguards
+5. Security Rule — Technical Safeguards
 6. Privacy Rule
 7. Breach Notification Rule
 8. Enforcement Rule
@@ -45,7 +45,7 @@
 
 ## 1. Overview
 
-The Health Insurance Portability and Accountability Act (HIPAA) of 1996 sets national standards for protecting sensitive patient health information from being disclosed without the patient's consent or knowledge. The HIPAA Security Rule (45 CFR Â§ 164.300â€“318) specifies administrative, physical, and technical safeguards for electronic Protected Health Information (ePHI).
+The Health Insurance Portability and Accountability Act (HIPAA) of 1996 sets national standards for protecting sensitive patient health information from being disclosed without the patient's consent or knowledge. The HIPAA Security Rule (45 CFR § 164.300–318) specifies administrative, physical, and technical safeguards for electronic Protected Health Information (ePHI).
 
 Kazkade's local-first, zero-copy compute runtime provides strong technical safeguards for ePHI. The `.aioss` tamper-proof ledger provides immutable audit trails, while `.acol` columnar storage with AES-256-GCM encryption ensures granular PHI protection. The deterministic SIMD execution and SQL query engine enable fine-grained access control without compromising processing integrity.
 
@@ -117,9 +117,9 @@ kazkade compliance apply \
 
 ---
 
-## 3. Security Rule â€” Administrative Safeguards
+## 3. Security Rule — Administrative Safeguards
 
-### 3.1 Â§164.308(a)(1) â€” Security Management Process
+### 3.1 §164.308(a)(1) — Security Management Process
 
 ```mermaid
 flowchart LR
@@ -151,7 +151,7 @@ kazkade ledger append \
   --residual-risk low
 ```
 
-### 3.2 Â§164.308(a)(2) â€” Assigned Security Responsibility
+### 3.2 §164.308(a)(2) — Assigned Security Responsibility
 
 ```bash
 # Assign security officer
@@ -166,7 +166,7 @@ kazkade auth role create --name hipaa_officer --permissions "ledger.readwrite,ac
 kazkade auth user assign --user security_dr --role hipaa_officer
 ```
 
-### 3.3 Â§164.308(a)(3) â€” Workforce Security
+### 3.3 §164.308(a)(3) — Workforce Security
 
 ```bash
 # Implement workforce clearance
@@ -181,7 +181,7 @@ kazkade ledger append \
   --authorization-basis "Need to know for patient care"
 ```
 
-### 3.4 Â§164.308(a)(4) â€” Information Access Management
+### 3.4 §164.308(a)(4) — Information Access Management
 
 ```sql
 -- Query access authorizations
@@ -192,7 +192,7 @@ WHERE status = 'active'
 ORDER BY user_id;
 ```
 
-### 3.5 Â§164.308(a)(5) â€” Security Awareness and Training
+### 3.5 §164.308(a)(5) — Security Awareness and Training
 
 ```bash
 # Record security training
@@ -204,7 +204,7 @@ kazkade ledger append \
   --score 98
 ```
 
-### 3.6 Â§164.308(a)(6) â€” Security Incident Procedures
+### 3.6 §164.308(a)(6) — Security Incident Procedures
 
 ```bash
 # Define incident response procedure
@@ -215,7 +215,7 @@ kazkade ledger append \
   --steps "1. Contain, 2. Assess, 3. Notify, 4. Document, 5. Remediate"
 ```
 
-### 3.7 Â§164.308(a)(7) â€” Contingency Plan
+### 3.7 §164.308(a)(7) — Contingency Plan
 
 ```bash
 # Create contingency plan
@@ -227,7 +227,7 @@ kazkade ledger append \
   --backup-strategy ".acol snapshots every 15 minutes"
 ```
 
-### 3.8 Â§164.308(a)(8) â€” Evaluation
+### 3.8 §164.308(a)(8) — Evaluation
 
 ```bash
 # Periodic evaluation
@@ -239,9 +239,9 @@ kazkade monitor controls \
 
 ---
 
-## 4. Security Rule â€” Physical Safeguards
+## 4. Security Rule — Physical Safeguards
 
-### 4.1 Â§164.310(a)(1) â€” Facility Access Controls
+### 4.1 §164.310(a)(1) — Facility Access Controls
 
 While facility-level controls are organizational, Kazkade provides data-centric physical safeguards:
 
@@ -250,7 +250,7 @@ While facility-level controls are organizational, Kazkade provides data-centric 
 kazkade acol encrypt --location-specific --binding workstation-id
 ```
 
-### 4.2 Â§164.310(b) â€” Workstation Use
+### 4.2 §164.310(b) — Workstation Use
 
 ```bash
 # Define workstation policies
@@ -258,7 +258,7 @@ kazkade config set --section hipaa --key workstation_policy --value "authorized_
 kazkade config set --section hipaa --key auto_lock_seconds --value 300
 ```
 
-### 4.3 Â§164.310(c) â€” Workstation Security
+### 4.3 §164.310(c) — Workstation Security
 
 ```bash
 # Enable automatic screen lock
@@ -266,7 +266,7 @@ kazkade config set --section security --key screen_lock --value true
 kazkade config set --section security --key screen_lock_timeout --value 300
 ```
 
-### 4.4 Â§164.310(d)(1) â€” Device and Media Controls
+### 4.4 §164.310(d)(1) — Device and Media Controls
 
 ```bash
 # Track media disposal
@@ -280,9 +280,9 @@ kazkade ledger append \
 
 ---
 
-## 5. Security Rule â€” Technical Safeguards
+## 5. Security Rule — Technical Safeguards
 
-### 5.1 Â§164.312(a)(1) â€” Access Control
+### 5.1 §164.312(a)(1) — Access Control
 
 Access control is implemented at multiple levels in Kazkade:
 
@@ -311,7 +311,7 @@ flowchart TB
     Enforcement --> AIOSS[".aioss Audit Log"]
 ```
 
-#### 5.1.1 Unique User Identification (Â§164.312(a)(2)(i))
+#### 5.1.1 Unique User Identification (§164.312(a)(2)(i))
 
 ```bash
 # Create unique user
@@ -325,7 +325,7 @@ kazkade auth user create \
 kazkade auth user list --format json | ForEach-Object { $_.username }
 ```
 
-#### 5.1.2 Emergency Access Procedure (Â§164.312(a)(2)(ii))
+#### 5.1.2 Emergency Access Procedure (§164.312(a)(2)(ii))
 
 ```bash
 # Configure emergency access
@@ -341,7 +341,7 @@ kazkade ledger append \
   --auto-expire 3600
 ```
 
-#### 5.1.3 Automatic Logoff (Â§164.312(a)(2)(iii))
+#### 5.1.3 Automatic Logoff (§164.312(a)(2)(iii))
 
 ```bash
 # Configure automatic logoff
@@ -349,7 +349,7 @@ kazkade config set --section session --key inactivity_timeout --value 600
 kazkade config set --section session --key force_logout --value true
 ```
 
-#### 5.1.4 Encryption and Decryption (Â§164.312(a)(2)(iv))
+#### 5.1.4 Encryption and Decryption (§164.312(a)(2)(iv))
 
 ```bash
 # Encrypt ePHI columns
@@ -366,21 +366,21 @@ kazkade acol encrypt \
   --key-id hipaa-key-phi-002
 ```
 
-### 5.2 Â§164.312(b) â€” Audit Controls
+### 5.2 §164.312(b) — Audit Controls
 
 See Section 14 for detailed implementation.
 
-### 5.3 Â§164.312(c)(1) â€” Integrity Controls
+### 5.3 §164.312(c)(1) — Integrity Controls
 
-### 5.4 Â§164.312(d) â€” Person or Entity Authentication
+### 5.4 §164.312(d) — Person or Entity Authentication
 
-### 5.5 Â§164.312(e)(1) â€” Transmission Security
+### 5.5 §164.312(e)(1) — Transmission Security
 
 ---
 
 ## 6. Privacy Rule
 
-### 6.1 Â§164.502 â€” Uses and Disclosures of PHI
+### 6.1 §164.502 — Uses and Disclosures of PHI
 
 ```bash
 # Record permitted use
@@ -392,7 +392,7 @@ kazkade ledger append \
   --minimum-necessary true
 ```
 
-### 6.2 Â§164.506 â€” Treatment, Payment, Operations
+### 6.2 §164.506 — Treatment, Payment, Operations
 
 ```bash
 # Define TPO purposes
@@ -402,7 +402,7 @@ kazkade config set --section hipaa --key tpo_purposes --value "treatment,payment
 kazkade ledger query "SELECT * FROM hipaa.phi.use WHERE purpose IN ('treatment', 'payment', 'operations')"
 ```
 
-### 6.3 Â§164.508 â€” Authorization Required
+### 6.3 §164.508 — Authorization Required
 
 ```bash
 # Record patient authorization
@@ -415,7 +415,7 @@ kazkade ledger append \
   --witness "admin_staff"
 ```
 
-### 6.4 Â§164.514 â€” Minimum Necessary
+### 6.4 §164.514 — Minimum Necessary
 
 ```sql
 -- Enforce minimum necessary through column selection
@@ -428,7 +428,7 @@ WHERE attending_physician = 'dr_smith';
 
 ## 7. Breach Notification Rule
 
-### 7.1 Â§164.400â€“414 â€” Breach Notification
+### 7.1 §164.400–414 — Breach Notification
 
 ```mermaid
 sequenceDiagram
@@ -970,16 +970,16 @@ kazkade ledger append \
 
 ## References
 
-- 45 CFR Â§ 164.300â€“318 â€” HIPAA Security Rule
-- 45 CFR Â§ 164.500â€“534 â€” HIPAA Privacy Rule
-- 45 CFR Â§ 164.400â€“414 â€” HIPAA Breach Notification Rule
-- NIST SP 800-66 Rev. 2 â€” Implementing the HIPAA Security Rule
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- 45 CFR § 164.300–318 — HIPAA Security Rule
+- 45 CFR § 164.500–534 — HIPAA Privacy Rule
+- 45 CFR § 164.400–414 — HIPAA Breach Notification Rule
+- NIST SP 800-66 Rev. 2 — Implementing the HIPAA Security Rule
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -990,7 +990,7 @@ kazkade ledger append \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -1013,3 +1013,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

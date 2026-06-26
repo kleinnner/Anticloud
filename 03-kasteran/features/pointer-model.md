@@ -1,19 +1,19 @@
-ï»¿<!--
-KASTERAN* â€” The Last Programming Language
-Â© Lois-Kleinner & 0-1.gg 2026. All rights reserved.
+<!--
+KASTERAN* — The Last Programming Language
+© Lois-Kleinner & 0-1.gg 2026. All rights reserved.
 
- â–„â–„   â–„â–„â–„                                           â–„     
- â–ˆâ–ˆ  â–ˆâ–ˆâ–€                         â–ˆâ–ˆ              â–„â–„ â–ˆ â–„â–„  
- â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–„â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   
- â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„ â–€    â–ˆâ–ˆ      â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€       â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€   â–ˆâ–ˆ  â–€â–€ â–ˆ â–€â–€  
- â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ   â–€â–€â–€â–€â–ˆâ–ˆâ–„    â–ˆâ–ˆ      â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ     â–€     
- â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–ˆâ–„â–„â–„â–„â–„â–ˆâ–ˆ    â–ˆâ–ˆâ–„â–„â–„   â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ           
- â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€   â–€â–€â–€â–€â–€â–€      â–€â–€â–€â–€     â–€â–€â–€â–€â–€    â–€â–€        â–€â–€â–€â–€ â–€â–€  â–€â–€    â–€â–€           
+ __   ___                                           _     
+ ¦¦  ¦¦¯                         ¦¦              __ ¦ __  
+ ¦¦_¦¦      _¦¦¦¦¦_  __¦¦¦¦¦_  ¦¦¦¦¦¦¦    _¦¦¦¦_    ¦¦_¦¦¦¦   _¦¦¦¦¦_  ¦¦_¦¦¦¦_   ¦¦¦¦¦   
+ ¦¦¦¦¦      ¯ ___¦¦  ¦¦____ ¯    ¦¦      ¦¦____¦¦   ¦¦¯       ¯ ___¦¦  ¦¦¯   ¦¦  ¯¯ ¦ ¯¯  
+ ¦¦  ¦¦_   _¦¦¯¯¯¦¦   ¯¯¯¯¦¦_    ¦¦      ¦¦¯¯¯¯¯¯   ¦¦       _¦¦¯¯¯¦¦  ¦¦    ¦¦     ¯     
+ ¦¦   ¦¦_  ¦¦___¦¦¦  ¦_____¦¦    ¦¦___   ¯¦¦____¦   ¦¦       ¦¦___¦¦¦  ¦¦    ¦¦           
+ ¯¯    ¯¯   ¯¯¯¯ ¯¯   ¯¯¯¯¯¯      ¯¯¯¯     ¯¯¯¯¯    ¯¯        ¯¯¯¯ ¯¯  ¯¯    ¯¯           
 -->
 
-# Kasteran* â€” Pointer Model
+# Kasteran* — Pointer Model
 
-Â© Lois-Kleinner & 0-1.gg 2026
+© Lois-Kleinner & 0-1.gg 2026
 
 ## Overview
 
@@ -66,7 +66,7 @@ val := !@ *ptr
 // C: int32_t* ptr
 `
 
-Linear type enforcement happens at the Kasteran* level only â€” the generated C uses plain pointers.
+Linear type enforcement happens at the Kasteran* level only — the generated C uses plain pointers.
 
 ## Graph
 
@@ -141,7 +141,7 @@ graphify {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -164,3 +164,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

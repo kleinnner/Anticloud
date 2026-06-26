@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Capacity Planning
@@ -29,7 +29,7 @@ This guide covers sizing guides for CPU cores, RAM, and storage per workload typ
 ### Memory
 
 `
-Memory = (DataSize × WorkingSetFactor) + Overhead
+Memory = (DataSize � WorkingSetFactor) + Overhead
   where:
     WorkingSetFactor = 0.3 (analytics) / 0.5 (queries) / 0.1 (ingestion)
     Overhead = 2 GB (base) + 1 GB per 100 MB/s throughput
@@ -37,14 +37,14 @@ Memory = (DataSize × WorkingSetFactor) + Overhead
 
 Example: 100 GB analytics dataset:
 `
-Memory = (100 GB × 0.3) + 2 GB + 1 GB = 33 GB
+Memory = (100 GB � 0.3) + 2 GB + 1 GB = 33 GB
 Recommended: 32-48 GB
 `
 
 ### CPU Cores
 
 `
-Cores = max(ThroughputGBps / 0.3, ConcurrentQueries × 0.5)
+Cores = max(ThroughputGBps / 0.3, ConcurrentQueries � 0.5)
   where:
     0.3 GB/s per core for analytics
     0.5 core per concurrent query
@@ -52,14 +52,14 @@ Cores = max(ThroughputGBps / 0.3, ConcurrentQueries × 0.5)
 
 Example: 2 GB/s throughput, 20 concurrent queries:
 `
-Cores = max(2 / 0.3, 20 × 0.5) = max(6.7, 10) = 10
+Cores = max(2 / 0.3, 20 � 0.5) = max(6.7, 10) = 10
 Recommended: 12-16 cores
 `
 
 ### Storage
 
 `
-Storage = DataSize × (1 + CompressionRatio) × ReplicationFactor + LogSpace
+Storage = DataSize � (1 + CompressionRatio) � ReplicationFactor + LogSpace
   where:
     CompressionRatio = 0.3 (typical with Kazkade codecs)
     ReplicationFactor = 1 (no replication) / 3 (HA cluster)
@@ -68,7 +68,7 @@ Storage = DataSize × (1 + CompressionRatio) × ReplicationFactor + LogSpace
 
 Example: 500 GB raw data, 3x replication:
 `
-Storage = 500 × 1.3 × 3 + 100 = 2050 GB
+Storage = 500 � 1.3 � 3 + 100 = 2050 GB
 Recommended: 2 TB + 20% headroom = 2.4 TB
 `
 
@@ -190,11 +190,11 @@ throughput:
 
 | RAID | Read | Write | Redundancy | Recommended |
 |------|------|-------|------------|-------------|
-| RAID 0 | ✓✓✓ | ✓✓✓ | None | Temp/scratch |
-| RAID 1 | ✓✓ | ✓✓ | ✓✓✓ | OS + ledger |
-| RAID 10 | ✓✓✓ | ✓✓✓ | ✓✓✓ | Primary data |
-| RAID 5 | ✓✓ | ✓ | ✓ | Not recommended |
-| RAID 6 | ✓✓ | ✓ | ✓✓✓ | Cold storage |
+| RAID 0 | ??? | ??? | None | Temp/scratch |
+| RAID 1 | ?? | ?? | ??? | OS + ledger |
+| RAID 10 | ??? | ??? | ??? | Primary data |
+| RAID 5 | ?? | ? | ? | Not recommended |
+| RAID 6 | ?? | ? | ??? | Cold storage |
 
 ## Scaling Patterns
 
@@ -258,16 +258,16 @@ kazkade bench --capacity \
 
 # Output:
 # Capacity Planning Report
-# ┌──────────────────────┬──────────┬──────────┐
-# │ Metric               │ Single   │ Cluster  │
-# ├──────────────────────┼──────────┼──────────┤
-# │ Scan throughput      │ 1.2 GB/s │ 8.5 GB/s │
-# │ Query throughput     │ 450 QPS  │ 3200 QPS │
-# │ Ingestion rate       │ 300 MB/s │ 2.1 GB/s │
-# │ P99 latency (query) │ 45 ms    │ 38 ms     │
-# │ Memory usage         │ 28 GB    │ 32 GB     │
-# │ CPU utilization       │ 65%      │ 72%       │
-# └──────────────────────┴──────────┴──────────┘
+# +--------------------------------------------+
+# � Metric               � Single   � Cluster  �
+# +----------------------+----------+----------�
+# � Scan throughput      � 1.2 GB/s � 8.5 GB/s �
+# � Query throughput     � 450 QPS  � 3200 QPS �
+# � Ingestion rate       � 300 MB/s � 2.1 GB/s �
+# � P99 latency (query) � 45 ms    � 38 ms     �
+# � Memory usage         � 28 GB    � 32 GB     �
+# � CPU utilization       � 65%      � 72%       �
+# +--------------------------------------------+
 `
 
 ## Cost Estimation
@@ -302,7 +302,7 @@ print(estimate_cost({'size': 'medium', 'nodes': 3, 'storage_tb': 5, 'data_transf
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -313,7 +313,7 @@ print(estimate_cost({'size': 'medium', 'nodes': 3, 'storage_tb': 5, 'data_transf
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -336,3 +336,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

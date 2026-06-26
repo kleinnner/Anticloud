@@ -1,4 +1,4 @@
-﻿# Managing Packages
+# Managing Packages
 
 01s Sovereign uses `pacman`, the Arch Linux package manager, for package management. This guide covers common package operations.
 
@@ -449,16 +449,16 @@ makepkg -si
 
 ## Further Reading
 
-- [Post-Installation Setup](07-post-installation-setup.md) â€” Initial package install
-- [Development Environment](17-development-environment.md) â€” Dev packages
-- [Package Maintainer Guide](../developers/16-package-maintainer-guide.md) â€” Maintainer docs
-- [Security Hardening](18-security-hardening.md) â€” Package security
-- [AUR and Community Packages](../community/07-community-projects-and-ecosystem.md) â€” Community software
-- [Package FAQ](../faq/06-security-faq.md) â€” Package questions
-- [Package Troubleshooting](../help/06-package-management-issues.md) â€” Issue resolution
-- [Custom ISO Building](21-building-custom-iso.md) â€” Including packages in ISO
-- [Enterprise Deployment](../enterprise/02-deployment-models.md) â€” Enterprise packages
-- [Toolchain Integration](../features/05-custom-toolchain-overview.md) â€” Toolchain packages
+- [Post-Installation Setup](07-post-installation-setup.md) — Initial package install
+- [Development Environment](17-development-environment.md) — Dev packages
+- [Package Maintainer Guide](../developers/16-package-maintainer-guide.md) — Maintainer docs
+- [Security Hardening](18-security-hardening.md) — Package security
+- [AUR and Community Packages](../community/07-community-projects-and-ecosystem.md) — Community software
+- [Package FAQ](../faq/06-security-faq.md) — Package questions
+- [Package Troubleshooting](../help/06-package-management-issues.md) — Issue resolution
+- [Custom ISO Building](21-building-custom-iso.md) — Including packages in ISO
+- [Enterprise Deployment](../enterprise/02-deployment-models.md) — Enterprise packages
+- [Toolchain Integration](../features/05-custom-toolchain-overview.md) — Toolchain packages
 
 ## Package Command Reference
 
@@ -694,7 +694,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -717,3 +717,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

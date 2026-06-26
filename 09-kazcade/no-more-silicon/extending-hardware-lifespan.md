@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Extending Hardware Lifespan
@@ -15,7 +15,7 @@
 
 The average data center server is replaced every 3-5 years, driven by software requirements that outgrow older hardware. Kazkade's optimization for legacy architectures means you can **keep servers in production longer**, reducing capital expenditure and electronic waste.
 
-> "The most expensive server is the one you replace. The most sustainable one is the one you keep." — Kazkade Infrastructure Philosophy
+> "The most expensive server is the one you replace. The most sustainable one is the one you keep." � Kazkade Infrastructure Philosophy
 
 ---
 
@@ -25,22 +25,22 @@ The average data center server is replaced every 3-5 years, driven by software r
 
 ```
 Server Lifecycle (Traditional):
-Year 0: Purchase ($8,000) ─── Deploy
-Year 1:                    ─── Production
-Year 2:                    ─── Production
-Year 3:                    ─── Production (aging)
-Year 4:                    ─── Decommission ($0 value)
+Year 0: Purchase ($8,000) --- Deploy
+Year 1:                    --- Production
+Year 2:                    --- Production
+Year 3:                    --- Production (aging)
+Year 4:                    --- Decommission ($0 value)
 
 vs Kazkade-Enabled Lifecycle:
-Year 0: Purchase ($8,000) ─── Deploy
-Year 1:                    ─── Production
-Year 2:                    ─── Production
-Year 3:                    ─── Production (Kazkade optimized)
-Year 4:                    ─── Production (still fast)
-Year 5:                    ─── Production
-Year 6:                    ─── Production
-Year 7:                    ─── Production
-Year 8:                    ─── Decommission
+Year 0: Purchase ($8,000) --- Deploy
+Year 1:                    --- Production
+Year 2:                    --- Production
+Year 3:                    --- Production (Kazkade optimized)
+Year 4:                    --- Production (still fast)
+Year 5:                    --- Production
+Year 6:                    --- Production
+Year 7:                    --- Production
+Year 8:                    --- Decommission
 
 3 additional years of useful life = 60% longer lifespan
 ```
@@ -72,15 +72,15 @@ $ kazkade bench --hardware-comparison \
     --new "Xeon Platinum 8592+"
 
 Performance Comparison:
-┌────────────────────┬──────────┬──────────┬──────────┐
-│ Benchmark          │ Old (2016)│ New (2024)│ Ratio   │
-├────────────────────┼──────────┼──────────┼──────────┤
-│ GEMM 1024          │ 52.1 GF  │ 68.4 GF  │ 1.31x   │
-│ .acol scan 10GB    │ 3.2 GB/s │ 4.5 GB/s │ 1.41x   │
-│ MLP inference      │ 14.2 µs  │ 9.8 µs   │ 1.45x   │
-│ SQL TPCH query     │ 2.1s     │ 1.4s     │ 1.50x   │
-│ Rasterizer         │ 42 FPS   │ 58 FPS   │ 1.38x   │
-└────────────────────┴──────────┴──────────┴──────────┘
++-----------------------------------------------------+
+� Benchmark          � Old (2016)� New (2024)� Ratio   �
++--------------------+----------+----------+----------�
+� GEMM 1024          � 52.1 GF  � 68.4 GF  � 1.31x   �
+� .acol scan 10GB    � 3.2 GB/s � 4.5 GB/s � 1.41x   �
+� MLP inference      � 14.2 �s  � 9.8 �s   � 1.45x   �
+� SQL TPCH query     � 2.1s     � 1.4s     � 1.50x   �
+� Rasterizer         � 42 FPS   � 58 FPS   � 1.38x   �
++-----------------------------------------------------+
 
 Conclusion: Old hardware at Kazkade = 70-80% of new hardware performance.
 Savings: $7.5M (3-year deferral).
@@ -105,7 +105,7 @@ Solution:
 Results:
   - GPU purchase deferred: $15M saved
   - Infrastructure upgrade avoided: $5M saved
-  - Existing server lifespan extended: 4→7 years
+  - Existing server lifespan extended: 4?7 years
   - Customer satisfaction: 94% (met or exceeded SLA)
   - Annual energy savings: $1.2M
 
@@ -139,9 +139,9 @@ Results:
 
 $ kazkade bench --mlp --hardware "Intel Celeron J4125"
 MLP Inference on Celeron J4125:
-  FP32: 342 µs
-  I8:   98 µs
-  I4:   54 µs
+  FP32: 342 �s
+  I8:   98 �s
+  I4:   54 �s
   All within SLA for remote monitoring
 ```
 
@@ -155,27 +155,27 @@ MLP Inference on Celeron J4125:
 $ kazkade bench --lifespan --servers 1000
 
 Hardware Lifespan Extension Analysis:
-┌────────────────────────────────────┬────────────┐
-│ Metric                             │ Value      │
-├────────────────────────────────────┼────────────┤
-│ Current fleet size                 │ 1,000      │
-│ Average server age                 │ 3.2 years  │
-│ Original replacement schedule      │ Year 5     │
-│ New replacement schedule           │ Year 8     │
-│ Extended lifespan                  │ +3 years   │
-├────────────────────────────────────┼────────────┤
-│ Capital expenditure avoided:       │            │
-│   Server replacement (1,000 × $8K) │ $8,000,000 │
-│   GPU purchase avoided             │ $3,000,000 │
-│   Infrastructure upgrades          │ $2,000,000 │
-├────────────────────────────────────┼────────────┤
-│ Operational savings:               │            │
-│   Lower power (vs GPU)             │ $1,200,000 │
-│   Lower cooling                    │ $600,000   │
-│   Maintenance                      │ $300,000   │
-├────────────────────────────────────┼────────────┤
-│ Total 3-year savings               │ $15,100,000│
-└────────────────────────────────────┴────────────┘
++-------------------------------------------------+
+� Metric                             � Value      �
++------------------------------------+------------�
+� Current fleet size                 � 1,000      �
+� Average server age                 � 3.2 years  �
+� Original replacement schedule      � Year 5     �
+� New replacement schedule           � Year 8     �
+� Extended lifespan                  � +3 years   �
++------------------------------------+------------�
+� Capital expenditure avoided:       �            �
+�   Server replacement (1,000 � $8K) � $8,000,000 �
+�   GPU purchase avoided             � $3,000,000 �
+�   Infrastructure upgrades          � $2,000,000 �
++------------------------------------+------------�
+� Operational savings:               �            �
+�   Lower power (vs GPU)             � $1,200,000 �
+�   Lower cooling                    � $600,000   �
+�   Maintenance                      � $300,000   �
++------------------------------------+------------�
+� Total 3-year savings               � $15,100,000�
++-------------------------------------------------+
 ```
 
 ---
@@ -186,19 +186,19 @@ Hardware Lifespan Extension Analysis:
 $ kazkade bench --age --hardware "Intel Xeon E5-2680 v3"
 
 Performance Over Time (Same Hardware, Same Workload):
-┌──────────┬────────────┬──────────┐
-│ Year     │ Performance│ Thermal  │
-│          │ (GFLOPS)   │ Headroom │
-├──────────┼────────────┼──────────┤
-│ Year 1   │ 68.4       │ 15°C     │
-│ Year 2   │ 67.8       │ 14°C     │
-│ Year 3   │ 67.2       │ 12°C     │
-│ Year 4   │ 66.1       │ 10°C     │
-│ Year 5   │ 64.8       │ 8°C      │
-│ Year 6   │ 62.3       │ 5°C      │
-│ Year 7   │ 58.9       │ 3°C      │
-│ Year 8   │ 54.2       │ 1°C      │
-└──────────┴────────────┴──────────┘
++----------------------------------+
+� Year     � Performance� Thermal  �
+�          � (GFLOPS)   � Headroom �
++----------+------------+----------�
+� Year 1   � 68.4       � 15�C     �
+� Year 2   � 67.8       � 14�C     �
+� Year 3   � 67.2       � 12�C     �
+� Year 4   � 66.1       � 10�C     �
+� Year 5   � 64.8       � 8�C      �
+� Year 6   � 62.3       � 5�C      �
+� Year 7   � 58.9       � 3�C      �
+� Year 8   � 54.2       � 1�C      �
++----------------------------------+
 
 Performance loss over 8 years: ~21%
 Acceptable degradation: <30% for most workloads
@@ -222,15 +222,15 @@ Thermal paste degradation primary cause (replace for 5-10% recovery)
 ## Environmental Impact
 
 ```bash
-Extended lifespan: 1,000 servers × 3 additional years
+Extended lifespan: 1,000 servers � 3 additional years
 E-waste prevented:
-  - 1,000 servers × 15 kg = 15,000 kg e-waste
-  - 250 GPUs × 5 kg = 1,250 kg GPU e-waste
+  - 1,000 servers � 15 kg = 15,000 kg e-waste
+  - 250 GPUs � 5 kg = 1,250 kg GPU e-waste
   - Total: 16,250 kg prevented
 
 Manufacturing emissions avoided:
-  - 1,000 servers × 500 kg CO2e = 500,000 kg CO2e
-  - 250 GPUs × 800 kg CO2e = 200,000 kg CO2e
+  - 1,000 servers � 500 kg CO2e = 500,000 kg CO2e
+  - 250 GPUs � 800 kg CO2e = 200,000 kg CO2e
   - Total: 700,000 kg CO2e (equivalent to 150 cars/year)
 ```
 
@@ -243,16 +243,16 @@ Manufacturing emissions avoided:
 $ kazkade bench --fleet-assessment --input fleet.csv
 
 Fleet Assessment Report:
-┌──────────┬──────────┬──────────┬──────────┬──────────┐
-│ Model    │ Count    │ Year     │ Kazkade  │ Replace? │
-│          │          │          │ Perf     │          │
-├──────────┼──────────┼──────────┼──────────┼──────────┤
-│ Haswell  │ 342      │ 2014-2015│ 68 GFLOPS│ Defer    │
-│ Skylake  │ 234      │ 2015-2017│ 89 GFLOPS│ Defer    │
-│ Zen 1    │ 189      │ 2017-2018│ 58 GFLOPS│ Defer    │
-│ Cascade L│ 156      │ 2019-2020│ 112 GFLOPS│ Keep    │
-│ Ice Lake │ 79       │ 2021-2022│ 142 GFLOPS│ Keep    │
-└──────────┴──────────┴──────────┴──────────┴──────────┘
++------------------------------------------------------+
+� Model    � Count    � Year     � Kazkade  � Replace? �
+�          �          �          � Perf     �          �
++----------+----------+----------+----------+----------�
+� Haswell  � 342      � 2014-2015� 68 GFLOPS� Defer    �
+� Skylake  � 234      � 2015-2017� 89 GFLOPS� Defer    �
+� Zen 1    � 189      � 2017-2018� 58 GFLOPS� Defer    �
+� Cascade L� 156      � 2019-2020� 112 GFLOPS� Keep    �
+� Ice Lake � 79       � 2021-2022� 142 GFLOPS� Keep    �
++------------------------------------------------------+
 
 Recommendation: Defer all replacements. Install Kazkade for 35-78%
 performance improvement on all hardware.
@@ -268,10 +268,10 @@ $ kazkade verify --fleet-performance
 
 ## Related Documentation
 
-- [Sustainable Compute](./sustainable-compute.md) — Environmental impact
-- [Performance Per Watt](./performance-per-watt.md) — Efficiency analysis
-- [Existing Hardware Optimization](./existing-hardware-optimization.md) — Legacy support
-- [Hardware Agnosticism](./hardware-agnosticism.md) — Cross-platform deployment
+- [Sustainable Compute](./sustainable-compute.md) � Environmental impact
+- [Performance Per Watt](./performance-per-watt.md) � Efficiency analysis
+- [Existing Hardware Optimization](./existing-hardware-optimization.md) � Legacy support
+- [Hardware Agnosticism](./hardware-agnosticism.md) � Cross-platform deployment
 
 ---
 
@@ -296,7 +296,7 @@ kazkade deploy --target all-servers
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -307,7 +307,7 @@ kazkade deploy --target all-servers
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -330,3 +330,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

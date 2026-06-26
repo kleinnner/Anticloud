@@ -1,46 +1,46 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Data Portability
 
 > **Your data, your format, your control.**
 
-Kazkade does not lock you in. The `.acol` columnar format is designed for lossless, schema-preserving export to industry-standard formats — Apache Parquet and Apache Arrow. The `.aioss` ledger can be exported to JSON, CSV, and SQL-compatible formats. Export is cryptographically signed for integrity verification.
+Kazkade does not lock you in. The `.acol` columnar format is designed for lossless, schema-preserving export to industry-standard formats � Apache Parquet and Apache Arrow. The `.aioss` ledger can be exported to JSON, CSV, and SQL-compatible formats. Export is cryptographically signed for integrity verification.
 
 ---
 
 ## 1. Portability Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     Kazkade Data Portability Stack                    │
-├─────────────────────────────────────────────────────────────────────┤
-│  Source Formats                                                       │
-│  ┌──────────────────┐  ┌──────────────────┐                          │
-│  │  .acol Columnar  │  │  .aioss Ledger   │                          │
-│  │  (zero-copy)     │  │  (hash chain)    │                          │
-│  └──────────────────┘  └──────────────────┘                          │
-├─────────────────────────────────────────────────────────────────────┤
-│  Export Pipeline                                                      │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
-│  │ Schema   │→│ Column   │→│ Encoding │→│ Format   │            │
-│  │ Mapping  │  │ Transcode│  │ Conversion│  │ Writer   │            │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘            │
-├─────────────────────────────────────────────────────────────────────┤
-│  Target Formats                                                       │
-│  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐  │
-│  │  Apache Parquet  │  │  Apache Arrow    │  │  JSON / CSV      │  │
-│  │  (.parquet)      │  │  (.arrow, .ipc)  │  │  (.json, .csv)   │  │
-│  └──────────────────┘  └──────────────────┘  └──────────────────┘  │
-└─────────────────────────────────────────────────────────────────────┘
++---------------------------------------------------------------------+
+�                     Kazkade Data Portability Stack                    �
++---------------------------------------------------------------------�
+�  Source Formats                                                       �
+�  +------------------+  +------------------+                          �
+�  �  .acol Columnar  �  �  .aioss Ledger   �                          �
+�  �  (zero-copy)     �  �  (hash chain)    �                          �
+�  +------------------+  +------------------+                          �
++---------------------------------------------------------------------�
+�  Export Pipeline                                                      �
+�  +----------+  +----------+  +----------+  +----------+            �
+�  � Schema   �?� Column   �?� Encoding �?� Format   �            �
+�  � Mapping  �  � Transcode�  � Conversion�  � Writer   �            �
+�  +----------+  +----------+  +----------+  +----------+            �
++---------------------------------------------------------------------�
+�  Target Formats                                                       �
+�  +------------------+  +------------------+  +------------------+  �
+�  �  Apache Parquet  �  �  Apache Arrow    �  �  JSON / CSV      �  �
+�  �  (.parquet)      �  �  (.arrow, .ipc)  �  �  (.json, .csv)   �  �
+�  +------------------+  +------------------+  +------------------+  �
++---------------------------------------------------------------------+
 ```
 
 ---
@@ -193,7 +193,7 @@ kazkade export \
 
 ### 3.2 Zero-Copy Arrow Conversion
 
-The `.acol → Arrow` conversion leverages Kazkade's memory-mapped architecture for zero-copy when possible:
+The `.acol ? Arrow` conversion leverages Kazkade's memory-mapped architecture for zero-copy when possible:
 
 ```rust
 /// Zero-copy conversion from .acol column to Arrow array.
@@ -318,7 +318,7 @@ kazkade export verify \
 
 ## 5. Import to Kazkade
 
-### 5.1 Parquet → `.acol`
+### 5.1 Parquet ? `.acol`
 
 ```bash
 # Import Parquet data into Kazkade.
@@ -342,7 +342,7 @@ kazkade import \
     --region EU
 ```
 
-### 5.2 Arrow → `.acol`
+### 5.2 Arrow ? `.acol`
 
 ```bash
 # Import Arrow data.
@@ -532,13 +532,13 @@ pub fn verify_round_trip(
 
 | Operation                        | Throughput       | Notes                          |
 |----------------------------------|------------------|--------------------------------|
-| `.acol → Parquet` (zstd)         | 1.2 GB/s         | 16-thread export               |
-| `.acol → Arrow` (zero-copy)      | 8.5 GB/s         | No transcoding needed          |
-| `.acol → JSON`                   | 350 MB/s         | Text serialization bottleneck  |
-| `.acol → CSV`                    | 280 MB/s         | Text serialization bottleneck  |
-| `Parquet → .acol` (zstd)         | 950 MB/s         | Decompress + transcode         |
-| `Arrow → .acol` (zero-copy)      | 7.8 GB/s         | Direct memory mapping          |
-| `.aioss → JSON` (1M records)     | 3.2s             | Includes signature verification|
+| `.acol ? Parquet` (zstd)         | 1.2 GB/s         | 16-thread export               |
+| `.acol ? Arrow` (zero-copy)      | 8.5 GB/s         | No transcoding needed          |
+| `.acol ? JSON`                   | 350 MB/s         | Text serialization bottleneck  |
+| `.acol ? CSV`                    | 280 MB/s         | Text serialization bottleneck  |
+| `Parquet ? .acol` (zstd)         | 950 MB/s         | Decompress + transcode         |
+| `Arrow ? .acol` (zero-copy)      | 7.8 GB/s         | Direct memory mapping          |
+| `.aioss ? JSON` (1M records)     | 3.2s             | Includes signature verification|
 | Export verification              | 50 GB/s          | SHA3-256 memory-mapped         |
 
 ---
@@ -547,20 +547,20 @@ pub fn verify_round_trip(
 
 | Feature                 | Kazkade `.acol` | Competitor A | Competitor B |
 |-------------------------|-----------------|--------------|--------------|
-| Parquet export          | ✅ Built-in     | ❌           | ❌           |
-| Arrow export            | ✅ Built-in     | ❌           | ✅           |
-| JSON export             | ✅ Built-in     | ✅           | ✅           |
-| CSV export              | ✅ Built-in     | ✅           | ❌           |
-| Signed export           | ✅              | ❌           | ❌           |
-| Schema preservation     | ✅ Exact        | ⚠️ Partial   | ✅           |
-| Zero-copy export        | ✅              | ❌           | ❌           |
-| Streaming export        | ✅              | ❌           | ❌           |
-| Round-trip verification | ✅              | ❌           | ❌           |
-| Open specification      | ✅              | ❌           | ⚠️           |
+| Parquet export          | ? Built-in     | ?           | ?           |
+| Arrow export            | ? Built-in     | ?           | ?           |
+| JSON export             | ? Built-in     | ?           | ?           |
+| CSV export              | ? Built-in     | ?           | ?           |
+| Signed export           | ?              | ?           | ?           |
+| Schema preservation     | ? Exact        | ?? Partial   | ?           |
+| Zero-copy export        | ?              | ?           | ?           |
+| Streaming export        | ?              | ?           | ?           |
+| Round-trip verification | ?              | ?           | ?           |
+| Open specification      | ?              | ?           | ??           |
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -571,7 +571,7 @@ pub fn verify_round_trip(
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -594,3 +594,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

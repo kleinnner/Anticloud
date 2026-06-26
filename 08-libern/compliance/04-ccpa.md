@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: compliance | ID: LIB-COMP-004
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # California Consumer Privacy Act (CCPA) Compliance
 
@@ -23,7 +23,7 @@ personal information is collected, the right to delete personal information, the
 right to opt out of the sale of personal information, and the right to
 non-discrimination for exercising these rights.
 
-Libern's architecture â€” local-first, P2P, no cloud dependency â€” substantially
+Libern's architecture — local-first, P2P, no cloud dependency — substantially
 simplifies CCPA compliance. Because Libern does not collect personal information
 in the traditional sense (no accounts, no email, no phone numbers, no telemetry),
 many CCPA requirements are satisfied by default. Organizations deploying Libern
@@ -41,7 +41,7 @@ information and meet certain thresholds (e.g., gross revenue over $25 million,
 handling data of 100,000+ consumers, or deriving 50%+ of revenue from selling
 personal information).
 
-Libern itself is not a business â€” it is open-source software. The CCPA obligations
+Libern itself is not a business — it is open-source software. The CCPA obligations
 fall on the organization deploying Libern. However, because Libern does not sell
 personal information (Section 4), does not collect personal information beyond
 what users explicitly create, and operates entirely on local devices, the
@@ -67,7 +67,7 @@ Libern does not collect or process personal information independently.
 
 ## 3. Consumer Rights
 
-### 3.1 Right to Know (CCPA Â§ 1798.110)
+### 3.1 Right to Know (CCPA § 1798.110)
 
 Consumers have the right to request that a business disclose the categories and
 specific pieces of personal information it has collected.
@@ -83,7 +83,7 @@ To respond to a Right to Know request:
 3. Provide the export to the consumer
 4. The consumer can verify the export using standard Libern tools
 
-### 3.2 Right to Delete (CCPA Â§ 1798.105)
+### 3.2 Right to Delete (CCPA § 1798.105)
 
 Consumers have the right to request deletion of personal information collected
 by a business.
@@ -104,7 +104,7 @@ The .aioss ledger preserves tombstones (deletion markers) rather than physically
 removing data from the hash chain. This is consistent with CCPA's recognition
 that deletion from backup and archival systems may require additional time.
 
-### 3.3 Right to Opt Out (CCPA Â§ 1798.120)
+### 3.3 Right to Opt Out (CCPA § 1798.120)
 
 Consumers have the right to opt out of the sale of their personal information to
 third parties.
@@ -115,7 +115,7 @@ integration, and no third-party data sharing. The opt-out right is therefore
 not triggered. However, Libern provides complete transparency about data
 practices through its open-source codebase and documentation.
 
-### 3.4 Right to Non-Discrimination (CCPA Â§ 1798.125)
+### 3.4 Right to Non-Discrimination (CCPA § 1798.125)
 
 Businesses may not discriminate against consumers who exercise their CCPA rights.
 
@@ -412,47 +412,47 @@ The Connecticut Data Privacy Act closely follows Virginia's model:
 - No additional obligations beyond CCPA baseline
 
 
-## 17. CCPA Rights Fulfillment Procedures â€” Expanded
+## 17. CCPA Rights Fulfillment Procedures — Expanded
 
-### 17.1 Right to Know â€” Step-by-Step
+### 17.1 Right to Know — Step-by-Step
 
 ```
 Step 1: Receive verified consumer request
-        â†“
+        ↓
 Step 2: Launch Libern on the relevant device
-        â†“
+        ↓
 Step 3: Export .aioss ledger for the consumer's server(s)
         libern --export-aioss --output ./consumer-data.aioss
-        â†“
+        ↓
 Step 4: Filter entries for the requesting consumer
         libern --aioss-filter --user <public-key> ./consumer-data.aioss
-        â†“
+        ↓
 Step 5: Generate human-readable report
         libern --aioss-to-json ./consumer-data.aioss > consumer-report.json
-        â†“
+        ↓
 Step 6: Verify export integrity
         libern --verify-ledger ./consumer-data.aioss
-        â†“
+        ↓
 Step 7: Deliver to consumer within 45 days
 ```
 
-### 17.2 Right to Delete â€” Step-by-Step
+### 17.2 Right to Delete — Step-by-Step
 
 ```
 Step 1: Receive verified consumer deletion request
-        â†“
+        ↓
 Step 2: Identify all data belonging to the consumer
         libern --aioss-filter --user <consumer-key> ./ledger.aioss
-        â†“
+        ↓
 Step 3: Delete consumer's messages
         libern --delete-user-messages --user <consumer-key>
-        â†“
+        ↓
 Step 4: Verify deletion
         libern --aioss-search --user <consumer-key> ./ledger.aioss
         Expected: "No entries found"
-        â†“
+        ↓
 Step 5: Confirm deletion to consumer in writing
-        â†“
+        ↓
 Step 6: Log the request and response for compliance records
 ```
 
@@ -460,7 +460,7 @@ Step 6: Log the request and response for compliance records
 
 **Scenario:** A California-based e-commerce company with 500+ employees uses Libern for internal communication. A consumer exercises their CCPA right to know.
 
-**Traditional approach:** IT team searches across Slack/Teams/email archives â€” days of work, partial results.
+**Traditional approach:** IT team searches across Slack/Teams/email archives — days of work, partial results.
 
 **Libern approach:**
 1. Consumer submits verified request
@@ -487,9 +487,9 @@ Step 6: Log the request and response for compliance records
 | Health data | Optional (per user) | Local only, P2P encrypted |
 | Sex life/orientation | Not collected | N/A |
 
-### 18.2 Automated Decision-Making (CPRA Â§ 1798.185(a)(16))
+### 18.2 Automated Decision-Making (CPRA § 1798.185(a)(16))
 
-Libern's local AI makes suggestions only â€” no automated decisions that significantly affect consumers:
+Libern's local AI makes suggestions only — no automated decisions that significantly affect consumers:
 
 | AI Feature | Type | Consumer Impact |
 |-----------|------|-----------------|
@@ -502,16 +502,16 @@ Libern's local AI makes suggestions only â€” no automated decisions that si
 
 | Requirement | CCPA/CPRA | Virginia CDPA | Colorado CPA | Connecticut CTDPA | Libern |
 |------------|-----------|---------------|-------------|-------------------|--------|
-| Right to know | âœ“ | âœ“ | âœ“ | âœ“ | Instant .aioss export |
-| Right to delete | âœ“ | âœ“ | âœ“ | âœ“ | Immediate local deletion |
-| Right to correct | âœ“ | âœ“ | âœ“ | âœ“ | Editable messages |
-| Right to port | âœ“ | âœ“ | âœ“ | âœ“ | Native .aioss format |
-| Opt-out of sale | âœ“ | âœ“ | âœ“ | âœ“ | No data sold |
-| Sensitive data limits | âœ“ | âœ“ | âœ“ | âœ“ | Local processing only |
-| Automated decisions | âœ“ | âœ“ | âœ“ | âœ“ | No profiling |
-| Data protection assessment | âœ“ | âœ“ | âœ“ | âœ“ | DPIA in Section 4 |
-| Non-discrimination | âœ“ | âœ“ | âœ“ | âœ“ | All features equal |
-| Contract requirements | âœ“ | âœ“ | âœ“ | âœ“ | No processor needed |
+| Right to know | ✓ | ✓ | ✓ | ✓ | Instant .aioss export |
+| Right to delete | ✓ | ✓ | ✓ | ✓ | Immediate local deletion |
+| Right to correct | ✓ | ✓ | ✓ | ✓ | Editable messages |
+| Right to port | ✓ | ✓ | ✓ | ✓ | Native .aioss format |
+| Opt-out of sale | ✓ | ✓ | ✓ | ✓ | No data sold |
+| Sensitive data limits | ✓ | ✓ | ✓ | ✓ | Local processing only |
+| Automated decisions | ✓ | ✓ | ✓ | ✓ | No profiling |
+| Data protection assessment | ✓ | ✓ | ✓ | ✓ | DPIA in Section 4 |
+| Non-discrimination | ✓ | ✓ | ✓ | ✓ | All features equal |
+| Contract requirements | ✓ | ✓ | ✓ | ✓ | No processor needed |
 
 
 ## 16. Document History
@@ -529,7 +529,7 @@ Libern's local AI makes suggestions only â€” no automated decisions that si
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -552,3 +552,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

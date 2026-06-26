@@ -1,15 +1,15 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Transparent Network
 
@@ -34,7 +34,7 @@ Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ## Overview
 
-Libern's network communications are **fully transparent** â€” every protocol, every packet format, and every connection is documented, inspectable, and verifiable. There are no hidden connections, no covert channels, no unannounced network activity, and no encrypted tunnels concealing the nature of the traffic.
+Libern's network communications are **fully transparent** — every protocol, every packet format, and every connection is documented, inspectable, and verifiable. There are no hidden connections, no covert channels, no unannounced network activity, and no encrypted tunnels concealing the nature of the traffic.
 
 This document describes Libern's network protocols (mDNS for discovery and WebSocket for P2P messaging) and provides tools and techniques for users to inspect and verify all network activity.
 
@@ -44,7 +44,7 @@ This document describes Libern's network protocols (mDNS for discovery and WebSo
 
 ### What Is mDNS
 
-Multicast DNS (mDNS) is a standard protocol (RFC 6762) for DNS-like name resolution on a local network without a central DNS server. Libern uses mDNS for **peer discovery** â€” finding other Libern instances on the same LAN segment.
+Multicast DNS (mDNS) is a standard protocol (RFC 6762) for DNS-like name resolution on a local network without a central DNS server. Libern uses mDNS for **peer discovery** — finding other Libern instances on the same LAN segment.
 
 ### How Libern Uses mDNS
 
@@ -58,22 +58,22 @@ When Libern starts, it:
 The mDNS packets follow the standard DNS format:
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚        mDNS Query/Response (UDP port 5353)          â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Transaction ID: 0x0000 (mDNS uses 0)                â”‚
-â”‚ Flags: 0x8400 (Response, Authoritative)             â”‚
-â”‚ Questions: 1                                        â”‚
-â”‚ Answer RRs: 1                                      â”‚
-â”‚ Authority RRs: 0                                    â”‚
-â”‚ Additional RRs: 0                                   â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Question: _libern._tcp.local (PTR query)           â”‚
-â”‚ Answer: libern-instance-abc.local (SRV record)      â”‚
-â”‚   Priority: 0, Weight: 0, Port: 9xxxx              â”‚
-â”‚   Target: hostname.local                            â”‚
-â”‚ Additional: A record for hostname.local             â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌────────────────────────────────────────────────────┐
+│        mDNS Query/Response (UDP port 5353)          │
+├────────────────────────────────────────────────────┤
+│ Transaction ID: 0x0000 (mDNS uses 0)                │
+│ Flags: 0x8400 (Response, Authoritative)             │
+│ Questions: 1                                        │
+│ Answer RRs: 1                                      │
+│ Authority RRs: 0                                    │
+│ Additional RRs: 0                                   │
+├────────────────────────────────────────────────────┤
+│ Question: _libern._tcp.local (PTR query)           │
+│ Answer: libern-instance-abc.local (SRV record)      │
+│   Priority: 0, Weight: 0, Port: 9xxxx              │
+│   Target: hostname.local                            │
+│ Additional: A record for hostname.local             │
+└────────────────────────────────────────────────────┘
 ```
 
 ### What Information Is Broadcast
@@ -89,9 +89,9 @@ The mDNS packets follow the standard DNS format:
 ### Scope
 
 mDNS is confined to the local subnet:
-- **Not routable** â€” mDNS packets do not cross routers.
-- **Not forwarded** â€” Most enterprise networks block mDNS across VLANs.
-- **Link-local** â€” Packets have TTL=255 and are dropped by routers.
+- **Not routable** — mDNS packets do not cross routers.
+- **Not forwarded** — Most enterprise networks block mDNS across VLANs.
+- **Link-local** — Packets have TTL=255 and are dropped by routers.
 
 ### Visibility
 
@@ -113,8 +113,8 @@ sudo tcpdump -i any port 5353 -v
 ### Configurability
 
 mDNS discovery can be:
-- **Enabled** (default) â€” Other Libern instances on the LAN can discover this instance.
-- **Disabled** â€” Instance is invisible to LAN discovery; must connect via IP directly.
+- **Enabled** (default) — Other Libern instances on the LAN can discover this instance.
+- **Disabled** — Instance is invisible to LAN discovery; must connect via IP directly.
 
 ---
 
@@ -163,12 +163,12 @@ All messages are JSON-encoded with Ed25519 signatures:
 
 | Message Field | Content | Inspectable? |
 |--------------|---------|-------------|
-| `type` | `crdt_merge`, `handshake`, `ping`, `pong` | Yes â€” plain JSON |
-| `payload` | CRDT operations | Yes â€” plain JSON |
+| `type` | `crdt_merge`, `handshake`, `ping`, `pong` | Yes — plain JSON |
+| `payload` | CRDT operations | Yes — plain JSON |
 | `sender_id` | UUID of sender | Yes |
 | `timestamp` | ISO 8601 | Yes |
-| `signature` | Ed25519 signature | Yes â€” raw bytes in base64 |
-| Message content | User messages | Yes â€” plain (unless E2EE enabled) |
+| `signature` | Ed25519 signature | Yes — raw bytes in base64 |
+| Message content | User messages | Yes — plain (unless E2EE enabled) |
 
 ### When E2EE Is Enabled
 
@@ -229,28 +229,28 @@ Libern does NOT generate any of the following network traffic:
 
 ```
 Libern Startup
-  â”œâ”€ mDNS: Announce presence (UDP multicast, port 5353)
-  â”œâ”€ mDNS: Listen for peers (UDP multicast, port 5353)
-  â””â”€ No other network connections
+  ├─ mDNS: Announce presence (UDP multicast, port 5353)
+  ├─ mDNS: Listen for peers (UDP multicast, port 5353)
+  └─ No other network connections
 
 User Action: Join Server
-  â”œâ”€ WebSocket: Connect to peer (TCP direct, ephemeral port)
-  â”œâ”€ Handshake: Ed25519 challenge-response
-  â”œâ”€ CRDT sync: Exchange operations
-  â””â”€ Connection remains open
+  ├─ WebSocket: Connect to peer (TCP direct, ephemeral port)
+  ├─ Handshake: Ed25519 challenge-response
+  ├─ CRDT sync: Exchange operations
+  └─ Connection remains open
 
 User Action: Join Voice
-  â”œâ”€ Direct UDP: Audio stream (ephemeral port)
-  â””â”€ Connection remains open
+  ├─ Direct UDP: Audio stream (ephemeral port)
+  └─ Connection remains open
 
 User Action: Download AI Model
-  â”œâ”€ HTTP(S): Download from HuggingFace mirror (user-initiated)
-  â””â”€ Connection closes after download
+  ├─ HTTP(S): Download from HuggingFace mirror (user-initiated)
+  └─ Connection closes after download
 
 Libern Shutdown
-  â”œâ”€ WebSocket: Close connections
-  â”œâ”€ UDP: Close sockets
-  â””â”€ mDNS: Goodbye packet (optional)
+  ├─ WebSocket: Close connections
+  ├─ UDP: Close sockets
+  └─ mDNS: Goodbye packet (optional)
 ```
 
 ---
@@ -336,7 +336,7 @@ libern --log-network
 
 ```bash
 #!/bin/bash
-# network-audit.sh â€” Monitor all Libern network activity
+# network-audit.sh — Monitor all Libern network activity
 
 echo "=== Libern Network Audit ==="
 echo "Timestamp: $(date)"
@@ -367,7 +367,7 @@ echo "=== Audit Complete ==="
 
 ### Verification Steps
 
-**Step 1: Baseline â€” No Activity**
+**Step 1: Baseline — No Activity**
 
 With Libern running but no servers joined:
 - Expected traffic: Only mDNS (every ~60 seconds).
@@ -410,63 +410,63 @@ This can be verified by running a packet capture for an extended period (hours) 
 ---
 
 
-## Network Protocol Details â€” Expanded
+## Network Protocol Details — Expanded
 
 ### Complete Packet Inspection Guide
 
 **mDNS Discovery Packets:**
 ```
 Ethernet II
-â”œâ”€ Destination: 01:00:5E:00:00:FB (multicast)
-â”œâ”€ Source: [device MAC]
-â””â”€ Type: IPv4 (0x0800)
+├─ Destination: 01:00:5E:00:00:FB (multicast)
+├─ Source: [device MAC]
+└─ Type: IPv4 (0x0800)
 
 IP
-â”œâ”€ Source: [device IP]
-â”œâ”€ Destination: 224.0.0.251
-â””â”€ Protocol: UDP (17)
+├─ Source: [device IP]
+├─ Destination: 224.0.0.251
+└─ Protocol: UDP (17)
 
 UDP
-â”œâ”€ Source Port: [ephemeral]
-â”œâ”€ Destination Port: 5353
-â””â”€ Length: [variable]
+├─ Source Port: [ephemeral]
+├─ Destination Port: 5353
+└─ Length: [variable]
 
 mDNS
-â”œâ”€ Transaction ID: 0x0000
-â”œâ”€ Flags: 0x8400 (Response, Authoritative)
-â”œâ”€ Questions: 1
-â”œâ”€ Answer RRs: 1
-â”œâ”€ Question: _libern._tcp.local PTR ?
-â”œâ”€ Answer (SRV):
-â”‚   â”œâ”€ Priority: 0
-â”‚   â”œâ”€ Weight: 0
-â”‚   â”œâ”€ Port: 9876
-â”‚   â””â”€ Target: hostname.local
-â””â”€ Additional (A): [IP address]
+├─ Transaction ID: 0x0000
+├─ Flags: 0x8400 (Response, Authoritative)
+├─ Questions: 1
+├─ Answer RRs: 1
+├─ Question: _libern._tcp.local PTR ?
+├─ Answer (SRV):
+│   ├─ Priority: 0
+│   ├─ Weight: 0
+│   ├─ Port: 9876
+│   └─ Target: hostname.local
+└─ Additional (A): [IP address]
 ```
 
 **WebSocket CRDT Sync:**
 ```
 TCP Connection
-â”œâ”€ Source: [peer A IP]:[port]
-â”œâ”€ Destination: [peer B IP]:[port]
-â””â”€ Protocol: TCP
+├─ Source: [peer A IP]:[port]
+├─ Destination: [peer B IP]:[port]
+└─ Protocol: TCP
 
 WebSocket Upgrade
-â”œâ”€ GET /libern HTTP/1.1
-â”œâ”€ Upgrade: websocket
-â”œâ”€ Connection: Upgrade
-â”œâ”€ Sec-WebSocket-Key: [base64]
-â””â”€ Sec-WebSocket-Protocol: libern-crdt-v1
+├─ GET /libern HTTP/1.1
+├─ Upgrade: websocket
+├─ Connection: Upgrade
+├─ Sec-WebSocket-Key: [base64]
+└─ Sec-WebSocket-Protocol: libern-crdt-v1
 
 WebSocket Frames (JSON)
-â”œâ”€ Frame 1: Handshake challenge
-â”‚   {"type":"handshake","challenge":"base64...","pubkey":"base64..."}
-â”œâ”€ Frame 2: Handshake response
-â”‚   {"type":"handshake_response","signature":"base64...","pubkey":"base64..."}
-â”œâ”€ Frame 3+: CRDT operations
-â”‚   {"type":"crdt_merge","payload":{...},"sender_id":"...","signature":"..."}
-â””â”€ Heartbeat (every 30s)
+├─ Frame 1: Handshake challenge
+│   {"type":"handshake","challenge":"base64...","pubkey":"base64..."}
+├─ Frame 2: Handshake response
+│   {"type":"handshake_response","signature":"base64...","pubkey":"base64..."}
+├─ Frame 3+: CRDT operations
+│   {"type":"crdt_merge","payload":{...},"sender_id":"...","signature":"..."}
+└─ Heartbeat (every 30s)
     {"type":"ping"} / {"type":"pong"}
 ```
 
@@ -574,16 +574,16 @@ Encryption:
 [2026-06-19 10:00:05] mDNS: Discovered peer "alice-laptop" at 192.168.1.50:9877
 [2026-06-19 10:00:06] WS: Connecting to ws://192.168.1.50:9877/libern
 [2026-06-19 10:00:06] WS: Handshake initiated (challenge sent)
-[2026-06-19 10:00:06] WS: Handshake complete â€” peer authenticated as "alice"
+[2026-06-19 10:00:06] WS: Handshake complete — peer authenticated as "alice"
 [2026-06-19 10:00:07] CRDT: Starting initial sync with peer "alice"
-[2026-06-19 10:00:08] CRDT: Sync complete â€” 1,247 operations exchanged
+[2026-06-19 10:00:08] CRDT: Sync complete — 1,247 operations exchanged
 [2026-06-19 10:00:10] NET: Connection to "alice" established and synced
 ```
 
 ### Zero-Traffic Verification Log
 
 ```
-[2026-06-19 14:00:00] NET: Libern idle â€” no user-initiated activity
+[2026-06-19 14:00:00] NET: Libern idle — no user-initiated activity
 [2026-06-19 14:00:01] mDNS: Announcement sent (scheduled, every 60s)
 [2026-06-19 14:00:01] NET: No other network traffic detected
 [2026-06-19 14:01:00] mDNS: Announcement sent
@@ -591,7 +591,7 @@ Encryption:
 [2026-06-19 14:02:00] mDNS: Announcement sent
 [2026-06-19 14:02:00] NET: No other network traffic detected
 ...
-[2026-06-19 15:00:00] NET: 1 hour idle â€” only mDNS announcements (60 packets total)
+[2026-06-19 15:00:00] NET: 1 hour idle — only mDNS announcements (60 packets total)
 [2026-06-19 15:00:00] NET: Zero unexpected network connections
 [2026-06-19 15:00:00] NET: Zero DNS queries
 [2026-06-19 15:00:00] NET: Zero HTTP/HTTPS requests
@@ -601,11 +601,11 @@ Encryption:
 
 ## References
 
-- **Source code:** `apps/sandbox/src/audio.rs` â€” Voice UDP audio streaming
-- **Source code:** `apps/sandbox/src/voice.rs` â€” Voice activity detection and transmission
-- **Source code:** `crates/libern-core/src/crdt/mod.rs` â€” CRDT operations synced over WebSocket
-- **Source code:** `crates/libern-core/src/crypto/mod.rs` â€” Ed25519 handshake for P2P auth
-- **Source code:** `crates/libern-aioss/src/state_proof.rs` â€” Ed25519 signing for state proofs
+- **Source code:** `apps/sandbox/src/audio.rs` — Voice UDP audio streaming
+- **Source code:** `apps/sandbox/src/voice.rs` — Voice activity detection and transmission
+- **Source code:** `crates/libern-core/src/crdt/mod.rs` — CRDT operations synced over WebSocket
+- **Source code:** `crates/libern-core/src/crypto/mod.rs` — Ed25519 handshake for P2P auth
+- **Source code:** `crates/libern-aioss/src/state_proof.rs` — Ed25519 signing for state proofs
 - **RFC 6762:** Multicast DNS (mDNS)
 - **RFC 6455:** WebSocket Protocol
 - **RFC 6716:** Opus Audio Codec
@@ -619,7 +619,7 @@ Encryption:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -642,3 +642,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

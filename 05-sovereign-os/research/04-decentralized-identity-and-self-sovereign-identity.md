@@ -1,12 +1,12 @@
-﻿# Decentralized Identity and Self-Sovereign Identity: Foundations for User-Controlled Authentication in the 01s Sovereign OS
+# Decentralized Identity and Self-Sovereign Identity: Foundations for User-Controlled Authentication in the 01s Sovereign OS
 
 ## Abstract
 
-Decentralized identity and self-sovereign identity (SSI) represent a paradigm shift in digital identity management, moving from centrally-controlled identity providers to user-controlled, verifiable credentials. This paper examines the SSI landscape â€” including W3C Decentralized Identifiers (DIDs), Verifiable Credentials (VCs), and the Sovrin and uPort implementations â€” and demonstrates how the 01s Sovereign (Kaiman) operating system integrates these technologies to provide users with complete ownership of their digital identity.
+Decentralized identity and self-sovereign identity (SSI) represent a paradigm shift in digital identity management, moving from centrally-controlled identity providers to user-controlled, verifiable credentials. This paper examines the SSI landscape — including W3C Decentralized Identifiers (DIDs), Verifiable Credentials (VCs), and the Sovrin and uPort implementations — and demonstrates how the 01s Sovereign (Kaiman) operating system integrates these technologies to provide users with complete ownership of their digital identity.
 
 ## 1. Introduction
 
-Traditional identity management systems are built around centralized identity providers (IdPs). Users must authenticate through Google, Facebook, Microsoft, or government-issued credentials, creating dependencies on third parties that can revoke access, censor content, or compromise privacy. The 01s Sovereign OS adopts self-sovereign identity principles, ensuring that users â€” not platforms â€” control their digital identities.
+Traditional identity management systems are built around centralized identity providers (IdPs). Users must authenticate through Google, Facebook, Microsoft, or government-issued credentials, creating dependencies on third parties that can revoke access, censor content, or compromise privacy. The 01s Sovereign OS adopts self-sovereign identity principles, ensuring that users — not platforms — control their digital identities.
 
 ## 2. The Evolution of Digital Identity
 
@@ -16,7 +16,7 @@ In the early internet, each service maintained its own identity silo. Users mana
 
 ### 2.2 Federated Identity (Web 2.0)
 
-Protocols like SAML (OASIS 2005) and OpenID Connect (Sakimura et al. 2014) enabled federated identity â€” users could authenticate through a single IdP across multiple services. While more convenient, this model concentrates power and privacy risk in the IdP.
+Protocols like SAML (OASIS 2005) and OpenID Connect (Sakimura et al. 2014) enabled federated identity — users could authenticate through a single IdP across multiple services. While more convenient, this model concentrates power and privacy risk in the IdP.
 
 ### 2.3 Self-Sovereign Identity (Web 3.0)
 
@@ -246,13 +246,13 @@ Goodell, Geoffrey, and Steven D. A. Ross. "Sovrin: A Protocol and Token for Self
 
 Grassi, Paul A., et al. "Digital Identity Guidelines." NIST Special Publication 800-63-3, 2017.
 
-KÃ¶hler, Sebastian, et al. "Self-Sovereign Identity and the GDPR: A Legal Analysis." Datenschutz und Datensicherheit, vol. 45, 2021, pp. 378-383.
+Köhler, Sebastian, et al. "Self-Sovereign Identity and the GDPR: A Legal Analysis." Datenschutz und Datensicherheit, vol. 45, 2021, pp. 378-383.
 
 Lesavre, Loic, et al. "A Taxonomic Approach to Understanding Emerging Blockchain Identity Management Systems." NIST Cybersecurity White Paper, 2020.
 
 Lundkvist, Christian, et al. "uPort: A Platform for Self-Sovereign Identity." uPort Whitepaper, 2017.
 
-MÃ¼hle, Alexander, et al. "A Survey on Essential Components of a Self-Sovereign Identity." Computer Science Review, vol. 30, 2018, pp. 80-86.
+Mühle, Alexander, et al. "A Survey on Essential Components of a Self-Sovereign Identity." Computer Science Review, vol. 30, 2018, pp. 80-86.
 
 Naik, Nitin, and Paul Jenkins. "Self-Sovereign Identity Specifications: A Comparative Analysis of the Standards." IEEE International Conference on Systems, Man, and Cybernetics, 2020, pp. 2663-2670.
 
@@ -365,10 +365,10 @@ Deploying cryptographic audit at the OS level requires:
 5. Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." CRYPTO, 1992.
 6. Ferguson, Niels, et al. Cryptography Engineering. Wiley, 2010.
 7. Goodman, Seymour, and Herbert Lin. "Software Transparency." Communications of the ACM, vol. 65, no. 3, 2022, pp. 40-42.
-8. Johansen, Håvard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
+8. Johansen, H�vard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
 9. Kelsey, John, et al. "Cryptographic Standards in the Post-Quantum Era." NIST IR 8413, 2022.
 10. Lamport, Leslie. "The Part-Time Parliament." ACM Transactions on Computer Systems, vol. 16, no. 2, 1998, pp. 133-169.
-11. Maillet, Sébastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
+11. Maillet, S�bastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
 12. Paar, Christof, and Jan Pelzl. Understanding Cryptography. Springer, 2010.
 13. Rescorla, Eric. SSL and TLS: Designing and Building Secure Systems. Addison-Wesley, 2001.
 14. Schneier, Bruce. "Security in the Age of AI." Schneier on Security, 2023.
@@ -451,7 +451,7 @@ This analysis demonstrates that the cryptographic audit infrastructure in 01s So
 9. Stallings, William. Cryptography and Network Security: Principles and Practice. 7th ed., Pearson, 2017.
 10. Goldreich, Oded. Foundations of Cryptography: Basic Tools. Cambridge University Press, 2001.
 11. Cramer, Ronald, et al. "Design and Analysis of Cryptographic Protocols." Springer, 2020.
-12. Damgård, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
+12. Damg�rd, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
 13. Dziembowski, Stefan, et al. "Introduction to Modern Cryptography." University of Warsaw, 2021.
 14. Gentry, Craig. "A Fully Homomorphic Encryption Scheme." Stanford PhD Thesis, 2009.
 15. Bellare, Mihir, and Phillip Rogaway. "Introduction to Modern Cryptography." UCSD, 2005.
@@ -502,7 +502,7 @@ This research employed a multi-method approach combining: (1) a systematic liter
 The literature review followed PRISMA guidelines. Database searches were conducted on ACM Digital Library, IEEE Xplore, USENIX, IACR ePrint, arXiv, and Google Scholar using query strings combining topic-specific terms (e.g., "hash chain integrity," "tamper-evident logging") with "operating system," "audit," and "transparency." Initial searches yielded 847 unique results. After title/abstract screening, 312 papers proceeded to full-text review. A final corpus of 89 papers were included in the synthesis based on relevance to desktop OS auditability.
 
 ### Empirical Measurement Methodology
-All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Â±2% accuracy, sampled every second over a 30-minute measurement period.
+All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with ±2% accuracy, sampled every second over a 30-minute measurement period.
 
 ## Comparison with Related Work
 
@@ -691,7 +691,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -714,3 +714,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

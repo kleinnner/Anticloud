@@ -1,15 +1,15 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Deterministic CRDT
 
@@ -36,9 +36,9 @@ Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 ## Overview
 
 Libern uses **Conflict-Free Replicated Data Types (CRDTs)** to synchronize state across peers in a P2P network. CRDTs are a class of data structures designed for distributed systems where:
-- Operations are **deterministic** â€” the same input always produces the same output.
-- Merges are **predictable** â€” merging two states always converges to the same result, regardless of order.
-- There is **no central coordinator** â€” every peer can independently compute the correct state.
+- Operations are **deterministic** — the same input always produces the same output.
+- Merges are **predictable** — merging two states always converges to the same result, regardless of order.
+- There is **no central coordinator** — every peer can independently compute the correct state.
 
 The CRDT implementation is in `crates/libern-core/src/crdt/mod.rs`. It provides a `HybridLogicalClock` (HLC) for timestamping and a `LwwElementSet` (Last-Write-Wins Element Set) for data structure synchronization.
 
@@ -58,8 +58,8 @@ set.add("element_b", 200);
 set.remove("element_a", 150);
 
 // The snapshot is ALWAYS:
-// ["element_a"] â€” because add(100) > remove(150) for element_a
-// ["element_b"] â€” because add(200) has no conflicting remove
+// ["element_a"] — because add(100) > remove(150) for element_a
+// ["element_b"] — because add(200) has no conflicting remove
 
 // This result is guaranteed regardless of:
 // - Which machine runs the code
@@ -76,7 +76,7 @@ Every function in the CRDT module is deterministic:
 impl<T: Clone + Eq + std::hash::Hash> LwwElementSet<T> {
     pub fn add(&mut self, element: T, timestamp: u64) {
         // Pure side-effect: appends to self.adds
-        // Deterministic: same inputs â†’ same state
+        // Deterministic: same inputs → same state
     }
 
     pub fn remove(&mut self, element: T, timestamp: u64) {
@@ -85,7 +85,7 @@ impl<T: Clone + Eq + std::hash::Hash> LwwElementSet<T> {
 
     pub fn snapshot(&self) -> Vec<T> {
         // Pure function: depends only on self's state
-        // Deterministic: same state â†’ same snapshot
+        // Deterministic: same state → same snapshot
     }
 
     pub fn merge(&mut self, other: &LwwElementSet<T>) {
@@ -157,7 +157,7 @@ a.merge(&b);
 // a now has: x(100), y(200), y(250), z(300)
 // Note: y appears twice with different timestamps
 
-// Merge B into A â€” should give same result
+// Merge B into A — should give same result
 let mut a2 = LwwElementSet::new();
 a2.add("x", 100);
 a2.add("y", 200);
@@ -228,7 +228,7 @@ pub fn update_with_remote(&mut self, remote_ts: u64) -> u64 {
 |----------|-------------------|----------------|
 | Strictly increasing | Physical + logical advance | Every event has a unique timestamp |
 | Causality preserving | Remote update syncs clocks | If A caused B, ts(A) < ts(B) |
-| Deterministic merge | Max-rule for conflicts | Same timestamps â†’ same merge result |
+| Deterministic merge | Max-rule for conflicts | Same timestamps → same merge result |
 | Bounded | 48-bit physical + 16-bit logical | No overflow concerns in practice |
 
 ---
@@ -273,7 +273,7 @@ pub fn snapshot(&self) -> Vec<T> {
 
 | Operations | Add TS | Remove TS | Snapshots | Explanation |
 |-----------|--------|-----------|-----------|-------------|
-| add("a"), 100 | 100 | â€” | `["a"]` | Added, not removed |
+| add("a"), 100 | 100 | — | `["a"]` | Added, not removed |
 | add("a", 100), remove("a", 50) | 100 | 50 | `["a"]` | Add wins (later timestamp) |
 | add("a", 100), remove("a", 200) | 100 | 200 | `[]` | Remove wins (later timestamp) |
 | add("a", 100), remove("a", 200), add("a", 300) | 100, 300 | 200 | `["a"]` | Last add (300) wins over remove (200) |
@@ -294,13 +294,13 @@ pub fn snapshot(&self) -> Vec<T> {
 ### Non-Conflicting Operations
 
 Some operations in Libern are designed to never conflict:
-- **Messages in different channels** â€” Channel ID is part of the key.
-- **Messages from different users** â€” Author ID is part of the key.
-- **Events at different HLC timestamps** â€” HLC guarantees uniqueness.
+- **Messages in different channels** — Channel ID is part of the key.
+- **Messages from different users** — Author ID is part of the key.
+- **Events at different HLC timestamps** — HLC guarantees uniqueness.
 
 ### Conflict Window
 
-There is a brief window during which two peers may have divergent states (before they synchronize). This is expected and handled by the CRDT merge â€” once the merge completes, both peers converge to the same state.
+There is a brief window during which two peers may have divergent states (before they synchronize). This is expected and handled by the CRDT merge — once the merge completes, both peers converge to the same state.
 
 ---
 
@@ -351,7 +351,7 @@ fn test_lww_merge_idempotent() {
     b_snap.sort();
     assert_eq!(a_snap, b_snap);
 
-    // Merge again â€” no change
+    // Merge again — no change
     a.merge(&b);
     assert_eq!(a.snapshot(), a_snap);
 }
@@ -434,8 +434,8 @@ Proof:
 - merge() only appends elements not already present in the target set
 - Element comparison uses equality (e == other_e)
 - Both merge(A, B) and merge(B, A) result in:
-  adds = unique(A.adds âˆª B.adds)
-  removes = unique(A.removes âˆª B.removes)
+  adds = unique(A.adds ∪ B.adds)
+  removes = unique(A.removes ∪ B.removes)
 - Since set union is commutative, merge is commutative
 ```
 
@@ -447,7 +447,7 @@ Given: (A.merge(B)).merge(C) == A.merge(B.merge(C))
 Proof:
 - merge() is a monotonic operation: state only grows, never shrinks
 - The final state depends only on the total set of adds and removes
-- Combining sets is associative: (A âˆª B) âˆª C = A âˆª (B âˆª C)
+- Combining sets is associative: (A ∪ B) ∪ C = A ∪ (B ∪ C)
 - Therefore merge is associative
 ```
 
@@ -458,7 +458,7 @@ Given: A.merge(A) == A
 
 Proof:
 - merge() only adds elements from other if they are not already in self
-- Merge(A, A): for each element in A.adds, it already exists in self.adds â†’ no change
+- Merge(A, A): for each element in A.adds, it already exists in self.adds → no change
 - Same for A.removes
 - Therefore A.merge(A) == A
 ```
@@ -468,13 +468,13 @@ Proof:
 ### HLC Bit Layout
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚               Physical Clock (48 bits)        â”‚ Logical (16) â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚  Bits 63-16: Milliseconds since epoch         â”‚ Bits 15-0:   â”‚
-â”‚  Range: 0 to 2^48-1 (~8,925 years)          â”‚ Overflow     â”‚
-â”‚                                               â”‚ counter      â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌──────────────────────────────────────────────┬──────────────┐
+│               Physical Clock (48 bits)        │ Logical (16) │
+├──────────────────────────────────────────────┼──────────────┤
+│  Bits 63-16: Milliseconds since epoch         │ Bits 15-0:   │
+│  Range: 0 to 2^48-1 (~8,925 years)          │ Overflow     │
+│                                               │ counter      │
+└──────────────────────────────────────────────┴──────────────┘
 ```
 
 ### HLC Encoding/Decoding
@@ -509,11 +509,11 @@ pub fn decode(ts: u64) -> (u64, u16) {
 
 | Operation | Time (100 elements) | Time (10,000 elements) | Time (1M elements) |
 |-----------|-------------------|----------------------|-------------------|
-| add() | 0.5 Âµs | 5 Âµs | 500 Âµs |
-| remove() | 0.5 Âµs | 5 Âµs | 500 Âµs |
-| snapshot() | 2 Âµs | 200 Âµs | 50 ms |
-| merge() | 5 Âµs | 500 Âµs | 200 ms |
-| Property test | 10 Âµs | 1 ms | N/A |
+| add() | 0.5 µs | 5 µs | 500 µs |
+| remove() | 0.5 µs | 5 µs | 500 µs |
+| snapshot() | 2 µs | 200 µs | 50 ms |
+| merge() | 5 µs | 500 µs | 200 ms |
+| Property test | 10 µs | 1 ms | N/A |
 
 ### Memory Usage
 
@@ -573,9 +573,9 @@ fn test_lww_merge_concurrent_ops()      // Concurrent add+remove
 
 ## References
 
-- **Source code:** `crates/libern-core/src/crdt/mod.rs` â€” `HybridLogicalClock`, `LwwElementSet`
-- **Source code:** `crates/libern-core/src/crdt/mod.rs` â€” Lines 141-207: Comprehensive unit tests
-- **Source code:** `crates/libern-core/Cargo.toml` â€” Dependencies for CRDT module
+- **Source code:** `crates/libern-core/src/crdt/mod.rs` — `HybridLogicalClock`, `LwwElementSet`
+- **Source code:** `crates/libern-core/src/crdt/mod.rs` — Lines 141-207: Comprehensive unit tests
+- **Source code:** `crates/libern-core/Cargo.toml` — Dependencies for CRDT module
 - **Academic:** Marc Shapiro et al., "A comprehensive study of Convergent and Commutative Replicated Data Types" (CRDT paper)
 - **Academic:** Sandeep S. Kulkarni et al., "Logical Physical Clocks" (HLC paper)
 
@@ -588,7 +588,7 @@ fn test_lww_merge_concurrent_ops()      // Concurrent add+remove
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -611,3 +611,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

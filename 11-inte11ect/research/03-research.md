@@ -1,4 +1,4 @@
-﻿<!-- ASCII Art for Asc-11 -->
+<!-- ASCII Art for Asc-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 03 — Mixture of Experts vs Eigenvector Routing
+# research - Document 03 � Mixture of Experts vs Eigenvector Routing
 
 > **Associated Module:** Asc-11
 > **Category:** Research & Development
@@ -30,23 +30,23 @@ This document is organized as follows: Section 2 introduces the theoretical fram
 
 ### 2.1 Formal Problem Definition
 
-Let M = {m₁, m₂, ..., mₙ} be a set of expert modules, where n = 72 in the Inte11ect platform. Given an input embedding x ∈ ℝᵈ, a routing function R: ℝᵈ → [0,1]ⁿ computes a routing vector r = R(x) where rᵢ represents the relevance of module mᵢ for processing x. The output of the system is computed as:
+Let M = {m1, m2, ..., m?} be a set of expert modules, where n = 72 in the Inte11ect platform. Given an input embedding x ? R?, a routing function R: R? ? [0,1]n computes a routing vector r = R(x) where r? represents the relevance of module m? for processing x. The output of the system is computed as:
 
 ```
-Output(x) = Σᵢ rᵢ · fᵢ(x)
+Output(x) = S? r? � f?(x)
 ```
 
-Where fᵢ is the function computed by module mᵢ. The sparsity constraint ||r||₀ ≤ k ensures that at most k modules are activated per inference step.
+Where f? is the function computed by module m?. The sparsity constraint ||r||0 = k ensures that at most k modules are activated per inference step.
 
 ### 2.2 Routing Quality Metrics
 
 We define three metrics to evaluate routing quality:
 
-1. **Expert Utilization**: U = (1/T) Σₜ (||rₜ||₀ / n), measuring the fraction of modules activated on average.
+1. **Expert Utilization**: U = (1/T) S? (||r?||0 / n), measuring the fraction of modules activated on average.
 
-2. **Routing Overlap**: O = (2/(T(T-1))) Σₜ Σ_{s≠t} cosine_similarity(rₜ, r_s), measuring the diversity of routing decisions across inputs.
+2. **Routing Overlap**: O = (2/(T(T-1))) S? S_{s?t} cosine_similarity(r?, r_s), measuring the diversity of routing decisions across inputs.
 
-3. **Task Alignment**: A = (1/T) Σₜ accuracy(task_prediction(rₜ), ground_truth), measuring how well routing decisions align with task requirements.
+3. **Task Alignment**: A = (1/T) S? accuracy(task_prediction(r?), ground_truth), measuring how well routing decisions align with task requirements.
 
 ```python
 import numpy as np
@@ -139,7 +139,7 @@ class MoELayer(nn.Module):
 
 ### 3.2 Load Balancing and Auxiliary Loss
 
-A critical challenge in MoE training is load balancing — ensuring that all experts receive comparable numbers of tokens. The standard approach is the auxiliary load-balancing loss:
+A critical challenge in MoE training is load balancing � ensuring that all experts receive comparable numbers of tokens. The standard approach is the auxiliary load-balancing loss:
 
 ```python
 def load_balancing_loss(routing_weights: torch.Tensor,
@@ -169,10 +169,10 @@ The Mixtral 8x7B architecture, which serves as a primary reference, uses a top-2
 ```mermaid
 flowchart LR
     subgraph "Input Token"
-        A[x ∈ ℝ^d]
+        A[x ? R^d]
     end
     subgraph "Gating Network"
-        B[W_g · x]
+        B[W_g � x]
         C[Softmax]
         D[Top-2 Selection]
     end
@@ -183,7 +183,7 @@ flowchart LR
         E4[...]
     end
     subgraph "Output"
-        F["Σ r_i · f_i(x)"]
+        F["S r_i � f_i(x)"]
     end
     A --> B
     B --> C
@@ -199,7 +199,7 @@ Key parameters of the Mixtral routing:
 - Number of experts: 8
 - Top-k: 2
 - Expert hidden dimension: 14336
-- Total parameters: ~47B (8 × 7B with shared attention)
+- Total parameters: ~47B (8 � 7B with shared attention)
 - Active parameters per token: ~13B
 
 ### 3.4 Limitations of Learned Gating
@@ -354,7 +354,7 @@ The spectral analysis reveals that the first eigenvector captures global module 
 | Interpretability | Low (black-box gating weights) | High (spectral dimensions interpretable) |
 | Adversarial robustness | Moderate | High (no learned parameters to manipulate) |
 | Transfer learning | Requires retraining gating | Graph structure transfers across tasks |
-| Computational cost | O(d · n) for gating | O(d · k + n³) for decomposition (amortized) |
+| Computational cost | O(d � n) for gating | O(d � k + n�) for decomposition (amortized) |
 
 ### 5.2 Computational Complexity
 
@@ -363,7 +363,7 @@ The per-inference complexity of each routing approach:
 ```python
 def analyze_routing_complexity(input_dim: int, num_modules: int, 
                                num_eigenvectors: int):
-    # MoE gating: matrix multiply input → logits, top-k selection
+    # MoE gating: matrix multiply input ? logits, top-k selection
     moe_flops = 2 * input_dim * num_modules  # W_g @ x
     moe_flops += num_modules * np.log(num_modules)  # top-k (sorting lower bound)
     
@@ -387,9 +387,9 @@ Results for the Inte11ect configuration (d=1536, n=72, k=16):
 
 | Routing Method | FLOPS (per inference) | Ratio vs EV |
 |---|---|---|
-| MoE Gating | 221,184 | 1.68× |
-| Eigenvector Routing | 131,712 | 1.0× (baseline) |
-| Eigenvector (w/ cache) | 24,576 | 0.19× |
+| MoE Gating | 221,184 | 1.68� |
+| Eigenvector Routing | 131,712 | 1.0� (baseline) |
+| Eigenvector (w/ cache) | 24,576 | 0.19� |
 
 ### 5.3 Expert Utilization and Load Balance
 
@@ -460,7 +460,7 @@ def evaluate_routing_stability(router, num_samples: int = 1000,
 | 0.10 | 0.58 | 0.87 |
 | 0.50 | 0.32 | 0.62 |
 
-Eigenvector Routing maintains significantly higher routing stability under all noise conditions, with 1.9× the overlap of MoE at high noise levels.
+Eigenvector Routing maintains significantly higher routing stability under all noise conditions, with 1.9� the overlap of MoE at high noise levels.
 
 ## 6. Empirical Results
 
@@ -470,10 +470,10 @@ Experiments were conducted on an NVIDIA A100 (80 GB) GPU cluster with 8 nodes. T
 
 | Parameter | MoE | Eigenvector Routing |
 |---|---|---|
-| Total parameters | 47B | 12B (72 × 167M) |
+| Total parameters | 47B | 12B (72 � 167M) |
 | Active parameters | 13B | 4B (24 active modules) |
 | Training tokens | 500B | 200B |
-| Training hardware | 8 × A100 | 4 × A100 |
+| Training hardware | 8 � A100 | 4 � A100 |
 | Learning rate | 1e-4 | 3e-4 |
 
 ### 6.2 Task-Specific Accuracy
@@ -492,11 +492,11 @@ Experiments were conducted on an NVIDIA A100 (80 GB) GPU cluster with 8 nodes. T
 
 | Metric | MoE | Eigenvector | Improvement |
 |---|---|---|---|
-| Routing latency (µs) | 187 | 42 | 4.5× faster |
-| Total inference latency (ms) | 89 | 52 | 1.7× faster |
-| Memory usage (GB) | 14.7 | 5.2 | 2.8× less |
-| Throughput (tok/s) | 145 | 332 | 2.3× higher |
-| Energy per token (J) | 4.2 | 1.8 | 2.3× less |
+| Routing latency (�s) | 187 | 42 | 4.5� faster |
+| Total inference latency (ms) | 89 | 52 | 1.7� faster |
+| Memory usage (GB) | 14.7 | 5.2 | 2.8� less |
+| Throughput (tok/s) | 145 | 332 | 2.3� higher |
+| Energy per token (J) | 4.2 | 1.8 | 2.3� less |
 
 ### 6.4 Expert Utilization Analysis
 
@@ -549,12 +549,12 @@ Eigenvector Routing achieves 100% routing reproducibility, while MoE achieves 0%
 Despite the advantages of Eigenvector Routing, MoE-based approaches remain superior in certain scenarios:
 
 1. **Dynamic task adaptation**: MoE gating can rapidly adapt to new tasks through fine-tuning of the gating network, whereas Eigenvector Routing requires graph updates followed by spectral recomputation.
-2. **Very large expert counts**: For architectures with thousands of experts (e.g., GLaM), the O(n³) spectral decomposition becomes prohibitive, requiring approximation techniques.
+2. **Very large expert counts**: For architectures with thousands of experts (e.g., GLaM), the O(n�) spectral decomposition becomes prohibitive, requiring approximation techniques.
 3. **Multi-task learning**: The shared gating function in MoE naturally captures cross-task transfer patterns that may be fragmented across independent eigenvectors.
 
 ### 7.2 Eigenvector Routing Limitations
 
-1. **Spectral recomputation cost**: Updates to the relevance matrix require O(n³) recomputation of the eigendecomposition, which takes approximately 850ms for n=72 on a modern CPU.
+1. **Spectral recomputation cost**: Updates to the relevance matrix require O(n�) recomputation of the eigendecomposition, which takes approximately 850ms for n=72 on a modern CPU.
 2. **Cold-start problem**: Without sufficient co-activation statistics, the initial spectral embedding may poorly reflect module relationships.
 3. **Graph stationarity assumption**: Eigenvector Routing assumes the module relevance structure changes slowly relative to the spectral recomputation interval.
 
@@ -597,7 +597,7 @@ While MoE remains superior for certain dynamic adaptation scenarios, the Inte11e
 
 1. Ahmed, A., & Das, A. (2024). Spectral Methods for Neural Network Routing. *International Conference on Learning Representations*.
 
-2. Bengio, Y., Léonard, N., & Courville, A. (2013). Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation. *arXiv preprint arXiv:1308.3432*.
+2. Bengio, Y., L�onard, N., & Courville, A. (2013). Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation. *arXiv preprint arXiv:1308.3432*.
 
 3. Chen, B., Dao, T., & Liang, P. (2023). Mixture of Quantized Experts. *Advances in Neural Information Processing Systems*, 36.
 
@@ -679,7 +679,7 @@ While MoE remains superior for certain dynamic adaptation scenarios, the Inte11e
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -702,3 +702,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿▄▄                     ██               ▄▄                                    
-██                     ▀▀               ██                                    
-██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
-██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
-██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
-██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
-▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
+__                     ��               __                                    
+��                     ��               ��                                    
+��            ___�   ����     �___      ��_���_    _����_    ��_����  ��_����_
+��        __����       ��       ����__  ���  ���  ��____��   ���      ���   ��
+��        ���___       ��       ___���  ��    ��  ��������   ��       ��    ��
+��______      ����  ___��___  ����      ���__���  ���____�   ��       ��    ��
+��������            ��������            �� ���      �����    ��       ��    ��
 
-Libern — Sovereign Collaborative Telecom Engine
+Libern � Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 Document Version: 1.0.0
@@ -14,7 +14,7 @@ Category: Feature Paper
 Document ID: PAP-001
 Last Updated: 2026-06-19
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 # Business Decision Record (BDR)
 
@@ -370,10 +370,10 @@ Error boundaries, keyboard shortcuts, settings, i18n, performance, accessibility
 - ADL-004: Network Protocol
 - ADL-005: AI Engine Architecture
 - ADL-006: Permission System
-- LIBERN_BUILD_PLAN.md — Implementation plan
-- AI_FEATURES_PLAN.md — AI subsystem design
+- LIBERN_BUILD_PLAN.md � Implementation plan
+- AI_FEATURES_PLAN.md � AI subsystem design
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
@@ -548,11 +548,11 @@ Track the health of the architecture decision process:
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
-| Decisions documented | All major decisions | 11 BDRs + 15 ADLs | ✅ |
-| Decision reversal rate | <20% | ~5% | ✅ |
-| Time to reach decision | <2 weeks | ~1 week | ✅ |
-| Contributors involved | >2 per decision | 3-5 | ✅ |
-| Code references per decision | >3 | >5 | ✅ |
+| Decisions documented | All major decisions | 11 BDRs + 15 ADLs | ? |
+| Decision reversal rate | <20% | ~5% | ? |
+| Time to reach decision | <2 weeks | ~1 week | ? |
+| Contributors involved | >2 per decision | 3-5 | ? |
+| Code references per decision | >3 | >5 | ? |
 
 The architecture decision process is reviewed quarterly to ensure it remains effective as the project grows.
 
@@ -1184,141 +1184,141 @@ export const useServerStore = create<ServerStore>((set, get) => ({
 
 `
 libern/
-├── Cargo.toml                          # Workspace root
-├── build.bat                           # Build orchestration
-├── LIBERN_BUILD_PLAN.md                # Build plan documentation
-├── AI_FEATURES_PLAN.md                 # AI subsystem plan
-├── COMPETITIVE_EDGE.md                 # Competitive analysis
-├── crates/
-│   ├── libern-core/                    # Core library
-│   │   ├── Cargo.toml
-│   │   └── src/
-│   │       ├── lib.rs
-│   │       ├── crdt/mod.rs             # CRDT engine
-│   │       ├── crypto/mod.rs           # Cryptographic primitives
-│   │       ├── db/
-│   │       │   ├── mod.rs              # Database initialization
-│   │       │   ├── schema.rs           # Schema definition
-│   │       │   └── models.rs           # Data models
-│   │       └── ai/
-│   │           ├── mod.rs              # AiEngine trait
-│   │           ├── engine.rs           # MockEngine
-│   │           ├── qwen_engine.rs      # CandleEngine
-│   │           ├── pipeline.rs         # Prompt construction
-│   │           ├── summarizer.rs       # Channel summarization
-│   │           ├── moderator.rs        # Content moderation
-│   │           ├── rag.rs              # Document RAG
-│   │           ├── conversation.rs     # Context management
-│   │           ├── liber_user.rs       # Liber identity
-│   │           └── reward.rs           # RLHF feedback
-│   └── libern-aioss/                   # .aioss format
-│       ├── Cargo.toml
-│       └── src/
-│           ├── lib.rs
-│           ├── header.rs               # 128-byte header
-│           ├── entry.rs                # 256-byte entry
-│           ├── ledger.rs               # Ledger types
-│           ├── writer.rs               # Binary/JSON writer
-│           ├── reader.rs               # Binary/JSON reader
-│           ├── verify.rs               # Chain verification
-│           ├── health.rs               # Health diagnostics
-│           ├── event_store.rs          # Event persistence
-│           ├── state_proof.rs          # Ed25519 proofs
-│           ├── schedule.rs             # Session sealing
-│           └── txt_log.rs              # TXT export
-├── apps/
-│   ├── desktop/                        # Tauri desktop app
-│   │   ├── src/
-│   │   │   ├── App.tsx
-│   │   │   ├── main.tsx
-│   │   │   ├── lib/api.ts
-│   │   │   ├── lib/ai.ts
-│   │   │   ├── lib/utils.ts
-│   │   │   ├── stores/serverStore.ts
-│   │   │   ├── stores/messageStore.ts
-│   │   │   ├── stores/uiStore.ts
-│   │   │   └── types/index.ts
-│   │   └── src-tauri/
-│   │       ├── Cargo.toml
-│   │       ├── tauri.conf.json
-│   │       ├── build.rs
-│   │       └── src/
-│   │           ├── main.rs
-│   │           ├── lib.rs
-│   │           └── commands/
-│   │               ├── mod.rs
-│   │               ├── server.rs
-│   │               ├── channel.rs
-│   │               ├── message.rs
-│   │               ├── user.rs
-│   │               ├── role.rs
-│   │               ├── ai.rs
-│   │               ├── xp.rs
-│   │               ├── stats.rs
-│   │               └── stars.rs
-│   └── sandbox/                        # 3D Boxel engine
-│       ├── Cargo.toml
-│       └── src/
-│           ├── main.rs
-│           ├── liber.rs
-│           ├── world.rs
-│           ├── player.rs
-│           ├── character.rs
-│           ├── camera.rs
-│           ├── cube.rs
-│           ├── texture.rs
-│           ├── audio.rs
-│           ├── voice.rs
-│           ├── chat.rs
-│           ├── pipeline.rs
-│           └── screen_share.rs
-├── docs/
-│   ├── README.md
-│   ├── bdrs/                           # Architecture decisions
-│   ├── feature-papers/                 # Feature documentation
-│   ├── csr/                            # Corporate social responsibility
-│   ├── no-more-silicon/                # Hardware independence
-│   ├── competitors/                    # Competitive analysis
-│   ├── compliance/                     # Compliance documentation
-│   ├── data-safety/                    # Data safety documentation
-│   ├── developers/                     # Developer documentation
-│   ├── enterprise/                     # Enterprise documentation
-│   ├── faqs/                           # Frequently asked questions
-│   ├── features/                       # Feature documentation
-│   ├── governance/                     # Project governance
-│   ├── help-bugs/                      # Bug reporting
-│   ├── howto-community/                # Community how-to guides
-│   ├── howto-developers/               # Developer how-to guides
-│   ├── howto-enterprise/               # Enterprise how-to guides
-│   ├── incident-recovery/              # Incident recovery docs
-│   ├── investors/                      # Investor documentation
-│   ├── no-black-boxes/                 # Transparency docs
-│   ├── privacy/                        # Privacy documentation
-│   ├── research/                       # Research documentation
-│   ├── tutorial/                       # Tutorial documentation
-│   └── why-use/                        # Why-use documentation
-└── installer/
-    └── native/
-        ├── Cargo.toml
-        ├── build.rs
-        └── src/
-            ├── main.rs
-            ├── lib.rs
-            ├── app.rs
-            ├── state.rs
-            ├── theme.rs
-            ├── widgets.rs
-            ├── system.rs
-            ├── downloader.rs
-            └── screens/
-                ├── mod.rs
-                ├── splash.rs
-                ├── check.rs
-                ├── download.rs
-                ├── install.rs
-                ├── elevation.rs
-                ├── complete.rs
-                └── error.rs
++-- Cargo.toml                          # Workspace root
++-- build.bat                           # Build orchestration
++-- LIBERN_BUILD_PLAN.md                # Build plan documentation
++-- AI_FEATURES_PLAN.md                 # AI subsystem plan
++-- COMPETITIVE_EDGE.md                 # Competitive analysis
++-- crates/
+�   +-- libern-core/                    # Core library
+�   �   +-- Cargo.toml
+�   �   +-- src/
+�   �       +-- lib.rs
+�   �       +-- crdt/mod.rs             # CRDT engine
+�   �       +-- crypto/mod.rs           # Cryptographic primitives
+�   �       +-- db/
+�   �       �   +-- mod.rs              # Database initialization
+�   �       �   +-- schema.rs           # Schema definition
+�   �       �   +-- models.rs           # Data models
+�   �       +-- ai/
+�   �           +-- mod.rs              # AiEngine trait
+�   �           +-- engine.rs           # MockEngine
+�   �           +-- qwen_engine.rs      # CandleEngine
+�   �           +-- pipeline.rs         # Prompt construction
+�   �           +-- summarizer.rs       # Channel summarization
+�   �           +-- moderator.rs        # Content moderation
+�   �           +-- rag.rs              # Document RAG
+�   �           +-- conversation.rs     # Context management
+�   �           +-- liber_user.rs       # Liber identity
+�   �           +-- reward.rs           # RLHF feedback
+�   +-- libern-aioss/                   # .aioss format
+�       +-- Cargo.toml
+�       +-- src/
+�           +-- lib.rs
+�           +-- header.rs               # 128-byte header
+�           +-- entry.rs                # 256-byte entry
+�           +-- ledger.rs               # Ledger types
+�           +-- writer.rs               # Binary/JSON writer
+�           +-- reader.rs               # Binary/JSON reader
+�           +-- verify.rs               # Chain verification
+�           +-- health.rs               # Health diagnostics
+�           +-- event_store.rs          # Event persistence
+�           +-- state_proof.rs          # Ed25519 proofs
+�           +-- schedule.rs             # Session sealing
+�           +-- txt_log.rs              # TXT export
++-- apps/
+�   +-- desktop/                        # Tauri desktop app
+�   �   +-- src/
+�   �   �   +-- App.tsx
+�   �   �   +-- main.tsx
+�   �   �   +-- lib/api.ts
+�   �   �   +-- lib/ai.ts
+�   �   �   +-- lib/utils.ts
+�   �   �   +-- stores/serverStore.ts
+�   �   �   +-- stores/messageStore.ts
+�   �   �   +-- stores/uiStore.ts
+�   �   �   +-- types/index.ts
+�   �   +-- src-tauri/
+�   �       +-- Cargo.toml
+�   �       +-- tauri.conf.json
+�   �       +-- build.rs
+�   �       +-- src/
+�   �           +-- main.rs
+�   �           +-- lib.rs
+�   �           +-- commands/
+�   �               +-- mod.rs
+�   �               +-- server.rs
+�   �               +-- channel.rs
+�   �               +-- message.rs
+�   �               +-- user.rs
+�   �               +-- role.rs
+�   �               +-- ai.rs
+�   �               +-- xp.rs
+�   �               +-- stats.rs
+�   �               +-- stars.rs
+�   +-- sandbox/                        # 3D Boxel engine
+�       +-- Cargo.toml
+�       +-- src/
+�           +-- main.rs
+�           +-- liber.rs
+�           +-- world.rs
+�           +-- player.rs
+�           +-- character.rs
+�           +-- camera.rs
+�           +-- cube.rs
+�           +-- texture.rs
+�           +-- audio.rs
+�           +-- voice.rs
+�           +-- chat.rs
+�           +-- pipeline.rs
+�           +-- screen_share.rs
++-- docs/
+�   +-- README.md
+�   +-- bdrs/                           # Architecture decisions
+�   +-- feature-papers/                 # Feature documentation
+�   +-- csr/                            # Corporate social responsibility
+�   +-- no-more-silicon/                # Hardware independence
+�   +-- competitors/                    # Competitive analysis
+�   +-- compliance/                     # Compliance documentation
+�   +-- data-safety/                    # Data safety documentation
+�   +-- developers/                     # Developer documentation
+�   +-- enterprise/                     # Enterprise documentation
+�   +-- faqs/                           # Frequently asked questions
+�   +-- features/                       # Feature documentation
+�   +-- governance/                     # Project governance
+�   +-- help-bugs/                      # Bug reporting
+�   +-- howto-community/                # Community how-to guides
+�   +-- howto-developers/               # Developer how-to guides
+�   +-- howto-enterprise/               # Enterprise how-to guides
+�   +-- incident-recovery/              # Incident recovery docs
+�   +-- investors/                      # Investor documentation
+�   +-- no-black-boxes/                 # Transparency docs
+�   +-- privacy/                        # Privacy documentation
+�   +-- research/                       # Research documentation
+�   +-- tutorial/                       # Tutorial documentation
+�   +-- why-use/                        # Why-use documentation
++-- installer/
+    +-- native/
+        +-- Cargo.toml
+        +-- build.rs
+        +-- src/
+            +-- main.rs
+            +-- lib.rs
+            +-- app.rs
+            +-- state.rs
+            +-- theme.rs
+            +-- widgets.rs
+            +-- system.rs
+            +-- downloader.rs
+            +-- screens/
+                +-- mod.rs
+                +-- splash.rs
+                +-- check.rs
+                +-- download.rs
+                +-- install.rs
+                +-- elevation.rs
+                +-- complete.rs
+                +-- error.rs
 `
 
 This technical reference provides the complete implementation details for all major Libern subsystems. Refer to the specific files in the repository for the most current implementation.
@@ -1332,7 +1332,7 @@ This technical reference provides the complete implementation details for all ma
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -1355,3 +1355,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

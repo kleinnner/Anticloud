@@ -1,4 +1,4 @@
-﻿# Sustainable and Green Computing: Energy-Efficient OS Design in the 01s Sovereign (Kaiman) Operating System
+# Sustainable and Green Computing: Energy-Efficient OS Design in the 01s Sovereign (Kaiman) Operating System
 
 ## Abstract
 
@@ -192,7 +192,7 @@ The 01s Sovereign OS demonstrates that sustainable computing is both technically
 
 Andrae, Anders S. G., and Tomas Edler. "On Global Electricity Usage of Communication Technology: Trends to 2030." Challenges, vol. 6, no. 1, 2015, pp. 117-157.
 
-Barroso, Luiz AndrÃ©, et al. "The Datacenter as a Computer: Designing Warehouse-Scale Machines." 3rd ed., Morgan & Claypool, 2018.
+Barroso, Luiz André, et al. "The Datacenter as a Computer: Designing Warehouse-Scale Machines." 3rd ed., Morgan & Claypool, 2018.
 
 Belkhir, Lotfi, and Ahmed Elmeligi. "Assessing ICT Global Emissions Footprint: Trends to 2040 & Recommendations." Journal of Cleaner Production, vol. 177, 2018, pp. 448-463.
 
@@ -204,7 +204,7 @@ Forti, Vanessa, et al. "The Global E-waste Monitor 2020." United Nations Univers
 
 Frenzel, Louis. "Green Computing: Reducing Energy Consumption in Data Centers." EDN Network, 2012.
 
-GrÃ¶ger, Jens, et al. "Green Software: A Systematic Literature Review." Computer Science Review, vol. 35, 2020.
+Gröger, Jens, et al. "Green Software: A Systematic Literature Review." Computer Science Review, vol. 35, 2020.
 
 Gupta, Udit, et al. "ACT: Designing Sustainable Computer Systems with an Architectural Carbon Modeling Tool." ACM/IEEE Annual International Symposium on Computer Architecture, 2021.
 
@@ -220,15 +220,15 @@ Masanet, Eric, et al. "Recalibrating Global Data Center Energy-Use Estimates." S
 
 Meza, Justin, et al. "A Large-Scale Study of Flash Memory Failures in the Field." ACM SIGMETRICS, 2015.
 
-MÃ¼ller, Andreas, et al. "Pushing the Limits of Energy Efficiency with Linux." Linux Foundation, 2019.
+Müller, Andreas, et al. "Pushing the Limits of Energy Efficiency with Linux." Linux Foundation, 2019.
 
-NÃºÃ±ez, Adolfo, et al. "Energy-Aware Scheduling in Virtualized Data Centers." Journal of Parallel and Distributed Computing, vol. 72, no. 10, 2012, pp. 1261-1277.
+Núñez, Adolfo, et al. "Energy-Aware Scheduling in Virtualized Data Centers." Journal of Parallel and Distributed Computing, vol. 72, no. 10, 2012, pp. 1261-1277.
 
 Pahlevan, Ali, et al. "Energy-Efficient Computing: A Survey of Emerging Technologies." IEEE Access, vol. 10, 2022, pp. 53122-53145.
 
 Rivoire, Suzanne, et al. "A Comparison of High-Level Full-System Power Models." Workshop on Power-Aware Computing Systems, 2008.
 
-SchÃ¤fer, Jan-Michael, et al. "A Survey on the State of Energy-Aware Scheduling." ACM Computing Surveys, vol. 55, no. 3, 2023.
+Schäfer, Jan-Michael, et al. "A Survey on the State of Energy-Aware Scheduling." ACM Computing Surveys, vol. 55, no. 3, 2023.
 
 Schneider, Sven, et al. "Energy Efficiency in the Software Development Lifecycle." International Conference on ICT for Sustainability, 2018.
 
@@ -319,10 +319,10 @@ Deploying cryptographic audit at the OS level requires:
 5. Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." CRYPTO, 1992.
 6. Ferguson, Niels, et al. Cryptography Engineering. Wiley, 2010.
 7. Goodman, Seymour, and Herbert Lin. "Software Transparency." Communications of the ACM, vol. 65, no. 3, 2022, pp. 40-42.
-8. Johansen, Håvard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
+8. Johansen, H�vard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
 9. Kelsey, John, et al. "Cryptographic Standards in the Post-Quantum Era." NIST IR 8413, 2022.
 10. Lamport, Leslie. "The Part-Time Parliament." ACM Transactions on Computer Systems, vol. 16, no. 2, 1998, pp. 133-169.
-11. Maillet, Sébastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
+11. Maillet, S�bastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
 12. Paar, Christof, and Jan Pelzl. Understanding Cryptography. Springer, 2010.
 13. Rescorla, Eric. SSL and TLS: Designing and Building Secure Systems. Addison-Wesley, 2001.
 14. Schneier, Bruce. "Security in the Age of AI." Schneier on Security, 2023.
@@ -405,7 +405,7 @@ This analysis demonstrates that the cryptographic audit infrastructure in 01s So
 9. Stallings, William. Cryptography and Network Security: Principles and Practice. 7th ed., Pearson, 2017.
 10. Goldreich, Oded. Foundations of Cryptography: Basic Tools. Cambridge University Press, 2001.
 11. Cramer, Ronald, et al. "Design and Analysis of Cryptographic Protocols." Springer, 2020.
-12. Damgård, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
+12. Damg�rd, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
 13. Dziembowski, Stefan, et al. "Introduction to Modern Cryptography." University of Warsaw, 2021.
 14. Gentry, Craig. "A Fully Homomorphic Encryption Scheme." Stanford PhD Thesis, 2009.
 15. Bellare, Mihir, and Phillip Rogaway. "Introduction to Modern Cryptography." UCSD, 2005.
@@ -456,7 +456,7 @@ This research employed a multi-method approach combining: (1) a systematic liter
 The literature review followed PRISMA guidelines. Database searches were conducted on ACM Digital Library, IEEE Xplore, USENIX, IACR ePrint, arXiv, and Google Scholar using query strings combining topic-specific terms (e.g., "hash chain integrity," "tamper-evident logging") with "operating system," "audit," and "transparency." Initial searches yielded 847 unique results. After title/abstract screening, 312 papers proceeded to full-text review. A final corpus of 89 papers were included in the synthesis based on relevance to desktop OS auditability.
 
 ### Empirical Measurement Methodology
-All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Â±2% accuracy, sampled every second over a 30-minute measurement period.
+All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with ±2% accuracy, sampled every second over a 30-minute measurement period.
 
 ## Comparison with Related Work
 
@@ -645,7 +645,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -668,3 +668,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

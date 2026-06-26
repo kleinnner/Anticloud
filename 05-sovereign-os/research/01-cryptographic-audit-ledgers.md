@@ -1,4 +1,4 @@
-﻿# Cryptographic Audit Ledgers: Foundations for Tamper-Evident Record-Keeping in the 01s Sovereign OS
+# Cryptographic Audit Ledgers: Foundations for Tamper-Evident Record-Keeping in the 01s Sovereign OS
 
 ## Abstract
 
@@ -6,11 +6,11 @@ This paper examines the cryptographic foundations of audit ledgers, with particu
 
 ## 1. Introduction
 
-Modern computing systems generate vast quantities of operational data, from authentication events to AI-mediated decisions. The need for verifiable, tamper-evident record-keeping has never been greater. The 01s Sovereign OS addresses this through its .aioss audit ledger format â€” a cryptographically-linked decision trail that records every query, tool call, graph mutation, and decision in an append-only structure. This paper positions the .aioss format within the broader landscape of cryptographic audit ledger research, covering historical foundations, contemporary implementations, and future directions.
+Modern computing systems generate vast quantities of operational data, from authentication events to AI-mediated decisions. The need for verifiable, tamper-evident record-keeping has never been greater. The 01s Sovereign OS addresses this through its .aioss audit ledger format — a cryptographically-linked decision trail that records every query, tool call, graph mutation, and decision in an append-only structure. This paper positions the .aioss format within the broader landscape of cryptographic audit ledger research, covering historical foundations, contemporary implementations, and future directions.
 
 ### 1.1 Motivation
 
-The motivation for cryptographic audit ledgers stems from several converging trends: (1) increasing regulatory requirements for data processing accountability (GDPR Article 30, SOC 2 CC6.1), (2) growing demand for AI transparency (EU AI Act Article 12), (3) rising concerns about supply chain security (US EO 14028), and (4) the general need for verifiable trust in distributed and AI-mediated systems. Traditional logging systems â€” syslog, Windows Event Log, systemd journald â€” provide no cryptographic guarantees of integrity. As Schneier and Kelsey noted in their seminal work on secure audit logs, "without cryptographic protection, logs are evidence of what happened â€” but they cannot prove that they haven't been tampered with" (Schneier and Kelsey 159).
+The motivation for cryptographic audit ledgers stems from several converging trends: (1) increasing regulatory requirements for data processing accountability (GDPR Article 30, SOC 2 CC6.1), (2) growing demand for AI transparency (EU AI Act Article 12), (3) rising concerns about supply chain security (US EO 14028), and (4) the general need for verifiable trust in distributed and AI-mediated systems. Traditional logging systems — syslog, Windows Event Log, systemd journald — provide no cryptographic guarantees of integrity. As Schneier and Kelsey noted in their seminal work on secure audit logs, "without cryptographic protection, logs are evidence of what happened — but they cannot prove that they haven't been tampered with" (Schneier and Kelsey 159).
 
 ### 1.2 Scope and Contributions
 
@@ -87,13 +87,13 @@ For the OS audit use case, where events are recorded sequentially and full chain
 
 ### 4.1 Certificate Transparency (CT)
 
-Google's Certificate Transparency (CT) introduced the concept of append-only, cryptographically-verifiable logs to the public key infrastructure ecosystem (Laurie et al. 2013). CT uses Merkle trees to allow any party to verify that a certificate has been publicly logged, and to detect misissuance. The key insight of CT is that transparency â€” the ability to see all certificates issued for a domain â€” creates accountability: certificate authorities know that any misissued certificate will be publicly visible. The 01s Sovereign OS borrows CT's design philosophy of verifiability without trust, applying it to system audit records rather than certificates.
+Google's Certificate Transparency (CT) introduced the concept of append-only, cryptographically-verifiable logs to the public key infrastructure ecosystem (Laurie et al. 2013). CT uses Merkle trees to allow any party to verify that a certificate has been publicly logged, and to detect misissuance. The key insight of CT is that transparency — the ability to see all certificates issued for a domain — creates accountability: certificate authorities know that any misissued certificate will be publicly visible. The 01s Sovereign OS borrows CT's design philosophy of verifiability without trust, applying it to system audit records rather than certificates.
 
 CT's architecture includes three core components: (1) the log, an append-only Merkle tree of certificates, (2) monitors, which watch logs for suspicious certificates, and (3) auditors, which verify log consistency. The .aioss ledger similarly supports monitors (automated verification tools) and auditors (human or automated compliance checkers).
 
 ### 4.2 CONIKS
 
-CONIKS (Melara et al. 383-398) extended transparency to end-to-end encrypted messaging, providing key transparency without requiring global consensus. CONIKS introduced the concept of privacy-preserving transparency logs where users can verify their own entries without revealing them to others. This is achieved through "binders" â€” privacy-preserving authenticated data structures that allow users to verify their own key bindings while preventing public enumeration of all entries.
+CONIKS (Melara et al. 383-398) extended transparency to end-to-end encrypted messaging, providing key transparency without requiring global consensus. CONIKS introduced the concept of privacy-preserving transparency logs where users can verify their own entries without revealing them to others. This is achieved through "binders" — privacy-preserving authenticated data structures that allow users to verify their own key bindings while preventing public enumeration of all entries.
 
 The privacy-transparency balance that CONIKS achieves is directly relevant to the 01s Sovereign OS's design. The .aioss ledger similarly must balance complete transparency (all actions recorded) with privacy protection (personal data not exposed). CONIKS's approach of verifiable bindings that are only meaningful to the data subject provides a model for how the 01s Sovereign OS could implement privacy-preserving audit verification.
 
@@ -109,7 +109,7 @@ Several other transparency frameworks inform the .aioss design:
 
 **Binary Transparency (2018)**: Proposed by the security community as an extension of CT principles to software distribution, binary transparency would require that all software builds be logged in a public transparency log. The 01s Sovereign OS's toolchain verification and reproducible build support align with this vision.
 
-**Audit Log Transparency (2020)**: Recent research has proposed applying transparency log principles specifically to audit logs. The core insight is that audit logs themselves should be transparent â€” not just the events they record, but also the fact that the log has been maintained continuously and consistently.
+**Audit Log Transparency (2020)**: Recent research has proposed applying transparency log principles specifically to audit logs. The core insight is that audit logs themselves should be transparent — not just the events they record, but also the fact that the log has been maintained continuously and consistently.
 
 ## 5. Verifiable Data Structures
 
@@ -231,7 +231,7 @@ Bayer, Dave, Stuart Haber, and W. Scott Stornetta. "Improving the Efficiency and
 
 Bellare, Mihir, and Moti Yung. "Forward-Security in Private-Key Cryptography." CT-RSA, Springer, 2001, pp. 59-75.
 
-Benaloh, Josh, and Michael de Mare. "One-Way Accumulators: A Decentralized Alternative to Digital Signatures." Advances in Cryptology â€” EUROCRYPT '93, Springer, 1994, pp. 274-285.
+Benaloh, Josh, and Michael de Mare. "One-Way Accumulators: A Decentralized Alternative to Digital Signatures." Advances in Cryptology — EUROCRYPT '93, Springer, 1994, pp. 274-285.
 
 Benet, Juan. "IPFS - Content Addressed, Versioned, P2P File System." arXiv preprint arXiv:1407.3561, 2014.
 
@@ -257,7 +257,7 @@ Laurie, Ben, et al. "Certificate Transparency." IETF RFC 6962, 2013.
 
 Melara, Marcela S., et al. "CONIKS: Bringing Key Transparency to End Users." 24th USENIX Security Symposium, 2015, pp. 383-398.
 
-Merkle, Ralph C. "A Digital Signature Based on a Conventional Encryption Function." Advances in Cryptology â€” CRYPTO '87, Springer, 1987, pp. 369-378.
+Merkle, Ralph C. "A Digital Signature Based on a Conventional Encryption Function." Advances in Cryptology — CRYPTO '87, Springer, 1987, pp. 369-378.
 
 Merkle, Ralph C. "Protocols for Public Key Cryptosystems." IEEE Symposium on Security and Privacy, 1980, pp. 122-134.
 
@@ -285,9 +285,9 @@ Sweeney, Latanya. "k-Anonymity: A Model for Protecting Privacy." International J
 
 Szabo, Nick. "Formalizing and Securing Relationships on Public Networks." First Monday, vol. 2, no. 9, 1997.
 
-Szydlo, Michael. "Merkle Tree Traversal in Log Space and Time." Advances in Cryptology â€” EUROCRYPT 2004, Springer, 2004, pp. 541-554.
+Szydlo, Michael. "Merkle Tree Traversal in Log Space and Time." Advances in Cryptology — EUROCRYPT 2004, Springer, 2004, pp. 541-554.
 
-Tschorsch, Florian, and BjÃ¶rn Scheuermann. "Bitcoin and Beyond: A Technical Survey on Decentralized Digital Currencies." IEEE Communications Surveys & Tutorials, vol. 18, no. 3, 2016, pp. 2084-2123.
+Tschorsch, Florian, and Björn Scheuermann. "Bitcoin and Beyond: A Technical Survey on Decentralized Digital Currencies." IEEE Communications Surveys & Tutorials, vol. 18, no. 3, 2016, pp. 2084-2123.
 
 Vukolic, Marko. "The Quest for Scalable Blockchain Fabric: Proof-of-Work vs. BFT Replication." International Workshop on Open Problems in Network Security, Springer, 2015, pp. 112-125.
 
@@ -372,10 +372,10 @@ Deploying cryptographic audit at the OS level requires:
 5. Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." CRYPTO, 1992.
 6. Ferguson, Niels, et al. Cryptography Engineering. Wiley, 2010.
 7. Goodman, Seymour, and Herbert Lin. "Software Transparency." Communications of the ACM, vol. 65, no. 3, 2022, pp. 40-42.
-8. Johansen, Håvard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
+8. Johansen, H�vard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
 9. Kelsey, John, et al. "Cryptographic Standards in the Post-Quantum Era." NIST IR 8413, 2022.
 10. Lamport, Leslie. "The Part-Time Parliament." ACM Transactions on Computer Systems, vol. 16, no. 2, 1998, pp. 133-169.
-11. Maillet, Sébastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
+11. Maillet, S�bastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
 12. Paar, Christof, and Jan Pelzl. Understanding Cryptography. Springer, 2010.
 13. Rescorla, Eric. SSL and TLS: Designing and Building Secure Systems. Addison-Wesley, 2001.
 14. Schneier, Bruce. "Security in the Age of AI." Schneier on Security, 2023.
@@ -458,7 +458,7 @@ This analysis demonstrates that the cryptographic audit infrastructure in 01s So
 9. Stallings, William. Cryptography and Network Security: Principles and Practice. 7th ed., Pearson, 2017.
 10. Goldreich, Oded. Foundations of Cryptography: Basic Tools. Cambridge University Press, 2001.
 11. Cramer, Ronald, et al. "Design and Analysis of Cryptographic Protocols." Springer, 2020.
-12. Damgård, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
+12. Damg�rd, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
 13. Dziembowski, Stefan, et al. "Introduction to Modern Cryptography." University of Warsaw, 2021.
 14. Gentry, Craig. "A Fully Homomorphic Encryption Scheme." Stanford PhD Thesis, 2009.
 15. Bellare, Mihir, and Phillip Rogaway. "Introduction to Modern Cryptography." UCSD, 2005.
@@ -511,7 +511,7 @@ This research employed a multi-method approach combining: (1) a systematic liter
 The literature review followed PRISMA guidelines. Database searches were conducted on ACM Digital Library, IEEE Xplore, USENIX, IACR ePrint, arXiv, and Google Scholar using query strings combining topic-specific terms (e.g., "hash chain integrity," "tamper-evident logging") with "operating system," "audit," and "transparency." Initial searches yielded 847 unique results. After title/abstract screening, 312 papers proceeded to full-text review. A final corpus of 89 papers were included in the synthesis based on relevance to desktop OS auditability.
 
 ### Empirical Measurement Methodology
-All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Â±2% accuracy, sampled every second over a 30-minute measurement period.
+All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with ±2% accuracy, sampled every second over a 30-minute measurement period.
 
 ## Comparison with Related Work
 
@@ -700,7 +700,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -723,3 +723,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

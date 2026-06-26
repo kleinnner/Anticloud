@@ -1,17 +1,17 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # `.aioss` Data Sovereignty Model
 
-> **Control where your data lives — always.**
+> **Control where your data lives � always.**
 
 Kazkade's `.aioss` ledger is designed from first principles around **data sovereignty**: your data remains on the infrastructure you control, under the jurisdiction you choose. There is no cloud backdoor, no telemetry exfiltration, no implicit data replication to third-party servers. The `.aioss` format is a **local-first, tamper-proof cryptographic ledger** that enforces sovereignty at every layer of the stack.
 
@@ -20,19 +20,19 @@ Kazkade's `.aioss` ledger is designed from first principles around **data sovere
 ## 1. Sovereignty Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                   .aioss Sovereignty Stack                   │
-├─────────────────────────────────────────────────────────────┤
-│  Geo-Fencing Layer    │ CLI --region flags, policy files    │
-├───────────────────────┼─────────────────────────────────────┤
-│  Replication Layer    │ Multi-region sync, conflict resolution│
-├───────────────────────┼─────────────────────────────────────┤
-│  Ledger Layer         │ SHA3-256 + Ed25519 hash chain        │
-├───────────────────────┼─────────────────────────────────────┤
-│  Storage Layer        │ Memory-mapped .aioss files           │
-├───────────────────────┼─────────────────────────────────────┤
-│  Kernel Layer         │ OS keychain, TPM, filesystem ACLs    │
-└───────────────────────┴─────────────────────────────────────┘
++-------------------------------------------------------------+
+�                   .aioss Sovereignty Stack                   �
++-------------------------------------------------------------�
+�  Geo-Fencing Layer    � CLI --region flags, policy files    �
++-----------------------+-------------------------------------�
+�  Replication Layer    � Multi-region sync, conflict resolution�
++-----------------------+-------------------------------------�
+�  Ledger Layer         � SHA3-256 + Ed25519 hash chain        �
++-----------------------+-------------------------------------�
+�  Storage Layer        � Memory-mapped .aioss files           �
++-----------------------+-------------------------------------�
+�  Kernel Layer         � OS keychain, TPM, filesystem ACLs    �
++-------------------------------------------------------------+
 ```
 
 The `.aioss` format is a **append-only, content-addressed, cryptographically linked** data structure. Each record contains:
@@ -109,7 +109,7 @@ flowchart TD
 There is zero hardcoded network dependency in the core runtime. The `.aioss` ledger reads and writes exclusively through memory-mapped I/O on the local filesystem. The `kazkade` binary requires no cloud credentials, no API keys, no network configuration to operate.
 
 ```bash
-# Full operation offline — no cloud required.
+# Full operation offline � no cloud required.
 kazkade ledger init --region EU my-ledger.aioss
 kazkade ledger append my-ledger.aioss --payload @dataset.acol
 kazkade ledger verify my-ledger.aioss
@@ -151,7 +151,7 @@ kazkade ledger init --region EU compliance-ledger.aioss
 kazkade ledger init --region custom:US-EAST-1 cross-region-ledger.aioss
 ```
 
-Once initialized, the region is **immutable** — embedded in the genesis record's signed payload:
+Once initialized, the region is **immutable** � embedded in the genesis record's signed payload:
 
 ```mermaid
 sequenceDiagram
@@ -293,7 +293,7 @@ kazkade ledger compare my-ledger.aioss eu-replica.aioss
 
 ### 4.3 Replication Policy Matrix
 
-| Policy                    | Source → Dest | Audit Trail | Conflict Resolution | Latency |
+| Policy                    | Source ? Dest | Audit Trail | Conflict Resolution | Latency |
 |---------------------------|---------------|-------------|---------------------|---------|
 | `local-only`             | Never         | N/A         | N/A                 | 0       |
 | `cross-region-audit`     | All regions   | Full        | Last-writer-wins    | Best-effort |
@@ -430,7 +430,7 @@ fn verify_sovereignty(path: &str) -> Result<SovereigntyReport, Box<dyn std::erro
 | Data minimization               | Columnar storage, per-field access               |
 | Storage limitation              | TTL-based ledger rotation                        |
 | Right to erasure                | Cryptographic erasure (key deletion)             |
-| Data portability                | `.acol → Parquet/Arrow export`                   |
+| Data portability                | `.acol ? Parquet/Arrow export`                   |
 | Cross-border transfer controls  | Region-pinned ledgers, geo-fencing               |
 
 ### 6.2 SOC 2 / ISO 27001
@@ -468,13 +468,13 @@ The air-gapped mode:
 
 | Property                      | `.aioss` | Apache Kafka | AWS Kinesis | SQL Ledger |
 |-------------------------------|----------|--------------|-------------|------------|
-| Local-first                   | ✅       | ❌           | ❌          | ❌         |
-| Cryptographic chain           | ✅       | ❌           | ❌          | ⚠️         |
-| Region-pinned                 | ✅       | ❌           | ❌          | ❌         |
-| No cloud dependency           | ✅       | ❌           | ❌          | ❌         |
-| Zero-copy reads               | ✅       | ❌           | ❌          | ❌         |
-| Cross-platform single binary  | ✅       | ❌           | ❌          | ❌         |
-| Tamper-evident audit          | ✅       | ❌           | ❌          | ✅         |
+| Local-first                   | ?       | ?           | ?          | ?         |
+| Cryptographic chain           | ?       | ?           | ?          | ??         |
+| Region-pinned                 | ?       | ?           | ?          | ?         |
+| No cloud dependency           | ?       | ?           | ?          | ?         |
+| Zero-copy reads               | ?       | ?           | ?          | ?         |
+| Cross-platform single binary  | ?       | ?           | ?          | ?         |
+| Tamper-evident audit          | ?       | ?           | ?          | ?         |
 
 ---
 
@@ -529,7 +529,7 @@ The `.aioss` sovereignty model provides:
 - **Compliant**: GDPR, SOC 2, ISO 27001 ready
 - **Edge-ready**: Air-gapped deployment supported
 
-The sovereignty guarantees are not policy-based — they are **cryptographically enforced** at the data structure level, making them verifiable by any party with access to the ledger file.
+The sovereignty guarantees are not policy-based � they are **cryptographically enforced** at the data structure level, making them verifiable by any party with access to the ledger file.
 
 ```rust
 // The sovereignty contract is embedded in the type system.
@@ -542,7 +542,7 @@ pub trait SovereigntyGuarantee {
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -553,7 +553,7 @@ pub trait SovereigntyGuarantee {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -576,3 +576,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

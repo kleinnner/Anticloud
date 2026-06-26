@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Supply Chain Security
@@ -20,27 +20,27 @@ Kazkade is built with supply chain security as a core requirement, not an aftert
 ## 1. Supply Chain Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│                    Kazkade Supply Chain Security Stack                 │
-├──────────────────────────────────────────────────────────────────────┤
-│  Build Layer                                                          │
-│  ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐     │
-│  │ SLSA Level 3   │  │ Reproducible     │  │ Hermetic Builds  │     │
-│  │ Build Attest.  │  │ Builds           │  │ (network-isolate)│     │
-│  └────────────────┘  └──────────────────┘  └──────────────────┘     │
-├──────────────────────────────────────────────────────────────────────┤
-│  Signing Layer                                                        │
-│  ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐     │
-│  │ Cosign Sign    │  │ GPG Sign         │  │ Sigstore TUF     │     │
-│  │ (OIDC)         │  │ (binaries)       │  │ (keyless)        │     │
-│  └────────────────┘  └──────────────────┘  └──────────────────┘     │
-├──────────────────────────────────────────────────────────────────────┤
-│  Provenance Layer                                                     │
-│  ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐     │
-│  │ SBOM (SPDX)    │  │ Dependency       │  │ CVE Scanning     │     │
-│  │                 │  │ Provenance       │  │ (cargo-audit)    │     │
-│  └────────────────┘  └──────────────────┘  └──────────────────┘     │
-└──────────────────────────────────────────────────────────────────────┘
++----------------------------------------------------------------------+
+�                    Kazkade Supply Chain Security Stack                 �
++----------------------------------------------------------------------�
+�  Build Layer                                                          �
+�  +----------------+  +------------------+  +------------------+     �
+�  � SLSA Level 3   �  � Reproducible     �  � Hermetic Builds  �     �
+�  � Build Attest.  �  � Builds           �  � (network-isolate)�     �
+�  +----------------+  +------------------+  +------------------+     �
++----------------------------------------------------------------------�
+�  Signing Layer                                                        �
+�  +----------------+  +------------------+  +------------------+     �
+�  � Cosign Sign    �  � GPG Sign         �  � Sigstore TUF     �     �
+�  � (OIDC)         �  � (binaries)       �  � (keyless)        �     �
+�  +----------------+  +------------------+  +------------------+     �
++----------------------------------------------------------------------�
+�  Provenance Layer                                                     �
+�  +----------------+  +------------------+  +------------------+     �
+�  � SBOM (SPDX)    �  � Dependency       �  � CVE Scanning     �     �
+�  �                 �  � Provenance       �  � (cargo-audit)    �     �
+�  +----------------+  +------------------+  +------------------+     �
++----------------------------------------------------------------------+
 ```
 
 ---
@@ -179,14 +179,14 @@ sequenceDiagram
 
 | Requirement                    | SLSA L3 | Kazkade Implementation                     |
 |--------------------------------|---------|---------------------------------------------|
-| Provenance exists              | ✅      | Build attestation generated                 |
-| Provenance is authentic        | ✅      | Signed with Sigstore/OIDC                   |
-| Provenance is non-forgeable    | ✅      | OIDC identity binding                       |
-| Dependencies complete          | ✅      | Full SBOM + dependency tree                 |
-| Build service                   | ✅      | GitHub Actions + dedicated runner           |
-| Build as code                  | ✅      | `build.yaml` workflow                        |
-| Hermetic builds                | ❌(L4)  | Network-isolated build container             |
-| Reproducible builds            | ❌(L4)  | Target for L4                               |
+| Provenance exists              | ?      | Build attestation generated                 |
+| Provenance is authentic        | ?      | Signed with Sigstore/OIDC                   |
+| Provenance is non-forgeable    | ?      | OIDC identity binding                       |
+| Dependencies complete          | ?      | Full SBOM + dependency tree                 |
+| Build service                   | ?      | GitHub Actions + dedicated runner           |
+| Build as code                  | ?      | `build.yaml` workflow                        |
+| Hermetic builds                | ?(L4)  | Network-isolated build container             |
+| Reproducible builds            | ?(L4)  | Target for L4                               |
 
 ### 3.3 Build Provenance
 
@@ -398,17 +398,17 @@ jobs:
 
 ```
 kazcade-v0.1.0/
-├── kazcade-x86_64-linux.tar.gz
-├── kazcade-x86_64-linux.tar.gz.sig       # Cosign signature
-├── kazcade-x86_64-darwin.tar.gz
-├── kazcade-x86_64-darwin.tar.gz.sig
-├── kazcade-x86_64-win.zip
-├── kazcade-x86_64-win.zip.sig
-├── kazkade.spdx.json                     # SBOM (SPDX)
-├── kazkade.cdx.json                      # SBOM (CycloneDX)
-├── kazkade.provenance                    # SLSA provenance
-├── checksums.txt                         # All hashes
-└── checksums.txt.sig                     # Signed hash list
++-- kazcade-x86_64-linux.tar.gz
++-- kazcade-x86_64-linux.tar.gz.sig       # Cosign signature
++-- kazcade-x86_64-darwin.tar.gz
++-- kazcade-x86_64-darwin.tar.gz.sig
++-- kazcade-x86_64-win.zip
++-- kazcade-x86_64-win.zip.sig
++-- kazkade.spdx.json                     # SBOM (SPDX)
++-- kazkade.cdx.json                      # SBOM (CycloneDX)
++-- kazkade.provenance                    # SLSA provenance
++-- checksums.txt                         # All hashes
++-- checksums.txt.sig                     # Signed hash list
 ```
 
 ---
@@ -523,7 +523,7 @@ kazkade sbom auto-patch \
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -534,7 +534,7 @@ kazkade sbom auto-patch \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -557,3 +557,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

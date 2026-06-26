@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # SOC 2 Type II Compliance
@@ -14,7 +14,7 @@
 **Document ID:** KAZ-COMP-SOC2-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Compliance Evidence  
+**Classification:** Internal — Compliance Evidence  
 
 ---
 
@@ -22,7 +22,7 @@
 
 1. Overview
 2. Trust Services Criteria Mapping
-3. Security â€” Common Criteria (CC)
+3. Security — Common Criteria (CC)
 4. Availability (A)
 5. Processing Integrity (PI)
 6. Confidentiality (C)
@@ -42,7 +42,7 @@
 
 SOC 2 (Service Organization Control 2) Type II, developed by the American Institute of CPAs (AICPA), evaluates whether a service organization's controls are suitably designed and operating effectively over a period of time. The evaluation is based on five Trust Services Criteria: Security, Availability, Processing Integrity, Confidentiality, and Privacy.
 
-Kazkade's architecture â€” built on an immutable `.aioss` cryptographic ledger, zero-copy `.acol` columnar storage, and a deterministic SQL query engine with runtime SIMD dispatch â€” provides native control mechanisms that map directly to SOC 2 requirements. The local-first design eliminates many cloud-specific risks, and the tamper-proof ledger serves as an automated evidence collection layer.
+Kazkade's architecture — built on an immutable `.aioss` cryptographic ledger, zero-copy `.acol` columnar storage, and a deterministic SQL query engine with runtime SIMD dispatch — provides native control mechanisms that map directly to SOC 2 requirements. The local-first design eliminates many cloud-specific risks, and the tamper-proof ledger serves as an automated evidence collection layer.
 
 ```mermaid
 flowchart TB
@@ -116,13 +116,13 @@ The following table maps each SOC 2 criterion to specific Kazkade components, co
 
 ---
 
-## 3. Security â€” Common Criteria (CC)
+## 3. Security — Common Criteria (CC)
 
 The Security criterion is the foundation of SOC 2. It requires controls to protect the system against unauthorized access (both logical and physical), disclosure, and damage.
 
-### 3.1 CC1.0 â€” Control Environment
+### 3.1 CC1.0 — Control Environment
 
-Kazkade's control environment is established through the CLI and `.aioss` ledger. Every administrative action â€” schema changes, configuration updates, user creation â€” is recorded as an immutable event in the `.aioss` ledger. The ledger serves as the single source of truth for the control environment.
+Kazkade's control environment is established through the CLI and `.aioss` ledger. Every administrative action — schema changes, configuration updates, user creation — is recorded as an immutable event in the `.aioss` ledger. The ledger serves as the single source of truth for the control environment.
 
 ```bash
 # Record a control environment policy event
@@ -136,7 +136,7 @@ kazkade ledger append \
 kazkade ledger verify --chain control.env
 ```
 
-### 3.2 CC2.0 â€” Risk Assessment
+### 3.2 CC2.0 — Risk Assessment
 
 Risk assessment in Kazkade is supported by continuous integrity verification. The `.aioss` hash chain provides cryptographic proof that no unauthorized modifications have occurred.
 
@@ -159,7 +159,7 @@ sequenceDiagram
     CLI-->>Admin: report: ALL INTEGRITY CHECKS PASSED
 ```
 
-### 3.3 CC3.0 â€” Information and Communication
+### 3.3 CC3.0 — Information and Communication
 
 Information about controls and system status is communicated through the SQL query engine. Operators can query the `.aioss` ledger using standard SQL to produce real-time control status reports.
 
@@ -181,9 +181,9 @@ WHERE result = 'DENIED'
 ORDER BY timestamp DESC;
 ```
 
-### 3.4 CC4.0 â€” Monitoring of Controls
+### 3.4 CC4.0 — Monitoring of Controls
 
-Kazkade includes a continuous monitoring agent that periodically executes control tests and records results in the `.aioss` ledger. This automated evidence collection is critical for Type II reporting periods (typically 6â€“12 months).
+Kazkade includes a continuous monitoring agent that periodically executes control tests and records results in the `.aioss` ledger. This automated evidence collection is critical for Type II reporting periods (typically 6–12 months).
 
 ```bash
 # Deploy continuous monitoring
@@ -202,7 +202,7 @@ kazkade monitor status --controls all --format json | kazkade query
 
 The Availability criterion requires that the system is available for operation and use as committed or agreed.
 
-### 4.1 A1.1 â€” Availability Commitments
+### 4.1 A1.1 — Availability Commitments
 
 Kazkade's local-first architecture provides inherent availability advantages. No network connectivity is required for core operations. The runtime operates entirely on local `.acol` files and `.aioss` ledger databases.
 
@@ -230,7 +230,7 @@ flowchart LR
     REPL --->|"consensus merge"| AIOSS
 ```
 
-### 4.2 A1.2 â€” Disaster Recovery
+### 4.2 A1.2 — Disaster Recovery
 
 Disaster recovery is implemented through `.acol` snapshot and restore capabilities. The zero-copy architecture allows instant snapshots without data duplication.
 
@@ -266,7 +266,7 @@ kazkade ledger query "SELECT * FROM health_events WHERE status != 'OK'"
 
 Processing Integrity ensures that system processing is complete, valid, accurate, timely, and authorized.
 
-### 5.1 PI1.1 â€” Deterministic Execution
+### 5.1 PI1.1 — Deterministic Execution
 
 Kazkade's SIMD dispatch layer provides deterministic execution guarantees. The same query on the same `.acol` data produces bit-identical results regardless of the SIMD ISA selected (AVX2, AVX-512, NEON, SVE). This is verified through checksum comparison.
 
@@ -281,7 +281,7 @@ kazkade simd compare \
   --require-bit-exact
 ```
 
-### 5.2 PI1.2 â€” Completeness and Accuracy
+### 5.2 PI1.2 — Completeness and Accuracy
 
 The SQL engine enforces schema validation at query time. Column types, constraints, and relationships are verified before execution.
 
@@ -316,7 +316,7 @@ Every query execution is logged to the `.aioss` ledger for processing integrity 
 
 Confidentiality controls ensure that sensitive information is protected from unauthorized disclosure.
 
-### 6.1 C1.1 â€” Data Encryption at Rest
+### 6.1 C1.1 — Data Encryption at Rest
 
 Kazkade provides column-level encryption for `.acol` files using AES-256-GCM. Each column can have its own encryption key, enabling fine-grained access control.
 
@@ -338,7 +338,7 @@ kazkade acol rotate \
 kazkade acol status --column ssn --show-encryption
 ```
 
-### 6.2 C1.2 â€” Access Control Lists
+### 6.2 C1.2 — Access Control Lists
 
 Column access is controlled through ACLs recorded in the `.aioss` ledger. Access requests are authenticated via Ed25519 signatures.
 
@@ -360,7 +360,7 @@ kazkade ledger query "SELECT * FROM access_events WHERE resource LIKE 'payroll.s
 
 Privacy controls address the collection, use, retention, disclosure, and disposal of personal information.
 
-### 7.1 P1.1 â€” Local-First Privacy
+### 7.1 P1.1 — Local-First Privacy
 
 Kazkade's local-first architecture is inherently privacy-preserving. Personal data never needs to leave the local machine.
 
@@ -387,7 +387,7 @@ flowchart TB
     SYNC -->|"zero-knowledge"| PEER
 ```
 
-### 7.2 P1.2 â€” Consent Management
+### 7.2 P1.2 — Consent Management
 
 User consent events are recorded immutably in the `.aioss` ledger:
 
@@ -571,7 +571,7 @@ if __name__ == "__main__":
 
 | Aspect | Point-in-Time (Type I) | Type II |
 |---|---|---|
-| Period | Single date | 6â€“12 months |
+| Period | Single date | 6–12 months |
 | Evidence | Design documentation | Operating effectiveness |
 | Kazkade Role | Architecture description | Continuous ledger evidence |
 | CLI Usage | `kazkade report soc2 --type type-i` | `kazkade report soc2 --type type-ii` |
@@ -649,13 +649,13 @@ Kazkade's local-first architecture allows organizations to run on air-gapped sys
 ## References
 
 - AICPA SOC 2 Reporting on Controls at a Service Organization (2024)
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 - NIST SP 800-53 Rev. 5 Security and Privacy Controls
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -666,7 +666,7 @@ Kazkade's local-first architecture allows organizations to run on air-gapped sys
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -689,3 +689,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

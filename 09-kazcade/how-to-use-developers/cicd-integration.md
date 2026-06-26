@@ -1,12 +1,12 @@
-Ôªø<!--
-  ‚ñÑ‚ñÑ   ‚ñÑ‚ñÑ‚ñÑ                      ‚ñÑ‚ñÑ                        ‚ñÑ‚ñÑ                     
-  ‚ñà‚ñà  ‚ñà‚ñà‚ñÄ                       ‚ñà‚ñà                        ‚ñà‚ñà                     
-  ‚ñÑ‚ñÑ‚ñÑ‚ñà  ‚ñà‚ñà‚ñÑ‚ñà‚ñà      ‚ñÑ‚ñà‚ñà‚ñà‚ñà‚ñà‚ñÑ  ‚ñà‚ñà‚ñà‚ñà‚ñà‚ñà‚ñà‚ñà  ‚ñà‚ñà ‚ñÑ‚ñà‚ñà‚ñÄ    ‚ñÑ‚ñà‚ñà‚ñà‚ñà‚ñà‚ñÑ   ‚ñÑ‚ñà‚ñà‚ñà‚ñÑ‚ñà‚ñà   ‚ñÑ‚ñà‚ñà‚ñà‚ñà‚ñÑ   ‚ñà‚ñÑ‚ñÑ‚ñÑ     
-  ‚ñÑ‚ñÑ‚ñà‚ñÄ‚ñÄ‚ñÄ    ‚ñà‚ñà‚ñà‚ñà‚ñà      ‚ñÄ ‚ñÑ‚ñÑ‚ñÑ‚ñà‚ñà      ‚ñÑ‚ñà‚ñÄ   ‚ñà‚ñà‚ñÑ‚ñà‚ñà      ‚ñÄ ‚ñÑ‚ñÑ‚ñÑ‚ñà‚ñà  ‚ñà‚ñà‚ñÄ  ‚ñÄ‚ñà‚ñà  ‚ñà‚ñà‚ñÑ‚ñÑ‚ñÑ‚ñÑ‚ñà‚ñà    ‚ñÄ‚ñÄ‚ñÄ‚ñà‚ñÑ‚ñÑ 
-  ‚ñÄ‚ñÄ‚ñà‚ñÑ‚ñÑ‚ñÑ    ‚ñà‚ñà  ‚ñà‚ñà‚ñÑ   ‚ñÑ‚ñà‚ñà‚ñÄ‚ñÄ‚ñÄ‚ñà‚ñà    ‚ñÑ‚ñà‚ñÄ     ‚ñà‚ñà‚ñÄ‚ñà‚ñà‚ñÑ    ‚ñÑ‚ñà‚ñà‚ñÄ‚ñÄ‚ñÄ‚ñà‚ñà  ‚ñà‚ñà    ‚ñà‚ñà  ‚ñà‚ñà‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ    ‚ñÑ‚ñÑ‚ñÑ‚ñà‚ñÄ‚ñÄ 
-      ‚ñÄ‚ñÄ‚ñÄ‚ñà  ‚ñà‚ñà   ‚ñà‚ñà‚ñÑ  ‚ñà‚ñà‚ñÑ‚ñÑ‚ñÑ‚ñà‚ñà‚ñà  ‚ñÑ‚ñà‚ñà‚ñÑ‚ñÑ‚ñÑ‚ñÑ‚ñÑ  ‚ñà‚ñà  ‚ñÄ‚ñà‚ñÑ   ‚ñà‚ñà‚ñÑ‚ñÑ‚ñÑ‚ñà‚ñà‚ñà  ‚ñÄ‚ñà‚ñà‚ñÑ‚ñÑ‚ñà‚ñà‚ñà  ‚ñÄ‚ñà‚ñà‚ñÑ‚ñÑ‚ñÑ‚ñÑ‚ñà  ‚ñà‚ñÄ‚ñÄ‚ñÄ     
-           ‚ñÄ‚ñÄ    ‚ñÄ‚ñÄ   ‚ñÄ‚ñÄ‚ñÄ‚ñÄ ‚ñÄ‚ñÄ  ‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ  ‚ñÄ‚ñÄ   ‚ñÄ‚ñÄ‚ñÄ   ‚ñÄ‚ñÄ‚ñÄ‚ñÄ ‚ñÄ‚ñÄ    ‚ñÄ‚ñÄ‚ñÄ ‚ñÄ‚ñÄ    ‚ñÄ‚ñÄ‚ñÄ‚ñÄ‚ñÄ
-  Lois-Kleinner & 0-1.gg 2026 ‚Äî Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¶¶  ¶¶Ø                       ¶¶                        ¶¶                     
+  ___¶  ¶¶_¶¶      _¶¶¶¶¶_  ¶¶¶¶¶¶¶¶  ¶¶ _¶¶Ø    _¶¶¶¶¶_   _¶¶¶_¶¶   _¶¶¶¶_   ¶___     
+  __¶ØØØ    ¶¶¶¶¶      Ø ___¶¶      _¶Ø   ¶¶_¶¶      Ø ___¶¶  ¶¶Ø  Ø¶¶  ¶¶____¶¶    ØØØ¶__ 
+  ØØ¶___    ¶¶  ¶¶_   _¶¶ØØØ¶¶    _¶Ø     ¶¶Ø¶¶_    _¶¶ØØØ¶¶  ¶¶    ¶¶  ¶¶ØØØØØØ    ___¶ØØ 
+      ØØØ¶  ¶¶   ¶¶_  ¶¶___¶¶¶  _¶¶_____  ¶¶  Ø¶_   ¶¶___¶¶¶  Ø¶¶__¶¶¶  Ø¶¶____¶  ¶ØØØ     
+           ØØ    ØØ   ØØØØ ØØ  ØØØØØØØØ  ØØ   ØØØ   ØØØØ ØØ    ØØØ ØØ    ØØØØØ
+  Lois-Kleinner & 0-1.gg 2026 ó Kazkade Zero-Copy Compute Runtime
 -->
 
 # CI/CD Integration
@@ -68,7 +68,7 @@ jobs:
             const fs = require('fs');
             const results = JSON.parse(fs.readFileSync('bench-results.json', 'utf8'));
             const summary = results.map(r => 
-              `| ${r.name} | ${r.throughput_gbps} GB/s | ${r.latency_us} Œºs |`
+              `| ${r.name} | ${r.throughput_gbps} GB/s | ${r.latency_us} µs |`
             ).join('\n');
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
@@ -423,7 +423,7 @@ bench:
   with:
     payload: |
       {
-        "text": "‚ö†Ô∏è Performance regression detected in ${{ github.repository }}@${{ github.ref }}",
+        "text": "?? Performance regression detected in ${{ github.repository }}@${{ github.ref }}",
         "blocks": [
           { "type": "section", "text": "View details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" }
         ]
@@ -432,7 +432,7 @@ bench:
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 ‚Äî Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 ó Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -443,7 +443,7 @@ bench:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -466,3 +466,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

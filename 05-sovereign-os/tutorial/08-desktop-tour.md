@@ -1,4 +1,4 @@
-﻿# Desktop Tour
+# Desktop Tour
 
 This guide provides a comprehensive tour of the 01s Sovereign GNOME desktop environment, including custom extensions, themes, and applications.
 
@@ -13,20 +13,20 @@ This guide provides a comprehensive tour of the 01s Sovereign GNOME desktop envi
 ### Desktop Layout
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ [Activities]  Clock              [ðŸ”Š][ðŸ”‹][âš™] â”‚  <- Top Bar
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                â”‚
-â”‚                                                â”‚
-â”‚       â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ         â”‚
-â”‚       â–ˆâ–ˆ   Main Workspace Area    â–ˆâ–ˆ         â”‚  <- Desktop
-â”‚       â–ˆâ–ˆ                        â–ˆâ–ˆ         â”‚
-â”‚       â–ˆâ–ˆ                        â–ˆâ–ˆ         â”‚
-â”‚       â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ         â”‚
-â”‚                                                â”‚
-â”‚  â•â•â• Dash (Favorites) â•â•â•                     â”‚
-â”‚  ðŸ–¥  ðŸŒ  ðŸ“  âš™  â–¶                            â”‚  <- Left Side
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌────────────────────────────────────────────────┐
+│ [Activities]  Clock              [🔊][🔋][⚙] │  <- Top Bar
+├────────────────────────────────────────────────┤
+│                                                │
+│                                                │
+│       ████████████████████████████████         │
+│       ██   Main Workspace Area    ██         │  <- Desktop
+│       ██                        ██         │
+│       ██                        ██         │
+│       ████████████████████████████████         │
+│                                                │
+│  ═══ Dash (Favorites) ═══                     │
+│  🖥  🌐  📁  ⚙  ▶                            │  <- Left Side
+└────────────────────────────────────────────────┘
 ```
 
 ## Activities Overview
@@ -554,16 +554,16 @@ rm -rf /tmp/yay
 
 ## Further Reading
 
-- [Customizing Appearance](09-customizing-appearance.md) â€” Themes and icons
-- [Post-Installation Setup](07-post-installation-setup.md) â€” Initial configuration
-- [GNOME Extensions](../features/04-gnome-shell-extensions.md) â€” Extension development
-- [Theming and Branding](../features/15-theming-and-branding-system.md) â€” Visual design
-- [Desktop Environment](../features/03-desktop-environment.md) â€” Technical details
-- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) â€” Solving issues
-- [Desktop FAQ](../faq/05-desktop-faq.md) â€” Common questions
-- [Performance Tuning](24-performance-tuning.md) â€” Graphics optimization
-- [Accessibility Guide](../help/09-getting-support.md) â€” Accessibility features
-- [Audio Configuration](../features/20-audio-and-sound-scheme.md) â€” Sound setup
+- [Customizing Appearance](09-customizing-appearance.md) — Themes and icons
+- [Post-Installation Setup](07-post-installation-setup.md) — Initial configuration
+- [GNOME Extensions](../features/04-gnome-shell-extensions.md) — Extension development
+- [Theming and Branding](../features/15-theming-and-branding-system.md) — Visual design
+- [Desktop Environment](../features/03-desktop-environment.md) — Technical details
+- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) — Solving issues
+- [Desktop FAQ](../faq/05-desktop-faq.md) — Common questions
+- [Performance Tuning](24-performance-tuning.md) — Graphics optimization
+- [Accessibility Guide](../help/09-getting-support.md) — Accessibility features
+- [Audio Configuration](../features/20-audio-and-sound-scheme.md) — Sound setup
 
 ## Keyboard Shortcuts Reference
 
@@ -573,9 +573,9 @@ rm -rf /tmp/yay
 | Super+Tab | Cycle apps | Navigation |
 | Super+A | App grid | Navigation |
 | Super+D | Show desktop | Navigation |
-| Super+â†‘ | Maximize | Window |
-| Super+â†“ | Restore/Minimize | Window |
-| Super+â†/â†’ | Snap to half | Window |
+| Super+↑ | Maximize | Window |
+| Super+↓ | Restore/Minimize | Window |
+| Super+←/→ | Snap to half | Window |
 | Super+PageUp | Prev workspace | Workspace |
 | Super+PageDown | Next workspace | Workspace |
 | Alt+F10 | Toggle fullscreen | Window |
@@ -699,7 +699,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -722,3 +722,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

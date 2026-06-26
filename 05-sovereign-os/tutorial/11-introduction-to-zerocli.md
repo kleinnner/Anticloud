@@ -1,4 +1,4 @@
-﻿# Introduction to zerocli
+# Introduction to zerocli
 
 `zerocli` is the primary command-line interface for 01s Sovereign. It provides a set of utilities for system management, file operations, and process monitoring -- all with zero trust (every action is logged to the ledger).
 
@@ -117,12 +117,12 @@ zerocli motd
 
 Example output:
 ```
-  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
- â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•— â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â•â•
- â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘ â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
- â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘ â–ˆâ–ˆâ•‘â•šâ•â•â•â•â–ˆâ–ˆâ•‘
- â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘ â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘
- â•šâ•â•  â•šâ•â• â•šâ•â•â•šâ•â•â•â•â•â•â•
+  █████╗  ██╗███████╗
+ ██╔══██╗ ██║██╔════╝
+ ███████║ ██║███████╗
+ ██╔══██║ ██║╚════██║
+ ██║  ██║ ██║███████║
+ ╚═╝  ╚═╝ ╚═╝╚══════╝
 
  01s Sovereign v1.0.1
  Kernel: 6.x.x-arch1-1
@@ -365,16 +365,16 @@ zerocli is open-source and can be extended:
 ```bash
 # Source structure
 /usr/src/toolchain/zerocli/
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ main.rs      # Entry point and dispatcher
-â”‚   â”œâ”€â”€ commands/
-â”‚   â”‚   â”œâ”€â”€ ls.rs    # Directory listing
-â”‚   â”‚   â”œâ”€â”€ ps.rs    # Process listing
-â”‚   â”‚   â”œâ”€â”€ grep.rs  # Text search
-â”‚   â”‚   â”œâ”€â”€ fetch.rs # URL download
-â”‚   â”‚   â””â”€â”€ motd.rs  # Message of the day
-â”‚   â””â”€â”€ ledger.rs    # Ledger integration
-â””â”€â”€ Makefile
+├── src/
+│   ├── main.rs      # Entry point and dispatcher
+│   ├── commands/
+│   │   ├── ls.rs    # Directory listing
+│   │   ├── ps.rs    # Process listing
+│   │   ├── grep.rs  # Text search
+│   │   ├── fetch.rs # URL download
+│   │   └── motd.rs  # Message of the day
+│   └── ledger.rs    # Ledger integration
+└── Makefile
 ```
 
 To add a new command:
@@ -476,16 +476,16 @@ A: Currently all zerocli commands are logged. To avoid logging, use standard GNU
 
 ## Further Reading
 
-- [Using 01s-Ledger](10-using-01s-ledger.md) â€” Ledger operations
-- [Custom Toolchain](12-using-the-custom-toolchain.md) â€” Toolchain usage
-- [zerocli Plugins](../developers/05-zerocli-plugins-development.md) â€” Plugin development
-- [zerocli Features](../features/06-zerocli-command-line.md) â€” Feature overview
-- [Toolchain FAQ](../faq/03-toolchain-faq.md) â€” Common questions
-- [Debugging and Profiling](../developers/17-debugging-and-profiling.md) â€” Development tools
-- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) â€” Automation
-- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) â€” Issue resolution
-- [Community Plugins](../community/07-community-projects-and-ecosystem.md) â€” Shared plugins
-- [Contributing Code](../developers/11-contributing-code.md) â€” Development guide
+- [Using 01s-Ledger](10-using-01s-ledger.md) — Ledger operations
+- [Custom Toolchain](12-using-the-custom-toolchain.md) — Toolchain usage
+- [zerocli Plugins](../developers/05-zerocli-plugins-development.md) — Plugin development
+- [zerocli Features](../features/06-zerocli-command-line.md) — Feature overview
+- [Toolchain FAQ](../faq/03-toolchain-faq.md) — Common questions
+- [Debugging and Profiling](../developers/17-debugging-and-profiling.md) — Development tools
+- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) — Automation
+- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) — Issue resolution
+- [Community Plugins](../community/07-community-projects-and-ecosystem.md) — Shared plugins
+- [Contributing Code](../developers/11-contributing-code.md) — Development guide
 
 ## Command Reference
 
@@ -696,7 +696,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -719,3 +719,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,4 +1,4 @@
-﻿# Recognition and Rewards
+# Recognition and Rewards
 
 This document outlines how contributors to 01s Sovereign are recognized and rewarded.
 
@@ -426,16 +426,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Community info
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” Start contributing
-- [Community Governance](03-community-governance.md) â€” Reward policies
-- [Communication Channels](04-communication-channels.md) â€” Reward announcements
-- [Reporting Bugs](05-reporting-bugs-and-features.md) â€” Bug bounty details
-- [Code of Conduct](06-code-of-conduct.md) â€” Standards
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Project rewards
-- [Localization](08-localization-and-translation.md) â€” Translation rewards
-- [Contributing Code](../developers/11-contributing-code.md) â€” Code contributions
-- [Community Growth BDR](../bdr/08-community-growth-bdr.md) â€” Growth strategy
+- [Welcome to the Community](01-welcome-to-the-community.md) — Community info
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — Start contributing
+- [Community Governance](03-community-governance.md) — Reward policies
+- [Communication Channels](04-communication-channels.md) — Reward announcements
+- [Reporting Bugs](05-reporting-bugs-and-features.md) — Bug bounty details
+- [Code of Conduct](06-code-of-conduct.md) — Standards
+- [Community Projects](07-community-projects-and-ecosystem.md) — Project rewards
+- [Localization](08-localization-and-translation.md) — Translation rewards
+- [Contributing Code](../developers/11-contributing-code.md) — Code contributions
+- [Community Growth BDR](../bdr/08-community-growth-bdr.md) — Growth strategy
 
 ## Rewards Fulfillment Details
 
@@ -705,7 +705,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -728,3 +728,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

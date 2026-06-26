@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Enterprise Audit
@@ -16,27 +16,27 @@ This guide covers centralized audit log aggregation, multi-node .aioss verificat
 ## Audit Architecture
 
 `
-┌──────────┐  ┌──────────┐  ┌──────────┐
-│ Node 1   │  │ Node 2   │  │ Node 3   │
-│ .aioss   │  │ .aioss   │  │ .aioss   │
-│ ledger   │  │ ledger   │  │ ledger   │
-└────┬─────┘  └────┬─────┘  └────┬─────┘
-     │              │              │
-     └──────────────┼──────────────┘
-                    │
-                    ▼
-          ┌─────────────────┐
-          │ Central Audit   │
-          │ Aggregator      │
-          │ .aioss merge    │
-          └────────┬────────┘
-                   │
-                   ▼
-          ┌─────────────────┐
-          │ Compliance      │
-          │ Reports         │
-          │ (PDF/CSV/JSON)  │
-          └─────────────────┘
++----------+  +----------+  +----------+
+� Node 1   �  � Node 2   �  � Node 3   �
+� .aioss   �  � .aioss   �  � .aioss   �
+� ledger   �  � ledger   �  � ledger   �
++----------+  +----------+  +----------+
+     �              �              �
+     +--------------+--------------+
+                    �
+                    ?
+          +-----------------+
+          � Central Audit   �
+          � Aggregator      �
+          � .aioss merge    �
+          +-----------------+
+                   �
+                   ?
+          +-----------------+
+          � Compliance      �
+          � Reports         �
+          � (PDF/CSV/JSON)  �
+          +-----------------+
 `
 
 ## Audit Events
@@ -52,7 +52,7 @@ kazkade audit list --since 24h
 2026-06-19 11:55:00Z  QUERY_EXECUTE   alice@co     SELECT * FROM sales        1.2M rows
 2026-06-19 11:50:00Z  DATA_EXPORT     bob@co       Exported sales.csv         CSV
 2026-06-19 11:45:00Z  STORE_CREATE    operator@co  Created monthly_agg.acol   SUCCESS
-2026-06-19 11:40:00Z  ROLE_ASSIGN     admin@co     alice → analyst            SUCCESS
+2026-06-19 11:40:00Z  ROLE_ASSIGN     admin@co     alice ? analyst            SUCCESS
 2026-06-19 11:35:00Z  LEDGER_VERIFY   system       Full chain verify          PASS
 `
 
@@ -120,11 +120,11 @@ Each node maintains its own .aioss ledger:
 `ash
 # Node 1 ledger
 kazkade ledger status --node node1
-# Entries: 1,234 | Last: 2 min ago | Integrity: ✓
+# Entries: 1,234 | Last: 2 min ago | Integrity: ?
 
 # Node 2 ledger
 kazkade ledger status --node node2
-# Entries: 1,189 | Last: 2 min ago | Integrity: ✓
+# Entries: 1,189 | Last: 2 min ago | Integrity: ?
 `
 
 ### Central Aggregation
@@ -148,18 +148,18 @@ kazcade-ctl audit cross-verify
 
 `
 Cross-Node Verification Report
-══════════════════════════════
+------------------------------
 Nodes: node1, node2, node3
 Chain depth: 3,421 entries
 
-node1 ───── node2 ───── node3
-  ✓          ✓          ✓        Genesis: COMMON
-  ✓          ✓          ✓        Block 100: CONSISTENT
-  ✓          ✓          ✓        Block 500: CONSISTENT
-  ✓          ✓          ✓        Block 1000: CONSISTENT
-  ✓          ✓          ✓        Block 3421: CONSISTENT
+node1 ----- node2 ----- node3
+  ?          ?          ?        Genesis: COMMON
+  ?          ?          ?        Block 100: CONSISTENT
+  ?          ?          ?        Block 500: CONSISTENT
+  ?          ?          ?        Block 1000: CONSISTENT
+  ?          ?          ?        Block 3421: CONSISTENT
 
-Result: ALL NODES VERIFIED ✓
+Result: ALL NODES VERIFIED ?
 No forks detected.
 Last verified: 2026-06-19T12:00:00Z
 `
@@ -190,31 +190,31 @@ kazcade-ctl audit report custom \
 ### Report Contents
 
 `
-┌─────────────────────────────────────────────┐
-│  Kazkade Compliance Report                   │
-│  Period: 2026-01-01 → 2026-06-19           │
-│  Type: SOC 2                                │
-│                                              │
-│  SUMMARY                                     │
-│  Total Events: 142,341                      │
-│  Unique Users: 47                           │
-│  Queries Executed: 89,234                   │
-│  Data Ingestion: 1.2 TB                     │
-│  Exports: 3,421                             │
-│  Ledger Integrity: ✓ (100%)                 │
-│                                              │
-│  SECURITY EVENTS                             │
-│  Failed Logins: 23                          │
-│  Permission Denied: 156                     │
-│  Key Revocations: 2                         │
-│                                              │
-│  COMPLIANCE STATUS                           │
-│  Access Control: ✓ Compliant                │
-│  Audit Trail: ✓ Complete                    │
-│  Data Integrity: ✓ Verified                 │
-│  SSO Config: ✓ Valid                        │
-│  Encryption: ✓ AES-256-GCM                  │
-└─────────────────────────────────────────────┘
++---------------------------------------------+
+�  Kazkade Compliance Report                   �
+�  Period: 2026-01-01 ? 2026-06-19           �
+�  Type: SOC 2                                �
+�                                              �
+�  SUMMARY                                     �
+�  Total Events: 142,341                      �
+�  Unique Users: 47                           �
+�  Queries Executed: 89,234                   �
+�  Data Ingestion: 1.2 TB                     �
+�  Exports: 3,421                             �
+�  Ledger Integrity: ? (100%)                 �
+�                                              �
+�  SECURITY EVENTS                             �
+�  Failed Logins: 23                          �
+�  Permission Denied: 156                     �
+�  Key Revocations: 2                         �
+�                                              �
+�  COMPLIANCE STATUS                           �
+�  Access Control: ? Compliant                �
+�  Audit Trail: ? Complete                    �
+�  Data Integrity: ? Verified                 �
+�  SSO Config: ? Valid                        �
+�  Encryption: ? AES-256-GCM                  �
++---------------------------------------------+
 `
 
 ### Automated Reports
@@ -305,7 +305,7 @@ kazcade-ctl audit restore \
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -316,7 +316,7 @@ kazcade-ctl audit restore \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -339,3 +339,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

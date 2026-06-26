@@ -1,12 +1,12 @@
-﻿▄▄                     ██               ▄▄                                    
-██                     ▀▀               ██                                    
-██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
-██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
-██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
-██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
-▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
+__                     ��               __                                    
+��                     ��               ��                                    
+��            ___�   ����     �___      ��_���_    _����_    ��_����  ��_����_
+��        __����       ��       ����__  ���  ���  ��____��   ���      ���   ��
+��        ���___       ��       ___���  ��    ��  ��������   ��       ��    ��
+��______      ����  ___��___  ����      ���__���  ���____�   ��       ��    ��
+��������            ��������            �� ���      �����    ��       ��    ��
 
-Libern — Sovereign Collaborative Telecom Engine
+Libern � Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 Document Version: 1.0.0
@@ -14,7 +14,7 @@ Category: Enterprise Administration Guide
 Document ID: ENT-003
 Last Updated: 2026-06-19
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 # Configuring Security
 
@@ -264,7 +264,7 @@ await setAiossInterval(3600);
 
 ### Viewing Audit Logs
 
-1. Open the Compliance dashboard (🛡️).
+1. Open the Compliance dashboard (???).
 2. Browse .aioss sessions by date.
 3. View entries by type, actor, or timestamp.
 4. Verify the hash chain integrity.
@@ -439,10 +439,10 @@ const result = await verifyAiossFile("/path/to/session.aioss");
 
 Now that security is configured, proceed to:
 
-- **Enterprise Guide 04**: Backup Strategies — Backing up .aioss sessions, SQLite DB, user keys
-- **Enterprise Guide 05**: Monitoring — Health diagnostics, .aioss verification, network status
+- **Enterprise Guide 04**: Backup Strategies � Backing up .aioss sessions, SQLite DB, user keys
+- **Enterprise Guide 05**: Monitoring � Health diagnostics, .aioss verification, network status
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
@@ -455,7 +455,7 @@ Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -478,3 +478,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

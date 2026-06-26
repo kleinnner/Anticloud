@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: governance | ID: LIB-GOV-005
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Security Disclosures
 
@@ -36,7 +36,7 @@ report it to us immediately.
 
 **Alternative reporting channels:**
 - GitHub Security Advisory (private): https://github.com/libern/libern/security/advisories
-- Direct message to a Core Team member (Signal, Matrix) â€” verify identity first
+- Direct message to a Core Team member (Signal, Matrix) — verify identity first
 
 **Do NOT report security vulnerabilities through public channels:**
 - Do not file a public GitHub issue
@@ -150,7 +150,7 @@ Security advisories are published on GitHub Security Advisories and include:
 
 ```
 LIBERN-SEC-2026-001: Title of the Vulnerability
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+─────────────────────────────────────────────
 
 Description:
 A clear description of the vulnerability.
@@ -420,7 +420,7 @@ page. There are no unpatched critical vulnerabilities at this time.
 
 ```
 Security Disclosure Timeline
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+════════════════════════════
 
 CVE ID: CVE-2026-XXXXX
 LIBERN-SEC ID: LIBERN-SEC-2026-NNN
@@ -473,18 +473,18 @@ Credit: [Reporter name / Organization]
 
 ```
 Report received
-        â”‚
-        â–¼
+        │
+        ▼
 Is it a security vulnerability?
-   â”œâ”€â”€ No â†’ Forward to regular issue tracker
-   â”‚
-   â””â”€â”€ Yes â†’
-        â”œâ”€â”€ Determine attack vector (network/local/physical)
-        â”œâ”€â”€ Determine impact (confidentiality/integrity/availability)
-        â”œâ”€â”€ Determine exploitability (requires auth? user interaction?)
-        â”œâ”€â”€ Calculate CVSS 4.0 score
-        â”œâ”€â”€ Assign severity
-        â””â”€â”€ Begin handling per policy
+   ├── No → Forward to regular issue tracker
+   │
+   └── Yes →
+        ├── Determine attack vector (network/local/physical)
+        ├── Determine impact (confidentiality/integrity/availability)
+        ├── Determine exploitability (requires auth? user interaction?)
+        ├── Calculate CVSS 4.0 score
+        ├── Assign severity
+        └── Begin handling per policy
 ```
 
 ## 19. Security Research Collaboration
@@ -492,8 +492,8 @@ Is it a security vulnerability?
 ### 19.1 Research Agreement Template
 
 ```
-Security Research Agreement â€” Libern Project
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+Security Research Agreement — Libern Project
+══════════════════════════════════════════════
 
 This agreement governs security research conducted on Libern software.
 
@@ -652,7 +652,7 @@ fuzz_target!(|data: &[u8]| {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -675,3 +675,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

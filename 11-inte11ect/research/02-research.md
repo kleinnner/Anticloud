@@ -1,4 +1,4 @@
-﻿<!-- ASCII Art for Read-11 -->
+<!-- ASCII Art for Read-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 02 — Hash Chain Integrity
+# research - Document 02 � Hash Chain Integrity
 
 > **Associated Module:** Read-11
 > **Category:** Research & Development
@@ -16,7 +16,7 @@
 
 ## Abstract
 
-This document presents the cryptographic foundations of the Inte11ect platform's hash chain integrity system, which underpins the .aioss (Auditable Integrity Object Storage System) ledger. The system employs SHA3-256 as its primary hashing primitive within a Merkle-Damgård construction augmented by a novel chained-hash verification protocol. We demonstrate that the hash chain provides tamper evidence with computational security guarantees of 2^128 operations against collision attacks and 2^256 against preimage attacks. Empirical evaluation across 72 module states demonstrates that chain verification completes in O(log n) time through the use of Merkle interval trees, with worst-case verification latency of 47ms for chains containing over 10^6 entries. The system achieves an amortized throughput of 985,000 hash operations per second on commodity x86-64 hardware, with a false positive rate of 2.3 × 10^-12 for integrity violations.
+This document presents the cryptographic foundations of the Inte11ect platform's hash chain integrity system, which underpins the .aioss (Auditable Integrity Object Storage System) ledger. The system employs SHA3-256 as its primary hashing primitive within a Merkle-Damg�rd construction augmented by a novel chained-hash verification protocol. We demonstrate that the hash chain provides tamper evidence with computational security guarantees of 2^128 operations against collision attacks and 2^256 against preimage attacks. Empirical evaluation across 72 module states demonstrates that chain verification completes in O(log n) time through the use of Merkle interval trees, with worst-case verification latency of 47ms for chains containing over 10^6 entries. The system achieves an amortized throughput of 985,000 hash operations per second on commodity x86-64 hardware, with a false positive rate of 2.3 � 10^-12 for integrity violations.
 
 ## 1. Introduction
 
@@ -30,13 +30,13 @@ This document is organized as follows: Section 2 establishes the theoretical fou
 
 ### 2.1 Cryptographic Hash Functions
 
-A cryptographic hash function H: {0,1}* → {0,1}^n maps arbitrary-length input bitstrings to fixed-length output digests of n bits. The security of hash chain integrity rests on three fundamental properties:
+A cryptographic hash function H: {0,1}* ? {0,1}^n maps arbitrary-length input bitstrings to fixed-length output digests of n bits. The security of hash chain integrity rests on three fundamental properties:
 
 1. **Preimage resistance**: Given y = H(x), it is computationally infeasible to find any x' such that H(x') = y. The expected work factor for a preimage attack on SHA3-256 is 2^256 operations.
 
-2. **Second preimage resistance**: Given x, it is computationally infeasible to find x' ≠ x such that H(x') = H(x).
+2. **Second preimage resistance**: Given x, it is computationally infeasible to find x' ? x such that H(x') = H(x).
 
-3. **Collision resistance**: It is computationally infeasible to find any pair (x₁, x₂) with x₁ ≠ x₂ such that H(x₁) = H(x₂). The birthday bound limits collision resistance to 2^(n/2) = 2^128 operations for SHA3-256.
+3. **Collision resistance**: It is computationally infeasible to find any pair (x1, x2) with x1 ? x2 such that H(x1) = H(x2). The birthday bound limits collision resistance to 2^(n/2) = 2^128 operations for SHA3-256.
 
 ```python
 import hashlib
@@ -55,9 +55,9 @@ def verify_hash_properties(test_message: bytes) -> dict:
     }
 ```
 
-### 2.2 Merkle-Damgård Construction
+### 2.2 Merkle-Damg�rd Construction
 
-The SHA3-256 hash function is based on the Keccak sponge construction rather than the traditional Merkle-Damgård construction. However, the .aioss ledger implements a hybrid approach that layers a Merkle-Damgård-like chaining structure on top of SHA3-256 primitive operations:
+The SHA3-256 hash function is based on the Keccak sponge construction rather than the traditional Merkle-Damg�rd construction. However, the .aioss ledger implements a hybrid approach that layers a Merkle-Damg�rd-like chaining structure on top of SHA3-256 primitive operations:
 
 ```mermaid
 flowchart LR
@@ -78,14 +78,14 @@ flowchart LR
 
 ### 2.3 Hash Chain Definition
 
-Formally, a hash chain is defined as a sequence of states {S₀, S₁, ..., Sₙ} where each state Sᵢ₊₁ is computed as:
+Formally, a hash chain is defined as a sequence of states {S0, S1, ..., S?} where each state S??1 is computed as:
 
 ```
-S₀ = H(genesis_seed || module_id)
-Sᵢ₊₁ = H(Sᵢ || Dᵢ || timestamp_i || nonce_i)
+S0 = H(genesis_seed || module_id)
+S??1 = H(S? || D? || timestamp_i || nonce_i)
 ```
 
-Where Dᵢ represents the i-th data entry (module state), and the nonce ensures uniqueness even for identical data entries.
+Where D? represents the i-th data entry (module state), and the nonce ensures uniqueness even for identical data entries.
 
 ```python
 class HashChain:
@@ -128,7 +128,7 @@ class HashChain:
 
 ### 3.1 Keccak Sponge Construction
 
-SHA3-256 is built upon the Keccak sponge construction, which operates in two phases: absorb and squeeze. The state matrix is organized as a 5×5×64 array of bits (1600 bits total):
+SHA3-256 is built upon the Keccak sponge construction, which operates in two phases: absorb and squeeze. The state matrix is organized as a 5�5�64 array of bits (1600 bits total):
 
 ```python
 # Keccak-f[1600] permutation constants
@@ -226,7 +226,7 @@ impl Sha3Accelerator {
 }
 ```
 
-The AVX-512 accelerated implementation achieves a 4.2× throughput improvement over the scalar reference implementation, processing data at 3.8 GB/s on Intel Ice Lake processors.
+The AVX-512 accelerated implementation achieves a 4.2� throughput improvement over the scalar reference implementation, processing data at 3.8 GB/s on Intel Ice Lake processors.
 
 ### 3.3 Benchmarking Results
 
@@ -236,7 +236,7 @@ The AVX-512 accelerated implementation achieves a 4.2× throughput improvement o
 | AVX2 | 2,140 | 7.3 | 12.3 |
 | AVX-512 | 3,800 | 4.1 | 18.7 |
 | ARM NEON | 1,850 | 8.4 | 6.2 |
-| GPU (CUDA) | 8,400 | — | 45.0 |
+| GPU (CUDA) | 8,400 | � | 45.0 |
 
 ## 4. Chained-Hash Verification Protocol
 
@@ -506,9 +506,9 @@ def verify_range_proof(
 | Operation | Without Merkle Tree | With Merkle Tree | Improvement |
 |---|---|---|---|
 | Full chain verification | O(n) | O(n) | Same |
-| Single entry verification | O(n) | O(log n) | 10^5× for million-entry chain |
+| Single entry verification | O(n) | O(log n) | 10^5� for million-entry chain |
 | Range verification | O(k) | O(k + log n) | Negligible |
-| Proof size (single entry) | O(n) | O(log n) | 10^5× reduction |
+| Proof size (single entry) | O(n) | O(log n) | 10^5� reduction |
 | Proof size (range of k entries) | O(n) | O(k + log n) | Significant for small k |
 | Storage overhead | O(1) | O(n) | Additional 32n bytes |
 
@@ -559,7 +559,7 @@ def benchmark_chain_operations(sizes: List[int]) -> dict:
 
 ### 6.2 Performance Results
 
-| Chain Size | Append (ops/s) | Verify (ops/s) | Proof Gen (µs) | Proof Size (bytes) |
+| Chain Size | Append (ops/s) | Verify (ops/s) | Proof Gen (�s) | Proof Size (bytes) |
 |---|---|---|---|---|
 | 1,000 | 852,000 | 124,000 | 45 | 320 |
 | 10,000 | 789,000 | 98,000 | 52 | 384 |
@@ -571,11 +571,11 @@ def benchmark_chain_operations(sizes: List[int]) -> dict:
 
 | Tamper Type | Detection Time (ms) | False Positive Rate |
 |---|---|---|
-| Single entry modification | 0.047 | 2.3 × 10^-12 |
-| Bulk modification (10%) | 0.051 | 2.1 × 10^-12 |
-| Truncation (50% removed) | 0.038 | 1.8 × 10^-12 |
-| Insertion (single entry) | 0.049 | 2.5 × 10^-12 |
-| Chain fork | 0.042 | 1.9 × 10^-12 |
+| Single entry modification | 0.047 | 2.3 � 10^-12 |
+| Bulk modification (10%) | 0.051 | 2.1 � 10^-12 |
+| Truncation (50% removed) | 0.038 | 1.8 � 10^-12 |
+| Insertion (single entry) | 0.049 | 2.5 � 10^-12 |
+| Chain fork | 0.042 | 1.9 � 10^-12 |
 
 ### 6.4 Memory Overhead
 
@@ -593,17 +593,17 @@ pie title Memory Distribution in .aioss Ledger
 
 We define security for the hash chain integrity system through the following game:
 
-**Definition 1** (Integrity Game). Let CHAIN be a hash chain construction with security parameter λ = 256. A probabilistic polynomial-time adversary A wins the integrity game if, after polynomially many append queries, it produces a chain state (S'_n, D'_1, ..., D'_m) such that:
+**Definition 1** (Integrity Game). Let CHAIN be a hash chain construction with security parameter ? = 256. A probabilistic polynomial-time adversary A wins the integrity game if, after polynomially many append queries, it produces a chain state (S'_n, D'_1, ..., D'_m) such that:
 
-1. Either m ≠ n (length discrepancy), or
-2. There exists j such that D'_j ≠ D_j (data modification), or
+1. Either m ? n (length discrepancy), or
+2. There exists j such that D'_j ? D_j (data modification), or
 3. The ordering differs (reordering),
 
 but VerifyChain(S'_n) accepts.
 
-**Theorem 1**. The .aioss hash chain construction is computationally secure under the random oracle model. Any adversary breaking the integrity game with non-negligible probability ε can be used to find a SHA3-256 collision with probability at least ε - negl(λ).
+**Theorem 1**. The .aioss hash chain construction is computationally secure under the random oracle model. Any adversary breaking the integrity game with non-negligible probability e can be used to find a SHA3-256 collision with probability at least e - negl(?).
 
-*Proof sketch*: Assume an adversary A produces a valid forgery. The forgery implies a hash chain path from genesis to head where at least one entry deviates from the honest chain. Let i be the first index where the chains diverge. Since the chains agree on entry i-1 (or genesis for i=0), a difference in entry i implies H(S_{i-1} || D_i || ...) = H(S'_{i-1} || D'_i || ...) with S_{i-1} = S'_{i-1}. Since the inputs differ (D_i ≠ D'_i) or the ordering differs, this constitutes a collision in SHA3-256. By the assumed collision resistance of SHA3-256, this event has negligible probability.
+*Proof sketch*: Assume an adversary A produces a valid forgery. The forgery implies a hash chain path from genesis to head where at least one entry deviates from the honest chain. Let i be the first index where the chains diverge. Since the chains agree on entry i-1 (or genesis for i=0), a difference in entry i implies H(S_{i-1} || D_i || ...) = H(S'_{i-1} || D'_i || ...) with S_{i-1} = S'_{i-1}. Since the inputs differ (D_i ? D'_i) or the ordering differs, this constitutes a collision in SHA3-256. By the assumed collision resistance of SHA3-256, this event has negligible probability.
 
 ### 7.2 Side-Channel Attack Mitigation
 
@@ -678,25 +678,25 @@ The .aioss hash chain integrity system provides a cryptographically sound founda
 
 ## Works Cited
 
-1. Alwen, J., & Serbănuță, T. (2021). Hash Functions and the Random Oracle Model. *Cryptology ePrint Archive*, Report 2021/1294.
+1. Alwen, J., & Serbanu?a, T. (2021). Hash Functions and the Random Oracle Model. *Cryptology ePrint Archive*, Report 2021/1294.
 
 2. Aumasson, J. P., & Meier, W. (2009). ZeroSum Distinguisher for the Keccak-f Permutation. *Workshop on Cryptographic Hardware and Embedded Systems*.
 
 3. Bellare, M., & Rogaway, P. (1993). Random Oracles are Practical: A Paradigm for Designing Efficient Protocols. *Proceedings of the 1st ACM Conference on Computer and Communications Security*, 62-73.
 
-4. Bertoni, G., Daemen, J., Peeters, M., & Van Assche, G. (2013). Keccak. *Advances in Cryptology – EUROCRYPT 2013*, 313-314.
+4. Bertoni, G., Daemen, J., Peeters, M., & Van Assche, G. (2013). Keccak. *Advances in Cryptology � EUROCRYPT 2013*, 313-314.
 
-5. Brassard, G., Høyer, P., & Tapp, A. (1998). Quantum Cryptanalysis of Hash and Claw-Free Functions. *SIGACT News*, 28(2), 14-19.
+5. Brassard, G., H�yer, P., & Tapp, A. (1998). Quantum Cryptanalysis of Hash and Claw-Free Functions. *SIGACT News*, 28(2), 14-19.
 
-6. Coron, J. S., Dodis, Y., Malinaud, C., & Puniya, P. (2005). Merkle-Damgård Revisited: How to Construct a Hash Function. *Advances in Cryptology – CRYPTO 2005*, 430-448.
+6. Coron, J. S., Dodis, Y., Malinaud, C., & Puniya, P. (2005). Merkle-Damg�rd Revisited: How to Construct a Hash Function. *Advances in Cryptology � CRYPTO 2005*, 430-448.
 
 7. Daemen, J., & Van Assche, G. (2015). Differential Propagation Analysis of Keccak. *Fast Software Encryption*, 422-441.
 
-8. Damgård, I. (1989). A Design Principle for Hash Functions. *Advances in Cryptology – CRYPTO 1989*, 416-427.
+8. Damg�rd, I. (1989). A Design Principle for Hash Functions. *Advances in Cryptology � CRYPTO 1989*, 416-427.
 
-9. Dwork, C., & Naor, M. (1992). Pricing via Processing or Combatting Junk Mail. *Advances in Cryptology – CRYPTO 1992*, 139-147.
+9. Dwork, C., & Naor, M. (1992). Pricing via Processing or Combatting Junk Mail. *Advances in Cryptology � CRYPTO 1992*, 139-147.
 
-10. Gervais, A., Karame, G. O., Wüst, K., Glykantzis, V., Ritzdorf, H., & Capkun, S. (2016). On the Security and Performance of Proof of Work Blockchains. *Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security*, 3-16.
+10. Gervais, A., Karame, G. O., W�st, K., Glykantzis, V., Ritzdorf, H., & Capkun, S. (2016). On the Security and Performance of Proof of Work Blockchains. *Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security*, 3-16.
 
 11. Goldreich, O. (2001). *Foundations of Cryptography: Volume 1, Basic Tools*. Cambridge University Press.
 
@@ -708,7 +708,7 @@ The .aioss hash chain integrity system provides a cryptographically sound founda
 
 15. Kaliski, B. (2002). PKCS #7: Cryptographic Message Syntax. *RFC 3369*.
 
-16. Kelsey, J., & Schneier, B. (1998). Second Preimages on n-Bit Hash Functions for Much Less than 2^n Work. *Advances in Cryptology – EUROCRYPT 2005*, 474-490.
+16. Kelsey, J., & Schneier, B. (1998). Second Preimages on n-Bit Hash Functions for Much Less than 2^n Work. *Advances in Cryptology � EUROCRYPT 2005*, 474-490.
 
 17. Lamport, L. (1981). Password Authentication with Insecure Communication. *Communications of the ACM*, 24(11), 770-772.
 
@@ -716,7 +716,7 @@ The .aioss hash chain integrity system provides a cryptographically sound founda
 
 19. Merkle, R. C. (1980). Protocols for Public Key Cryptosystems. *IEEE Symposium on Security and Privacy*, 122-134.
 
-20. Merkle, R. C. (1989). A Certified Digital Signature. *Advances in Cryptology – CRYPTO 1989*, 218-238.
+20. Merkle, R. C. (1989). A Certified Digital Signature. *Advances in Cryptology � CRYPTO 1989*, 218-238.
 
 21. Naor, M., & Yung, M. (1989). Universal One-Way Hash Functions and Their Cryptographic Applications. *Proceedings of the 21st Annual ACM Symposium on Theory of Computing*, 33-43.
 
@@ -732,9 +732,9 @@ The .aioss hash chain integrity system provides a cryptographically sound founda
 
 27. Shor, P. W. (1994). Algorithms for Quantum Computation: Discrete Logarithms and Factoring. *Proceedings 35th Annual Symposium on Foundations of Computer Science*, 124-134.
 
-28. Szydlo, M. (2004). Merkle Tree Traversal in Log Space and Time. *Advances in Cryptology – EUROCRYPT 2004*, 541-554.
+28. Szydlo, M. (2004). Merkle Tree Traversal in Log Space and Time. *Advances in Cryptology � EUROCRYPT 2004*, 541-554.
 
-29. Wang, X., & Yu, H. (2005). How to Break MD5 and Other Hash Functions. *Advances in Cryptology – EUROCRYPT 2005*, 19-35.
+29. Wang, X., & Yu, H. (2005). How to Break MD5 and Other Hash Functions. *Advances in Cryptology � EUROCRYPT 2005*, 19-35.
 
 30. Whiting, D. (2020). A High-Performance Implementation of SHA-3 on x86-64. *IACR Transactions on Cryptographic Hardware and Embedded Systems*, 2020(1), 1-25.
 
@@ -758,7 +758,7 @@ The .aioss hash chain integrity system provides a cryptographically sound founda
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -781,3 +781,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,20 +1,20 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Experimentation Framework â€” A/B Testing Methodology for Documentation and UX
+# Experimentation Framework — A/B Testing Methodology for Documentation and UX
 
 **Document ID:** KAZ-FP-EXPER-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Product Strategy  
+**Classification:** Internal — Product Strategy  
 
 ---
 
@@ -30,7 +30,7 @@ This document establishes a rigorous experimentation framework for Kazkade's doc
 
 1. **One hypothesis per experiment**: Each experiment tests exactly one change
 2. **Pre-registered**: Every experiment is documented before data collection begins
-3. **Power-analyzed**: Sample size is calculated before launch to ensure adequate statistical power (Î² â‰¥ 0.80)
+3. **Power-analyzed**: Sample size is calculated before launch to ensure adequate statistical power (ß = 0.80)
 4. **Duration-fixed**: Experiments run for a pre-determined duration; no "peeking" at results
 5. **Segmented reporting**: Results are reported by user segment, not in aggregate only
 6. **Transparent**: All experiment results are published internally regardless of outcome
@@ -64,7 +64,7 @@ Every experiment uses the following structured hypothesis:
 | Parameter | Threshold | Rationale |
 |-----------|-----------|-----------|
 | p-value (significance) | <0.05 | Standard in social sciences and HCI |
-| Statistical power (1-Î²) | â‰¥0.80 | Standard for detecting medium effects |
+| Statistical power (1-ß) | =0.80 | Standard for detecting medium effects |
 | Minimum detectable effect | 5-20% relative | Based on practical significance; varies by metric |
 | Confidence interval | 95% | Standard, reported with all results |
 | Multiple comparison correction | Bonferroni | Applied when testing >3 secondary metrics |
@@ -74,32 +74,32 @@ Every experiment uses the following structured hypothesis:
 Sample size per variant (for independent two-sample t-test):
 
 ```
-n = (Z_Î±/2 + Z_Î²)Â² Ã— 2ÏƒÂ² / Î´Â²
+n = (Z_a/2 + Z_ß)² × 2s² / d²
 
 Where:
-  Z_Î±/2 = 1.96 (for Î± = 0.05, two-tailed)
-  Z_Î² = 0.84 (for Î² = 0.80, power = 0.80)
-  Ïƒ = estimated standard deviation of metric
-  Î´ = minimum detectable effect
+  Z_a/2 = 1.96 (for a = 0.05, two-tailed)
+  Z_ß = 0.84 (for ß = 0.80, power = 0.80)
+  s = estimated standard deviation of metric
+  d = minimum detectable effect
 ```
 
-**Example**: For 10% relative improvement in `kazkade bench` completion rate (baseline 42%, Ïƒ = 0.49):
+**Example**: For 10% relative improvement in `kazkade bench` completion rate (baseline 42%, s = 0.49):
 
 ```
-n = (1.96 + 0.84)Â² Ã— 2(0.49)Â² / (0.042)Â²
-n = 7.84 Ã— 0.48 / 0.00176
+n = (1.96 + 0.84)² × 2(0.49)² / (0.042)²
+n = 7.84 × 0.48 / 0.00176
 n = 2,138 users per variant
 ```
 
 ### 3.3 Minimum Detectable Effect
 
-| Metric | Baseline | Ïƒ | Users per Variant (80% power) |
+| Metric | Baseline | s | Users per Variant (80% power) |
 |--------|----------|---|-------------------------------|
-| Download â†’ `self-test` | 68% | 0.47 | 2,850 (for 5% relative MDE) |
-| `self-test` â†’ `bench` | 62% | 0.49 | 3,120 |
-| `bench` â†’ query | 52% | 0.50 | 3,680 |
-| Free â†’ Pro trial | 18% | 0.38 | 7,240 |
-| Pro trial â†’ paid | 25% | 0.43 | 4,120 |
+| Download ? `self-test` | 68% | 0.47 | 2,850 (for 5% relative MDE) |
+| `self-test` ? `bench` | 62% | 0.49 | 3,120 |
+| `bench` ? query | 52% | 0.50 | 3,680 |
+| Free ? Pro trial | 18% | 0.38 | 7,240 |
+| Pro trial ? paid | 25% | 0.43 | 4,120 |
 | Dashboard session duration | 4.2 min | 2.1 min | 1,540 |
 | Documentation page time | 2.8 min | 1.4 min | 1,540 |
 
@@ -186,36 +186,36 @@ hypothesis = "Parallel column scan increases bench throughput by 15%"
 | Experiment ID | Hypothesis | Metric | Status | Result |
 |--------------|-----------|--------|--------|--------|
 | DOC-001 | Adding code examples above descriptions increases SQL query completion rate by 10% | First query completion rate | Running | Pending |
-| DOC-002 | Interactive CLI tutorial (`kazkade demo`) increases `bench` run rate by 15% | `bench` completion rate | Design | â€” |
-| DOC-003 | Video embed on getting-started page reduces time-to-first-query by 20% | Time to first query | Proposed | â€” |
-| DOC-004 | Sidebar table of contents on long pages increases scroll depth by 25% | Scroll depth (% of page) | Design | â€” |
+| DOC-002 | Interactive CLI tutorial (`kazkade demo`) increases `bench` run rate by 15% | `bench` completion rate | Design | — |
+| DOC-003 | Video embed on getting-started page reduces time-to-first-query by 20% | Time to first query | Proposed | — |
+| DOC-004 | Sidebar table of contents on long pages increases scroll depth by 25% | Scroll depth (% of page) | Design | — |
 
 ### 5.2 CLI Experiments
 
 | Experiment ID | Hypothesis | Metric | Status | Result |
 |--------------|-----------|--------|--------|--------|
 | CLI-001 | Colorizing `kazkade bench` output increases social sharing by 30% | Screenshot sharing rate | Running | Pending |
-| CLI-002 | Adding progress bar to `kazkade import` reduces abort rate by 25% | Import abort rate | Completed | âœ“ 22% reduction |
-| CLI-003 | Shorter flag names (`-b` for `--bench`) increase command completion | Command completion rate | Proposed | â€” |
+| CLI-002 | Adding progress bar to `kazkade import` reduces abort rate by 25% | Import abort rate | Completed | ? 22% reduction |
+| CLI-003 | Shorter flag names (`-b` for `--bench`) increase command completion | Command completion rate | Proposed | — |
 | CLI-004 | Auto-completing file paths in `kazkade inspect` increases usage | `inspect` usage frequency | Running | Pending |
 
 ### 5.3 Dashboard Experiments
 
 | Experiment ID | Hypothesis | Metric | Status | Result |
 |--------------|-----------|--------|--------|--------|
-| DASH-001 | Moving SQL editor above results reduces query-to-results time by 15% | Query completion rate | Design | â€” |
+| DASH-001 | Moving SQL editor above results reduces query-to-results time by 15% | Query completion rate | Design | — |
 | DASH-002 | Adding "Recent Queries" sidebar increases query volume by 20% | Queries per session | Running | Pending |
-| DASH-003 | Visualization recommendations based on column types increase chart creation | Chart creation rate | Proposed | â€” |
-| DASH-004 | Performance comparison table (Kazkade vs pandas) increases Pro signups | Pro trial start rate | Completed | âœ“ 14.2% increase |
+| DASH-003 | Visualization recommendations based on column types increase chart creation | Chart creation rate | Proposed | — |
+| DASH-004 | Performance comparison table (Kazkade vs pandas) increases Pro signups | Pro trial start rate | Completed | ? 14.2% increase |
 
 ### 5.4 Onboarding Experiments
 
 | Experiment ID | Hypothesis | Metric | Status | Result |
 |--------------|-----------|--------|--------|--------|
-| ONB-001 | Guided wizard (`kazkade start`) increases first-query rate by 20% | First query rate | Design | â€” |
+| ONB-001 | Guided wizard (`kazkade start`) increases first-query rate by 20% | First query rate | Design | — |
 | ONB-002 | Email sequence (D1, D3, D7) increases Week-1 retention by 15% | Day-7 retention | Running | Pending |
-| ONB-003 | Inline tutorial tooltips in dashboard reduce support tickets by 30% | Support ticket volume | Proposed | â€” |
-| ONB-004 | Referral prompt after first benchmark increases viral coefficient | Invitations sent per user | Completed | âœ“ k-factor 0.12 |
+| ONB-003 | Inline tutorial tooltips in dashboard reduce support tickets by 30% | Support ticket volume | Proposed | — |
+| ONB-004 | Referral prompt after first benchmark increases viral coefficient | Invitations sent per user | Completed | ? k-factor 0.12 |
 
 ---
 
@@ -236,7 +236,7 @@ Every experiment produces a standardized report:
 ### Primary Metric
 | | Control | Treatment | Delta | p-value | Significant? |
 |---|---|---|---|---|---|
-| Metric | value (CI) | value (CI) | X% | p | âœ“/âœ— |
+| Metric | value (CI) | value (CI) | X% | p | ?/? |
 
 ### Secondary Metrics
 | Metric | Control | Treatment | Delta | p-value |
@@ -262,19 +262,19 @@ Every experiment produces a standardized report:
 
 **CLI-002: Progress bar for `kazkade import`**
 - Result: Statistically significant (p = 0.003)
-- Import abort rate: Control 8.4% â†’ Treatment 6.5% (22% reduction)
+- Import abort rate: Control 8.4% ? Treatment 6.5% (22% reduction)
 - Decision: Ship (enabled by default)
 - Secondary finding: No impact on import speed perception (Mann-Whitney U, p = 0.42)
 
-**DASH-004: Performance comparison table â†’ Pro signup**
+**DASH-004: Performance comparison table ? Pro signup**
 - Result: Statistically significant (p = 0.008)
-- Pro trial start rate: Control 18.1% â†’ Treatment 20.7% (14.2% increase)
+- Pro trial start rate: Control 18.1% ? Treatment 20.7% (14.2% increase)
 - Decision: Ship (enabled by default)
 - Secondary: Dashboard time-on-page increased by 2.1 min (+50%)
 
 **ONB-004: Referral prompt after first benchmark**
 - Result: Statistically significant (p = 0.02)
-- Viral coefficient (k): 0.08 â†’ 0.12 (50% increase)
+- Viral coefficient (k): 0.08 ? 0.12 (50% increase)
 - Decision: Ship
 - Caveat: Effect decays after 2 weeks; needs rotation
 
@@ -298,7 +298,7 @@ Every experiment produces a standardized report:
 
 1. **Always run experiments on at least 80% of the target population**
 2. **Document experiment design before collecting data** (pre-registration)
-3. **Report null results** â€” they are as valuable as significant results
+3. **Report null results** — they are as valuable as significant results
 4. **Run reversibility tests**: After shipping, verify the effect persists (A/B/A test)
 5. **Segment by user tenure**: New users respond differently than power users
 6. **Use sequential testing when ethical concerns exist**: Allows early stopping without increasing Type I error
@@ -343,7 +343,7 @@ This experimentation framework provides the statistical rigor and infrastructure
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -354,7 +354,7 @@ This experimentation framework provides the statistical rigor and infrastructure
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -377,3 +377,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

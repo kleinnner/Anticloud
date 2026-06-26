@@ -1,19 +1,19 @@
-﻿<!-- ASCII Art for GOD-11 -->
+<!-- ASCII Art for GOD-11 -->
 
 
- ██████╗ ██████╗ ██████╗      ██╗ ██╗
-██╔══════╝██╔════██╔═══██╗    ████╗██║
-██║       ██║    ██████╔╝    ╚██╔╝██║
-██║       ██║    ██╔══██╗     ██║ ██║
-╚██████╗  ██║    ██║  ██║     ██║ ██║
- ╚═════╝  ╚═╝    ╚═╝  ╚═╝     ╚═╝ ╚═╝
+ ������+ ������+ ������+      ��+ ��+
+��+------+��+----��+---��+    ����+���
+���       ���    ������++    +��++���
+���       ���    ��+--��+     ��� ���
++������+  ���    ���  ���     ��� ���
+ +-----+  +-+    +-+  +-+     +-+ +-+
 
-████████╗██╗  ██╗███████╗    ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗
-╚══██╔══╝██║  ██║██╔════╝    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝██║
-   ██║   ███████║█████╗      ██╔████╔██║██║   ██║██║  ██║█████╗  ██║
-   ██║   ██╔══██║██╔══╝      ██║╚██╔╝██║██║   ██║██║  ██║██╔══╝  ██║
-   ██║   ██║  ██║███████╗    ██║ ╚═╝ ██║╚██████╔╝██████╔╝███████╗███████╗
-   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝
+��������+��+  ��+�������+    ���+   ���+ ������+ ������+ �������+��+
++--��+--+���  �����+----+    ����+ �������+---��+��+--��+��+----+���
+   ���   �������������+      ��+����+������   ������  ��������+  ���
+   ���   ��+--�����+--+      ���+��++������   ������  �����+--+  ���
+   ���   ���  ����������+    ��� +-+ ���+������++������++�������+�������+
+   +-+   +-+  +-++------+    +-+     +-+ +-----+ +-----+ +------++------+
 
 *Lois-Kleinner and 0-1.gg 2026 - Inte11ect Platform Documentation*
 *Confidential - All Rights Reserved*
@@ -23,8 +23,8 @@
 
 # Installing the Model
 
-> **Associated Module:** GOD-11 — Model Registry & Lifecycle Manager
-> **Tutorial 02 of 12** — Estimated reading time: 14 min | Hands-on time: 15–45 min depending on bandwidth
+> **Associated Module:** GOD-11 � Model Registry & Lifecycle Manager
+> **Tutorial 02 of 12** � Estimated reading time: 14 min | Hands-on time: 15�45 min depending on bandwidth
 
 ## Overview
 
@@ -41,7 +41,7 @@ By the end of this document you will know how to:
 
 ---
 
-## Section 1 — Understanding Model Support
+## Section 1 � Understanding Model Support
 
 ### Supported Model Architectures
 
@@ -69,19 +69,19 @@ By the end of this document you will know how to:
 
 ---
 
-## Section 2 — Downloading Qwen2-VL-2B
+## Section 2 � Downloading Qwen2-VL-2B
 
 ### Method A: Using the GUI
 
 1. Launch Inte11ect and open the **Settings** panel
-2. Navigate to **Models → Available Models**
+2. Navigate to **Models ? Available Models**
 3. Locate `Qwen/Qwen2-VL-2B-Instruct` in the curated list
 4. Click the **Download** button
 5. The progress appears in the bottom toolbar:
 
 ```
 Downloading Qwen2-VL-2B-Instruct
-[████████░░░░░░░░░░░░] 47% — 1.97 GB / 4.2 GB — 12.4 MB/s
+[��������������������] 47% � 1.97 GB / 4.2 GB � 12.4 MB/s
 ```
 
 6. Once complete, the model appears in **Installed Models** with a green checkmark
@@ -125,7 +125,7 @@ inte11ect models register \
 
 ---
 
-## Section 3 — Model Verification
+## Section 3 � Model Verification
 
 Every model download is automatically verified against the `.aioss` ledger. You can also run verification manually:
 
@@ -134,17 +134,17 @@ Every model download is automatically verified against the `.aioss` ledger. You 
 inte11ect models verify Qwen2-VL-2B-Instruct
 
 # Expected output:
-# ╔══════════════════════════════════════════════════╗
-# ║  Model Verification Report                       ║
-# ╠══════════════════════════════════════════════════╣
-# ║  Model:     Qwen2-VL-2B-Instruct                 ║
-# ║  Path:      ~/.inte11ect/models/Qwen2-VL-2B/     ║
-# ║  Files:     47                                   ║
-# ║  Total:     4,194,304,000 bytes                   ║
-# ║  Checksum:  a1b2c3d4e5f6... (SHA-256)            ║
-# ║  Ledger:    ✓ MATCHES ledger entry #18472         ║
-# ║  Integrity: ✓ All files verified                  ║
-# ╚══════════════════════════════════════════════════╝
+# +--------------------------------------------------+
+# �  Model Verification Report                       �
+# �--------------------------------------------------�
+# �  Model:     Qwen2-VL-2B-Instruct                 �
+# �  Path:      ~/.inte11ect/models/Qwen2-VL-2B/     �
+# �  Files:     47                                   �
+# �  Total:     4,194,304,000 bytes                   �
+# �  Checksum:  a1b2c3d4e5f6... (SHA-256)            �
+# �  Ledger:    ? MATCHES ledger entry #18472         �
+# �  Integrity: ? All files verified                  �
+# +--------------------------------------------------+
 ```
 
 ### What Gets Verified
@@ -171,7 +171,7 @@ inte11ect models download Qwen/Qwen2-VL-2B-Instruct --force
 
 ---
 
-## Section 4 — Quantization Deep Dive
+## Section 4 � Quantization Deep Dive
 
 ### FP16 (Default)
 
@@ -272,7 +272,7 @@ flowchart LR
 
 ---
 
-## Section 5 — Multi-Model Setup
+## Section 5 � Multi-Model Setup
 
 You can install multiple models and switch between them at runtime.
 
@@ -286,13 +286,13 @@ inte11ect models download mistralai/Mistral-7B-Instruct-v0.3
 inte11ect models list
 
 # Output:
-# ┌─────────────────────────────────────┬────────┬──────────┐
-# │ Model                               │ Quant  │ Size     │
-# ├─────────────────────────────────────┼────────┼──────────┤
-# │ Qwen2-VL-2B-Instruct               │ fp16   │ 2.1 GB   │
-# │ Qwen2-VL-7B-Instruct               │ int4   │ 3.5 GB   │
-# │ Mistral-7B-Instruct-v0.3           │ fp16   │ 12.5 GB  │
-# └─────────────────────────────────────┴────────┴──────────┘
+# +---------------------------------------------------------+
+# � Model                               � Quant  � Size     �
+# +-------------------------------------+--------+----------�
+# � Qwen2-VL-2B-Instruct               � fp16   � 2.1 GB   �
+# � Qwen2-VL-7B-Instruct               � int4   � 3.5 GB   �
+# � Mistral-7B-Instruct-v0.3           � fp16   � 12.5 GB  �
+# +---------------------------------------------------------+
 
 # Switch active model
 inte11ect models use Qwen2-VL-7B-Instruct
@@ -311,7 +311,7 @@ device = "auto"
 
 ---
 
-## Section 6 — Caching for Offline Use
+## Section 6 � Caching for Offline Use
 
 Models can be cached for environments without internet access.
 
@@ -336,20 +336,20 @@ The bundle is a compressed tar archive with:
 
 ```
 inte11ect-models.bundle/
-├── manifest.json           # Model metadata and checksums
-├── model-00001-of-00047.safetensors
-├── model-00002-of-00047.safetensors
-├── ...
-├── config.json
-├── tokenizer.json
-├── tokenizer_config.json
-├── generation_config.json
-└── preprocessor_config.json  # Qwen2-VL vision processor
++-- manifest.json           # Model metadata and checksums
++-- model-00001-of-00047.safetensors
++-- model-00002-of-00047.safetensors
++-- ...
++-- config.json
++-- tokenizer.json
++-- tokenizer_config.json
++-- generation_config.json
++-- preprocessor_config.json  # Qwen2-VL vision processor
 ```
 
 ---
 
-## Section 7 — Vision Processor Setup
+## Section 7 � Vision Processor Setup
 
 Qwen2-VL-2B requires a vision processor for image inputs. This is downloaded automatically with the model.
 
@@ -364,14 +364,14 @@ inte11ect models download Qwen/Qwen2-VL-2B-Instruct \
 
 The vision processor:
 
-- Resizes images to 448×448 (configurable)
+- Resizes images to 448�448 (configurable)
 - Normalizes pixel values using ImageNet statistics
 - Generates position IDs for the visual encoder
 - Pads variable-resolution images to the same token count
 
 ---
 
-## Section 8 — Model Serving Configuration
+## Section 8 � Model Serving Configuration
 
 ### GPU vs CPU Inference
 
@@ -405,7 +405,7 @@ inte11ect models use Qwen2-VL-2B-Instruct \
 
 ---
 
-## Section 9 — Troubleshooting Model Installation
+## Section 9 � Troubleshooting Model Installation
 
 ### "Insufficient Disk Space"
 
@@ -465,13 +465,13 @@ inte11ect models register \
 ```bash
 # The ledger entry does not match the downloaded file
 # Possible causes:
-# 1. Network corruption — re-download
+# 1. Network corruption � re-download
 inte11ect models download Qwen/Qwen2-VL-2B-Instruct --repair
 
-# 2. Man-in-the-middle attack — check TLS certificate
+# 2. Man-in-the-middle attack � check TLS certificate
 curl -vI https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
 
-# 3. Model has been updated — check ledger for updated hash
+# 3. Model has been updated � check ledger for updated hash
 inte11ect ledger query --filter 'action == "model.release"'
 ```
 
@@ -490,7 +490,7 @@ inte11ect models tokenizer set \
 
 ---
 
-## Section 10 — Advanced: Custom Model Configuration
+## Section 10 � Advanced: Custom Model Configuration
 
 ### Modifying Model Parameters
 
@@ -526,7 +526,7 @@ inte11ect models download Qwen/Qwen2-VL-2B-Instruct \
 
 ---
 
-## Section 11 — Model Lifecycle Summary
+## Section 11 � Model Lifecycle Summary
 
 ```mermaid
 stateDiagram-v2
@@ -569,18 +569,18 @@ stateDiagram-v2
 
 ```
 ~/.inte11ect/models/
-├── Qwen2-VL-2B-Instruct/
-│   ├── model-00001-of-00047.safetensors
-│   ├── model-00002-of-00047.safetensors
-│   ├── ...
-│   ├── config.json
-│   ├── tokenizer.json
-│   ├── tokenizer_config.json
-│   ├── generation_config.json
-│   ├── preprocessor_config.json
-│   └── added_tokens.json
-├── Qwen2-VL-7B-Instruct/
-└── llama-3.2-3B-Instruct/
++-- Qwen2-VL-2B-Instruct/
+�   +-- model-00001-of-00047.safetensors
+�   +-- model-00002-of-00047.safetensors
+�   +-- ...
+�   +-- config.json
+�   +-- tokenizer.json
+�   +-- tokenizer_config.json
+�   +-- generation_config.json
+�   +-- preprocessor_config.json
+�   +-- added_tokens.json
++-- Qwen2-VL-7B-Instruct/
++-- llama-3.2-3B-Instruct/
 ```
 
 ### Environment Variables
@@ -597,14 +597,14 @@ stateDiagram-v2
 
 ## Next Steps
 
-- [03-tutorial.md](./03-tutorial.md) — Explore all 72 modules
-- [04-tutorial.md](./04-tutorial.md) — Use GOD-11 meta-cognition
-- [08-tutorial.md](./08-tutorial.md) — Performance tuning
-- [01-features.md](../features/01-features.md) — Platform architecture overview
+- [03-tutorial.md](./03-tutorial.md) � Explore all 72 modules
+- [04-tutorial.md](./04-tutorial.md) � Use GOD-11 meta-cognition
+- [08-tutorial.md](./08-tutorial.md) � Performance tuning
+- [01-features.md](../features/01-features.md) � Platform architecture overview
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -615,7 +615,7 @@ stateDiagram-v2
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -638,3 +638,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

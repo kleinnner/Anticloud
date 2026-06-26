@@ -1,4 +1,4 @@
-﻿# Third-Party Verification: Independent Verification of Claims
+# Third-Party Verification: Independent Verification of Claims
 
 ## Abstract
 
@@ -6,7 +6,7 @@ Third-party verification is essential for establishing trust. The 01s Sovereign 
 
 ## 1. Introduction
 
-Trust is strongest when earned through independent verification. The 01s Sovereign project welcomes third-party verification of all claims — privacy, security, transparency, and performance. The No Black Boxes philosophy extends to the verification process itself: verification tools and methodologies are transparent and reproducible.
+Trust is strongest when earned through independent verification. The 01s Sovereign project welcomes third-party verification of all claims � privacy, security, transparency, and performance. The No Black Boxes philosophy extends to the verification process itself: verification tools and methodologies are transparent and reproducible.
 
 ### The Verification Pyramid
 
@@ -327,10 +327,10 @@ flowchart LR
 01s-ledger verification-status
 
 # Output:
-# Build Reproducibility: ✅ PASS (3/3 builders)
-# Vulnerability Scan: ✅ PASS (0 critical)
-# Performance Benchmarks: ✅ PASS (within baseline)
-# Compliance Checks: ✅ PASS (all frameworks)
+# Build Reproducibility: ? PASS (3/3 builders)
+# Vulnerability Scan: ? PASS (0 critical)
+# Performance Benchmarks: ? PASS (within baseline)
+# Compliance Checks: ? PASS (all frameworks)
 ```
 
 ## 9. Verification APIs
@@ -377,60 +377,60 @@ FAIL=0
 # Claim 1: No telemetry
 echo -n "Claim 1: No telemetry services... "
 if systemctl list-units | grep -qi telemetry; then
-    echo "❌ FAIL"
+    echo "? FAIL"
     FAIL=$((FAIL + 1))
 else
-    echo "✅ PASS"
+    echo "? PASS"
     PASS=$((PASS + 1))
 fi
 
 # Claim 2: No automatic network connections
 echo -n "Claim 2: No automatic network... "
 if ss -tupn | grep -qi "telemetry\|collect\|track"; then
-    echo "❌ FAIL"
+    echo "? FAIL"
     FAIL=$((FAIL + 1))
 else
-    echo "✅ PASS"
+    echo "? PASS"
     PASS=$((PASS + 1))
 fi
 
 # Claim 3: All data visible in ledger
 echo -n "Claim 3: Data visible in ledger... "
 if 01s-ledger status | grep -qi "entries"; then
-    echo "✅ PASS"
+    echo "? PASS"
     PASS=$((PASS + 1))
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
     FAIL=$((FAIL + 1))
 fi
 
 # Claim 4: Consent recorded
 echo -n "Claim 4: Consent records exist... "
 if 01s-ledger consent status | grep -qi "granted"; then
-    echo "✅ PASS"
+    echo "? PASS"
     PASS=$((PASS + 1))
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
     FAIL=$((FAIL + 1))
 fi
 
 # Claim 5: Data can be exported
 echo -n "Claim 5: Data exportable... "
 if 01s-ledger export --format json --output /tmp/test_export.json 2>/dev/null; then
-    echo "✅ PASS"
+    echo "? PASS"
     PASS=$((PASS + 1))
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
     FAIL=$((FAIL + 1))
 fi
 
 # Claim 6: Data can be purged
 echo -n "Claim 6: Data purgable... "
 if 01s-ledger purge --test 2>/dev/null; then
-    echo "✅ PASS"
+    echo "? PASS"
     PASS=$((PASS + 1))
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
     FAIL=$((FAIL + 1))
 fi
 
@@ -451,41 +451,41 @@ echo "=== Security Claim Verification ==="
 # Claim 1: SHA3-256 hash chain integrity
 echo -n "Claim 1: Hash chain integrity... "
 if 01s-ledger verify | grep -qi "PASS"; then
-    echo "✅ PASS"
+    echo "? PASS"
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
 fi
 
 # Claim 2: AppArmor enforcement
 echo -n "Claim 2: AppArmor active... "
 if aa-status 2>/dev/null | grep -qi "enforcing"; then
-    echo "✅ PASS"
+    echo "? PASS"
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
 fi
 
 # Claim 3: LUKS encryption
 echo -n "Claim 3: LUKS encryption... "
 if cryptsetup status /dev/mapper/luks-* 2>/dev/null | grep -qi "active"; then
-    echo "✅ PASS"
+    echo "? PASS"
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
 fi
 
 # Claim 4: Firewall active
 echo -n "Claim 4: Firewall active... "
 if iptables -L -n 2>/dev/null | grep -qi "DROP\|REJECT"; then
-    echo "✅ PASS"
+    echo "? PASS"
 else
-    echo "❌ FAIL"
+    echo "? FAIL"
 fi
 
 # Claim 5: Secure boot
 echo -n "Claim 5: Secure boot... "
 if mokutil --sb-state 2>/dev/null | grep -qi "enabled"; then
-    echo "✅ PASS"
+    echo "? PASS"
 else
-    echo "⚠️ WARN (not required)"
+    echo "?? WARN (not required)"
 fi
 ```
 
@@ -524,7 +524,7 @@ sequenceDiagram
 
 ## 13. Conclusion
 
-Third-party verification through independent audits, bug bounties, community tools, and transparent reporting enables anyone to verify that the system meets its claims. The No Black Boxes philosophy requires not just making claims, but making those claims verifiable. By providing verification tools, publishing audit reports, running bug bounty programs, and maintaining continuous verification, 01s Sovereign ensures that trust is earned through independent verification — not through opaque promises.
+Third-party verification through independent audits, bug bounties, community tools, and transparent reporting enables anyone to verify that the system meets its claims. The No Black Boxes philosophy requires not just making claims, but making those claims verifiable. By providing verification tools, publishing audit reports, running bug bounty programs, and maintaining continuous verification, 01s Sovereign ensures that trust is earned through independent verification � not through opaque promises.
 
 ---
 
@@ -539,7 +539,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -562,3 +562,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

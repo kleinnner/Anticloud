@@ -1,12 +1,12 @@
-﻿▄▄                     ██               ▄▄                                    
-██                     ▀▀               ██                                    
-██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
-██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
-██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
-██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
-▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
+__                     ��               __                                    
+��                     ��               ��                                    
+��            ___�   ����     �___      ��_���_    _����_    ��_����  ��_����_
+��        __����       ��       ����__  ���  ���  ��____��   ���      ���   ��
+��        ���___       ��       ___���  ��    ��  ��������   ��       ��    ��
+��______      ����  ___��___  ����      ���__���  ���____�   ��       ��    ��
+��������            ��������            �� ���      �����    ��       ��    ��
 
-Libern — Sovereign Collaborative Telecom Engine
+Libern � Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 Document Version: 1.0.0
@@ -14,7 +14,7 @@ Category: Developer Guide
 Document ID: DEV-006
 Last Updated: 2026-06-19
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 # Building the Installer
 
@@ -22,7 +22,7 @@ Last Updated: 2026-06-19
 
 Libern is distributed as platform-specific installers for Windows (MSI), macOS (DMG), and Linux (AppImage/deb). The build process uses Tauri's built-in bundler which handles compilation, resource bundling, code signing, and installer creation. This guide covers how to build installers for all platforms, the configuration options available, and how to customize the packaging process for enterprise distribution.
 
-The build pipeline is sequential: frontend compilation (Vite) → backend compilation (Cargo) → resource bundling → platform packaging. The single command `pnpm tauri build` orchestrates the entire pipeline.
+The build pipeline is sequential: frontend compilation (Vite) ? backend compilation (Cargo) ? resource bundling ? platform packaging. The single command `pnpm tauri build` orchestrates the entire pipeline.
 
 By the end of this guide, you will be able to:
 - Build a Windows MSI installer for enterprise deployment
@@ -44,30 +44,30 @@ The build process follows a sequential pipeline:
 
 ```
 pnpm tauri build
-      │
-      ▼
-┌─────────────────┐
-│ 1. Frontend      │  Vite builds React+TypeScript → optimized static files
-│    Compilation   │  Output: apps/desktop/dist/
-└─────────────────┘
-      │
-      ▼
-┌─────────────────┐
-│ 2. Backend       │  Cargo compiles Rust in release mode
-│    Compilation   │  Output: src-tauri/target/release/libern-desktop(.exe)
-└─────────────────┘
-      │
-      ▼
-┌─────────────────┐
-│ 3. Resource      │  Static files, icons, resources assembled into bundle
-│    Bundling      │  Binary + frontend + resources = application bundle
-└─────────────────┘
-      │
-      ▼
-┌─────────────────┐
-│ 4. Platform      │  Platform-specific installer packaging
-│    Packaging     │  Windows: MSI | macOS: DMG | Linux: AppImage/deb
-└─────────────────┘
+      �
+      ?
++-----------------+
+� 1. Frontend      �  Vite builds React+TypeScript ? optimized static files
+�    Compilation   �  Output: apps/desktop/dist/
++-----------------+
+      �
+      ?
++-----------------+
+� 2. Backend       �  Cargo compiles Rust in release mode
+�    Compilation   �  Output: src-tauri/target/release/libern-desktop(.exe)
++-----------------+
+      �
+      ?
++-----------------+
+� 3. Resource      �  Static files, icons, resources assembled into bundle
+�    Bundling      �  Binary + frontend + resources = application bundle
++-----------------+
+      �
+      ?
++-----------------+
+� 4. Platform      �  Platform-specific installer packaging
+�    Packaging     �  Windows: MSI | macOS: DMG | Linux: AppImage/deb
++-----------------+
 ```
 
 ### Output Locations
@@ -76,17 +76,17 @@ After a successful build, the output is organized as follows:
 
 ```
 apps/desktop/src-tauri/target/release/
-├── libern-desktop.exe              # Main binary (Windows)
-├── libern-desktop                  # Main binary (macOS/Linux)
-├── bundles/
-│   ├── msi/                        # Windows Installer files
-│   │   └── Libern_0.1.0_x64_en-US.msi
-│   ├── dmg/                        # macOS Disk Image files
-│   │   └── Libern_0.1.0_x64.dmg
-│   ├── appimage/                   # Linux AppImage files
-│   │   └── libern_0.1.0_amd64.AppImage
-│   └── deb/                        # Linux Debian Package files
-│       └── libern_0.1.0_amd64.deb
++-- libern-desktop.exe              # Main binary (Windows)
++-- libern-desktop                  # Main binary (macOS/Linux)
++-- bundles/
+�   +-- msi/                        # Windows Installer files
+�   �   +-- Libern_0.1.0_x64_en-US.msi
+�   +-- dmg/                        # macOS Disk Image files
+�   �   +-- Libern_0.1.0_x64.dmg
+�   +-- appimage/                   # Linux AppImage files
+�   �   +-- libern_0.1.0_amd64.AppImage
+�   +-- deb/                        # Linux Debian Package files
+�       +-- libern_0.1.0_amd64.deb
 ```
 
 ### Build Configuration
@@ -812,7 +812,7 @@ Return to:
 - **How-To Guide 01**: Setting Up Development Environment
 - **How-To Guide 05**: Testing for comprehensive build verification
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
@@ -825,7 +825,7 @@ Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -848,3 +848,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

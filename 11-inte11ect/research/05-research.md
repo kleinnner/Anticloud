@@ -1,4 +1,4 @@
-ï»¿<!-- ASCII Art for Muse-11 -->
+<!-- ASCII Art for Muse-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 05 â€” Local AI Inference Performance
+# research - Document 05 — Local AI Inference Performance
 
 > **Associated Module:** Muse-11
 > **Category:** Research & Development
@@ -16,7 +16,7 @@
 
 ## Abstract
 
-This document presents a comprehensive benchmark analysis of local AI inference performance for the Inte11ect platform, with a focus on CPU-based deployment scenarios. We evaluate inference latency, throughput, memory utilization, and energy consumption across four hardware configurations: consumer desktop (Intel Core i7-13700K), workstation (AMD Ryzen 7950X), laptop (Apple M3 Pro), and edge device (Raspberry Pi 5). The Qwen2-VL-2B model under the Inte11ect optimization pipeline achieves 42.3 tokens per second on desktop CPU with INT4 quantization, representing a 3.8Ã— improvement over the unoptimized baseline. We identify memory bandwidth as the primary bottleneck, with L2 cache hit rate and SIMD vectorization width as the strongest predictors of inference throughput. The analysis provides actionable recommendations for hardware selection and deployment configuration across different latency, throughput, and power constraints.
+This document presents a comprehensive benchmark analysis of local AI inference performance for the Inte11ect platform, with a focus on CPU-based deployment scenarios. We evaluate inference latency, throughput, memory utilization, and energy consumption across four hardware configurations: consumer desktop (Intel Core i7-13700K), workstation (AMD Ryzen 7950X), laptop (Apple M3 Pro), and edge device (Raspberry Pi 5). The Qwen2-VL-2B model under the Inte11ect optimization pipeline achieves 42.3 tokens per second on desktop CPU with INT4 quantization, representing a 3.8× improvement over the unoptimized baseline. We identify memory bandwidth as the primary bottleneck, with L2 cache hit rate and SIMD vectorization width as the strongest predictors of inference throughput. The analysis provides actionable recommendations for hardware selection and deployment configuration across different latency, throughput, and power constraints.
 
 ## 1. Introduction
 
@@ -36,11 +36,11 @@ This document is organized as follows: Section 2 describes the hardware configur
 | Cores | 16 (8P+8E) | 16 (full) | 12 (6P+6E) | 4 (Cortex-A76) |
 | Clock | 5.4 GHz (turbo) | 5.7 GHz (turbo) | 4.05 GHz | 2.4 GHz |
 | L2 Cache | 24 MB | 16 MB | 12 MB | 512 KB |
-| L3 Cache | 30 MB | 64 MB | â€” | â€” |
+| L3 Cache | 30 MB | 64 MB | — | — |
 | RAM | 64 GB DDR5-5600 | 128 GB DDR5-5200 | 36 GB LPDDR5 | 8 GB LPDDR4 |
 | Memory BW | 89.6 GB/s | 83.2 GB/s | 153.6 GB/s | 12.8 GB/s |
 | TDP | 125W (turbo 253W) | 170W (turbo 230W) | 35W | 8W |
-| NPU | â€” | â€” | Neural Engine 16-core | â€” |
+| NPU | — | — | Neural Engine 16-core | — |
 
 ### 2.2 Software Stack
 
@@ -88,7 +88,7 @@ All measurements follow these protocols:
 - **Steady state**: Reported after CPU temperature reaches equilibrium
 - **Clock pinning**: Turbo boost enabled (default behavior)
 - **Process affinity**: Single NUMA node for memory-intensive benchmarks
-- **Statistical reporting**: Mean Â± 95% confidence interval
+- **Statistical reporting**: Mean ± 95% confidence interval
 
 ```python
 import time
@@ -167,22 +167,22 @@ def benchmark_gemm(M: int, N: int, K: int, dtype: torch.dtype,
 
 | Kernel | FP32 (GFLOPS) | INT8 (GFLOPS) | Speedup |
 |---|---|---|---|
-| SGEMM 768Ã—768 | 185 | 412 | 2.23Ã— |
-| SGEMM 1536Ã—1536 | 245 | 534 | 2.18Ã— |
-| SGEMM 4096Ã—4096 | 298 | 645 | 2.16Ã— |
-| Batch MatMul (8Ã—768Ã—768) | 172 | 389 | 2.26Ã— |
-| Conv 3Ã—3 (224Ã—224) | 89 | 205 | 2.30Ã— |
+| SGEMM 768×768 | 185 | 412 | 2.23× |
+| SGEMM 1536×1536 | 245 | 534 | 2.18× |
+| SGEMM 4096×4096 | 298 | 645 | 2.16× |
+| Batch MatMul (8×768×768) | 172 | 389 | 2.26× |
+| Conv 3×3 (224×224) | 89 | 205 | 2.30× |
 
 ### 3.2 SIMD Vectorization Efficiency
 
 ```mermaid
 graph TD
     subgraph "Relative Performance by ISA"
-        A["Scalar (1.0Ã—)"] --> B["SSE4.2 (2.8Ã—)"]
-        B --> C["AVX2 (4.5Ã—)"]
-        C --> D["AVX-512 (6.2Ã—)"]
-        D --> E["AVX-512 VNNI (8.4Ã—)"]
-        E --> F["AMX (12.1Ã—)"]
+        A["Scalar (1.0×)"] --> B["SSE4.2 (2.8×)"]
+        B --> C["AVX2 (4.5×)"]
+        C --> D["AVX-512 (6.2×)"]
+        D --> E["AVX-512 VNNI (8.4×)"]
+        E --> F["AMX (12.1×)"]
     end
     subgraph "Platform Availability"
         G[Intel 12th Gen] --> C
@@ -192,11 +192,11 @@ graph TD
         I[Intel Granite Rapids] --> F
         J[AMD Zen 4] --> C
         J --> D
-        K[ARM Neoverse V2] --> L[SVE: 3.2Ã—]
+        K[ARM Neoverse V2] --> L[SVE: 3.2×]
     end
 ```
 
-AVX-512 VNNI provides an 8.4Ã— speedup over scalar code for INT8 matrix multiplication, while AMX (Advanced Matrix Extensions) in Granite Rapids processors achieves 12.1Ã—. The Inte11ect platform's kernel library automatically selects the optimal SIMD path at runtime.
+AVX-512 VNNI provides an 8.4× speedup over scalar code for INT8 matrix multiplication, while AMX (Advanced Matrix Extensions) in Granite Rapids processors achieves 12.1×. The Inte11ect platform's kernel library automatically selects the optimal SIMD path at runtime.
 
 ### 3.3 Operator Fusion Performance
 
@@ -234,11 +234,11 @@ def benchmark_operator_fusion():
 
 | Operation | Unfused (ms) | Fused (ms) | Speedup |
 |---|---|---|---|
-| Single-head attention | 0.89 | 0.21 | 4.24Ã— |
-| Multi-head attention (12 heads) | 3.45 | 0.85 | 4.06Ã— |
-| FFN (SwiGLU) | 1.82 | 0.64 | 2.84Ã— |
-| LayerNorm + Residual | 0.28 | 0.09 | 3.11Ã— |
-| Full transformer layer | 5.55 | 1.79 | 3.10Ã— |
+| Single-head attention | 0.89 | 0.21 | 4.24× |
+| Multi-head attention (12 heads) | 3.45 | 0.85 | 4.06× |
+| FFN (SwiGLU) | 1.82 | 0.64 | 2.84× |
+| LayerNorm + Residual | 0.28 | 0.09 | 3.11× |
+| Full transformer layer | 5.55 | 1.79 | 3.10× |
 
 ## 4. Model-Level Inference Performance
 
@@ -432,12 +432,12 @@ def benchmark_thread_scaling(model, max_threads: int = 16):
 
 | Threads | Throughput (tok/s) | Speedup | Efficiency |
 |---|---|---|---|
-| 1 | 8.2 | 1.0Ã— | 100% |
-| 2 | 15.1 | 1.84Ã— | 92% |
-| 4 | 27.4 | 3.34Ã— | 84% |
-| 8 | 42.3 | 5.16Ã— | 65% |
-| 12 | 48.5 | 5.91Ã— | 49% |
-| 16 | 51.2 | 6.24Ã— | 39% |
+| 1 | 8.2 | 1.0× | 100% |
+| 2 | 15.1 | 1.84× | 92% |
+| 4 | 27.4 | 3.34× | 84% |
+| 8 | 42.3 | 5.16× | 65% |
+| 12 | 48.5 | 5.91× | 49% |
+| 16 | 51.2 | 6.24× | 39% |
 
 Diminishing returns set in beyond 8 threads due to memory bandwidth saturation.
 
@@ -521,31 +521,31 @@ optimization_priority = [
     {
         "rank": 1,
         "technique": "INT4 quantization",
-        "impact": "4.2Ã— memory reduction, 2.8Ã— speedup",
+        "impact": "4.2× memory reduction, 2.8× speedup",
         "effort": "Medium"
     },
     {
         "rank": 2,
         "technique": "Operator fusion",
-        "impact": "2.4Ã— speedup",
+        "impact": "2.4× speedup",
         "effort": "High"
     },
     {
         "rank": 3,
         "technique": "SIMD vectorization",
-        "impact": "1.8Ã— speedup",
+        "impact": "1.8× speedup",
         "effort": "High"
     },
     {
         "rank": 4,
         "technique": "KV-cache optimization",
-        "impact": "1.5Ã— speedup for long sequences",
+        "impact": "1.5× speedup for long sequences",
         "effort": "Medium"
     },
     {
         "rank": 5,
         "technique": "Thread tuning",
-        "impact": "1.3Ã— speedup",
+        "impact": "1.3× speedup",
         "effort": "Low"
     }
 ]
@@ -608,7 +608,7 @@ The comprehensive benchmark analysis demonstrates that the Inte11ect platform ac
 
 2. Chen, J., Kossaifi, J., & Pan, J. (2023). Efficient CPU Inference for Large Language Models. *Proceedings of Machine Learning and Systems*, 5.
 
-3. Dao, T., Fu, D., Ermon, S., Rudra, A., & RÃ©, C. (2022). FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness. *Advances in Neural Information Processing Systems*, 35, 16344-16359.
+3. Dao, T., Fu, D., Ermon, S., Rudra, A., & Ré, C. (2022). FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness. *Advances in Neural Information Processing Systems*, 35, 16344-16359.
 
 4. Dettmers, T., Lewis, M., Belkada, Y., & Zettlemoyer, L. (2022). LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale. *Advances in Neural Information Processing Systems*, 35, 30318-30332.
 
@@ -688,7 +688,7 @@ The comprehensive benchmark analysis demonstrates that the Inte11ect platform ac
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -711,3 +711,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

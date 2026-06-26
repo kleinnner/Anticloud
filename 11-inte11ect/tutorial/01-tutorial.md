@@ -1,12 +1,12 @@
-﻿<!-- ASCII Art for Data-11 -->
+<!-- ASCII Art for Data-11 -->
 
 
-██╗  ██╗███████╗██╗     ██╗      ██████╗     ██╗███╗   ██╗████████╗███████╗██╗     ██╗     ███████╗ ██████╗████████╗
-██║  ██║██╔════╝██║     ██║     ██╔═══██╗    ██║████╗  ██║╚══██╔══╝██╔════╝██║     ██║     ██╔════╝██╔════╝╚══██╔══╝
-███████║█████╗  ██║     ██║     ██║   ██║    ██║██╔██╗ ██║   ██║   █████╗  ██║     ██║     █████╗  ██║        ██║
-██╔══██║██╔══╝  ██║     ██║     ██║   ██║    ██║██║╚██╗██║   ██║   ██╔══╝  ██║     ██║     ██╔══╝  ██║        ██║
-██║  ██║███████╗███████╗███████╗╚██████╔╝    ██║██║ ╚████║   ██║   ███████╗███████╗███████╗███████╗╚██████╗   ██║
-╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝     ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚══════╝╚══════╝╚══════╝ ╚═════╝   ╚═╝
+��+  ��+�������+��+     ��+      ������+     ��+���+   ��+��������+�������+��+     ��+     �������+ ������+��������+
+���  �����+----+���     ���     ��+---��+    �������+  ���+--��+--+��+----+���     ���     ��+----+��+----++--��+--+
+�������������+  ���     ���     ���   ���    �����+��+ ���   ���   �����+  ���     ���     �����+  ���        ���
+��+--�����+--+  ���     ���     ���   ���    ������+��+���   ���   ��+--+  ���     ���     ��+--+  ���        ���
+���  ����������+�������+�������++������++    ������ +�����   ���   �������+�������+�������+�������++������+   ���
++-+  +-++------++------++------+ +-----+     +-++-+  +---+   +-+   +------++------++------++------+ +-----+   +-+
 
 *Lois-Kleinner and 0-1.gg 2026 - Inte11ect Platform Documentation*
 *Confidential - All Rights Reserved*
@@ -16,8 +16,8 @@
 
 # Getting Started in 10 Minutes
 
-> **Associated Module:** Data-11 — Data Ingestion & Orchestration Module
-> **Tutorial 01 of 12** — Estimated reading time: 12 min | Hands-on time: 10 min
+> **Associated Module:** Data-11 � Data Ingestion & Orchestration Module
+> **Tutorial 01 of 12** � Estimated reading time: 12 min | Hands-on time: 10 min
 
 ## Welcome to Inte11ect
 
@@ -47,7 +47,7 @@ This tutorial gets you from zero to a running Inte11ect inference node in under 
 
 ---
 
-## Step 1 — Download the Platform
+## Step 1 � Download the Platform
 
 The platform is distributed as a single Tauri bundle. Choose your platform:
 
@@ -90,7 +90,7 @@ Compare the checksum from your download with the ledger entry. If they match, pr
 
 ---
 
-## Step 2 — Install and Launch
+## Step 2 � Install and Launch
 
 **Windows**
 ```powershell
@@ -119,24 +119,24 @@ chmod +x Inte11ect_1.2.3_amd64.AppImage
 When the application opens you will see:
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│  Inte11ect v1.2.3                                          │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  [●] GOD-11 Meta-Cognition Engine   [Status: Ready]  │  │
-│  │  [●] Qwen2-VL-2B Inference Backend [Status: Idle]    │  │
-│  │  [●] .aioss Ledger Client          [Status: Synced]  │  │
-│  │  [○] Module Registry               [37/72 loaded]    │  │
-│  │  [○] RAG Pipeline                  [Disconnected]    │  │
-│  └──────────────────────────────────────────────────────┘  │
-│  [ Start Inference ]  [ Module Browser ]  [ System Log ]   │
-└────────────────────────────────────────────────────────────┘
++------------------------------------------------------------+
+�  Inte11ect v1.2.3                                          �
+�  +------------------------------------------------------+  �
+�  �  [?] GOD-11 Meta-Cognition Engine   [Status: Ready]  �  �
+�  �  [?] Qwen2-VL-2B Inference Backend [Status: Idle]    �  �
+�  �  [?] .aioss Ledger Client          [Status: Synced]  �  �
+�  �  [?] Module Registry               [37/72 loaded]    �  �
+�  �  [?] RAG Pipeline                  [Disconnected]    �  �
+�  +------------------------------------------------------+  �
+�  [ Start Inference ]  [ Module Browser ]  [ System Log ]   �
++------------------------------------------------------------+
 ```
 
-If you see the four green indicators, your installation is healthy. The two hollow circles mean the module registry and RAG pipeline need configuration — we will address those.
+If you see the four green indicators, your installation is healthy. The two hollow circles mean the module registry and RAG pipeline need configuration � we will address those.
 
 ---
 
-## Step 3 — Load the Qwen2-VL-2B Model
+## Step 3 � Load the Qwen2-VL-2B Model
 
 Inte11ect ships with no model weights pre-installed. You need to download Qwen2-VL-2B (or another compatible model) before running inference.
 
@@ -175,14 +175,14 @@ The CLI supports the following flags:
 inte11ect models verify Qwen2-VL-2B-Instruct
 
 # Expected output:
-# ✓ Model weights integrity check passed
-# ✓ SHA-256: a1b2c3d4... matches ledger entry
-# ✓ Architecture fingerprint matches expected
+# ? Model weights integrity check passed
+# ? SHA-256: a1b2c3d4... matches ledger entry
+# ? Architecture fingerprint matches expected
 ```
 
 ---
 
-## Step 4 — Run Your First Inference
+## Step 4 � Run Your First Inference
 
 With the model loaded, you can now run inference. Open the **Inference** panel and enter a prompt.
 
@@ -223,7 +223,7 @@ The .aioss ledger is an append-only, content-addressed audit log...
 
 ---
 
-## Step 5 — Explore the Module Browser
+## Step 5 � Explore the Module Browser
 
 Click **Module Browser** in the main navigation. You will see the full list of 72 modules organized into 6 domains:
 
@@ -243,29 +243,29 @@ Each module can be toggled on or off. For now, leave all modules enabled.
 Click on `cog-reasoning` to see its details:
 
 ```
-┌─ cog-reasoning ─────────────────────────────────────────┐
-│ ID:          cog-reasoning                              │
-│ Version:     2.1.0                                      │
-│ Status:      ● Active                                    │
-│ Dependencies: data-ingest, gen-text                     │
-│ Description: Multi-step chain-of-thought reasoning      │
-│ ┌─ Metrics ──────────────────────────────────────────┐  │
-│ │ Invocations: 0    | Avg Latency: —  | Errors: 0    │  │
-│ │ Tokens In:   0    | Tokens Out:  0  | Cache: 0%    │  │
-│ └────────────────────────────────────────────────────┘  │
-│ [ Disable ] [ Configure ] [ View Logs ] [ Docs ]       │
-└─────────────────────────────────────────────────────────┘
++- cog-reasoning -----------------------------------------+
+� ID:          cog-reasoning                              �
+� Version:     2.1.0                                      �
+� Status:      ? Active                                    �
+� Dependencies: data-ingest, gen-text                     �
+� Description: Multi-step chain-of-thought reasoning      �
+� +- Metrics ------------------------------------------+  �
+� � Invocations: 0    | Avg Latency: �  | Errors: 0    �  �
+� � Tokens In:   0    | Tokens Out:  0  | Cache: 0%    �  �
+� +----------------------------------------------------+  �
+� [ Disable ] [ Configure ] [ View Logs ] [ Docs ]       �
++---------------------------------------------------------+
 ```
 
 ---
 
-## Step 6 — Generate a Mermaid Diagram
+## Step 6 � Generate a Mermaid Diagram
 
 Inte11ect includes a Mermaid rendering engine that can visualize any module pipeline, data flow, or system architecture.
 
 ### From the GUI
 
-1. Navigate to **Tools → Mermaid Editor**
+1. Navigate to **Tools ? Mermaid Editor**
 2. Paste or type a Mermaid diagram definition:
 
 ```mermaid
@@ -280,7 +280,7 @@ flowchart TD
     G --> H[Response]
 ```
 
-3. Click **Render** — the diagram appears instantly
+3. Click **Render** � the diagram appears instantly
 4. Export as PNG, SVG, or Markdown embed
 
 ### From the CLI
@@ -296,7 +296,7 @@ The `diagram` subcommand accepts:
 
 ---
 
-## Step 7 — Check the .aioss Ledger
+## Step 7 � Check the .aioss Ledger
 
 Every action in Inte11ect is recorded in the `.aioss` audit ledger. To verify:
 
@@ -308,7 +308,7 @@ inte11ect ledger status
 # Ledger: /home/user/.inte11ect/ledger/aioss.db
 # Entries: 47
 # Last Sync: 2026-06-19T10:30:00Z
-# Integrity: ✓ (Merkle root: a1b2c3d4e5f6...)
+# Integrity: ? (Merkle root: a1b2c3d4e5f6...)
 ```
 
 ### View Recent Entries
@@ -341,7 +341,7 @@ This displays the ten most recent ledger entries in JSON format:
 
 ---
 
-## Step 8 — Export the Session Log
+## Step 8 � Export the Session Log
 
 To share your session with a colleague or attach it to a bug report:
 
@@ -361,7 +361,7 @@ inte11ect logs export --session-id sess_abc123 --format json
 
 ---
 
-## Step 9 — What's Next
+## Step 9 � What's Next
 
 You have completed the Getting Started tutorial. Here are the next steps:
 
@@ -392,12 +392,12 @@ See [02-tutorial.md](./02-tutorial.md) for installing model variants. See [03-tu
 inte11ect doctor
 
 # This runs:
-# ✓ OS version check
-# ✓ CPU features (AVX2, SSE4.2)
-# ✓ GPU driver (CUDA 12.x or Metal 3.x)
-# ✓ Rust runtime (must be present for Tauri)
-# ✓ Disk space
-# ✓ Port availability (3000-3010, 8080)
+# ? OS version check
+# ? CPU features (AVX2, SSE4.2)
+# ? GPU driver (CUDA 12.x or Metal 3.x)
+# ? Rust runtime (must be present for Tauri)
+# ? Disk space
+# ? Port availability (3000-3010, 8080)
 ```
 
 ### "Model download fails"
@@ -526,7 +526,7 @@ Before moving on, confirm each item:
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -537,7 +537,7 @@ Before moving on, confirm each item:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -560,3 +560,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

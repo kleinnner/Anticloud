@@ -1,12 +1,12 @@
-﻿▄▄                     ██               ▄▄                                    
-██                     ▀▀               ██                                    
-██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
-██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
-██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
-██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
-▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
+__                     ��               __                                    
+��                     ��               ��                                    
+��            ___�   ����     �___      ��_���_    _����_    ��_����  ��_����_
+��        __����       ��       ����__  ���  ���  ��____��   ���      ���   ��
+��        ���___       ��       ___���  ��    ��  ��������   ��       ��    ��
+��______      ����  ___��___  ����      ���__���  ���____�   ��       ��    ��
+��������            ��������            �� ���      �����    ��       ��    ��
 
-Libern — Sovereign Collaborative Telecom Engine
+Libern � Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 Document Version: 1.0.0
@@ -14,7 +14,7 @@ Category: Feature Paper
 Document ID: PAP-003
 Last Updated: 2026-06-19
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 # The Magic Moment: Offline-First CRDT Merge Resolution
 
@@ -32,7 +32,7 @@ Last Updated: 2026-06-19
 
 ## 1. Executive Summary
 
-The Libern Magic Moment is the first time a user experiences the power of offline-first sovereign collaboration: they go offline, edit a message, reconnect to a peer, and watch the CRDT merge resolve perfectly — no conflicts, no data loss, no manual reconciliation. This moment crystallizes the value proposition of Libern in a single, visceral experience.
+The Libern Magic Moment is the first time a user experiences the power of offline-first sovereign collaboration: they go offline, edit a message, reconnect to a peer, and watch the CRDT merge resolve perfectly � no conflicts, no data loss, no manual reconciliation. This moment crystallizes the value proposition of Libern in a single, visceral experience.
 
 ---
 
@@ -297,14 +297,14 @@ When many peers reconnect simultaneously, the network could be flooded with sync
 
 | Feature | Libern | Discord | Slack | Teams | Matrix |
 |---------|--------|---------|-------|-------|--------|
-| Offline message creation | ✅ | ❌ | ✅ (queue only) | ✅ (queue only) | ❌ |
-| Offline message editing | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Offline file attach | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Automatic CRDT merge | ✅ | ❌ | ❌ | ❌ | ❌ |
-| No data loss guarantee | ✅ | ❌ | ❌ | ❌ | ❌ |
-| No manual resolution | ✅ | N/A | N/A | N/A | ❌ |
-| .aioss audit trail | ✅ | ❌ | ❌ | ❌ | ❌ |
-| P2P sync (no server) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Offline message creation | ? | ? | ? (queue only) | ? (queue only) | ? |
+| Offline message editing | ? | ? | ? | ? | ? |
+| Offline file attach | ? | ? | ? | ? | ? |
+| Automatic CRDT merge | ? | ? | ? | ? | ? |
+| No data loss guarantee | ? | ? | ? | ? | ? |
+| No manual resolution | ? | N/A | N/A | N/A | ? |
+| .aioss audit trail | ? | ? | ? | ? | ? |
+| P2P sync (no server) | ? | ? | ? | ? | ? |
 
 ---
 
@@ -335,9 +335,9 @@ When many peers reconnect simultaneously, the network could be flooded with sync
 
 ## 11. Conclusion
 
-The Magic Moment — going offline, editing, reconnecting, and seeing the CRDT merge resolve perfectly — is the single most powerful demonstration of Libern's architectural vision. It is a feature that no competing platform can replicate without fundamentally rebuilding their infrastructure from the ground up. Every product decision, from the choice of CRDT over OT to the LAN-first sync protocol, serves this moment. The Magic Moment is not just a feature; it is the proof that sovereign, offline-first collaboration is not only possible but delightful.
+The Magic Moment � going offline, editing, reconnecting, and seeing the CRDT merge resolve perfectly � is the single most powerful demonstration of Libern's architectural vision. It is a feature that no competing platform can replicate without fundamentally rebuilding their infrastructure from the ground up. Every product decision, from the choice of CRDT over OT to the LAN-first sync protocol, serves this moment. The Magic Moment is not just a feature; it is the proof that sovereign, offline-first collaboration is not only possible but delightful.
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
@@ -519,38 +519,38 @@ The Magic Moment is a community-driven phenomenon that grows stronger as more pe
 
 ```
 User A (offline)                    User B (offline)               Both Online
-      │                                  │                             │
-      │  Edit message offline            │                             │
-      │  ├─ SQLite INSERT                │                             │
-      │  ├─ Ed25519 sign                 │                             │
-      │  ├─ HLC tick                     │                             │
-      │  ├─ .aioss append                │                             │
-      │  └─ Queue in CRDT outbox         │                             │
-      │                                  │                             │
-      │  ─── ─── ─── LAN Available ─── ─── ───                         │
-      │                                  │                             │
-      │  mDNS discovery                  │                             │
-      │◄──────────────────────────────►  │                             │
-      │                                  │                             │
-      │  WebSocket connect               │                             │
-      │─────────────────────────────────►│                             │
-      │                                  │                             │
-      │  HLC watermark exchange          │                             │
-      │◄────────────────────────────────►│                             │
-      │                                  │                             │
-      │  CRDT delta push                 │                             │
-      │─────────────────────────────────►│                             │
-      │                                  │  Verify Ed25519 sigs       │
-      │                                  │  Verify SHA-256 hashes     │
-      │                                  │  LWW merge                 │
-      │                                  │  SQLite write              │
-      │                                  │  .aioss append             │
-      │                                  │                             │
-      │  CRDT delta push (reciprocal)    │                             │
-      │◄─────────────────────────────────│                             │
-      │                                  │                             │
-      │  Both peers converged ✓          │                             │
-      │  UI update: "N changes synced"   │                             │
+      �                                  �                             �
+      �  Edit message offline            �                             �
+      �  +- SQLite INSERT                �                             �
+      �  +- Ed25519 sign                 �                             �
+      �  +- HLC tick                     �                             �
+      �  +- .aioss append                �                             �
+      �  +- Queue in CRDT outbox         �                             �
+      �                                  �                             �
+      �  --- --- --- LAN Available --- --- ---                         �
+      �                                  �                             �
+      �  mDNS discovery                  �                             �
+      �?------------------------------?  �                             �
+      �                                  �                             �
+      �  WebSocket connect               �                             �
+      �---------------------------------?�                             �
+      �                                  �                             �
+      �  HLC watermark exchange          �                             �
+      �?--------------------------------?�                             �
+      �                                  �                             �
+      �  CRDT delta push                 �                             �
+      �---------------------------------?�                             �
+      �                                  �  Verify Ed25519 sigs       �
+      �                                  �  Verify SHA-256 hashes     �
+      �                                  �  LWW merge                 �
+      �                                  �  SQLite write              �
+      �                                  �  .aioss append             �
+      �                                  �                             �
+      �  CRDT delta push (reciprocal)    �                             �
+      �?---------------------------------�                             �
+      �                                  �                             �
+      �  Both peers converged ?          �                             �
+      �  UI update: "N changes synced"   �                             �
 ```
 
 ### CRDT Merge Code Reference
@@ -568,7 +568,7 @@ pub fn tick(&mut self) -> u64 {
     self.encode()
 }
 
-// LWW merge — deterministic, automatic, no user intervention
+// LWW merge � deterministic, automatic, no user intervention
 pub fn merge(&mut self, other: &LwwElementSet<T>) {
     for (elem, ts) in &other.adds {
         let exists = self.adds.iter().any(|(e, _)| e == elem);
@@ -584,7 +584,7 @@ pub fn merge(&mut self, other: &LwwElementSet<T>) {
 ### Offline Message Persistence
 
 ```rust
-// libern-core/src/db/mod.rs — SQLite with WAL mode
+// libern-core/src/db/mod.rs � SQLite with WAL mode
 pub fn new(db_path: &str) -> Result<Self, rusqlite::Error> {
     let conn = Connection::open(db_path)?;
     conn.execute_batch("PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON;")?;
@@ -612,7 +612,7 @@ function SyncIndicator({ syncState }: { syncState: SyncProgress }) {
   if (syncState.state === 'complete') {
     return (
       <div className="sync-success">
-        ✓ {syncState.entriesSynced} changes synced
+        ? {syncState.entriesSynced} changes synced
         {syncState.conflictsResolved > 0 &&
           ` (${syncState.conflictsResolved} auto-resolved)`}
       </div>
@@ -632,7 +632,7 @@ function SyncIndicator({ syncState }: { syncState: SyncProgress }) {
 | 100+ offline edits queued | Batched in groups of 100 with progress indicator |
 | Peer goes offline during sync | Entries already transferred remain valid |
 | Corrupted CRDT state | Recover from .aioss ledger (all entries preserved) |
-| Duplicate peer connections | Idempotent merge — merging twice = merging once |
+| Duplicate peer connections | Idempotent merge � merging twice = merging once |
 
 ## 26: Magic Moment Success Stories
 
@@ -648,7 +648,7 @@ After Hurricane Maria, a disaster relief team deployed Libern on laptops in a fi
 
 A remote school in rural Alaska deployed Libern on 30 Raspberry Pi computers. Students collaborated on projects using the whiteboard and chat features entirely offline. When the satellite internet connection was available (limited to 2 hours per day), student devices would sync with each other. Teachers reported that the CRDT merge "just worked" and students never lost work.
 
-The Magic Moment is not theoretical — it has been validated across diverse deployment scenarios and consistently delivers on its promise of conflict-free offline collaboration.
+The Magic Moment is not theoretical � it has been validated across diverse deployment scenarios and consistently delivers on its promise of conflict-free offline collaboration.
 
 
 ## Technical Implementation Reference
@@ -1276,141 +1276,141 @@ export const useServerStore = create<ServerStore>((set, get) => ({
 
 `
 libern/
-├── Cargo.toml                          # Workspace root
-├── build.bat                           # Build orchestration
-├── LIBERN_BUILD_PLAN.md                # Build plan documentation
-├── AI_FEATURES_PLAN.md                 # AI subsystem plan
-├── COMPETITIVE_EDGE.md                 # Competitive analysis
-├── crates/
-│   ├── libern-core/                    # Core library
-│   │   ├── Cargo.toml
-│   │   └── src/
-│   │       ├── lib.rs
-│   │       ├── crdt/mod.rs             # CRDT engine
-│   │       ├── crypto/mod.rs           # Cryptographic primitives
-│   │       ├── db/
-│   │       │   ├── mod.rs              # Database initialization
-│   │       │   ├── schema.rs           # Schema definition
-│   │       │   └── models.rs           # Data models
-│   │       └── ai/
-│   │           ├── mod.rs              # AiEngine trait
-│   │           ├── engine.rs           # MockEngine
-│   │           ├── qwen_engine.rs      # CandleEngine
-│   │           ├── pipeline.rs         # Prompt construction
-│   │           ├── summarizer.rs       # Channel summarization
-│   │           ├── moderator.rs        # Content moderation
-│   │           ├── rag.rs              # Document RAG
-│   │           ├── conversation.rs     # Context management
-│   │           ├── liber_user.rs       # Liber identity
-│   │           └── reward.rs           # RLHF feedback
-│   └── libern-aioss/                   # .aioss format
-│       ├── Cargo.toml
-│       └── src/
-│           ├── lib.rs
-│           ├── header.rs               # 128-byte header
-│           ├── entry.rs                # 256-byte entry
-│           ├── ledger.rs               # Ledger types
-│           ├── writer.rs               # Binary/JSON writer
-│           ├── reader.rs               # Binary/JSON reader
-│           ├── verify.rs               # Chain verification
-│           ├── health.rs               # Health diagnostics
-│           ├── event_store.rs          # Event persistence
-│           ├── state_proof.rs          # Ed25519 proofs
-│           ├── schedule.rs             # Session sealing
-│           └── txt_log.rs              # TXT export
-├── apps/
-│   ├── desktop/                        # Tauri desktop app
-│   │   ├── src/
-│   │   │   ├── App.tsx
-│   │   │   ├── main.tsx
-│   │   │   ├── lib/api.ts
-│   │   │   ├── lib/ai.ts
-│   │   │   ├── lib/utils.ts
-│   │   │   ├── stores/serverStore.ts
-│   │   │   ├── stores/messageStore.ts
-│   │   │   ├── stores/uiStore.ts
-│   │   │   └── types/index.ts
-│   │   └── src-tauri/
-│   │       ├── Cargo.toml
-│   │       ├── tauri.conf.json
-│   │       ├── build.rs
-│   │       └── src/
-│   │           ├── main.rs
-│   │           ├── lib.rs
-│   │           └── commands/
-│   │               ├── mod.rs
-│   │               ├── server.rs
-│   │               ├── channel.rs
-│   │               ├── message.rs
-│   │               ├── user.rs
-│   │               ├── role.rs
-│   │               ├── ai.rs
-│   │               ├── xp.rs
-│   │               ├── stats.rs
-│   │               └── stars.rs
-│   └── sandbox/                        # 3D Boxel engine
-│       ├── Cargo.toml
-│       └── src/
-│           ├── main.rs
-│           ├── liber.rs
-│           ├── world.rs
-│           ├── player.rs
-│           ├── character.rs
-│           ├── camera.rs
-│           ├── cube.rs
-│           ├── texture.rs
-│           ├── audio.rs
-│           ├── voice.rs
-│           ├── chat.rs
-│           ├── pipeline.rs
-│           └── screen_share.rs
-├── docs/
-│   ├── README.md
-│   ├── bdrs/                           # Architecture decisions
-│   ├── feature-papers/                 # Feature documentation
-│   ├── csr/                            # Corporate social responsibility
-│   ├── no-more-silicon/                # Hardware independence
-│   ├── competitors/                    # Competitive analysis
-│   ├── compliance/                     # Compliance documentation
-│   ├── data-safety/                    # Data safety documentation
-│   ├── developers/                     # Developer documentation
-│   ├── enterprise/                     # Enterprise documentation
-│   ├── faqs/                           # Frequently asked questions
-│   ├── features/                       # Feature documentation
-│   ├── governance/                     # Project governance
-│   ├── help-bugs/                      # Bug reporting
-│   ├── howto-community/                # Community how-to guides
-│   ├── howto-developers/               # Developer how-to guides
-│   ├── howto-enterprise/               # Enterprise how-to guides
-│   ├── incident-recovery/              # Incident recovery docs
-│   ├── investors/                      # Investor documentation
-│   ├── no-black-boxes/                 # Transparency docs
-│   ├── privacy/                        # Privacy documentation
-│   ├── research/                       # Research documentation
-│   ├── tutorial/                       # Tutorial documentation
-│   └── why-use/                        # Why-use documentation
-└── installer/
-    └── native/
-        ├── Cargo.toml
-        ├── build.rs
-        └── src/
-            ├── main.rs
-            ├── lib.rs
-            ├── app.rs
-            ├── state.rs
-            ├── theme.rs
-            ├── widgets.rs
-            ├── system.rs
-            ├── downloader.rs
-            └── screens/
-                ├── mod.rs
-                ├── splash.rs
-                ├── check.rs
-                ├── download.rs
-                ├── install.rs
-                ├── elevation.rs
-                ├── complete.rs
-                └── error.rs
++-- Cargo.toml                          # Workspace root
++-- build.bat                           # Build orchestration
++-- LIBERN_BUILD_PLAN.md                # Build plan documentation
++-- AI_FEATURES_PLAN.md                 # AI subsystem plan
++-- COMPETITIVE_EDGE.md                 # Competitive analysis
++-- crates/
+�   +-- libern-core/                    # Core library
+�   �   +-- Cargo.toml
+�   �   +-- src/
+�   �       +-- lib.rs
+�   �       +-- crdt/mod.rs             # CRDT engine
+�   �       +-- crypto/mod.rs           # Cryptographic primitives
+�   �       +-- db/
+�   �       �   +-- mod.rs              # Database initialization
+�   �       �   +-- schema.rs           # Schema definition
+�   �       �   +-- models.rs           # Data models
+�   �       +-- ai/
+�   �           +-- mod.rs              # AiEngine trait
+�   �           +-- engine.rs           # MockEngine
+�   �           +-- qwen_engine.rs      # CandleEngine
+�   �           +-- pipeline.rs         # Prompt construction
+�   �           +-- summarizer.rs       # Channel summarization
+�   �           +-- moderator.rs        # Content moderation
+�   �           +-- rag.rs              # Document RAG
+�   �           +-- conversation.rs     # Context management
+�   �           +-- liber_user.rs       # Liber identity
+�   �           +-- reward.rs           # RLHF feedback
+�   +-- libern-aioss/                   # .aioss format
+�       +-- Cargo.toml
+�       +-- src/
+�           +-- lib.rs
+�           +-- header.rs               # 128-byte header
+�           +-- entry.rs                # 256-byte entry
+�           +-- ledger.rs               # Ledger types
+�           +-- writer.rs               # Binary/JSON writer
+�           +-- reader.rs               # Binary/JSON reader
+�           +-- verify.rs               # Chain verification
+�           +-- health.rs               # Health diagnostics
+�           +-- event_store.rs          # Event persistence
+�           +-- state_proof.rs          # Ed25519 proofs
+�           +-- schedule.rs             # Session sealing
+�           +-- txt_log.rs              # TXT export
++-- apps/
+�   +-- desktop/                        # Tauri desktop app
+�   �   +-- src/
+�   �   �   +-- App.tsx
+�   �   �   +-- main.tsx
+�   �   �   +-- lib/api.ts
+�   �   �   +-- lib/ai.ts
+�   �   �   +-- lib/utils.ts
+�   �   �   +-- stores/serverStore.ts
+�   �   �   +-- stores/messageStore.ts
+�   �   �   +-- stores/uiStore.ts
+�   �   �   +-- types/index.ts
+�   �   +-- src-tauri/
+�   �       +-- Cargo.toml
+�   �       +-- tauri.conf.json
+�   �       +-- build.rs
+�   �       +-- src/
+�   �           +-- main.rs
+�   �           +-- lib.rs
+�   �           +-- commands/
+�   �               +-- mod.rs
+�   �               +-- server.rs
+�   �               +-- channel.rs
+�   �               +-- message.rs
+�   �               +-- user.rs
+�   �               +-- role.rs
+�   �               +-- ai.rs
+�   �               +-- xp.rs
+�   �               +-- stats.rs
+�   �               +-- stars.rs
+�   +-- sandbox/                        # 3D Boxel engine
+�       +-- Cargo.toml
+�       +-- src/
+�           +-- main.rs
+�           +-- liber.rs
+�           +-- world.rs
+�           +-- player.rs
+�           +-- character.rs
+�           +-- camera.rs
+�           +-- cube.rs
+�           +-- texture.rs
+�           +-- audio.rs
+�           +-- voice.rs
+�           +-- chat.rs
+�           +-- pipeline.rs
+�           +-- screen_share.rs
++-- docs/
+�   +-- README.md
+�   +-- bdrs/                           # Architecture decisions
+�   +-- feature-papers/                 # Feature documentation
+�   +-- csr/                            # Corporate social responsibility
+�   +-- no-more-silicon/                # Hardware independence
+�   +-- competitors/                    # Competitive analysis
+�   +-- compliance/                     # Compliance documentation
+�   +-- data-safety/                    # Data safety documentation
+�   +-- developers/                     # Developer documentation
+�   +-- enterprise/                     # Enterprise documentation
+�   +-- faqs/                           # Frequently asked questions
+�   +-- features/                       # Feature documentation
+�   +-- governance/                     # Project governance
+�   +-- help-bugs/                      # Bug reporting
+�   +-- howto-community/                # Community how-to guides
+�   +-- howto-developers/               # Developer how-to guides
+�   +-- howto-enterprise/               # Enterprise how-to guides
+�   +-- incident-recovery/              # Incident recovery docs
+�   +-- investors/                      # Investor documentation
+�   +-- no-black-boxes/                 # Transparency docs
+�   +-- privacy/                        # Privacy documentation
+�   +-- research/                       # Research documentation
+�   +-- tutorial/                       # Tutorial documentation
+�   +-- why-use/                        # Why-use documentation
++-- installer/
+    +-- native/
+        +-- Cargo.toml
+        +-- build.rs
+        +-- src/
+            +-- main.rs
+            +-- lib.rs
+            +-- app.rs
+            +-- state.rs
+            +-- theme.rs
+            +-- widgets.rs
+            +-- system.rs
+            +-- downloader.rs
+            +-- screens/
+                +-- mod.rs
+                +-- splash.rs
+                +-- check.rs
+                +-- download.rs
+                +-- install.rs
+                +-- elevation.rs
+                +-- complete.rs
+                +-- error.rs
 `
 
 This technical reference provides the complete implementation details for all major Libern subsystems. Refer to the specific files in the repository for the most current implementation.
@@ -1424,7 +1424,7 @@ This technical reference provides the complete implementation details for all ma
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -1447,3 +1447,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

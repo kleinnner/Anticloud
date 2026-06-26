@@ -1,4 +1,4 @@
-﻿# Writing Your First Program
+# Writing Your First Program
 
 This guide walks through creating, compiling, and running your first program using the 01s Sovereign custom toolchain pipeline.
 
@@ -453,16 +453,16 @@ flowchart LR
 
 ## Further Reading
 
-- [Advanced Toolchain Usage](20-advanced-toolchain-usage.md) â€” Advanced features
-- [Custom Toolchain](12-using-the-custom-toolchain.md) â€” Toolchain details
-- [Lexer and Parser](../features/07-lexer-and-parser.md) â€” Language parsing
-- [Codegen Backend](../features/08-codegen-x86_64-jit.md) â€” Code generation
-- [Runes Glyph System](../features/09-runes-glyph-system.md) â€” Output formatting
-- [Binary Format Spec](../features/10-binary-format-loader.md) â€” File format
-- [Toolchain FAQ](../faq/03-toolchain-faq.md) â€” Common questions
-- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) â€” Issue resolution
-- [Development Environment](17-development-environment.md) â€” Dev setup
-- [Contributing Code](../developers/11-contributing-code.md) â€” Code contributions
+- [Advanced Toolchain Usage](20-advanced-toolchain-usage.md) — Advanced features
+- [Custom Toolchain](12-using-the-custom-toolchain.md) — Toolchain details
+- [Lexer and Parser](../features/07-lexer-and-parser.md) — Language parsing
+- [Codegen Backend](../features/08-codegen-x86_64-jit.md) — Code generation
+- [Runes Glyph System](../features/09-runes-glyph-system.md) — Output formatting
+- [Binary Format Spec](../features/10-binary-format-loader.md) — File format
+- [Toolchain FAQ](../faq/03-toolchain-faq.md) — Common questions
+- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) — Issue resolution
+- [Development Environment](17-development-environment.md) — Dev setup
+- [Contributing Code](../developers/11-contributing-code.md) — Code contributions
 
 ## Language Quick Reference
 
@@ -644,7 +644,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -667,3 +667,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

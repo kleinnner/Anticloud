@@ -1,4 +1,4 @@
-﻿# QEMU Testing
+# QEMU Testing
 
 This guide covers testing 01s Sovereign ISOs using QEMU, including the project's standard testing approach.
 
@@ -460,16 +460,16 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 
 ## Further Reading
 
-- [Building Custom ISO](21-building-custom-iso.md) â€” ISO building
-- [First Boot Walkthrough](05-first-boot-walkthrough.md) â€” First boot guide
-- [Installation Guide](06-installation-guide.md) â€” Full installation
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Boot issues
-- [Testing Framework](../developers/12-testing-framework.md) â€” Test tools
-- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) â€” Automation
-- [Performance Tuning](24-performance-tuning.md) â€” Optimization
-- [Network Troubleshooting](../help/07-network-troubleshooting.md) â€” Network issues
-- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) â€” Desktop issues
-- [Community Testing](../community/02-getting-started-as-contributor.md) â€” Community QA
+- [Building Custom ISO](21-building-custom-iso.md) — ISO building
+- [First Boot Walkthrough](05-first-boot-walkthrough.md) — First boot guide
+- [Installation Guide](06-installation-guide.md) — Full installation
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Boot issues
+- [Testing Framework](../developers/12-testing-framework.md) — Test tools
+- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) — Automation
+- [Performance Tuning](24-performance-tuning.md) — Optimization
+- [Network Troubleshooting](../help/07-network-troubleshooting.md) — Network issues
+- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) — Desktop issues
+- [Community Testing](../community/02-getting-started-as-contributor.md) — Community QA
 
 ## Complete VM Launch Script
 
@@ -686,7 +686,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -709,3 +709,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,4 +1,4 @@
-﻿# Welcome to the Community
+# Welcome to the Community
 
 Welcome to the 01s Sovereign community! We are a group of developers, system administrators, security researchers, and open-source enthusiasts building an operating system that prioritizes transparency, auditability, and sovereign control.
 
@@ -392,16 +392,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” First steps for contributors
-- [Community Governance](03-community-governance.md) â€” Decision-making structure
-- [Communication Channels](04-communication-channels.md) â€” Where to connect
-- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) â€” Issue reporting guide
-- [Code of Conduct](06-code-of-conduct.md) â€” Community standards
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Ecosystem overview
-- [Localization and Translation](08-localization-and-translation.md) â€” Translation efforts
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Contribution rewards
-- [Governance BDR](../bdr/05-open-source-governance-bdr.md) â€” Governance decisions
-- [Community Growth BDR](../bdr/08-community-growth-bdr.md) â€” Growth strategy
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — First steps for contributors
+- [Community Governance](03-community-governance.md) — Decision-making structure
+- [Communication Channels](04-communication-channels.md) — Where to connect
+- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) — Issue reporting guide
+- [Code of Conduct](06-code-of-conduct.md) — Community standards
+- [Community Projects](07-community-projects-and-ecosystem.md) — Ecosystem overview
+- [Localization and Translation](08-localization-and-translation.md) — Translation efforts
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Contribution rewards
+- [Governance BDR](../bdr/05-open-source-governance-bdr.md) — Governance decisions
+- [Community Growth BDR](../bdr/08-community-growth-bdr.md) — Growth strategy
 
 ## Community Values
 
@@ -682,7 +682,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -705,3 +705,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

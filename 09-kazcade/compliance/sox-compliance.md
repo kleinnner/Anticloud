@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # SOX Compliance
@@ -14,7 +14,7 @@
 **Document ID:** KAZ-COMP-SOX-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Compliance Evidence  
+**Classification:** Internal — Compliance Evidence  
 
 ---
 
@@ -22,10 +22,10 @@
 
 1. Overview
 2. Sarbanes-Oxley Act Overview
-3. Section 302 â€” Corporate Responsibility
-4. Section 404 â€” Management Assessment
-5. Section 409 â€” Real-Time Disclosure
-6. Section 802 â€” Records Destruction
+3. Section 302 — Corporate Responsibility
+4. Section 404 — Management Assessment
+5. Section 409 — Real-Time Disclosure
+6. Section 802 — Records Destruction
 7. ITGC Mapping
 8. Access Management
 9. Change Management
@@ -114,7 +114,7 @@ kazkade compliance apply \
 
 ---
 
-## 3. Section 302 â€” Corporate Responsibility
+## 3. Section 302 — Corporate Responsibility
 
 ### 3.1 Certification Support
 
@@ -152,7 +152,7 @@ kazkade ledger append \
 
 ---
 
-## 4. Section 404 â€” Management Assessment
+## 4. Section 404 — Management Assessment
 
 ### 4.1 ICFR Framework
 
@@ -228,7 +228,7 @@ kazkade ledger append \
 
 ---
 
-## 5. Section 409 â€” Real-Time Disclosure
+## 5. Section 409 — Real-Time Disclosure
 
 ### 5.1 Material Change Detection
 
@@ -260,7 +260,7 @@ ORDER BY account_id;
 
 ---
 
-## 6. Section 802 â€” Records Destruction
+## 6. Section 802 — Records Destruction
 
 ### 6.1 Audit Record Retention
 
@@ -809,26 +809,26 @@ kazkade sox retention-status --output retention-schedule.pdf
 
 | # | SOX ITGC Requirement | Kazkade Implementation | Status |
 |---|---|---|---|
-| 1 | IT Access Management â€” Authorized Access | Ed25519 RBAC | Implemented |
-| 2 | IT Access Management â€” Access Review | `kazkade sox access-review` | Implemented |
-| 3 | IT Access Management â€” Segregation of Duties | Multi-sig + SOD enforcement | Implemented |
-| 4 | IT Access Management â€” Privileged Access | Break-glass + audit | Implemented |
-| 5 | Change Management â€” Authorization | Multi-sig change approval | Implemented |
-| 6 | Change Management â€” Testing | Test evidence in ledger | Implemented |
-| 7 | Change Management â€” Emergency Changes | Break-glass procedure | Implemented |
-| 8 | Change Management â€” SDLC Documentation | Phase tracking | Implemented |
-| 9 | Computer Operations â€” Job Monitoring | `kazkade sox job-monitor` | Implemented |
-| 10 | Computer Operations â€” Error Handling | Error event logging | Implemented |
-| 11 | Computer Operations â€” Backup/Recovery | `.acol` snapshots | Implemented |
-| 12 | Computer Operations â€” Problem Management | Incident timeline | Implemented |
-| 13 | Program Development â€” SDLC | Phase-based tracking | Implemented |
-| 14 | Program Development â€” Testing | Test evidence | Implemented |
-| 15 | Program Development â€” Approval | Gate approvals | Implemented |
-| 16 | Section 302 â€” Certification | Integrity report + signature | Implemented |
-| 17 | Section 404 â€” Control Testing | Automated control testing | Implemented |
-| 18 | Section 409 â€” Real-Time Disclosure | Material change monitoring | Implemented |
-| 19 | Section 802 â€” Retention | 7-year immutable storage | Implemented |
-| 20 | ICFR â€” Financial Integrity | SIMD deterministic execution | Implemented |
+| 1 | IT Access Management — Authorized Access | Ed25519 RBAC | Implemented |
+| 2 | IT Access Management — Access Review | `kazkade sox access-review` | Implemented |
+| 3 | IT Access Management — Segregation of Duties | Multi-sig + SOD enforcement | Implemented |
+| 4 | IT Access Management — Privileged Access | Break-glass + audit | Implemented |
+| 5 | Change Management — Authorization | Multi-sig change approval | Implemented |
+| 6 | Change Management — Testing | Test evidence in ledger | Implemented |
+| 7 | Change Management — Emergency Changes | Break-glass procedure | Implemented |
+| 8 | Change Management — SDLC Documentation | Phase tracking | Implemented |
+| 9 | Computer Operations — Job Monitoring | `kazkade sox job-monitor` | Implemented |
+| 10 | Computer Operations — Error Handling | Error event logging | Implemented |
+| 11 | Computer Operations — Backup/Recovery | `.acol` snapshots | Implemented |
+| 12 | Computer Operations — Problem Management | Incident timeline | Implemented |
+| 13 | Program Development — SDLC | Phase-based tracking | Implemented |
+| 14 | Program Development — Testing | Test evidence | Implemented |
+| 15 | Program Development — Approval | Gate approvals | Implemented |
+| 16 | Section 302 — Certification | Integrity report + signature | Implemented |
+| 17 | Section 404 — Control Testing | Automated control testing | Implemented |
+| 18 | Section 409 — Real-Time Disclosure | Material change monitoring | Implemented |
+| 19 | Section 802 — Retention | 7-year immutable storage | Implemented |
+| 20 | ICFR — Financial Integrity | SIMD deterministic execution | Implemented |
 
 ---
 
@@ -836,14 +836,14 @@ kazkade sox retention-status --output retention-schedule.pdf
 
 - Sarbanes-Oxley Act of 2002 (Pub. L. 107-204)
 - PCAOB Auditing Standard No. 5 (AS5)
-- COSO Internal Control â€” Integrated Framework (2013)
-- SEC Final Rule 33-8238 â€” Management's Report on Internal Control
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- COSO Internal Control — Integrated Framework (2013)
+- SEC Final Rule 33-8238 — Management's Report on Internal Control
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -854,7 +854,7 @@ kazkade sox retention-status --output retention-schedule.pdf
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -877,3 +877,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

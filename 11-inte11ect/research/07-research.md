@@ -1,4 +1,4 @@
-ï»¿<!-- ASCII Art for Chess-11 -->
+<!-- ASCII Art for Chess-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 07 â€” Cryptographic Ledger Applications
+# research - Document 07 — Cryptographic Ledger Applications
 
 > **Associated Module:** Chess-11
 > **Category:** Research & Development
@@ -715,15 +715,15 @@ The .aioss cryptographic ledger provides a robust foundation for audit trails, c
 
 8. Castro, M., & Liskov, B. (1999). Practical Byzantine Fault Tolerance. *Proceedings of the Third Symposium on Operating Systems Design and Implementation*, 173-186.
 
-9. Coron, J. S., Dodis, Y., Malinaud, C., & Puniya, P. (2005). Merkle-DamgÃ¥rd Revisited: How to Construct a Hash Function. *Advances in Cryptology â€“ CRYPTO 2005*, 430-448.
+9. Coron, J. S., Dodis, Y., Malinaud, C., & Puniya, P. (2005). Merkle-Damgård Revisited: How to Construct a Hash Function. *Advances in Cryptology – CRYPTO 2005*, 430-448.
 
 10. Crosby, S. A., & Wallach, D. S. (2009). Efficient Data Structures for Tamper-Evident Logging. *Proceedings of the 18th USENIX Security Symposium*, 111-126.
 
-11. Dwork, C., & Naor, M. (1992). Pricing via Processing or Combatting Junk Mail. *Advances in Cryptology â€“ CRYPTO 1992*, 139-147.
+11. Dwork, C., & Naor, M. (1992). Pricing via Processing or Combatting Junk Mail. *Advances in Cryptology – CRYPTO 1992*, 139-147.
 
 12. Eyal, I., & Sirer, E. G. (2018). Majority is Not Enough: Bitcoin Mining is Vulnerable. *Communications of the ACM*, 61(7), 95-102.
 
-13. Gervais, A., Karame, G. O., WÃ¼st, K., Glykantzis, V., Ritzdorf, H., & Capkun, S. (2016). On the Security and Performance of Proof of Work Blockchains. *Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security*, 3-16.
+13. Gervais, A., Karame, G. O., Wüst, K., Glykantzis, V., Ritzdorf, H., & Capkun, S. (2016). On the Security and Performance of Proof of Work Blockchains. *Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security*, 3-16.
 
 14. Goldwasser, S., Micali, S., & Rackoff, C. (1989). The Knowledge Complexity of Interactive Proof Systems. *SIAM Journal on Computing*, 18(1), 186-208.
 
@@ -731,7 +731,7 @@ The .aioss cryptographic ledger provides a robust foundation for audit trails, c
 
 16. Hopwood, D., Bowe, S., Hornby, T., & Wilcox, N. (2016). Zcash Protocol Specification. *Technical Report*.
 
-17. Kalodner, H., MÃ¶ser, M., Lee, K., Goldfeder, S., Plattner, M., Chator, A., & Narayanan, A. (2018). BlockSci: Design and Applications of a Blockchain Analysis Platform. *27th USENIX Security Symposium*, 143-160.
+17. Kalodner, H., Möser, M., Lee, K., Goldfeder, S., Plattner, M., Chator, A., & Narayanan, A. (2018). BlockSci: Design and Applications of a Blockchain Analysis Platform. *27th USENIX Security Symposium*, 143-160.
 
 18. Laurie, B. (2014). Certificate Transparency. *Communications of the ACM*, 57(10), 40-46.
 
@@ -783,7 +783,7 @@ The .aioss cryptographic ledger provides a robust foundation for audit trails, c
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -806,3 +806,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

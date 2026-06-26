@@ -1,8 +1,8 @@
-﻿# Privacy-Preserving Systems: From Differential Privacy to Practical Implementation in the 01s Sovereign OS
+# Privacy-Preserving Systems: From Differential Privacy to Practical Implementation in the 01s Sovereign OS
 
 ## Abstract
 
-Privacy-enhancing technologies (PETs) form a critical component of modern computing systems, addressing the tension between data utility and individual privacy. This paper surveys the landscape of privacy-preserving techniques â€” from Cynthia Dwork's differential privacy framework to k-anonymity, homomorphic encryption, and secure multi-party computation â€” and examines their application within the 01s Sovereign (Kaiman) operating system. We demonstrate how the OS integrates these techniques to protect user data while maintaining the transparency required by its .aioss audit ledger.
+Privacy-enhancing technologies (PETs) form a critical component of modern computing systems, addressing the tension between data utility and individual privacy. This paper surveys the landscape of privacy-preserving techniques — from Cynthia Dwork's differential privacy framework to k-anonymity, homomorphic encryption, and secure multi-party computation — and examines their application within the 01s Sovereign (Kaiman) operating system. We demonstrate how the OS integrates these techniques to protect user data while maintaining the transparency required by its .aioss audit ledger.
 
 ## 1. Introduction
 
@@ -32,29 +32,29 @@ The tension between privacy and transparency is well-documented in legal and tec
 
 ### 3.1 Formal Definition
 
-Differential privacy (Dwork 2006) provides a rigorous mathematical framework for privacy. A randomized mechanism M satisfies Îµ-differential privacy if for all datasets D and D' differing in one record, and all subsets S of the output space:
+Differential privacy (Dwork 2006) provides a rigorous mathematical framework for privacy. A randomized mechanism M satisfies ε-differential privacy if for all datasets D and D' differing in one record, and all subsets S of the output space:
 
 ```
-Pr[M(D) âˆˆ S] â‰¤ e^Îµ Ã— Pr[M(D') âˆˆ S]
+Pr[M(D) ∈ S] ≤ e^ε × Pr[M(D') ∈ S]
 ```
 
-The parameter Îµ (epsilon) quantifies the privacy guarantee: smaller Îµ means stronger privacy.
+The parameter ε (epsilon) quantifies the privacy guarantee: smaller ε means stronger privacy.
 
 ### 3.2 The Laplace Mechanism
 
 The canonical mechanism for achieving differential privacy adds Laplace noise calibrated to the sensitivity of the query:
 
 ```
-M(D) = f(D) + Lap(Î”f/Îµ)
+M(D) = f(D) + Lap(Δf/ε)
 ```
 
-Where Î”f is the maximum change in f induced by adding or removing one record.
+Where Δf is the maximum change in f induced by adding or removing one record.
 
 ### 3.3 Composition Theorems
 
-Sequential composition: Running k mechanisms on the same dataset, each with Îµ_i privacy, provides (âˆ‘ Îµ_i)-differential privacy.
+Sequential composition: Running k mechanisms on the same dataset, each with ε_i privacy, provides (∑ ε_i)-differential privacy.
 
-Parallel composition: Running mechanisms on disjoint subsets of the dataset provides max(Îµ_i)-differential privacy.
+Parallel composition: Running mechanisms on disjoint subsets of the dataset provides max(ε_i)-differential privacy.
 
 ### 3.4 Applications in 01s Sovereign
 
@@ -189,7 +189,7 @@ The OS's privacy architecture supports GDPR compliance for:
 The architecture also supports:
 
 - California Consumer Privacy Act (CCPA)
-- Brazil's Lei Geral de ProteÃ§Ã£o de Dados (LGPD)
+- Brazil's Lei Geral de Proteção de Dados (LGPD)
 - Japan's Act on Protection of Personal Information
 - India's Digital Personal Data Protection Act
 
@@ -332,10 +332,10 @@ Deploying cryptographic audit at the OS level requires:
 5. Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." CRYPTO, 1992.
 6. Ferguson, Niels, et al. Cryptography Engineering. Wiley, 2010.
 7. Goodman, Seymour, and Herbert Lin. "Software Transparency." Communications of the ACM, vol. 65, no. 3, 2022, pp. 40-42.
-8. Johansen, Håvard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
+8. Johansen, H�vard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
 9. Kelsey, John, et al. "Cryptographic Standards in the Post-Quantum Era." NIST IR 8413, 2022.
 10. Lamport, Leslie. "The Part-Time Parliament." ACM Transactions on Computer Systems, vol. 16, no. 2, 1998, pp. 133-169.
-11. Maillet, Sébastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
+11. Maillet, S�bastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
 12. Paar, Christof, and Jan Pelzl. Understanding Cryptography. Springer, 2010.
 13. Rescorla, Eric. SSL and TLS: Designing and Building Secure Systems. Addison-Wesley, 2001.
 14. Schneier, Bruce. "Security in the Age of AI." Schneier on Security, 2023.
@@ -418,7 +418,7 @@ This analysis demonstrates that the cryptographic audit infrastructure in 01s So
 9. Stallings, William. Cryptography and Network Security: Principles and Practice. 7th ed., Pearson, 2017.
 10. Goldreich, Oded. Foundations of Cryptography: Basic Tools. Cambridge University Press, 2001.
 11. Cramer, Ronald, et al. "Design and Analysis of Cryptographic Protocols." Springer, 2020.
-12. Damgård, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
+12. Damg�rd, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
 13. Dziembowski, Stefan, et al. "Introduction to Modern Cryptography." University of Warsaw, 2021.
 14. Gentry, Craig. "A Fully Homomorphic Encryption Scheme." Stanford PhD Thesis, 2009.
 15. Bellare, Mihir, and Phillip Rogaway. "Introduction to Modern Cryptography." UCSD, 2005.
@@ -469,7 +469,7 @@ This research employed a multi-method approach combining: (1) a systematic liter
 The literature review followed PRISMA guidelines. Database searches were conducted on ACM Digital Library, IEEE Xplore, USENIX, IACR ePrint, arXiv, and Google Scholar using query strings combining topic-specific terms (e.g., "hash chain integrity," "tamper-evident logging") with "operating system," "audit," and "transparency." Initial searches yielded 847 unique results. After title/abstract screening, 312 papers proceeded to full-text review. A final corpus of 89 papers were included in the synthesis based on relevance to desktop OS auditability.
 
 ### Empirical Measurement Methodology
-All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Â±2% accuracy, sampled every second over a 30-minute measurement period.
+All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with ±2% accuracy, sampled every second over a 30-minute measurement period.
 
 ## Comparison with Related Work
 
@@ -658,7 +658,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -681,3 +681,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

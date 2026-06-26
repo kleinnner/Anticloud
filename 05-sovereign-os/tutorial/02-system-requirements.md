@@ -1,4 +1,4 @@
-﻿# System Requirements
+# System Requirements
 
 01s Sovereign (Kaiman) is designed to run on a wide range of x86_64 hardware. Below are the minimum and recommended specifications for a smooth experience.
 
@@ -191,11 +191,11 @@ Set-VMFirmware -VMName "01s-Sovereign" -EnableSecureBoot Off
 For a standard installation:
 
 ```
-Partition 1: /boot/efi â€” 512 MB â€” EFI System Partition (FAT32)
-Partition 2: /boot â€” 1 GB â€” ext4 (optional, for kernels)
-Partition 3: / â€” 30-50 GB â€” ext4 or Btrfs
-Partition 4: /home â€” Remainder â€” ext4 or Btrfs
-Partition 5: swap â€” 2-8 GB â€” swap (optional, or use swapfile/zram)
+Partition 1: /boot/efi — 512 MB — EFI System Partition (FAT32)
+Partition 2: /boot — 1 GB — ext4 (optional, for kernels)
+Partition 3: / — 30-50 GB — ext4 or Btrfs
+Partition 4: /home — Remainder — ext4 or Btrfs
+Partition 5: swap — 2-8 GB — swap (optional, or use swapfile/zram)
 ```
 
 ### Alternative Partition Layouts
@@ -218,8 +218,8 @@ swap    : 8 GB (swapfile on Btrfs)
 
 **Dual-boot with Windows:**
 ```
-Windows C:  â€” Existing Windows partition (NTFS)
-/boot/efi:  â€” Shared EFI partition (already exists)
+Windows C:  — Existing Windows partition (NTFS)
+/boot/efi:  — Shared EFI partition (already exists)
 /       : 30+ GB (ext4)
 /home   : 50+ GB (ext4)
 swap    : 4 GB (or swapfile)
@@ -425,16 +425,16 @@ Then compare the output against the minimum and recommended requirements above.
 
 ## Further Reading
 
-- [Downloading the ISO](03-downloading-the-iso.md) â€” Where to get the installation image
-- [Creating Bootable Media](04-creating-bootable-media.md) â€” USB/DVD preparation
-- [First Boot Walkthrough](05-first-boot-walkthrough.md) â€” Initial system startup
-- [Installation Guide](06-installation-guide.md) â€” Full installation procedure
-- [QEMU Testing Guide](22-qemu-testing.md) â€” Virtual machine setup
-- [Performance Tuning](24-performance-tuning.md) â€” Hardware optimization
-- [Performance FAQ](../faq/09-performance-faq.md) â€” Common performance issues
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Solving boot problems
-- [Enterprise Deployment](../enterprise/02-deployment-models.md) â€” Production deployment
-- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) â€” Desktop issues
+- [Downloading the ISO](03-downloading-the-iso.md) — Where to get the installation image
+- [Creating Bootable Media](04-creating-bootable-media.md) — USB/DVD preparation
+- [First Boot Walkthrough](05-first-boot-walkthrough.md) — Initial system startup
+- [Installation Guide](06-installation-guide.md) — Full installation procedure
+- [QEMU Testing Guide](22-qemu-testing.md) — Virtual machine setup
+- [Performance Tuning](24-performance-tuning.md) — Hardware optimization
+- [Performance FAQ](../faq/09-performance-faq.md) — Common performance issues
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Solving boot problems
+- [Enterprise Deployment](../enterprise/02-deployment-models.md) — Production deployment
+- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) — Desktop issues
 
 ## Storage Allocation Guide
 
@@ -659,7 +659,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -682,3 +682,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Auditability
@@ -15,7 +15,7 @@
 
 Source code transparency and build reproducibility are necessary but not sufficient for trust. Third-party audits provide independent verification that Kazkade's claims about security, privacy, and correctness are accurate. Kazkade's auditability infrastructure makes every audit **verifiable, signed, and transparent**.
 
-> "The auditor's job is not to find bugs. The auditor's job is to build confidence." — Kazkade Audit Philosophy
+> "The auditor's job is not to find bugs. The auditor's job is to build confidence." � Kazkade Audit Philosophy
 
 ---
 
@@ -24,45 +24,45 @@ Source code transparency and build reproducibility are necessary but not suffici
 Kazkade's audit process follows a structured methodology:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    Kazkade Audit Process                     │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Phase 1: Scope Definition                                  │
-│  ┌───────────────────────────────────────────────────────┐   │
-│  │ 1. Select audit target (component, version, scope)    │   │
-│  │ 2. Define threat model and attack surface             │   │
-│  │ 3. Publish audit RFP                                  │   │
-│  │ 4. Select independent auditor                         │   │
-│  └───────────────────────────────────────────────────────┘   │
-│                                                             │
-│  Phase 2: Audit Execution                                   │
-│  ┌───────────────────────────────────────────────────────┐   │
-│  │ 1. Source code review (manual + automated)             │   │
-│  │ 2. Binary verification against source                  │   │
-│  │ 3. Cryptographic primitive verification               │   │
-│  │ 4. Fuzz testing + property-based testing              │   │
-│  │ 5. Side-channel analysis                               │   │
-│  │ 6. Supply chain review                                 │   │
-│  └───────────────────────────────────────────────────────┘   │
-│                                                             │
-│  Phase 3: Report Generation                                 │
-│  ┌───────────────────────────────────────────────────────┐   │
-│  │ 1. Comprehensive audit report                          │   │
-│  │ 2. Findings classification (Critical/High/Med/Low)    │   │
-│  │ 3. Remediation recommendations                         │   │
-│  │ 4. Report signed with auditor's key                    │   │
-│  └───────────────────────────────────────────────────────┘   │
-│                                                             │
-│  Phase 4: Publication                                       │
-│  ┌───────────────────────────────────────────────────────┐   │
-│  │ 1. Audit report published in repository               │   │
-│  │ 2. Signed with Kazkade's key for authenticity         │   │
-│  │ 3. Recorded in .aioss ledger                          │   │
-│  │ 4. Independent verification instructions published    │   │
-│  └───────────────────────────────────────────────────────┘   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+�                    Kazkade Audit Process                     �
++-------------------------------------------------------------�
+�                                                             �
+�  Phase 1: Scope Definition                                  �
+�  +-------------------------------------------------------+   �
+�  � 1. Select audit target (component, version, scope)    �   �
+�  � 2. Define threat model and attack surface             �   �
+�  � 3. Publish audit RFP                                  �   �
+�  � 4. Select independent auditor                         �   �
+�  +-------------------------------------------------------+   �
+�                                                             �
+�  Phase 2: Audit Execution                                   �
+�  +-------------------------------------------------------+   �
+�  � 1. Source code review (manual + automated)             �   �
+�  � 2. Binary verification against source                  �   �
+�  � 3. Cryptographic primitive verification               �   �
+�  � 4. Fuzz testing + property-based testing              �   �
+�  � 5. Side-channel analysis                               �   �
+�  � 6. Supply chain review                                 �   �
+�  +-------------------------------------------------------+   �
+�                                                             �
+�  Phase 3: Report Generation                                 �
+�  +-------------------------------------------------------+   �
+�  � 1. Comprehensive audit report                          �   �
+�  � 2. Findings classification (Critical/High/Med/Low)    �   �
+�  � 3. Remediation recommendations                         �   �
+�  � 4. Report signed with auditor's key                    �   �
+�  +-------------------------------------------------------+   �
+�                                                             �
+�  Phase 4: Publication                                       �
+�  +-------------------------------------------------------+   �
+�  � 1. Audit report published in repository               �   �
+�  � 2. Signed with Kazkade's key for authenticity         �   �
+�  � 3. Recorded in .aioss ledger                          �   �
+�  � 4. Independent verification instructions published    �   �
+�  +-------------------------------------------------------+   �
+�                                                             �
++-------------------------------------------------------------+
 ```
 
 ---
@@ -89,11 +89,11 @@ Kazkade conducts scheduled audits for each major component:
 
 Audits may also be triggered by:
 
-1. **CVE discovery** in a dependency — Immediate audit of affected code paths
-2. **Security vulnerability report** — Targeted audit of reported issue
-3. **Major refactor** — Audit of the refactored component
-4. **Regulatory requirement** — Compliance audit for specific regulations
-5. **Community request** — If >5 community members request, audit is initiated
+1. **CVE discovery** in a dependency � Immediate audit of affected code paths
+2. **Security vulnerability report** � Targeted audit of reported issue
+3. **Major refactor** � Audit of the refactored component
+4. **Regulatory requirement** � Compliance audit for specific regulations
+5. **Community request** � If >5 community members request, audit is initiated
 
 ---
 
@@ -207,15 +207,15 @@ $ kazkade verify --audit --report-id 2026-q1-crypto
 $ kazkade verify --audit --list
 
 Audit Reports:
-┌─────────────────┬──────────────────┬──────────┬──────────┐
-│ Report ID       │ Auditor          │ Component│ Status   │
-├─────────────────┼──────────────────┼──────────┼──────────┤
-│ 2026-q1-crypto  │ Trail of Bits    │ crypto   │ Verified │
-│ 2025-q4-ledger  │ NCC Group        │ ledger   │ Verified │
-│ 2025-q4-memory  │ Trail of Bits    │ mmap     │ Verified │
-│ 2025-q3-simd    │ IncludeSecurity  │ simd     │ Verified │
-│ 2025-q2-codec   │ Radically Open   │ codec    │ Verified │
-└─────────────────┴──────────────────┴──────────┴──────────┘
++----------------------------------------------------------+
+� Report ID       � Auditor          � Component� Status   �
++-----------------+------------------+----------+----------�
+� 2026-q1-crypto  � Trail of Bits    � crypto   � Verified �
+� 2025-q4-ledger  � NCC Group        � ledger   � Verified �
+� 2025-q4-memory  � Trail of Bits    � mmap     � Verified �
+� 2025-q3-simd    � IncludeSecurity  � simd     � Verified �
+� 2025-q2-codec   � Radically Open   � codec    � Verified �
++----------------------------------------------------------+
 ```
 
 ### Verification Steps
@@ -233,7 +233,7 @@ a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b  report.pdf
 # Step 2: Verify against ledger
 $ kazkade ledger query --label "audit:2026-q1-crypto" --field report_hash
 a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b
-# Match: ✓
+# Match: ?
 
 # Step 3: Verify auditor signature
 $ gpg --verify report.pdf.sig report.pdf
@@ -243,7 +243,7 @@ gpg: Good signature from "Trail of Bits Security <audits@trailofbits.com>"
 
 # Step 4: Verify component version
 $ kazkade verify --source --commit a1b2c3d4
-Source verified at commit a1b2c3d4: ✓
+Source verified at commit a1b2c3d4: ?
 ```
 
 ---
@@ -265,7 +265,7 @@ Cargo audit     0           0           0       0      0
 Semgrep         2           0           0       1      1
 CodeQL          1           0           0       0      1
 SonarQube       3           0           0       0      3
-─────────────────────────────────────────────────────────
+---------------------------------------------------------
 Total           6           0           0       1      5
 ```
 
@@ -315,15 +315,15 @@ When an audit identifies findings, they are tracked transparently:
 $ kazkade audit --findings
 
 Open Findings:
-┌──────────┬──────────┬──────────────────────┬──────────┬──────────┐
-│ ID       │ Severity │ Description          │ Component│ Status   │
-├──────────┼──────────┼──────────────────────┼──────────┼──────────┤
-│ AUD-001  │ Medium   │ SHA3-256 buffer edge │ crypto   │ Fixed    │
-│ AUD-002  │ Medium   │ Ed25519 scalar clamp │ crypto   │ Fixed    │
-│ AUD-003  │ Low      │ Unused variable      │ crypto   │ Fixed    │
-│ AUD-004  │ Low      │ Missing overflow ck  │ ledger   │ In Review│
-│ AUD-005  │ Low      │ Unchecked return val │ mmap     │ Triaged  │
-└──────────┴──────────┴──────────────────────┴──────────┴──────────┘
++------------------------------------------------------------------+
+� ID       � Severity � Description          � Component� Status   �
++----------+----------+----------------------+----------+----------�
+� AUD-001  � Medium   � SHA3-256 buffer edge � crypto   � Fixed    �
+� AUD-002  � Medium   � Ed25519 scalar clamp � crypto   � Fixed    �
+� AUD-003  � Low      � Unused variable      � crypto   � Fixed    �
+� AUD-004  � Low      � Missing overflow ck  � ledger   � In Review�
+� AUD-005  � Low      � Unchecked return val � mmap     � Triaged  �
++------------------------------------------------------------------+
 
 # View detailed finding
 $ kazkade audit --finding AUD-001
@@ -396,21 +396,21 @@ Kazkade runs a public bug bounty program:
 The Kazkade dashboard includes an auditability section:
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│  Auditability Dashboard                                   │
-├──────────────────────────────────────────────────────────┤
-│                                                          │
-│  Last Manual Audit: 2026-03-15 (Trail of Bits)           │
-│  Next Auto-Audit:    2026-06-21 (scheduled)              │
-│  Open Findings:      2 (Medium: 0, Low: 2)              │
-│  Mean Time to Fix:   4.2 days                            │
-│  Coverage:           Static analysis: 100% of codebase   │
-│                      Fuzz targets: 12/12 active         │
-│                      Property tests: 48/48 passing       │
-│                                                          │
-│  Audit Reports Available: 5                              │
-│  [Download All] [Verify All] [Compare]                   │
-└──────────────────────────────────────────────────────────┘
++----------------------------------------------------------+
+�  Auditability Dashboard                                   �
++----------------------------------------------------------�
+�                                                          �
+�  Last Manual Audit: 2026-03-15 (Trail of Bits)           �
+�  Next Auto-Audit:    2026-06-21 (scheduled)              �
+�  Open Findings:      2 (Medium: 0, Low: 2)              �
+�  Mean Time to Fix:   4.2 days                            �
+�  Coverage:           Static analysis: 100% of codebase   �
+�                      Fuzz targets: 12/12 active         �
+�                      Property tests: 48/48 passing       �
+�                                                          �
+�  Audit Reports Available: 5                              �
+�  [Download All] [Verify All] [Compare]                   �
++----------------------------------------------------------+
 ```
 
 ---
@@ -435,16 +435,16 @@ Audit Readiness Report
 Generated: 2026-06-19
 Commit:    a1b2c3d4e5f6
 
-✅ Source code available
-✅ Build reproducible
-✅ Dependencies documented
-✅ Lockfile committed
-✅ CI/CD pipeline defined
-✅ Security scanning active
-✅ Fuzz testing running
-✅ Test coverage >85%
-✅ Documentation current
-✅ Incident response plan documented
+? Source code available
+? Build reproducible
+? Dependencies documented
+? Lockfile committed
+? CI/CD pipeline defined
+? Security scanning active
+? Fuzz testing running
+? Test coverage >85%
+? Documentation current
+? Incident response plan documented
 
 Score: 95/100
 ```
@@ -454,20 +454,20 @@ Score: 95/100
 ## Auditor Testimonials
 
 > "Kazkade's commitment to transparency is exceptional. The entire codebase is well-documented, the build process is reproducible, and the team responded to our findings within 48 hours. This is how open-source security should work."
-> — *Trail of Bits, 2026*
+> � *Trail of Bits, 2026*
 
 > "We were able to independently verify every claim Kazkade makes about their cryptographic primitives. The SHA3-256 and Ed25519 implementations match the specifications exactly, and the test coverage provides high confidence."
-> — *NCC Group, 2025*
+> � *NCC Group, 2025*
 
 ---
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Full source availability
-- [Build Reproducibility](./build-reproducibility.md) — Verifiable builds
-- [Verifiable Binaries](./verifiable-binaries.md) — Binary verification
-- [Open Core Model](./open-core-model.md) — Feature transparency
-- [Community Code Review](./community-code-review.md) — Peer review process
+- [Source Code Transparency](./source-code-transparency.md) � Full source availability
+- [Build Reproducibility](./build-reproducibility.md) � Verifiable builds
+- [Verifiable Binaries](./verifiable-binaries.md) � Binary verification
+- [Open Core Model](./open-core-model.md) � Feature transparency
+- [Community Code Review](./community-code-review.md) � Peer review process
 
 ---
 
@@ -492,7 +492,7 @@ kazkade audit --findings --status open
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -503,7 +503,7 @@ kazkade audit --findings --status open
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -526,3 +526,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

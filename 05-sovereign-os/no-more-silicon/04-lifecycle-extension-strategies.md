@@ -1,4 +1,4 @@
-﻿# Lifecycle Extension Strategies: Keeping Hardware in Service Longer with the 01s Sovereign OS
+# Lifecycle Extension Strategies: Keeping Hardware in Service Longer with the 01s Sovereign OS
 
 ## Abstract
 
@@ -342,8 +342,8 @@ pie title 10-Year Cost Savings (01s vs 3-Year Refresh)
 
 | Tier | Systems | Age | OS | Refresh Cycle |
 |------|---------|-----|----|---------------|
-| 1 (Developers) | 500 | 0-3 years | 01s | 3 years → Tier 2 |
-| 2 (Office) | 2,000 | 3-6 years | 01s | 3 years → Tier 3 |
+| 1 (Developers) | 500 | 0-3 years | 01s | 3 years ? Tier 2 |
+| 2 (Office) | 2,000 | 3-6 years | 01s | 3 years ? Tier 3 |
 | 3 (Kiosks) | 500 | 6-9 years | 01s | Replace at 9 years |
 
 **Financial Impact**:
@@ -530,7 +530,7 @@ for device in $(cat /etc/01s/extended-life-devices.txt); do
     
     # Alert if issues detected
     if [ "$DISK_HEALTH" != "PASSED" ]; then
-        echo "⚠️ DISK ISSUE: $device - $DISK_HEALTH"
+        echo "?? DISK ISSUE: $device - $DISK_HEALTH"
     fi
 done
 
@@ -646,7 +646,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -669,3 +669,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

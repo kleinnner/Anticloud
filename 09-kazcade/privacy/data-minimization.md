@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Data Minimization
@@ -15,7 +15,7 @@
 
 Data minimization is a core Kazkade design principle. The system collects the absolute minimum data required for operation, discards it when no longer needed, and gives users complete control over retention.
 
-> "The best data to protect is the data you never collected." — Kazkade Data Minimization Philosophy
+> "The best data to protect is the data you never collected." � Kazkade Data Minimization Philosophy
 
 ---
 
@@ -23,16 +23,16 @@ Data minimization is a core Kazkade design principle. The system collects the ab
 
 | Data Type | Stored? | Purpose | Retention |
 |-----------|---------|---------|-----------|
-| .acol database files | ✓ User data | User's data | User-controlled |
-| .aioss ledger | ✓ Local copy | Audit trail | User-controlled |
-| Crash dumps | ✓ Local (if crash) | Debugging | 30 days (auto-deleted) |
-| Logs | ✓ Local | Debugging | 7 days (auto-rotated) |
-| Configuration | ✓ Local | User preferences | Permanent |
-| Cache files | ✓ Local (if caching) | Performance | Configurable |
-| Telemetry | ✗ Never | — | N/A |
-| Usage statistics | ✗ Never | — | N/A |
-| User profiles | ✗ Never | — | N/A |
-| Behavioral data | ✗ Never | — | N/A |
+| .acol database files | ? User data | User's data | User-controlled |
+| .aioss ledger | ? Local copy | Audit trail | User-controlled |
+| Crash dumps | ? Local (if crash) | Debugging | 30 days (auto-deleted) |
+| Logs | ? Local | Debugging | 7 days (auto-rotated) |
+| Configuration | ? Local | User preferences | Permanent |
+| Cache files | ? Local (if caching) | Performance | Configurable |
+| Telemetry | ? Never | � | N/A |
+| Usage statistics | ? Never | � | N/A |
+| User profiles | ? Never | � | N/A |
+| Behavioral data | ? Never | � | N/A |
 
 ---
 
@@ -141,8 +141,8 @@ WARNING: This will delete ALL local data including:
   Continue? [y/N]: y
 
   Deleting...
-  ✓ All local data deleted
-  ✓ Cryptographic verification: deletion confirmed
+  ? All local data deleted
+  ? Cryptographic verification: deletion confirmed
 ```
 
 ---
@@ -154,27 +154,27 @@ $ kazkade dashboard --storage
 ```
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│  Storage Usage                                              │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│  Data by Category:                                         │
-│  ┌──────────────────┬──────────┬──────────┬──────────────┐ │
-│  │ Category         │ Size     │ Retention│ Auto-Deletion│ │
-│  ├──────────────────┼──────────┼──────────┼──────────────┤ │
-│  │ .acol databases  │ 42.3 GB  │ Forever  │ Manual       │ │
-│  │ .aioss ledger    │ 2.1 GB   │ Forever  │ Manual       │ │
-│  │ Logs             │ 156 MB   │ 7 days   │ Auto         │ │
-│  │ Crash dumps      │ 89 MB    │ 30 days  │ Auto         │ │
-│  │ Cache            │ 234 MB   │ 7 days   │ Auto         │ │
-│  │ Configuration    │ 12 KB    │ Forever  │ Manual       │ │
-│  ├──────────────────┼──────────┼──────────┼──────────────┤ │
-│  │ Total            │ 44.9 GB  │ —        │ —            │ │
-│  └──────────────────┴──────────┴──────────┴──────────────┘ │
-│                                                            │
-│  [Clean Now] [Set Retention] [Export All] [Delete All]     │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
++------------------------------------------------------------+
+�  Storage Usage                                              �
++------------------------------------------------------------�
+�                                                            �
+�  Data by Category:                                         �
+�  +-------------------------------------------------------+ �
+�  � Category         � Size     � Retention� Auto-Deletion� �
+�  +------------------+----------+----------+--------------� �
+�  � .acol databases  � 42.3 GB  � Forever  � Manual       � �
+�  � .aioss ledger    � 2.1 GB   � Forever  � Manual       � �
+�  � Logs             � 156 MB   � 7 days   � Auto         � �
+�  � Crash dumps      � 89 MB    � 30 days  � Auto         � �
+�  � Cache            � 234 MB   � 7 days   � Auto         � �
+�  � Configuration    � 12 KB    � Forever  � Manual       � �
+�  +------------------+----------+----------+--------------� �
+�  � Total            � 44.9 GB  � �        � �            � �
+�  +-------------------------------------------------------+ �
+�                                                            �
+�  [Clean Now] [Set Retention] [Export All] [Delete All]     �
+�                                                            �
++------------------------------------------------------------+
 ```
 
 ---
@@ -186,14 +186,14 @@ $ kazkade dashboard --storage
 $ kazkade daemon status
 
 Background Tasks:
-┌──────────────────┬──────────┬──────────┬──────────┐
-│ Task             │ Schedule │ Last Run │ Next Run │
-├──────────────────┼──────────┼──────────┼──────────┤
-│ Log rotation     │ Hourly   │ 12:00    │ 13:00    │
-│ Cache cleanup    │ Daily    │ 02:00    │ 02:00 (+1)│
-│ Crash dump purge │ Daily    │ 02:00    │ 02:00 (+1)│
-│ Retention check  │ Weekly   │ Sun 03:00│ Sun 03:00│
-└──────────────────┴──────────┴──────────┴──────────┘
++---------------------------------------------------+
+� Task             � Schedule � Last Run � Next Run �
++------------------+----------+----------+----------�
+� Log rotation     � Hourly   � 12:00    � 13:00    �
+� Cache cleanup    � Daily    � 02:00    � 02:00 (+1)�
+� Crash dump purge � Daily    � 02:00    � 02:00 (+1)�
+� Retention check  � Weekly   � Sun 03:00� Sun 03:00�
++---------------------------------------------------+
 ```
 
 ---
@@ -245,10 +245,10 @@ Result: PASS - Data minimization principles satisfied
 
 ## Related Documentation
 
-- [Data Collection Policy](./data-collection-policy.md) — What is collected
-- [Privacy by Design](./privacy-by-design.md) — Architecture principles
-- [Local-First Architecture](./local-first-architecture.md) — Processing locus
-- [Privacy Compliance](./privacy-compliance.md) — Regulatory requirements
+- [Data Collection Policy](./data-collection-policy.md) � What is collected
+- [Privacy by Design](./privacy-by-design.md) � Architecture principles
+- [Local-First Architecture](./local-first-architecture.md) � Processing locus
+- [Privacy Compliance](./privacy-compliance.md) � Regulatory requirements
 
 ---
 
@@ -277,7 +277,7 @@ kazkade self-test --data-minimization
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -288,7 +288,7 @@ kazkade self-test --data-minimization
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -311,3 +311,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — BDR DOCUMENTATION                 ║
-║                   BDR-004: FRONTEND FRAMEWORK (TAURI)           ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � BDR DOCUMENTATION                 �
+�                   BDR-004: FRONTEND FRAMEWORK (TAURI)           �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -18,8 +18,8 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 | **Status** | Approved |
 | **Author** | Lois-Kleinner Engineering |
 | **Date** | 2026-06-19 |
-| **Supersedes** | — |
-| **Deprecated By** | — |
+| **Supersedes** | � |
+| **Deprecated By** | � |
 
 ---
 
@@ -125,24 +125,24 @@ graph TB
 
 ```
 Frontend:
-├── React 19
-├── TypeScript 5.5+
-├── Zustand (state management)
-├── React Router 7
-├── TailwindCSS (styling)
-├── Radix UI (components)
-├── React Query (server state)
-├── React Markdown (rendering)
-├── Mermaid (diagrams)
-└── Vitest (testing)
++-- React 19
++-- TypeScript 5.5+
++-- Zustand (state management)
++-- React Router 7
++-- TailwindCSS (styling)
++-- Radix UI (components)
++-- React Query (server state)
++-- React Markdown (rendering)
++-- Mermaid (diagrams)
++-- Vitest (testing)
 
 Tauri Core:
-├── tauri 2.0
-├── tauri-plugin-shell
-├── tauri-plugin-fs
-├── tauri-plugin-dialog
-├── tauri-plugin-updater
-└── tauri-plugin-notification
++-- tauri 2.0
++-- tauri-plugin-shell
++-- tauri-plugin-fs
++-- tauri-plugin-dialog
++-- tauri-plugin-updater
++-- tauri-plugin-notification
 ```
 
 ---
@@ -578,7 +578,7 @@ export function ProofViewer({ proofHash, entries }: ProofViewerProps) {
                     {entries.map((entry, i) => (
                         <div key={i} className="text-xs text-muted-foreground">
                             <span className="font-medium">{entry.moduleName}</span>
-                            {' → '}
+                            {' ? '}
                             {new Date(entry.timestamp / 1_000_000).toLocaleString()}
                         </div>
                     ))}
@@ -596,14 +596,14 @@ export function ProofViewer({ proofHash, entries }: ProofViewerProps) {
 ### Route Structure
 
 ```
-/                   → Chat (default view)
-/playground         → Interactive playground
-/documents          → RAG document management
-/modules            → Module registry browser
-/ledger             → Ledger viewer & verification
-/analytics          → Usage analytics dashboard
-/settings           → Application settings
-/admin              → Admin panel (if applicable)
+/                   ? Chat (default view)
+/playground         ? Interactive playground
+/documents          ? RAG document management
+/modules            ? Module registry browser
+/ledger             ? Ledger viewer & verification
+/analytics          ? Usage analytics dashboard
+/settings           ? Application settings
+/admin              ? Admin panel (if applicable)
 ```
 
 ### Navigation Layout
@@ -827,7 +827,7 @@ npm run tauri build --target aarch64-apple-darwin
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -838,7 +838,7 @@ npm run tauri build --target aarch64-apple-darwin
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -861,3 +861,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

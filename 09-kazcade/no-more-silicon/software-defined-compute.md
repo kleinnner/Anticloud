@@ -1,21 +1,21 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Software-Defined Compute
 
 ## Replacing Hardware Accelerators with Optimized Software SIMD
 
-The computing industry has spent two decades chasing hardware specialization. GPUs, TPUs, NPUs, FPGAs — each requiring dedicated silicon, specialized programming models, and costly hardware refresh cycles. Kazkade takes a different approach: **software-defined compute** that extracts maximum performance from general-purpose CPUs using advanced SIMD (Single Instruction, Multiple Data) techniques.
+The computing industry has spent two decades chasing hardware specialization. GPUs, TPUs, NPUs, FPGAs � each requiring dedicated silicon, specialized programming models, and costly hardware refresh cycles. Kazkade takes a different approach: **software-defined compute** that extracts maximum performance from general-purpose CPUs using advanced SIMD (Single Instruction, Multiple Data) techniques.
 
-> "The most expensive accelerator is the one you have to buy. The cheapest is the one already in your server." — Kazkade Performance Philosophy
+> "The most expensive accelerator is the one you have to buy. The cheapest is the one already in your server." � Kazkade Performance Philosophy
 
 ---
 
@@ -42,22 +42,22 @@ For latency-sensitive workloads, CPUs have a fundamental advantage:
 $ kazkade bench --latency --operation gemm --size 128x128
 
 Kazkade SIMD GEMM Latency Comparison:
-┌────────────────────────┬─────────────┬─────────────┬──────────┐
-│ Implementation         │ Mean (µs)  │ p99 (µs)    │ Variance │
-├────────────────────────┼─────────────┼─────────────┼──────────┤
-│ Kazkade AVX-512 SGEMM │ 12.4        │ 14.2        │ 0.3%     │
-│ Kazkade AVX2 SGEMM     │ 18.7        │ 21.3        │ 0.4%     │
-│ CUDA (RTX 4090)        │ 45.2        │ 128.4       │ 15.2%    │
-│ OpenCL (integrated)    │ 89.3        │ 245.6       │ 22.1%    │
-│ Scalar Rust (std)      │ 342.1       │ 398.2       │ 4.1%     │
-└────────────────────────┴─────────────┴─────────────┴──────────┘
++---------------------------------------------------------------+
+� Implementation         � Mean (�s)  � p99 (�s)    � Variance �
++------------------------+-------------+-------------+----------�
+� Kazkade AVX-512 SGEMM � 12.4        � 14.2        � 0.3%     �
+� Kazkade AVX2 SGEMM     � 18.7        � 21.3        � 0.4%     �
+� CUDA (RTX 4090)        � 45.2        � 128.4       � 15.2%    �
+� OpenCL (integrated)    � 89.3        � 245.6       � 22.1%    �
+� Scalar Rust (std)      � 342.1       � 398.2       � 4.1%     �
++---------------------------------------------------------------+
 ```
 
 For small-to-medium matrix operations (the common case in real-time processing), CPU SIMD beats GPU due to:
-1. **No PCIe transfer latency** — Data is already in CPU memory
-2. **No kernel launch overhead** — Function call vs. GPU launch
-3. **No synchronization barriers** — Thread-level parallelism
-4. **Lower tail latency** — No GPU scheduling jitter
+1. **No PCIe transfer latency** � Data is already in CPU memory
+2. **No kernel launch overhead** � Function call vs. GPU launch
+3. **No synchronization barriers** � Thread-level parallelism
+4. **Lower tail latency** � No GPU scheduling jitter
 
 ---
 
@@ -84,18 +84,18 @@ Kazkade's SIMD dispatch layer supports every major CPU ISA:
 $ kazkade bench --gemm --all-simd
 
 GEMM Performance (C = A * B, float32):
-┌──────────────┬──────────┬────────────┬──────────┬──────────┐
-│ SIMD Path    │ Size     │ GFLOPS     │ BW (GB/s)│ Efficiency│
-├──────────────┼──────────┼────────────┼──────────┼──────────┤
-│ Scalar       │ 1024x1024│ 8.2        │ 12.4     │ 12%      │
-│ SSE4.2       │ 1024x1024│ 34.5       │ 42.1     │ 52%      │
-│ AVX2         │ 1024x1024│ 78.3       │ 68.4     │ 72%      │
-│ AVX-512      │ 1024x1024│ 142.6      │ 89.2     │ 81%      │
-│ AVX-512 VNNI │ 1024x1024│ 189.4      │ 94.1     │ 85%      │
-│ NEON         │ 1024x1024│ 52.1       │ 54.3     │ 68%      │
-│ SVE (256-bit)│ 1024x1024│ 68.4       │ 62.1     │ 74%      │
-│ SVE (512-bit)│ 1024x1024│ 112.3      │ 78.4     │ 80%      │
-└──────────────┴──────────┴────────────┴──────────┴──────────┘
++------------------------------------------------------------+
+� SIMD Path    � Size     � GFLOPS     � BW (GB/s)� Efficiency�
++--------------+----------+------------+----------+----------�
+� Scalar       � 1024x1024� 8.2        � 12.4     � 12%      �
+� SSE4.2       � 1024x1024� 34.5       � 42.1     � 52%      �
+� AVX2         � 1024x1024� 78.3       � 68.4     � 72%      �
+� AVX-512      � 1024x1024� 142.6      � 89.2     � 81%      �
+� AVX-512 VNNI � 1024x1024� 189.4      � 94.1     � 85%      �
+� NEON         � 1024x1024� 52.1       � 54.3     � 68%      �
+� SVE (256-bit)� 1024x1024� 68.4       � 62.1     � 74%      �
+� SVE (512-bit)� 1024x1024� 112.3      � 78.4     � 80%      �
++------------------------------------------------------------+
 ```
 
 ---
@@ -105,29 +105,29 @@ GEMM Performance (C = A * B, float32):
 Kazkade's GEMM (General Matrix Multiply) implementation uses a tiled approach optimized for CPU cache hierarchy:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                  Kazkade Tiled GEMM                           │
-│                                                              │
-│  ┌──────┐  ┌──────┐  ┌──────┐                               │
-│  │ B0   │  │ B1   │  │ B2   │          Tiles in L3           │
-│  └──┬───┘  └──┬───┘  └──┬───┘                               │
-│     │         │         │                                     │
-│  ┌──▼───┐  ┌──▼───┐  ┌──▼───┐                               │
-│  │A0→C00│  │A1→C01│  │A2→C02│       Tiles in L2             │
-│  └──────┘  └──────┘  └──────┘                               │
-│     │         │         │                                     │
-│  ┌──▼───┐  ┌──▼───┐  ┌──▼───┐                               │
-│  │ P00  │  │ P01  │  │ P02  │       Micro-tiles in L1       │
-│  └──────┘  └──────┘  └──────┘                               │
-│     │         │         │                                     │
-│  ┌──▼───┐  ┌──▼───┐  ┌──▼───┐                               │
-│  │ R00  │  │ R01  │  │ R02  │       Register block          │
-│  └──────┘  └──────┘  └──────┘                               │
-│                                                              │
-│  Dimensions: M_TILE=128, N_TILE=128, K_TILE=256              │
-│  Micro-tile: MC=64, NC=16, KC=128                            │
-│  Register block: MR=8, NR=12                                 │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+�                  Kazkade Tiled GEMM                           �
+�                                                              �
+�  +------+  +------+  +------+                               �
+�  � B0   �  � B1   �  � B2   �          Tiles in L3           �
+�  +------+  +------+  +------+                               �
+�     �         �         �                                     �
+�  +--?---+  +--?---+  +--?---+                               �
+�  �A0?C00�  �A1?C01�  �A2?C02�       Tiles in L2             �
+�  +------+  +------+  +------+                               �
+�     �         �         �                                     �
+�  +--?---+  +--?---+  +--?---+                               �
+�  � P00  �  � P01  �  � P02  �       Micro-tiles in L1       �
+�  +------+  +------+  +------+                               �
+�     �         �         �                                     �
+�  +--?---+  +--?---+  +--?---+                               �
+�  � R00  �  � R01  �  � R02  �       Register block          �
+�  +------+  +------+  +------+                               �
+�                                                              �
+�  Dimensions: M_TILE=128, N_TILE=128, K_TILE=256              �
+�  Micro-tile: MC=64, NC=16, KC=128                            �
+�  Register block: MR=8, NR=12                                 �
++-------------------------------------------------------------+
 ```
 
 ### Cache Hierarchy Optimization
@@ -150,12 +150,12 @@ $ kazkade bench --op gemm --size 4096 --precision float32
 
 Kazkade SGEMM (4096x4096):
   Implementation    GFLOPS    Relative
-  ────────────────────────────────────
+  ------------------------------------
   AVX-512           142.6     17.4x
   AVX2              78.3      9.5x
   SSE4.2            34.5      4.2x
   Scalar            8.2       1.0x
-  ────────────────────────────────────
+  ------------------------------------
   CPU Peak (AVX-512): 176.1 GFLOPS
   Efficiency: 81%
 ```
@@ -167,7 +167,7 @@ $ kazkade bench --op gemm --size 4096 --precision float16
 
 Kazkade HGEMM (4096x4096, float16):
   Implementation    GFLOPS    Relative
-  ────────────────────────────────────
+  ------------------------------------
   AVX-512 VNNI      342.1     41.7x
   AVX2              156.2     19.0x
   SSE4.2            68.4      8.3x
@@ -181,12 +181,12 @@ $ kazkade bench --op conv --input 224x224x3 --kernel 3x3
 
 Kazkade Convolution (224x224x3, 3x3 kernel, 64 filters):
   Implementation    GFLOPS    Relative
-  ────────────────────────────────────
+  ------------------------------------
   AVX-512           89.4      10.9x
   AVX2              52.1      6.4x
   SSE4.2            24.3      3.0x
   Scalar            8.2       1.0x
-  ────────────────────────────────────
+  ------------------------------------
   Equivalent GPU (RTX 4090): 112.3 GFLOPS
   CPU Efficiency: 79.6% of GPU
 ```
@@ -211,16 +211,16 @@ Kazkade Convolution (224x224x3, 3x3 kernel, 64 filters):
 $ kazkade bench --mlp --layers 4,512,256,128,10 --batch 1
 
 MLP Inference Latency (Batch=1):
-┌────────────────────┬──────────┬──────────┬──────────┐
-│ Implementation     │ Latency  │ Throughput│ Power    │
-│                    │ (µs)     │ (inf/s)   │ (W)      │
-├────────────────────┼──────────┼──────────┼──────────┤
-│ Kazkade AVX-512   │ 12.4     │ 80,645   │ 95       │
-│ Kazkade AVX2      │ 18.7     │ 53,476   │ 65       │
-│ TensorRT (RTX4090)│ 45.2     │ 22,124   │ 350      │
-│ ONNX Runtime (CPU)│ 142.3    │ 7,027    │ 85       │
-│ Python (NumPy)    │ 1,234.5  │ 810      │ 65       │
-└────────────────────┴──────────┴──────────┴──────────┘
++-----------------------------------------------------+
+� Implementation     � Latency  � Throughput� Power    �
+�                    � (�s)     � (inf/s)   � (W)      �
++--------------------+----------+----------+----------�
+� Kazkade AVX-512   � 12.4     � 80,645   � 95       �
+� Kazkade AVX2      � 18.7     � 53,476   � 65       �
+� TensorRT (RTX4090)� 45.2     � 22,124   � 350      �
+� ONNX Runtime (CPU)� 142.3    � 7,027    � 85       �
+� Python (NumPy)    � 1,234.5  � 810      � 65       �
++-----------------------------------------------------+
 ```
 
 ---
@@ -228,32 +228,32 @@ MLP Inference Latency (Batch=1):
 ## The Software-Defined Compute Stack
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                    Kazkade Compute Stack                       │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  Application Layer                                           │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ SQL Queries │ MLP Models │ Raster Pipelines │ Codecs   │ │
-│  └────────────────────────┬───────────────────────────────┘ │
-│                           │                                  │
-│  Compute Middleware Layer                                    │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ GEMM │ Convolution │ Activation │ Pooling │ Normalize  │ │
-│  └────────────────────────┬───────────────────────────────┘ │
-│                           │                                  │
-│  SIMD Dispatch Layer                                         │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Runtime CPU Detection → Select best ISA path            │ │
-│  │ AVX-512 ──► AVX2 ──► NEON ──► SVE ──► SSE4.2          │ │
-│  └────────────────────────┬───────────────────────────────┘ │
-│                           │                                  │
-│  Hardware Layer                                              │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ x86 CPU (any) │ ARM CPU (any) │ RISC-V (future)        │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+�                    Kazkade Compute Stack                       �
++--------------------------------------------------------------�
+�                                                              �
+�  Application Layer                                           �
+�  +--------------------------------------------------------+ �
+�  � SQL Queries � MLP Models � Raster Pipelines � Codecs   � �
+�  +--------------------------------------------------------+ �
+�                           �                                  �
+�  Compute Middleware Layer                                    �
+�  +--------------------------------------------------------+ �
+�  � GEMM � Convolution � Activation � Pooling � Normalize  � �
+�  +--------------------------------------------------------+ �
+�                           �                                  �
+�  SIMD Dispatch Layer                                         �
+�  +--------------------------------------------------------+ �
+�  � Runtime CPU Detection ? Select best ISA path            � �
+�  � AVX-512 --? AVX2 --? NEON --? SVE --? SSE4.2          � �
+�  +--------------------------------------------------------+ �
+�                           �                                  �
+�  Hardware Layer                                              �
+�  +--------------------------------------------------------+ �
+�  � x86 CPU (any) � ARM CPU (any) � RISC-V (future)        � �
+�  +--------------------------------------------------------+ �
+�                                                              �
++--------------------------------------------------------------+
 ```
 
 ---
@@ -291,7 +291,7 @@ fn gemm_f32(m: usize, n: usize, k: usize, a: &[f32], b: &[f32], c: &mut [f32]) {
 | Cost Category | GPU-Accelerated System | Kazkade CPU-Only System | Savings |
 |--------------|----------------------|------------------------|---------|
 | Server cost | $25,000 (CPU + GPU) | $8,000 (CPU only) | 68% |
-| Annual power | $4,200 (700W × 24/7) | $1,140 (190W × 24/7) | 73% |
+| Annual power | $4,200 (700W � 24/7) | $1,140 (190W � 24/7) | 73% |
 | Cooling | $1,500 | $400 | 73% |
 | Software licenses | $2,000 (CUDA licenses) | $0 (open source) | 100% |
 | Maintenance | $1,500 | $500 | 67% |
@@ -305,19 +305,19 @@ fn gemm_f32(m: usize, n: usize, k: usize, a: &[f32], b: &[f32], c: &mut [f32]) {
 $ kazkade bench --gemm --scale --sizes 16,32,64,128,256,512,1024,2048,4096
 
 GEMM Performance Scaling (AVX-512, float32):
-┌──────────┬──────────┬────────────┬──────────┬──────────┐
-│ Size     │ GFLOPS   │ L1 Fit     │ L2 Fit   │ L3 Fit   │
-├──────────┼──────────┼────────────┼──────────┼──────────┤
-│ 16       │ 4.2      │ ✓ Yes      │ ✓ Yes    │ ✓ Yes    │
-│ 32       │ 18.7     │ ✓ Yes      │ ✓ Yes    │ ✓ Yes    │
-│ 64       │ 78.3     │ Partial    │ ✓ Yes    │ ✓ Yes    │
-│ 128      │ 124.5    │ ✗ No       │ ✓ Yes    │ ✓ Yes    │
-│ 256      │ 138.2    │ ✗ No       │ Partial  │ ✓ Yes    │
-│ 512      │ 142.6    │ ✗ No       │ ✗ No     │ ✓ Yes    │
-│ 1024     │ 140.1    │ ✗ No       │ ✗ No     │ ✓ Yes    │
-│ 2048     │ 134.8    │ ✗ No       │ ✗ No     │ Partial  │
-│ 4096     │ 128.3    │ ✗ No       │ ✗ No     │ ✗ No     │
-└──────────┴──────────┴────────────┴──────────┴──────────┘
++--------------------------------------------------------+
+� Size     � GFLOPS   � L1 Fit     � L2 Fit   � L3 Fit   �
++----------+----------+------------+----------+----------�
+� 16       � 4.2      � ? Yes      � ? Yes    � ? Yes    �
+� 32       � 18.7     � ? Yes      � ? Yes    � ? Yes    �
+� 64       � 78.3     � Partial    � ? Yes    � ? Yes    �
+� 128      � 124.5    � ? No       � ? Yes    � ? Yes    �
+� 256      � 138.2    � ? No       � Partial  � ? Yes    �
+� 512      � 142.6    � ? No       � ? No     � ? Yes    �
+� 1024     � 140.1    � ? No       � ? No     � ? Yes    �
+� 2048     � 134.8    � ? No       � ? No     � Partial  �
+� 4096     � 128.3    � ? No       � ? No     � ? No     �
++--------------------------------------------------------+
 ```
 
 ---
@@ -326,23 +326,23 @@ GEMM Performance Scaling (AVX-512, float32):
 
 Kazkade's software-defined compute model is extensible to:
 
-1. **Vector databases** — SIMD-accelerated similarity search
-2. **Graph processing** — SIMD-friendly graph traversal
-3. **Signal processing** — FFT, convolution, filtering
-4. **Image processing** — SIMD pixel operations
-5. **Cryptography** — SIMD-accelerated encryption
-6. **Data compression** — SIMD Huffman, ANS coding
-7. **Regular expressions** — SIMD automata execution
-8. **JSON parsing** — SIMD JSON tokenization
+1. **Vector databases** � SIMD-accelerated similarity search
+2. **Graph processing** � SIMD-friendly graph traversal
+3. **Signal processing** � FFT, convolution, filtering
+4. **Image processing** � SIMD pixel operations
+5. **Cryptography** � SIMD-accelerated encryption
+6. **Data compression** � SIMD Huffman, ANS coding
+7. **Regular expressions** � SIMD automata execution
+8. **JSON parsing** � SIMD JSON tokenization
 
 ---
 
 ## Related Documentation
 
-- [CPU Offload Software](./cpu-offload-software.md) — Software rasterizer details
-- [No GPU Required](./no-gpu-required.md) — MLP inference on CPU
-- [Existing Hardware Optimization](./existing-hardware-optimization.md) — Legacy CPU support
-- [Hardware Agnosticism](./hardware-agnosticism.md) — Single binary deployment
+- [CPU Offload Software](./cpu-offload-software.md) � Software rasterizer details
+- [No GPU Required](./no-gpu-required.md) � MLP inference on CPU
+- [Existing Hardware Optimization](./existing-hardware-optimization.md) � Legacy CPU support
+- [Hardware Agnosticism](./hardware-agnosticism.md) � Single binary deployment
 
 ---
 
@@ -367,7 +367,7 @@ kazkade bench --latency --operation gemm --size 128
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -378,7 +378,7 @@ kazkade bench --latency --operation gemm --size 128
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -401,3 +401,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

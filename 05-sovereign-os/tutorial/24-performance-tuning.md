@@ -1,4 +1,4 @@
-﻿# Performance Tuning
+# Performance Tuning
 
 This guide covers optimizing 01s Sovereign for maximum performance.
 
@@ -499,16 +499,16 @@ Once you've completed this guide, move to the next tutorial, practice on a test 
 
 ## Further Reading
 
-- [System Requirements](02-system-requirements.md) â€” Hardware requirements
-- [Post-Installation Setup](07-post-installation-setup.md) â€” Initial tuning
-- [Development Environment](17-development-environment.md) â€” Dev performance
-- [Custom ISO Building](21-building-custom-iso.md) â€” Minimal ISO
-- [Performance FAQ](../faq/09-performance-faq.md) â€” Common questions
-- [Performance Problems](../help/08-performance-problems.md) â€” Issue resolution
-- [Energy Efficiency Benchmarks](../csr/04-energy-efficiency-benchmarks.md) â€” Green computing
-- [Enterprise Cost Analysis](../enterprise/08-cost-analysis.md) â€” Cost implications
-- [Toolchain Optimization Research](../research/09-custom-compiler-and-toolchain-optimization.md) â€” Research
-- [Hardware Lifecycle Extension](../csr/03-extending-hardware-lifecycle.md) â€” Sustainability
+- [System Requirements](02-system-requirements.md) — Hardware requirements
+- [Post-Installation Setup](07-post-installation-setup.md) — Initial tuning
+- [Development Environment](17-development-environment.md) — Dev performance
+- [Custom ISO Building](21-building-custom-iso.md) — Minimal ISO
+- [Performance FAQ](../faq/09-performance-faq.md) — Common questions
+- [Performance Problems](../help/08-performance-problems.md) — Issue resolution
+- [Energy Efficiency Benchmarks](../csr/04-energy-efficiency-benchmarks.md) — Green computing
+- [Enterprise Cost Analysis](../enterprise/08-cost-analysis.md) — Cost implications
+- [Toolchain Optimization Research](../research/09-custom-compiler-and-toolchain-optimization.md) — Research
+- [Hardware Lifecycle Extension](../csr/03-extending-hardware-lifecycle.md) — Sustainability
 
 ## Benchmark Commands
 
@@ -753,7 +753,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -776,3 +776,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

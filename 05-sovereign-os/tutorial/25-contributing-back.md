@@ -1,4 +1,4 @@
-﻿# Contributing Back
+# Contributing Back
 
 This guide covers how to contribute improvements, patches, documentation, and other enhancements back to the 01s Sovereign project.
 
@@ -483,16 +483,16 @@ As a contributor:
 
 ## Further Reading
 
-- [Getting Started as Contributor](../community/02-getting-started-as-contributor.md) â€” Community guide
-- [Community Governance](../community/03-community-governance.md) â€” Decision process
-- [Code of Conduct](../community/06-code-of-conduct.md) â€” Community standards
-- [Communication Channels](../community/04-communication-channels.md) â€” Where to discuss
-- [Community Projects](../community/07-community-projects-and-ecosystem.md) â€” Ecosystem
-- [Recognition and Rewards](../community/09-recognition-and-rewards.md) â€” Contribution rewards
-- [Building from Source](../developers/03-building-from-source.md) â€” Build setup
-- [Testing Framework](../developers/12-testing-framework.md) â€” Testing guide
-- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) â€” CI reference
-- [Contributing Code](../developers/11-contributing-code.md) â€” Code guidelines
+- [Getting Started as Contributor](../community/02-getting-started-as-contributor.md) — Community guide
+- [Community Governance](../community/03-community-governance.md) — Decision process
+- [Code of Conduct](../community/06-code-of-conduct.md) — Community standards
+- [Communication Channels](../community/04-communication-channels.md) — Where to discuss
+- [Community Projects](../community/07-community-projects-and-ecosystem.md) — Ecosystem
+- [Recognition and Rewards](../community/09-recognition-and-rewards.md) — Contribution rewards
+- [Building from Source](../developers/03-building-from-source.md) — Build setup
+- [Testing Framework](../developers/12-testing-framework.md) — Testing guide
+- [CI/CD Pipeline](../developers/18-ci-cd-pipeline-reference.md) — CI reference
+- [Contributing Code](../developers/11-contributing-code.md) — Code guidelines
 
 ## Contribution Workflow
 
@@ -693,7 +693,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -716,3 +716,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

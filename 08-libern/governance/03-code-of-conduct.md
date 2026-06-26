@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: governance | ID: LIB-GOV-003
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Code of Conduct
 
@@ -202,7 +202,7 @@ If you believe an enforcement action was unfair, you may appeal:
 3. The Steering Committee's decision is final
 
 Appeals must be based on procedural errors, new evidence, or disproportionate
-consequences â€” not simply disagreement with the decision.
+consequences — not simply disagreement with the decision.
 
 ## 7. Community Expectations
 
@@ -302,25 +302,25 @@ Restorative justice focuses on repairing harm and restoring community trust:
 
 ```
 Incident Reported
-        â”‚
-        â–¼
+        │
+        ▼
 Investigation
-        â”‚
-        â–¼
+        │
+        ▼
 Violation Confirmed?
-   â”œâ”€â”€ No â†’ Case closed, documented
-   â”‚
-   â””â”€â”€ Yes â†’ Restorative process?
-        â”œâ”€â”€ Yes:
-        â”‚   â”œâ”€â”€ Facilitated conversation between affected parties
-        â”‚   â”œâ”€â”€ Harm acknowledged and understood
-        â”‚   â”œâ”€â”€ Action plan developed
-        â”‚   â”œâ”€â”€ Follow-up schedule established
-        â”‚   â””â”€â”€ Incident documented with outcomes
-        â”‚
-        â””â”€â”€ No (severe/violent/malicious):
-            â”œâ”€â”€ Direct enforcement action (ban)
-            â””â”€â”€ Incident documented
+   ├── No → Case closed, documented
+   │
+   └── Yes → Restorative process?
+        ├── Yes:
+        │   ├── Facilitated conversation between affected parties
+        │   ├── Harm acknowledged and understood
+        │   ├── Action plan developed
+        │   ├── Follow-up schedule established
+        │   └── Incident documented with outcomes
+        │
+        └── No (severe/violent/malicious):
+            ├── Direct enforcement action (ban)
+            └── Incident documented
 ```
 
 ### 18.3 Restorative vs. Punitive Approach
@@ -336,8 +336,8 @@ Violation Confirmed?
 ## 19. Moderation Transparency Report Template
 
 ```
-Libern Moderation Transparency Report â€” QX YYYY
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+Libern Moderation Transparency Report — QX YYYY
+════════════════════════════════════════════════
 
 1. Overview
    Total reports received: [N]
@@ -384,7 +384,7 @@ Libern Moderation Transparency Report â€” QX YYYY
 2. 7-day temporary ban after continued behavior
 3. Requirement to review community guidelines before return
 4. 30-day observation period with moderated posting
-5. Behavior improves â†’ full reinstatement
+5. Behavior improves → full reinstatement
 6. Incident documented for future reference
 
 ### 20.2 Scenario: Good-Faith Mistake
@@ -395,7 +395,7 @@ Libern Moderation Transparency Report â€” QX YYYY
 1. Community member privately explains why the term is problematic
 2. Contributor apologizes and edits their comment
 3. Core Team follows up with educational resources
-4. No formal action needed â€” treated as learning opportunity
+4. No formal action needed — treated as learning opportunity
 5. Contributor becomes an advocate for inclusive language
 
 
@@ -503,7 +503,7 @@ to ensure all necessary information is included:
 
 ```
 Code of Conduct Report
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+══════════════════════
 
 Date of Incident: [Date]
 Time of Incident: [Time (with timezone)]
@@ -534,7 +534,7 @@ Preferred Resolution (optional):
 [What outcome would you like to see?]
 
 Can we share your identity?
-[Yes/No â€” We will not share without your consent.]
+[Yes/No — We will not share without your consent.]
 
 Submitted: [Date]
 ```
@@ -554,7 +554,7 @@ Submitted: [Date]
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -577,3 +577,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

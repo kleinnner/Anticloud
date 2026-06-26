@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # NIST Cybersecurity Framework 2.0
@@ -14,7 +14,7 @@
 **Document ID:** KAZ-COMP-NISTCSF-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Compliance Evidence  
+**Classification:** Internal — Compliance Evidence  
 
 ---
 
@@ -22,12 +22,12 @@
 
 1. Overview
 2. NIST CSF 2.0 Core Functions
-3. Function 1 â€” GOVERN (GV)
-4. Function 2 â€” IDENTIFY (ID)
-5. Function 3 â€” PROTECT (PR)
-6. Function 4 â€” DETECT (DE)
-7. Function 5 â€” RESPOND (RS)
-8. Function 6 â€” RECOVER (RC)
+3. Function 1 — GOVERN (GV)
+4. Function 2 — IDENTIFY (ID)
+5. Function 3 — PROTECT (PR)
+6. Function 4 — DETECT (DE)
+7. Function 5 — RESPOND (RS)
+8. Function 6 — RECOVER (RC)
 9. Implementation Tiers
 10. Profile Alignment
 11. `.aioss` Ledger for CSF Controls
@@ -95,7 +95,7 @@ flowchart TB
 
 ### 2.2 Framework Core Structure
 
-Each function contains categories (e.g., GV.OC â€” Organizational Context) and subcategories (e.g., GV.OC-01 â€” Mission and stakeholder identification). Kazkade provides specific controls mapped to each subcategory.
+Each function contains categories (e.g., GV.OC — Organizational Context) and subcategories (e.g., GV.OC-01 — Mission and stakeholder identification). Kazkade provides specific controls mapped to each subcategory.
 
 ```bash
 # Apply CSF 2.0 framework
@@ -107,9 +107,9 @@ kazkade compliance apply \
 
 ---
 
-## 3. Function 1 â€” GOVERN (GV)
+## 3. Function 1 — GOVERN (GV)
 
-### 3.1 GV.OC â€” Organizational Context
+### 3.1 GV.OC — Organizational Context
 
 ```bash
 # Document organizational mission
@@ -126,7 +126,7 @@ kazkade ledger append \
   --jurisdictions "US,EU,Global"
 ```
 
-### 3.2 GV.RM â€” Risk Management Strategy
+### 3.2 GV.RM — Risk Management Strategy
 
 ```bash
 # Define risk appetite
@@ -137,7 +137,7 @@ kazkade ledger append \
   --risk-policy-id RM-POL-001
 ```
 
-### 3.3 GV.RR â€” Roles, Responsibilities, Authorities
+### 3.3 GV.RR — Roles, Responsibilities, Authorities
 
 ```bash
 # Define cybersecurity roles
@@ -153,7 +153,7 @@ kazkade ledger append \
   --authorities "Risk acceptance, policy approval"
 ```
 
-### 3.4 GV.PO â€” Policy and Oversight
+### 3.4 GV.PO — Policy and Oversight
 
 ```bash
 # Publish cybersecurity policy
@@ -171,7 +171,7 @@ kazkade sox policy-review \
   --next-review $(date -u -d "+1 year" +%Y-%m-%d)
 ```
 
-### 3.5 GV.OV â€” Oversight
+### 3.5 GV.OV — Oversight
 
 ```bash
 # Record board oversight
@@ -187,7 +187,7 @@ kazkade report nist-csf oversight \
   --output oversight-dashboard.pdf
 ```
 
-### 3.6 GV.SC â€” Supply Chain Risk Management
+### 3.6 GV.SC — Supply Chain Risk Management
 
 ```bash
 # Document supply chain
@@ -206,9 +206,9 @@ kazkade version verify \
 
 ---
 
-## 4. Function 2 â€” IDENTIFY (ID)
+## 4. Function 2 — IDENTIFY (ID)
 
-### 4.1 ID.AM â€” Asset Management
+### 4.1 ID.AM — Asset Management
 
 ```mermaid
 flowchart LR
@@ -250,7 +250,7 @@ kazkade ledger append \
   --critical-assets "production.financial,production.payments"
 ```
 
-### 4.2 ID.RA â€” Risk Assessment
+### 4.2 ID.RA — Risk Assessment
 
 ```bash
 # Conduct risk assessment
@@ -269,7 +269,7 @@ kazkade ledger query "
 "
 ```
 
-### 4.3 ID.IM â€” Improvement
+### 4.3 ID.IM — Improvement
 
 ```bash
 # Track improvement opportunities
@@ -283,9 +283,9 @@ kazkade ledger append \
 
 ---
 
-## 5. Function 3 â€” PROTECT (PR)
+## 5. Function 3 — PROTECT (PR)
 
-### 5.1 PR.AA â€” Identity Management, Authentication, Access Control
+### 5.1 PR.AA — Identity Management, Authentication, Access Control
 
 ```mermaid
 flowchart TB
@@ -324,7 +324,7 @@ kazkade acol acl set \
   --permission deny
 ```
 
-### 5.2 PR.DS â€” Data Security
+### 5.2 PR.DS — Data Security
 
 ```bash
 # Encrypt data at rest
@@ -344,7 +344,7 @@ kazkade acol mask \
   --pattern "***@***.{tld}"
 ```
 
-### 5.3 PR.PS â€” Platform Security
+### 5.3 PR.PS — Platform Security
 
 ```bash
 # Harden platform
@@ -356,7 +356,7 @@ kazkade config apply-hardened \
 kazkade config set --section security --key secure_boot --value true
 ```
 
-### 5.4 PR.AT â€” Awareness and Training
+### 5.4 PR.AT — Awareness and Training
 
 ```bash
 # Record training
@@ -368,7 +368,7 @@ kazkade ledger append \
   --completed $(date -u +%Y-%m-%d)
 ```
 
-### 5.5 PR.IR â€” Technology Infrastructure Resilience
+### 5.5 PR.IR — Technology Infrastructure Resilience
 
 ```bash
 # Configure redundancy
@@ -387,9 +387,9 @@ kazkade ledger append \
 
 ---
 
-## 6. Function 4 â€” DETECT (DE)
+## 6. Function 4 — DETECT (DE)
 
-### 6.1 DE.CM â€” Continuous Monitoring
+### 6.1 DE.CM — Continuous Monitoring
 
 ```mermaid
 sequenceDiagram
@@ -424,7 +424,7 @@ kazkade monitor anomaly-config \
   --features "access_frequency,time_of_day,resource_sensitivity"
 ```
 
-### 6.2 DE.AE â€” Adverse Event Analysis
+### 6.2 DE.AE — Adverse Event Analysis
 
 ```sql
 -- Analyze security events for patterns
@@ -439,7 +439,7 @@ ORDER BY count DESC
 LIMIT 20;
 ```
 
-### 6.3 DE.DP â€” Detection Processes
+### 6.3 DE.DP — Detection Processes
 
 ```bash
 # Define detection playbook
@@ -453,9 +453,9 @@ kazkade ledger append \
 
 ---
 
-## 7. Function 5 â€” RESPOND (RS)
+## 7. Function 5 — RESPOND (RS)
 
-### 7.1 RS.MA â€” Incident Management
+### 7.1 RS.MA — Incident Management
 
 ```mermaid
 sequenceDiagram
@@ -491,7 +491,7 @@ kazkade ledger append \
   --timestamp $(date -u +%Y-%m-%dT%H:%M:%SZ)
 ```
 
-### 7.2 RS.CO â€” Communications
+### 7.2 RS.CO — Communications
 
 ```bash
 # Record stakeholder notification
@@ -503,7 +503,7 @@ kazkade ledger append \
   --notification-time $(date -u +%Y-%m-%dT%H:%M:%SZ)
 ```
 
-### 7.3 RS.AN â€” Analysis
+### 7.3 RS.AN — Analysis
 
 ```bash
 # Analyze incident root cause
@@ -517,7 +517,7 @@ kazkade ledger query "
 "
 ```
 
-### 7.4 RS.IM â€” Incident Mitigation
+### 7.4 RS.IM — Incident Mitigation
 
 ```bash
 # Deploy mitigation
@@ -530,9 +530,9 @@ kazkade ledger append \
 
 ---
 
-## 8. Function 6 â€” RECOVER (RC)
+## 8. Function 6 — RECOVER (RC)
 
-### 8.1 RC.RP â€” Recovery Planning
+### 8.1 RC.RP — Recovery Planning
 
 ```bash
 # Document recovery plan
@@ -545,7 +545,7 @@ kazkade ledger append \
   --test-schedule "quarterly"
 ```
 
-### 8.2 RC.IM â€” Incident Recovery Implementation
+### 8.2 RC.IM — Incident Recovery Implementation
 
 ```mermaid
 flowchart LR
@@ -582,7 +582,7 @@ kazkade ledger append \
   --recovery-time "3 hours 22 minutes"
 ```
 
-### 8.3 RC.CO â€” Recovery Communications
+### 8.3 RC.CO — Recovery Communications
 
 ```bash
 # Notify stakeholders of recovery
@@ -879,16 +879,16 @@ kazkade nist-csf maturity-assessment \
 
 ## References
 
-- NIST Cybersecurity Framework 2.0 â€” February 2024 (NIST CSWP 29)
-- NIST SP 800-53 Rev. 5 â€” Security and Privacy Controls
-- NIST SP 800-37 Rev. 2 â€” Risk Management Framework
-- Executive Order 14028 â€” Improving the Nation's Cybersecurity
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- NIST Cybersecurity Framework 2.0 — February 2024 (NIST CSWP 29)
+- NIST SP 800-53 Rev. 5 — Security and Privacy Controls
+- NIST SP 800-37 Rev. 2 — Risk Management Framework
+- Executive Order 14028 — Improving the Nation's Cybersecurity
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -899,7 +899,7 @@ kazkade nist-csf maturity-assessment \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -922,3 +922,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

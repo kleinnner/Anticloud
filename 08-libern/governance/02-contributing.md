@@ -1,25 +1,25 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: governance | ID: LIB-GOV-002
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Contributing to Libern
 
 ## 1. Overview
 
 Welcome to Libern! We are excited that you want to contribute. Libern is a
-community-driven open-source project, and contributions of all kinds â€” code,
-documentation, design, testing, translations, and more â€” are welcome.
+community-driven open-source project, and contributions of all kinds — code,
+documentation, design, testing, translations, and more — are welcome.
 
 This document provides guidelines for contributing to the Libern project.
 Please read it before making your first contribution.
@@ -108,17 +108,17 @@ accepted.
    ```
 
 Branch naming conventions:
-- `fix/` â€” Bug fixes
-- `feature/` â€” New features
-- `docs/` â€” Documentation changes
-- `refactor/` â€” Code refactoring
-- `test/` â€” Test additions or changes
-- `chore/` â€” Maintenance tasks
+- `fix/` — Bug fixes
+- `feature/` — New features
+- `docs/` — Documentation changes
+- `refactor/` — Code refactoring
+- `test/` — Test additions or changes
+- `chore/` — Maintenance tasks
 
 ### 3.3 Step 3: Make Changes
 
 - Write clean, idiomatic code following the project's style
-- Keep changes focused â€” one logical change per pull request
+- Keep changes focused — one logical change per pull request
 - Write or update tests for your changes
 - Update documentation as needed
 - Ensure your changes do not break existing tests
@@ -223,7 +223,7 @@ Your pull request will be reviewed by maintainers:
 - Use `cargo clippy` for linting
 - Write documentation comments (`///`) for public APIs
 - Use meaningful variable and function names
-- Prefer safe Rust â€” use `unsafe` only when absolutely necessary and document
+- Prefer safe Rust — use `unsafe` only when absolutely necessary and document
   why
 
 ### 5.2 TypeScript Style
@@ -239,7 +239,7 @@ Your pull request will be reviewed by maintainers:
 - Keep functions small and focused (one function = one responsibility)
 - Prefer readability over cleverness
 - Use descriptive names over comments
-- Handle errors explicitly â€” avoid unwrap() in production code
+- Handle errors explicitly — avoid unwrap() in production code
 - Test edge cases, not just the happy path
 
 ## 6. Testing Requirements
@@ -403,7 +403,7 @@ Before submitting a pull request, verify:
 - [ ] PR description is complete and references related issues
 
 
-## 16. Contribution Rewards and Recognition â€” Expanded
+## 16. Contribution Rewards and Recognition — Expanded
 
 ### 16.1 Recognition Tiers
 
@@ -423,26 +423,26 @@ Libern participates in:
 - **Grant funding:** Through partner organizations
 - **Paid development:** Enterprise-sponsored features (with community approval)
 
-## 17. Development Workflow â€” Detailed
+## 17. Development Workflow — Detailed
 
 ### 17.1 Feature Branch Workflow
 
 ```
 main branch
-    â”‚
-    â”œâ”€ feature/new-encryption    â† Feature development
-    â”‚     â”‚
-    â”‚     â”œâ”€ Commit 1: Add key exchange module
-    â”‚     â”œâ”€ Commit 2: Implement encryption
-    â”‚     â”œâ”€ Commit 3: Add tests
-    â”‚     â””â”€ Commit 4: Update documentation
-    â”‚     â”‚
-    â”‚     â””â”€ PR â†’ main (squash merge)
-    â”‚
-    â”œâ”€ fix/crdt-convergence-bug  â† Bug fix
-    â”‚     â””â”€ PR â†’ main
-    â”‚
-    â””â”€ release/v1.2.0           â† Release branch
+    │
+    ├─ feature/new-encryption    ← Feature development
+    │     │
+    │     ├─ Commit 1: Add key exchange module
+    │     ├─ Commit 2: Implement encryption
+    │     ├─ Commit 3: Add tests
+    │     └─ Commit 4: Update documentation
+    │     │
+    │     └─ PR → main (squash merge)
+    │
+    ├─ fix/crdt-convergence-bug  ← Bug fix
+    │     └─ PR → main
+    │
+    └─ release/v1.2.0           ← Release branch
 ```
 
 ### 17.2 Commit Message Examples
@@ -498,7 +498,7 @@ Fixes #812
 
 ```
 1. Contributor opens discussion: "I want to add a /translate command"
-2. Core Team responds: "Good idea â€” here are the requirements"
+2. Core Team responds: "Good idea — here are the requirements"
 3. Contributor forks repo and creates branch `feature/translate-command`
 4. Writes code:
    - crates/libern-core/src/ai/pipeline.rs: Add translation pipeline
@@ -528,7 +528,7 @@ Fixes #812
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -551,3 +551,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

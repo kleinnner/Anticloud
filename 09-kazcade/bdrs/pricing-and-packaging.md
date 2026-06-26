@@ -1,15 +1,15 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Pricing & Packaging â€” Kazkade
+# Pricing & Packaging — Kazkade
 
 ## Overview
 
@@ -27,32 +27,32 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 
 | Feature | Community | Team | Enterprise |
 |---------|-----------|------|------------|
-| **Kazcade runtime** | âœ… Latest stable | âœ… Latest stable | âœ… Custom build |
-| **`.aioss` ledger format** | âœ… Read & write | âœ… Read & write | âœ… Read & write |
-| **Benchmark harness** | âœ… All kernels | âœ… All kernels | âœ… Custom kernels |
-| **SQL engine** | âœ… 10 GB file limit | âœ… Unlimited | âœ… Unlimited |
-| **Dashboard** | âœ… Local only | âœ… Local + remote | âœ… Custom deployment |
-| **Public verification** | âœ… Verify any ledger | âœ… Verify any ledger | âœ… Verify any ledger |
-| **Patching** | Community issue tracker | âœ… Priority patches | âœ… 24-hr SLA patches |
-| **Support** | Community Discord | âœ… Email + Slack (4 hr) | âœ… Dedicated engineer |
-| **SLA** | None | âœ… 99.9% uptime for ledger registry | âœ… Custom |
-| **Ledger registry** | Public only | âœ… Private team registry | âœ… Private + on-prem |
-| **Custom kernel dev** | âŒ | âŒ | âœ… |
-| **Training** | âŒ | âœ… 2 sessions/year | âœ… Unlimited |
+| **Kazcade runtime** | ? Latest stable | ? Latest stable | ? Custom build |
+| **`.aioss` ledger format** | ? Read & write | ? Read & write | ? Read & write |
+| **Benchmark harness** | ? All kernels | ? All kernels | ? Custom kernels |
+| **SQL engine** | ? 10 GB file limit | ? Unlimited | ? Unlimited |
+| **Dashboard** | ? Local only | ? Local + remote | ? Custom deployment |
+| **Public verification** | ? Verify any ledger | ? Verify any ledger | ? Verify any ledger |
+| **Patching** | Community issue tracker | ? Priority patches | ? 24-hr SLA patches |
+| **Support** | Community Discord | ? Email + Slack (4 hr) | ? Dedicated engineer |
+| **SLA** | None | ? 99.9% uptime for ledger registry | ? Custom |
+| **Ledger registry** | Public only | ? Private team registry | ? Private + on-prem |
+| **Custom kernel dev** | ? | ? | ? |
+| **Training** | ? | ? 2 sessions/year | ? Unlimited |
 | **License** | Apache 2.0 | Apache 2.0 + commercial terms | Custom commercial |
-| **Audit certification** | âŒ | âœ… SOC 2 Type II report | âœ… Custom audit package |
+| **Audit certification** | ? | ? SOC 2 Type II report | ? Custom audit package |
 
 ---
 
 ## Community (Free)
 
 ### What's Included
-- kazkade runtime â€” all features, no artificial limits on benchmark capability
-- `.aioss` ledger â€” create, append, and verify ledgers
-- SQL engine â€” files up to 10 GB
-- Dashboard â€” local web UI
-- Public ledger registry â€” publish ledgers for anyone to verify
-- Community Discord support â€” best-effort
+- kazkade runtime — all features, no artificial limits on benchmark capability
+- `.aioss` ledger — create, append, and verify ledgers
+- SQL engine — files up to 10 GB
+- Dashboard — local web UI
+- Public ledger registry — publish ledgers for anyone to verify
+- Community Discord support — best-effort
 
 ### What's Not Included
 - No SLA
@@ -66,25 +66,25 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 - Open-source projects integrating Kazkade into CI
 - Students and researchers
 
-**License:** Apache 2.0 â€” use, modify, redistribute freely.
+**License:** Apache 2.0 — use, modify, redistribute freely.
 
 ---
 
 ## Team ($199/node/month)
 
 ### What's Included (Everything in Community, plus:)
-- **Private ledger registry** â€” your team's ledgers, encrypted at rest, role-based access
-- **Priority patches** â€” security fixes within 48 hours
-- **Email + Slack support** â€” 4-hour response during business hours (24/5)
-- **Unlimited SQL** â€” no file size limit
+- **Private ledger registry** — your team's ledgers, encrypted at rest, role-based access
+- **Priority patches** — security fixes within 48 hours
+- **Email + Slack support** — 4-hour response during business hours (24/5)
+- **Unlimited SQL** — no file size limit
 - **SLA:** 99.9% uptime guarantee for ledger registry and package mirror
-- **Remote dashboard** â€” share dashboards with team members
+- **Remote dashboard** — share dashboards with team members
 - **Training:** 2 virtual sessions per year (1 hour each)
 
 ### Booking
 - Annual commitment (monthly billing available at $249/node/month)
 - Minimum 5 nodes
-- Volume discounts: 10+ nodes â†’ $179/node/month; 25+ â†’ $159/node/month; 50+ â†’ $139/node/month
+- Volume discounts: 10+ nodes ? $179/node/month; 25+ ? $159/node/month; 50+ ? $139/node/month
 
 ### Best For
 - Engineering teams running benchmarks in CI
@@ -99,20 +99,20 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 ## Enterprise (Custom)
 
 ### What's Included (Everything in Team, plus:)
-- **Dedicated engineer** â€” named contact, available during your business hours
+- **Dedicated engineer** — named contact, available during your business hours
 - **24-hour SLA** for critical patches (P1: 4 hours)
-- **Custom builds** â€” branded binary, custom SIMD kernels, embedded ledger integration
-- **On-prem ledger registry** â€” deploy inside your VPC / air-gapped network
-- **Unlimited training** â€” as many sessions as needed for your teams
-- **Custom audit certification** â€” SOC 2, ISO 27001 mapping, SOX compliance reports
-- **License customization** â€” embed Kazkade in your own product (OEM licensing available)
-- **Priority feature requests** â€” ranked and voted by Enterprise customers
+- **Custom builds** — branded binary, custom SIMD kernels, embedded ledger integration
+- **On-prem ledger registry** — deploy inside your VPC / air-gapped network
+- **Unlimited training** — as many sessions as needed for your teams
+- **Custom audit certification** — SOC 2, ISO 27001 mapping, SOX compliance reports
+- **License customization** — embed Kazkade in your own product (OEM licensing available)
+- **Priority feature requests** — ranked and voted by Enterprise customers
 - **Escalation path to engineering leadership**
 
 ### Pricing
 - Annual contract
 - Pricing: Custom based on node count, deployment complexity, and support scope
-- Typical range: $15,000â€“$150,000/year
+- Typical range: $15,000–$150,000/year
 
 ### Best For
 - Large financial institutions (banks, hedge funds, exchanges)
@@ -139,11 +139,11 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 | Aspect | Community | Team | Enterprise |
 |--------|-----------|------|------------|
 | **Runtime license** | Apache 2.0 | Apache 2.0 | Custom |
-| **Use in commercial product** | âœ… Allowed | âœ… Allowed | âœ… Allowed (OEM terms may apply) |
-| **Redistribution** | âœ… Allowed | âœ… Allowed (runtime only) | âœ… Custom terms |
-| **Modification** | âœ… Allowed | âœ… Allowed | âœ… Allowed |
+| **Use in commercial product** | ? Allowed | ? Allowed | ? Allowed (OEM terms may apply) |
+| **Redistribution** | ? Allowed | ? Allowed (runtime only) | ? Custom terms |
+| **Modification** | ? Allowed | ? Allowed | ? Allowed |
 | **Audit rights** | N/A | Kazkade may audit usage | Custom |
-| **Indemnification** | None | âœ… Standard | âœ… Custom |
+| **Indemnification** | None | ? Standard | ? Custom |
 
 ---
 
@@ -169,7 +169,7 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 ## Frequently Asked Questions (for BDRs)
 
 ### "Is the Community edition limited?"
-> "No â€” the runtime, ledger, and benchmark harness are fully featured. The limits are on support, SLA, and advanced features like private registry and unlimited SQL."
+> "No — the runtime, ledger, and benchmark harness are fully featured. The limits are on support, SLA, and advanced features like private registry and unlimited SQL."
 
 ### "Can we start Community and upgrade to Team later?"
 > "Yes. Migrate to Team at any time. Your ledgers and benchmarks are fully compatible. We'll help you import them into the private registry."
@@ -178,13 +178,13 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 > "A node is a unique machine (physical or virtual) running Kazkade. CI runners, dev machines, and production servers all count. Free tier: unlimited nodes for personal use; Team tier: billed per node."
 
 ### "Do you offer academic discounts?"
-> "Yes â€” 50% off Team tier for accredited academic institutions. Contact sales for details."
+> "Yes — 50% off Team tier for accredited academic institutions. Contact sales for details."
 
 ### "Is there a free trial for Team?"
-> "Yes â€” 14-day free trial with full Team features, no credit card required."
+> "Yes — 14-day free trial with full Team features, no credit card required."
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -195,7 +195,7 @@ Kazkade is offered in three tiers. The core runtime is always open source (Apach
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -218,3 +218,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

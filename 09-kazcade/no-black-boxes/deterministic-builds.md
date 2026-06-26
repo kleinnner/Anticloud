@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Deterministic Builds
@@ -15,7 +15,7 @@
 
 Deterministic builds are the technical foundation upon which build reproducibility is built. While reproducibility ensures identical outputs from the same inputs, determinism guarantees that the same source code always produces the same compiled output regardless of **when**, **where**, or **by whom** it is built.
 
-> "Determinism is not a feature of the compiler. It is a discipline of the build system." — Kazkade Toolchain Philosophy
+> "Determinism is not a feature of the compiler. It is a discipline of the build system." � Kazkade Toolchain Philosophy
 
 ---
 
@@ -24,18 +24,18 @@ Deterministic builds are the technical foundation upon which build reproducibili
 Kazkade's deterministic build system operates at multiple layers:
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│                    Deterministic Build Stack                │
-├────────────────────────────────────────────────────────────┤
-│ Layer 7: Build Attestation     │ .buildinfo, ledger entry   │
-│ Layer 6: Output Post-Processor │ strip-nondeterminism       │
-│ Layer 5: Linker                │ lld (deterministic)        │
-│ Layer 4: Compiler              │ rustc (pinned nightly)     │
-│ Layer 3: Toolchain             │ rust-toolchain.toml        │
-│ Layer 2: Dependencies          │ Cargo.lock (pinned)        │
-│ Layer 1: Build Scripts         │ Fixed RUSTFLAGS, env vars  │
-│ Layer 0: Source Code           │ Immutable git commit       │
-└────────────────────────────────────────────────────────────┘
++------------------------------------------------------------+
+�                    Deterministic Build Stack                �
++------------------------------------------------------------�
+� Layer 7: Build Attestation     � .buildinfo, ledger entry   �
+� Layer 6: Output Post-Processor � strip-nondeterminism       �
+� Layer 5: Linker                � lld (deterministic)        �
+� Layer 4: Compiler              � rustc (pinned nightly)     �
+� Layer 3: Toolchain             � rust-toolchain.toml        �
+� Layer 2: Dependencies          � Cargo.lock (pinned)        �
+� Layer 1: Build Scripts         � Fixed RUSTFLAGS, env vars  �
+� Layer 0: Source Code           � Immutable git commit       �
++------------------------------------------------------------+
 ```
 
 Each layer must be deterministic for the entire stack to produce a reproducible binary. A failure at any layer breaks the chain.
@@ -483,17 +483,17 @@ Fix: export SOURCE_DATE_EPOCH; add -Z remap-cwd-prefix=.
 
 A key design goal: builds from the same commit must be identical **forever**. This means:
 
-1. **Compiler upgrades must not change behavior** — Kazkade records the exact compiler behavior
-2. **Dependency upgrades must not change behavior** — All dependency versions are frozen
-3. **OS upgrades must not change behavior** — The Docker build image is versioned and frozen
+1. **Compiler upgrades must not change behavior** � Kazkade records the exact compiler behavior
+2. **Dependency upgrades must not change behavior** � All dependency versions are frozen
+3. **OS upgrades must not change behavior** � The Docker build image is versioned and frozen
 
 ```
 Build Date    Toolchain     Hash          Verifiable?
-──────────────────────────────────────────────────────
-2026-06-01    nightly-2026  a1b2c3d4      ✓
-2026-07-01    nightly-2026  a1b2c3d4      ✓ (unchanged)
-2026-08-01    nightly-2026  a1b2c3d4      ✓ (unchanged)
-2027-01-01    nightly-2026  a1b2c3d4      ✓ (unchanged)
+------------------------------------------------------
+2026-06-01    nightly-2026  a1b2c3d4      ?
+2026-07-01    nightly-2026  a1b2c3d4      ? (unchanged)
+2026-08-01    nightly-2026  a1b2c3d4      ? (unchanged)
+2027-01-01    nightly-2026  a1b2c3d4      ? (unchanged)
 ```
 
 This is achieved by:
@@ -523,10 +523,10 @@ Kazkade's determinism requirements are codified in `DETERMINISM.md`:
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Source availability
-- [Build Reproducibility](./build-reproducibility.md) — Full reproducibility guide
-- [Verifiable Binaries](./verifiable-binaries.md) — Signed release verification
-- [Dependency Disclosure](./dependency-disclosure.md) — Dependency tree management
+- [Source Code Transparency](./source-code-transparency.md) � Source availability
+- [Build Reproducibility](./build-reproducibility.md) � Full reproducibility guide
+- [Verifiable Binaries](./verifiable-binaries.md) � Signed release verification
+- [Dependency Disclosure](./dependency-disclosure.md) � Dependency tree management
 
 ---
 
@@ -554,7 +554,7 @@ kazkade build --deterministic-report
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -565,7 +565,7 @@ kazkade build --deterministic-report
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -588,3 +588,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

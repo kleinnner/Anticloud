@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Open Core Model
@@ -15,52 +15,52 @@
 
 Kazkade follows an open-core model: the core runtime, storage engine, CLI, and all fundamental capabilities are fully open source (MIT/Apache 2.0). Enterprise features that require significant infrastructure investment are available under the Kazkade Community License (KCL).
 
-> "Open core is not a tax on users. It is a sustainable model for long-term open-source development." — Kazkade Licensing Philosophy
+> "Open core is not a tax on users. It is a sustainable model for long-term open-source development." � Kazkade Licensing Philosophy
 
 ---
 
 ## Feature Distribution
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                    Kazkade Feature Distribution                    │
-├──────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  OPEN SOURCE (MIT/Apache 2.0)                                     │
-│  ┌─────────────────────────────────────────────────────────────┐ │
-│  │ • Zero-copy runtime (mmap engine)                           │ │
-│  │ • .acol columnar storage format                             │ │
-│  │ • SIMD dispatch layer (AVX2/AVX-512/NEON/SVE/SSE4.2)       │ │
-│  │ • SQL query engine                                           │ │
-│  │ • Software rasterizer                                        │ │
-│  │ • MLP inference engine (scalar + SIMD)                      │ │
-│  │ • Compression codecs (RLE/Delta/Bitpack/Dictionary/I4/I8)   │ │
-│  │ • .aioss tamper-proof ledger                                 │ │
-│  │ • CLI (bench/query/inspect/dashboard/self-test/ledger)      │ │
-│  │ • Local web dashboard                                        │ │
-│  │ • FUSE filesystem integration                                │ │
-│  │ • Build reproducibility infrastructure                       │ │
-│  │ • Binary verification (Cosign + SLSA)                        │ │
-│  │ • SBOM generation                                            │ │
-│  │ • All tests and benchmarks                                   │ │
-│  └─────────────────────────────────────────────────────────────┘ │
-│                                                                   │
-│  ENTERPRISE (Kazkade Community License)                           │
-│  ┌─────────────────────────────────────────────────────────────┐ │
-│  │ • LDAP/SSO authentication                                   │ │
-│  │ • Role-based access control (RBAC)                          │ │
-│  │ • Audit log export (SIEM integration)                       │ │
-│  │ • Multi-tenant isolation                                     │ │
-│  │ • Encrypted .acol storage at rest                           │ │
-│  │ • Hardware Security Module (HSM) integration                 │ │
-│  │ • Cluster management / distributed query                    │ │
-│  │ • WAL (Write-Ahead Log) replication                         │ │
-│  │ • Priority support (SLA: 4h response)                      │ │
-│  │ • Compliance reports (SOC2, HIPAA, FedRAMP)                 │ │
-│  │ • Custom license terms available                             │ │
-│  └─────────────────────────────────────────────────────────────┘ │
-│                                                                   │
-└──────────────────────────────────────────────────────────────────┘
++------------------------------------------------------------------+
+�                    Kazkade Feature Distribution                    �
++------------------------------------------------------------------�
+�                                                                   �
+�  OPEN SOURCE (MIT/Apache 2.0)                                     �
+�  +-------------------------------------------------------------+ �
+�  � � Zero-copy runtime (mmap engine)                           � �
+�  � � .acol columnar storage format                             � �
+�  � � SIMD dispatch layer (AVX2/AVX-512/NEON/SVE/SSE4.2)       � �
+�  � � SQL query engine                                           � �
+�  � � Software rasterizer                                        � �
+�  � � MLP inference engine (scalar + SIMD)                      � �
+�  � � Compression codecs (RLE/Delta/Bitpack/Dictionary/I4/I8)   � �
+�  � � .aioss tamper-proof ledger                                 � �
+�  � � CLI (bench/query/inspect/dashboard/self-test/ledger)      � �
+�  � � Local web dashboard                                        � �
+�  � � FUSE filesystem integration                                � �
+�  � � Build reproducibility infrastructure                       � �
+�  � � Binary verification (Cosign + SLSA)                        � �
+�  � � SBOM generation                                            � �
+�  � � All tests and benchmarks                                   � �
+�  +-------------------------------------------------------------+ �
+�                                                                   �
+�  ENTERPRISE (Kazkade Community License)                           �
+�  +-------------------------------------------------------------+ �
+�  � � LDAP/SSO authentication                                   � �
+�  � � Role-based access control (RBAC)                          � �
+�  � � Audit log export (SIEM integration)                       � �
+�  � � Multi-tenant isolation                                     � �
+�  � � Encrypted .acol storage at rest                           � �
+�  � � Hardware Security Module (HSM) integration                 � �
+�  � � Cluster management / distributed query                    � �
+�  � � WAL (Write-Ahead Log) replication                         � �
+�  � � Priority support (SLA: 4h response)                      � �
+�  � � Compliance reports (SOC2, HIPAA, FedRAMP)                 � �
+�  � � Custom license terms available                             � �
+�  +-------------------------------------------------------------+ �
+�                                                                   �
++------------------------------------------------------------------+
 ```
 
 ---
@@ -70,40 +70,40 @@ Kazkade follows an open-core model: the core runtime, storage engine, CLI, and a
 | Feature | Community (MIT/Apache) | Enterprise (KCL) |
 |---------|----------------------|-------------------|
 | **Core Runtime** | | |
-| Zero-copy mmap engine | ✓ Full | ✓ Full + HSM pages |
-| .acol columnar storage | ✓ Full | ✓ Full + encryption |
-| SIMD dispatch (AVX2/AVX-512/NEON/SVE) | ✓ Full | ✓ Full |
+| Zero-copy mmap engine | ? Full | ? Full + HSM pages |
+| .acol columnar storage | ? Full | ? Full + encryption |
+| SIMD dispatch (AVX2/AVX-512/NEON/SVE) | ? Full | ? Full |
 | **Query Engine** | | |
-| SQL parser & executor | ✓ Full | ✓ Full |
-| Query optimization | ✓ Full | ✓ Full + distributed |
-| Result caching | ✓ Memory only | ✓ Persistent + distributed |
+| SQL parser & executor | ? Full | ? Full |
+| Query optimization | ? Full | ? Full + distributed |
+| Result caching | ? Memory only | ? Persistent + distributed |
 | **Ledger** | | |
-| .aioss blockchain | ✓ Full | ✓ Full |
-| Cryptographic verification | ✓ Full | ✓ Full |
-| Audit trail | ✓ Local only | ✓ SIEM export |
+| .aioss blockchain | ? Full | ? Full |
+| Cryptographic verification | ? Full | ? Full |
+| Audit trail | ? Local only | ? SIEM export |
 | **Rasterizer** | | |
-| Software rasterizer | ✓ Full | ✓ Full |
-| Pipeline configuration | ✓ Limited | ✓ Full API |
+| Software rasterizer | ? Full | ? Full |
+| Pipeline configuration | ? Limited | ? Full API |
 | **MLP Inference** | | |
-| Scalar + SIMD inference | ✓ Full | ✓ Full |
-| Model loading | ✓ ONNX + custom | ✓ + enterprise formats |
-| Batch processing | ✓ Up to 1024 | ✓ Unlimited |
+| Scalar + SIMD inference | ? Full | ? Full |
+| Model loading | ? ONNX + custom | ? + enterprise formats |
+| Batch processing | ? Up to 1024 | ? Unlimited |
 | **Authentication** | | |
-| Local auth | ✓ Built-in | ✓ Built-in |
-| LDAP/SSO | ✗ | ✓ Full |
-| RBAC | ✗ | ✓ Granular |
+| Local auth | ? Built-in | ? Built-in |
+| LDAP/SSO | ? | ? Full |
+| RBAC | ? | ? Granular |
 | **Security** | | |
-| At-rest encryption | ✗ | ✓ AES-256-GCM |
-| HSM integration | ✗ | ✓ PKCS#11 |
-| Audit logging | ✓ Console | ✓ Syslog/SIEM |
+| At-rest encryption | ? | ? AES-256-GCM |
+| HSM integration | ? | ? PKCS#11 |
+| Audit logging | ? Console | ? Syslog/SIEM |
 | **Deployment** | | |
-| Single-node | ✓ Full | ✓ Full |
-| Multi-node cluster | ✗ | ✓ Up to 256 nodes |
-| WAL replication | ✗ | ✓ Synchronous |
+| Single-node | ? Full | ? Full |
+| Multi-node cluster | ? | ? Up to 256 nodes |
+| WAL replication | ? | ? Synchronous |
 | **Support** | | |
-| Community support | ✓ GitHub Issues | ✓ Priority |
+| Community support | ? GitHub Issues | ? Priority |
 | SLA | Best effort | 4-hour response |
-| Custom SLAs | ✗ | ✓ Available |
+| Custom SLAs | ? | ? Available |
 
 ---
 
@@ -187,8 +187,8 @@ $ kazkade license --remove
 
 All data formats (`.acol` storage, `.aioss` ledger, SQL schemas) are identical between Community and Enterprise editions. No data conversion is needed when migrating:
 
-- **Community → Enterprise**: All data is immediately compatible. Enable enterprise features on existing databases.
-- **Enterprise → Community**: Enterprise features that enhance data (e.g., encryption) must be disabled. Data remains accessible with community features.
+- **Community ? Enterprise**: All data is immediately compatible. Enable enterprise features on existing databases.
+- **Enterprise ? Community**: Enterprise features that enhance data (e.g., encryption) must be disabled. Data remains accessible with community features.
 
 ---
 
@@ -196,13 +196,13 @@ All data formats (`.acol` storage, `.aioss` ledger, SQL schemas) are identical b
 
 Every line of code under the MIT/Apache license is:
 
-1. **Fully readable** — No obfuscation, no binary stubs, no encrypted source
-2. **Fully buildable** — `cargo build --release` produces working binary
-3. **Fully testable** — All tests and benchmarks are included
-4. **Forkable** — MIT/Apache permits forking and redistribution
-5. **Verifiable** — Build reproducibility ensures forked code matches claim
-6. **Auditable** — Third-party audits apply to all MIT/Apache code
-7. **Independently maintainable** — Community can maintain forks indefinitely
+1. **Fully readable** � No obfuscation, no binary stubs, no encrypted source
+2. **Fully buildable** � `cargo build --release` produces working binary
+3. **Fully testable** � All tests and benchmarks are included
+4. **Forkable** � MIT/Apache permits forking and redistribution
+5. **Verifiable** � Build reproducibility ensures forked code matches claim
+6. **Auditable** � Third-party audits apply to all MIT/Apache code
+7. **Independently maintainable** � Community can maintain forks indefinitely
 
 ### What Enterprise Adds
 
@@ -355,22 +355,22 @@ Q2 2027: Community: Query federation
 $ kazkade verify --license
 License: MIT/Apache 2.0 (community)
 Features: 34 open source, 0 enterprise
-Compliance: ✓ All dependencies have compatible licenses
+Compliance: ? All dependencies have compatible licenses
 
 # For enterprise:
 $ kazkade verify --license
 License: Kazkade Community License v1.0
 Features: 34 open source, 12 enterprise
-Compliance: ✓ Subscription active (expires 2027-06-15)
+Compliance: ? Subscription active (expires 2027-06-15)
 ```
 
 ---
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Licensing in source files
-- [Dependency Disclosure](./dependency-disclosure.md) — Third-party dependency licenses
-- [Community Code Review](./community-code-review.md) — Review process
+- [Source Code Transparency](./source-code-transparency.md) � Licensing in source files
+- [Dependency Disclosure](./dependency-disclosure.md) � Third-party dependency licenses
+- [Community Code Review](./community-code-review.md) � Review process
 
 ---
 
@@ -399,7 +399,7 @@ kazkade feature --roadmap
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -410,7 +410,7 @@ kazkade feature --roadmap
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -433,3 +433,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

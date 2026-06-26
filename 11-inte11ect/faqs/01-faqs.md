@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║                         FAQS — GENERAL QUESTIONS                     ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �                         FAQS � GENERAL QUESTIONS                     �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -131,7 +131,7 @@ pie title Feature Distribution
 Yes. An account is required to use inte11ect. Accounts are free for community tier users. Account creation requires:
 
 - Valid email address
-- Username (3–32 characters, alphanumeric)
+- Username (3�32 characters, alphanumeric)
 - Password (minimum 12 characters, must include uppercase, lowercase, digit, and special character)
 
 ### Account Creation Example (API)
@@ -233,7 +233,7 @@ Language detection is automatic based on browser settings and can be overridden 
 5. Browse the community ledgers
 
 For detailed guidance, see:
-- [Quick Start — Community](../how-to-use-community/01-quick-start.md)
+- [Quick Start � Community](../how-to-use-community/01-quick-start.md)
 - [Developer Quick Start](../how-to-use-developers/01-developer-quick-start.md)
 - [Enterprise Deployment](../how-to-use-enterprise/01-enterprise-deployment.md)
 
@@ -274,7 +274,7 @@ Your data is used exclusively to provide and improve inte11ect services:
 
 ## Can I delete my account?
 
-Yes. Account deletion is available from Settings → Account → Delete Account. Deletion is irreversible and includes:
+Yes. Account deletion is available from Settings ? Account ? Delete Account. Deletion is irreversible and includes:
 
 - Permanent removal of all personal data
 - Anonymization of ledger entries (entries remain for audit integrity but are disassociated from your identity)
@@ -329,7 +329,7 @@ inte11ect does not currently have a dedicated mobile app. The web application is
 Bugs can be reported through:
 
 1. **GitHub Issues**: [https://github.com/inte11ect/community/issues](https://github.com/inte11ect/community/issues)
-2. **In-app feedback**: Settings → Help → Report Bug
+2. **In-app feedback**: Settings ? Help ? Report Bug
 3. **Support email**: support@inte11ect.dev
 
 Please include:
@@ -438,7 +438,7 @@ Join the community at [https://community.inte11ect.dev](https://community.inte11
 ---
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -450,7 +450,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -473,3 +473,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

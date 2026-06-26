@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: compliance | ID: LIB-COMP-002
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # HIPAA Compliance
 
@@ -23,7 +23,7 @@ Protected Health Information or PHI). HIPAA applies to covered entities (health
 care providers, health plans, health care clearinghouses) and their business
 associates.
 
-Libern's architecture â€” local-first, P2P, no cloud dependency â€” is uniquely suited
+Libern's architecture — local-first, P2P, no cloud dependency — is uniquely suited
 for HIPAA-compliant communications. Because PHI never leaves the local device
 unless explicitly shared via encrypted P2P connections, many of the most
 challenging HIPAA compliance requirements are automatically satisfied.
@@ -32,7 +32,7 @@ This document analyzes Libern against the HIPAA Privacy Rule, Security Rule, and
 Breach Notification Rule, with special attention to the Business Associate
 relationship.
 
-## 2. HIPAA Privacy Rule (45 CFR Â§ 164.500-534)
+## 2. HIPAA Privacy Rule (45 CFR § 164.500-534)
 
 ### 2.1 Permitted Uses and Disclosures
 
@@ -52,7 +52,7 @@ The Privacy Rule requires that only the minimum necessary PHI be used or disclos
 Libern's architecture inherently respects this principle:
 
 - Users control exactly what data they share and with whom
-- Data synchronization is granular â€” individual messages, files, or channels can
+- Data synchronization is granular — individual messages, files, or channels can
   be selectively shared
 - No automatic metadata collection or sharing occurs
 - The application does not collect or transmit any data beyond what the user
@@ -68,14 +68,14 @@ Libern does not generate this notice, it supports compliance by:
 - Allowing the covered entity to accurately describe data flows because they
   are deterministic and observable
 
-## 3. HIPAA Security Rule (45 CFR Â§ 164.302-318)
+## 3. HIPAA Security Rule (45 CFR § 164.302-318)
 
 ### 3.1 Administrative Safeguards
 
 | Standard | Libern Support |
 |----------|----------------|
 | Security Management Process | Libern provides .aioss audit logs for risk analysis and sanction policies |
-| Assigned Security Responsibility | Configurable â€” organization designates a security officer |
+| Assigned Security Responsibility | Configurable — organization designates a security officer |
 | Workforce Security | Ed25519 key-based identity ensures only authorized users access data |
 | Information Access Management | Server administrators control peer authorization |
 | Security Awareness and Training | Libern's transparency aids training; no hidden data flows |
@@ -147,7 +147,7 @@ mechanisms that record and examine access to PHI.
 - **Group Health Plan requirements:** Libern data can be isolated per plan or
   employer group by creating separate servers.
 
-## 4. Breach Notification Rule (45 CFR Â§Â§ 164.400-414)
+## 4. Breach Notification Rule (45 CFR §§ 164.400-414)
 
 ### 4.1 Breach Detection
 
@@ -191,7 +191,7 @@ as software, not as a service. The key distinction:
 - **Libern as a service:** If an organization hosts Libern for another covered
   entity, that organization would be a Business Associate and would need a BAA.
 
-Most Libern deployments will fall into the first category â€” the covered entity
+Most Libern deployments will fall into the first category — the covered entity
 downloads the single binary, runs it on its own hardware, and controls all data.
 
 ### 5.2 If a BAA Is Needed
@@ -309,7 +309,7 @@ libern --compliance-report --standard hipaa
 
 ## 10. HIPAA and the .aioss Audit Trail
 
-### 10.1 Meeting 45 CFR Â§ 164.312(b)
+### 10.1 Meeting 45 CFR § 164.312(b)
 
 The HIPAA Security Rule requires audit controls that record and examine access
 to PHI. Libern's .aioss ledger satisfies this requirement comprehensively:
@@ -387,7 +387,7 @@ need HIPAA-compliant collaboration tools. The key advantages are:
 1. **PHI never leaves the device** unless explicitly shared via encrypted P2P
 2. **No Business Associate relationship** when self-hosted
 3. **Comprehensive audit trail** through the .aioss ledger
-4. **No third-party data processing** â€” all AI and computation is local
+4. **No third-party data processing** — all AI and computation is local
 5. **Full transparency** through open source code
 
 Healthcare organizations should perform their own risk assessment and consult
@@ -398,51 +398,51 @@ challenging HIPAA compliance burdens associated with cloud-based alternatives.
 
 | Regulation | Topic | Libern Compliance Section |
 |------------|-------|--------------------------|
-| 45 CFR Â§ 164.104 | Applicability | Section 2 |
-| 45 CFR Â§ 164.306 | Security Rule general rules | Section 3 |
-| 45 CFR Â§ 164.308 | Administrative safeguards | Section 3.1 |
-| 45 CFR Â§ 164.310 | Physical safeguards | Section 3.2 |
-| 45 CFR Â§ 164.312 | Technical safeguards | Section 3.3 |
-| 45 CFR Â§ 164.314 | Organizational requirements | Section 3.4 |
-| 45 CFR Â§ 164.316 | Policies and procedures | Section 3 |
-| 45 CFR Â§ 164.400-414 | Breach notification | Section 4 |
-| 45 CFR Â§ 164.500-534 | Privacy Rule | Section 2 |
-| 45 CFR Â§ 160.103 | Definitions | Section 5 |
+| 45 CFR § 164.104 | Applicability | Section 2 |
+| 45 CFR § 164.306 | Security Rule general rules | Section 3 |
+| 45 CFR § 164.308 | Administrative safeguards | Section 3.1 |
+| 45 CFR § 164.310 | Physical safeguards | Section 3.2 |
+| 45 CFR § 164.312 | Technical safeguards | Section 3.3 |
+| 45 CFR § 164.314 | Organizational requirements | Section 3.4 |
+| 45 CFR § 164.316 | Policies and procedures | Section 3 |
+| 45 CFR § 164.400-414 | Breach notification | Section 4 |
+| 45 CFR § 164.500-534 | Privacy Rule | Section 2 |
+| 45 CFR § 160.103 | Definitions | Section 5 |
 
 
 ## 16. Implementation Walkthrough for Healthcare Organizations
 
-### 16.1 HIPAA Deployment Checklist â€” Expanded
+### 16.1 HIPAA Deployment Checklist — Expanded
 
-**Phase 1: Security Rule Controls (45 CFR Â§ 164.308-312)**
+**Phase 1: Security Rule Controls (45 CFR § 164.308-312)**
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚            HIPAA Security Rule â€” Libern Control Map            â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                               â”‚
-â”‚  Administrative Safeguards (Â§ 164.308)                        â”‚
-â”‚  â”œâ”€ Security Management: .aioss audit logs                    â”‚
-â”‚  â”œâ”€ Security Personnel: Designated security officer           â”‚
-â”‚  â”œâ”€ Info Access Mgmt: Ed25519 RBAC                            â”‚
-â”‚  â”œâ”€ Workforce Training: Open source transparency              â”‚
-â”‚  â”œâ”€ Evaluation: Periodic .aioss review                        â”‚
-â”‚  â””â”€ Contingency: .aioss exports + peer redundancy             â”‚
-â”‚                                                               â”‚
-â”‚  Physical Safeguards (Â§ 164.310)                              â”‚
-â”‚  â”œâ”€ Facility Access: Org-managed hardware                     â”‚
-â”‚  â”œâ”€ Workstation Security: OS controls + disk encryption       â”‚
-â”‚  â”œâ”€ Device/Media: .aioss export for controlled transfer       â”‚
-â”‚  â””â”€ Accountability: Full audit trail                          â”‚
-â”‚                                                               â”‚
-â”‚  Technical Safeguards (Â§ 164.312)                             â”‚
-â”‚  â”œâ”€ Access Control: Ed25519 keys + RBAC + emergency access    â”‚
-â”‚  â”œâ”€ Audit Controls: .aioss comprehensive logging              â”‚
-â”‚  â”œâ”€ Integrity: SHA-3 hash chain + Ed25519 signatures          â”‚
-â”‚  â”œâ”€ Auth: Cryptographic identity verification                 â”‚
-â”‚  â””â”€ Transmission: Encrypted P2P WebSocket channels            â”‚
-â”‚                                                               â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌──────────────────────────────────────────────────────────────┐
+│            HIPAA Security Rule — Libern Control Map            │
+├──────────────────────────────────────────────────────────────┤
+│                                                               │
+│  Administrative Safeguards (§ 164.308)                        │
+│  ├─ Security Management: .aioss audit logs                    │
+│  ├─ Security Personnel: Designated security officer           │
+│  ├─ Info Access Mgmt: Ed25519 RBAC                            │
+│  ├─ Workforce Training: Open source transparency              │
+│  ├─ Evaluation: Periodic .aioss review                        │
+│  └─ Contingency: .aioss exports + peer redundancy             │
+│                                                               │
+│  Physical Safeguards (§ 164.310)                              │
+│  ├─ Facility Access: Org-managed hardware                     │
+│  ├─ Workstation Security: OS controls + disk encryption       │
+│  ├─ Device/Media: .aioss export for controlled transfer       │
+│  └─ Accountability: Full audit trail                          │
+│                                                               │
+│  Technical Safeguards (§ 164.312)                             │
+│  ├─ Access Control: Ed25519 keys + RBAC + emergency access    │
+│  ├─ Audit Controls: .aioss comprehensive logging              │
+│  ├─ Integrity: SHA-3 hash chain + Ed25519 signatures          │
+│  ├─ Auth: Cryptographic identity verification                 │
+│  └─ Transmission: Encrypted P2P WebSocket channels            │
+│                                                               │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ### 16.2 Real-World Scenario: Multi-Hospital PHI Sharing
@@ -463,39 +463,39 @@ challenging HIPAA compliance burdens associated with cloud-based alternatives.
 ### 16.3 PHI Flow Diagram
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”          â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  Hospital A       â”‚          â”‚  Hospital B       â”‚
-â”‚  â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€     â”‚          â”‚  â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€     â”‚
-â”‚  Attending MD     â”‚â—„â”€â”€â”€â”€â”€â”€â”€â”€â–ºâ”‚  Radiologist      â”‚
-â”‚  Ed25519 Key: A1  â”‚  P2P     â”‚  Ed25519 Key: B1  â”‚
-â”‚  Local SQLite     â”‚  Encryptedâ”‚  Local SQLite     â”‚
-â”‚  .aioss Ledger    â”‚  Channel â”‚  .aioss Ledger    â”‚
-â”‚  BitLocker FDE    â”‚          â”‚  FileVault FDE    â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜          â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚                            â”‚
-        â”‚  P2P Encrypted             â”‚  P2P Encrypted
-        â”‚  WebSocket                 â”‚  WebSocket
-        â–¼                            â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                  P2P Mesh Network                        â”‚
-â”‚  â— No central server    â— No cloud processing           â”‚
-â”‚  â— No business associate needed (self-hosted)           â”‚
-â”‚  â— Complete audit trail for every PHI access            â”‚
-â”‚  â— Cryptographic proof of integrity and non-repudiation â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌──────────────────┐          ┌──────────────────┐
+│  Hospital A       │          │  Hospital B       │
+│  ─────────────     │          │  ─────────────     │
+│  Attending MD     │◄────────►│  Radiologist      │
+│  Ed25519 Key: A1  │  P2P     │  Ed25519 Key: B1  │
+│  Local SQLite     │  Encrypted│  Local SQLite     │
+│  .aioss Ledger    │  Channel │  .aioss Ledger    │
+│  BitLocker FDE    │          │  FileVault FDE    │
+└──────────────────┘          └──────────────────┘
+        │                            │
+        │  P2P Encrypted             │  P2P Encrypted
+        │  WebSocket                 │  WebSocket
+        ▼                            ▼
+┌─────────────────────────────────────────────────────────┐
+│                  P2P Mesh Network                        │
+│  ● No central server    ● No cloud processing           │
+│  ● No business associate needed (self-hosted)           │
+│  ● Complete audit trail for every PHI access            │
+│  ● Cryptographic proof of integrity and non-repudiation │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ### 16.4 HIPAA Security Rule Code References
 
 | HIPAA Standard | Libern Module | File Location |
 |---------------|---------------|---------------|
-| Â§ 164.312(a)(1) Access Control | `crates/libern-core/src/crypto/identity.rs` | Ed25519 key generation |
-| Â§ 164.312(a)(2)(iv) Encryption | `crates/libern-core/src/db/encryption.rs` | SQLite encryption |
-| Â§ 164.312(b) Audit Controls | `crates/libern-aioss/src/ledger.rs` | .aioss audit entries |
-| Â§ 164.312(c)(1) Integrity | `crates/libern-aioss/src/verify.rs` | Hash chain verification |
-| Â§ 164.312(d) Authentication | `crates/libern-core/src/crypto/mod.rs` | Ed25519 challenge-response |
-| Â§ 164.312(e)(1) Transmission | `apps/sandbox/src/voice.rs` | Encrypted P2P audio |
-| Â§ 164.308(a)(1) Risk Analysis | `docs/compliance/02-hipaa.md` | This document |
+| § 164.312(a)(1) Access Control | `crates/libern-core/src/crypto/identity.rs` | Ed25519 key generation |
+| § 164.312(a)(2)(iv) Encryption | `crates/libern-core/src/db/encryption.rs` | SQLite encryption |
+| § 164.312(b) Audit Controls | `crates/libern-aioss/src/ledger.rs` | .aioss audit entries |
+| § 164.312(c)(1) Integrity | `crates/libern-aioss/src/verify.rs` | Hash chain verification |
+| § 164.312(d) Authentication | `crates/libern-core/src/crypto/mod.rs` | Ed25519 challenge-response |
+| § 164.312(e)(1) Transmission | `apps/sandbox/src/voice.rs` | Encrypted P2P audio |
+| § 164.308(a)(1) Risk Analysis | `docs/compliance/02-hipaa.md` | This document |
 
 ## 17. PHI Data Retention and Disposal
 
@@ -546,7 +546,7 @@ Step 5: Secure wipe (OS-level)
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -569,3 +569,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

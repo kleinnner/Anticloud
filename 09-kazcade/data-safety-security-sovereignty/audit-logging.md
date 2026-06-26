@@ -1,51 +1,51 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Audit Logging
 
 > **Every action is a record. Every record is permanent.**
 
-Kazkade's audit logging is not an add-on — it is the `.aioss` ledger itself. Every CLI command, query execution, configuration change, access control decision, and system event is appended as a signed, timestamped record in the tamper-evident hash chain. There is no separate audit log to tamper with; the audit trail **is** the ledger.
+Kazkade's audit logging is not an add-on � it is the `.aioss` ledger itself. Every CLI command, query execution, configuration change, access control decision, and system event is appended as a signed, timestamped record in the tamper-evident hash chain. There is no separate audit log to tamper with; the audit trail **is** the ledger.
 
 ---
 
 ## 1. Audit Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     Kazkade Audit Logging Stack                       │
-├─────────────────────────────────────────────────────────────────────┤
-│  Audit Categories                                                     │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐  │
-│  │ CLI Ops  │ │ Queries  │ │ Config   │ │ Access   │ │ System   │  │
-│  │          │ │          │ │ Changes  │ │ Decisions│ │ Events   │  │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘  │
-├─────────────────────────────────────────────────────────────────────┤
-│  .aioss Ledger (single append-only hash chain)                       │
-│  ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐  │
-│  │ G  │→│ C1 │→│ C2 │→│ A1 │→│ Q1 │→│ C3 │→│ S1 │→│ C4 │→│ A2 │→│...
-│  └────┘ └────┘ └────┘ └────┘ └────┘ └────┘ └────┘ └────┘ └────┘  │
-│   G=Genesis  C=CLI  A=Access  Q=Query  S=System                     │
-├─────────────────────────────────────────────────────────────────────┤
-│  Verification Layer                                                  │
-│  - Hash chain integrity check                                        │
-│  - Ed25519 signature verification                                    │
-│  - Timestamp monotonicity check                                      │
-│  - Region consistency check                                          │
-├─────────────────────────────────────────────────────────────────────┤
-│  Report Generation                                                   │
-│  - Automated audit reports (JSON, PDF, CSV)                          │
-│  - Real-time monitoring dashboard                                    │
-│  - Compliance-specific reports (SOC 2, ISO 27001, GDPR)              │
-└─────────────────────────────────────────────────────────────────────┘
++---------------------------------------------------------------------+
+�                     Kazkade Audit Logging Stack                       �
++---------------------------------------------------------------------�
+�  Audit Categories                                                     �
+�  +----------+ +----------+ +----------+ +----------+ +----------+  �
+�  � CLI Ops  � � Queries  � � Config   � � Access   � � System   �  �
+�  �          � �          � � Changes  � � Decisions� � Events   �  �
+�  +----------+ +----------+ +----------+ +----------+ +----------+  �
++---------------------------------------------------------------------�
+�  .aioss Ledger (single append-only hash chain)                       �
+�  +----+ +----+ +----+ +----+ +----+ +----+ +----+ +----+ +----+  �
+�  � G  �?� C1 �?� C2 �?� A1 �?� Q1 �?� C3 �?� S1 �?� C4 �?� A2 �?�...
+�  +----+ +----+ +----+ +----+ +----+ +----+ +----+ +----+ +----+  �
+�   G=Genesis  C=CLI  A=Access  Q=Query  S=System                     �
++---------------------------------------------------------------------�
+�  Verification Layer                                                  �
+�  - Hash chain integrity check                                        �
+�  - Ed25519 signature verification                                    �
+�  - Timestamp monotonicity check                                      �
+�  - Region consistency check                                          �
++---------------------------------------------------------------------�
+�  Report Generation                                                   �
+�  - Automated audit reports (JSON, PDF, CSV)                          �
+�  - Real-time monitoring dashboard                                    �
+�  - Compliance-specific reports (SOC 2, ISO 27001, GDPR)              �
++---------------------------------------------------------------------+
 ```
 
 ---
@@ -59,7 +59,7 @@ Kazkade's audit logging is not an add-on — it is the `.aioss` ledger itself. E
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(tag = "event_type")]
 pub enum AuditEvent {
-    // ── CLI Operations ──
+    // -- CLI Operations --
     CliCommand {
         command: String,
         args: Vec<String>,
@@ -74,7 +74,7 @@ pub enum AuditEvent {
         duration_ms: u64,
     },
     
-    // ── Ledger Operations ──
+    // -- Ledger Operations --
     LedgerInit {
         path: String,
         region: RegionTag,
@@ -93,7 +93,7 @@ pub enum AuditEvent {
         failures: Vec<String>,
     },
     
-    // ── Configuration Changes ──
+    // -- Configuration Changes --
     ConfigChange {
         key: String,
         old_value: Option<String>,
@@ -101,7 +101,7 @@ pub enum AuditEvent {
         source: ConfigSource,
     },
     
-    // ── Access Control ──
+    // -- Access Control --
     AccessGrant {
         user: String,
         role: Role,
@@ -118,7 +118,7 @@ pub enum AuditEvent {
         reason: String,
     },
     
-    // ── System Events ──
+    // -- System Events --
     SystemStartup {
         version: String,
         hostname: String,
@@ -171,13 +171,13 @@ Every CLI command is automatically logged to the `.aioss` audit ledger:
 ```bash
 # Every command is logged automatically.
 kazkade ledger init my-ledger.aioss --region EU
-# → Audit record: LedgerInit { path: "my-ledger.aioss", region: "EU" }
+# ? Audit record: LedgerInit { path: "my-ledger.aioss", region: "EU" }
 
 kazkade query "SELECT * FROM ledger WHERE value > 100"
-# → Audit record: CliQuery { query: "SELECT * FROM ledger WHERE value > 100", rows_returned: 42 }
+# ? Audit record: CliQuery { query: "SELECT * FROM ledger WHERE value > 100", rows_returned: 42 }
 
 kazkade access grant --user bob --role operator
-# → Audit record: AccessGrant { user: "bob", role: "Operator" }
+# ? Audit record: AccessGrant { user: "bob", role: "Operator" }
 ```
 
 ### 3.2 Audit Configuration
@@ -561,7 +561,7 @@ impl AuditLedgerManager {
 | Metric                  | Value                |
 |-------------------------|----------------------|
 | Max append throughput   | 1,000,000 records/s  |
-| Latency per audit write | < 5 µs               |
+| Latency per audit write | < 5 �s               |
 | Ledger size efficiency  | ~72 bytes/record     |
 | Verification speed      | 50 GB/s (mmap)       |
 | Query time (1B records) | < 100 ms             |
@@ -580,7 +580,7 @@ impl AuditLedgerManager {
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -591,7 +591,7 @@ impl AuditLedgerManager {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -614,3 +614,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║           HOW-TO-USE COMMUNITY — CHAT INTERFACE GUIDE                ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �           HOW-TO-USE COMMUNITY � CHAT INTERFACE GUIDE                �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -76,14 +76,14 @@ The main chat area displays the conversation history as a series of messages. Ea
 
 ```
 [Avatar] You                           [Timestamp]
-───────────────────────────────────────────────
+-----------------------------------------------
 What is the capital of France?
-───────────────────────────────────────────────
+-----------------------------------------------
 
 [Avatar] GPT-4o                        [Timestamp]
-───────────────────────────────────────────────
+-----------------------------------------------
 The capital of France is Paris.
-───────────────────────────────────────────────
+-----------------------------------------------
 ```
 
 ---
@@ -120,22 +120,22 @@ flowchart LR
 The sidebar lists all your conversations:
 
 ```
-📋 Conversations
-─────────────────
-📌 Today
-  ├─ AI Ethics Discussion     [GPT-4o]
-  ├─ Code Review: API         [Claude]
-  └─ Research Notes           [Gemini]
+?? Conversations
+-----------------
+?? Today
+  +- AI Ethics Discussion     [GPT-4o]
+  +- Code Review: API         [Claude]
+  +- Research Notes           [Gemini]
 
-📌 Yesterday
-  ├─ Project Planning         [GPT-4o]
-  └─ Data Analysis            [GPT-4o]
+?? Yesterday
+  +- Project Planning         [GPT-4o]
+  +- Data Analysis            [GPT-4o]
 
-📌 This Week
-  ├─ Meeting Notes            [GPT-4o]
-  ├─ Bug Investigation        [Claude]
-  ├─ Translation Work         [Mistral]
-  └─ Learning Python          [GPT-4o]
+?? This Week
+  +- Meeting Notes            [GPT-4o]
+  +- Bug Investigation        [Claude]
+  +- Translation Work         [Mistral]
+  +- Learning Python          [GPT-4o]
 ```
 
 ### Sidebar Actions
@@ -192,13 +192,13 @@ Each message has action buttons that appear on hover:
 
 | Action | Icon | Shortcut | Description |
 |---|---|---|---|
-| Copy | 📋 | Ctrl+C (select text) | Copy message content |
-| Edit | ✏️ | Up Arrow (last msg) | Edit your message |
-| Delete | 🗑️ | - | Delete message |
-| Regenerate | 🔄 | - | Generate new response |
-| Quote | 💬 | - | Quote in new message |
-| Share | 🔗 | - | Get shareable link |
-| Report | 🚩 | - | Report inappropriate content |
+| Copy | ?? | Ctrl+C (select text) | Copy message content |
+| Edit | ?? | Up Arrow (last msg) | Edit your message |
+| Delete | ??? | - | Delete message |
+| Regenerate | ?? | - | Generate new response |
+| Quote | ?? | - | Quote in new message |
+| Share | ?? | - | Get shareable link |
+| Report | ?? | - | Report inappropriate content |
 
 ### Implementing Copy
 
@@ -260,8 +260,8 @@ inte11ect supports Markdown formatting in messages:
 | Task list | `- [x] done` | Checkbox |
 | Footnote | `[^1]` | Reference |
 | Strikethrough | `~~text~~` | ~~deleted~~ |
-| Subscript | `H~2~O` | H₂O |
-| Superscript | `x^2^` | x² |
+| Subscript | `H~2~O` | H2O |
+| Superscript | `x^2^` | x� |
 
 ---
 
@@ -451,14 +451,14 @@ class ConversationManager:
 
 | Indicator | Meaning | Action |
 |---|---|---|
-| 🟢 Online | Connected, ready | Start chatting |
-| 🟡 Connecting | Reconnecting | Wait |
-| 🔴 Disconnected | Lost connection | Check network |
-| ⏳ Processing | AI is thinking | Wait for response |
-| ⚠️ Warning | Potential issue | Check message |
-| ❌ Error | Something failed | See error message |
-| 💬 Typing | User is typing | Wait for input |
-| 📝 Draft | Unsaved message | Save or discard |
+| ?? Online | Connected, ready | Start chatting |
+| ?? Connecting | Reconnecting | Wait |
+| ?? Disconnected | Lost connection | Check network |
+| ? Processing | AI is thinking | Wait for response |
+| ?? Warning | Potential issue | Check message |
+| ? Error | Something failed | See error message |
+| ?? Typing | User is typing | Wait for input |
+| ?? Draft | Unsaved message | Save or discard |
 
 ---
 
@@ -672,7 +672,7 @@ class UICustomizer:
 ---
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -684,7 +684,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -707,3 +707,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

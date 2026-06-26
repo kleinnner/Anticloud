@@ -1,19 +1,19 @@
-ï»¿<!-- ASCII Art for His-11 -->
+<!-- ASCII Art for His-11 -->
 
 
-â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â•šâ•â•â–ˆâ–ˆâ•”â•â•â•
-â–ˆâ–ˆâ•”â–ˆâ–ˆâ•— â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   
-â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â•šâ•â•â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   
-â–ˆâ–ˆâ•‘ â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•   â–ˆâ–ˆâ•‘   
-â•šâ•â•  â•šâ•â•â•â•   â•šâ•â•   â•šâ•â•â•â•â•â•â•â•šâ•â•â•â•â•â•â•â•šâ•â•â•â•â•â•â• â•šâ•â•â•â•â•â•â•šâ•â•  â•šâ•â•â•šâ•â•â•â•â•â•â•â•šâ•â•  â•šâ•â•â•šâ•â•  â•šâ•â• â•šâ•â•â•â•â•â•    â•šâ•â•   
+¦¦¦+   ¦¦+¦¦¦¦¦¦¦¦+¦¦¦¦¦¦¦+¦¦+     ¦¦¦¦¦¦¦+ ¦¦¦¦¦¦+ ¦¦¦¦¦+ ¦¦¦¦¦¦¦+¦¦+  ¦¦+¦¦¦¦¦¦+ ¦¦+   ¦¦+¦¦¦¦¦¦¦¦+
+¦¦¦¦+  ¦¦¦+--¦¦+--+¦¦+----+¦¦¦     ¦¦+----+¦¦+----+¦¦+--¦¦+¦¦+----+¦¦¦  ¦¦¦¦¦+--¦¦+¦¦¦   ¦¦¦+--¦¦+--+
+¦¦+¦¦+ ¦¦¦   ¦¦¦   ¦¦¦¦¦+  ¦¦¦     ¦¦¦¦¦+  ¦¦¦     ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦+¦¦¦¦¦¦¦¦¦¦¦¦¦¦++¦¦¦   ¦¦¦   ¦¦¦   
+¦¦¦+¦¦+¦¦¦   ¦¦¦   ¦¦+--+  ¦¦¦     ¦¦+--+  ¦¦¦     ¦¦+--¦¦¦+----¦¦¦¦¦+--¦¦¦¦¦+--¦¦+¦¦¦   ¦¦¦   ¦¦¦   
+¦¦¦ +¦¦¦¦¦   ¦¦¦   ¦¦¦¦¦¦¦+¦¦¦¦¦¦¦+¦¦¦¦¦¦¦++¦¦¦¦¦¦+¦¦¦  ¦¦¦¦¦¦¦¦¦¦¦¦¦¦  ¦¦¦¦¦¦  ¦¦¦+¦¦¦¦¦¦++   ¦¦¦   
++-+  +---+   +-+   +------++------++------+ +-----++-+  +-++------++-+  +-++-+  +-+ +-----+    +-+   
 
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â• â–ˆâ–ˆâ•”â•â•â•â•â•
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•  â•šâ•â•â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â•šâ•â•â•â•â–ˆâ–ˆâ•‘
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘
-   â•šâ•â•   â•šâ•â•  â•šâ•â• â•šâ•â•â•â•â•â•  â•šâ•â•â•â•â•â• â•šâ•â•  â•šâ•â•â•šâ•â•â•â•â•â•â•â•šâ•â•â•â•â•â•â•â•šâ•â•â•â•â•â•â•â•šâ•â•  â•šâ•â• â•šâ•â•â•â•â•â•  â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â•
+¦¦¦¦¦¦¦¦+¦¦¦¦¦¦+  ¦¦¦¦¦¦+ ¦¦+   ¦¦+¦¦¦¦¦¦+ ¦¦+     ¦¦¦¦¦¦¦+¦¦¦¦¦¦¦+¦¦+  ¦¦+ ¦¦¦¦¦¦+  ¦¦¦¦¦¦+ ¦¦¦¦¦¦¦+
++--¦¦+--+¦¦+--¦¦+¦¦+---¦¦+¦¦¦   ¦¦¦¦¦+--¦¦+¦¦¦     ¦¦+----+¦¦+----+¦¦¦  ¦¦¦¦¦+---¦¦+¦¦+----+ ¦¦+----+
+   ¦¦¦   ¦¦¦¦¦¦++¦¦¦   ¦¦¦¦¦¦   ¦¦¦¦¦¦¦¦¦++¦¦¦     ¦¦¦¦¦+  ¦¦¦¦¦¦¦+¦¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦  ¦¦¦+¦¦¦¦¦¦¦+
+   ¦¦¦   ¦¦+--¦¦+¦¦¦   ¦¦¦¦¦¦   ¦¦¦¦¦+--¦¦+¦¦¦     ¦¦+--+  +----¦¦¦¦¦+--¦¦¦¦¦¦   ¦¦¦¦¦¦   ¦¦¦+----¦¦¦
+   ¦¦¦   ¦¦¦  ¦¦¦+¦¦¦¦¦¦+++¦¦¦¦¦¦++¦¦¦  ¦¦¦¦¦¦¦¦¦¦+¦¦¦¦¦¦¦+¦¦¦¦¦¦¦¦¦¦¦  ¦¦¦+¦¦¦¦¦¦+++¦¦¦¦¦¦++¦¦¦¦¦¦¦¦
+   +-+   +-+  +-+ +-----+  +-----+ +-+  +-++------++------++------++-+  +-+ +-----+  +-----+ +------+
 
 *Lois-Kleinner and 0-1.gg 2026 - Inte11ect Platform Documentation*
 *Confidential - All Rights Reserved*
@@ -23,8 +23,8 @@
 
 # Troubleshooting
 
-> **Associated Module:** His-11 â€” Diagnostics & Error Resolution
-> **Tutorial 10 of 12** â€” Estimated reading time: 18 min | Hands-on time: 20 min
+> **Associated Module:** His-11 — Diagnostics & Error Resolution
+> **Tutorial 10 of 12** — Estimated reading time: 18 min | Hands-on time: 20 min
 
 ## Overview
 
@@ -44,7 +44,7 @@ Topics covered:
 
 ---
 
-## Section 1 â€” The Diagnostic Toolkit
+## Section 1 — The Diagnostic Toolkit
 
 ### Built-in Diagnostics
 
@@ -61,25 +61,25 @@ inte11ect doctor --all
 ```bash
 inte11ect doctor
 
-# â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
-# â•‘  Inte11ect Diagnostic Report                         â•‘
-# â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•£
-# â•‘  System                                               â•‘
-# â•‘  â”œâ”€ OS: Windows 11 Pro (build 22631)                 â•‘
-# â•‘  â”œâ”€ CPU: Intel Core i9-14900K (24 cores, 32 threads) â•‘
-# â•‘  â”œâ”€ RAM: 63.8 GB (42.1 GB available)                 â•‘
-# â•‘  â”œâ”€ Disk: 142 GB free (NVMe)                         â•‘
-# â•‘  â””â”€ GPU: NVIDIA RTX 4090 (24 GB, driver 551.86)      â•‘
-# â•‘  Inte11ect                                            â•‘
-# â•‘  â”œâ”€ Version: 1.2.3 (build 20260619)                  â•‘
-# â•‘  â”œâ”€ Data dir: ~/.inte11ect (valid)                   â•‘
-# â•‘  â”œâ”€ Config: ~/.inte11ect/config.toml (valid)         â•‘
-# â•‘  â”œâ”€ Models: 2 installed (Qwen2-VL-2B, Mistral-7B)   â•‘
-# â•‘  â”œâ”€ Modules: 47/72 active                            â•‘
-# â•‘  â”œâ”€ GOD-11: Running (eigenvector router)             â•‘
-# â•‘  â”œâ”€ Ledger: âœ“ Integrity verified (12,847 entries)    â•‘
-# â•‘  â””â”€ API: Listening on 0.0.0.0:8080 âœ“                â•‘
-# â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+# +------------------------------------------------------+
+# ¦  Inte11ect Diagnostic Report                         ¦
+# ¦------------------------------------------------------¦
+# ¦  System                                               ¦
+# ¦  +- OS: Windows 11 Pro (build 22631)                 ¦
+# ¦  +- CPU: Intel Core i9-14900K (24 cores, 32 threads) ¦
+# ¦  +- RAM: 63.8 GB (42.1 GB available)                 ¦
+# ¦  +- Disk: 142 GB free (NVMe)                         ¦
+# ¦  +- GPU: NVIDIA RTX 4090 (24 GB, driver 551.86)      ¦
+# ¦  Inte11ect                                            ¦
+# ¦  +- Version: 1.2.3 (build 20260619)                  ¦
+# ¦  +- Data dir: ~/.inte11ect (valid)                   ¦
+# ¦  +- Config: ~/.inte11ect/config.toml (valid)         ¦
+# ¦  +- Models: 2 installed (Qwen2-VL-2B, Mistral-7B)   ¦
+# ¦  +- Modules: 47/72 active                            ¦
+# ¦  +- GOD-11: Running (eigenvector router)             ¦
+# ¦  +- Ledger: ? Integrity verified (12,847 entries)    ¦
+# ¦  +- API: Listening on 0.0.0.0:8080 ?                ¦
+# +------------------------------------------------------+
 ```
 
 ### Log Files
@@ -103,7 +103,7 @@ inte11ect log tail --level error --lines 50
 
 ---
 
-## Section 2 â€” Installation Issues
+## Section 2 — Installation Issues
 
 ### "Application won't launch"
 
@@ -164,7 +164,7 @@ export INTELLECT_DATA_DIR=/path/to/writable/dir
 
 ---
 
-## Section 3 â€” Model Issues
+## Section 3 — Model Issues
 
 ### "Model download fails"
 
@@ -239,13 +239,13 @@ inte11ect models verify Qwen2-VL-2B-Instruct --component vision
 inte11ect models download Qwen/Qwen2-VL-2B-Instruct --components vision
 
 # Supported image formats: PNG, JPEG, WebP, BMP
-# Max resolution: 2048Ã—2048
+# Max resolution: 2048×2048
 # Max file size: 20 MB
 ```
 
 ---
 
-## Section 4 â€” GOD-11 Issues
+## Section 4 — GOD-11 Issues
 
 ### "Router returning suboptimal paths"
 
@@ -317,7 +317,7 @@ inte11ect god config --set affinity.<module_id>=0.9
 
 ---
 
-## Section 5 â€” Module Issues
+## Section 5 — Module Issues
 
 ### "Module fails to enable"
 
@@ -397,7 +397,7 @@ inte11ect module kill <module_id>
 
 ---
 
-## Section 6 â€” Ledger Issues
+## Section 6 — Ledger Issues
 
 ### "Integrity check failed"
 
@@ -465,7 +465,7 @@ inte11ect ledger --config "auto_prune_days=90"
 
 ---
 
-## Section 7 â€” Performance Issues
+## Section 7 — Performance Issues
 
 ### "Slow inference"
 
@@ -534,7 +534,7 @@ inte11ect config --set router.eigenvector_iterations=20
 
 ---
 
-## Section 8 â€” Network and API Issues
+## Section 8 — Network and API Issues
 
 ### "Cannot connect to API"
 
@@ -598,7 +598,7 @@ inte11ect config --set api.tls_key=/path/to/key.pem
 
 ---
 
-## Section 9 â€” Build Issues
+## Section 9 — Build Issues
 
 ### "Rust compilation error"
 
@@ -652,7 +652,7 @@ npm run build
 
 ---
 
-## Section 10 â€” Crash Recovery
+## Section 10 — Crash Recovery
 
 ### Application Crash
 
@@ -696,7 +696,7 @@ inte11ect --safe-mode
 
 ---
 
-## Section 11 â€” Error Code Reference
+## Section 11 — Error Code Reference
 
 | Code | Meaning | Common Cause |
 |------|---------|--------------|
@@ -718,7 +718,7 @@ inte11ect --safe-mode
 
 ---
 
-## Section 12 â€” Getting Help
+## Section 12 — Getting Help
 
 ```bash
 # Built-in help
@@ -742,14 +742,14 @@ inte11ect version
 
 ## Next Steps
 
-- [11-tutorial.md](./11-tutorial.md) â€” Security best practices
-- [12-tutorial.md](./12-tutorial.md) â€” Exporting and sharing logs
-- [01-tutorial.md](./01-tutorial.md) â€” Getting started in 10 minutes
-- [08-tutorial.md](./08-tutorial.md) â€” Performance tuning
+- [11-tutorial.md](./11-tutorial.md) — Security best practices
+- [12-tutorial.md](./12-tutorial.md) — Exporting and sharing logs
+- [01-tutorial.md](./01-tutorial.md) — Getting started in 10 minutes
+- [08-tutorial.md](./08-tutorial.md) — Performance tuning
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 â€” Confidential*
+*Lois-Kleinner and 0-1.gg 2026 — Confidential*
 
 ```
 .====================================================================.
@@ -760,7 +760,7 @@ inte11ect version
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -783,3 +783,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

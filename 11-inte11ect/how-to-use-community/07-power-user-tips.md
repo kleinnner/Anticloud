@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║           HOW-TO-USE COMMUNITY — POWER USER TIPS                     ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �           HOW-TO-USE COMMUNITY � POWER USER TIPS                     �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -84,9 +84,9 @@ Always provide [SPECIFIC OUTPUT FORMAT].
 
 ## Few-Shot Prompting
 Convert these dates to ISO format:
-Input: "March 15, 2024" → Output: "2024-03-15"
-Input: "Jan 3, 2023" → Output: "2023-01-03"
-Input: "December 25, 2025" → Output:
+Input: "March 15, 2024" ? Output: "2024-03-15"
+Input: "Jan 3, 2023" ? Output: "2023-01-03"
+Input: "December 25, 2025" ? Output:
 ```
 
 ### System Prompt Templates
@@ -765,7 +765,7 @@ inte11ect benchmark --prompt "What is the capital of France?" \
 | Export and delete | ~100% | Quarterly |
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -777,7 +777,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -800,3 +800,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

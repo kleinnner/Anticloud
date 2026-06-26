@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║                   FAQS — SECURITY & COMPLIANCE                       ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �                   FAQS � SECURITY & COMPLIANCE                       �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -396,16 +396,16 @@ graph LR
 
 | Requirement | SOC 2 | GDPR | HIPAA | Implementation |
 |---|---|---|---|---|
-| Access control | ✓ | ✓ | ✓ | RBAC + MFA |
-| Encryption at rest | ✓ | ✓ | ✓ | AES-256-GCM |
-| Encryption in transit | ✓ | ✓ | ✓ | TLS 1.3 |
-| Audit logging | ✓ | ✓ | ✓ | Immutable ledger |
-| Data retention | ✓ | ✓ | ✓ | Configurable policies |
-| Breach notification | ✓ | ✓ | ✓ | Automated alerts |
-| Data portability | | ✓ | ✓ | Export API |
-| Right to deletion | | ✓ | | Account deletion |
-| BAA agreement | | | ✓ | Enterprise tier |
-| Penetration testing | ✓ | | ✓ | Quarterly |
+| Access control | ? | ? | ? | RBAC + MFA |
+| Encryption at rest | ? | ? | ? | AES-256-GCM |
+| Encryption in transit | ? | ? | ? | TLS 1.3 |
+| Audit logging | ? | ? | ? | Immutable ledger |
+| Data retention | ? | ? | ? | Configurable policies |
+| Breach notification | ? | ? | ? | Automated alerts |
+| Data portability | | ? | ? | Export API |
+| Right to deletion | | ? | | Account deletion |
+| BAA agreement | | | ? | Enterprise tier |
+| Penetration testing | ? | | ? | Quarterly |
 
 ---
 
@@ -1001,7 +1001,7 @@ mQINBGPX3aEBEAC7y0KJ3sR8GJcX9hR1V0GP0NhJ8kH5pN2qL3nKf5T2qL3n
 ---
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -1013,7 +1013,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -1036,3 +1036,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

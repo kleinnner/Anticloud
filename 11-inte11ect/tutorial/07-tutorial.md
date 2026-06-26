@@ -1,19 +1,19 @@
-ï»¿<!-- ASCII Art for Psy-11 -->
+<!-- ASCII Art for Psy-11 -->
 
 
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—
-â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â•šâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•”â•
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•”â• â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘ â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•”â• 
-â–ˆâ–ˆâ•”â•â•â•â• â•šâ•â•â•â•â–ˆâ–ˆâ•‘  â•šâ–ˆâ–ˆâ•”â•  â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘  â•šâ–ˆâ–ˆâ•”â•  
-â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•   â–ˆâ–ˆâ•‘   
-â•šâ•â•     â•šâ•â•â•â•â•â•â•   â•šâ•â•    â•šâ•â•â•â•â•â•â•šâ•â•  â•šâ•â• â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â• â•šâ•â•â•â•â•â•  â•šâ•â•â•â•â•â•    â•šâ•â•   
+¦¦¦¦¦¦+ ¦¦¦¦¦¦¦+¦¦+   ¦¦+ ¦¦¦¦¦¦+¦¦+  ¦¦+ ¦¦¦¦¦¦+ ¦¦+      ¦¦¦¦¦¦+  ¦¦¦¦¦¦+ ¦¦+   ¦¦+
+¦¦+--¦¦+¦¦+----++¦¦+ ¦¦++¦¦+----+¦¦¦  ¦¦¦¦¦+---¦¦+¦¦¦     ¦¦+---¦¦+¦¦+---¦¦++¦¦+ ¦¦++
+¦¦¦¦¦¦++¦¦¦¦¦¦¦+ +¦¦¦¦++ ¦¦¦     ¦¦¦¦¦¦¦¦¦¦¦   ¦¦¦¦¦¦     ¦¦¦   ¦¦¦¦¦¦   ¦¦¦ +¦¦¦¦++ 
+¦¦+---+ +----¦¦¦  +¦¦++  ¦¦¦     ¦¦+--¦¦¦¦¦¦   ¦¦¦¦¦¦     ¦¦¦   ¦¦¦¦¦¦   ¦¦¦  +¦¦++  
+¦¦¦     ¦¦¦¦¦¦¦¦   ¦¦¦   +¦¦¦¦¦¦+¦¦¦  ¦¦¦+¦¦¦¦¦¦++¦¦¦¦¦¦¦++¦¦¦¦¦¦+++¦¦¦¦¦¦++   ¦¦¦   
++-+     +------+   +-+    +-----++-+  +-+ +-----+ +------+ +-----+  +-----+    +-+   
 
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ•”â•â•â•â•â•
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     â•šâ•â•â•â•â–ˆâ–ˆâ•‘
-   â–ˆâ–ˆâ•‘   â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘
-   â•šâ•â•    â•šâ•â•â•â•â•â•  â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â•â•šâ•â•â•â•â•â•â•
+¦¦¦¦¦¦¦¦+ ¦¦¦¦¦¦+  ¦¦¦¦¦¦+ ¦¦+     ¦¦¦¦¦¦¦+
++--¦¦+--+¦¦+---¦¦+¦¦+---¦¦+¦¦¦     ¦¦+----+
+   ¦¦¦   ¦¦¦   ¦¦¦¦¦¦   ¦¦¦¦¦¦     ¦¦¦¦¦¦¦+
+   ¦¦¦   ¦¦¦   ¦¦¦¦¦¦   ¦¦¦¦¦¦     +----¦¦¦
+   ¦¦¦   +¦¦¦¦¦¦+++¦¦¦¦¦¦++¦¦¦¦¦¦¦+¦¦¦¦¦¦¦¦
+   +-+    +-----+  +-----+ +------++------+
 
 *Lois-Kleinner and 0-1.gg 2026 - Inte11ect Platform Documentation*
 *Confidential - All Rights Reserved*
@@ -23,8 +23,8 @@
 
 # Integrating with Other Tools
 
-> **Associated Module:** Psy-11 â€” External Integration & Protocol Adapter
-> **Tutorial 07 of 12** â€” Estimated reading time: 15 min | Hands-on time: 20 min
+> **Associated Module:** Psy-11 — External Integration & Protocol Adapter
+> **Tutorial 07 of 12** — Estimated reading time: 15 min | Hands-on time: 20 min
 
 ## Overview
 
@@ -43,7 +43,7 @@ This tutorial covers:
 
 ---
 
-## Section 1 â€” Architecture Overview
+## Section 1 — Architecture Overview
 
 ```mermaid
 flowchart LR
@@ -96,7 +96,7 @@ flowchart LR
 
 ---
 
-## Section 2 â€” REST API Integration
+## Section 2 — REST API Integration
 
 The primary integration point is the REST API, available on port 8080 by default.
 
@@ -214,7 +214,7 @@ curl -N -X POST http://localhost:8080/api/v1/infer/stream \
 
 ---
 
-## Section 3 â€” WebSocket Integration
+## Section 3 — WebSocket Integration
 
 For bidirectional, real-time communication, use WebSocket:
 
@@ -263,7 +263,7 @@ ws.onmessage = (event) => {
 
 ---
 
-## Section 4 â€” Server-Sent Events (SSE)
+## Section 4 — Server-Sent Events (SSE)
 
 SSE is ideal for one-way streaming from server to client.
 
@@ -321,7 +321,7 @@ for event in client.events():
 
 ---
 
-## Section 5 â€” MCP Integration
+## Section 5 — MCP Integration
 
 Inte11ect supports the Model Context Protocol (MCP), allowing it to act as an MCP server that other MCP-compatible tools can connect to.
 
@@ -361,7 +361,7 @@ print(resource)
 
 ---
 
-## Section 6 â€” gRPC Integration
+## Section 6 — gRPC Integration
 
 For high-performance internal services, gRPC is available:
 
@@ -429,7 +429,7 @@ async fn main() -> Result<()> {
 
 ---
 
-## Section 7 â€” MQTT Integration
+## Section 7 — MQTT Integration
 
 For IoT and edge deployments:
 
@@ -455,7 +455,7 @@ mosquitto_sub -h broker.example.com -t "inte11ect/response"
 
 ---
 
-## Section 8 â€” CI/CD Integration
+## Section 8 — CI/CD Integration
 
 ### GitHub Actions
 
@@ -509,7 +509,7 @@ inte11ect-test:
 
 ---
 
-## Section 9 â€” SDK Usage
+## Section 9 — SDK Usage
 
 ### TypeScript SDK
 
@@ -615,7 +615,7 @@ async fn main() -> Result<()> {
 
 ---
 
-## Section 10 â€” Webhook Integration
+## Section 10 — Webhook Integration
 
 ```toml
 [webhooks]
@@ -651,7 +651,7 @@ backoff_seconds = [10, 60, 300]
 
 ---
 
-## Section 11 â€” Configuration Reference
+## Section 11 — Configuration Reference
 
 ```toml
 [api]
@@ -701,7 +701,7 @@ server_name = "Inte11ect MCP Server"
 
 ---
 
-## Section 12 â€” Troubleshooting
+## Section 12 — Troubleshooting
 
 ### "Connection refused"
 
@@ -748,14 +748,14 @@ inte11ect api config --set rate_limit_per_minute=300
 
 ## Next Steps
 
-- [08-tutorial.md](./08-tutorial.md) â€” Performance tuning
-- [09-tutorial.md](./09-tutorial.md) â€” Building from source
-- [05-features.md](../features/05-features.md) â€” Streaming inference & SSE transport
-- [10-features.md](../features/10-features.md) â€” Frontend architecture
+- [08-tutorial.md](./08-tutorial.md) — Performance tuning
+- [09-tutorial.md](./09-tutorial.md) — Building from source
+- [05-features.md](../features/05-features.md) — Streaming inference & SSE transport
+- [10-features.md](../features/10-features.md) — Frontend architecture
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 â€” Confidential*
+*Lois-Kleinner and 0-1.gg 2026 — Confidential*
 
 ```
 .====================================================================.
@@ -766,7 +766,7 @@ inte11ect api config --set rate_limit_per_minute=300
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -789,3 +789,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

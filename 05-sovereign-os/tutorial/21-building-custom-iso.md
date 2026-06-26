@@ -1,4 +1,4 @@
-﻿# Building a Custom ISO
+# Building a Custom ISO
 
 This guide explains how to build a custom 01s Sovereign ISO with your own modifications.
 
@@ -431,28 +431,28 @@ isoinfo -R -f -i out/*.iso | grep grub
 
 ## Further Reading
 
-- [Post-Installation Setup](07-post-installation-setup.md) â€” After ISO install
-- [QEMU Testing](22-qemu-testing.md) â€” Testing custom ISOs
-- [Day1 ISO Build System](../features/02-day1-iso-build-system.md) â€” Build system details
-- [Building from Source](../developers/03-building-from-source.md) â€” Source build
-- [Contributing Back](25-contributing-back.md) â€” Share your ISO config
-- [Installation FAQ](../faq/02-installation-faq.md) â€” Common issues
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Boot issues
-- [Package Maintainer Guide](../developers/16-package-maintainer-guide.md) â€” Packages
-- [Enterprise Deployment](../enterprise/02-deployment-models.md) â€” Mass deployment
-- [SBOM Overview](../bdr/04-sbom-overview.md) â€” Software bill of materials
+- [Post-Installation Setup](07-post-installation-setup.md) — After ISO install
+- [QEMU Testing](22-qemu-testing.md) — Testing custom ISOs
+- [Day1 ISO Build System](../features/02-day1-iso-build-system.md) — Build system details
+- [Building from Source](../developers/03-building-from-source.md) — Source build
+- [Contributing Back](25-contributing-back.md) — Share your ISO config
+- [Installation FAQ](../faq/02-installation-faq.md) — Common issues
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Boot issues
+- [Package Maintainer Guide](../developers/16-package-maintainer-guide.md) — Packages
+- [Enterprise Deployment](../enterprise/02-deployment-models.md) — Mass deployment
+- [SBOM Overview](../bdr/04-sbom-overview.md) — Software bill of materials
 
 ## Build Profile Structure
 
 ```
 releng/
-â”œâ”€â”€ airootfs/etc/skel/     # Skeleton files
-â”œâ”€â”€ airootfs/etc/pacman.d/ # Repository configs
-â”œâ”€â”€ efiboot/               # UEFI boot loader
-â”œâ”€â”€ isolinux/              # BIOS boot loader
-â”œâ”€â”€ profiledef.sh          # Build profile
-â”œâ”€â”€ packages.x86_64        # Package list
-â””â”€â”€ pacman.conf            # pacman config
+├── airootfs/etc/skel/     # Skeleton files
+├── airootfs/etc/pacman.d/ # Repository configs
+├── efiboot/               # UEFI boot loader
+├── isolinux/              # BIOS boot loader
+├── profiledef.sh          # Build profile
+├── packages.x86_64        # Package list
+└── pacman.conf            # pacman config
 ```
 
 ## packages.x86_64 Example
@@ -661,7 +661,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -684,3 +684,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

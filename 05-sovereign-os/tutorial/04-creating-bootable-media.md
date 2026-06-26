@@ -1,6 +1,6 @@
-﻿# Creating Bootable Media
+# Creating Bootable Media
 
-This guide explains how to write the 01s Sovereign ISO to bootable media â€” USB flash drive, DVD, or virtual machine disk.
+This guide explains how to write the 01s Sovereign ISO to bootable media — USB flash drive, DVD, or virtual machine disk.
 
 ## Before You Start
 
@@ -534,15 +534,15 @@ qemu-system-x86_64 -cdrom /dev/sdX -m 2048
 
 ## Further Reading
 
-- [Downloading the ISO](03-downloading-the-iso.md) â€” ISO acquisition
-- [First Boot Walkthrough](05-first-boot-walkthrough.md) â€” Initial system boot
-- [Installation Guide](06-installation-guide.md) â€” Full installation steps
-- [QEMU Testing Guide](22-qemu-testing.md) â€” Testing without physical media
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Solving boot issues
-- [ISO Build System](../features/02-day1-iso-build-system.md) â€” Build pipeline
-- [Dual-Boot Setup](../help/04-dual-boot-troubleshooting.md) â€” Multi-OS configuration
-- [Installation FAQ](../faq/02-installation-faq.md) â€” Common installation issues
-- [Community Forums](../community/04-communication-channels.md) â€” Get help
+- [Downloading the ISO](03-downloading-the-iso.md) — ISO acquisition
+- [First Boot Walkthrough](05-first-boot-walkthrough.md) — Initial system boot
+- [Installation Guide](06-installation-guide.md) — Full installation steps
+- [QEMU Testing Guide](22-qemu-testing.md) — Testing without physical media
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Solving boot issues
+- [ISO Build System](../features/02-day1-iso-build-system.md) — Build pipeline
+- [Dual-Boot Setup](../help/04-dual-boot-troubleshooting.md) — Multi-OS configuration
+- [Installation FAQ](../faq/02-installation-faq.md) — Common installation issues
+- [Community Forums](../community/04-communication-channels.md) — Get help
 
 ## Write Verification Methods
 
@@ -668,7 +668,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -691,3 +691,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Feature Requests
@@ -64,11 +64,11 @@ Screenshots, diagrams, or references.
 ## Feature Lifecycle
 
 ```
-┌──────────┐    ┌───────────┐    ┌────────────┐    ┌──────────┐    ┌──────────┐
-│ Idea     │───>│ Discussion│───>│ RFC        │───>│ Implement│───>│ Shipped  │
-│ (GitHub  │    │ (feedback)│    │ (design)   │    │ (PR)     │    │ (release)│
-│ Discuss) │    │           │    │            │    │          │    │          │
-└──────────┘    └───────────┘    └────────────┘    └──────────┘    └──────────┘
++----------+    +-----------+    +------------+    +----------+    +----------+
+� Idea     �--->� Discussion�--->� RFC        �--->� Implement�--->� Shipped  �
+� (GitHub  �    � (feedback)�    � (design)   �    � (PR)     �    � (release)�
+� Discuss) �    �           �    �            �    �          �    �          �
++----------+    +-----------+    +------------+    +----------+    +----------+
 ```
 
 ## Voting and Prioritization
@@ -78,10 +78,10 @@ Screenshots, diagrams, or references.
 Vote on feature requests using GitHub's reaction system:
 
 ```
-👍 +1  I want this
-❤️      I love this idea
-🚀     This would be a game changer
-👀     I'm watching this
+?? +1  I want this
+??      I love this idea
+??     This would be a game changer
+??     I'm watching this
 ```
 
 ### Priority Tiers
@@ -98,7 +98,7 @@ Vote on feature requests using GitHub's reaction system:
 Features are prioritized using a Community Impact Score:
 
 ```
-Score = (👍 reactions × 1) + (❤️ reactions × 2) + (🚀 reactions × 3) + (sponsor_weight)
+Score = (?? reactions � 1) + (?? reactions � 2) + (?? reactions � 3) + (sponsor_weight)
 ```
 
 - Sponsor weight: Gold = 5, Silver = 3, Bronze = 1
@@ -122,18 +122,18 @@ Feature: Custom SQL UDFs (#142)
   Owner:      @rustacean
   Assigned:   2026-05-01
   Target:     v0.7.0
-  Votes:      232 👍, 89 ❤️, 45 🚀
-  CI:         ✓ Build, ✓ Tests, ◷ Bench
+  Votes:      232 ??, 89 ??, 45 ??
+  CI:         ? Build, ? Tests, ? Bench
   Ledger:     entry #891 (signed)
 
 Feature: GPU Acceleration (#156)
   Status:     RFC Review
   RFC:        rfcs/0156-gpu-accel.md
   Owner:      TBD
-  Assigned:   —
+  Assigned:   �
   Target:     v0.9.0
-  Votes:      89 👍, 34 ❤️, 12 🚀
-  CI:         —
+  Votes:      89 ??, 34 ??, 12 ??
+  CI:         �
   Ledger:     entry #892 (signed)
 ```
 
@@ -165,8 +165,8 @@ kazkade ledger feature-create \
 ### State Transitions
 
 ```
-Proposed → Under Review → Approved → In Progress → Shipped
-              ↓
+Proposed ? Under Review ? Approved ? In Progress ? Shipped
+              ?
            Rejected
 ```
 
@@ -237,18 +237,18 @@ kazkade dashboard --features
 View:
 
 ```
-┌─────────────────────────────────────────────┐
-│ Feature Roadmap          v0.7.0 (Aug 2026) │
-├─────────────────────────────────────────────┤
-│ ◌ Custom SQL UDFs     ████████░░ 80%  @alice│
-│ ◌ SVE Optimization    ████░░░░░░ 40%  @bob  │
-│ ◌ WASM Plugin SDK     ██░░░░░░░░ 20%  @carol│
-│                                             │
-│ v0.8.0 (Nov 2026)                           │
-│ ◌ GPU Acceleration      Planned             │
-│ ◌ WebAssembly GC        Proposed            │
-│ ◌ Python SDK v2         Under Review        │
-└─────────────────────────────────────────────┘
++---------------------------------------------+
+� Feature Roadmap          v0.7.0 (Aug 2026) �
++---------------------------------------------�
+� ? Custom SQL UDFs     ���������� 80%  @alice�
+� ? SVE Optimization    ���������� 40%  @bob  �
+� ? WASM Plugin SDK     ���������� 20%  @carol�
+�                                             �
+� v0.8.0 (Nov 2026)                           �
+� ? GPU Acceleration      Planned             �
+� ? WebAssembly GC        Proposed            �
+� ? Python SDK v2         Under Review        �
++---------------------------------------------+
 ```
 
 ## Submitting Good Feature Requests
@@ -281,7 +281,7 @@ Feedback is recorded in the ledger and reviewed by maintainers.
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -292,7 +292,7 @@ Feedback is recorded in the ledger and reviewed by maintainers.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -315,3 +315,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

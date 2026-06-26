@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # Privacy Compliance
@@ -15,7 +15,7 @@
 
 Kazkade's privacy architecture is designed to satisfy major privacy regulations. This document provides a detailed mapping of regulatory requirements to specific implementation details.
 
-> "Compliance is not a feature. It is a property of a well-designed system." â€” Kazkade Compliance Philosophy
+> "Compliance is not a feature. It is a property of a well-designed system." — Kazkade Compliance Philosophy
 
 ---
 
@@ -55,18 +55,18 @@ Kazkade's privacy architecture is designed to satisfy major privacy regulations.
 
 | Section | Requirement | Kazkade Implementation |
 |---------|-------------|----------------------|
-| Â§1798.100 | Right to know | `kazkade data export` to view all data. |
-| Â§1798.105 | Right to delete | `kazkade data delete --all` with confirmation. |
-| Â§1798.110 | Specific pieces of information | JSON export of specific datasets. |
-| Â§1798.115 | Right to opt-out | Default opt-out. `data.sharing=never` config. |
-| Â§1798.120 | Right to non-discrimination | All features available without sharing. |
-| Â§1798.125 | Financial incentive notice | N/A - No financial incentives. |
-| Â§1798.130 | Methods for submitting requests | CLI commands. Dashboard UI. API. |
-| Â§1798.135 | Notice of collection | Displayed before any sharing. |
+| §1798.100 | Right to know | `kazkade data export` to view all data. |
+| §1798.105 | Right to delete | `kazkade data delete --all` with confirmation. |
+| §1798.110 | Specific pieces of information | JSON export of specific datasets. |
+| §1798.115 | Right to opt-out | Default opt-out. `data.sharing=never` config. |
+| §1798.120 | Right to non-discrimination | All features available without sharing. |
+| §1798.125 | Financial incentive notice | N/A - No financial incentives. |
+| §1798.130 | Methods for submitting requests | CLI commands. Dashboard UI. API. |
+| §1798.135 | Notice of collection | Displayed before any sharing. |
 
 ---
 
-## Lei Geral de ProteÃ§Ã£o de Dados (LGPD) - Brazil
+## Lei Geral de Proteção de Dados (LGPD) - Brazil
 
 | Article | Requirement | Kazkade Implementation |
 |---------|-------------|----------------------|
@@ -117,9 +117,9 @@ GDPR Compliance:
   [PASS] Art. 32: Security of processing
 
 CCPA Compliance:
-  [PASS] Â§1798.100: Right to know
-  [PASS] Â§1798.105: Right to delete
-  [PASS] Â§1798.115: Right to opt-out
+  [PASS] §1798.100: Right to know
+  [PASS] §1798.105: Right to delete
+  [PASS] §1798.115: Right to opt-out
 
 LGPD Compliance:
   [PASS] Art. 8: Consent
@@ -202,7 +202,7 @@ Kazkade's local-first architecture simplifies international data transfers:
 | Regulation | Requirement | Kazkade Compliance |
 |-----------|-------------|-------------------|
 | GDPR Art. 44-49 | International transfer restrictions | No transfers occur. Data stays local. |
-| CCPA Â§1798.100 | Cross-border disclosure | N/A - No data transferred. |
+| CCPA §1798.100 | Cross-border disclosure | N/A - No data transferred. |
 | LGPD Art. 33 | International transfer | N/A - Local processing only. |
 | PIPEDA 4.1.3 | Cross-border considerations | N/A - Local processing only. |
 
@@ -226,7 +226,7 @@ Data affected:
 
 Regulatory notifications:
   GDPR Art. 33: NOT REQUIRED (no data breach)
-  CCPA Â§1798.81.5: NOT REQUIRED (no data breach)
+  CCPA §1798.81.5: NOT REQUIRED (no data breach)
   LGPD Art. 48: NOT REQUIRED (no data breach)
 ```
 
@@ -234,10 +234,10 @@ Regulatory notifications:
 
 ## Related Documentation
 
-- [Data Collection Policy](./data-collection-policy.md) â€” What is collected
-- [Privacy by Design](./privacy-by-design.md) â€” Architecture principles
-- [Consent Management](./consent-management.md) â€” User consent
-- [Data Minimization](./data-minimization.md) â€” Retention and deletion
+- [Data Collection Policy](./data-collection-policy.md) — What is collected
+- [Privacy by Design](./privacy-by-design.md) — Architecture principles
+- [Consent Management](./consent-management.md) — User consent
+- [Data Minimization](./data-minimization.md) — Retention and deletion
 
 ---
 
@@ -262,7 +262,7 @@ kazkade compliance --list
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -273,7 +273,7 @@ kazkade compliance --list
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -296,3 +296,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

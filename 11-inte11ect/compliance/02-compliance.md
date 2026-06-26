@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — COMPLIANCE DOCUMENTATION          ║
-║                   02 — SOC2 DETAILED MAPPING                     ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � COMPLIANCE DOCUMENTATION          �
+�                   02 � SOC2 DETAILED MAPPING                     �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -31,11 +31,11 @@ This document maps SOC 2 Trust Service Criteria to Inte11ect's technical control
 
 | Trust Service Category | In Scope | Justification |
 |------------------------|----------|---------------|
-| Security | ✓ | Core to all operations |
-| Availability | ✓ | Engine must be available for processing |
-| Confidentiality | ✓ | Handles user data and AI outputs |
-| Processing Integrity | ✗ | N/A for AI inference engine |
-| Privacy | ✗ | Covered under GDPR separately |
+| Security | ? | Core to all operations |
+| Availability | ? | Engine must be available for processing |
+| Confidentiality | ? | Handles user data and AI outputs |
+| Processing Integrity | ? | N/A for AI inference engine |
+| Privacy | ? | Covered under GDPR separately |
 
 ---
 
@@ -87,46 +87,46 @@ graph TB
 
 | Ref | Control | Implementation | Status |
 |-----|---------|---------------|--------|
-| CC1.1 | Integrity & ethical values | Code of Conduct, open source | ✓ |
-| CC1.2 | Board oversight | Engineering management | ✓ |
-| CC1.3 | Organizational structure | GitHub teams defined | ✓ |
-| CC1.4 | Competence | Required skills matrix | ✓ |
-| CC1.5 | Accountability | CODEOWNERS, PR approvals | ✓ |
+| CC1.1 | Integrity & ethical values | Code of Conduct, open source | ? |
+| CC1.2 | Board oversight | Engineering management | ? |
+| CC1.3 | Organizational structure | GitHub teams defined | ? |
+| CC1.4 | Competence | Required skills matrix | ? |
+| CC1.5 | Accountability | CODEOWNERS, PR approvals | ? |
 
 ### CC2: Risk Assessment
 
 | Ref | Control | Implementation | Status |
 |-----|---------|---------------|--------|
-| CC2.1 | Risk identification | Automated dependency scanning | ✓ |
-| CC2.2 | Risk analysis | Severity classification | ✓ |
-| CC2.3 | Risk response | Automated fix PRs (Dependabot) | ✓ |
-| CC2.4 | Risk monitoring | Continuous audit via ledger | ✓ |
+| CC2.1 | Risk identification | Automated dependency scanning | ? |
+| CC2.2 | Risk analysis | Severity classification | ? |
+| CC2.3 | Risk response | Automated fix PRs (Dependabot) | ? |
+| CC2.4 | Risk monitoring | Continuous audit via ledger | ? |
 
 ### CC3: Information & Communication
 
 | Ref | Control | Implementation | Status |
 |-----|---------|---------------|--------|
-| CC3.1 | Quality information | Structured logging | ✓ |
-| CC3.2 | Internal communication | Slack/GitHub integration | ✓ |
-| CC3.3 | External communication | Security@ email, public docs | ✓ |
+| CC3.1 | Quality information | Structured logging | ? |
+| CC3.2 | Internal communication | Slack/GitHub integration | ? |
+| CC3.3 | External communication | Security@ email, public docs | ? |
 
 ### CC4: Monitoring
 
 | Ref | Control | Implementation | Status |
 |-----|---------|---------------|--------|
-| CC4.1 | Ongoing monitoring | Continuous ledger verification | ✓ |
+| CC4.1 | Ongoing monitoring | Continuous ledger verification | ? |
 | CC4.2 | Independent evaluation | External penetration testing | In progress |
-| CC4.3 | Deficiency evaluation | Automated alerting | ✓ |
-| CC4.4 | Remediation tracking | GitHub Issues tracking | ✓ |
+| CC4.3 | Deficiency evaluation | Automated alerting | ? |
+| CC4.4 | Remediation tracking | GitHub Issues tracking | ? |
 
 ### CC5: Control Activities
 
 | Ref | Control | Implementation | Status |
 |-----|---------|---------------|--------|
-| CC5.1 | Control selection | Compliance framework matrix | ✓ |
-| CC5.2 | Technology controls | .aioss ledger, Ed25519 proofs | ✓ |
-| CC5.3 | Segregation of duties | WASM sandbox, RBAC | ✓ |
-| CC5.4 | Policy enforcement | CI pipeline gates | ✓ |
+| CC5.1 | Control selection | Compliance framework matrix | ? |
+| CC5.2 | Technology controls | .aioss ledger, Ed25519 proofs | ? |
+| CC5.3 | Segregation of duties | WASM sandbox, RBAC | ? |
+| CC5.4 | Policy enforcement | CI pipeline gates | ? |
 
 ### CC6: Logical & Physical Access
 
@@ -517,7 +517,7 @@ impl EvidenceCollector {
 
 ```
 Evidence Type           Retention    Format
-─────────────────────────────────────────────
+---------------------------------------------
 .aioss Ledger           7 years      Binary/JSON
 Access Logs             1 year       JSON
 Configuration Changes   2 years      JSON/TOML
@@ -535,7 +535,7 @@ Audit Reports           7 years      PDF
 ### Readiness Checklist
 
 ```markdown
-## SOC 2 Type II — Audit Readiness
+## SOC 2 Type II � Audit Readiness
 
 ### Pre-Audit (T-90 days)
 [ ] Complete internal readiness assessment
@@ -798,7 +798,7 @@ echo "Deleted today: 0" >> "$EVIDENCE_DIR/retention-report.txt"
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -809,7 +809,7 @@ echo "Deleted today: 0" >> "$EVIDENCE_DIR/retention-report.txt"
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -832,3 +832,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

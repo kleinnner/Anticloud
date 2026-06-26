@@ -1,4 +1,4 @@
-﻿# Networking and Connectivity
+# Networking and Connectivity
 
 This guide covers network configuration on 01s Sovereign, including WiFi, Ethernet, VPN, and firewall setup.
 
@@ -491,16 +491,16 @@ ethogs or iftop to identify which applications consume the most bandwidth
 
 ## Further Reading
 
-- [Security Hardening](18-security-hardening.md) â€” Firewall and network security
-- [Post-Installation Setup](07-post-installation-setup.md) â€” Network setup
-- [Network Troubleshooting](../help/07-network-troubleshooting.md) â€” Solving issues
-- [Systemd Service Architecture](../features/17-systemd-service-architecture.md) â€” Service management
-- [Enterprise Deployment](../enterprise/02-deployment-models.md) â€” Network config
-- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) â€” Data in transit
-- [Encryption at Rest](../data-safety/06-encryption-at-rest-and-in-transit.md) â€” Network encryption
-- [Privacy Policy](../privacy/01-privacy-policy.md) â€” Data collection
-- [Network FAQ](../faq/06-security-faq.md) â€” Common questions
-- [Community Network Help](../community/04-communication-channels.md) â€” Peer support
+- [Security Hardening](18-security-hardening.md) — Firewall and network security
+- [Post-Installation Setup](07-post-installation-setup.md) — Network setup
+- [Network Troubleshooting](../help/07-network-troubleshooting.md) — Solving issues
+- [Systemd Service Architecture](../features/17-systemd-service-architecture.md) — Service management
+- [Enterprise Deployment](../enterprise/02-deployment-models.md) — Network config
+- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) — Data in transit
+- [Encryption at Rest](../data-safety/06-encryption-at-rest-and-in-transit.md) — Network encryption
+- [Privacy Policy](../privacy/01-privacy-policy.md) — Data collection
+- [Network FAQ](../faq/06-security-faq.md) — Common questions
+- [Community Network Help](../community/04-communication-channels.md) — Peer support
 
 ## Static IP Configuration
 
@@ -723,7 +723,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -746,3 +746,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

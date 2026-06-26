@@ -1,4 +1,4 @@
-﻿# Using the Custom Toolchain
+# Using the Custom Toolchain
 
 01s Sovereign includes a complete custom toolchain for compiling and running programs. This guide explains each component and how to use them together.
 
@@ -286,27 +286,27 @@ echo "Exit code: True"
 
 `
 /usr/src/toolchain/
-+-- lexer/src/main.rs    — Tokenizer
-+-- parser/src/main.rs   — Recursive-descent parser
-+-- codegen/src/main.rs  — x86_64 JIT compiler
-+-- runes/src/main.rs    — Glyph rendering system
-+-- binary/src/main.rs   — ELF loader and hex dumper
++-- lexer/src/main.rs    � Tokenizer
++-- parser/src/main.rs   � Recursive-descent parser
++-- codegen/src/main.rs  � x86_64 JIT compiler
++-- runes/src/main.rs    � Glyph rendering system
++-- binary/src/main.rs   � ELF loader and hex dumper
 +-- ledger/
-¦   +-- src/
-¦       +-- main.rs      — CLI dispatcher
-¦       +-- sha3.rs      — SHA3-256 implementation
-¦       +-- binary.rs    — Binary format reader/writer
-¦       +-- health.rs    — Health ledger format
-¦       +-- txtlog.rs    — TXT log output
-¦       +-- sign.rs      — HMAC state proofs
+�   +-- src/
+�       +-- main.rs      � CLI dispatcher
+�       +-- sha3.rs      � SHA3-256 implementation
+�       +-- binary.rs    � Binary format reader/writer
+�       +-- health.rs    � Health ledger format
+�       +-- txtlog.rs    � TXT log output
+�       +-- sign.rs      � HMAC state proofs
 +-- zerocli/
     +-- src/
-        +-- main.rs       — Command dispatcher
+        +-- main.rs       � Command dispatcher
         +-- ascii/
-        ¦   +-- mod.rs    — ASCII art module
-        ¦   +-- logo.rs   — 01s logo
+        �   +-- mod.rs    � ASCII art module
+        �   +-- logo.rs   � 01s logo
         +-- commands/
-            +-- mod.rs    — Command modules
+            +-- mod.rs    � Command modules
             +-- help.rs
             +-- motd.rs
             +-- grep.rs
@@ -432,16 +432,16 @@ A: No, it is educational/demonstration quality. Use Rust/Go/Python for productio
 
 ## Further Reading
 
-- [Advanced Toolchain Usage](20-advanced-toolchain-usage.md) â€” Advanced features
-- [Writing Your First Program](13-writing-your-first-program.md) â€” Getting started
-- [Lexer Design](../features/07-lexer-and-parser.md) â€” Lexer details
-- [Parser Grammar](../features/07-lexer-and-parser.md) â€” Grammar reference
-- [Codegen Backend](../features/08-codegen-x86_64-jit.md) â€” JIT code generation
-- [Runes Glyph System](../features/09-runes-glyph-system.md) â€” Glyph rendering
-- [Binary Format Spec](../features/10-binary-format-loader.md) â€” File format
-- [Toolchain FAQ](../faq/03-toolchain-faq.md) â€” Common questions
-- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) â€” Issue resolution
-- [Compiler Optimization Research](../research/09-custom-compiler-and-toolchain-optimization.md) â€” Research background
+- [Advanced Toolchain Usage](20-advanced-toolchain-usage.md) — Advanced features
+- [Writing Your First Program](13-writing-your-first-program.md) — Getting started
+- [Lexer Design](../features/07-lexer-and-parser.md) — Lexer details
+- [Parser Grammar](../features/07-lexer-and-parser.md) — Grammar reference
+- [Codegen Backend](../features/08-codegen-x86_64-jit.md) — JIT code generation
+- [Runes Glyph System](../features/09-runes-glyph-system.md) — Glyph rendering
+- [Binary Format Spec](../features/10-binary-format-loader.md) — File format
+- [Toolchain FAQ](../faq/03-toolchain-faq.md) — Common questions
+- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) — Issue resolution
+- [Compiler Optimization Research](../research/09-custom-compiler-and-toolchain-optimization.md) — Research background
 
 ## Build Commands
 
@@ -511,19 +511,19 @@ cat program.aioss | 01s-lex --verbose | 01s-parse --verbose | 01s-codegen --verb
 
 ```
 /usr/src/toolchain/
-â”œâ”€â”€ lexer/src/main.rs     # Tokenizer
-â”œâ”€â”€ parser/src/main.rs    # Recursive descent parser
-â”œâ”€â”€ codegen/src/main.rs   # x86_64 JIT code generator
-â”œâ”€â”€ linker/src/main.rs    # Symbol resolver
-â”œâ”€â”€ loader/src/main.rs    # Binary loader/mapper
-â”œâ”€â”€ disasm/src/main.rs    # Disassembler
-â”œâ”€â”€ runes/src/main.rs     # Glyph renderer
-â”œâ”€â”€ samples/              # Example .aioss programs
-â”‚   â”œâ”€â”€ hello.aioss
-â”‚   â”œâ”€â”€ fibonacci.aioss
-â”‚   â””â”€â”€ fizzbuzz.aioss
-â”œâ”€â”€ Makefile              # Build automation
-â””â”€â”€ README.md             # Toolchain documentation
+├── lexer/src/main.rs     # Tokenizer
+├── parser/src/main.rs    # Recursive descent parser
+├── codegen/src/main.rs   # x86_64 JIT code generator
+├── linker/src/main.rs    # Symbol resolver
+├── loader/src/main.rs    # Binary loader/mapper
+├── disasm/src/main.rs    # Disassembler
+├── runes/src/main.rs     # Glyph renderer
+├── samples/              # Example .aioss programs
+│   ├── hello.aioss
+│   ├── fibonacci.aioss
+│   └── fizzbuzz.aioss
+├── Makefile              # Build automation
+└── README.md             # Toolchain documentation
 ```
 
 ## Toolchain in the 01s Ecosystem
@@ -707,7 +707,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -730,3 +730,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

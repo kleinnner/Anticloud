@@ -1,4 +1,4 @@
-﻿# Localization and Translation
+# Localization and Translation
 
 This guide covers how to translate 01s Sovereign documentation, UI, and other content into different languages.
 
@@ -22,13 +22,13 @@ This guide covers how to translate 01s Sovereign documentation, UI, and other co
 
 ```
 docs/
-â”œâ”€â”€ tutorial/       # Tutorial files (25 docs)
-â”œâ”€â”€ faq/            # FAQ files (12 docs)
-â”œâ”€â”€ community/      # Community files (9 docs)
-â”œâ”€â”€ help/           # Help files (9 docs)
-â”œâ”€â”€ incident-reporting/  # Incident reporting (9 docs)
-â”œâ”€â”€ features/       # Feature documentation (20 docs)
-â””â”€â”€ bdr/            # BDR documentation (8 docs)
+├── tutorial/       # Tutorial files (25 docs)
+├── faq/            # FAQ files (12 docs)
+├── community/      # Community files (9 docs)
+├── help/           # Help files (9 docs)
+├── incident-reporting/  # Incident reporting (9 docs)
+├── features/       # Feature documentation (20 docs)
+└── bdr/            # BDR documentation (8 docs)
 ```
 
 ### Translation Process
@@ -168,9 +168,9 @@ All translators should verify the following before submitting:
 |---------|--------|
 | ledger | Hauptbuch |
 | toolchain | Werkzeugkette |
-| audit | PrÃ¼fung |
+| audit | Prüfung |
 | verification | Verifizierung |
-| sovereign | souverÃ¤n |
+| sovereign | souverän |
 | boot | Start |
 | kernel | Kernel |
 | package | Paket |
@@ -453,16 +453,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Community background
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” How to help
-- [Community Governance](03-community-governance.md) â€” Project governance
-- [Communication Channels](04-communication-channels.md) â€” Translator chat
-- [Reporting Bugs](05-reporting-bugs-and-features.md) â€” Translation bugs
-- [Code of Conduct](06-code-of-conduct.md) â€” Inclusive communication
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Related projects
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Translator rewards
-- [Contributing Back (Tutorial)](../tutorial/25-contributing-back.md) â€” Contribution guide
-- [General FAQ](../faq/01-general-faq.md) â€” Common questions
+- [Welcome to the Community](01-welcome-to-the-community.md) — Community background
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — How to help
+- [Community Governance](03-community-governance.md) — Project governance
+- [Communication Channels](04-communication-channels.md) — Translator chat
+- [Reporting Bugs](05-reporting-bugs-and-features.md) — Translation bugs
+- [Code of Conduct](06-code-of-conduct.md) — Inclusive communication
+- [Community Projects](07-community-projects-and-ecosystem.md) — Related projects
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Translator rewards
+- [Contributing Back (Tutorial)](../tutorial/25-contributing-back.md) — Contribution guide
+- [General FAQ](../faq/01-general-faq.md) — Common questions
 
 ## Translation Progress Tracking
 
@@ -685,7 +685,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -708,3 +708,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

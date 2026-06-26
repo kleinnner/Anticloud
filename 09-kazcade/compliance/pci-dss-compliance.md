@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # PCI DSS v4.0 Compliance
@@ -14,7 +14,7 @@
 **Document ID:** KAZ-COMP-PCI-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** CDE â€” Confidential  
+**Classification:** CDE — Confidential  
 
 ---
 
@@ -23,18 +23,18 @@
 1. Overview
 2. PCI DSS v4.0 Framework
 3. Cardholder Data Environment
-4. Requirement 1 â€” Network Security
-5. Requirement 2 â€” Secure Configuration
-6. Requirement 3 â€” Stored CHD Protection
-7. Requirement 4 â€” Transmission Encryption
-8. Requirement 5 â€” Malware Protection
-9. Requirement 6 â€” Secure Development
-10. Requirement 7 â€” Access Control
-11. Requirement 8 â€” Authentication
-12. Requirement 9 â€” Physical Security
-13. Requirement 10 â€” Logging and Monitoring
-14. Requirement 11 â€” Security Testing
-15. Requirement 12 â€” Information Security Policy
+4. Requirement 1 — Network Security
+5. Requirement 2 — Secure Configuration
+6. Requirement 3 — Stored CHD Protection
+7. Requirement 4 — Transmission Encryption
+8. Requirement 5 — Malware Protection
+9. Requirement 6 — Secure Development
+10. Requirement 7 — Access Control
+11. Requirement 8 — Authentication
+12. Requirement 9 — Physical Security
+13. Requirement 10 — Logging and Monitoring
+14. Requirement 11 — Security Testing
+15. Requirement 12 — Information Security Policy
 16. `.aioss` Ledger for PCI Compliance
 17. `.acol` Storage for CHD
 18. Tokenization and Masking
@@ -160,7 +160,7 @@ kazkade pci discover-chd \
 
 ---
 
-## 4. Requirement 1 â€” Network Security
+## 4. Requirement 1 — Network Security
 
 ### 4.1 Local-First Advantage
 
@@ -200,7 +200,7 @@ kazkade network audit --connections --verify-cde-isolation
 
 ---
 
-## 5. Requirement 2 â€” Secure Configuration
+## 5. Requirement 2 — Secure Configuration
 
 ### 5.1 Hardened Configuration
 
@@ -235,7 +235,7 @@ kazkade config snapshot \
 
 ---
 
-## 6. Requirement 3 â€” Stored CHD Protection
+## 6. Requirement 3 — Stored CHD Protection
 
 ### 6.1 PAN Encryption
 
@@ -277,7 +277,7 @@ kazkade acol acl set \
 ### 6.3 SAD Protection
 
 ```bash
-# Schema enforcement â€” never store prohibited data
+# Schema enforcement — never store prohibited data
 kazkade schema validate \
   --prohibit-columns "cvv,cvv2,pin,track1,track2" \
   --strict true
@@ -312,7 +312,7 @@ kazkade crypto rotate \
 
 ---
 
-## 7. Requirement 4 â€” Transmission Encryption
+## 7. Requirement 4 — Transmission Encryption
 
 ### 7.1 Encryption in Transit
 
@@ -335,7 +335,7 @@ kazkade network audit \
 
 ---
 
-## 8. Requirement 5 â€” Malware Protection
+## 8. Requirement 5 — Malware Protection
 
 ### 8.1 Binary Integrity
 
@@ -362,7 +362,7 @@ kazkade pci anti-malware \
 
 ---
 
-## 9. Requirement 6 â€” Secure Development
+## 9. Requirement 6 — Secure Development
 
 ### 9.1 Secure Development Lifecycle
 
@@ -413,7 +413,7 @@ fn process_payment(pan: EncryptedPan, amount: Decimal) -> Result<PaymentResponse
 
 ---
 
-## 10. Requirement 7 â€” Access Control
+## 10. Requirement 7 — Access Control
 
 ### 10.1 Need-to-Know Access
 
@@ -447,7 +447,7 @@ kazkade acol acl set \
 
 ---
 
-## 11. Requirement 8 â€” Authentication
+## 11. Requirement 8 — Authentication
 
 ### 11.1 Strong Cryptography
 
@@ -485,7 +485,7 @@ kazkade config set --section auth --key rate_limit_window --value 30
 
 ---
 
-## 12. Requirement 9 â€” Physical Security
+## 12. Requirement 9 — Physical Security
 
 ### 12.1 Local-First Physical Controls
 
@@ -504,7 +504,7 @@ kazkade acol shred \
 
 ---
 
-## 13. Requirement 10 â€” Logging and Monitoring
+## 13. Requirement 10 — Logging and Monitoring
 
 ### 13.1 Comprehensive Audit Trail
 
@@ -578,7 +578,7 @@ kazkade health time-source --verify
 
 ---
 
-## 14. Requirement 11 â€” Security Testing
+## 14. Requirement 11 — Security Testing
 
 ### 14.1 Continuous Monitoring
 
@@ -612,7 +612,7 @@ kazkade ledger append \
 
 ---
 
-## 15. Requirement 12 â€” Information Security Policy
+## 15. Requirement 12 — Information Security Policy
 
 ### 15.1 Policy Automation
 
@@ -854,16 +854,16 @@ kazkade pci saq \
 
 ## References
 
-- PCI DSS v4.0 â€” Payment Card Industry Data Security Standard
-- PCI DSS v4.0 Summary of Changes â€” PCI SSC 2024
-- NIST SP 800-53 Rev. 5 â€” Security and Privacy Controls
+- PCI DSS v4.0 — Payment Card Industry Data Security Standard
+- PCI DSS v4.0 Summary of Changes — PCI SSC 2024
+- NIST SP 800-53 Rev. 5 — Security and Privacy Controls
 - PCI SSC Tokenization Guidelines v2.0
-- Kazkade `.aioss` Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade `.acol` Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- Kazkade `.aioss` Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade `.acol` Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -874,7 +874,7 @@ kazkade pci saq \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -897,3 +897,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

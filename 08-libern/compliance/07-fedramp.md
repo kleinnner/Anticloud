@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: compliance | ID: LIB-COMP-007
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # FedRAMP Considerations
 
@@ -22,7 +22,7 @@ government program that provides a standardized approach to security assessment,
 authorization, and continuous monitoring for cloud products and services. FedRAMP
 applies to cloud service offerings (CSOs) used by federal agencies.
 
-Libern is not a cloud service â€” it is a locally-deployed desktop application with
+Libern is not a cloud service — it is a locally-deployed desktop application with
 P2P networking. This distinction is critical for FedRAMP analysis. However,
 federal agencies may wish to deploy Libern as part of their collaboration
 infrastructure, and this document addresses the considerations for doing so
@@ -126,81 +126,81 @@ For FIPS compliance, Libern should be configured to use FIPS-validated modules:
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| AC-2 â€” Account Management | Ed25519 key-based identity management |
-| AC-3 â€” Access Enforcement | Role-based access control per channel/server |
-| AC-4 â€” Information Flow Enforcement | P2P connections control data flow |
-| AC-5 â€” Separation of Duties | Server owner, admin, member roles |
-| AC-6 â€” Least Privilege | Granular channel permissions |
-| AC-7 â€” Unsuccessful Logon Attempts | OS-level authentication |
-| AC-17 â€” Remote Access | Encrypted P2P for remote peers |
+| AC-2 — Account Management | Ed25519 key-based identity management |
+| AC-3 — Access Enforcement | Role-based access control per channel/server |
+| AC-4 — Information Flow Enforcement | P2P connections control data flow |
+| AC-5 — Separation of Duties | Server owner, admin, member roles |
+| AC-6 — Least Privilege | Granular channel permissions |
+| AC-7 — Unsuccessful Logon Attempts | OS-level authentication |
+| AC-17 — Remote Access | Encrypted P2P for remote peers |
 
 ### 4.2 Audit and Accountability (AU)
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| AU-2 â€” Audit Events | .aioss ledger records all security-relevant events |
-| AU-3 â€” Content of Audit Records | Cryptographic signatures, timestamps, identities |
-| AU-4 â€” Audit Storage Capacity | Local disk storage, configurable retention |
-| AU-5 â€” Response to Audit Processing Failures | CRDT continues logging even on partial failure |
-| AU-6 â€” Audit Review, Analysis, and Reporting | Exportable .aioss for analysis tools |
-| AU-7 â€” Audit Reduction and Report Generation | .aioss format supports automated processing |
-| AU-8 â€” Time Stamps | OS NTP-synchronized timestamps |
-| AU-9 â€” Protection of Audit Information | Hash chain prevents tampering |
-| AU-11 â€” Audit Record Retention | Configurable retention policy |
-| AU-12 â€” Audit Generation | Automatic generation of all event types |
+| AU-2 — Audit Events | .aioss ledger records all security-relevant events |
+| AU-3 — Content of Audit Records | Cryptographic signatures, timestamps, identities |
+| AU-4 — Audit Storage Capacity | Local disk storage, configurable retention |
+| AU-5 — Response to Audit Processing Failures | CRDT continues logging even on partial failure |
+| AU-6 — Audit Review, Analysis, and Reporting | Exportable .aioss for analysis tools |
+| AU-7 — Audit Reduction and Report Generation | .aioss format supports automated processing |
+| AU-8 — Time Stamps | OS NTP-synchronized timestamps |
+| AU-9 — Protection of Audit Information | Hash chain prevents tampering |
+| AU-11 — Audit Record Retention | Configurable retention policy |
+| AU-12 — Audit Generation | Automatic generation of all event types |
 
 ### 4.3 Configuration Management (CM)
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| CM-2 â€” Baseline Configuration | Default configuration is security-focused |
-| CM-3 â€” Configuration Change Control | Release process with versioning |
-| CM-4 â€” Security Impact Analysis | Open source enables community analysis |
-| CM-6 â€” Configuration Settings | Documented configuration parameters |
-| CM-7 â€” Least Functionality | Minimal attack surface, single binary |
-| CM-8 â€” Information System Component Inventory | SBOM available |
+| CM-2 — Baseline Configuration | Default configuration is security-focused |
+| CM-3 — Configuration Change Control | Release process with versioning |
+| CM-4 — Security Impact Analysis | Open source enables community analysis |
+| CM-6 — Configuration Settings | Documented configuration parameters |
+| CM-7 — Least Functionality | Minimal attack surface, single binary |
+| CM-8 — Information System Component Inventory | SBOM available |
 
 ### 4.4 Identification and Authentication (IA)
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| IA-2 â€” Identification and Authentication | Ed25519 key pairs |
-| IA-3 â€” Device Identification | Key-based device identity |
-| IA-4 â€” Identifier Management | Key generation and registration |
-| IA-5 â€” Authenticator Management | Key storage, backup, rotation |
-| IA-6 â€” Authenticator Feedback | Visual indicators for authentication status |
-| IA-7 â€” Cryptographic Module Authentication | FIPS-compliant mode available |
-| IA-8 â€” Identification and Authentication (Non-Org) | P2P peer identification |
+| IA-2 — Identification and Authentication | Ed25519 key pairs |
+| IA-3 — Device Identification | Key-based device identity |
+| IA-4 — Identifier Management | Key generation and registration |
+| IA-5 — Authenticator Management | Key storage, backup, rotation |
+| IA-6 — Authenticator Feedback | Visual indicators for authentication status |
+| IA-7 — Cryptographic Module Authentication | FIPS-compliant mode available |
+| IA-8 — Identification and Authentication (Non-Org) | P2P peer identification |
 
 ### 4.5 Incident Response (IR)
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| IR-4 â€” Incident Handling | .aioss audit trail for forensics |
-| IR-5 â€” Incident Monitoring | Continuous monitoring via ledger |
-| IR-6 â€” Incident Reporting | Exportable incident evidence |
-| IR-7 â€” Incident Response Assistance | Documentation and support |
+| IR-4 — Incident Handling | .aioss audit trail for forensics |
+| IR-5 — Incident Monitoring | Continuous monitoring via ledger |
+| IR-6 — Incident Reporting | Exportable incident evidence |
+| IR-7 — Incident Response Assistance | Documentation and support |
 
 ### 4.6 System and Communications Protection (SC)
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| SC-7 â€” Boundary Protection | P2P communication on local network |
-| SC-8 â€” Transmission Confidentiality | Encrypted P2P channels |
-| SC-12 â€” Cryptographic Key Establishment | Ed25519 key generation and exchange |
-| SC-13 â€” Cryptographic Protection | FIPS-compliant algorithms available |
-| SC-28 â€” Protection of Information at Rest | Local encryption via platform |
-| SC-39 â€” Process Isolation | Single binary, OS-level process isolation |
+| SC-7 — Boundary Protection | P2P communication on local network |
+| SC-8 — Transmission Confidentiality | Encrypted P2P channels |
+| SC-12 — Cryptographic Key Establishment | Ed25519 key generation and exchange |
+| SC-13 — Cryptographic Protection | FIPS-compliant algorithms available |
+| SC-28 — Protection of Information at Rest | Local encryption via platform |
+| SC-39 — Process Isolation | Single binary, OS-level process isolation |
 
 ### 4.7 System and Information Integrity (SI)
 
 | Control | Libern Implementation |
 |---------|---------------------|
-| SI-3 â€” Malicious Code Protection | Code signing, minimal dependencies |
-| SI-4 â€” System Monitoring | .aioss ledger enables monitoring |
-| SI-7 â€” Software Integrity | Signed releases, hash verification |
-| SI-10 â€” Information Input Validation | CRDT validation of all operations |
-| SI-12 â€” Information Handling | Cryptographic handling of all data |
+| SI-3 — Malicious Code Protection | Code signing, minimal dependencies |
+| SI-4 — System Monitoring | .aioss ledger enables monitoring |
+| SI-7 — Software Integrity | Signed releases, hash verification |
+| SI-10 — Information Input Validation | CRDT validation of all operations |
+| SI-12 — Information Handling | Cryptographic handling of all data |
 
 ## 5. Continuous Monitoring
 
@@ -394,12 +394,12 @@ Libern manages identities through Ed25519 cryptographic keys:
 
 ```
 User Account Lifecycle:
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ Key Gen    â”‚â”€â”€â”€â–ºâ”‚ Provision  â”‚â”€â”€â”€â–ºâ”‚ Active Use â”‚â”€â”€â”€â–ºâ”‚ Revocation â”‚
-â”‚ (local)    â”‚    â”‚ (add peer) â”‚    â”‚ (sign ops) â”‚    â”‚ (remove)   â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-     â”‚                 â”‚                 â”‚                 â”‚
-     â–¼                 â–¼                 â–¼                 â–¼
+┌────────────┐    ┌────────────┐    ┌────────────┐    ┌────────────┐
+│ Key Gen    │───►│ Provision  │───►│ Active Use │───►│ Revocation │
+│ (local)    │    │ (add peer) │    │ (sign ops) │    │ (remove)   │
+└────────────┘    └────────────┘    └────────────┘    └────────────┘
+     │                 │                 │                 │
+     ▼                 ▼                 ▼                 ▼
   Ed25519 key     Server auth      .aioss signed      Key removed
   pair created    record added     operations          from servers
 ```
@@ -449,7 +449,7 @@ pub fn authenticate(verifier: &[u8], signature: &[u8], pubkey: &[u8; 32]) -> boo
 | Voice | UDP direct | X25519 + AES-256-GCM | Ed25519 key exchange |
 | Model download | HTTPS (TCP 443) | TLS 1.3 | Standard PKI |
 
-## 15. FedRAMP Tailored Baseline â€” Complete Control Response
+## 15. FedRAMP Tailored Baseline — Complete Control Response
 
 ### 15.1 Tailored Controls (37 total)
 
@@ -566,7 +566,7 @@ appropriate authorization path for their specific Libern deployment.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -589,3 +589,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

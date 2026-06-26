@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Custom Codec Development
@@ -16,20 +16,20 @@ This guide covers writing custom compression codecs for the Kazkade columnar sto
 ## Codec Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    Column Data Flow                      │
-│                                                         │
-│  Raw Data ──> Encode ──> Compressed ──> Decode ──> Raw │
-│  (in mem)     Codec      (.acol)       Codec     (SIMD) │
-│                                                         │
-│  ┌──────────────┐    ┌──────────────┐                  │
-│  │ Codec Trait  │    │ CodecRegistry │                  │
-│  │ + encode()   │    │ lookup(name) │                  │
-│  │ + decode()   │    │ register()   │                  │
-│  │ + name()     │    │ list()       │                  │
-│  │ + metadata() │    └──────────────┘                  │
-│  └──────────────┘                                       │
-└─────────────────────────────────────────────────────────┘
++---------------------------------------------------------+
+�                    Column Data Flow                      �
+�                                                         �
+�  Raw Data --> Encode --> Compressed --> Decode --> Raw �
+�  (in mem)     Codec      (.acol)       Codec     (SIMD) �
+�                                                         �
+�  +--------------+    +--------------+                  �
+�  � Codec Trait  �    � CodecRegistry �                  �
+�  � + encode()   �    � lookup(name) �                  �
+�  � + decode()   �    � register()   �                  �
+�  � + name()     �    � list()       �                  �
+�  � + metadata() �    +--------------+                  �
+�  +--------------+                                       �
++---------------------------------------------------------+
 ```
 
 ## Built-in Codecs
@@ -273,7 +273,7 @@ Available codecs:
   dict         (built-in)
   i4           (built-in)
   i8           (built-in)
-  xor_delta    (my-codec v0.1.0)  ← custom codec
+  xor_delta    (my-codec v0.1.0)  ? custom codec
 ```
 
 ### Step 5: Use the Codec
@@ -405,7 +405,7 @@ kazkade codec publish xor_delta.kcodec
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -416,7 +416,7 @@ kazkade codec publish xor_delta.kcodec
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -439,3 +439,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — BDR DOCUMENTATION                 ║
-║                   BDR-006: RAG STORAGE (SQLITE)                  ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � BDR DOCUMENTATION                 �
+�                   BDR-006: RAG STORAGE (SQLITE)                  �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -18,8 +18,8 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 | **Status** | Approved |
 | **Author** | Lois-Kleinner Engineering |
 | **Date** | 2026-06-19 |
-| **Supersedes** | — |
-| **Deprecated By** | — |
+| **Supersedes** | � |
+| **Deprecated By** | � |
 
 ---
 
@@ -44,7 +44,7 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ## Executive Summary
 
-BDR-006 selects SQLite with the `vec0` vector search extension as the RAG storage backend. This choice provides zero-configuration vector search, ACID compliance, and single-file storage — all within Inte11ect's single-binary architecture.
+BDR-006 selects SQLite with the `vec0` vector search extension as the RAG storage backend. This choice provides zero-configuration vector search, ACID compliance, and single-file storage � all within Inte11ect's single-binary architecture.
 
 ---
 
@@ -868,7 +868,7 @@ echo "Backup completed: ${BACKUP_PATH}.gz"
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -879,7 +879,7 @@ echo "Backup completed: ${BACKUP_PATH}.gz"
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -902,3 +902,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

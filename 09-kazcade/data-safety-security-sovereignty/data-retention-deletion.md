@@ -1,46 +1,46 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Data Retention & Cryptographic Deletion
 
 > **Keep what you must. Delete what you should. Prove both.**
 
-Kazkade provides configurable retention policies per ledger with automated enforcement. When data reaches the end of its retention period, cryptographic erasure renders it permanently unrecoverable — not by deleting files, but by destroying the encryption keys that protect them. This enables verifiable deletion without waiting for secure overwrite cycles.
+Kazkade provides configurable retention policies per ledger with automated enforcement. When data reaches the end of its retention period, cryptographic erasure renders it permanently unrecoverable � not by deleting files, but by destroying the encryption keys that protect them. This enables verifiable deletion without waiting for secure overwrite cycles.
 
 ---
 
 ## 1. Retention Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│                     Kazkade Retention & Deletion Stack                 │
-├──────────────────────────────────────────────────────────────────────┤
-│  Policy Layer                                                          │
-│  ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐     │
-│  │ Time-based     │  │ Size-based       │  │ Event-based      │     │
-│  │ Retention      │  │ Retention        │  │ (TTL, expiry)    │     │
-│  └────────────────┘  └──────────────────┘  └──────────────────┘     │
-├──────────────────────────────────────────────────────────────────────┤
-│  Enforcement Layer                                                     │
-│  ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐     │
-│  │ Ledger Rotation│  │ Key Destruction  │  │ Record Expiry    │     │
-│  │ (archive + new)│  │ (cryptographic)  │  │ (TTL check)      │     │
-│  └────────────────┘  └──────────────────┘  └──────────────────┘     │
-├──────────────────────────────────────────────────────────────────────┤
-│  Verification Layer                                                    │
-│  ┌────────────────┐  ┌──────────────────┐                             │
-│  │ Deletion Proof │  │ Retention Audit  │                             │
-│  │ (SHA3-256 cert)│  │ (compliance rep) │                             │
-│  └────────────────┘  └──────────────────┘                             │
-└──────────────────────────────────────────────────────────────────────┘
++----------------------------------------------------------------------+
+�                     Kazkade Retention & Deletion Stack                 �
++----------------------------------------------------------------------�
+�  Policy Layer                                                          �
+�  +----------------+  +------------------+  +------------------+     �
+�  � Time-based     �  � Size-based       �  � Event-based      �     �
+�  � Retention      �  � Retention        �  � (TTL, expiry)    �     �
+�  +----------------+  +------------------+  +------------------+     �
++----------------------------------------------------------------------�
+�  Enforcement Layer                                                     �
+�  +----------------+  +------------------+  +------------------+     �
+�  � Ledger Rotation�  � Key Destruction  �  � Record Expiry    �     �
+�  � (archive + new)�  � (cryptographic)  �  � (TTL check)      �     �
+�  +----------------+  +------------------+  +------------------+     �
++----------------------------------------------------------------------�
+�  Verification Layer                                                    �
+�  +----------------+  +------------------+                             �
+�  � Deletion Proof �  � Retention Audit  �                             �
+�  � (SHA3-256 cert)�  � (compliance rep) �                             �
+�  +----------------+  +------------------+                             �
++----------------------------------------------------------------------+
 ```
 
 ---
@@ -153,14 +153,14 @@ sequenceDiagram
 
 ```
 ledgers/
-├── compliance/
-│   ├── 2026-Q1.aioss          # Active
-│   ├── 2025-Q4.aioss.rotated  # Archived (read-only)
-│   ├── 2025-Q3.aioss.rotated  # Archived (read-only)
-│   └── 2024.aioss.rotated     # Archived (crypto-erased)
-├── operational/
-│   ├── current.aioss          # Active
-│   └── previous.aioss.rotated # Archived
++-- compliance/
+�   +-- 2026-Q1.aioss          # Active
+�   +-- 2025-Q4.aioss.rotated  # Archived (read-only)
+�   +-- 2025-Q3.aioss.rotated  # Archived (read-only)
+�   +-- 2024.aioss.rotated     # Archived (crypto-erased)
++-- operational/
+�   +-- current.aioss          # Active
+�   +-- previous.aioss.rotated # Archived
 ```
 
 ---
@@ -423,8 +423,8 @@ impl RetentionScheduler {
 | GDPR Art. 17  | Right to erasure                 | Cryptographic erasure + deletion proof      |
 | SOC 2 CC6.4   | Retention and disposal           | Configurable policies + automated cleanup   |
 | ISO 27001 A.8 | Asset management                 | Ledger inventory + lifecycle management     |
-| HIPAA §164.316| Retention of documentation       | 6-year minimum retention policy             |
-| SOX §802      | Record retention                 | 7-year retention with legal hold support    |
+| HIPAA �164.316| Retention of documentation       | 6-year minimum retention policy             |
+| SOX �802      | Record retention                 | 7-year retention with legal hold support    |
 | PCI DSS 3.1   | Data retention                   | Post-audit deletion with proof              |
 
 ### 7.2 Cross-Regulation Policy Builder
@@ -521,7 +521,7 @@ kazkade retention cold-storage restore \
 
 - **Flexible policies**: Time-based, size-based, event-based, or keep-all
 - **Automated enforcement**: Scheduler checks and executes actions
-- **Cryptographic erasure**: Destroy keys, not bytes — instant and verifiable
+- **Cryptographic erasure**: Destroy keys, not bytes � instant and verifiable
 - **Deletion proofs**: Cryptographically signed evidence of erasure
 - **Legal hold**: Override retention for litigation/investigation
 - **Cold storage tiering**: Archive to S3, Glacier, or local storage
@@ -530,7 +530,7 @@ kazkade retention cold-storage restore \
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -541,7 +541,7 @@ kazkade retention cold-storage restore \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -564,3 +564,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,4 +1,4 @@
-﻿# Troubleshooting Basics
+# Troubleshooting Basics
 
 This guide covers common issues encountered with 01s Sovereign and their solutions.
 
@@ -534,16 +534,16 @@ Once you've completed this guide, move to the next tutorial, practice on a test 
 
 ## Further Reading
 
-- [Using 01s-Ledger](10-using-01s-ledger.md) â€” Ledger forensics
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Boot issues
-- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) â€” Ledger issues
-- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) â€” Desktop issues
-- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) â€” Toolchain issues
-- [Package Management Issues](../help/06-package-management-issues.md) â€” Package issues
-- [Network Troubleshooting](../help/07-network-troubleshooting.md) â€” Network issues
-- [Performance Problems](../help/08-performance-problems.md) â€” Performance issues
-- [Getting Support](../help/09-getting-support.md) â€” Support channels
-- [Known Issues](../help/01-known-issues.md) â€” Current known issues
+- [Using 01s-Ledger](10-using-01s-ledger.md) — Ledger forensics
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Boot issues
+- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) — Ledger issues
+- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) — Desktop issues
+- [Toolchain Troubleshooting](../help/05-toolchain-troubleshooting.md) — Toolchain issues
+- [Package Management Issues](../help/06-package-management-issues.md) — Package issues
+- [Network Troubleshooting](../help/07-network-troubleshooting.md) — Network issues
+- [Performance Problems](../help/08-performance-problems.md) — Performance issues
+- [Getting Support](../help/09-getting-support.md) — Support channels
+- [Known Issues](../help/01-known-issues.md) — Current known issues
 
 ## Diagnostic Command Quick Reference
 
@@ -699,7 +699,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -722,3 +722,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

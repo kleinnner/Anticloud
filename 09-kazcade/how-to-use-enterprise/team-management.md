@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Team Management
@@ -16,23 +16,23 @@ This guide covers multi-team workspace administration, creating teams, managing 
 ## Workspace Architecture
 
 `
-┌──────────────────────────────────────────────────────┐
-│                Enterprise Workspace                   │
-│                                                       │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │
-│  │ Team:        │  │ Team:        │  │ Team:        │  │
-│  │ Analytics    │  │ Engineering  │  │ Compliance   │  │
-│  │              │  │              │  │              │  │
-│  │ Members: 12  │  │ Members: 8   │  │ Members: 3   │  │
-│  │ Ledger: A1   │  │ Ledger: B2   │  │ Ledger: C3   │  │
-│  │ Stores: 23   │  │ Stores: 15   │  │ Stores: 5    │  │
-│  └─────────────┘  └─────────────┘  └─────────────┘  │
-│                                                       │
-│  ┌────────────────────────────────────────────────┐  │
-│  │         Shared Ledger (Enterprise Root)        │  │
-│  │   SHA3-256 + Ed25519 — Immutable Audit Trail  │  │
-│  └────────────────────────────────────────────────┘  │
-└──────────────────────────────────────────────────────┘
++------------------------------------------------------+
+�                Enterprise Workspace                   �
+�                                                       �
+�  +-------------+  +-------------+  +-------------+  �
+�  � Team:        �  � Team:        �  � Team:        �  �
+�  � Analytics    �  � Engineering  �  � Compliance   �  �
+�  �              �  �              �  �              �  �
+�  � Members: 12  �  � Members: 8   �  � Members: 3   �  �
+�  � Ledger: A1   �  � Ledger: B2   �  � Ledger: C3   �  �
+�  � Stores: 23   �  � Stores: 15   �  � Stores: 5    �  �
+�  +-------------+  +-------------+  +-------------+  �
+�                                                       �
+�  +------------------------------------------------+  �
+�  �         Shared Ledger (Enterprise Root)        �  �
+�  �   SHA3-256 + Ed25519 � Immutable Audit Trail  �  �
+�  +------------------------------------------------+  �
++------------------------------------------------------+
 `
 
 ## Creating a Team
@@ -51,20 +51,20 @@ kazcade-ctl team create analytics \
 ### Admin Dashboard
 
 `
-┌─────────────────────────────────────────────┐
-│  Create Team                                │
-│                                             │
-│  Team Name:  analytics                      │
-│  Display:    Data Analytics Team            │
-│  Description: Business analytics and        │
-│               reporting                     │
-│                                             │
-│  Storage Quota: 500 GB                      │
-│  Node Quota:    5                           │
-│  Max Members:   20                          │
-│                                             │
-│  [Create] [Cancel]                          │
-└─────────────────────────────────────────────┘
++---------------------------------------------+
+�  Create Team                                �
+�                                             �
+�  Team Name:  analytics                      �
+�  Display:    Data Analytics Team            �
+�  Description: Business analytics and        �
+�               reporting                     �
+�                                             �
+�  Storage Quota: 500 GB                      �
+�  Node Quota:    5                           �
+�  Max Members:   20                          �
+�                                             �
+�  [Create] [Cancel]                          �
++---------------------------------------------+
 `
 
 ## Managing Members
@@ -166,16 +166,16 @@ kazkade ledger verify-chain --root enterprise-root.aioss
 
 `
 Enterprise Root Ledger
-├── Team: Analytics (A1)
-│   ├── Entry 0: Team Genesis
-│   ├── Entry 1: Member alice@company.com added
-│   ├── Entry 2: Dataset sales_q2.acol ingested
-│   └── ...
-├── Team: Engineering (B2)
-│   ├── Entry 0: Team Genesis
-│   └── ...
-└── Team: Compliance (C3)
-    └── ...
++-- Team: Analytics (A1)
+�   +-- Entry 0: Team Genesis
+�   +-- Entry 1: Member alice@company.com added
+�   +-- Entry 2: Dataset sales_q2.acol ingested
+�   +-- ...
++-- Team: Engineering (B2)
+�   +-- Entry 0: Team Genesis
+�   +-- ...
++-- Team: Compliance (C3)
+    +-- ...
 `
 
 ## Team Dashboard
@@ -187,19 +187,19 @@ kazkade dashboard --team analytics
 Shows team-specific view:
 
 `
-┌─────────────────────────────────────────────┐
-│ Analytics Team Dashboard                     │
-│                                             │
-│ Members Online: 3/12                        │
-│ Active Queries: 4                           │
-│ Storage Used: 234 GB / 500 GB               │
-│ Today's Queries: 1,234                      │
-│                                             │
-│ Recent Activity:                            │
-│  alice    Queried sales_q2  2 min ago      │
-│  bob      Ingested data.csv 5 min ago      │
-│  carol    Exported report   10 min ago     │
-└─────────────────────────────────────────────┘
++---------------------------------------------+
+� Analytics Team Dashboard                     �
+�                                             �
+� Members Online: 3/12                        �
+� Active Queries: 4                           �
+� Storage Used: 234 GB / 500 GB               �
+� Today's Queries: 1,234                      �
+�                                             �
+� Recent Activity:                            �
+�  alice    Queried sales_q2  2 min ago      �
+�  bob      Ingested data.csv 5 min ago      �
+�  carol    Exported report   10 min ago     �
++---------------------------------------------+
 `
 
 ## Cross-Team Collaboration
@@ -265,7 +265,7 @@ curl -H "Authorization: Bearer <token>" \
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -276,7 +276,7 @@ curl -H "Authorization: Bearer <token>" \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -299,3 +299,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

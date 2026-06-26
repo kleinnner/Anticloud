@@ -1,4 +1,4 @@
-﻿# Code of Conduct
+# Code of Conduct
 
 ## Our Pledge
 
@@ -397,16 +397,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Community values
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” Expectations
-- [Community Governance](03-community-governance.md) â€” Governance structure
-- [Communication Channels](04-communication-channels.md) â€” Reporting channels
-- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) â€” Issues reporting
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Inclusive projects
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Positive reinforcement
-- [Open Source Governance Research](../research/07-open-source-governance-and-sustainability.md) â€” Research
-- [Privacy Policy](../privacy/01-privacy-policy.md) â€” Privacy protection
-- [Community Growth BDR](../bdr/08-community-growth-bdr.md) â€” Growth strategy
+- [Welcome to the Community](01-welcome-to-the-community.md) — Community values
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — Expectations
+- [Community Governance](03-community-governance.md) — Governance structure
+- [Communication Channels](04-communication-channels.md) — Reporting channels
+- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) — Issues reporting
+- [Community Projects](07-community-projects-and-ecosystem.md) — Inclusive projects
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Positive reinforcement
+- [Open Source Governance Research](../research/07-open-source-governance-and-sustainability.md) — Research
+- [Privacy Policy](../privacy/01-privacy-policy.md) — Privacy protection
+- [Community Growth BDR](../bdr/08-community-growth-bdr.md) — Growth strategy
 
 ## Positive Contribution Examples
 
@@ -712,7 +712,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -735,3 +735,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

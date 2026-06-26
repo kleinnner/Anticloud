@@ -1,4 +1,4 @@
-﻿# First Boot Walkthrough
+# First Boot Walkthrough
 
 This guide walks through the first boot experience of 01s Sovereign -- from the GRUB boot menu to your first login.
 
@@ -212,8 +212,8 @@ Super + T
 
 The custom prompt shows:
 ```
-â”Œâ”€[01s@sovereign]â”€[~/]
-â””â”€â–ª $
+┌─[01s@sovereign]─[~/]
+└─▪ $
 ```
 
 - **User@hostname** in cyan
@@ -432,16 +432,16 @@ oapic; document what breaks and what works for each
 
 ## Further Reading
 
-- [Installation Guide](06-installation-guide.md) â€” Full installation steps
-- [Post-Installation Setup](07-post-installation-setup.md) â€” After first boot
-- [Desktop Tour](08-desktop-tour.md) â€” GNOME desktop overview
-- [Using 01s-Ledger](10-using-01s-ledger.md) â€” Ledger operations
-- [QEMU Testing Guide](22-qemu-testing.md) â€” Virtual testing
-- [Troubleshooting Basics](23-troubleshooting-basics.md) â€” General debugging
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Specific boot issues
-- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) â€” Desktop issues
-- [Network Troubleshooting](../help/07-network-troubleshooting.md) â€” Connectivity
-- [Community Forums](../community/04-communication-channels.md) â€” Peer support
+- [Installation Guide](06-installation-guide.md) — Full installation steps
+- [Post-Installation Setup](07-post-installation-setup.md) — After first boot
+- [Desktop Tour](08-desktop-tour.md) — GNOME desktop overview
+- [Using 01s-Ledger](10-using-01s-ledger.md) — Ledger operations
+- [QEMU Testing Guide](22-qemu-testing.md) — Virtual testing
+- [Troubleshooting Basics](23-troubleshooting-basics.md) — General debugging
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Specific boot issues
+- [Desktop Troubleshooting](../help/04-desktop-troubleshooting.md) — Desktop issues
+- [Network Troubleshooting](../help/07-network-troubleshooting.md) — Connectivity
+- [Community Forums](../community/04-communication-channels.md) — Peer support
 
 ## Boot Process Timeline
 
@@ -672,7 +672,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -695,3 +695,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

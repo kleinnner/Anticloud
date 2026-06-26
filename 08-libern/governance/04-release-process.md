@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: governance | ID: LIB-GOV-004
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Release Process
 
@@ -119,10 +119,10 @@ For minor and major releases:
 ### 5.1 Branch Structure
 
 ```
-main          â† Development branch (latest)
-  â”œâ”€ release/v1.2.x    â† Release branch for v1.2 series
-  â”œâ”€ release/v1.1.x    â† Release branch for v1.1 series
-  â””â”€ release/v1.0.x    â† Release branch for v1.0 series (maintenance)
+main          ← Development branch (latest)
+  ├─ release/v1.2.x    ← Release branch for v1.2 series
+  ├─ release/v1.1.x    ← Release branch for v1.1 series
+  └─ release/v1.0.x    ← Release branch for v1.0 series (maintenance)
 ```
 
 ### 5.2 Branch Policies
@@ -428,19 +428,19 @@ For each release, the Release Manager uses this checklist:
 
 ```
 Developer Push
-        â”‚
-        â–¼
+        │
+        ▼
 GitHub Actions Workflow
-   â”œâ”€ Lint (cargo clippy, npm run lint)
-   â”œâ”€ Test (cargo test, npm test)
-   â”œâ”€ Security Scan (cargo audit, npm audit)
-   â”œâ”€ Build (cargo build --release)
-   â”‚     â”œâ”€ Windows (x86_64, ARM64)
-   â”‚     â”œâ”€ macOS (x86_64, ARM64)
-   â”‚     â””â”€ Linux (x86_64, ARM64)
-   â”œâ”€ Sign (Ed25519 signature)
-   â”œâ”€ Package (MSI, DMG, AppImage, tar.gz)
-   â””â”€ Publish (GitHub Releases)
+   ├─ Lint (cargo clippy, npm run lint)
+   ├─ Test (cargo test, npm test)
+   ├─ Security Scan (cargo audit, npm audit)
+   ├─ Build (cargo build --release)
+   │     ├─ Windows (x86_64, ARM64)
+   │     ├─ macOS (x86_64, ARM64)
+   │     └─ Linux (x86_64, ARM64)
+   ├─ Sign (Ed25519 signature)
+   ├─ Package (MSI, DMG, AppImage, tar.gz)
+   └─ Publish (GitHub Releases)
 ```
 
 ### 15.2 Automated Testing Gates
@@ -487,25 +487,25 @@ sign-release:
 ### 16.1 Manual Testing Checklist
 
 ```
-â–¡ Install on clean Windows 11 system
-  â–¡ MSI installer completes without error
-  â–¡ Application launches successfully
-  â–¡ First-run wizard works
-  â–¡ Can create account (Ed25519 key gen)
-  â–¡ Can create server
-  â–¡ Can send messages
-  â–¡ AI features functional
-  â–¡ Voice chat works
-  â–¡ Whiteboard functions
-  â–¡ Can export .aioss ledger
-  â–¡ Can verify .aioss integrity
-  â–¡ Can uninstall cleanly
+□ Install on clean Windows 11 system
+  □ MSI installer completes without error
+  □ Application launches successfully
+  □ First-run wizard works
+  □ Can create account (Ed25519 key gen)
+  □ Can create server
+  □ Can send messages
+  □ AI features functional
+  □ Voice chat works
+  □ Whiteboard functions
+  □ Can export .aioss ledger
+  □ Can verify .aioss integrity
+  □ Can uninstall cleanly
 
-â–¡ Install on clean macOS system
-  â–¡ (Same checks as Windows)
+□ Install on clean macOS system
+  □ (Same checks as Windows)
 
-â–¡ Install on clean Linux system
-  â–¡ (Same checks as Windows)
+□ Install on clean Linux system
+  □ (Same checks as Windows)
 ```
 
 ### 16.2 Regression Testing
@@ -574,7 +574,7 @@ cargo test --test p2p_handshake
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -597,3 +597,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

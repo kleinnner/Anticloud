@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # Errors & Limitations FAQ
@@ -23,7 +23,7 @@ If `kazkade query` returns zero rows, check:
 
 ## What SQL is NOT supported?
 The query engine implements a restricted subset of SQL-92 optimised for analytic workloads. **Not supported:**
-- Joins (INNER, LEFT, CROSS, etc.) â€” single-table queries only
+- Joins (INNER, LEFT, CROSS, etc.) — single-table queries only
 - Subqueries (correlated or uncorrelated), CTEs (WITH clauses)
 - Window functions (ROW_NUMBER, RANK, LAG, etc.)
 - DDL (CREATE, ALTER, DROP) or DML (INSERT, UPDATE, DELETE)
@@ -35,7 +35,7 @@ If you need joins or subqueries, export to Parquet or CSV and use DuckDB, Polars
 ## Why does matmul give wrong results?
 Matrix multiplication (`kazkade bench --gemm` or the programmatic API) should produce bit-exact results matching a reference FP32/FP64 implementation. If you observe discrepancies:
 - Ensure matrices are FP32 or FP64. Kazkade does not support FP16 or BF16 GEMM.
-- Check for NaN or Inf inputs â€” Kazkade does not sanitise inputs.
+- Check for NaN or Inf inputs — Kazkade does not sanitise inputs.
 - Verify you are not comparing against a result computed with FMA contractions that differ in rounding (this is expected; Kazkade uses standard FMA, not fast-math).
 - On older CPUs without FMA, Kazkade falls back to multiply + add, which may produce slightly different rounding. Run `kazkade self-test` to confirm your CPU's FMA support.
 
@@ -44,7 +44,7 @@ Kazkade uses memory-mapped files, so the practical limit is your **virtual addre
 - **x64 Windows**: 8 TB user-space (128 TB with `/LARGEADDRESSAWARE`), but physical RAM limits cache performance.
 - **Linux x86-64**: 128 TB user-space.
 - **ARM64**: 256 TB (Apple Silicon), 128 TB (Linux ARM).
-Because data is memory-mapped, you can open files larger than physical RAM â€” the OS pages data in and out. However, the **working set** of a query (columns touched by the filter/projection) must fit in virtual address space. For extremely wide tables (10,000+ columns), reduce the number of columns in your SELECT clause.
+Because data is memory-mapped, you can open files larger than physical RAM — the OS pages data in and out. However, the **working set** of a query (columns touched by the filter/projection) must fit in virtual address space. For extremely wide tables (10,000+ columns), reduce the number of columns in your SELECT clause.
 
 ## Can Kazkade run out of memory?
 Yes. Although `.acol` files are memory-mapped, certain operations allocate heap memory:
@@ -55,10 +55,10 @@ Yes. Although `.acol` files are memory-mapped, certain operations allocate heap 
 If you see "out of memory" errors, add a LIMIT clause, add a WHERE filter, or use `--format csv > output.csv` to stream results to disk.
 
 ## What does "unsupported column type" mean?
-Kazkade supports: `int8`, `int16`, `int32`, `int64`, `uint8`, `uint16`, `uint32`, `uint64`, `float32`, `float64`, `bool`, `utf8` (string), and `binary`. If your `.acol` file contains a type from a newer format version, upgrade your binary. If importing from CSV, check for mixed-type columns (e.g. a column containing both numbers and text) â€” the importer will fall back to `utf8` for the entire column.
+Kazkade supports: `int8`, `int16`, `int32`, `int64`, `uint8`, `uint16`, `uint32`, `uint64`, `float32`, `float64`, `bool`, `utf8` (string), and `binary`. If your `.acol` file contains a type from a newer format version, upgrade your binary. If importing from CSV, check for mixed-type columns (e.g. a column containing both numbers and text) — the importer will fall back to `utf8` for the entire column.
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -69,7 +69,7 @@ Kazkade supports: `int8`, `int16`, `int32`, `int64`, `uint8`, `uint16`, `uint32`
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -92,3 +92,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

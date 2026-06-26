@@ -1,12 +1,12 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # Cross-Platform Installer
@@ -17,10 +17,10 @@ Kazkade ships with a single, self-contained installer binary that embeds the ful
 
 The installer is built with `cargo-dist` and `rustc`'s `#[cfg(target_os)]` to produce per-platform binaries. A single `.tar.xz` or `.zip` archive contains:
 
-- `kazkade` â€” the main CLI binary
-- `.acol` â€” bundled sample datasets
-- `model.kaz` â€” example neural network weights
-- `installer` â€” the platform-specific installer executable
+- `kazkade` — the main CLI binary
+- `.acol` — bundled sample datasets
+- `model.kaz` — example neural network weights
+- `installer` — the platform-specific installer executable
 
 On POSIX systems, the installer is a shell archive; on Windows, a `.exe` with embedded resources using `winres`.
 
@@ -37,11 +37,11 @@ flowchart TD
     C -- No --> F[Abort: CPU too old]
     D -- No --> F
     E -- No --> F
-    C -- Yes --> G{RAM â‰¥ 2 GB?}
+    C -- Yes --> G{RAM = 2 GB?}
     D -- Yes --> G
     E -- Yes --> G
     G -- No --> H[Abort: insufficient RAM]
-    G -- Yes --> I{Disk space â‰¥ 500 MB?}
+    G -- Yes --> I{Disk space = 500 MB?}
     I -- No --> J[Abort: insufficient disk]
     I -- Yes --> K[Proceed to install]
 ```
@@ -59,9 +59,9 @@ flowchart TD
 
 ### Windows
 
-- **PATH** â€” adds `%LOCALAPPDATA%\Kazkade\bin` to the system PATH via `SetEnvironmentVariable`.
-- **Shortcuts** â€” creates a Start Menu entry and optional desktop shortcut for `kazkade dashboard`.
-- **Uninstaller** â€” registered in Add/Remove Programs via a `RUNREG` key.
+- **PATH** — adds `%LOCALAPPDATA%\Kazkade\bin` to the system PATH via `SetEnvironmentVariable`.
+- **Shortcuts** — creates a Start Menu entry and optional desktop shortcut for `kazkade dashboard`.
+- **Uninstaller** — registered in Add/Remove Programs via a `RUNREG` key.
 
 ```powershell
 # Installer logic
@@ -72,15 +72,15 @@ Copy-Item "kazcade.exe" "$env:LOCALAPPDATA\Kazkade\bin"
 
 ### macOS
 
-- **`.app` bundle** â€” the installer creates `/Applications/Kazkade.app` with the binary in `Contents/MacOS/` and an Info.plist.
-- **`brew` integration** â€” optional: symlinks the binary into `/usr/local/bin`.
-- **Code signing** â€” if a signing certificate is present, `codesign -s` is invoked.
+- **`.app` bundle** — the installer creates `/Applications/Kazkade.app` with the binary in `Contents/MacOS/` and an Info.plist.
+- **`brew` integration** — optional: symlinks the binary into `/usr/local/bin`.
+- **Code signing** — if a signing certificate is present, `codesign -s` is invoked.
 
 ### Linux
 
-- **`~/.local/bin`** â€” the binary is copied to `~/.local/bin/kazcade` and a `.desktop` file is written to `~/.local/share/applications/kazcade.desktop`.
-- **Desktop entry** â€” registers the dashboard application with the system menu. If `xdg-desktop-menu` is available, it is invoked.
-- **System-wide install** â€” if run with `sudo`, installs to `/usr/local/bin`.
+- **`~/.local/bin`** — the binary is copied to `~/.local/bin/kazcade` and a `.desktop` file is written to `~/.local/share/applications/kazcade.desktop`.
+- **Desktop entry** — registers the dashboard application with the system menu. If `xdg-desktop-menu` is available, it is invoked.
+- **System-wide install** — if run with `sudo`, installs to `/usr/local/bin`.
 
 ## Live Cube UI
 
@@ -98,7 +98,7 @@ while extraction_progress < 1.0 {
 ```
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -109,7 +109,7 @@ while extraction_progress < 1.0 {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -132,3 +132,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

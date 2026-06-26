@@ -1,4 +1,4 @@
-﻿<!-- ASCII Art for Ems-11 -->
+<!-- ASCII Art for Ems-11 -->
 
 
 
@@ -13,20 +13,20 @@
 > **Associated Module:** Ems-11
 ## Transparency Philosophy
 
-The Ems-11 module articulates Inte11ect's commitment to complete transparency â€” the principle that users must be able to understand, verify, and audit every aspect of the AI platform they use.
+The Ems-11 module articulates Inte11ect's commitment to complete transparency — the principle that users must be able to understand, verify, and audit every aspect of the AI platform they use.
 
 ### The Transparency Imperative
 
-AI systems are increasingly making decisions that affect people's lives. When those systems are "black boxes" â€” proprietary, closed-source, unverifiable â€” users have no way to know what the system is doing, whether it is biased, whether it respects their privacy, or whether it can be trusted. Inte11ect rejects the black box model entirely.
+AI systems are increasingly making decisions that affect people's lives. When those systems are "black boxes" — proprietary, closed-source, unverifiable — users have no way to know what the system is doing, whether it is biased, whether it respects their privacy, or whether it can be trusted. Inte11ect rejects the black box model entirely.
 
 ### Core Transparency Principles
 
-1. **All code is open source** â€” Every line of code that runs on user machines is published under Apache 2.0 or MIT licenses.
-2. **All builds are reproducible** â€” Anyone can verify that published binaries match source code.
-3. **All algorithms are documented** â€” Every model, optimization, and decision process has documentation.
-4. **All data flows are visible** â€” The network monitor shows every connection Inte11ect makes.
-5. **All outputs are explainable** â€” Users can understand why the model produced a particular response.
-6. **All systems are auditable** â€” Third parties can audit the code, builds, and operations.
+1. **All code is open source** — Every line of code that runs on user machines is published under Apache 2.0 or MIT licenses.
+2. **All builds are reproducible** — Anyone can verify that published binaries match source code.
+3. **All algorithms are documented** — Every model, optimization, and decision process has documentation.
+4. **All data flows are visible** — The network monitor shows every connection Inte11ect makes.
+5. **All outputs are explainable** — Users can understand why the model produced a particular response.
+6. **All systems are auditable** — Third parties can audit the code, builds, and operations.
 
 ### Open Source Guarantee
 
@@ -40,15 +40,15 @@ This section provides comprehensive technical analysis of the implementation det
 
 #### Architecture Decision Records
 
-**ADR-001: Local-First Processing** â€” All inference operations execute on user local hardware to maximize privacy, minimize latency, and eliminate cloud dependency. This fundamental decision drives all subsequent architecture choices and is non-negotiable for the platform.
+**ADR-001: Local-First Processing** — All inference operations execute on user local hardware to maximize privacy, minimize latency, and eliminate cloud dependency. This fundamental decision drives all subsequent architecture choices and is non-negotiable for the platform.
 
-**ADR-002: INT4 Quantization by Default** â€” Models use INT4 precision by default, providing optimal balance of quality, memory footprint, and speed. Users can select INT8 or FP16 when hardware permits higher quality requirements.
+**ADR-002: INT4 Quantization by Default** — Models use INT4 precision by default, providing optimal balance of quality, memory footprint, and speed. Users can select INT8 or FP16 when hardware permits higher quality requirements.
 
-**ADR-003: Ed25519 Cryptographic Signatures** â€” All artifacts use Ed25519 signatures for verification, chosen for 128-bit security level, fast verification (~20K ops/sec), compact 64-byte signatures, and widespread standardization.
+**ADR-003: Ed25519 Cryptographic Signatures** — All artifacts use Ed25519 signatures for verification, chosen for 128-bit security level, fast verification (~20K ops/sec), compact 64-byte signatures, and widespread standardization.
 
-**ADR-004: Tauri Desktop Framework** â€” The desktop client uses Tauri for its small binary size (<10MB), native Rust backend performance, cross-platform support, and strong security model without Node.js in production.
+**ADR-004: Tauri Desktop Framework** — The desktop client uses Tauri for its small binary size (<10MB), native Rust backend performance, cross-platform support, and strong security model without Node.js in production.
 
-**ADR-005: Modular 72-Component Architecture** â€” The platform decomposes into 72 independently versioned modules, each responsible for a specific domain, enabling independent development, testing, deployment, and scaling.
+**ADR-005: Modular 72-Component Architecture** — The platform decomposes into 72 independently versioned modules, each responsible for a specific domain, enabling independent development, testing, deployment, and scaling.
 
 #### Algorithm Selection and Rationale
 
@@ -92,7 +92,7 @@ Module specification (MOD-SPEC), API reference (API-REF), integration guide (INT
 
 #### Glossary
 
-Key terminology: Local Inference â€” AI execution on user hardware without cloud dependency, Quantization â€” numerical precision reduction for memory/compute efficiency, .aioss â€” AI Open Signed Storage format for verifiable artifacts, Ed25519 â€” high-security elliptic curve signature algorithm, Tauri â€” Rust-based desktop framework, Module â€” independent component of 72-module architecture, SBOM â€” Software Bill of Materials for supply chain transparency.
+Key terminology: Local Inference — AI execution on user hardware without cloud dependency, Quantization — numerical precision reduction for memory/compute efficiency, .aioss — AI Open Signed Storage format for verifiable artifacts, Ed25519 — high-security elliptic curve signature algorithm, Tauri — Rust-based desktop framework, Module — independent component of 72-module architecture, SBOM — Software Bill of Materials for supply chain transparency.
 
 ### Additional Implementation Details
 
@@ -509,7 +509,7 @@ Transparency is the foundation of trust. Inte11ect's commitment to open source, 
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -532,3 +532,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

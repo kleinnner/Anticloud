@@ -1,15 +1,15 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Demo Script â€” Kazkade Sales Demo
+# Demo Script — Kazkade Sales Demo
 
 ## Setup
 
@@ -20,11 +20,11 @@
 **BDR preparation:**
 - Download the Kazkade binary ahead of time: `curl -O https://kazcade.io/dl/kazcade && chmod +x kazkade`
 - Prepare a sample CSV file with 1M rows of time-series data (provided in `./demo/sample.csv`)
-- Open a terminal with a clean prompt, pre-sized to 120Ã—40 for readability
+- Open a terminal with a clean prompt, pre-sized to 120×40 for readability
 
 ---
 
-## Step 1: Intro â€” Download and Run Info (2 min)
+## Step 1: Intro — Download and Run Info (2 min)
 
 **Goal:** Demonstrate that Kazkade is a single binary with zero dependencies.
 
@@ -37,7 +37,7 @@
 
 **Talking points:**
 - "This is the only file you need. There is no `apt install`, no `pip install`, no Docker pull."
-- "The `info` command shows your CPU, SIMD capabilities, cache topology, and OS â€” all detected at runtime with zero configuration."
+- "The `info` command shows your CPU, SIMD capabilities, cache topology, and OS — all detected at runtime with zero configuration."
 - "Note the SIMD level detected: [AVX-512 / AVX2 / NEON]. Kazkade selected the optimal path automatically."
 
 **Expected output highlights:**
@@ -64,7 +64,7 @@ Cache: L1 32K, L2 256K, L3 16MB
 
 **Talking points:**
 - "One command runs GEMM at native SIMD speed, then outputs results in JSON, Markdown, or the `.aioss` ledger format."
-- "This produces a real, measured number â€” not an estimated or synthetic score."
+- "This produces a real, measured number — not an estimated or synthetic score."
 - "Kazkade runs warm-up iterations, detects outliers, and computes confidence intervals automatically."
 
 **Expected output highlights:**
@@ -92,7 +92,7 @@ GEMM 1024x1024x1024
 
 **Talking points:**
 - "Kazkade ships with a built-in web dashboard. No separate install, no Grafana, no Prometheus."
-- "You can compare runs, filter by machine, export to PDF â€” all from the binary."
+- "You can compare runs, filter by machine, export to PDF — all from the binary."
 - "This runs entirely locally. No telemetry is sent externally unless you configure it."
 
 **Expected behavior:** Browser opens to `http://localhost:8123` showing a plot of the benchmark result with machine metadata.
@@ -119,7 +119,7 @@ GEMM 1024x1024x1024
 ```
 
 **Talking points:**
-- "Each benchmark is appended to the ledger. The ledger is a chain of SHA-256 hashes â€” each entry links back to the previous one."
+- "Each benchmark is appended to the ledger. The ledger is a chain of SHA-256 hashes — each entry links back to the previous one."
 - "The ledger also records the binary hash, CPU microcode version, and OS kernel. It's a complete computational provenance record."
 - "You can't edit a ledger entry without breaking the hash chain. This is what makes it tamper-proof."
 
@@ -150,7 +150,7 @@ Chain integrity: VALID
 ```
 
 **Talking points:**
-- "Verification rehashes every entry and checks the chain. If anything changed â€” even one bit â€” the chain status flips to INVALID."
+- "Verification rehashes every entry and checks the chain. If anything changed — even one bit — the chain status flips to INVALID."
 - "This is what compliance teams and auditors need: a single command that proves the computation hasn't been altered."
 - "You can distribute ledgers publicly. Anyone with Kazkade can verify them."
 
@@ -180,7 +180,7 @@ Last verified: 2026-06-18T14:30:00Z
 **Talking points:**
 - "No database server. No schema definition. Kazkade memory-maps the file and runs vectorized SQL on it."
 - "The query engine is SIMD-accelerated. It's faster than pandas for GROUP BY and FILTER on numeric columns."
-- "Every query is also recorded in the ledger if you pass `--ledger` â€” so you can prove *what* you computed and *when*."
+- "Every query is also recorded in the ledger if you pass `--ledger` — so you can prove *what* you computed and *when*."
 
 **Expected output:**
 ```
@@ -212,15 +212,15 @@ LATAM           34,567.89
 
 ## Objection Handler for Demo
 
-| During Step | If Prospect Saysâ€¦ | BDR Response |
+| During Step | If Prospect Says… | BDR Response |
 |-------------|-------------------|--------------|
-| 2 | "Our benchmarks are more complex" | "Kazkade supports custom kernels via `--kernel` â€” you can plug in your own GEMM or convolution. Let me show you." |
+| 2 | "Our benchmarks are more complex" | "Kazkade supports custom kernels via `--kernel` — you can plug in your own GEMM or convolution. Let me show you." |
 | 4 | "How does the ledger scale?" | "We've tested ledgers with 10,000+ entries. Verification takes < 100 ms. Each entry is ~200 bytes." |
 | 6 | "Can it connect to Postgres?" | "Not directly. But you can export CSV or Parquet and query it. For live DB querying, use Kazkade on exports." |
-| Any | "Can I see the source?" | "Absolutely â€” it's Apache 2.0 on GitHub at `github.com/kazcade/kazcade`. I'll send you the link." |
+| Any | "Can I see the source?" | "Absolutely — it's Apache 2.0 on GitHub at `github.com/kazcade/kazcade`. I'll send you the link." |
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -231,7 +231,7 @@ LATAM           34,567.89
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -254,3 +254,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

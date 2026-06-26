@@ -1,19 +1,19 @@
-﻿<!-- ASCII Art for Kern-11 -->
+<!-- ASCII Art for Kern-11 -->
 
 
-██╗    ██╗███████╗██████╗ ██╗███████╗██╗███████╗
-██║    ██║██╔════╝██╔══██╗██║██╔════╝██║██╔════╝
-██║ █╗ ██║█████╗  ██████╔╝██║█████╗  ██║█████╗  
-██║███╗██║██╔══╝  ██╔══██╗██║██╔══╝  ██║██╔══╝  
-╚███╔███╔╝███████╗██║  ██║██║███████╗██║███████╗
- ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝╚══════╝
+��+    ��+�������+������+ ��+�������+��+�������+
+���    �����+----+��+--��+�����+----+�����+----+
+��� �+ ��������+  ������++��������+  ��������+  
+������+�����+--+  ��+--��+�����+--+  �����+--+  
++���+���++�������+���  �������������+����������+
+ +--++--+ +------++-+  +-++-++------++-++------+
 
-████████╗██╗  ██╗███████╗    ██████╗  █████╗  ██╗ ██████╗ ███████╗
-╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗██╔══██╗██║██╔════╝ ██╔════╝
-   ██║   ███████║█████╗      ██████╔╝███████║██║██║  ███╗███████╗
-   ██║   ██╔══██║██╔══╝      ██╔══██╗██╔══██║██║██║   ██║╚════██║
-   ██║   ██║  ██║███████╗    ██║  ██║██║  ██║██║╚██████╔╝███████║
-   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚══════╝
+��������+��+  ��+�������+    ������+  �����+  ��+ ������+ �������+
++--��+--+���  �����+----+    ��+--��+��+--��+�����+----+ ��+----+
+   ���   �������������+      ������++��������������  ���+�������+
+   ���   ��+--�����+--+      ��+--��+��+--���������   ���+----���
+   ���   ���  ����������+    ���  ������  ������+������++��������
+   +-+   +-+  +-++------+    +-+  +-++-+  +-++-+ +-----+ +------+
 
 *Lois-Kleinner and 0-1.gg 2026 - Inte11ect Platform Documentation*
 *Confidential - All Rights Reserved*
@@ -23,8 +23,8 @@
 
 # Verifying the .aioss Ledger
 
-> **Associated Module:** Kern-11 — Audit & Integrity Kernel
-> **Tutorial 05 of 12** — Estimated reading time: 16 min | Hands-on time: 15 min
+> **Associated Module:** Kern-11 � Audit & Integrity Kernel
+> **Tutorial 05 of 12** � Estimated reading time: 16 min | Hands-on time: 15 min
 
 ## Overview
 
@@ -41,7 +41,7 @@ This tutorial teaches you:
 
 ---
 
-## Section 1 — What Is the .aioss Ledger?
+## Section 1 � What Is the .aioss Ledger?
 
 `.aioss` stands for **Append-Only Immutable Object Storage System**. It is a local-first, Merkle-tree-verified audit log inspired by certificate transparency logs and blockchain hash chains.
 
@@ -84,8 +84,8 @@ flowchart LR
     subgraph Integrity[Integrity Check]
         R[Recompute H1 from E1 + H0]
         R --> C1{Matches?}
-        C1 -->|Yes| OK1[✓ Entry 1 verified]
-        C1 -->|No| FAIL1[✗ Tampered!]
+        C1 -->|Yes| OK1[? Entry 1 verified]
+        C1 -->|No| FAIL1[? Tampered!]
     end
 ```
 
@@ -93,7 +93,7 @@ Each block's hash includes the previous block's hash, creating an immutable chai
 
 ---
 
-## Section 2 — Ledger Location and Structure
+## Section 2 � Ledger Location and Structure
 
 ### Default Path
 
@@ -181,7 +181,7 @@ CREATE TABLE meta (
 
 ---
 
-## Section 3 — Checking Ledger Integrity
+## Section 3 � Checking Ledger Integrity
 
 ### Basic Integrity Check
 
@@ -189,18 +189,18 @@ CREATE TABLE meta (
 inte11ect ledger status
 
 # Output:
-# ╔════════════════════════════════════════════════════╗
-# ║  .aioss Ledger Status                             ║
-# ╠════════════════════════════════════════════════════╣
-# ║  Path:       ~/.inte11ect/ledger/aioss.db          ║
-# ║  Version:    2                                     ║
-# ║  Entries:    12,847                                ║
-# ║  First:      2026-01-15T10:00:00Z                  ║
-# ║  Last:       2026-06-19T10:30:00Z                  ║
-# ║  Last Hash:  0xe5f6a7b8c9d0...                    ║
-# ║  Integrity:  ✓ Verified (Merkle root matches)      ║
-# ║  Signatures: ✓ All 12,847 entries signed           ║
-# ╚════════════════════════════════════════════════════╝
+# +----------------------------------------------------+
+# �  .aioss Ledger Status                             �
+# �----------------------------------------------------�
+# �  Path:       ~/.inte11ect/ledger/aioss.db          �
+# �  Version:    2                                     �
+# �  Entries:    12,847                                �
+# �  First:      2026-01-15T10:00:00Z                  �
+# �  Last:       2026-06-19T10:30:00Z                  �
+# �  Last Hash:  0xe5f6a7b8c9d0...                    �
+# �  Integrity:  ? Verified (Merkle root matches)      �
+# �  Signatures: ? All 12,847 entries signed           �
+# +----------------------------------------------------+
 ```
 
 ### Full Verification
@@ -210,16 +210,16 @@ inte11ect ledger status
 inte11ect ledger verify --full
 
 # You will see:
-# Verifying entry 1/12847... ✓
-# Verifying entry 2/12847... ✓
+# Verifying entry 1/12847... ?
+# Verifying entry 2/12847... ?
 # ...
-# Verifying entry 12847/12847... ✓
-# ┌─────────────────────────────────────────────┐
-# │ Full Verification Complete                   │
-# │ Result: INTACT — all 12,847 entries verified │
-# │ Chain hash: a1b2c3d4...                     │
-# │ Duration: 847ms                             │
-# └─────────────────────────────────────────────┘
+# Verifying entry 12847/12847... ?
+# +---------------------------------------------+
+# � Full Verification Complete                   �
+# � Result: INTACT � all 12,847 entries verified �
+# � Chain hash: a1b2c3d4...                     �
+# � Duration: 847ms                             �
+# +---------------------------------------------+
 ```
 
 ### Partial Verification (Fast)
@@ -237,7 +237,7 @@ inte11ect ledger verify --module qwen2-vl-2b
 
 ---
 
-## Section 4 — Viewing Ledger Entries
+## Section 4 � Viewing Ledger Entries
 
 ### Tail Recent Entries
 
@@ -286,7 +286,7 @@ inte11ect ledger query --session sess_abc123
 # Shows all entries for a specific session:
 # 1. inference.start    | 2026-06-19T10:29:55Z
 # 2. module.route       | 2026-06-19T10:29:55Z
-# 3. inference.token    | 2026-06-19T10:30:00Z (×128)
+# 3. inference.token    | 2026-06-19T10:30:00Z (�128)
 # 4. inference.complete | 2026-06-19T10:30:05Z
 # 5. feedback.submit    | 2026-06-19T10:30:10Z
 ```
@@ -309,7 +309,7 @@ inte11ect ledger query --aggregate "count by action"
 
 ---
 
-## Section 5 — Proving Integrity to a Third Party
+## Section 5 � Proving Integrity to a Third Party
 
 You can export a proof that the ledger has not been tampered with, without sharing the full ledger.
 
@@ -330,7 +330,7 @@ inte11ect ledger prove --entry-id 8472 --output proof.json
 inte11ect ledger verify-proof --input proof.json
 
 # Output:
-# ✓ Proof valid. Entry 8472 is included in chain with root a1b2c3d4...
+# ? Proof valid. Entry 8472 is included in chain with root a1b2c3d4...
 ```
 
 ### Snapshot Export
@@ -352,7 +352,7 @@ inte11ect ledger snapshot --output ./ledger_snapshot.json
 
 ---
 
-## Section 6 — Audit Export
+## Section 6 � Audit Export
 
 ### Export Full Ledger
 
@@ -391,7 +391,7 @@ inte11ect ledger export \
 
 ---
 
-## Section 7 — Ledger Signing
+## Section 7 � Ledger Signing
 
 For high-security environments, the ledger can sign each entry with Ed25519:
 
@@ -408,8 +408,8 @@ public_key_path = "~/.inte11ect/ledger/public_key.pem"
 inte11ect ledger init-keys
 
 # This creates:
-#   signing_key.pem  — keep secret!
-#   public_key.pem   — share for verification
+#   signing_key.pem  � keep secret!
+#   public_key.pem   � share for verification
 
 # Verify all signatures
 inte11ect ledger verify --signatures
@@ -417,7 +417,7 @@ inte11ect ledger verify --signatures
 
 ---
 
-## Section 8 — Automated Verification in CI/CD
+## Section 8 � Automated Verification in CI/CD
 
 The `inte11ect ledger verify` command can be integrated into CI/CD pipelines:
 
@@ -463,7 +463,7 @@ jobs:
 
 ---
 
-## Section 9 — Trust Model
+## Section 9 � Trust Model
 
 ### What the Ledger Guarantees
 
@@ -498,7 +498,7 @@ flowchart TD
 
 ---
 
-## Section 10 — Troubleshooting
+## Section 10 � Troubleshooting
 
 ### "Integrity check failed"
 
@@ -511,11 +511,11 @@ inte11ect ledger verify --verbose
 #   Actual:   0x7a8b9c0d1e2f...
 
 # Possible causes:
-# 1. Disk corruption — restore from backup
+# 1. Disk corruption � restore from backup
 inte11ect ledger restore --backup ~/.inte11ect/ledger/backups/aioss_2026-06-18.db
 
-# 2. Concurrent access — ensure no other process is writing
-# 3. Manual tampering — check who has filesystem access
+# 2. Concurrent access � ensure no other process is writing
+# 3. Manual tampering � check who has filesystem access
 ```
 
 ### "Ledger database is locked"
@@ -545,7 +545,7 @@ inte11ect ledger update-public-key --key-path ./new_public_key.pem
 
 ---
 
-## Section 11 — Ledger Configuration Reference
+## Section 11 � Ledger Configuration Reference
 
 ```toml
 [ledger]
@@ -578,7 +578,7 @@ backup_path = "~/.inte11ect/ledger/backups/"
 
 ---
 
-## Section 12 — CLI Reference
+## Section 12 � CLI Reference
 
 | Command | Description |
 |---------|-------------|
@@ -598,14 +598,14 @@ backup_path = "~/.inte11ect/ledger/backups/"
 
 ## Next Steps
 
-- [06-tutorial.md](./06-tutorial.md) — Mermaid diagramming
-- [07-tutorial.md](./07-tutorial.md) — Integrating with other tools
-- [07-features.md](../features/07-features.md) — .aioss audit ledger deep dive
-- [11-tutorial.md](./11-tutorial.md) — Security best practices
+- [06-tutorial.md](./06-tutorial.md) � Mermaid diagramming
+- [07-tutorial.md](./07-tutorial.md) � Integrating with other tools
+- [07-features.md](../features/07-features.md) � .aioss audit ledger deep dive
+- [11-tutorial.md](./11-tutorial.md) � Security best practices
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -616,7 +616,7 @@ backup_path = "~/.inte11ect/ledger/backups/"
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -639,3 +639,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

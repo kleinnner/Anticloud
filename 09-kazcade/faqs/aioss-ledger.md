@@ -1,18 +1,18 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
 # .aioss Ledger FAQ
 
 ## What is .aioss?
-An `.aioss` file is a **tamper-evident ledger** that chains together records using cryptographic hashes. Each record (or "block") contains a timestamp, payload, the hash of the previous block, and an Ed25519 signature. The format is designed for lightweight auditing â€” no full blockchain, no consensus, no P2P networking. Just a verifiable, append-only chain of facts.
+An `.aioss` file is a **tamper-evident ledger** that chains together records using cryptographic hashes. Each record (or "block") contains a timestamp, payload, the hash of the previous block, and an Ed25519 signature. The format is designed for lightweight auditing — no full blockchain, no consensus, no P2P networking. Just a verifiable, append-only chain of facts.
 
 ## How does the hash chain work?
 Each block stores `prev_hash` (SHA-256 of the preceding block's header), `timestamp`, `payload` (arbitrary bytes), and `signature` (Ed25519 of this block's header). The chain's root hash is the hash of block 0 (which has `prev_hash = 0000...`). To verify the chain, the runtime walks from block 0 to the last block, recomputing every hash and checking every signature. Any mismatch causes the chain to be marked `TAMPERED`.
@@ -27,16 +27,16 @@ kazkade ledger verify path/to/ledger.aioss
 This returns one of three statuses: **OK** (chain intact and all signatures valid), **TAMPERED** (hash mismatch or bad signature found), or **PARTIAL** (some blocks verified but chain terminated early). Use `--verbose` to see which block failed. You can also supply the expected public key with `--expect-pubkey` to verify the identity of the signer.
 
 ## What does "TAMPERED" mean?
-If `kazkade ledger verify` reports `TAMPERED`, at least one block in the chain has been modified after signing â€” the hash of a block does not match the `prev_hash` stored in the next block, or a signature fails to verify. This means the ledger's integrity is compromised. A `TAMPERED` ledger should not be trusted for auditing or evidentiary purposes.
+If `kazkade ledger verify` reports `TAMPERED`, at least one block in the chain has been modified after signing — the hash of a block does not match the `prev_hash` stored in the next block, or a signature fails to verify. This means the ledger's integrity is compromised. A `TAMPERED` ledger should not be trusted for auditing or evidentiary purposes.
 
 ## Can I use .aioss for auditing?
-Yes. The `.aioss` format was designed specifically for lightweight, non-repudiable audit trails. Common use cases include: log file integrity verification, pipeline artifact provenance, financial transaction logs, and timestamped document chains. Because each block is independently signed, you can selectively verify subsets of the chain. The format is open and self-describing â€” no external database or blockchain node is required.
+Yes. The `.aioss` format was designed specifically for lightweight, non-repudiable audit trails. Common use cases include: log file integrity verification, pipeline artifact provenance, financial transaction logs, and timestamped document chains. Because each block is independently signed, you can selectively verify subsets of the chain. The format is open and self-describing — no external database or blockchain node is required.
 
 ## Can I create and sign ledgers programmatically?
 Yes. Use `kazkade ledger create` to initialise a new chain and `kazkade ledger append` to add signed records. The keypair can be generated with `kazkade ledger gen-key`. For automated pipelines, pass `--key-file` to sign without interactive prompts.
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -47,7 +47,7 @@ Yes. Use `kazkade ledger create` to initialise a new chain and `kazkade ledger a
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -70,3 +70,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

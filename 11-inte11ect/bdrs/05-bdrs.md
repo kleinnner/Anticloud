@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — BDR DOCUMENTATION                 ║
-║                   BDR-005: SINGLE BINARY                         ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � BDR DOCUMENTATION                 �
+�                   BDR-005: SINGLE BINARY                         �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -18,8 +18,8 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 | **Status** | Approved |
 | **Author** | Lois-Kleinner Engineering |
 | **Date** | 2026-06-19 |
-| **Supersedes** | — |
-| **Deprecated By** | — |
+| **Supersedes** | � |
+| **Deprecated By** | � |
 
 ---
 
@@ -215,24 +215,24 @@ docker run --rm -v $(pwd):/app alpine:latest /app/inte11ect --version
 ```bash
 inte11ect deps --tree --static
 inte11ect v1.0.0
-├── inte11ect-sdk v1.0.0
-├── tauri v2.0.0
-├── wasmtime v20.0.0
-├── tokenizers v0.19.0
-├── candle-core v0.7.0
-├── candle-nn v0.7.0
-├── candle-transformers v0.7.0
-├── ed25519-dalek v2.1.0
-├── blake3 v1.5.0
-├── rusqlite v0.31.0
-├── serde v1.0.0
-├── tokio v1.38.0
-├── reqwest v0.12.0
-├── zstd v0.13.0
-├── chrono v0.4.0
-├── tracing v0.1.0
-├── anyhow v1.0.0
-└── 142 other crates (all statically linked)
++-- inte11ect-sdk v1.0.0
++-- tauri v2.0.0
++-- wasmtime v20.0.0
++-- tokenizers v0.19.0
++-- candle-core v0.7.0
++-- candle-nn v0.7.0
++-- candle-transformers v0.7.0
++-- ed25519-dalek v2.1.0
++-- blake3 v1.5.0
++-- rusqlite v0.31.0
++-- serde v1.0.0
++-- tokio v1.38.0
++-- reqwest v0.12.0
++-- zstd v0.13.0
++-- chrono v0.4.0
++-- tracing v0.1.0
++-- anyhow v1.0.0
++-- 142 other crates (all statically linked)
 ```
 
 ---
@@ -508,18 +508,18 @@ zopfli compress frontend assets   # Better compression
 
 ```
 inte11ect-v1.0.0/
-├── inte11ect-x86_64-linux.tar.gz
-│   └── inte11ect
-├── inte11ect-x86_64-windows.zip
-│   └── inte11ect.exe
-├── inte11ect-aarch64-darwin.tar.gz
-│   └── inte11ect
-├── inte11ect-x86_64-darwin.tar.gz
-│   └── inte11ect
-├── inte11ect-aarch64-linux.tar.gz
-│   └── inte11ect
-├── checksums.txt
-└── SBOM.json
++-- inte11ect-x86_64-linux.tar.gz
+�   +-- inte11ect
++-- inte11ect-x86_64-windows.zip
+�   +-- inte11ect.exe
++-- inte11ect-aarch64-darwin.tar.gz
+�   +-- inte11ect
++-- inte11ect-x86_64-darwin.tar.gz
+�   +-- inte11ect
++-- inte11ect-aarch64-linux.tar.gz
+�   +-- inte11ect
++-- checksums.txt
++-- SBOM.json
 ```
 
 ### Linux AppImage
@@ -668,7 +668,7 @@ pub fn self_check() -> Result<(), SelfCheckError> {
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -679,7 +679,7 @@ pub fn self_check() -> Result<(), SelfCheckError> {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -702,3 +702,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

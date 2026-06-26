@@ -1,17 +1,17 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 Document version: 1.0.0 | Updated: 2026-06-19
 Category: compliance | ID: LIB-COMP-001
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # GDPR Compliance
 
@@ -31,7 +31,7 @@ peer-to-peer via CRDT merge. There is no central server, no cloud dependency, an
 no third-party data processor.
 
 This document maps Libern's architecture to specific GDPR requirements and
-demonstrates how each article is satisfied â€” often by design rather than by policy.
+demonstrates how each article is satisfied — often by design rather than by policy.
 
 ## 2. Key Architectural Advantages
 
@@ -72,7 +72,7 @@ underlying infrastructure (operating system, hardware vendor, network provider).
 
 ## 3. GDPR Article Mapping
 
-### 3.1 Article 5 â€” Principles Relating to Processing of Personal Data
+### 3.1 Article 5 — Principles Relating to Processing of Personal Data
 
 | Principle | Libern Compliance |
 |-----------|------------------|
@@ -83,7 +83,7 @@ underlying infrastructure (operating system, hardware vendor, network provider).
 | Storage limitation | The user controls retention. Data can be pruned locally at any time. |
 | Integrity and confidentiality | Ed25519 signatures + SHA-3 hash chain + local encryption ensure integrity. |
 
-### 3.2 Article 7 â€” Conditions for Consent
+### 3.2 Article 7 — Conditions for Consent
 
 GDPR Article 7 requires that consent be freely given, specific, informed, and
 unambiguous. Libern does not process personal data based on consent in the
@@ -98,7 +98,7 @@ third party. However, for the data the user chooses to share with peers:
 - Consent can be withdrawn at any time by deleting local data or removing peers
   from the server
 
-### 3.3 Article 17 â€” Right to Erasure (Right to Be Forgotten)
+### 3.3 Article 17 — Right to Erasure (Right to Be Forgotten)
 
 GDPR Article 17 gives individuals the right to have their personal data erased
 without undue delay. Libern makes this trivially achievable:
@@ -121,7 +121,7 @@ application interfaces. This is consistent with GDPR Recital 65, which recognize
 that deletion from backup systems may take additional time and that technical
 limitations may apply.
 
-### 3.4 Article 20 â€” Right to Data Portability
+### 3.4 Article 20 — Right to Data Portability
 
 GDPR Article 20 gives individuals the right to receive their personal data in a
 structured, commonly used, machine-readable format and to transmit that data to
@@ -139,7 +139,7 @@ another controller. Libern supports this through the .aioss export format:
   users can migrate to any other system at any time. There is no proprietary
   cloud service holding their data hostage.
 
-### 3.5 Article 25 â€” Data Protection by Design and by Default
+### 3.5 Article 25 — Data Protection by Design and by Default
 
 GDPR Article 25 requires that data protection principles be integrated into
 processing activities from the design stage. Libern embodies this principle:
@@ -148,13 +148,13 @@ processing activities from the design stage. Libern embodies this principle:
   data should not leave the user's device unless absolutely necessary.
 - **Privacy by default:** All privacy-protective settings are enabled by default.
   There is no telemetry, no analytics, no cloud backup. These are not features
-  the user must opt out of â€” they simply do not exist.
+  the user must opt out of — they simply do not exist.
 - **Data minimization:** Libern does not collect email addresses, phone numbers,
   or any personal identifiers. Identity is based on Ed25519 public keys.
 - **End-to-end integrity:** Every message is signed and hash-chained, ensuring
   that data cannot be tampered with even if it is intercepted.
 
-### 3.6 Article 32 â€” Security of Processing
+### 3.6 Article 32 — Security of Processing
 
 GDPR Article 32 requires appropriate technical and organizational measures to
 ensure the security of personal data. Libern provides:
@@ -404,27 +404,27 @@ dramatically reduced compared to cloud-based collaboration platforms.
 **Phase 2: Technical Controls (Week 2)**
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚           GDPR Technical Controls in Libern          â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                                      â”‚
-â”‚  User Device                                         â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”               â”‚
-â”‚  â”‚ SQLite Database (local)           â”‚               â”‚
-â”‚  â”‚  â”œâ”€ Messages (encrypted at rest)  â”‚               â”‚
-â”‚  â”‚  â”œâ”€ .aioss Ledger (hash-chained) â”‚               â”‚
-â”‚  â”‚  â””â”€ Ed25519 Keys (OS-protected)   â”‚               â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜               â”‚
-â”‚            â”‚  P2P Encrypted                           â”‚
-â”‚            â–¼  WebSocket                              â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”               â”‚
-â”‚  â”‚  Peer Device (authorized only)    â”‚               â”‚
-â”‚  â”‚  â””â”€ CRDT Sync (deterministic)     â”‚               â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜               â”‚
-â”‚                                                      â”‚
-â”‚  No cloud server  â—  No third-party                 â”‚
-â”‚  No telemetry     â—  No data selling                â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────────────────────────────────────────────┐
+│           GDPR Technical Controls in Libern          │
+├─────────────────────────────────────────────────────┤
+│                                                      │
+│  User Device                                         │
+│  ┌───────────────────────────────────┐               │
+│  │ SQLite Database (local)           │               │
+│  │  ├─ Messages (encrypted at rest)  │               │
+│  │  ├─ .aioss Ledger (hash-chained) │               │
+│  │  └─ Ed25519 Keys (OS-protected)   │               │
+│  └───────────────────────────────────┘               │
+│            │  P2P Encrypted                           │
+│            ▼  WebSocket                              │
+│  ┌───────────────────────────────────┐               │
+│  │  Peer Device (authorized only)    │               │
+│  │  └─ CRDT Sync (deterministic)     │               │
+│  └───────────────────────────────────┘               │
+│                                                      │
+│  No cloud server  ●  No third-party                 │
+│  No telemetry     ●  No data selling                │
+└─────────────────────────────────────────────────────┘
 ```
 
 **Phase 3: Policy Updates (Week 3)**
@@ -450,7 +450,7 @@ dramatically reduced compared to cloud-based collaboration platforms.
 **Libern Solution:**
 1. Each university deploys Libern on local, encrypted workstations
 2. Research team members are added as authorized peers via Ed25519 keys
-3. Data never leaves the local network â€” P2P sync happens only between authorized devices
+3. Data never leaves the local network — P2P sync happens only between authorized devices
 4. Local AI (Candle engine) processes genomic annotations without sending data to any cloud
 5. Complete .aioss audit trail satisfies Article 30 record-keeping
 6. Every researcher can independently verify data integrity via `libern --verify-ledger`
@@ -460,17 +460,17 @@ dramatically reduced compared to cloud-based collaboration platforms.
 ### 15.3 Data Flow Diagrams
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”         â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”         â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  User A      â”‚         â”‚  User B      â”‚         â”‚  User C      â”‚
-â”‚  (Germany)   â”‚         â”‚  (France)    â”‚         â”‚  (Poland)    â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤         â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤         â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Ed25519 Key   â”‚â—„â”€â”€â”€â”€â”€â”€â”€â”€â–º Ed25519 Key  â”‚â—„â”€â”€â”€â”€â”€â”€â”€â”€â–º Ed25519 Key  â”‚
-â”‚ Local SQLite  â”‚  P2P    â”‚ Local SQLite â”‚  P2P    â”‚ Local SQLite â”‚
-â”‚ .aioss Ledger â”‚  Encryptâ”‚ .aioss Ledgerâ”‚  Encryptâ”‚ .aioss Ledgerâ”‚
-â”‚ Local AI     â”‚         â”‚ Local AI     â”‚         â”‚ Local AI     â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜         â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜         â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚                      â”‚                        â”‚
-        â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────┐         ┌─────────────┐         ┌─────────────┐
+│  User A      │         │  User B      │         │  User C      │
+│  (Germany)   │         │  (France)    │         │  (Poland)    │
+├─────────────┤         ├─────────────┤         ├─────────────┤
+│ Ed25519 Key   │◄────────► Ed25519 Key  │◄────────► Ed25519 Key  │
+│ Local SQLite  │  P2P    │ Local SQLite │  P2P    │ Local SQLite │
+│ .aioss Ledger │  Encrypt│ .aioss Ledger│  Encrypt│ .aioss Ledger│
+│ Local AI     │         │ Local AI     │         │ Local AI     │
+└─────────────┘         └─────────────┘         └─────────────┘
+        │                      │                        │
+        └──────────────────────┴────────────────────────┘
                         No central server
                    No data leaves EU territory
                   Each user = own data controller
@@ -479,21 +479,21 @@ dramatically reduced compared to cloud-based collaboration platforms.
 **Cross-Border Data Flow Compliance:**
 - Data stays local; only encrypted CRDT operations flow P2P
 - No Schrems II violation: no US-based data processors
-- Adequacy decision not needed: data doesn't "transfer" â€” it stays where created
+- Adequacy decision not needed: data doesn't "transfer" — it stays where created
 - SCCs not required: no processor relationship exists
 
 ## 16. Regulatory Mapping: Libern Code References
 
 | GDPR Article | Libern Source File | Implementation |
 |-------------|-------------------|----------------|
-| Art. 5(1)(c) â€” Data minimization | `crates/libern-core/src/db/schema.rs` | Only user-created data stored |
-| Art. 5(1)(e) â€” Storage limitation | `crates/libern-aioss/src/schedule.rs` | Configurable session sealing |
-| Art. 5(2) â€” Accountability | `crates/libern-aioss/src/ledger.rs` | Full audit trail |
-| Art. 17 â€” Right to erasure | `crates/libern-core/src/crdt/mod.rs` | Tombstone deletion |
-| Art. 20 â€” Data portability | `crates/libern-aioss/src/txt_log.rs` | .aioss export format |
-| Art. 25 â€” Privacy by design | `crates/libern-core/src/lib.rs` | Core architecture |
-| Art. 32 â€” Security | `crates/libern-core/src/crypto/mod.rs` | Ed25519 + SHA-3 |
-| Art. 33 â€” Breach notification | `crates/libern-aioss/src/health.rs` | Health check chain |
+| Art. 5(1)(c) — Data minimization | `crates/libern-core/src/db/schema.rs` | Only user-created data stored |
+| Art. 5(1)(e) — Storage limitation | `crates/libern-aioss/src/schedule.rs` | Configurable session sealing |
+| Art. 5(2) — Accountability | `crates/libern-aioss/src/ledger.rs` | Full audit trail |
+| Art. 17 — Right to erasure | `crates/libern-core/src/crdt/mod.rs` | Tombstone deletion |
+| Art. 20 — Data portability | `crates/libern-aioss/src/txt_log.rs` | .aioss export format |
+| Art. 25 — Privacy by design | `crates/libern-core/src/lib.rs` | Core architecture |
+| Art. 32 — Security | `crates/libern-core/src/crypto/mod.rs` | Ed25519 + SHA-3 |
+| Art. 33 — Breach notification | `crates/libern-aioss/src/health.rs` | Health check chain |
 
 ## 17. Technical Annex: .aioss Ledger GDPR Compliance Details
 
@@ -543,7 +543,7 @@ dramatically reduced compared to cloud-based collaboration platforms.
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -566,3 +566,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

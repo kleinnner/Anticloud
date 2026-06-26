@@ -1,12 +1,12 @@
-﻿▄▄                     ██               ▄▄                                    
-██                     ▀▀               ██                                    
-██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
-██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
-██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
-██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
-▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
+__                     ��               __                                    
+��                     ��               ��                                    
+��            ___�   ����     �___      ��_���_    _����_    ��_����  ��_����_
+��        __����       ��       ����__  ���  ���  ��____��   ���      ���   ��
+��        ���___       ��       ___���  ��    ��  ��������   ��       ��    ��
+��______      ����  ___��___  ����      ���__���  ���____�   ��       ��    ��
+��������            ��������            �� ���      �����    ��       ��    ��
 
-Libern — Sovereign Collaborative Telecom Engine
+Libern � Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 Document Version: 1.0.0
@@ -14,7 +14,7 @@ Category: Feature Paper
 Document ID: PAP-007
 Last Updated: 2026-06-19
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 # Feature Roadmap
 
@@ -515,31 +515,31 @@ This roadmap defines the phased development of Libern from MVP through maturity.
 
 | Feature | Status | Phase | Version |
 |---------|--------|-------|---------|
-| App shell | ✅ Released | 0 | v0.1.0 |
-| SQLite database | ✅ Released | 0 | v0.1.0 |
-| Identity management | ✅ Released | 1 | v0.2.0 |
-| Server management | ✅ Released | 1 | v0.2.0 |
-| Channel management | ✅ Released | 1 | v0.2.0 |
-| Chat system | ✅ Released | 2 | v0.3.0 |
-| Markdown rendering | ✅ Released | 2 | v0.3.0 |
-| File attachments | ✅ Released | 2 | v0.3.0 |
-| Reactions, pins, stars | ✅ Released | 2 | v0.3.0 |
-| Roles and permissions | ✅ Released | 3 | v0.4.0 |
-| Invite codes | ✅ Released | 3 | v0.4.0 |
-| CRDT + P2P sync | 🔧 Development | 4 | v0.5.0 |
-| Whiteboard | 📋 Planned | 5 | v0.6.0 |
-| Voice chat | 📋 Planned | 6 | v0.7.0 |
-| AI engine core | 🔧 Development | AI-0 | v0.8.0 |
-| AI chat/summary | 📋 Planned | AI-1 | v0.9.0 |
-| Content moderation | 📋 Planned | AI-2 | v0.10.0 |
-| RAG document system | 📋 Planned | AI-3 | v0.11.0 |
-| Whiteboard analysis | 📋 Planned | AI-4 | v0.12.0 |
-| .aioss ledger | 🔧 Development | 7 | v0.13.0 |
-| Compliance dashboard | 🔧 Development | 7 | v0.13.0 |
-| Marketplace | ✅ Released | 8 | v0.14.0 |
-| Gamification | ✅ Released | 8 | v0.14.0 |
-| Polish and DX | 🔄 Ongoing | 9 | v0.15+ |
-| Enterprise features | 📋 Planned | 10 | v1.0+ |
+| App shell | ? Released | 0 | v0.1.0 |
+| SQLite database | ? Released | 0 | v0.1.0 |
+| Identity management | ? Released | 1 | v0.2.0 |
+| Server management | ? Released | 1 | v0.2.0 |
+| Channel management | ? Released | 1 | v0.2.0 |
+| Chat system | ? Released | 2 | v0.3.0 |
+| Markdown rendering | ? Released | 2 | v0.3.0 |
+| File attachments | ? Released | 2 | v0.3.0 |
+| Reactions, pins, stars | ? Released | 2 | v0.3.0 |
+| Roles and permissions | ? Released | 3 | v0.4.0 |
+| Invite codes | ? Released | 3 | v0.4.0 |
+| CRDT + P2P sync | ?? Development | 4 | v0.5.0 |
+| Whiteboard | ?? Planned | 5 | v0.6.0 |
+| Voice chat | ?? Planned | 6 | v0.7.0 |
+| AI engine core | ?? Development | AI-0 | v0.8.0 |
+| AI chat/summary | ?? Planned | AI-1 | v0.9.0 |
+| Content moderation | ?? Planned | AI-2 | v0.10.0 |
+| RAG document system | ?? Planned | AI-3 | v0.11.0 |
+| Whiteboard analysis | ?? Planned | AI-4 | v0.12.0 |
+| .aioss ledger | ?? Development | 7 | v0.13.0 |
+| Compliance dashboard | ?? Development | 7 | v0.13.0 |
+| Marketplace | ? Released | 8 | v0.14.0 |
+| Gamification | ? Released | 8 | v0.14.0 |
+| Polish and DX | ?? Ongoing | 9 | v0.15+ |
+| Enterprise features | ?? Planned | 10 | v1.0+ |
 
 ---
 
@@ -570,27 +570,27 @@ graph LR
 
 ```
 Q3 2026 (Current)
-├── Phase 4: CRDT + P2P Sync
-├── Phase AI-0: AI Engine Core
-└── Phase 7: .aioss Ledger
++-- Phase 4: CRDT + P2P Sync
++-- Phase AI-0: AI Engine Core
++-- Phase 7: .aioss Ledger
 
 Q4 2026
-├── Phase 5: Whiteboard
-├── Phase 6: Voice Chat
-└── Phase AI-1: AI Chat/Summary
++-- Phase 5: Whiteboard
++-- Phase 6: Voice Chat
++-- Phase AI-1: AI Chat/Summary
 
 Q1 2027
-├── Phase AI-2: Content Moderation
-├── Phase AI-3: RAG System
-└── Phase 9: Polish
++-- Phase AI-2: Content Moderation
++-- Phase AI-3: RAG System
++-- Phase 9: Polish
 
 Q2 2027
-├── Phase AI-4: Whiteboard Analysis
-└── Phase 10: Enterprise Features (starts)
++-- Phase AI-4: Whiteboard Analysis
++-- Phase 10: Enterprise Features (starts)
 
 H2 2027
-├── Phase 10: Enterprise Features (continues)
-└── v1.0 Release
++-- Phase 10: Enterprise Features (continues)
++-- v1.0 Release
 ```
 
 ---
@@ -624,47 +624,47 @@ Each release must meet these criteria:
 
 | Version | Date | Features | Status |
 |---------|------|----------|--------|
-| v0.1.0 | 2026-04 | Tauri scaffolding, SQLite, UI shell | ✅ Released |
-| v0.2.0 | 2026-04 | Identity, servers, channels, onboarding | ✅ Released |
-| v0.3.0 | 2026-05 | Chat, markdown, attachments, search | ✅ Released |
-| v0.4.0 | 2026-05 | Roles, permissions, invites | ✅ Released |
-| v0.5.0 | 2026-Q3 | CRDT, P2P sync | 🔧 In progress |
-| v0.6.0 | 2026-Q4 | Whiteboard | 📋 Planned |
-| v0.7.0 | 2026-Q4 | Voice chat | 📋 Planned |
-| v0.8.0 | 2026-Q3 | AI engine core | 🔧 In progress |
-| v0.9.0 | 2026-Q4 | AI chat/summary | 📋 Planned |
-| v0.10.0 | 2027-Q1 | Content moderation | 📋 Planned |
-| v0.11.0 | 2027-Q1 | RAG system | 📋 Planned |
-| v0.12.0 | 2027-Q2 | Whiteboard analysis | 📋 Planned |
-| v0.13.0 | 2026-Q3 | Crypto ledger | 🔧 In progress |
-| v0.14.0 | 2026-06 | Marketplace, games | ✅ Released |
-| v0.15+ | Ongoing | Polish, DX | 🔄 Ongoing |
-| v1.0+ | 2027+ | Enterprise features | 📋 Planned |
+| v0.1.0 | 2026-04 | Tauri scaffolding, SQLite, UI shell | ? Released |
+| v0.2.0 | 2026-04 | Identity, servers, channels, onboarding | ? Released |
+| v0.3.0 | 2026-05 | Chat, markdown, attachments, search | ? Released |
+| v0.4.0 | 2026-05 | Roles, permissions, invites | ? Released |
+| v0.5.0 | 2026-Q3 | CRDT, P2P sync | ?? In progress |
+| v0.6.0 | 2026-Q4 | Whiteboard | ?? Planned |
+| v0.7.0 | 2026-Q4 | Voice chat | ?? Planned |
+| v0.8.0 | 2026-Q3 | AI engine core | ?? In progress |
+| v0.9.0 | 2026-Q4 | AI chat/summary | ?? Planned |
+| v0.10.0 | 2027-Q1 | Content moderation | ?? Planned |
+| v0.11.0 | 2027-Q1 | RAG system | ?? Planned |
+| v0.12.0 | 2027-Q2 | Whiteboard analysis | ?? Planned |
+| v0.13.0 | 2026-Q3 | Crypto ledger | ?? In progress |
+| v0.14.0 | 2026-06 | Marketplace, games | ? Released |
+| v0.15+ | Ongoing | Polish, DX | ?? Ongoing |
+| v1.0+ | 2027+ | Enterprise features | ?? Planned |
 
 ## 24. Dependency Map Between Phases
 
 ```
 Phase 0 (Scaffolding)
-    ↓
-Phase 1 (Identity) ───────────────────── Phase 7 (Ledger)
-    ↓                                         │
-Phase 2 (Chat) ─── Phase 8 (Marketplace)      │
-    ↓                                         │
-Phase 3 (Roles) ───────────────────────────────┘
-    ↓
-Phase 4 (CRDT/P2P) ──────────┐
-    ↓                         │
-Phase 5 (Whiteboard)          │
-    ↓                         │
-Phase 6 (Voice Chat)          │
-    ↓                         ▼
-Phase AI-0 (AI Core) ─── Phase AI-1 (Chat) ─── Phase AI-2 (Moderation)
-                               │
-                               └─── Phase AI-3 (RAG) ─── Phase AI-4 (Analysis)
+    ?
+Phase 1 (Identity) --------------------- Phase 7 (Ledger)
+    ?                                         �
+Phase 2 (Chat) --- Phase 8 (Marketplace)      �
+    ?                                         �
+Phase 3 (Roles) -------------------------------+
+    ?
+Phase 4 (CRDT/P2P) ----------+
+    ?                         �
+Phase 5 (Whiteboard)          �
+    ?                         �
+Phase 6 (Voice Chat)          �
+    ?                         ?
+Phase AI-0 (AI Core) --- Phase AI-1 (Chat) --- Phase AI-2 (Moderation)
+                               �
+                               +--- Phase AI-3 (RAG) --- Phase AI-4 (Analysis)
 
-Phase 9 (Polish) ─── Applied to all phases
+Phase 9 (Polish) --- Applied to all phases
 
-Phase 10 (Enterprise) ─── Depends on Phase 7 + Phase 4
+Phase 10 (Enterprise) --- Depends on Phase 7 + Phase 4
 ```
 
 ## 25. Risk-Based Release Criteria
@@ -684,7 +684,7 @@ Each release must also pass risk-based gates:
 
 This roadmap represents the plan as of June 2026. It will evolve based on user feedback, technical discoveries, and market conditions. The core principle remains: every feature must serve Libern's mission of sovereign, offline-first, tamper-evident collaboration. Features that compromise this mission will not be added, regardless of competitive pressure.
 
-────────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
@@ -1313,141 +1313,141 @@ export const useServerStore = create<ServerStore>((set, get) => ({
 
 `
 libern/
-├── Cargo.toml                          # Workspace root
-├── build.bat                           # Build orchestration
-├── LIBERN_BUILD_PLAN.md                # Build plan documentation
-├── AI_FEATURES_PLAN.md                 # AI subsystem plan
-├── COMPETITIVE_EDGE.md                 # Competitive analysis
-├── crates/
-│   ├── libern-core/                    # Core library
-│   │   ├── Cargo.toml
-│   │   └── src/
-│   │       ├── lib.rs
-│   │       ├── crdt/mod.rs             # CRDT engine
-│   │       ├── crypto/mod.rs           # Cryptographic primitives
-│   │       ├── db/
-│   │       │   ├── mod.rs              # Database initialization
-│   │       │   ├── schema.rs           # Schema definition
-│   │       │   └── models.rs           # Data models
-│   │       └── ai/
-│   │           ├── mod.rs              # AiEngine trait
-│   │           ├── engine.rs           # MockEngine
-│   │           ├── qwen_engine.rs      # CandleEngine
-│   │           ├── pipeline.rs         # Prompt construction
-│   │           ├── summarizer.rs       # Channel summarization
-│   │           ├── moderator.rs        # Content moderation
-│   │           ├── rag.rs              # Document RAG
-│   │           ├── conversation.rs     # Context management
-│   │           ├── liber_user.rs       # Liber identity
-│   │           └── reward.rs           # RLHF feedback
-│   └── libern-aioss/                   # .aioss format
-│       ├── Cargo.toml
-│       └── src/
-│           ├── lib.rs
-│           ├── header.rs               # 128-byte header
-│           ├── entry.rs                # 256-byte entry
-│           ├── ledger.rs               # Ledger types
-│           ├── writer.rs               # Binary/JSON writer
-│           ├── reader.rs               # Binary/JSON reader
-│           ├── verify.rs               # Chain verification
-│           ├── health.rs               # Health diagnostics
-│           ├── event_store.rs          # Event persistence
-│           ├── state_proof.rs          # Ed25519 proofs
-│           ├── schedule.rs             # Session sealing
-│           └── txt_log.rs              # TXT export
-├── apps/
-│   ├── desktop/                        # Tauri desktop app
-│   │   ├── src/
-│   │   │   ├── App.tsx
-│   │   │   ├── main.tsx
-│   │   │   ├── lib/api.ts
-│   │   │   ├── lib/ai.ts
-│   │   │   ├── lib/utils.ts
-│   │   │   ├── stores/serverStore.ts
-│   │   │   ├── stores/messageStore.ts
-│   │   │   ├── stores/uiStore.ts
-│   │   │   └── types/index.ts
-│   │   └── src-tauri/
-│   │       ├── Cargo.toml
-│   │       ├── tauri.conf.json
-│   │       ├── build.rs
-│   │       └── src/
-│   │           ├── main.rs
-│   │           ├── lib.rs
-│   │           └── commands/
-│   │               ├── mod.rs
-│   │               ├── server.rs
-│   │               ├── channel.rs
-│   │               ├── message.rs
-│   │               ├── user.rs
-│   │               ├── role.rs
-│   │               ├── ai.rs
-│   │               ├── xp.rs
-│   │               ├── stats.rs
-│   │               └── stars.rs
-│   └── sandbox/                        # 3D Boxel engine
-│       ├── Cargo.toml
-│       └── src/
-│           ├── main.rs
-│           ├── liber.rs
-│           ├── world.rs
-│           ├── player.rs
-│           ├── character.rs
-│           ├── camera.rs
-│           ├── cube.rs
-│           ├── texture.rs
-│           ├── audio.rs
-│           ├── voice.rs
-│           ├── chat.rs
-│           ├── pipeline.rs
-│           └── screen_share.rs
-├── docs/
-│   ├── README.md
-│   ├── bdrs/                           # Architecture decisions
-│   ├── feature-papers/                 # Feature documentation
-│   ├── csr/                            # Corporate social responsibility
-│   ├── no-more-silicon/                # Hardware independence
-│   ├── competitors/                    # Competitive analysis
-│   ├── compliance/                     # Compliance documentation
-│   ├── data-safety/                    # Data safety documentation
-│   ├── developers/                     # Developer documentation
-│   ├── enterprise/                     # Enterprise documentation
-│   ├── faqs/                           # Frequently asked questions
-│   ├── features/                       # Feature documentation
-│   ├── governance/                     # Project governance
-│   ├── help-bugs/                      # Bug reporting
-│   ├── howto-community/                # Community how-to guides
-│   ├── howto-developers/               # Developer how-to guides
-│   ├── howto-enterprise/               # Enterprise how-to guides
-│   ├── incident-recovery/              # Incident recovery docs
-│   ├── investors/                      # Investor documentation
-│   ├── no-black-boxes/                 # Transparency docs
-│   ├── privacy/                        # Privacy documentation
-│   ├── research/                       # Research documentation
-│   ├── tutorial/                       # Tutorial documentation
-│   └── why-use/                        # Why-use documentation
-└── installer/
-    └── native/
-        ├── Cargo.toml
-        ├── build.rs
-        └── src/
-            ├── main.rs
-            ├── lib.rs
-            ├── app.rs
-            ├── state.rs
-            ├── theme.rs
-            ├── widgets.rs
-            ├── system.rs
-            ├── downloader.rs
-            └── screens/
-                ├── mod.rs
-                ├── splash.rs
-                ├── check.rs
-                ├── download.rs
-                ├── install.rs
-                ├── elevation.rs
-                ├── complete.rs
-                └── error.rs
++-- Cargo.toml                          # Workspace root
++-- build.bat                           # Build orchestration
++-- LIBERN_BUILD_PLAN.md                # Build plan documentation
++-- AI_FEATURES_PLAN.md                 # AI subsystem plan
++-- COMPETITIVE_EDGE.md                 # Competitive analysis
++-- crates/
+�   +-- libern-core/                    # Core library
+�   �   +-- Cargo.toml
+�   �   +-- src/
+�   �       +-- lib.rs
+�   �       +-- crdt/mod.rs             # CRDT engine
+�   �       +-- crypto/mod.rs           # Cryptographic primitives
+�   �       +-- db/
+�   �       �   +-- mod.rs              # Database initialization
+�   �       �   +-- schema.rs           # Schema definition
+�   �       �   +-- models.rs           # Data models
+�   �       +-- ai/
+�   �           +-- mod.rs              # AiEngine trait
+�   �           +-- engine.rs           # MockEngine
+�   �           +-- qwen_engine.rs      # CandleEngine
+�   �           +-- pipeline.rs         # Prompt construction
+�   �           +-- summarizer.rs       # Channel summarization
+�   �           +-- moderator.rs        # Content moderation
+�   �           +-- rag.rs              # Document RAG
+�   �           +-- conversation.rs     # Context management
+�   �           +-- liber_user.rs       # Liber identity
+�   �           +-- reward.rs           # RLHF feedback
+�   +-- libern-aioss/                   # .aioss format
+�       +-- Cargo.toml
+�       +-- src/
+�           +-- lib.rs
+�           +-- header.rs               # 128-byte header
+�           +-- entry.rs                # 256-byte entry
+�           +-- ledger.rs               # Ledger types
+�           +-- writer.rs               # Binary/JSON writer
+�           +-- reader.rs               # Binary/JSON reader
+�           +-- verify.rs               # Chain verification
+�           +-- health.rs               # Health diagnostics
+�           +-- event_store.rs          # Event persistence
+�           +-- state_proof.rs          # Ed25519 proofs
+�           +-- schedule.rs             # Session sealing
+�           +-- txt_log.rs              # TXT export
++-- apps/
+�   +-- desktop/                        # Tauri desktop app
+�   �   +-- src/
+�   �   �   +-- App.tsx
+�   �   �   +-- main.tsx
+�   �   �   +-- lib/api.ts
+�   �   �   +-- lib/ai.ts
+�   �   �   +-- lib/utils.ts
+�   �   �   +-- stores/serverStore.ts
+�   �   �   +-- stores/messageStore.ts
+�   �   �   +-- stores/uiStore.ts
+�   �   �   +-- types/index.ts
+�   �   +-- src-tauri/
+�   �       +-- Cargo.toml
+�   �       +-- tauri.conf.json
+�   �       +-- build.rs
+�   �       +-- src/
+�   �           +-- main.rs
+�   �           +-- lib.rs
+�   �           +-- commands/
+�   �               +-- mod.rs
+�   �               +-- server.rs
+�   �               +-- channel.rs
+�   �               +-- message.rs
+�   �               +-- user.rs
+�   �               +-- role.rs
+�   �               +-- ai.rs
+�   �               +-- xp.rs
+�   �               +-- stats.rs
+�   �               +-- stars.rs
+�   +-- sandbox/                        # 3D Boxel engine
+�       +-- Cargo.toml
+�       +-- src/
+�           +-- main.rs
+�           +-- liber.rs
+�           +-- world.rs
+�           +-- player.rs
+�           +-- character.rs
+�           +-- camera.rs
+�           +-- cube.rs
+�           +-- texture.rs
+�           +-- audio.rs
+�           +-- voice.rs
+�           +-- chat.rs
+�           +-- pipeline.rs
+�           +-- screen_share.rs
++-- docs/
+�   +-- README.md
+�   +-- bdrs/                           # Architecture decisions
+�   +-- feature-papers/                 # Feature documentation
+�   +-- csr/                            # Corporate social responsibility
+�   +-- no-more-silicon/                # Hardware independence
+�   +-- competitors/                    # Competitive analysis
+�   +-- compliance/                     # Compliance documentation
+�   +-- data-safety/                    # Data safety documentation
+�   +-- developers/                     # Developer documentation
+�   +-- enterprise/                     # Enterprise documentation
+�   +-- faqs/                           # Frequently asked questions
+�   +-- features/                       # Feature documentation
+�   +-- governance/                     # Project governance
+�   +-- help-bugs/                      # Bug reporting
+�   +-- howto-community/                # Community how-to guides
+�   +-- howto-developers/               # Developer how-to guides
+�   +-- howto-enterprise/               # Enterprise how-to guides
+�   +-- incident-recovery/              # Incident recovery docs
+�   +-- investors/                      # Investor documentation
+�   +-- no-black-boxes/                 # Transparency docs
+�   +-- privacy/                        # Privacy documentation
+�   +-- research/                       # Research documentation
+�   +-- tutorial/                       # Tutorial documentation
+�   +-- why-use/                        # Why-use documentation
++-- installer/
+    +-- native/
+        +-- Cargo.toml
+        +-- build.rs
+        +-- src/
+            +-- main.rs
+            +-- lib.rs
+            +-- app.rs
+            +-- state.rs
+            +-- theme.rs
+            +-- widgets.rs
+            +-- system.rs
+            +-- downloader.rs
+            +-- screens/
+                +-- mod.rs
+                +-- splash.rs
+                +-- check.rs
+                +-- download.rs
+                +-- install.rs
+                +-- elevation.rs
+                +-- complete.rs
+                +-- error.rs
 `
 
 This technical reference provides the complete implementation details for all major Libern subsystems. Refer to the specific files in the repository for the most current implementation.
@@ -1461,7 +1461,7 @@ This technical reference provides the complete implementation details for all ma
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -1484,3 +1484,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,15 +1,15 @@
-﻿â–„â–„                     â–ˆâ–ˆ               â–„â–„                                    
-â–ˆâ–ˆ                     â–€â–€               â–ˆâ–ˆ                                    
-â–ˆâ–ˆ            â–„â–„â–„â–ˆ   â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–„â–„â–„      â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„
-â–ˆâ–ˆ        â–„â–„â–ˆâ–€â–€â–€       â–ˆâ–ˆ       â–€â–€â–€â–ˆâ–„â–„  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ   â–ˆâ–ˆâ–€      â–ˆâ–ˆâ–€   â–ˆâ–ˆ
-â–ˆâ–ˆ        â–€â–€â–ˆâ–„â–„â–„       â–ˆâ–ˆ       â–„â–„â–„â–ˆâ–€â–€  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–ˆâ–ˆâ–„â–„â–„â–„â–„â–„      â–€â–€â–€â–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–€â–€â–€      â–ˆâ–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ   â–ˆâ–ˆ       â–ˆâ–ˆ    â–ˆâ–ˆ
-â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€â–€â–€â–€â–€â–€â–€            â–€â–€ â–€â–€â–€      â–€â–€â–€â–€â–€    â–€â–€       â–€â–€    â–€â–€
+▄▄                     ██               ▄▄                                    
+██                     ▀▀               ██                                    
+██            ▄▄▄█   ████     █▄▄▄      ██▄███▄    ▄████▄    ██▄████  ██▄████▄
+██        ▄▄█▀▀▀       ██       ▀▀▀█▄▄  ██▀  ▀██  ██▄▄▄▄██   ██▀      ██▀   ██
+██        ▀▀█▄▄▄       ██       ▄▄▄█▀▀  ██    ██  ██▀▀▀▀▀▀   ██       ██    ██
+██▄▄▄▄▄▄      ▀▀▀█  ▄▄▄██▄▄▄  █▀▀▀      ███▄▄██▀  ▀██▄▄▄▄█   ██       ██    ██
+▀▀▀▀▀▀▀▀            ▀▀▀▀▀▀▀▀            ▀▀ ▀▀▀      ▀▀▀▀▀    ▀▀       ▀▀    ▀▀
 
-Libern â€” Sovereign Collaborative Telecom Engine
+Libern — Sovereign Collaborative Telecom Engine
 Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
-â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+────────────────────────────────────────────────────────────────
 
 # Auditable AI
 
@@ -35,7 +35,7 @@ Copyright (c) 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ## Overview
 
-Libern's AI assistant (Liber) is designed to be **fully auditable**. Every AI interaction â€” every prompt, every response, every moderation decision, every document query â€” is logged in the .aioss ledger, creating a complete, tamper-evident record of all AI activity.
+Libern's AI assistant (Liber) is designed to be **fully auditable**. Every AI interaction — every prompt, every response, every moderation decision, every document query — is logged in the .aioss ledger, creating a complete, tamper-evident record of all AI activity.
 
 This document describes how the AI subsystem's audit trail works, with specific references to the source code in `crates/libern-core/src/ai/` and `crates/libern-aioss/src/`.
 
@@ -58,7 +58,7 @@ Every interaction with Liber is recorded as an entry in the .aioss ledger:
 
 ### Entry Fields for AI Audit
 
-From `ledger.rs` â€” the `LedgerEntryJson` struct includes AI-specific fields:
+From `ledger.rs` — the `LedgerEntryJson` struct includes AI-specific fields:
 
 ```rust
 pub struct LedgerEntryJson {
@@ -113,21 +113,21 @@ pub struct LedgerEntryJson {
 
 ### Transparent System Prompts
 
-The system prompts used for Liber are **not hidden** â€” they are documented in the source code and visible to any user:
+The system prompts used for Liber are **not hidden** — they are documented in the source code and visible to any user:
 
 From `AI_FEATURES_PLAN.md` (in the repository root):
 
 ```
 System Prompt (base, always injected):
 You are Liber, the built-in AI assistant for the Libern sovereign collaboration platform.
-You operate fully offline â€” all processing happens on the user's local machine.
+You operate fully offline — all processing happens on the user's local machine.
 No data ever leaves the device.
 
 Core directives:
 - Be helpful, precise, and emotionally intelligent
 - Match the user's tone: analytical for technical, warm for emotional
 - Keep responses concise (2-4 paragraphs) unless asked for detail
-- When uncertain, say "I'm not sure" â€” never fabricate information
+- When uncertain, say "I'm not sure" — never fabricate information
 - You can analyze documents, summarize conversations, review whiteboard drawings
 - You have access to the current channel's recent message history
 - You can see attached documents that have been indexed
@@ -173,14 +173,14 @@ There is no hidden prefix, suffix, or modification.
 
 For every AI interaction, the .aioss ledger records:
 
-1. **User prompt** â€” The exact text the user sent to Liber.
-2. **Context window** â€” The conversation history included in the prompt (`prompt_used` field).
-3. **System prompt** â€” The base system prompt (constant, documented).
-4. **Model ID** â€” Which model generated the response.
-5. **Response** â€” Liber's complete response.
-6. **Timestamp** â€” When the interaction occurred.
-7. **Chain link** â€” Hash linking this entry to all previous entries.
-8. **Signature** â€” Ed25519 signature for authenticity.
+1. **User prompt** — The exact text the user sent to Liber.
+2. **Context window** — The conversation history included in the prompt (`prompt_used` field).
+3. **System prompt** — The base system prompt (constant, documented).
+4. **Model ID** — Which model generated the response.
+5. **Response** — Liber's complete response.
+6. **Timestamp** — When the interaction occurred.
+7. **Chain link** — Hash linking this entry to all previous entries.
+8. **Signature** — Ed25519 signature for authenticity.
 
 ### AI Conversation Storage
 
@@ -315,11 +315,11 @@ Document RAG queries are logged both in the .aioss ledger and the `ai_conversati
 
 ```
 User: "@Liber what does the report say about Q3 revenue?"
-  â†’ Query logged in .aioss as ai_rag_query
-  â†’ Context retrieved from document_chunks
-  â†’ Each chunk's document ID is logged
-  â†’ Full prompt (context + question) logged
-  â†’ Liber's response logged
+  → Query logged in .aioss as ai_rag_query
+  → Context retrieved from document_chunks
+  → Each chunk's document ID is logged
+  → Full prompt (context + question) logged
+  → Liber's response logged
 ```
 
 ### What Is Auditable
@@ -339,12 +339,12 @@ Every document uploaded for RAG has an auditable chain:
 
 ```
 Document uploaded
-  â†’ SHA-256 hash computed
-  â†’ Hash stored in documents table
-  â†’ .aioss entry created (file_upload type)
-  â†’ Text extracted â†’ chunked â†’ embedded
-  â†’ Each chunk has a unique ID
-  â†’ When queried, which chunks were used is logged
+  → SHA-256 hash computed
+  → Hash stored in documents table
+  → .aioss entry created (file_upload type)
+  → Text extracted → chunked → embedded
+  → Each chunk has a unique ID
+  → When queried, which chunks were used is logged
 ```
 
 This chain proves which documents Liber had access to when generating a particular response.
@@ -384,67 +384,67 @@ Liber does not support:
 ---
 
 
-## AI Pipeline Architecture â€” Expanded
+## AI Pipeline Architecture — Expanded
 
 ### Full AI Processing Pipeline
 
 ```
 User Input: "@Liber summarize last hour"
-        â”‚
-        â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 1. Input Processing (pipeline.rs)    â”‚
-â”‚    â”œâ”€ Detect command type            â”‚
-â”‚    â”œâ”€ Extract parameters             â”‚
-â”‚    â””â”€ Validate input                  â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚
-        â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 2. Context Assembly (conversation.rs)â”‚
-â”‚    â”œâ”€ Fetch channel message history  â”‚
-â”‚    â”œâ”€ Apply context window limit     â”‚
-â”‚    â”œâ”€ Inject system prompt           â”‚
-â”‚    â””â”€ Build full prompt string       â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚
-        â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 3. Prompt Logging (ledger.rs)        â”‚
-â”‚    â”œâ”€ Log prompt_used to .aioss     â”‚
-â”‚    â”œâ”€ Log model_id                   â”‚
-â”‚    â”œâ”€ Log user_interaction_id        â”‚
-â”‚    â””â”€ Log timestamp                  â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚
-        â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 4. Inference (engine.rs)             â”‚
-â”‚    â”œâ”€ Load model (Candle)            â”‚
-â”‚    â”œâ”€ Set temperature                â”‚
-â”‚    â”œâ”€ Run inference                  â”‚
-â”‚    â””â”€ Stream response                â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚
-        â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 5. Response Processing (pipeline.rs) â”‚
-â”‚    â”œâ”€ Parse response                 â”‚
-â”‚    â”œâ”€ Apply formatting               â”‚
-â”‚    â”œâ”€ Add AI-generated labels        â”‚
-â”‚    â””â”€ Prepare for display            â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚
-        â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ 6. Response Logging (ledger.rs)      â”‚
-â”‚    â”œâ”€ Log ai_response to .aioss     â”‚
-â”‚    â”œâ”€ Log compliance_tags            â”‚
-â”‚    â”œâ”€ Sign entry with Ed25519       â”‚
-â”‚    â””â”€ Finalize ledger entry         â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-        â”‚
-        â–¼
+        │
+        ▼
+┌─────────────────────────────────────┐
+│ 1. Input Processing (pipeline.rs)    │
+│    ├─ Detect command type            │
+│    ├─ Extract parameters             │
+│    └─ Validate input                  │
+└─────────────────────────────────────┘
+        │
+        ▼
+┌─────────────────────────────────────┐
+│ 2. Context Assembly (conversation.rs)│
+│    ├─ Fetch channel message history  │
+│    ├─ Apply context window limit     │
+│    ├─ Inject system prompt           │
+│    └─ Build full prompt string       │
+└─────────────────────────────────────┘
+        │
+        ▼
+┌─────────────────────────────────────┐
+│ 3. Prompt Logging (ledger.rs)        │
+│    ├─ Log prompt_used to .aioss     │
+│    ├─ Log model_id                   │
+│    ├─ Log user_interaction_id        │
+│    └─ Log timestamp                  │
+└─────────────────────────────────────┘
+        │
+        ▼
+┌─────────────────────────────────────┐
+│ 4. Inference (engine.rs)             │
+│    ├─ Load model (Candle)            │
+│    ├─ Set temperature                │
+│    ├─ Run inference                  │
+│    └─ Stream response                │
+└─────────────────────────────────────┘
+        │
+        ▼
+┌─────────────────────────────────────┐
+│ 5. Response Processing (pipeline.rs) │
+│    ├─ Parse response                 │
+│    ├─ Apply formatting               │
+│    ├─ Add AI-generated labels        │
+│    └─ Prepare for display            │
+└─────────────────────────────────────┘
+        │
+        ▼
+┌─────────────────────────────────────┐
+│ 6. Response Logging (ledger.rs)      │
+│    ├─ Log ai_response to .aioss     │
+│    ├─ Log compliance_tags            │
+│    ├─ Sign entry with Ed25519       │
+│    └─ Finalize ledger entry         │
+└─────────────────────────────────────┘
+        │
+        ▼
 User sees: "Here's a summary of the last hour..."
 ```
 
@@ -536,23 +536,23 @@ User sees: "Here's a summary of the last hour..."
 
 | Bias Category | Score | Threshold | Pass? |
 |--------------|-------|-----------|-------|
-| Gender sentiment difference | 2.3% | < 5% | âœ“ |
-| Racial classification parity | 97.1% | > 95% | âœ“ |
-| Toxicity block rate | 99.4% | > 99% | âœ“ |
-| Injection resistance | 96.8% | > 95% | âœ“ |
-| Memorization rate | 0.3% | < 1% | âœ“ |
-| Consistency (temp=0) | 99.7% | > 99% | âœ“ |
+| Gender sentiment difference | 2.3% | < 5% | ✓ |
+| Racial classification parity | 97.1% | > 95% | ✓ |
+| Toxicity block rate | 99.4% | > 99% | ✓ |
+| Injection resistance | 96.8% | > 95% | ✓ |
+| Memorization rate | 0.3% | < 1% | ✓ |
+| Consistency (temp=0) | 99.7% | > 99% | ✓ |
 
 
 ## References
 
-- **Source code:** `crates/libern-core/src/ai/pipeline.rs` â€” Prompt construction logic
-- **Source code:** `crates/libern-core/src/ai/summarizer.rs` â€” Summary prompt templates
-- **Source code:** `crates/libern-core/src/ai/moderator.rs` â€” Moderation prompt templates
-- **Source code:** `crates/libern-core/src/ai/rag.rs` â€” RAG prompt templates
-- **Source code:** `crates/libern-core/src/ai/conversation.rs` â€” Context window management
-- **Source code:** `crates/libern-aioss/src/ledger.rs` â€” AI audit fields (prompt_used, model_id)
-- **Documentation:** `AI_FEATURES_PLAN.md` â€” Complete AI system prompt documentation
+- **Source code:** `crates/libern-core/src/ai/pipeline.rs` — Prompt construction logic
+- **Source code:** `crates/libern-core/src/ai/summarizer.rs` — Summary prompt templates
+- **Source code:** `crates/libern-core/src/ai/moderator.rs` — Moderation prompt templates
+- **Source code:** `crates/libern-core/src/ai/rag.rs` — RAG prompt templates
+- **Source code:** `crates/libern-core/src/ai/conversation.rs` — Context window management
+- **Source code:** `crates/libern-aioss/src/ledger.rs` — AI audit fields (prompt_used, model_id)
+- **Documentation:** `AI_FEATURES_PLAN.md` — Complete AI system prompt documentation
 
 ```
 .====================================================================.
@@ -563,7 +563,7 @@ User sees: "Here's a summary of the last hour..."
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -586,3 +586,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

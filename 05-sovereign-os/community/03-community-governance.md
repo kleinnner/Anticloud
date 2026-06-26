@@ -1,4 +1,4 @@
-﻿# Community Governance
+# Community Governance
 
 This document describes how the 01s Sovereign project is governed.
 
@@ -466,16 +466,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Overview
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” Contributor guide
-- [Communication Channels](04-communication-channels.md) â€” Discussion platforms
-- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) â€” Issue process
-- [Code of Conduct](06-code-of-conduct.md) â€” Standards and enforcement
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” SIG projects
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Rewards program
-- [Open Source Governance Research](../research/07-open-source-governance-and-sustainability.md) â€” Research
-- [Governance BDR](../bdr/05-open-source-governance-bdr.md) â€” Decision record
-- [Community Growth BDR](../bdr/08-community-growth-bdr.md) â€” Growth strategy
+- [Welcome to the Community](01-welcome-to-the-community.md) — Overview
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — Contributor guide
+- [Communication Channels](04-communication-channels.md) — Discussion platforms
+- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) — Issue process
+- [Code of Conduct](06-code-of-conduct.md) — Standards and enforcement
+- [Community Projects](07-community-projects-and-ecosystem.md) — SIG projects
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Rewards program
+- [Open Source Governance Research](../research/07-open-source-governance-and-sustainability.md) — Research
+- [Governance BDR](../bdr/05-open-source-governance-bdr.md) — Decision record
+- [Community Growth BDR](../bdr/08-community-growth-bdr.md) — Growth strategy
 
 ## Steering Committee Elections
 
@@ -725,7 +725,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -748,3 +748,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

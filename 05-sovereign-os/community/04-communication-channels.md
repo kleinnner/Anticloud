@@ -1,4 +1,4 @@
-﻿# Communication Channels
+# Communication Channels
 
 This document lists the official communication channels for the 01s Sovereign community.
 
@@ -416,16 +416,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Community overview
-- [Getting Started as Contributor](02-getting-started-as-contributor.md) â€” First steps
-- [Community Governance](03-community-governance.md) â€” Decision making
-- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) â€” Issue guidelines
-- [Code of Conduct](06-code-of-conduct.md) â€” Standards
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Projects
-- [Localization](08-localization-and-translation.md) â€” Translation channels
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Rewards
-- [Getting Support](../help/09-getting-support.md) â€” Support options
-- [General FAQ](../faq/01-general-faq.md) â€” Common questions
+- [Welcome to the Community](01-welcome-to-the-community.md) — Community overview
+- [Getting Started as Contributor](02-getting-started-as-contributor.md) — First steps
+- [Community Governance](03-community-governance.md) — Decision making
+- [Reporting Bugs and Features](05-reporting-bugs-and-features.md) — Issue guidelines
+- [Code of Conduct](06-code-of-conduct.md) — Standards
+- [Community Projects](07-community-projects-and-ecosystem.md) — Projects
+- [Localization](08-localization-and-translation.md) — Translation channels
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Rewards
+- [Getting Support](../help/09-getting-support.md) — Support options
+- [General FAQ](../faq/01-general-faq.md) — Common questions
 
 ## Channel Recommendations by Topic
 
@@ -689,7 +689,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -712,3 +712,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

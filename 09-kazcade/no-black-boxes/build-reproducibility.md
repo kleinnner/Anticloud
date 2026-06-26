@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Build Reproducibility
@@ -15,7 +15,7 @@
 
 A transparent source code repository is only meaningful if you can verify that the binary you run was built from that source. Kazkade's build reproducibility infrastructure ensures that **anyone can rebuild an identical binary from a given commit**.
 
-> "If you cannot reproduce it, you cannot trust it." — Kazkade Build Philosophy
+> "If you cannot reproduce it, you cannot trust it." � Kazkade Build Philosophy
 
 ---
 
@@ -24,20 +24,20 @@ A transparent source code repository is only meaningful if you can verify that t
 Build reproducibility means that compiling the same source code with the same toolchain produces a **byte-for-byte identical binary**. This property allows independent verification:
 
 ```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   Developer  │     │   Auditor    │     │    User      │
-│    Build     │     │    Build     │     │    Build     │
-└──────┬───────┘     └──────┬───────┘     └──────┬───────┘
-       │                    │                    │
-       ▼                    ▼                    ▼
-┌───────────────────────────────────────────────────────┐
-│                    Binary Output                       │
-│                    hash: a1b2c3d4                      │
-│                    hash: a1b2c3d4                      │
-│                    hash: a1b2c3d4                      │
-│                                                       │
-│           All three produce the SAME binary            │
-└───────────────────────────────────────────────────────┘
++--------------+     +--------------+     +--------------+
+�   Developer  �     �   Auditor    �     �    User      �
+�    Build     �     �    Build     �     �    Build     �
++--------------+     +--------------+     +--------------+
+       �                    �                    �
+       ?                    ?                    ?
++-------------------------------------------------------+
+�                    Binary Output                       �
+�                    hash: a1b2c3d4                      �
+�                    hash: a1b2c3d4                      �
+�                    hash: a1b2c3d4                      �
+�                                                       �
+�           All three produce the SAME binary            �
++-------------------------------------------------------+
 ```
 
 When all three hashes match, the user can be confident that:
@@ -203,12 +203,12 @@ Kazkade supports reproducible builds across:
 
 | Platform | Status | Notes |
 |----------|--------|-------|
-| x86_64-pc-windows-msvc | ✓ Verified | MSVC toolchain pinned to specific version |
-| x86_64-unknown-linux-gnu | ✓ Verified | glibc 2.35+ |
-| aarch64-unknown-linux-gnu | ✓ Verified | ARM64 builds |
-| x86_64-apple-darwin | ✓ Verified | macOS 14+ |
-| aarch64-apple-darwin | ✓ Verified | Apple Silicon |
-| x86_64-unknown-linux-musl | ✓ Verified | Static musl builds |
+| x86_64-pc-windows-msvc | ? Verified | MSVC toolchain pinned to specific version |
+| x86_64-unknown-linux-gnu | ? Verified | glibc 2.35+ |
+| aarch64-unknown-linux-gnu | ? Verified | ARM64 builds |
+| x86_64-apple-darwin | ? Verified | macOS 14+ |
+| aarch64-apple-darwin | ? Verified | Apple Silicon |
+| x86_64-unknown-linux-musl | ? Verified | Static musl builds |
 
 Each platform produces identical binaries when built from the same commit with the pinned toolchain.
 
@@ -332,7 +332,7 @@ $ kazkade ledger verify --chain
 
 ## Reproducibility Metrics Dashboard
 
-The Kazkade reproducibility dashboard (`kazkade dashboard` → Builds tab) shows:
+The Kazkade reproducibility dashboard (`kazkade dashboard` ? Builds tab) shows:
 
 ```
 =================================================
@@ -342,7 +342,7 @@ The Kazkade reproducibility dashboard (`kazkade dashboard` → Builds tab) shows
   Last 1000 builds: 99.8% reproducible
   Build failures:   2 (both due to network timeouts)
   Mean build time:  3m 42s
-  Hash stability:   ✓ Stable across platforms
+  Hash stability:   ? Stable across platforms
 
   Build Breakdown by Platform:
   Platform                Builds    Reproducible
@@ -368,7 +368,7 @@ In June 2026, a hypothetical supply chain attack on a transitive dependency (`se
 4. The `.buildinfo` attestation flagged the discrepancy
 5. The release was blocked before any user downloaded it
 
-The attack was detected entirely through build reproducibility. No code review of the malicious dependency was necessary — the hash mismatch was sufficient.
+The attack was detected entirely through build reproducibility. No code review of the malicious dependency was necessary � the hash mismatch was sufficient.
 
 ---
 
@@ -376,16 +376,16 @@ The attack was detected entirely through build reproducibility. No code review o
 
 | Requirement | Status | Verification |
 |-------------|--------|-------------|
-| Pinned toolchain | ✓ | `rust-toolchain.toml` |
-| Pinned dependencies | ✓ | `Cargo.lock` committed |
-| Fixed RUSTFLAGS | ✓ | `.cargo/config.toml` |
-| SOURCE_DATE_EPOCH | ✓ | Set in CI |
-| Path stripping | ✓ | `-Z remap-cwd-prefix=.` |
-| Timestamp stripping | ✓ | `-Z trim-paths` |
-| Cross-platform matching | ✓ | CI matrix |
-| Signed attestation | ✓ | `.buildinfo` |
-| Ledger recording | ✓ | `.aioss` ledger |
-| Automated testing | ✓ | `cargo test --test reproducibility` |
+| Pinned toolchain | ? | `rust-toolchain.toml` |
+| Pinned dependencies | ? | `Cargo.lock` committed |
+| Fixed RUSTFLAGS | ? | `.cargo/config.toml` |
+| SOURCE_DATE_EPOCH | ? | Set in CI |
+| Path stripping | ? | `-Z remap-cwd-prefix=.` |
+| Timestamp stripping | ? | `-Z trim-paths` |
+| Cross-platform matching | ? | CI matrix |
+| Signed attestation | ? | `.buildinfo` |
+| Ledger recording | ? | `.aioss` ledger |
+| Automated testing | ? | `cargo test --test reproducibility` |
 
 ---
 
@@ -467,10 +467,10 @@ This would allow users to verify Kazkade's WASM backend with the same reproducib
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Source availability and signed commits
-- [Deterministic Builds](./deterministic-builds.md) — Pinned toolchain and dependency details
-- [Verifiable Binaries](./verifiable-binaries.md) — Signed release verification
-- [Open Core Model](./open-core-model.md) — Community vs enterprise feature matrix
+- [Source Code Transparency](./source-code-transparency.md) � Source availability and signed commits
+- [Deterministic Builds](./deterministic-builds.md) � Pinned toolchain and dependency details
+- [Verifiable Binaries](./verifiable-binaries.md) � Signed release verification
+- [Open Core Model](./open-core-model.md) � Community vs enterprise feature matrix
 
 ---
 
@@ -495,7 +495,7 @@ kazkade ledger record --label "build:v0.1.0" --file kazcade-0.1.0.buildinfo
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -506,7 +506,7 @@ kazkade ledger record --label "build:v0.1.0" --file kazcade-0.1.0.buildinfo
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -529,3 +529,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

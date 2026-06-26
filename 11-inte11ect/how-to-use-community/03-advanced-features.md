@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║           HOW-TO-USE COMMUNITY — ADVANCED FEATURES                   ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �           HOW-TO-USE COMMUNITY � ADVANCED FEATURES                   �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -180,7 +180,7 @@ flowchart LR
 ### How to Branch
 
 1. Hover over a response
-2. Click the branch icon (🌿)
+2. Click the branch icon (??)
 3. Type your alternative follow-up
 4. A new branch appears
 
@@ -210,16 +210,16 @@ Thread messages to keep conversations organized:
 # Threading Example
 
 Message 1: "Let's discuss the project plan"
-├─ Thread A: "What are the milestones?"
-│  ├─ Reply: "Phase 1: Research (2 weeks)"
-│  └─ Reply: "Phase 2: Development (4 weeks)"
-│
-├─ Thread B: "Who is on the team?"
-│  ├─ Reply: "Alice - Lead Developer"
-│  └─ Reply: "Bob - Designer"
-│
-└─ Thread C: "What is the budget?"
-   └─ Reply: "$50,000 initial allocation"
++- Thread A: "What are the milestones?"
+�  +- Reply: "Phase 1: Research (2 weeks)"
+�  +- Reply: "Phase 2: Development (4 weeks)"
+�
++- Thread B: "Who is on the team?"
+�  +- Reply: "Alice - Lead Developer"
+�  +- Reply: "Bob - Designer"
+�
++- Thread C: "What is the budget?"
+   +- Reply: "$50,000 initial allocation"
 ```
 
 ### Thread Operations
@@ -392,9 +392,9 @@ Use different models within the same conversation:
 ```markdown
 # Multi-model conversation flow
 
-1. Message 1: "Explain quantum computing" → GPT-4o
-2. Message 2: "Can you simplify that?" → Gemini 1.5 Pro
-3. Message 3: "Now write code for it" → Claude 3.5 Sonnet
+1. Message 1: "Explain quantum computing" ? GPT-4o
+2. Message 2: "Can you simplify that?" ? Gemini 1.5 Pro
+3. Message 3: "Now write code for it" ? Claude 3.5 Sonnet
 ```
 
 ### Model Switching
@@ -436,19 +436,19 @@ class MultiModelManager {
 Compare responses from different models side by side:
 
 ```markdown
-┌─────────────────┬─────────────────┐
-│    GPT-4o       │  Claude 3.5     │
-├─────────────────┼─────────────────┤
-│ Response text   │ Response text   │
-│ from GPT-4o     │ from Claude     │
-│                 │                 │
-│ Pros:           │ Pros:           │
-│ - Fast          │ - Detailed      │
-│ - Concise       │ - Well-structured│
-│                 │                 │
-│ Cons:           │ Cons:           │
-│ - Less detail   │ - Slower        │
-└─────────────────┴─────────────────┘
++-----------------------------------+
+�    GPT-4o       �  Claude 3.5     �
++-----------------+-----------------�
+� Response text   � Response text   �
+� from GPT-4o     � from Claude     �
+�                 �                 �
+� Pros:           � Pros:           �
+� - Fast          � - Detailed      �
+� - Concise       � - Well-structured�
+�                 �                 �
+� Cons:           � Cons:           �
+� - Less detail   � - Slower        �
++-----------------------------------+
 ```
 
 ### How to Compare
@@ -806,7 +806,7 @@ curl -X POST https://api.inte11ect.dev/v1/chat \
 ---
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -818,7 +818,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -841,3 +841,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

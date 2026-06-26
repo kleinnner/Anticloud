@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — BDR DOCUMENTATION                 ║
-║                   BDR-001: SINGLE MODEL ARCHITECTURE             ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � BDR DOCUMENTATION                 �
+�                   BDR-001: SINGLE MODEL ARCHITECTURE             �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -18,8 +18,8 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 | **Status** | Approved |
 | **Author** | Lois-Kleinner Engineering |
 | **Date** | 2026-06-19 |
-| **Supersedes** | — |
-| **Deprecated By** | — |
+| **Supersedes** | � |
+| **Deprecated By** | � |
 
 ---
 
@@ -98,8 +98,8 @@ A single, capable model eliminates these issues while covering the full range of
 | **Qwen2-VL-2B** | 2.2B | 1.8GB | 68.5 | 89.2 | 87.1 | 145ms | Apache 2.0 |
 | Phi-3-Vision | 4.2B | 3.1GB | 69.0 | 88.5 | 85.3 | 280ms | MIT |
 | LLaVA-NeXT | 7B | 4.5GB | 67.8 | 87.9 | 86.2 | 420ms | Apache 2.0 |
-| Gemma-2 | 2B | 1.9GB | 65.4 | 85.1 | — | 160ms | Gemma |
-| TinyLLaMA | 1.1B | 0.9GB | 58.2 | 79.3 | — | 90ms | Apache 2.0 |
+| Gemma-2 | 2B | 1.9GB | 65.4 | 85.1 | � | 160ms | Gemma |
+| TinyLLaMA | 1.1B | 0.9GB | 58.2 | 79.3 | � | 90ms | Apache 2.0 |
 
 **Decision: Qwen2-VL-2B** wins on size/performance/latency trade-off with Apache 2.0 license.
 
@@ -675,7 +675,7 @@ pub async fn speculative_decode(
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -686,7 +686,7 @@ pub async fn speculative_decode(
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -709,3 +709,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,4 +1,4 @@
-﻿# Using 01s-Ledger
+# Using 01s-Ledger
 
 The `01s-ledger` binary is the core audit tool in 01s Sovereign. It manages the cryptographically-linked `.aioss` ledger that records every action on the system.
 
@@ -188,17 +188,17 @@ The ledger is automatically updated by systemd services:
 
 ```
 ~/ledger/
-â”œâ”€â”€ 2026-06-14.aioss          # Main ledger
-â”œâ”€â”€ 2026-06-15.aioss          # Next day's ledger
-â””â”€â”€ ...                        # Additional files
+├── 2026-06-14.aioss          # Main ledger
+├── 2026-06-15.aioss          # Next day's ledger
+└── ...                        # Additional files
 
 logs/
-â”œâ”€â”€ health/
-â”‚   â”œâ”€â”€ 2026-06-14.health     # Health ledger
-â”‚   â””â”€â”€ 2026-06-15.health
-â””â”€â”€ txt/
-    â”œâ”€â”€ 2026-06-14.log        # Pipe-delimited text log
-    â””â”€â”€ 2026-06-14.summary    # Human-readable summary
+├── health/
+│   ├── 2026-06-14.health     # Health ledger
+│   └── 2026-06-15.health
+└── txt/
+    ├── 2026-06-14.log        # Pipe-delimited text log
+    └── 2026-06-14.summary    # Human-readable summary
 ```
 
 ## Entry Types Reference
@@ -461,16 +461,16 @@ ls -la ~/ledger/
 
 ## Further Reading
 
-- [01s-Ledger API Reference](../developers/04-01s-ledger-api-reference.md) â€” API documentation
-- [Cryptographic Audit Ledgers](../research/01-cryptographic-audit-ledgers.md) â€” Research background
-- [Tamper-Evident Logging](../research/12-tamper-evident-logging-systems.md) â€” Technical foundations
-- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) â€” Solving ledger issues
-- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) â€” Security model
-- [Ledger FAQ](../faq/04-ledger-audit-faq.md) â€” Common questions
-- [Health Diagnostic Ledger](../features/12-health-diagnostic-ledger.md) â€” System health
-- [Log Manager Output](../features/14-log-manager-txt-output.md) â€” Txt output format
-- [Incident Response](../incident-reporting/01-incident-response-plan.md) â€” Security events
-- [Compliance Automation](../compliance/09-compliance-automation-with-ledger.md) â€” Compliance use cases
+- [01s-Ledger API Reference](../developers/04-01s-ledger-api-reference.md) — API documentation
+- [Cryptographic Audit Ledgers](../research/01-cryptographic-audit-ledgers.md) — Research background
+- [Tamper-Evident Logging](../research/12-tamper-evident-logging-systems.md) — Technical foundations
+- [Ledger Troubleshooting](../help/03-ledger-troubleshooting.md) — Solving ledger issues
+- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) — Security model
+- [Ledger FAQ](../faq/04-ledger-audit-faq.md) — Common questions
+- [Health Diagnostic Ledger](../features/12-health-diagnostic-ledger.md) — System health
+- [Log Manager Output](../features/14-log-manager-txt-output.md) — Txt output format
+- [Incident Response](../incident-reporting/01-incident-response-plan.md) — Security events
+- [Compliance Automation](../compliance/09-compliance-automation-with-ledger.md) — Compliance use cases
 
 ## Ledger Query Examples
 
@@ -674,7 +674,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -697,3 +697,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

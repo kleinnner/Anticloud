@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Sharing Results
@@ -80,11 +80,11 @@ kazkade bench leaderboard --top 10
 
 ```
 Rank  User          Throughput   Bench          CPU               Signed
-1     @vectorix     3.2 GB/s    scan_i64       Ryzen 9 9950X     ✓
-2     @rustacean    2.8 GB/s    scan_i64       Threadripper 7980X ✓
-3     @dataguru     2.4 GB/s    scan_i64       EPYC 9654         ✓
-4     @zerocopydev  2.1 GB/s    scan_i64       M3 Ultra          ✓
-5     @simdfan      1.9 GB/s    scan_i64       Xeon 6980P        ✓
+1     @vectorix     3.2 GB/s    scan_i64       Ryzen 9 9950X     ?
+2     @rustacean    2.8 GB/s    scan_i64       Threadripper 7980X ?
+3     @dataguru     2.4 GB/s    scan_i64       EPYC 9654         ?
+4     @zerocopydev  2.1 GB/s    scan_i64       M3 Ultra          ?
+5     @simdfan      1.9 GB/s    scan_i64       Xeon 6980P        ?
 ```
 
 ### Leaderboard Categories
@@ -120,7 +120,7 @@ Entry: BenchmarkResult
   Timestamp:    2026-06-19T12:00:00Z
   Author:       ed25519:abcd1234...
   Hash:         sha3-256:a1b2c3d4...
-  Signature:    ✓ VALID
+  Signature:    ? VALID
   Chain:        #42 (verified to genesis)
   Tamper:       NONE DETECTED
 ```
@@ -128,23 +128,23 @@ Entry: BenchmarkResult
 ### Trust Model
 
 ```
-┌──────────┐     ┌───────────────┐     ┌──────────────┐
-│ Author   │────>│ SHA3-256 hash │────>│ Ed25519 sign │
-│ (results)│     │ (content)     │     │ (private key)│
-└──────────┘     └───────────────┘     └──────┬───────┘
-                                               │
-                                               ▼
-                                        ┌──────────────┐
-                                        │ .aioss ledger │
-                                        │ (immutable)   │
-                                        └──────────────┘
-                                               │
-                                  ┌────────────┴────────────┐
-                                  ▼                         ▼
-                           ┌──────────┐             ┌──────────┐
-                           │ Verifier │             │ Verifier │
-                           │ (public) │             │ (public) │
-                           └──────────┘             └──────────┘
++----------+     +---------------+     +--------------+
+� Author   �---->� SHA3-256 hash �---->� Ed25519 sign �
+� (results)�     � (content)     �     � (private key)�
++----------+     +---------------+     +--------------+
+                                               �
+                                               ?
+                                        +--------------+
+                                        � .aioss ledger �
+                                        � (immutable)   �
+                                        +--------------+
+                                               �
+                                  +-------------------------+
+                                  ?                         ?
+                           +----------+             +----------+
+                           � Verifier �             � Verifier �
+                           � (public) �             � (public) �
+                           +----------+             +----------+
 ```
 
 ## Sharing via URL
@@ -253,7 +253,7 @@ kazkade bench publish --file results/*.acol
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -264,7 +264,7 @@ kazkade bench publish --file results/*.acol
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -287,3 +287,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

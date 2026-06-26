@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Privacy by Design
@@ -15,27 +15,27 @@
 
 Kazkade does not bolt privacy on as an afterthought. Privacy principles are embedded in the architecture at every level, from the zero-copy memory engine to the ledger system. This document describes the foundational privacy principles and how they manifest in code.
 
-> "Privacy is not a feature. Privacy is a property of the system architecture." — Kazkade Privacy Manifesto
+> "Privacy is not a feature. Privacy is a property of the system architecture." � Kazkade Privacy Manifesto
 
 ---
 
 ## The Seven Privacy Principles
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                   Kazkade Privacy Principles                   │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  1. Local-First      │ All processing on user's hardware     │
-│  2. Zero-Trust       │ Verify everything, trust nothing      │
-│  3. Data Minimization│ Collect only what's needed            │
-│  4. User Control     │ User owns their data absolutely       │
-│  5. Transparency     │ All data handling is visible          │
-│  6. Security by      │ Privacy controls are the default      │
-│     Default          │                                       │
-│  7. Auditability     │ All data access is logged and signed  │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+�                   Kazkade Privacy Principles                   �
++--------------------------------------------------------------�
+�                                                              �
+�  1. Local-First      � All processing on user's hardware     �
+�  2. Zero-Trust       � Verify everything, trust nothing      �
+�  3. Data Minimization� Collect only what's needed            �
+�  4. User Control     � User owns their data absolutely       �
+�  5. Transparency     � All data handling is visible          �
+�  6. Security by      � Privacy controls are the default      �
+�     Default          �                                       �
+�  7. Auditability     � All data access is logged and signed  �
+�                                                              �
++--------------------------------------------------------------+
 ```
 
 ---
@@ -69,12 +69,12 @@ fn start_dashboard(config: &Config) -> Result<()> {
 $ kazkade self-test --privacy --local-first
 
 Local-First Verification:
-  Default query processing: LOCAL ✓
-  Dashboard binding: 127.0.0.1:8080 (localhost only) ✓
-  No cloud dependencies: VERIFIED ✓
-  No remote procedure calls: VERIFIED ✓
-  File access: mmap-based, local storage only ✓
-  Authentication: local password file or LDAP (enterprise) ✓
+  Default query processing: LOCAL ?
+  Dashboard binding: 127.0.0.1:8080 (localhost only) ?
+  No cloud dependencies: VERIFIED ?
+  No remote procedure calls: VERIFIED ?
+  File access: mmap-based, local storage only ?
+  Authentication: local password file or LDAP (enterprise) ?
 ```
 
 ---
@@ -257,14 +257,14 @@ fn default_acls() -> AccessControlList {
 $ kazkade ledger query --label "data-access:*"
 
 Data Access Log:
-┌──────────┬──────────┬──────────┬──────────┬──────────┐
-│ Timestamp│ User     │ Action   │ Resource │ Signed  │
-├──────────┼──────────┼──────────┼──────────┼──────────┤
-│ 06-19T10:│ alice    │ QUERY    │ sales_2026│ ✓        │
-│ 06-19T10:│ alice    │ EXPORT   │ report.q1 │ ✓        │
-│ 06-19T11:│ bob      │ VIEW     │ dashboard │ ✓        │
-│ 06-19T11:│ bob      │ DELETE   │ temp_data │ ✓        │
-└──────────┴──────────┴──────────┴──────────┴──────────┘
++------------------------------------------------------+
+� Timestamp� User     � Action   � Resource � Signed  �
++----------+----------+----------+----------+----------�
+� 06-19T10:� alice    � QUERY    � sales_2026� ?        �
+� 06-19T10:� alice    � EXPORT   � report.q1 � ?        �
+� 06-19T11:� bob      � VIEW     � dashboard � ?        �
+� 06-19T11:� bob      � DELETE   � temp_data � ?        �
++------------------------------------------------------+
 ```
 
 ---
@@ -272,34 +272,34 @@ Data Access Log:
 ## Privacy Architecture Diagram
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                    Kazkade Privacy Architecture                │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  Application Layer                                           │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ CLI │ Dashboard │ SQL │ MLP │ Rasterizer │ Codecs      │ │
-│  │ All local, no data leaves without explicit consent     │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-│  Privacy Enforcement Layer                                   │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Consent Manager │ Anonymizer │ Audit Logger │ Policy   │ │
-│  │ Enforces data minimization at every boundary           │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-│  Data Access Layer                                           │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Zero-copy mmap │ Local storage │ .aioss ledger         │ │
-│  │ Data never leaves hardware without explicit consent    │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-│  Hardware Layer                                              │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ Your CPU │ Your RAM │ Your Storage │ Your Network      │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+�                    Kazkade Privacy Architecture                �
++--------------------------------------------------------------�
+�                                                              �
+�  Application Layer                                           �
+�  +--------------------------------------------------------+ �
+�  � CLI � Dashboard � SQL � MLP � Rasterizer � Codecs      � �
+�  � All local, no data leaves without explicit consent     � �
+�  +--------------------------------------------------------+ �
+�                                                              �
+�  Privacy Enforcement Layer                                   �
+�  +--------------------------------------------------------+ �
+�  � Consent Manager � Anonymizer � Audit Logger � Policy   � �
+�  � Enforces data minimization at every boundary           � �
+�  +--------------------------------------------------------+ �
+�                                                              �
+�  Data Access Layer                                           �
+�  +--------------------------------------------------------+ �
+�  � Zero-copy mmap � Local storage � .aioss ledger         � �
+�  � Data never leaves hardware without explicit consent    � �
+�  +--------------------------------------------------------+ �
+�                                                              �
+�  Hardware Layer                                              �
+�  +--------------------------------------------------------+ �
+�  � Your CPU � Your RAM � Your Storage � Your Network      � �
+�  +--------------------------------------------------------+ �
+�                                                              �
++--------------------------------------------------------------+
 ```
 
 ---
@@ -308,13 +308,13 @@ Data Access Log:
 
 | Principle | GDPR Article | CCPA Section | Kazkade Implementation |
 |-----------|-------------|--------------|----------------------|
-| Local-First | Art. 5(1)(c) Data minimization | §1798.100 | All processing local |
-| Zero-Trust | Art. 32 Security of processing | §1798.81.5 | Cryptographic verification |
-| Data Minimization | Art. 5(1)(c) | §1798.100 | Column-level loading |
-| User Control | Art. 15-22 Data subject rights | §1798.105 Deletion | Full data control |
-| Transparency | Art. 5(1)(a), Art. 13-14 | §1798.100(b) | Open source code |
-| Security by Default | Art. 25 Data protection by design | §1798.81.5 | Localhost default |
-| Auditability | Art. 5(2) Accountability | §1798.130(a) | .aioss ledger |
+| Local-First | Art. 5(1)(c) Data minimization | �1798.100 | All processing local |
+| Zero-Trust | Art. 32 Security of processing | �1798.81.5 | Cryptographic verification |
+| Data Minimization | Art. 5(1)(c) | �1798.100 | Column-level loading |
+| User Control | Art. 15-22 Data subject rights | �1798.105 Deletion | Full data control |
+| Transparency | Art. 5(1)(a), Art. 13-14 | �1798.100(b) | Open source code |
+| Security by Default | Art. 25 Data protection by design | �1798.81.5 | Localhost default |
+| Auditability | Art. 5(2) Accountability | �1798.130(a) | .aioss ledger |
 
 ---
 
@@ -330,19 +330,19 @@ Privacy Design Review: Query Result Caching
 
 Checklist:
 [ ] Does this feature collect new data?
-    → Yes: Cached query results.
+    ? Yes: Cached query results.
 [ ] Is the collection necessary?
-    → Yes: Required for feature functionality.
+    ? Yes: Required for feature functionality.
 [ ] Is data minimized?
-    → Yes: Only query hash + result, not the query itself.
+    ? Yes: Only query hash + result, not the query itself.
 [ ] Is user consent required?
-    → No: Caching is local-only by default.
+    ? No: Caching is local-only by default.
 [ ] Is the data shared externally?
-    → No: Cached results never leave the machine.
+    ? No: Cached results never leave the machine.
 [ ] Is the data deletable?
-    → Yes: `kazkade cache clear` deletes all cached results.
+    ? Yes: `kazkade cache clear` deletes all cached results.
 [ ] Is data access audited?
-    → Yes: Cache hits logged to .aioss ledger.
+    ? Yes: Cache hits logged to .aioss ledger.
 
 Result: APPROVED (no privacy concerns)
 ```
@@ -351,10 +351,10 @@ Result: APPROVED (no privacy concerns)
 
 ## Related Documentation
 
-- [Data Collection Policy](./data-collection-policy.md) — Telemetry specifics
-- [Local-First Architecture](./local-first-architecture.md) — Processing locus
-- [Data Minimization](./data-minimization.md) — Retention and deletion
-- [Privacy Compliance](./privacy-compliance.md) — Regulatory requirements
+- [Data Collection Policy](./data-collection-policy.md) � Telemetry specifics
+- [Local-First Architecture](./local-first-architecture.md) � Processing locus
+- [Data Minimization](./data-minimization.md) � Retention and deletion
+- [Privacy Compliance](./privacy-compliance.md) � Regulatory requirements
 
 ---
 
@@ -376,7 +376,7 @@ kazkade ledger query --label "data-access:*"
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -387,7 +387,7 @@ kazkade ledger query --label "data-access:*"
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -410,3 +410,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

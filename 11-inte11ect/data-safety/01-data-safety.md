@@ -1,4 +1,4 @@
-﻿<!-- ASCII Art for Code-11 -->
+<!-- ASCII Art for Code-11 -->
 
 
 
@@ -13,7 +13,7 @@
 > **Associated Module:** Code-11
 ## .aioss Specification
 
-The Code-11 module defines the .aioss (AI Open Signed Storage) format specification â€” a file format designed for verifiable, signed, and portable AI artifacts. This document provides the complete specification.
+The Code-11 module defines the .aioss (AI Open Signed Storage) format specification — a file format designed for verifiable, signed, and portable AI artifacts. This document provides the complete specification.
 
 ### Format Overview
 
@@ -25,19 +25,19 @@ The Code-11 module defines the .aioss (AI Open Signed Storage) format specificat
 
 ```
 .aioss File Structure:
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ Magic Bytes: "AIOSS"       â”‚  â† 4 bytes file type identifier
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Version: "1.0.0"           â”‚  â† Format version
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Type: "model_manifest"      â”‚  â† Artifact type
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Payload: { ... }            â”‚  â† The actual content
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Signature: { ... }          â”‚  â† Ed25519 signature
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ Verification: { ... }       â”‚  â† Verification metadata
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────────────────────┐
+│ Magic Bytes: "AIOSS"       │  ← 4 bytes file type identifier
+├─────────────────────────────┤
+│ Version: "1.0.0"           │  ← Format version
+├─────────────────────────────┤
+│ Type: "model_manifest"      │  ← Artifact type
+├─────────────────────────────┤
+│ Payload: { ... }            │  ← The actual content
+├─────────────────────────────┤
+│ Signature: { ... }          │  ← Ed25519 signature
+├─────────────────────────────┤
+│ Verification: { ... }       │  ← Verification metadata
+└─────────────────────────────┘
 ```
 
 ### Schema
@@ -140,15 +140,15 @@ This section provides comprehensive technical analysis of the implementation det
 
 #### Architecture Decision Records
 
-**ADR-001: Local-First Processing** â€” All inference operations execute on user local hardware to maximize privacy, minimize latency, and eliminate cloud dependency. This fundamental decision drives all subsequent architecture choices and is non-negotiable for the platform.
+**ADR-001: Local-First Processing** — All inference operations execute on user local hardware to maximize privacy, minimize latency, and eliminate cloud dependency. This fundamental decision drives all subsequent architecture choices and is non-negotiable for the platform.
 
-**ADR-002: INT4 Quantization by Default** â€” Models use INT4 precision by default, providing optimal balance of quality, memory footprint, and speed. Users can select INT8 or FP16 when hardware permits higher quality requirements.
+**ADR-002: INT4 Quantization by Default** — Models use INT4 precision by default, providing optimal balance of quality, memory footprint, and speed. Users can select INT8 or FP16 when hardware permits higher quality requirements.
 
-**ADR-003: Ed25519 Cryptographic Signatures** â€” All artifacts use Ed25519 signatures for verification, chosen for 128-bit security level, fast verification (~20K ops/sec), compact 64-byte signatures, and widespread standardization.
+**ADR-003: Ed25519 Cryptographic Signatures** — All artifacts use Ed25519 signatures for verification, chosen for 128-bit security level, fast verification (~20K ops/sec), compact 64-byte signatures, and widespread standardization.
 
-**ADR-004: Tauri Desktop Framework** â€” The desktop client uses Tauri for its small binary size (<10MB), native Rust backend performance, cross-platform support, and strong security model without Node.js in production.
+**ADR-004: Tauri Desktop Framework** — The desktop client uses Tauri for its small binary size (<10MB), native Rust backend performance, cross-platform support, and strong security model without Node.js in production.
 
-**ADR-005: Modular 72-Component Architecture** â€” The platform decomposes into 72 independently versioned modules, each responsible for a specific domain, enabling independent development, testing, deployment, and scaling.
+**ADR-005: Modular 72-Component Architecture** — The platform decomposes into 72 independently versioned modules, each responsible for a specific domain, enabling independent development, testing, deployment, and scaling.
 
 #### Algorithm Selection and Rationale
 
@@ -192,7 +192,7 @@ Module specification (MOD-SPEC), API reference (API-REF), integration guide (INT
 
 #### Glossary
 
-Key terminology: Local Inference â€” AI execution on user hardware without cloud dependency, Quantization â€” numerical precision reduction for memory/compute efficiency, .aioss â€” AI Open Signed Storage format for verifiable artifacts, Ed25519 â€” high-security elliptic curve signature algorithm, Tauri â€” Rust-based desktop framework, Module â€” independent component of 72-module architecture, SBOM â€” Software Bill of Materials for supply chain transparency.
+Key terminology: Local Inference — AI execution on user hardware without cloud dependency, Quantization — numerical precision reduction for memory/compute efficiency, .aioss — AI Open Signed Storage format for verifiable artifacts, Ed25519 — high-security elliptic curve signature algorithm, Tauri — Rust-based desktop framework, Module — independent component of 72-module architecture, SBOM — Software Bill of Materials for supply chain transparency.
 
 ### Additional Implementation Details
 
@@ -531,7 +531,7 @@ The .aioss format provides a secure, verifiable, and portable standard for AI ar
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -554,3 +554,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

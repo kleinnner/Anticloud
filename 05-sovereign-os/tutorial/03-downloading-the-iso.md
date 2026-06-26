@@ -1,4 +1,4 @@
-﻿# Downloading the ISO
+# Downloading the ISO
 
 This guide covers where to get 01s Sovereign ISO images, how to verify their integrity, and how to choose the right version for your needs.
 
@@ -117,25 +117,25 @@ When you mount the ISO, you will find:
 
 ```
 / (ISO root)
-â”œâ”€â”€ arch/
-â”‚   â”œâ”€â”€ x86_64/
-â”‚   â”‚   â”œâ”€â”€ airootfs.sfs        # SquashFS root filesystem
-â”‚   â”‚   â”œâ”€â”€ airootfs.sha512     # Root filesystem hash
-â”‚   â”‚   â””â”€â”€ vmlinuz-linux       # Kernel
-â”‚   â””â”€â”€ boot/
-â”œâ”€â”€ boot/
-â”‚   â”œâ”€â”€ grub/
-â”‚   â”‚   â”œâ”€â”€ grub.cfg            # GRUB configuration
-â”‚   â”‚   â””â”€â”€ themes/             # GRUB themes
-â”‚   â””â”€â”€ memtest86+/             # Memory test
-â”œâ”€â”€ EFI/
-â”‚   â”œâ”€â”€ BOOT/
-â”‚   â”‚   â””â”€â”€ BOOTx64.EFI        # EFI bootloader
-â”‚   â””â”€â”€ 01S/
-â”‚       â””â”€â”€ grubx64.efi        # GRUB EFI binary
-â””â”€â”€ loader/
-    â””â”€â”€ entries/
-        â””â”€â”€ 01s.conf            # systemd-boot entry
+├── arch/
+│   ├── x86_64/
+│   │   ├── airootfs.sfs        # SquashFS root filesystem
+│   │   ├── airootfs.sha512     # Root filesystem hash
+│   │   └── vmlinuz-linux       # Kernel
+│   └── boot/
+├── boot/
+│   ├── grub/
+│   │   ├── grub.cfg            # GRUB configuration
+│   │   └── themes/             # GRUB themes
+│   └── memtest86+/             # Memory test
+├── EFI/
+│   ├── BOOT/
+│   │   └── BOOTx64.EFI        # EFI bootloader
+│   └── 01S/
+│       └── grubx64.efi        # GRUB EFI binary
+└── loader/
+    └── entries/
+        └── 01s.conf            # systemd-boot entry
 ```
 
 ## Verifying Checksums
@@ -279,9 +279,9 @@ umount /mnt
 ```
 
 The ISO contains:
-- `/arch/` â€” Arch Linux boot infrastructure
-- `/boot/` â€” GRUB, kernels, initramfs
-- `/EFI/` â€” EFI boot files
+- `/arch/` — Arch Linux boot infrastructure
+- `/boot/` — GRUB, kernels, initramfs
+- `/EFI/` — EFI boot files
 - Squashfs filesystem image with the root filesystem
 
 ### SquashFS Details
@@ -483,16 +483,16 @@ ls -lh 01-sovereign-*.iso
 
 ## Further Reading
 
-- [System Requirements](02-system-requirements.md) â€” Hardware prerequisites
-- [Creating Bootable Media](04-creating-bootable-media.md) â€” USB/DVD creation
-- [Verifying Checksums](../assets/verify-iso.sh) â€” Verification helper script
-- [Installation Guide](06-installation-guide.md) â€” Full installation steps
-- [Building Custom ISO](21-building-custom-iso.md) â€” Custom ISO creation
-- [SBOM Overview](../bdr/04-sbom-overview.md) â€” Software Bill of Materials
-- [Day1 ISO Build System](../features/02-day1-iso-build-system.md) â€” Build pipeline
-- [Network Troubleshooting](../help/07-network-troubleshooting.md) â€” Download issues
-- [Installation FAQ](../faq/02-installation-faq.md) â€” Common questions
-- [Community Mirrors](../community/07-community-projects-and-ecosystem.md) â€” Mirror list
+- [System Requirements](02-system-requirements.md) — Hardware prerequisites
+- [Creating Bootable Media](04-creating-bootable-media.md) — USB/DVD creation
+- [Verifying Checksums](../assets/verify-iso.sh) — Verification helper script
+- [Installation Guide](06-installation-guide.md) — Full installation steps
+- [Building Custom ISO](21-building-custom-iso.md) — Custom ISO creation
+- [SBOM Overview](../bdr/04-sbom-overview.md) — Software Bill of Materials
+- [Day1 ISO Build System](../features/02-day1-iso-build-system.md) — Build pipeline
+- [Network Troubleshooting](../help/07-network-troubleshooting.md) — Download issues
+- [Installation FAQ](../faq/02-installation-faq.md) — Common questions
+- [Community Mirrors](../community/07-community-projects-and-ecosystem.md) — Mirror list
 
 ## Mirror Selection Strategy
 
@@ -714,7 +714,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -737,3 +737,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

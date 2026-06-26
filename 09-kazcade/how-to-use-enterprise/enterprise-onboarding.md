@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Enterprise Onboarding
@@ -53,29 +53,29 @@ sudo ./kazcade-enterprise-linux-x86_64.run \
 
 `
 /opt/kazcade/
-├── bin/
-│   ├── kazkade          # Main binary
-│   ├── kazcade-ctl      # Control utility
-│   └── kazcade-connector # Connector manager
-├── etc/
-│   ├── kazkade.toml     # Main config
-│   ├── license.lic      # License file
-│   └── enterprise.toml  # Enterprise features
-├── lib/
-│   ├── libkazcade.so
-│   └── plugins/
-├── data/
-│   ├── ledgers/
-│   ├── stores/
-│   └── temp/
-├── logs/
-│   ├── access.log
-│   ├── error.log
-│   └── audit.log
-└── scripts/
-    ├── start.sh
-    ├── stop.sh
-    └── backup.sh
++-- bin/
+�   +-- kazkade          # Main binary
+�   +-- kazcade-ctl      # Control utility
+�   +-- kazcade-connector # Connector manager
++-- etc/
+�   +-- kazkade.toml     # Main config
+�   +-- license.lic      # License file
+�   +-- enterprise.toml  # Enterprise features
++-- lib/
+�   +-- libkazcade.so
+�   +-- plugins/
++-- data/
+�   +-- ledgers/
+�   +-- stores/
+�   +-- temp/
++-- logs/
+�   +-- access.log
+�   +-- error.log
+�   +-- audit.log
++-- scripts/
+    +-- start.sh
+    +-- stop.sh
+    +-- backup.sh
 `
 
 ## First-Run Wizard
@@ -87,98 +87,98 @@ kazcade-ctl wizard
 ### Step 1: License Key
 
 `
-┌──────────────────────────────────┐
-│  Kazkade Enterprise License     │
-│                                  │
-│  License Key: ████████████████  │
-│                                  │
-│  [Validate]  [Skip (14-day eval)]│
-└──────────────────────────────────┘
++----------------------------------+
+�  Kazkade Enterprise License     �
+�                                  �
+�  License Key: ����������������  �
+�                                  �
+�  [Validate]  [Skip (14-day eval)]�
++----------------------------------+
 `
 
 ### Step 2: Administrator Account
 
 `
-┌──────────────────────────────────┐
-│  Create Admin Account           │
-│                                  │
-│  Email:    admin@company.com    │
-│  Password: [••••••••••]         │
-│  Name:     Jane Doe             │
-│                                  │
-│  SSH Key:  [optional]           │
-│                                  │
-│  [Create]                        │
-└──────────────────────────────────┘
++----------------------------------+
+�  Create Admin Account           �
+�                                  �
+�  Email:    admin@company.com    �
+�  Password: [����������]         �
+�  Name:     Jane Doe             �
+�                                  �
+�  SSH Key:  [optional]           �
+�                                  �
+�  [Create]                        �
++----------------------------------+
 `
 
 ### Step 3: Storage Configuration
 
 `
-┌──────────────────────────────────┐
-│  Storage Configuration          │
-│                                  │
-│  Data Path:   /data/kazcade     │
-│  Ledger Path: /data/kazcade/    │
-│               ledgers           │
-│  Backup Path: /backup/kazcade   │
-│                                  │
-│  Encryption:  [✓] AES-256-GCM  │
-│                                  │
-│  [Test] [Continue]               │
-└──────────────────────────────────┘
++----------------------------------+
+�  Storage Configuration          �
+�                                  �
+�  Data Path:   /data/kazcade     �
+�  Ledger Path: /data/kazcade/    �
+�               ledgers           �
+�  Backup Path: /backup/kazcade   �
+�                                  �
+�  Encryption:  [?] AES-256-GCM  �
+�                                  �
+�  [Test] [Continue]               �
++----------------------------------+
 `
 
 ### Step 4: Network Configuration
 
 `
-┌──────────────────────────────────┐
-│  Network Configuration          │
-│                                  │
-│  HTTP Port:      8742            │
-│  HTTPS Port:     8743            │
-│  IPC Socket:     /var/run/       │
-│                  kazkade.sock   │
-│  TLS Cert:       /etc/ssl/      │
-│                  kazkade.crt    │
-│  TLS Key:        /etc/ssl/      │
-│                  kazkade.key    │
-│                                  │
-│  [Generate Self-Signed] [Next]  │
-└──────────────────────────────────┘
++----------------------------------+
+�  Network Configuration          �
+�                                  �
+�  HTTP Port:      8742            �
+�  HTTPS Port:     8743            �
+�  IPC Socket:     /var/run/       �
+�                  kazkade.sock   �
+�  TLS Cert:       /etc/ssl/      �
+�                  kazkade.crt    �
+�  TLS Key:        /etc/ssl/      �
+�                  kazkade.key    �
+�                                  �
+�  [Generate Self-Signed] [Next]  �
++----------------------------------+
 `
 
 ### Step 5: SSO Integration (Optional)
 
 `
-┌──────────────────────────────────┐
-│  Single Sign-On                 │
-│                                  │
-│  Provider: [Okta v]             │
-│  ┌────────────────────────┐    │
-│  │ SAML 2.0 Metadata URL  │    │
-│  │                        │    │
-│  │ [Upload Metadata]       │    │
-│  └────────────────────────┘    │
-│                                  │
-│  [Skip] [Test Connection]       │
-└──────────────────────────────────┘
++----------------------------------+
+�  Single Sign-On                 �
+�                                  �
+�  Provider: [Okta v]             �
+�  +------------------------+    �
+�  � SAML 2.0 Metadata URL  �    �
+�  �                        �    �
+�  � [Upload Metadata]       �    �
+�  +------------------------+    �
+�                                  �
+�  [Skip] [Test Connection]       �
++----------------------------------+
 `
 
 ### Step 6: Summary
 
 `
-┌──────────────────────────────────┐
-│  Configuration Summary          │
-│                                  │
-│  License:  Enterprise Gold      │
-│  Admin:    jane@company.com     │
-│  Data:     /data/kazcade        │
-│  TLS:      Enabled              │
-│  SSO:      Okta (SAML 2.0)      │
-│                                  │
-│  [< Back] [Apply Configuration] │
-└──────────────────────────────────┘
++----------------------------------+
+�  Configuration Summary          �
+�                                  �
+�  License:  Enterprise Gold      �
+�  Admin:    jane@company.com     �
+�  Data:     /data/kazcade        �
+�  TLS:      Enabled              �
+�  SSO:      Okta (SAML 2.0)      �
+�                                  �
+�  [< Back] [Apply Configuration] �
++----------------------------------+
 `
 
 ## License Key Configuration
@@ -230,16 +230,16 @@ kazkade dashboard --admin --license
 Shows:
 
 `
-┌──────────────────────────────────────┐
-│ License Usage                        │
-│                                      │
-│ Nodes: ████████░░░░ 15/25            │
-│ Storage: ██████░░░░ 1.2 TB / 5 TB   │
-│ QPS: ████░░░░░░░ 4500 / 10000       │
-│                                      │
-│ Days remaining: 365                  │
-│ Renewal date: 2027-06-19            │
-└──────────────────────────────────────┘
++--------------------------------------+
+� License Usage                        �
+�                                      �
+� Nodes: ������������ 15/25            �
+� Storage: ���������� 1.2 TB / 5 TB   �
+� QPS: ����������� 4500 / 10000       �
+�                                      �
+� Days remaining: 365                  �
+� Renewal date: 2027-06-19            �
++--------------------------------------+
 `
 
 ## Post-Install Verification
@@ -249,13 +249,13 @@ Shows:
 kazcade-ctl verify
 
 # Output:
-# ✓ License: VALID (Enterprise Gold)
-# ✓ Storage: /data/kazcade (2 TB NVMe)
-# ✓ Ledger: Initialized (24 entries)
-# ✓ TLS: Enabled (cert expires 2027-06-19)
-# ✓ SSO: Connected (Okta)
-# ✓ RBAC: Active (3 roles)
-# ✓ Audit: Logging enabled
+# ? License: VALID (Enterprise Gold)
+# ? Storage: /data/kazcade (2 TB NVMe)
+# ? Ledger: Initialized (24 entries)
+# ? TLS: Enabled (cert expires 2027-06-19)
+# ? SSO: Connected (Okta)
+# ? RBAC: Active (3 roles)
+# ? Audit: Logging enabled
 # All checks passed.
 `
 
@@ -281,7 +281,7 @@ sc start kazkade
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -292,7 +292,7 @@ sc start kazkade
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -315,3 +315,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Local-First Architecture
@@ -15,54 +15,54 @@
 
 Kazkade is designed from the ground up as a **local-first** system. Everything runs on your hardware, on your terms. There is no cloud dependency, no mandatory telemetry uplink, no "phone home" mechanism. The system is fully functional with no network connection at all.
 
-> "Kazkade does not need the cloud. It needs your CPU." — Kazkade Architecture Philosophy
+> "Kazkade does not need the cloud. It needs your CPU." � Kazkade Architecture Philosophy
 
 ---
 
 ## What Local-First Means
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│              Kazkade Local-First Architecture                │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│  YOUR MACHINE                                               │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  Kazkade Process                                      │  │
-│  │  ┌────────────┐ ┌────────────┐ ┌──────────────┐     │  │
-│  │  │ Storage    │ │ Query      │ │ Dashboard     │     │  │
-│  │  │ (.acol)   │ │ Engine     │ │ (localhost)   │     │  │
-│  │  │ ──────►   │ │ ──────►    │ │ ──────►       │     │  │
-│  │  │ mmap      │ │ SIMD exec  │ │ Web UI        │     │  │
-│  │  └────────────┘ └────────────┘ └──────────────┘     │  │
-│  │                                                            │  │
-│  │  ┌────────────┐ ┌────────────┐ ┌──────────────┐     │  │
-│  │  │ Rasterizer │ │ MLP        │ │ Ledger       │     │  │
-│  │  │ (CPU-only) │ │ (CPU-only) │ │ (.aioss)     │     │  │
-│  │  │ ──────►   │ │ ──────►    │ │ ──────►      │     │  │
-│  │  │ SIMD      │ │ I4/I8 SIMD │ │ SHA3+Ed25519 │     │  │
-│  │  └────────────┘ └────────────┘ └──────────────┘     │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                                                            │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  Operating System                                     │  │
-│  │  Memory │ Filesystem │ Network (optional)            │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                                                            │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  Hardware                                             │  │
-│  │  CPU │ RAM │ Storage │ (Network optional)             │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
++------------------------------------------------------------+
+�              Kazkade Local-First Architecture                �
++------------------------------------------------------------�
+�                                                            �
+�  YOUR MACHINE                                               �
+�  +------------------------------------------------------+  �
+�  �  Kazkade Process                                      �  �
+�  �  +------------+ +------------+ +--------------+     �  �
+�  �  � Storage    � � Query      � � Dashboard     �     �  �
+�  �  � (.acol)   � � Engine     � � (localhost)   �     �  �
+�  �  � ------?   � � ------?    � � ------?       �     �  �
+�  �  � mmap      � � SIMD exec  � � Web UI        �     �  �
+�  �  +------------+ +------------+ +--------------+     �  �
+�  �                                                            �  �
+�  �  +------------+ +------------+ +--------------+     �  �
+�  �  � Rasterizer � � MLP        � � Ledger       �     �  �
+�  �  � (CPU-only) � � (CPU-only) � � (.aioss)     �     �  �
+�  �  � ------?   � � ------?    � � ------?      �     �  �
+�  �  � SIMD      � � I4/I8 SIMD � � SHA3+Ed25519 �     �  �
+�  �  +------------+ +------------+ +--------------+     �  �
+�  +------------------------------------------------------+  �
+�                                                            �
+�  +------------------------------------------------------+  �
+�  �  Operating System                                     �  �
+�  �  Memory � Filesystem � Network (optional)            �  �
+�  +------------------------------------------------------+  �
+�                                                            �
+�  +------------------------------------------------------+  �
+�  �  Hardware                                             �  �
+�  �  CPU � RAM � Storage � (Network optional)             �  �
+�  +------------------------------------------------------+  �
+�                                                            �
++------------------------------------------------------------+
 
                   NO CLOUD DEPENDENCY
-              ┌──────────────────────────┐
-              │  All processing is local  │
-              │  No data leaves your      │
-              │  machine (unless you      │
-              │  explicitly choose)       │
-              └──────────────────────────┘
+              +--------------------------+
+              �  All processing is local  �
+              �  No data leaves your      �
+              �  machine (unless you      �
+              �  explicitly choose)       �
+              +--------------------------+
 ```
 
 ---
@@ -114,17 +114,17 @@ To enable remote access (not recommended):
 $ kazkade self-test --dependencies --external
 
 External Runtime Dependencies:
-┌────────────────┬──────────┬──────────┐
-│ Dependency     │ Required │ Status   │
-├────────────────┼──────────┼──────────┤
-│ Internet       │ No       │ ✓ Not req│
-│ Cloud service  │ No       │ ✓ Not req│
-│ DNS resolver   │ No       │ ✓ Not req│
-│ Package registry│ No      │ ✓ Not req│
-│ Auth provider  │ No       │ ✓ Local  │
-│ TLS CA bundle  │ No       │ ✓ Not req│
-│ GPU driver     │ No       │ ✓ None   │
-└────────────────┴──────────┴──────────┘
++--------------------------------------+
+� Dependency     � Required � Status   �
++----------------+----------+----------�
+� Internet       � No       � ? Not req�
+� Cloud service  � No       � ? Not req�
+� DNS resolver   � No       � ? Not req�
+� Package registry� No      � ? Not req�
+� Auth provider  � No       � ? Local  �
+� TLS CA bundle  � No       � ? Not req�
+� GPU driver     � No       � ? None   �
++--------------------------------------+
 ```
 
 ---
@@ -135,20 +135,20 @@ Data flows through the system without ever leaving the machine:
 
 ```
 Disk (SSD/NVMe)
-  │
-  ▼
+  �
+  ?
 mmap (virtual memory mapping, no copying)
-  │
-  ▼
+  �
+  ?
 Page Cache (OS-managed, shared across processes)
-  │
-  ▼
+  �
+  ?
 CPU Cache (L1/L2/L3, SIMD processing)
-  │
-  ▼
+  �
+  ?
 Registers (SIMD vectors, actual computation)
-  │
-  ▼
+  �
+  ?
 mmap write-back (modified data written to disk)
 ```
 
@@ -167,11 +167,11 @@ At no point is data:
 # Fully functional offline
 $ kazkade bench --gemm
   Running benchmark... (no network needed)
-  ✓ Results displayed locally
+  ? Results displayed locally
 
 $ kazkade query "SELECT * FROM sales WHERE year = 2026"
   Query executed locally... (no network needed)
-  ✓ Results displayed locally
+  ? Results displayed locally
 
 $ kazkade dashboard
   Dashboard available at http://127.0.0.1:8080
@@ -179,13 +179,13 @@ $ kazkade dashboard
 
 $ kazkade ledger verify --chain
   Ledger verified locally... (no network needed)
-  ✓ Chain is valid
+  ? Chain is valid
 
 # Test offline operation
 $ kazkade self-test --offline
-  Network disabled: ✓
-  All features available: ✓
-  No errors due to missing network: ✓
+  Network disabled: ?
+  All features available: ?
+  No errors due to missing network: ?
   Result: PASS - Full functionality offline
 ```
 
@@ -273,31 +273,31 @@ $ kazkade dashboard --privacy
 ```
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│  Local-First Status                                         │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│  Processing:       100% local                              │
-│  Storage:          100% local                              │
-│  Network:          DISABLED                                │
-│  Cloud deps:       NONE                                    │
-│  External APIs:    NONE                                    │
-│  Data in transit:  0 bytes (all local)                     │
-│  Offline capable:  YES                                     │
-│                                                            │
-│  [No data has left this machine]                           │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
++------------------------------------------------------------+
+�  Local-First Status                                         �
++------------------------------------------------------------�
+�                                                            �
+�  Processing:       100% local                              �
+�  Storage:          100% local                              �
+�  Network:          DISABLED                                �
+�  Cloud deps:       NONE                                    �
+�  External APIs:    NONE                                    �
+�  Data in transit:  0 bytes (all local)                     �
+�  Offline capable:  YES                                     �
+�                                                            �
+�  [No data has left this machine]                           �
+�                                                            �
++------------------------------------------------------------+
 ```
 
 ---
 
 ## Related Documentation
 
-- [Data Collection Policy](./data-collection-policy.md) — Telemetry policy
-- [Privacy by Design](./privacy-by-design.md) — Architecture principles
-- [No Telemetry Mode](./no-telemetry-mode.md) — Air-gapped operation
-- [Data Minimization](./data-minimization.md) — Retention policies
+- [Data Collection Policy](./data-collection-policy.md) � Telemetry policy
+- [Privacy by Design](./privacy-by-design.md) � Architecture principles
+- [No Telemetry Mode](./no-telemetry-mode.md) � Air-gapped operation
+- [Data Minimization](./data-minimization.md) � Retention policies
 
 ---
 
@@ -322,7 +322,7 @@ kazkade config set network.enabled true
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -333,7 +333,7 @@ kazkade config set network.enabled true
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -356,3 +356,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

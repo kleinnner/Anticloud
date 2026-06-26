@@ -1,19 +1,19 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Elevator Pitch â€” Kazkade in 30 Seconds
+# Elevator Pitch — Kazkade in 30 Seconds
 
 ## The Pitch
 
-> "Kazkade is a zero-copy compute runtime that runs native SIMD on every OS from a single binary with zero dependencies. It benchmarks your hardware, cryptographically signs every result to a tamper-proof ledger (`.aioss`), and executes columnar analytics â€” all without Python, JVM, or a GPU."
+> "Kazkade is a zero-copy compute runtime that runs native SIMD on every OS from a single binary with zero dependencies. It benchmarks your hardware, cryptographically signs every result to a tamper-proof ledger (`.aioss`), and executes columnar analytics — all without Python, JVM, or a GPU."
 
 ---
 
@@ -22,7 +22,7 @@
 | Point | Message |
 |-------|---------|
 | **One Binary** | Download a single executable. No pip, no conda, no Docker, no JVM. Works on Windows, Linux, macOS, and ARM. |
-| **Zero Dependencies** | No Python runtime, no NumPy, no OpenBLAS, no CUDA. Static-linked with musl â€” it just runs. |
+| **Zero Dependencies** | No Python runtime, no NumPy, no OpenBLAS, no CUDA. Static-linked with musl — it just runs. |
 | **Native SIMD** | Auto-detects AVX-512, AVX2, AVX, NEON, SVE at launch. No manual tuning, no separate builds. |
 | **Tamper-Proof Ledger** | Every benchmark run is signed and chained into an `.aioss` ledger file. Verifiable by anyone, anywhere. |
 | **Cross-Platform** | Same binary, same output, same ledger format on x64, ARM64, and emerging RISC-V. |
@@ -44,7 +44,7 @@
 ## Value Proposition Statement
 
 > **Kazkade eliminates runtime sprawl in compute benchmarking and analytics.**  
-> Teams today stitch together Python, NumPy, C extensions, benchmarking suites, and custom audit scripts. Kazkade replaces the entire stack with one binary, produces cryptographically verifiable results, and runs on the hardware you already own â€” no GPU required.  
+> Teams today stitch together Python, NumPy, C extensions, benchmarking suites, and custom audit scripts. Kazkade replaces the entire stack with one binary, produces cryptographically verifiable results, and runs on the hardware you already own — no GPU required.  
 > **Result:** 10x faster setup, 3x cheaper infra (no GPU/cloud instances), and audit-ready output out of the box.
 
 ---
@@ -64,10 +64,10 @@
 
 ## Call to Action
 
-> "Try it: `curl -O https://kazcade.io/dl/kazcade && ./kazkade bench` â€” you'll have your first signed benchmark result in under 60 seconds."
+> "Try it: `curl -O https://kazcade.io/dl/kazcade && ./kazkade bench` — you'll have your first signed benchmark result in under 60 seconds."
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -78,7 +78,7 @@
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -101,3 +101,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

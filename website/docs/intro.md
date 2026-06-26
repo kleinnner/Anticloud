@@ -13,6 +13,7 @@ image: /img/anticloud-social.png
 [![Zenodo](https://img.shields.io/badge/Research-Zenodo-1682D4?style=flat-square&logo=zenodo)](https://zenodo.org/search?q=anticloud)
 [![Hugging Face](https://img.shields.io/badge/Models-HuggingFace-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Anticloud)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
+[![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
 
 The Anticloud ecosystem is a comprehensive collection of research documentation, specifications, and architectural papers spanning 11 platform projects and 40 developer tools. Every project shares a common cryptographic foundation built on SHA3-256 hash chains, Ed25519 digital signatures, and the `.aioss` tamper-evident ledger format.
 
@@ -110,7 +111,7 @@ flowchart LR
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -133,3 +134,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

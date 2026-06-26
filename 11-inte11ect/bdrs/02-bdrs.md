@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — BDR DOCUMENTATION                 ║
-║                   BDR-002: .AIOSS FORMAT                        ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � BDR DOCUMENTATION                 �
+�                   BDR-002: .AIOSS FORMAT                        �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -18,8 +18,8 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 | **Status** | Approved |
 | **Author** | Lois-Kleinner Engineering |
 | **Date** | 2026-06-19 |
-| **Supersedes** | — |
-| **Deprecated By** | — |
+| **Supersedes** | � |
+| **Deprecated By** | � |
 
 ---
 
@@ -44,7 +44,7 @@ Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ## Executive Summary
 
-BDR-002 defines the `.aioss` ledger format — an append-only, cryptographically chained binary format for immutable audit trails. The format is designed for high-throughput append operations, efficient verification, and compact storage.
+BDR-002 defines the `.aioss` ledger format � an append-only, cryptographically chained binary format for immutable audit trails. The format is designed for high-throughput append operations, efficient verification, and compact storage.
 
 ---
 
@@ -703,12 +703,12 @@ inte11ect ledger migrate \
 
 | Version | Changes | Migration Required |
 |---------|---------|-------------------|
-| 1 | Initial format | — |
+| 1 | Initial format | � |
 | 2 (planned) | Extended metadata, batch proofs | Auto-convert on read |
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -719,7 +719,7 @@ inte11ect ledger migrate \
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -742,3 +742,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

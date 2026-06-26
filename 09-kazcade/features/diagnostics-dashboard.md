@@ -1,15 +1,15 @@
-ï»¿<!--
-  â–„â–„   â–„â–„â–„                      â–„â–„                        â–„â–„                     
-  â–ˆâ–ˆ  â–ˆâ–ˆâ–€                       â–ˆâ–ˆ                        â–ˆâ–ˆ                     
-  â–„â–„â–„â–ˆ  â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆ â–„â–ˆâ–ˆâ–€    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–„â–„â–„     
-  â–„â–„â–ˆâ–€â–€â–€    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ      â–„â–ˆâ–€   â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–€ â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ    â–€â–€â–€â–ˆâ–„â–„ 
-  â–€â–€â–ˆâ–„â–„â–„    â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ    â–„â–ˆâ–€     â–ˆâ–ˆâ–€â–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€    â–„â–„â–„â–ˆâ–€â–€ 
-      â–€â–€â–€â–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–„â–„â–„â–„â–„  â–ˆâ–ˆ  â–€â–ˆâ–„   â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ  â–ˆâ–€â–€â–€     
-           â–€â–€    â–€â–€   â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€   â–€â–€â–€   â–€â–€â–€â–€ â–€â–€    â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€
-  Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ¦¦  ¦¦¯                       ¦¦                        ¦¦                     
+  ___¦  ¦¦_¦¦      _¦¦¦¦¦_  ¦¦¦¦¦¦¦¦  ¦¦ _¦¦¯    _¦¦¦¦¦_   _¦¦¦_¦¦   _¦¦¦¦_   ¦___     
+  __¦¯¯¯    ¦¦¦¦¦      ¯ ___¦¦      _¦¯   ¦¦_¦¦      ¯ ___¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦    ¯¯¯¦__ 
+  ¯¯¦___    ¦¦  ¦¦_   _¦¦¯¯¯¦¦    _¦¯     ¦¦¯¦¦_    _¦¦¯¯¯¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯    ___¦¯¯ 
+      ¯¯¯¦  ¦¦   ¦¦_  ¦¦___¦¦¦  _¦¦_____  ¦¦  ¯¦_   ¦¦___¦¦¦  ¯¦¦__¦¦¦  ¯¦¦____¦  ¦¯¯¯     
+           ¯¯    ¯¯   ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯  ¯¯   ¯¯¯   ¯¯¯¯ ¯¯    ¯¯¯ ¯¯    ¯¯¯¯¯
+  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
 -->
 
-# Diagnostics Dashboard â€” Live `egui` Monitoring
+# Diagnostics Dashboard — Live `egui` Monitoring
 
 The Kazkade diagnostics dashboard is an `egui`-based real-time monitoring UI that displays internal performance metrics, history, SQL query profiles, and schema information. It is built with `eframe` (native window) and can optionally be embedded into the installer's rasterizer view.
 
@@ -43,10 +43,10 @@ flowchart TD
 
 The default view shows four panels:
 
-- **FPS Chart** â€” a sparkline plotting framerate over the last 10 seconds. Sampled every frame via `std::time::Instant`.
-- **GEMM Bar Chart** â€” throughput in GFLOPS for each GEMM tile size tested by the auto-tuner. Updated whenever `kazkade bench --neural` runs.
-- **Auto-Tuner Panel** â€” lists the current tile configuration (AVX2 8Ã—8, AVXâ€‘512 16Ã—16, etc.) and the last benchmark latency.
-- **CPU / Memory Gauges** â€” realâ€‘time utilisation via `sysinfo` crate; updated at 1 Hz.
+- **FPS Chart** — a sparkline plotting framerate over the last 10 seconds. Sampled every frame via `std::time::Instant`.
+- **GEMM Bar Chart** — throughput in GFLOPS for each GEMM tile size tested by the auto-tuner. Updated whenever `kazkade bench --neural` runs.
+- **Auto-Tuner Panel** — lists the current tile configuration (AVX2 8×8, AVX-512 16×16, etc.) and the last benchmark latency.
+- **CPU / Memory Gauges** — real-time utilisation via `sysinfo` crate; updated at 1 Hz.
 
 ```rust
 // Each gauge is a simple egui `ProgressBar` styled as a gauge.
@@ -61,7 +61,7 @@ ui.add(
 
 The History tab reads the `.aioss` ledger (see `aioss-ledger.md`) and renders:
 
-- A timeline view (vertical scroll, leftâ€‘toâ€‘right) showing each record as a dot coloured by entry type. Clicking expands the record JSON.
+- A timeline view (vertical scroll, left-to-right) showing each record as a dot coloured by entry type. Clicking expands the record JSON.
 - A benchmark summary table: columns for timestamp, GEMM GFLOPS, scan bandwidth, rasterizer FPS. Sorted by time descending.
 
 History is persisted across sessions by appending a new record every 60 seconds or on explicit snapshot (triggered by the "Snapshot Now" button).
@@ -71,7 +71,7 @@ History is persisted across sessions by appending a new record every 60 seconds 
 Displays recent SQL queries executed through the `kazkade query` CLI or programmatic API. Each row shows:
 
 - Query text (truncated to 120 chars)
-- Duration (Âµs)
+- Duration (µs)
 - Rows scanned
 - Scan method (SIMD/scalar)
 
@@ -115,7 +115,7 @@ sequenceDiagram
 The dashboard's History tab depends on the `.aioss` ledger. When the dashboard starts, it calls `AiossLedger::open()` on the default ledger path (`~/.kazcade/ledger.aioss`). New snapshots are appended via `ledger.append(0x02, snapshot_json, &key)`. The user can export the ledger at any time as proof of benchmark integrity.
 
 ---
-*Lois-Kleinner & 0-1.gg 2026 â€” Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -126,7 +126,7 @@ The dashboard's History tab depends on the `.aioss` ledger. When the dashboard s
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -149,3 +149,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

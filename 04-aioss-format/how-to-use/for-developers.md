@@ -1,10 +1,10 @@
-ï»¿
-                        â–€â–€                                  
-            â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–ˆâ–ˆâ–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„  â–„â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„ 
-            â–€ â–„â–„â–„â–ˆâ–ˆ     â–ˆâ–ˆ     â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„ â–€  â–ˆâ–ˆâ–„â–„â–„â–„ â–€ 
-           â–„â–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆ     â–ˆâ–ˆ     â–ˆâ–ˆ    â–ˆâ–ˆ   â–€â–€â–€â–€â–ˆâ–ˆâ–„   â–€â–€â–€â–€â–ˆâ–ˆâ–„ 
-    â–ˆâ–ˆ     â–ˆâ–ˆâ–„â–„â–„â–ˆâ–ˆâ–ˆ  â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–ˆâ–„â–„â–„â–„â–„â–ˆâ–ˆ  â–ˆâ–„â–„â–„â–„â–„â–ˆâ–ˆ 
-    â–€â–€      â–€â–€â–€â–€ â–€â–€  â–€â–€â–€â–€â–€â–€â–€â–€    â–€â–€â–€â–€     â–€â–€â–€â–€â–€â–€    â–€â–€â–€â–€â–€â–€ 
+
+                        ¯¯                                  
+            _¦¦¦¦¦_   ¦¦¦¦      _¦¦¦¦_   __¦¦¦¦¦_  __¦¦¦¦¦_ 
+            ¯ ___¦¦     ¦¦     ¦¦¯  ¯¦¦  ¦¦____ ¯  ¦¦____ ¯ 
+           _¦¦¯¯¯¦¦     ¦¦     ¦¦    ¦¦   ¯¯¯¯¦¦_   ¯¯¯¯¦¦_ 
+    ¦¦     ¦¦___¦¦¦  ___¦¦___  ¯¦¦__¦¦¯  ¦_____¦¦  ¦_____¦¦ 
+    ¯¯      ¯¯¯¯ ¯¯  ¯¯¯¯¯¯¯¯    ¯¯¯¯     ¯¯¯¯¯¯    ¯¯¯¯¯¯ 
 
 # Developer's Guide to AIOSS
 
@@ -943,7 +943,7 @@ func main() {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -966,3 +966,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,15 +1,15 @@
-ï»¿â–„â–„                            â–ˆâ–ˆ     â–„â–„   â–„â–„â–„                  â–„â–„           
-â–ˆâ–ˆâ–ˆâ–ˆ                â–ˆâ–ˆ         â–€â–€     â–ˆâ–ˆ  â–ˆâ–ˆâ–€                   â–ˆâ–ˆ           
-â–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–„  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–ˆâ–„â–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„    â–„â–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆ   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–„  
-â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆâ–€   â–ˆâ–ˆ    â–ˆâ–ˆ         â–ˆâ–ˆ     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆ  â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆ 
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆ    â–ˆâ–ˆ         â–ˆâ–ˆ     â–ˆâ–ˆ  â–ˆâ–ˆâ–„   â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆâ–€â–€â–€â–€â–€â–€ 
-â–„â–ˆâ–ˆ  â–ˆâ–ˆâ–„  â–ˆâ–ˆ    â–ˆâ–ˆ    â–ˆâ–ˆâ–„â–„â–„   â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„  â–ˆâ–ˆ   â–ˆâ–ˆâ–„  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–€  â–€â–ˆâ–ˆâ–„â–„â–ˆâ–ˆâ–ˆ  â–€â–ˆâ–ˆâ–„â–„â–„â–„â–ˆ 
-â–€â–€    â–€â–€  â–€â–€    â–€â–€     â–€â–€â–€â–€   â–€â–€â–€â–€â–€â–€â–€â–€  â–€â–€    â–€â–€    â–€â–€â–€â–€      â–€â–€â–€ â–€â–€    â–€â–€â–€â–€â–€ 
+__                            ¦¦     __   ___                  __           
+¦¦¦¦                ¦¦         ¯¯     ¦¦  ¦¦¯                   ¦¦           
+¦¦¦¦    ¦¦_¦¦¦¦_  ¦¦¦¦¦¦¦    ¦¦¦¦     ¦¦_¦¦      _¦¦¦¦_    _¦¦¦_¦¦   _¦¦¦¦_  
+¦¦  ¦¦   ¦¦¯   ¦¦    ¦¦         ¦¦     ¦¦¦¦¦     ¦¦¯  ¯¦¦  ¦¦¯  ¯¦¦  ¦¦____¦¦ 
+¦¦¦¦¦¦   ¦¦    ¦¦    ¦¦         ¦¦     ¦¦  ¦¦_   ¦¦    ¦¦  ¦¦    ¦¦  ¦¦¯¯¯¯¯¯ 
+_¦¦  ¦¦_  ¦¦    ¦¦    ¦¦___   ___¦¦___  ¦¦   ¦¦_  ¯¦¦__¦¦¯  ¯¦¦__¦¦¦  ¯¦¦____¦ 
+¯¯    ¯¯  ¯¯    ¯¯     ¯¯¯¯   ¯¯¯¯¯¯¯¯  ¯¯    ¯¯    ¯¯¯¯      ¯¯¯ ¯¯    ¯¯¯¯¯ 
 
-ANTIKODE â€” terminal-native AI coding engine
+ANTIKODE — terminal-native AI coding engine
 Lois-Kleinner and 0-1.gg 2026 Copyright
 
-# 05 â€” MCP Troubleshooting: Connection Issues and Tool Discovery Problems
+# 05 — MCP Troubleshooting: Connection Issues and Tool Discovery Problems
 
 The Model Context Protocol (MCP) is the standard that ANTIKODE uses for tool discovery and invocation. MCP enables ANTIKODE agents to discover available tools, understand their parameters, and invoke them. This document covers common MCP issues and their solutions.
 
@@ -28,9 +28,9 @@ MCP supports multiple transport layers: stdio (communication via stdin/stdout fo
 Causes: MCP server process not running, wrong endpoint URL or port, network connectivity issue, firewall blocking the connection, transport protocol mismatch.
 
 Diagnosis:
-- ntikode mcp list â€” List configured MCP servers
-- ntikode mcp status <server> â€” Check specific server status
-- ntikode mcp test <server> â€” Test connection to server
+- ntikode mcp list — List configured MCP servers
+- ntikode mcp status <server> — Check specific server status
+- ntikode mcp test <server> — Test connection to server
 - Check network connectivity: curl http://mcp-server:port/health
 
 Solutions:
@@ -68,9 +68,9 @@ etstat -an | findstr <port>
 Causes: MCP server not initialized, tool discovery not completed, server returned empty tool list, server crashed during discovery, tool registration failed on server side.
 
 Diagnosis:
-- ntikode tools list â€”all â€” Show all tools including pending discovery
-- ntikode mcp discover <server> â€” Force tool re-discovery
-- ntikode mcp debug <server> â€” Show MCP protocol messages
+- ntikode tools list —all — Show all tools including pending discovery
+- ntikode mcp discover <server> — Force tool re-discovery
+- ntikode mcp debug <server> — Show MCP protocol messages
 
 Solutions:
 - Wait for tool discovery to complete: ntikode mcp wait <server>
@@ -116,9 +116,9 @@ Solutions:
 Causes: Invalid parameters, missing required fields, server-side execution error, resource not available, authentication failure.
 
 Diagnosis:
-- ntikode session query â€”latest â€”type tool_call â€”format json â€” See exact parameters sent
-- ntikode session query â€”latest â€”type tool_result â€”format json â€” See exact error returned
-- ntikode mcp debug <server> â€”tool my-tool â€” Debug specific tool call
+- ntikode session query —latest —type tool_call —format json — See exact parameters sent
+- ntikode session query —latest —type tool_result —format json — See exact error returned
+- ntikode mcp debug <server> —tool my-tool — Debug specific tool call
 
 Solutions:
 - Validate parameters against tool schema
@@ -265,25 +265,25 @@ antikode mcp call local-tools example/greet --param name=World
 
 ## 5.7 Common MCP Error Codes
 
-### MCP-ERR-001 â€” Invalid Initialize
+### MCP-ERR-001 — Invalid Initialize
 Server returned invalid initialize response. Check protocol version compatibility.
 
-### MCP-ERR-002 â€” Method Not Found
+### MCP-ERR-002 — Method Not Found
 Requested method not supported by server. Check server capabilities.
 
-### MCP-ERR-003 â€” Invalid Parameters
+### MCP-ERR-003 — Invalid Parameters
 Tool parameters failed validation. Check parameter types and required fields.
 
-### MCP-ERR-004 â€” Internal Error
+### MCP-ERR-004 — Internal Error
 Server-side error. Check server logs for details.
 
-### MCP-ERR-005 â€” Resource Not Found
+### MCP-ERR-005 — Resource Not Found
 Requested tool or resource does not exist on server. Check tool name.
 
-### MCP-ERR-006 â€” Authentication Failed
+### MCP-ERR-006 — Authentication Failed
 Server rejected authentication. Check credentials and token validity.
 
-### MCP-ERR-007 â€” Rate Limited
+### MCP-ERR-007 — Rate Limited
 Server is rate limiting requests. Reduce request frequency.
 
 ## 5.8 MCP Troubleshooting Flowchart
@@ -350,8 +350,8 @@ Common issues:
 ## 5.11 Getting Help with MCP
 
 If MCP issues persist:
-1. Run ntikode mcp diagnose â€”full
-2. Share MCP debug logs: ntikode logs â€”mcp â€”output mcp-debug.log
+1. Run ntikode mcp diagnose —full
+2. Share MCP debug logs: ntikode logs —mcp —output mcp-debug.log
 3. Include server configuration (redact tokens)
 4. Post in #mcp channel on Matrix with error details
 
@@ -366,7 +366,7 @@ For MCP specification details, visit modelcontextprotocol.io. For ANTIKODE-speci
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -389,3 +389,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

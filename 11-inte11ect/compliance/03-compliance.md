@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — COMPLIANCE DOCUMENTATION          ║
-║                   03 — GDPR ARTICLE MAPPING                      ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � COMPLIANCE DOCUMENTATION          �
+�                   03 � GDPR ARTICLE MAPPING                      �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -45,13 +45,13 @@ Inte11ect qualifies as both a **data processor** (processing user data through A
 
 | Principle | Article | Implementation | Status |
 |-----------|---------|---------------|--------|
-| Lawfulness, fairness, transparency | 5(1)(a) | Privacy policy, consent management | ✓ |
-| Purpose limitation | 5(1)(b) | Configuration-controlled processing | ✓ |
-| Data minimisation | 5(1)(c) | Configurable retention, minimal logging | ✓ |
-| Accuracy | 5(1)(d) | Ledger-based audit trail | ✓ |
-| Storage limitation | 5(1)(e) | Configurable data retention | ✓ |
-| Integrity & confidentiality | 5(1)(f) | .aioss ledger, Ed25519 proofs, encryption | ✓ |
-| Accountability | 5(2) | Automated compliance monitoring | ✓ |
+| Lawfulness, fairness, transparency | 5(1)(a) | Privacy policy, consent management | ? |
+| Purpose limitation | 5(1)(b) | Configuration-controlled processing | ? |
+| Data minimisation | 5(1)(c) | Configurable retention, minimal logging | ? |
+| Accuracy | 5(1)(d) | Ledger-based audit trail | ? |
+| Storage limitation | 5(1)(e) | Configurable data retention | ? |
+| Integrity & confidentiality | 5(1)(f) | .aioss ledger, Ed25519 proofs, encryption | ? |
+| Accountability | 5(2) | Automated compliance monitoring | ? |
 
 ### Technical Implementation
 
@@ -712,7 +712,7 @@ dpia_schedule:
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -723,7 +723,7 @@ dpia_schedule:
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -746,3 +746,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,4 +1,4 @@
-ï»¿<!-- ASCII Art for Eso-11 -->
+<!-- ASCII Art for Eso-11 -->
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-# research - Document 08 â€” Domain-Specific AI Personas
+# research - Document 08 — Domain-Specific AI Personas
 
 > **Associated Module:** Eso-11
 > **Category:** Research & Development
@@ -16,7 +16,7 @@
 
 ## Abstract
 
-This document presents the design, implementation, and evaluation of domain-specific AI personas within the Inte11ect platform's 72-module architecture. Each persona is implemented as a distinct module with an isolated system prompt, configuration context, and behavioral constraints. We demonstrate that system prompt isolation across 72 modules prevents context leakage, enables fine-grained persona specialization, and supports dynamic persona switching without model reloading. Empirical evaluation across 24 domain-specific tasks shows that persona-isolated modules outperform monolithic multi-persona systems by 22.7% on task-specific accuracy while reducing hallucination rates by 3.4Ã—. The modular personality architecture achieves a persona switching latency of 8.2ms and supports simultaneous activation of up to 8 personas within a single inference trace.
+This document presents the design, implementation, and evaluation of domain-specific AI personas within the Inte11ect platform's 72-module architecture. Each persona is implemented as a distinct module with an isolated system prompt, configuration context, and behavioral constraints. We demonstrate that system prompt isolation across 72 modules prevents context leakage, enables fine-grained persona specialization, and supports dynamic persona switching without model reloading. Empirical evaluation across 24 domain-specific tasks shows that persona-isolated modules outperform monolithic multi-persona systems by 22.7% on task-specific accuracy while reducing hallucination rates by 3.4×. The modular personality architecture achieves a persona switching latency of 8.2ms and supports simultaneous activation of up to 8 personas within a single inference trace.
 
 ## 1. Introduction
 
@@ -428,12 +428,12 @@ flowchart TD
 
 | Domain | Monolithic Hallucination | Persona Hallucination | Reduction |
 |---|---|---|---|
-| Software Engineering | 8.5% | 2.1% | 4.0Ã— |
-| Healthcare | 12.3% | 1.8% | 6.8Ã— |
-| Legal | 11.2% | 1.5% | 7.5Ã— |
-| Finance | 10.8% | 2.3% | 4.7Ã— |
-| Creative Writing | 15.2% | 8.5% | 1.8Ã— |
-| Academic Research | 9.5% | 2.8% | 3.4Ã— |
+| Software Engineering | 8.5% | 2.1% | 4.0× |
+| Healthcare | 12.3% | 1.8% | 6.8× |
+| Legal | 11.2% | 1.5% | 7.5× |
+| Finance | 10.8% | 2.3% | 4.7× |
+| Creative Writing | 15.2% | 8.5% | 1.8× |
+| Academic Research | 9.5% | 2.8% | 3.4× |
 
 ### 5.3 Persona Switching Latency
 
@@ -611,7 +611,7 @@ class ComplianceValidator:
 
 ## 8. Conclusion
 
-The Inte11ect platform's domain-specific AI persona architecture demonstrates that specialized, isolated modules significantly outperform monolithic approaches for domain-specific tasks. The 72-module system with isolated system prompts achieves 22.7% higher task-specific accuracy and 3.4Ã— lower hallucination rates compared to monolithic multi-persona systems. The 8.2ms persona switching latency enables fluid, dynamic persona composition within single inference traces, while the security isolation mechanisms prevent cross-persona attacks and context leakage. The modular architecture's support for up to 8 concurrent personas within a single inference provides a foundation for sophisticated multi-perspective reasoning that is essential for complex, cross-domain problem solving.
+The Inte11ect platform's domain-specific AI persona architecture demonstrates that specialized, isolated modules significantly outperform monolithic approaches for domain-specific tasks. The 72-module system with isolated system prompts achieves 22.7% higher task-specific accuracy and 3.4× lower hallucination rates compared to monolithic multi-persona systems. The 8.2ms persona switching latency enables fluid, dynamic persona composition within single inference traces, while the security isolation mechanisms prevent cross-persona attacks and context leakage. The modular architecture's support for up to 8 concurrent personas within a single inference provides a foundation for sophisticated multi-perspective reasoning that is essential for complex, cross-domain problem solving.
 
 ---
 
@@ -641,7 +641,7 @@ The Inte11ect platform's domain-specific AI persona architecture demonstrates th
 
 12. Floridi, L., & Chiriatti, M. (2020). GPT-3: Its Nature, Scope, Limits, and Consequences. *Minds and Machines*, 30(4), 681-694.
 
-13. Ganguli, D., Askell, A., Schiefer, N., Liao, T. I., LukoÅ¡iÅ«tÄ—, K., Chen, A., ... & Clark, J. (2023). The Capacity for Moral Self-Correction in Large Language Models. *arXiv preprint arXiv:2302.07459*.
+13. Ganguli, D., Askell, A., Schiefer, N., Liao, T. I., Lukošiute, K., Chen, A., ... & Clark, J. (2023). The Capacity for Moral Self-Correction in Large Language Models. *arXiv preprint arXiv:2302.07459*.
 
 14. Gehman, S., Gururangan, S., Sap, M., Choi, Y., & Smith, N. A. (2020). RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models. *Findings of the Association for Computational Linguistics: EMNLP 2020*, 3356-3369.
 
@@ -679,7 +679,7 @@ The Inte11ect platform's domain-specific AI persona architecture demonstrates th
 
 31. Sanh, V., Webson, A., Raffel, C., Bach, S. H., Sutawika, L., Alyafeai, Z., ... & Rush, A. M. (2022). Multitask Prompted Training Enables Zero-Shot Task Generalization. *International Conference on Learning Representations*.
 
-32. Shridhar, M., Yuan, X., CÃ´tÃ©, M. A., Bisk, Y., Trischler, A., & Hausknecht, M. (2023). ALFWorld: Aligning Text and Embodied Environments for Interactive Learning. *International Conference on Learning Representations*.
+32. Shridhar, M., Yuan, X., Côté, M. A., Bisk, Y., Trischler, A., & Hausknecht, M. (2023). ALFWorld: Aligning Text and Embodied Environments for Interactive Learning. *International Conference on Learning Representations*.
 
 33. Thoppilan, R., De Freitas, D., Hall, J., Shazeer, N., Kulshreshtha, A., Cheng, H. T., ... & Le, Q. (2022). LaMDA: Language Models for Dialog Applications. *arXiv preprint arXiv:2201.08239*.
 
@@ -701,7 +701,7 @@ The Inte11ect platform's domain-specific AI persona architecture demonstrates th
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -724,3 +724,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,4 +1,4 @@
-﻿# Backup and Restore
+# Backup and Restore
 
 This guide covers backing up your 01s Sovereign system, including data, ledger state, and system configuration.
 
@@ -449,16 +449,16 @@ cp -r backup/ledger/ ~/
 
 ## Further Reading
 
-- [Post-Installation Setup](07-post-installation-setup.md) â€” Initial setup
-- [Using 01s-Ledger](10-using-01s-ledger.md) â€” Ledger verification
-- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) â€” Data protection
-- [Backup Strategies](../incident-reporting/03-backup-strategies.md) â€” Strategy docs
-- [Disaster Recovery](../incident-reporting/02-disaster-recovery-overview.md) â€” Recovery plans
-- [Ledger Recovery](../incident-reporting/05-ledger-recovery.md) â€” Ledger restoration
-- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) â€” Boot failure
-- [Enterprise Backup](../enterprise/06-licensing-and-subscription.md) â€” Enterprise plans
-- [System Restore](../incident-reporting/04-system-restore-procedures.md) â€” Restore procedures
-- [Backup FAQ](../faq/06-security-faq.md) â€” Common questions
+- [Post-Installation Setup](07-post-installation-setup.md) — Initial setup
+- [Using 01s-Ledger](10-using-01s-ledger.md) — Ledger verification
+- [Data Safety Overview](../data-safety/01-overview-of-data-safety-in-01s.md) — Data protection
+- [Backup Strategies](../incident-reporting/03-backup-strategies.md) — Strategy docs
+- [Disaster Recovery](../incident-reporting/02-disaster-recovery-overview.md) — Recovery plans
+- [Ledger Recovery](../incident-reporting/05-ledger-recovery.md) — Ledger restoration
+- [Boot Troubleshooting](../help/02-boot-troubleshooting.md) — Boot failure
+- [Enterprise Backup](../enterprise/06-licensing-and-subscription.md) — Enterprise plans
+- [System Restore](../incident-reporting/04-system-restore-procedures.md) — Restore procedures
+- [Backup FAQ](../faq/06-security-faq.md) — Common questions
 
 ## 3-2-1 Backup Script
 
@@ -665,7 +665,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -688,3 +688,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

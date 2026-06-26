@@ -1,4 +1,4 @@
-﻿# Hash Chain Integrity Verification: Data Structures and Protocols for Verifiable Computing in the 01s Sovereign OS
+# Hash Chain Integrity Verification: Data Structures and Protocols for Verifiable Computing in the 01s Sovereign OS
 
 ## Abstract
 
@@ -12,7 +12,7 @@ The ability to verify the integrity of data structures is fundamental to trustwo
 
 ### 1.1 The Verification Problem
 
-In any computing system, data integrity can be compromised through accidental corruption (hardware faults, software bugs), malicious tampering (attacks, malware), or administrative error. Traditional integrity verification approaches â€” checksums, parity bits, error-correcting codes â€” detect or correct accidental corruption but provide no protection against determined adversaries. Cryptographic hash functions, combined with chain structures, provide the mathematical foundation for tamper-evident storage: any modification is detectable with cryptographic certainty.
+In any computing system, data integrity can be compromised through accidental corruption (hardware faults, software bugs), malicious tampering (attacks, malware), or administrative error. Traditional integrity verification approaches — checksums, parity bits, error-correcting codes — detect or correct accidental corruption but provide no protection against determined adversaries. Cryptographic hash functions, combined with chain structures, provide the mathematical foundation for tamper-evident storage: any modification is detectable with cryptographic certainty.
 
 ### 1.2 Contributions
 
@@ -29,8 +29,8 @@ This paper provides:
 
 A cryptographic hash function H satisfies:
 1. **Preimage resistance**: Given h, it is computationally infeasible to find any d such that H(d) = h
-2. **Second preimage resistance**: Given dâ‚, it is computationally infeasible to find dâ‚‚ â‰  dâ‚ such that H(dâ‚‚) = H(dâ‚)
-3. **Collision resistance**: It is computationally infeasible to find any dâ‚ â‰  dâ‚‚ such that H(dâ‚) = H(dâ‚‚)
+2. **Second preimage resistance**: Given d₁, it is computationally infeasible to find d₂ ≠ d₁ such that H(d₂) = H(d₁)
+3. **Collision resistance**: It is computationally infeasible to find any d₁ ≠ d₂ such that H(d₁) = H(d₂)
 
 ### 2.2 SHA3-256
 
@@ -56,11 +56,11 @@ The 01s Sovereign OS uses SHA3-256, standardized as FIPS 202 (NIST 2015). SHA3 i
 
 A linear hash chain is defined recursively:
 ```
-hâ‚€ = H(eâ‚€)
-háµ¢ = H(eáµ¢ || háµ¢â‚‹â‚) for i > 0
+h₀ = H(e₀)
+hᵢ = H(eᵢ || hᵢ₋₁) for i > 0
 ```
 Where || denotes concatenation. The chain provides:
-- **Integrity**: Modifying any eáµ¢ changes háµ¢, breaking all subsequent links
+- **Integrity**: Modifying any eᵢ changes hᵢ, breaking all subsequent links
 - **Ordering**: The parent hash binds each entry to its predecessor
 - **Append-only guarantee**: Insertion between entries is impossible without detection
 
@@ -115,7 +115,7 @@ The system maintains three hash chains with different purposes and characteristi
 
 ### 6.3 Verification Performance
 
-Benchmark testing on reference hardware (Intel Core i7-12700H) shows approximately 2.5 Î¼s per entry for hash computation, 30 ms for full verification of 10,000 entries, and 0.3 ms for incremental verification of 100 new entries. SHA-NI hardware acceleration provides approximately 4x speedup for hash computation.
+Benchmark testing on reference hardware (Intel Core i7-12700H) shows approximately 2.5 μs per entry for hash computation, 30 ms for full verification of 10,000 entries, and 0.3 ms for incremental verification of 100 new entries. SHA-NI hardware acceleration provides approximately 4x speedup for hash computation.
 
 ## 7. Formal Verification of Hash Chain Integrity
 
@@ -147,7 +147,7 @@ Bernstein, Daniel J. "The Salsa20 Family of Stream Ciphers." New Stream Cipher D
 Bertoni, Guido, et al. "Keccak." Advances in Cryptology - EUROCRYPT 2013, Springer, 2013, pp. 313-314.
 Bertoni, Guido, et al. "The Keccak Reference." 2011.
 Crosby, Scott A., and Dan S. Wallach. "Efficient Data Structures for Tamper-Evident Logging." 18th USENIX Security Symposium, 2009, pp. 17-32.
-DamgÃ¥rd, Ivan. "A Design Principle for Hash Functions." Advances in Cryptology - CRYPTO 1989, Springer, 1989, pp. 416-427.
+Damgård, Ivan. "A Design Principle for Hash Functions." Advances in Cryptology - CRYPTO 1989, Springer, 1989, pp. 416-427.
 Dwork, Cynthia, et al. "The Bitcoin Backbone Protocol: Analysis and Applications." EUROCRYPT 2014, Springer, 2014, pp. 281-310.
 Haber, Stuart, and W. Scott Stornetta. "How to Time-Stamp a Digital Document." Journal of Cryptology, vol. 3, no. 2, 1991, pp. 99-111.
 Kelsey, John, and Bruce Schneier. "Secure Audit Logs." Information Systems Security, 1999.
@@ -251,10 +251,10 @@ Deploying cryptographic audit at the OS level requires:
 5. Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." CRYPTO, 1992.
 6. Ferguson, Niels, et al. Cryptography Engineering. Wiley, 2010.
 7. Goodman, Seymour, and Herbert Lin. "Software Transparency." Communications of the ACM, vol. 65, no. 3, 2022, pp. 40-42.
-8. Johansen, Håvard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
+8. Johansen, H�vard, et al. "Hardware-Assisted Integrity Monitoring." IEEE S&P, 2021.
 9. Kelsey, John, et al. "Cryptographic Standards in the Post-Quantum Era." NIST IR 8413, 2022.
 10. Lamport, Leslie. "The Part-Time Parliament." ACM Transactions on Computer Systems, vol. 16, no. 2, 1998, pp. 133-169.
-11. Maillet, Sébastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
+11. Maillet, S�bastien, et al. "Transparent Logging for Compliance." USENIX Security, 2020.
 12. Paar, Christof, and Jan Pelzl. Understanding Cryptography. Springer, 2010.
 13. Rescorla, Eric. SSL and TLS: Designing and Building Secure Systems. Addison-Wesley, 2001.
 14. Schneier, Bruce. "Security in the Age of AI." Schneier on Security, 2023.
@@ -337,7 +337,7 @@ This analysis demonstrates that the cryptographic audit infrastructure in 01s So
 9. Stallings, William. Cryptography and Network Security: Principles and Practice. 7th ed., Pearson, 2017.
 10. Goldreich, Oded. Foundations of Cryptography: Basic Tools. Cambridge University Press, 2001.
 11. Cramer, Ronald, et al. "Design and Analysis of Cryptographic Protocols." Springer, 2020.
-12. Damgård, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
+12. Damg�rd, Ivan. "Commitment Schemes and Zero-Knowledge Protocols." CRYPTO, 2019.
 13. Dziembowski, Stefan, et al. "Introduction to Modern Cryptography." University of Warsaw, 2021.
 14. Gentry, Craig. "A Fully Homomorphic Encryption Scheme." Stanford PhD Thesis, 2009.
 15. Bellare, Mihir, and Phillip Rogaway. "Introduction to Modern Cryptography." UCSD, 2005.
@@ -374,9 +374,9 @@ Hash chain integrity verification is a practical and cost-effective mechanism fo
 
 ## Additional References
 
-16. Coron, Jean-SÃ©bastien, et al. "Merkle Tree Propagation in Distributed Systems." ACM CCS, 2019.
+16. Coron, Jean-Sébastien, et al. "Merkle Tree Propagation in Distributed Systems." ACM CCS, 2019.
 17. Bellare, Mihir, and Daniele Micciancio. "A New Paradigm for Collision-Free Hashing." EUROCRYPT, 1997.
-18. DamgÃ¥rd, Ivan. "A Design Principle for Hash Functions." CRYPTO, 1989.
+18. Damgård, Ivan. "A Design Principle for Hash Functions." CRYPTO, 1989.
 19. Maurer, Ueli. "Abstract Models of Computation in Cryptography." Springer, 2018.
 20. Rogaway, Phillip. "Formalizing Human Ignorance in Cryptography." VIETCRYPT, 2006.
 
@@ -388,7 +388,7 @@ This research employed a multi-method approach combining: (1) a systematic liter
 The literature review followed PRISMA guidelines. Database searches were conducted on ACM Digital Library, IEEE Xplore, USENIX, IACR ePrint, arXiv, and Google Scholar using query strings combining topic-specific terms (e.g., "hash chain integrity," "tamper-evident logging") with "operating system," "audit," and "transparency." Initial searches yielded 847 unique results. After title/abstract screening, 312 papers proceeded to full-text review. A final corpus of 89 papers were included in the synthesis based on relevance to desktop OS auditability.
 
 ### Empirical Measurement Methodology
-All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with Â±2% accuracy, sampled every second over a 30-minute measurement period.
+All performance measurements were conducted using standardized benchmarks repeated 10 times with outliers (exceeding 2 standard deviations from the mean) excluded. Means and standard deviations are reported. The test machine was configured with default 01s Sovereign installation parameters unless otherwise specified. Power measurements used a P3 P4400 Kill-A-Watt meter with ±2% accuracy, sampled every second over a 30-minute measurement period.
 
 ## Comparison with Related Work
 
@@ -577,7 +577,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -600,3 +600,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

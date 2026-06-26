@@ -1,9 +1,9 @@
-﻿╔══════════════════════════════════════════════════════════════════╗
-║                   INTE11ECT — COMPLIANCE DOCUMENTATION          ║
-║                   01 — FRAMEWORK COVERAGE                        ║
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�                   INTE11ECT � COMPLIANCE DOCUMENTATION          �
+�                   01 � FRAMEWORK COVERAGE                        �
++------------------------------------------------------------------+
 
-Copyright © 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
+Copyright � 2026 Lois-Kleinner and 0-1.gg. All rights reserved.
 
 ---
 
@@ -127,44 +127,44 @@ graph TB
 
 | Control ID | Description | SOC2 | GDPR | HIPAA | ISO27K | Status |
 |------------|-------------|------|------|-------|--------|--------|
-| SEC-01 | Access Control Policy | ✓ | ✓ | ✓ | A.9 | Built-in |
-| SEC-02 | Authentication (MFA) | ✓ | ✓ | ✓ | A.9.4 | Built-in |
-| SEC-03 | Authorization (RBAC) | ✓ | ✓ | ✓ | A.9.2 | Built-in |
-| SEC-04 | Encryption at Rest | ✓ | ✓ | ✓ | A.10 | Built-in |
-| SEC-05 | Encryption in Transit | ✓ | ✓ | ✓ | A.13 | Built-in |
-| SEC-06 | Key Management | ✓ | ✓ | ✓ | A.10 | Built-in |
-| SEC-07 | Vulnerability Management | ✓ | ✓ | ✓ | A.12 | Configurable |
-| SEC-08 | Malware Protection | ✓ | ✓ | ✓ | A.12 | External |
-| SEC-09 | Network Security | ✓ | ✓ | ✓ | A.13 | Configurable |
-| SEC-10 | Incident Response | ✓ | ✓ | ✓ | A.16 | Configurable |
+| SEC-01 | Access Control Policy | ? | ? | ? | A.9 | Built-in |
+| SEC-02 | Authentication (MFA) | ? | ? | ? | A.9.4 | Built-in |
+| SEC-03 | Authorization (RBAC) | ? | ? | ? | A.9.2 | Built-in |
+| SEC-04 | Encryption at Rest | ? | ? | ? | A.10 | Built-in |
+| SEC-05 | Encryption in Transit | ? | ? | ? | A.13 | Built-in |
+| SEC-06 | Key Management | ? | ? | ? | A.10 | Built-in |
+| SEC-07 | Vulnerability Management | ? | ? | ? | A.12 | Configurable |
+| SEC-08 | Malware Protection | ? | ? | ? | A.12 | External |
+| SEC-09 | Network Security | ? | ? | ? | A.13 | Configurable |
+| SEC-10 | Incident Response | ? | ? | ? | A.16 | Configurable |
 
 ### Audit Controls (Ledger-Based)
 
 | Control ID | Description | SOC2 | GDPR | HIPAA | EU AI | Built-in |
 |------------|-------------|------|------|-------|-------|----------|
-| AUD-01 | Audit Logging (.aioss) | ✓ | ✓ | ✓ | ✓ | Built-in |
-| AUD-02 | Log Integrity | ✓ | ✓ | ✓ | ✓ | Built-in |
-| AUD-03 | Log Retention | ✓ | ✓ | ✓ | ✓ | Configurable |
-| AUD-04 | Tamper Detection | ✓ | ✓ | ✓ | ✓ | Built-in |
-| AUD-05 | Chain of Custody | ✓ | ✓ | ✓ | ✓ | Built-in |
-| AUD-06 | User Activity Tracking | ✓ | ✓ | ✓ | — | Built-in |
-| AUD-07 | System Event Logging | ✓ | ✓ | ✓ | ✓ | Built-in |
-| AUD-08 | Audit Review Process | ✓ | ✓ | ✓ | ✓ | Configurable |
+| AUD-01 | Audit Logging (.aioss) | ? | ? | ? | ? | Built-in |
+| AUD-02 | Log Integrity | ? | ? | ? | ? | Built-in |
+| AUD-03 | Log Retention | ? | ? | ? | ? | Configurable |
+| AUD-04 | Tamper Detection | ? | ? | ? | ? | Built-in |
+| AUD-05 | Chain of Custody | ? | ? | ? | ? | Built-in |
+| AUD-06 | User Activity Tracking | ? | ? | ? | � | Built-in |
+| AUD-07 | System Event Logging | ? | ? | ? | ? | Built-in |
+| AUD-08 | Audit Review Process | ? | ? | ? | ? | Configurable |
 
 ### AI-Specific Controls (EU AI Act, UAE AI Act)
 
 | Control ID | Description | EU AI | UAE AI | Status |
 |------------|-------------|-------|--------|--------|
-| AI-01 | Risk Classification | ✓ | ✓ | Built-in |
-| AI-02 | Transparency Requirements | ✓ | ✓ | Built-in |
-| AI-03 | Human Oversight | ✓ | ✓ | Built-in |
-| AI-04 | Accuracy & Robustness | ✓ | ✓ | Built-in |
-| AI-05 | Bias Monitoring | ✓ | ✓ | Configurable |
-| AI-06 | Explainability | ✓ | ✓ | Built-in |
-| AI-07 | Data Governance | ✓ | ✓ | Built-in |
-| AI-08 | Incident Reporting | ✓ | ✓ | Configurable |
-| AI-09 | Conformity Assessment | ✓ | — | External |
-| AI-10 | Registration | ✓ | ✓ | External |
+| AI-01 | Risk Classification | ? | ? | Built-in |
+| AI-02 | Transparency Requirements | ? | ? | Built-in |
+| AI-03 | Human Oversight | ? | ? | Built-in |
+| AI-04 | Accuracy & Robustness | ? | ? | Built-in |
+| AI-05 | Bias Monitoring | ? | ? | Configurable |
+| AI-06 | Explainability | ? | ? | Built-in |
+| AI-07 | Data Governance | ? | ? | Built-in |
+| AI-08 | Incident Reporting | ? | ? | Configurable |
+| AI-09 | Conformity Assessment | ? | � | External |
+| AI-10 | Registration | ? | ? | External |
 
 ---
 
@@ -607,7 +607,7 @@ jobs:
         with:
           payload: |
             {
-              "text": "⚠️ Daily compliance check FAILED",
+              "text": "?? Daily compliance check FAILED",
               "attachments": [{
                 "title": "View Report",
                 "title_link": "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
@@ -694,7 +694,7 @@ impl VendorRiskManager {
 
 ---
 
-*Lois-Kleinner and 0-1.gg 2026 — Confidential*
+*Lois-Kleinner and 0-1.gg 2026 � Confidential*
 
 ```
 .====================================================================.
@@ -705,7 +705,7 @@ impl VendorRiskManager {
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -728,3 +728,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Hardware Agnosticism
@@ -15,46 +15,46 @@
 
 Most performance-critical software requires platform-specific builds, separate binaries for x86 vs ARM, different packages for different CPU generations. Kazkade eliminates this entirely. **A single binary automatically detects and optimizes for the host CPU at runtime.**
 
-> "Write once, deploy everywhere. The binary figures out the rest." — Kazkade Deployment Philosophy
+> "Write once, deploy everywhere. The binary figures out the rest." � Kazkade Deployment Philosophy
 
 ---
 
 ## The Runtime Dispatch Engine
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                    Kazkade Runtime Dispatch                    │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  Single Binary                                               │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ kazkade (x86_64 + ARM64 + all SIMD paths in one binary)│ │
-│  └──────────────────────────┬─────────────────────────────┘ │
-│                             │                                 │
-│  CPU Feature Detection                                      │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ CPUID (x86) │ /proc/cpuinfo │ getauxval(AT_HWCAP)      │ │
-│  │→ Feature bitmask cached at process start               │ │
-│  └──────────────────────────┬─────────────────────────────┘ │
-│                             │                                 │
-│  Dispatch Decision                                           │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ AVX-512?  ──► AVX-512 kernels                          │ │
-│  │ AVX2?     ──► AVX2 kernels                             │ │
-│  │ NEON?     ──► NEON kernels                             │ │
-│  │ SVE?      ──► SVE kernels                              │ │
-│  │ SSE4.2?   ──► SSE4.2 kernels                           │ │
-│  │ None      ──► Portable scalar fallback                  │ │
-│  └──────────────────────────┬─────────────────────────────┘ │
-│                             │                                 │
-│  JIT-Like Optimization                                      │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ First call: detect + populate dispatch table            │ │
-│  │ Subsequent calls: direct function pointer dispatch     │ │
-│  │ Overhead: ~2ns (one indirect call)                     │ │
-│  └────────────────────────────────────────────────────────┘ │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
++--------------------------------------------------------------+
+�                    Kazkade Runtime Dispatch                    �
++--------------------------------------------------------------�
+�                                                              �
+�  Single Binary                                               �
+�  +--------------------------------------------------------+ �
+�  � kazkade (x86_64 + ARM64 + all SIMD paths in one binary)� �
+�  +--------------------------------------------------------+ �
+�                             �                                 �
+�  CPU Feature Detection                                      �
+�  +--------------------------------------------------------+ �
+�  � CPUID (x86) � /proc/cpuinfo � getauxval(AT_HWCAP)      � �
+�  �? Feature bitmask cached at process start               � �
+�  +--------------------------------------------------------+ �
+�                             �                                 �
+�  Dispatch Decision                                           �
+�  +--------------------------------------------------------+ �
+�  � AVX-512?  --? AVX-512 kernels                          � �
+�  � AVX2?     --? AVX2 kernels                             � �
+�  � NEON?     --? NEON kernels                             � �
+�  � SVE?      --? SVE kernels                              � �
+�  � SSE4.2?   --? SSE4.2 kernels                           � �
+�  � None      --? Portable scalar fallback                  � �
+�  +--------------------------------------------------------+ �
+�                             �                                 �
+�  JIT-Like Optimization                                      �
+�  +--------------------------------------------------------+ �
+�  � First call: detect + populate dispatch table            � �
+�  � Subsequent calls: direct function pointer dispatch     � �
+�  � Overhead: ~2ns (one indirect call)                     � �
+�  +--------------------------------------------------------+ �
+�                                                              �
++--------------------------------------------------------------+
 ```
 
 ---
@@ -63,22 +63,22 @@ Most performance-critical software requires platform-specific builds, separate b
 
 ```
 Kazkade Single Binary Support
-═══════════════════════════════════════════════════════════════
+---------------------------------------------------------------
 
-Architecture     │ SIMD         │ Status │ Notes
-─────────────────┼──────────────┼────────┼─────────────────────
-x86_64           │ SSE4.2+      │ Full   │ Primary target
-x86_64           │ AVX2+FMA3    │ Full   │ Haswell+
-x86_64           │ AVX-512(F)   │ Full   │ Skylake Xeon+
-x86_64           │ AVX-512 VNNI │ Full   │ Ice Lake+
-x86_64           │ AVX-10.1     │ Beta   │ Future
-aarch64          │ NEON         │ Full   │ ARMv8+
-aarch64          │ SVE 128      │ Full   │ Graviton 3+
-aarch64          │ SVE 256      │ Full   │ Graviton 3E+
-aarch64          │ SVE 512      │ Full   │ Future
-aarch64          │ SVE2         │ Beta   │ ARMv9+
-riscv64gc        │ V extension  │ Plan   │ Future
-─────────────────┴──────────────┴────────┴─────────────────────
+Architecture     � SIMD         � Status � Notes
+-----------------+--------------+--------+---------------------
+x86_64           � SSE4.2+      � Full   � Primary target
+x86_64           � AVX2+FMA3    � Full   � Haswell+
+x86_64           � AVX-512(F)   � Full   � Skylake Xeon+
+x86_64           � AVX-512 VNNI � Full   � Ice Lake+
+x86_64           � AVX-10.1     � Beta   � Future
+aarch64          � NEON         � Full   � ARMv8+
+aarch64          � SVE 128      � Full   � Graviton 3+
+aarch64          � SVE 256      � Full   � Graviton 3E+
+aarch64          � SVE 512      � Full   � Future
+aarch64          � SVE2         � Beta   � ARMv9+
+riscv64gc        � V extension  � Plan   � Future
+---------------------------------------------------------------
 ```
 
 ---
@@ -121,8 +121,8 @@ GFLOPS: 68.4
 
 | Scenario | Competing Software | Kazkade |
 |----------|-------------------|---------|
-| x86 → ARM migration | Different binary | Same binary |
-| Old → new CPU gen | Rebuild for new features | Same binary |
+| x86 ? ARM migration | Different binary | Same binary |
+| Old ? new CPU gen | Rebuild for new features | Same binary |
 | Container cross-platform | Multi-arch images | Single image |
 | CI/test different CPUs | Build matrix | Same binary |
 | Embedded deployment | Cross-compile | Same binary |
@@ -152,20 +152,20 @@ $ ls -lh target/release/kazcade
 
 $ kazkade inspect --binary-contents
 Binary Contents:
-┌─────────────────────┬──────────┐
-│ Component           │ Size     │
-├─────────────────────┼──────────┤
-│ Common runtime      │ 12 MB    │
-│ x86 SSE4.2 kernels  │ 4 MB     │
-│ x86 AVX2 kernels    │ 6 MB     │
-│ x86 AVX-512 kernels │ 8 MB     │
-│ ARM NEON kernels    │ 5 MB     │
-│ ARM SVE kernels     │ 4 MB     │
-│ Fallback scalar     │ 1 MB     │
-│ Data / metadata     │ 2 MB     │
-├─────────────────────┼──────────┤
-│ Total               │ 42 MB    │
-└─────────────────────┴──────────┘
++--------------------------------+
+� Component           � Size     �
++---------------------+----------�
+� Common runtime      � 12 MB    �
+� x86 SSE4.2 kernels  � 4 MB     �
+� x86 AVX2 kernels    � 6 MB     �
+� x86 AVX-512 kernels � 8 MB     �
+� ARM NEON kernels    � 5 MB     �
+� ARM SVE kernels     � 4 MB     �
+� Fallback scalar     � 1 MB     �
+� Data / metadata     � 2 MB     �
++---------------------+----------�
+� Total               � 42 MB    �
++--------------------------------+
 ```
 
 ---
@@ -215,13 +215,13 @@ fn detect_cpu_features() -> u64 {
 
 | Metric | Multi-Binary (per-arch) | Kazkade Single Binary |
 |--------|------------------------|----------------------|
-| Binary size | 15 MB × 5 = 75 MB | 42 MB |
+| Binary size | 15 MB � 5 = 75 MB | 42 MB |
 | Dispatch overhead | 0 (compile-time) | 2 ns (runtime) |
 | Deployment complexity | High (5 packages) | Low (1 package) |
-| CI build time | 30 min × 5 = 150 min | 30 min (1 build) |
+| CI build time | 30 min � 5 = 150 min | 30 min (1 build) |
 | User error | Wrong arch = crash | Impossible |
 | Container images | 5 images | 1 image |
-| CDN storage | 75 MB × versions | 42 MB × versions |
+| CDN storage | 75 MB � versions | 42 MB � versions |
 
 ---
 
@@ -275,10 +275,10 @@ Kazkade handles platform differences transparently:
 
 ## Related Documentation
 
-- [Software-Defined Compute](./software-defined-compute.md) — SIMD dispatch details
-- [Existing Hardware Optimization](./existing-hardware-optimization.md) — Legacy support
-- [Performance Per Watt](./performance-per-watt.md) — Cross-platform efficiency
-- [Extending Hardware Lifespan](./extending-hardware-lifespan.md) — Longevity
+- [Software-Defined Compute](./software-defined-compute.md) � SIMD dispatch details
+- [Existing Hardware Optimization](./existing-hardware-optimization.md) � Legacy support
+- [Performance Per Watt](./performance-per-watt.md) � Cross-platform efficiency
+- [Extending Hardware Lifespan](./extending-hardware-lifespan.md) � Longevity
 
 ---
 
@@ -302,7 +302,7 @@ kazkade bench --simd-scalar
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -313,7 +313,7 @@ kazkade bench --simd-scalar
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -336,3 +336,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

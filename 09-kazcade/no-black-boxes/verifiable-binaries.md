@@ -1,12 +1,12 @@
-﻿<!--
-  ▄▄   ▄▄▄                      ▄▄                        ▄▄                     
-  ██  ██▀                       ██                        ██                     
-  ▄▄▄█  ██▄██      ▄█████▄  ████████  ██ ▄██▀    ▄█████▄   ▄███▄██   ▄████▄   █▄▄▄     
-  ▄▄█▀▀▀    █████      ▀ ▄▄▄██      ▄█▀   ██▄██      ▀ ▄▄▄██  ██▀  ▀██  ██▄▄▄▄██    ▀▀▀█▄▄ 
-  ▀▀█▄▄▄    ██  ██▄   ▄██▀▀▀██    ▄█▀     ██▀██▄    ▄██▀▀▀██  ██    ██  ██▀▀▀▀▀▀    ▄▄▄█▀▀ 
-      ▀▀▀█  ██   ██▄  ██▄▄▄███  ▄██▄▄▄▄▄  ██  ▀█▄   ██▄▄▄███  ▀██▄▄███  ▀██▄▄▄▄█  █▀▀▀     
-           ▀▀    ▀▀   ▀▀▀▀ ▀▀  ▀▀▀▀▀▀▀▀  ▀▀   ▀▀▀   ▀▀▀▀ ▀▀    ▀▀▀ ▀▀    ▀▀▀▀▀
-  Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime
+<!--
+  __   ___                      __                        __                     
+  ��  ���                       ��                        ��                     
+  ___�  ��_��      _�����_  ��������  �� _���    _�����_   _���_��   _����_   �___     
+  __����    �����      � ___��      _��   ��_��      � ___��  ���  ���  ��____��    ����__ 
+  ���___    ��  ��_   _�������    _��     �����_    _�������  ��    ��  ��������    ___��� 
+      ����  ��   ��_  ��___���  _��_____  ��  ��_   ��___���  ���__���  ���____�  ����     
+           ��    ��   ���� ��  ��������  ��   ���   ���� ��    ��� ��    �����
+  Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime
 -->
 
 # Verifiable Binaries
@@ -15,7 +15,7 @@
 
 Kazkade releases are signed, checksummed, and independently verifiable. Every binary you download can be cryptographically verified to be authentic, untampered, and built from the claimed source code.
 
-> "If you cannot verify the binary, you cannot trust the system." — Kazkade Release Philosophy
+> "If you cannot verify the binary, you cannot trust the system." � Kazkade Release Philosophy
 
 ---
 
@@ -24,36 +24,36 @@ Kazkade releases are signed, checksummed, and independently verifiable. Every bi
 Kazkade employs a multi-layered verification approach:
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Binary Verification Stack                      │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  Layer 1: SHA-256 Checksums                                      │
-│  ├─ Every release artifact has a published SHA-256 checksum      │
-│  ├─ Checksums published on multiple independent channels         │
-│  └─ Verified with `sha256sum -c checksums.txt`                   │
-│                                                                  │
-│  Layer 2: Cosign Signatures                                      │
-│  ├─ Artifacts signed with Cosign (keyless or key-based)         │
-│  ├─ Signatures stored alongside artifacts                        │
-│  └─ Verified with `cosign verify-blob`                           │
-│                                                                  │
-│  Layer 3: SLSA Provenance                                        │
-│  ├─ Build provenance attested via SLSA (Supply-chain Levels)     │
-│  ├─ Documents how, where, and when the binary was built         │
-│  └─ Verified with `slsa-verifier`                                │
-│                                                                  │
-│  Layer 4: Reproducible Build Verification                        │
-│  ├─ Rebuild from source and compare hash                         │
-│  ├─ Build attestation in .buildinfo                              │
-│  └─ Verified with `kazkade verify --binary`                      │
-│                                                                  │
-│  Layer 5: Ledger Attestation                                     │
-│  ├─ All release hashes recorded in .aioss ledger                 │
-│  ├─ Tamper-proof, append-only audit trail                       │
-│  └─ Verified with `kazkade ledger verify`                        │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
++-----------------------------------------------------------------+
+�                    Binary Verification Stack                      �
++-----------------------------------------------------------------�
+�                                                                  �
+�  Layer 1: SHA-256 Checksums                                      �
+�  +- Every release artifact has a published SHA-256 checksum      �
+�  +- Checksums published on multiple independent channels         �
+�  +- Verified with `sha256sum -c checksums.txt`                   �
+�                                                                  �
+�  Layer 2: Cosign Signatures                                      �
+�  +- Artifacts signed with Cosign (keyless or key-based)         �
+�  +- Signatures stored alongside artifacts                        �
+�  +- Verified with `cosign verify-blob`                           �
+�                                                                  �
+�  Layer 3: SLSA Provenance                                        �
+�  +- Build provenance attested via SLSA (Supply-chain Levels)     �
+�  +- Documents how, where, and when the binary was built         �
+�  +- Verified with `slsa-verifier`                                �
+�                                                                  �
+�  Layer 4: Reproducible Build Verification                        �
+�  +- Rebuild from source and compare hash                         �
+�  +- Build attestation in .buildinfo                              �
+�  +- Verified with `kazkade verify --binary`                      �
+�                                                                  �
+�  Layer 5: Ledger Attestation                                     �
+�  +- All release hashes recorded in .aioss ledger                 �
+�  +- Tamper-proof, append-only audit trail                       �
+�  +- Verified with `kazkade ledger verify`                        �
+�                                                                  �
++-----------------------------------------------------------------+
 ```
 
 ---
@@ -64,28 +64,28 @@ Every Kazkade release publishes the following artifacts:
 
 ```bash
 https://releases.kazkade.dev/v0.1.0/
-├── kazcade-x86_64-linux.tar.gz
-├── kazcade-x86_64-linux.tar.gz.sha256
-├── kazcade-x86_64-linux.tar.gz.pem        # Cosign public key
-├── kazcade-x86_64-linux.tar.gz.sig        # Cosign signature
-├── kazcade-aarch64-linux.tar.gz
-├── kazcade-aarch64-linux.tar.gz.sha256
-├── kazcade-aarch64-linux.tar.gz.pem
-├── kazcade-aarch64-linux.tar.gz.sig
-├── kazcade-x86_64-windows.zip
-├── kazcade-x86_64-windows.zip.sha256
-├── kazcade-x86_64-windows.zip.pem
-├── kazcade-x86_64-windows.zip.sig
-├── kazcade-x86_64-macos.tar.gz
-├── kazcade-x86_64-macos.tar.gz.sha256
-├── kazcade-aarch64-macos.tar.gz
-├── kazcade-aarch64-macos.tar.gz.sha256
-├── checksums.txt                          # All SHA-256 checksums
-├── checksums.txt.sig                      # Signed checksums
-├── checksums.txt.pem                      # Signing public key
-├── kazcade-v0.1.0.buildinfo               # Build attestation
-├── kazcade-v0.1.0.provenance              # SLSA provenance
-└── index.json                             # Release metadata
++-- kazcade-x86_64-linux.tar.gz
++-- kazcade-x86_64-linux.tar.gz.sha256
++-- kazcade-x86_64-linux.tar.gz.pem        # Cosign public key
++-- kazcade-x86_64-linux.tar.gz.sig        # Cosign signature
++-- kazcade-aarch64-linux.tar.gz
++-- kazcade-aarch64-linux.tar.gz.sha256
++-- kazcade-aarch64-linux.tar.gz.pem
++-- kazcade-aarch64-linux.tar.gz.sig
++-- kazcade-x86_64-windows.zip
++-- kazcade-x86_64-windows.zip.sha256
++-- kazcade-x86_64-windows.zip.pem
++-- kazcade-x86_64-windows.zip.sig
++-- kazcade-x86_64-macos.tar.gz
++-- kazcade-x86_64-macos.tar.gz.sha256
++-- kazcade-aarch64-macos.tar.gz
++-- kazcade-aarch64-macos.tar.gz.sha256
++-- checksums.txt                          # All SHA-256 checksums
++-- checksums.txt.sig                      # Signed checksums
++-- checksums.txt.pem                      # Signing public key
++-- kazcade-v0.1.0.buildinfo               # Build attestation
++-- kazcade-v0.1.0.provenance              # SLSA provenance
++-- index.json                             # Release metadata
 ```
 
 ---
@@ -100,12 +100,12 @@ $ kazkade verify --binary \
     --url https://releases.kazkade.dev/v0.1.0/kazcade-x86_64-linux.tar.gz
 
 Verifying kazcade-x86_64-linux.tar.gz...
-✓ SHA-256 checksum matches
-✓ Cosign signature valid (keyless)
-✓ SLSA provenance verified
-✓ Build attestation matches release hash
-✓ Ledger entry confirmed
-✓ Binary is authentic and untampered
+? SHA-256 checksum matches
+? Cosign signature valid (keyless)
+? SLSA provenance verified
+? Build attestation matches release hash
+? Ledger entry confirmed
+? Binary is authentic and untampered
 ```
 
 ### Verify a Local Binary
@@ -117,10 +117,10 @@ $ kazkade verify --binary ./kazkade
 Verifying ./kazkade...
 Computing SHA-256: a1b2c3d4e5f6a7b8c9d0...
 Fetching release metadata...
-✓ SHA-256 matches v0.1.0 release
-✓ Cosign signature valid
-✓ Binary built from commit a1b2c3d4 (signed by Lois Kleinner)
-✓ Binary is authentic
+? SHA-256 matches v0.1.0 release
+? Cosign signature valid
+? Binary built from commit a1b2c3d4 (signed by Lois Kleinner)
+? Binary is authentic
 ```
 
 ### Verify with Custom Trust Root
@@ -332,14 +332,14 @@ The verification bundle contains:
 
 ```
 verification-bundle-v0.1.0.tar.gz/
-├── checksums.txt
-├── checksums.txt.sig
-├── checksums.txt.pem
-├── kazcade-v0.1.0.buildinfo
-├── kazcade-v0.1.0.provenance
-├── cosign.pub
-├── ledger-export.dat         # Relevant ledger entries
-└── verify.sh                 # Manual verification script
++-- checksums.txt
++-- checksums.txt.sig
++-- checksums.txt.pem
++-- kazcade-v0.1.0.buildinfo
++-- kazcade-v0.1.0.provenance
++-- cosign.pub
++-- ledger-export.dat         # Relevant ledger entries
++-- verify.sh                 # Manual verification script
 ```
 
 ---
@@ -457,10 +457,10 @@ Checksums are published on multiple independent channels:
 $ kazkade verify --binary --cross-check
 
 SHA-256 comparison:
-├─ GitHub:         a1b2c3d4e5f6a7b8c9d0... ✓ MATCH
-├─ CDN:            a1b2c3d4e5f6a7b8c9d0... ✓ MATCH
-├─ .aioss ledger:  a1b2c3d4e5f6a7b8c9d0... ✓ MATCH
-└─ DNS TXT:        a1b2c3d4e5f6a7b8c9d0... ✓ MATCH
++- GitHub:         a1b2c3d4e5f6a7b8c9d0... ? MATCH
++- CDN:            a1b2c3d4e5f6a7b8c9d0... ? MATCH
++- .aioss ledger:  a1b2c3d4e5f6a7b8c9d0... ? MATCH
++- DNS TXT:        a1b2c3d4e5f6a7b8c9d0... ? MATCH
 All sources agree: binary is authentic
 ```
 
@@ -470,24 +470,24 @@ All sources agree: binary is authentic
 
 Kazkade guarantees:
 
-1. **All release artifacts are checksummed** — SHA-256, published on multiple channels
-2. **All release artifacts are signed** — Cosign signatures, keyless by default
-3. **Build provenance is attested** — SLSA Build Level 3
-4. **Build reproducibility is verifiable** — `.buildinfo` attestation
-5. **Release hashes are in the ledger** — `.aioss` append-only record
-6. **Offline verification is supported** — Verification bundles for air-gapped environments
-7. **Verification is automatable** — CLI and API for programmatic use
-8. **Tampering is detectable** — Multi-layer verification catches all tampering types
+1. **All release artifacts are checksummed** � SHA-256, published on multiple channels
+2. **All release artifacts are signed** � Cosign signatures, keyless by default
+3. **Build provenance is attested** � SLSA Build Level 3
+4. **Build reproducibility is verifiable** � `.buildinfo` attestation
+5. **Release hashes are in the ledger** � `.aioss` append-only record
+6. **Offline verification is supported** � Verification bundles for air-gapped environments
+7. **Verification is automatable** � CLI and API for programmatic use
+8. **Tampering is detectable** � Multi-layer verification catches all tampering types
 
 ---
 
 ## Related Documentation
 
-- [Source Code Transparency](./source-code-transparency.md) — Source availability
-- [Build Reproducibility](./build-reproducibility.md) — Build verification
-- [Deterministic Builds](./deterministic-builds.md) — Build determinism
-- [Auditability](./auditability.md) — Audit process
-- [Open Core Model](./open-core-model.md) — Feature transparency
+- [Source Code Transparency](./source-code-transparency.md) � Source availability
+- [Build Reproducibility](./build-reproducibility.md) � Build verification
+- [Deterministic Builds](./deterministic-builds.md) � Build determinism
+- [Auditability](./auditability.md) � Audit process
+- [Open Core Model](./open-core-model.md) � Feature transparency
 
 ---
 
@@ -521,7 +521,7 @@ slsa-verifier verify-artifact --provenance-path provenance.json ...
 
 ---
 
-*Lois-Kleinner & 0-1.gg 2026 — Kazkade Zero-Copy Compute Runtime*
+*Lois-Kleinner & 0-1.gg 2026 � Kazkade Zero-Copy Compute Runtime*
 
 ```
 .====================================================================.
@@ -532,7 +532,7 @@ slsa-verifier verify-artifact --provenance-path provenance.json ...
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -555,3 +555,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

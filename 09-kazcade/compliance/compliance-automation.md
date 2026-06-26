@@ -1,11 +1,11 @@
-ï»¿
+
 
 # Compliance Automation
 
 **Document ID:** KAZ-COMP-AUTO-001  
 **Version:** 1.0.0  
 **Date:** 2026-06-19  
-**Classification:** Internal â€” Engineering  
+**Classification:** Internal — Engineering  
 
 ---
 
@@ -329,8 +329,8 @@ flowchart LR
     end
 
     subgraph Record["Evidence Recording"]
-        PASS["Pass â†’ Ledger"]
-        FAIL["Fail â†’ Ledger + Alert"]
+        PASS["Pass ? Ledger"]
+        FAIL["Fail ? Ledger + Alert"]
     end
 
     subgraph Response["Automated Response"]
@@ -860,11 +860,11 @@ compliance/
 
 ## References
 
-- Compliance-as-Code â€” Continuous Compliance Automation
-- NIST SP 800-53A Rev. 5 â€” Assessment Procedures
-- OSCAL v1.1.0 â€” Open Security Controls Assessment Language
-- Kazkade .aioss Ledger Specification â€” KAZ-SPEC-LEDGER-001
-- Kazkade .acol Storage Architecture â€” KAZ-SPEC-STORAGE-001
+- Compliance-as-Code — Continuous Compliance Automation
+- NIST SP 800-53A Rev. 5 — Assessment Procedures
+- OSCAL v1.1.0 — Open Security Controls Assessment Language
+- Kazkade .aioss Ledger Specification — KAZ-SPEC-LEDGER-001
+- Kazkade .acol Storage Architecture — KAZ-SPEC-STORAGE-001
 
 ```
 .====================================================================.
@@ -875,7 +875,7 @@ compliance/
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -898,3 +898,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

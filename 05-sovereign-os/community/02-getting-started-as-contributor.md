@@ -1,4 +1,4 @@
-﻿# Getting Started as a Contributor
+# Getting Started as a Contributor
 
 This guide walks through the process of becoming a contributor to the 01s Sovereign project.
 
@@ -117,32 +117,32 @@ Then on GitHub:
 
 ```bash
 # Toolchain source: day-2/toolchain/
-â”œâ”€â”€ zerocli/   # CLI tool in Rust
-â”œâ”€â”€ lexer/     # Tokenizer in Rust
-â”œâ”€â”€ parser/    # Recursive descent parser in Rust
-â”œâ”€â”€ codegen/   # x86_64 JIT compiler in Rust
-â”œâ”€â”€ runes/     # Glyph system in Rust
-â””â”€â”€ binary/    # ELF loader in Rust
+├── zerocli/   # CLI tool in Rust
+├── lexer/     # Tokenizer in Rust
+├── parser/    # Recursive descent parser in Rust
+├── codegen/   # x86_64 JIT compiler in Rust
+├── runes/     # Glyph system in Rust
+└── binary/    # ELF loader in Rust
 ```
 
 ### Build System
 
 ```bash
 # Build scripts: scripts/
-â”œâ”€â”€ build-day1.sh    # ISO build script
-â”œâ”€â”€ build-day2.sh    # Toolchain overlay script
-â”œâ”€â”€ bundle-extensions.sh  # Extension bundling
-â”œâ”€â”€ check-iso.sh     # ISO verification
-â””â”€â”€ verify-all.sh    # Full verification
+├── build-day1.sh    # ISO build script
+├── build-day2.sh    # Toolchain overlay script
+├── bundle-extensions.sh  # Extension bundling
+├── check-iso.sh     # ISO verification
+└── verify-all.sh    # Full verification
 ```
 
 ### Desktop Customization
 
 ```bash
 # Desktop configs: day-1/iso/profile/airootfs/
-â”œâ”€â”€ etc/skel/         # User template files
-â”œâ”€â”€ usr/share/        # Shared resources
-â””â”€â”€ root/             # Root customization
+├── etc/skel/         # User template files
+├── usr/share/        # Shared resources
+└── root/             # Root customization
 ```
 
 ## Code Review Process
@@ -446,16 +446,16 @@ flowchart TD
 
 ## Related Documents
 
-- [Welcome to the Community](01-welcome-to-the-community.md) â€” Community overview
-- [Community Governance](03-community-governance.md) â€” How decisions are made
-- [Communication Channels](04-communication-channels.md) â€” Where to get help
-- [Reporting Bugs](05-reporting-bugs-and-features.md) â€” Bug report guidelines
-- [Code of Conduct](06-code-of-conduct.md) â€” Community expectations
-- [Community Projects](07-community-projects-and-ecosystem.md) â€” Ecosystem
-- [Localization](08-localization-and-translation.md) â€” Translation contributions
-- [Recognition and Rewards](09-recognition-and-rewards.md) â€” Getting rewarded
-- [Contributing Code](../developers/11-contributing-code.md) â€” Code guidelines
-- [Testing Framework](../developers/12-testing-framework.md) â€” Testing guide
+- [Welcome to the Community](01-welcome-to-the-community.md) — Community overview
+- [Community Governance](03-community-governance.md) — How decisions are made
+- [Communication Channels](04-communication-channels.md) — Where to get help
+- [Reporting Bugs](05-reporting-bugs-and-features.md) — Bug report guidelines
+- [Code of Conduct](06-code-of-conduct.md) — Community expectations
+- [Community Projects](07-community-projects-and-ecosystem.md) — Ecosystem
+- [Localization](08-localization-and-translation.md) — Translation contributions
+- [Recognition and Rewards](09-recognition-and-rewards.md) — Getting rewarded
+- [Contributing Code](../developers/11-contributing-code.md) — Code guidelines
+- [Testing Framework](../developers/12-testing-framework.md) — Testing guide
 
 ## Finding Your Niche
 
@@ -722,7 +722,7 @@ Lois-Kleinner and 0-1.gg 2026 Copyright
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -745,3 +745,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885

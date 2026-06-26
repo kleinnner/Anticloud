@@ -1,12 +1,12 @@
-﻿.------------------------------------------------------------------------------.
+.------------------------------------------------------------------------------.
 |                                                                              |
-|   ╔══════════════════════════════════════════════════════════════════════╗    |
-|   ║                                                                      ║    |
-|   ║           HOW-TO-USE COMMUNITY — LEDGER BROWSING                     ║    |
-|   ║                                                                      ║    |
-|   ║                    inte11ect — Community Intelligence                 ║    |
-|   ║                                                                      ║    |
-|   ╚══════════════════════════════════════════════════════════════════════╝    |
+|   +----------------------------------------------------------------------+    |
+|   �                                                                      �    |
+|   �           HOW-TO-USE COMMUNITY � LEDGER BROWSING                     �    |
+|   �                                                                      �    |
+|   �                    inte11ect � Community Intelligence                 �    |
+|   �                                                                      �    |
+|   +----------------------------------------------------------------------+    |
 |                                                                              |
 '------------------------------------------------------------------------------'
 
@@ -229,9 +229,9 @@ class LedgerFilter:
 - **Signature**: MEUCIQDQgaZx6Ggl6P7G...
 
 ## Verification
-- **Chain Valid**: ✓
-- **Signature Valid**: ✓
-- **Anchor Verified**: ✓
+- **Chain Valid**: ?
+- **Signature Valid**: ?
+- **Anchor Verified**: ?
 
 ## Actions
 - [Verify] [Export] [Share] [Report]
@@ -435,12 +435,12 @@ ledger_privacy:
 
 | Data Type | Public | Visible To |
 |---|---|---|
-| Message content | ✓ (Community) | Everyone |
+| Message content | ? (Community) | Everyone |
 | User ID | Pseudonymous | Everyone |
-| Timestamp | ✓ | Everyone |
-| Model used | ✓ | Everyone |
-| IP address | ✗ | Internal only |
-| Personal info | ✗ | You only |
+| Timestamp | ? | Everyone |
+| Model used | ? | Everyone |
+| IP address | ? | Internal only |
+| Personal info | ? | You only |
 
 ---
 
@@ -465,18 +465,18 @@ class EntryTypeInterpreter:
     
     def get_icon(self, entry_type: str) -> str:
         icons = {
-            "message.created": "💬",
-            "conversation.created": "🆕",
-            "user.login": "🔑",
-            "user.logout": "🚪",
-            "model.changed": "🔄",
-            "export.completed": "📥",
-            "settings.changed": "⚙️",
-            "admin.action": "🔧",
-            "moderation.flagged": "🚩",
-            "error.occurred": "❌"
+            "message.created": "??",
+            "conversation.created": "??",
+            "user.login": "??",
+            "user.logout": "??",
+            "model.changed": "??",
+            "export.completed": "??",
+            "settings.changed": "??",
+            "admin.action": "??",
+            "moderation.flagged": "??",
+            "error.occurred": "?"
         }
-        return icons.get(entry_type, "📄")
+        return icons.get(entry_type, "??")
 ```
 
 ---
@@ -526,9 +526,9 @@ inte11ect ledger stats
 inte11ect ledger watch --events "message.created,error.occurred"
 
 # Output
-[10:30:00] 💬 New message from usr_abc123 (GPT-4o)
-[10:30:05] 💬 New message from usr_def456 (Claude)
-[10:30:12] ❌ Error from usr_ghi789: Model timeout
+[10:30:00] ?? New message from usr_abc123 (GPT-4o)
+[10:30:05] ?? New message from usr_def456 (Claude)
+[10:30:12] ? Error from usr_ghi789: Model timeout
 ```
 
 ### WebSocket Monitoring
@@ -540,12 +540,12 @@ ws.onmessage = (event) => {
   const entry = JSON.parse(event.data);
   
   const entryTypes = {
-    'message.created': '💬',
-    'error.occurred': '❌',
-    'user.login': '🔑'
+    'message.created': '??',
+    'error.occurred': '?',
+    'user.login': '??'
   };
   
-  const icon = entryTypes[entry.type] || '📄';
+  const icon = entryTypes[entry.type] || '??';
   const preview = entry.data?.content_preview?.substring(0, 50) || '';
   
   console.log(`[${entry.timestamp}] ${icon} ${entry.type} - ${preview}`);
@@ -609,7 +609,7 @@ inte11ect ledger share --index 89234 --expires "24h"
 ---
 
 ```
-Lois-Kleinner and 0-1.gg 2026 — Confidential
+Lois-Kleinner and 0-1.gg 2026 � Confidential
 ```
 
 ```
@@ -621,7 +621,7 @@ Lois-Kleinner and 0-1.gg 2026 — Confidential
 !                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
 !  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID              !
+!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -644,3 +644,4 @@ References:
 10. Lois-Kleinner Mastodon: https://mastodon.social/@kleinner
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
+13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
