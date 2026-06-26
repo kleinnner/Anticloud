@@ -974,3 +974,4 @@ References:
 14. Lois-Kleinner Academia: https://independent.academia.edu/kleinner
 15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net/wiki/Anticloud_by_Lois-Kleinner_Wiki
 16. Lois-Kleinner Fandom: https://anticloud.fandom.com
+17. AIOSS Offline Verification Kit: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OORKNJ
