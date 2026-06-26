@@ -15,7 +15,7 @@ image: /img/anticloud-social.png
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
 [![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
 [![Academia.edu](https://img.shields.io/badge/Research-Academia.edu-41454A?style=flat-square&logo=academia)](https://independent.academia.edu/kleinner)
-[![Telepedia](https://img.shields.io/badge/Wiki-Telepedia-0071e3?style=flat-square)](https://anticloud.telepedia.net)
+[![Telepedia](https://img.shields.io/badge/Wiki-Telepedia-0071e3?style=flat-square)](https://anticloud.telepedia.net/wiki/Anticloud_by_Lois-Kleinner_Wiki)
 [![Fandom](https://img.shields.io/badge/Wiki-Fandom-005c99?style=flat-square&logo=fandom)](https://anticloud.fandom.com)
 
 [![SOC 2](https://img.shields.io/badge/Compliance-SOC%202-8B4513?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
@@ -149,5 +149,5 @@ References:
 12. 0-1.gg: https://0-1.gg
 13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
 14. Lois-Kleinner Academia: https://independent.academia.edu/kleinner
-15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net
+15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net/wiki/Anticloud_by_Lois-Kleinner_Wiki
 16. Lois-Kleinner Fandom: https://anticloud.fandom.com
