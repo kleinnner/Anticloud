@@ -2,7 +2,7 @@
 
 [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Tools](Tools) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [FAQ](FAQ) · [Glossary](Glossary) · [Security](Security) · [Protocol Spec](Protocol-Spec)
 
-[Anticloud](https://kleinnner.github.io/Anticloud/) · [GitHub](https://github.com/kleinnner/Anticloud) · [Fandom Wiki](https://anticloud.fandom.com) · [LinkedIn](https://linkedin.com/in/kleinner) · [DEV](https://dev.to/kleinner)
+[Anticloud](https://0-1.gg) · [GitHub](https://github.com/kleinnner/Anticloud) · [Telepedia](https://anticloud.telepedia.net) · [Fandom](https://anticloud.fandom.com) · [LinkedIn](https://linkedin.com/in/kleinner) · [DEV](https://dev.to/kleinner) · [Academia](https://independent.academia.edu/kleinner)
 
 Copyright © Lois-Kleinner & 0-1.gg. Shared under MIT / Apache 2.0.
 
@@ -13,9 +13,17 @@ Copyright © Lois-Kleinner & 0-1.gg. Shared under MIT / Apache 2.0.
 !                                                                    !
 !  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
 !                                                                    !
+!  As seen on:                                                       !
+!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
+!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!                                                                    !
+!  As seen on:                                                       !
+!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
+!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
-!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
+!  HuggingFace ! Blog ! Bluesky ! Mastodon                           !
+!  Internet Archive ! ORCID ! Figshare                               !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -39,3 +47,6 @@ References:
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
 13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
+14. Lois-Kleinner Academia: https://independent.academia.edu/kleinner
+15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net
+16. Lois-Kleinner Fandom: https://anticloud.fandom.com

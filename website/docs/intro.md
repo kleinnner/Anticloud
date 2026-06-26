@@ -14,6 +14,9 @@ image: /img/anticloud-social.png
 [![Hugging Face](https://img.shields.io/badge/Models-HuggingFace-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Anticloud)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
 [![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
+[![Academia.edu](https://img.shields.io/badge/Research-Academia.edu-41454A?style=flat-square&logo=academia)](https://independent.academia.edu/kleinner)
+[![Telepedia](https://img.shields.io/badge/Wiki-Telepedia-0071e3?style=flat-square)](https://anticloud.telepedia.net)
+[![Fandom](https://img.shields.io/badge/Wiki-Fandom-005c99?style=flat-square&logo=fandom)](https://anticloud.fandom.com)
 
 [![SOC 2](https://img.shields.io/badge/Compliance-SOC%202-8B4513?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
 [![GDPR](https://img.shields.io/badge/Compliance-GDPR-0066FF?style=flat-square)](https://github.com/kleinnner/Anticloud/blob/main/COMPLIANCE-MATRIX.md)
@@ -115,9 +118,13 @@ flowchart LR
 !                                                                    !
 !  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
 !                                                                    !
+!  As seen on:                                                       !
+!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
+!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
-!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
+!  HuggingFace ! Blog ! Bluesky ! Mastodon                           !
+!  Internet Archive ! ORCID ! Figshare                               !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -141,3 +148,6 @@ References:
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
 13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
+14. Lois-Kleinner Academia: https://independent.academia.edu/kleinner
+15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net
+16. Lois-Kleinner Fandom: https://anticloud.fandom.com

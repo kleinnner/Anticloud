@@ -16,6 +16,9 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
 [![Internet Archive](https://img.shields.io/badge/Archive-Internet%20Archive-000000?style=flat-square&logo=internet-archive)](https://archive.org/details/aioss-format)
 [![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
+[![Academia.edu](https://img.shields.io/badge/Research-Academia.edu-41454A?style=flat-square&logo=academia)](https://independent.academia.edu/kleinner)
+[![Telepedia](https://img.shields.io/badge/Wiki-Telepedia-0071e3?style=flat-square)](https://anticloud.telepedia.net)
+[![Fandom](https://img.shields.io/badge/Wiki-Fandom-005c99?style=flat-square&logo=fandom)](https://anticloud.fandom.com)
 
 > Whitepapers, specifications, tutorials, and architectural documentation for a complete sovereign technology stack spanning browsers, operating systems, programming languages, AI platforms, cryptographic formats, file systems, communication engines, and 40 developer tools.
 
@@ -347,9 +350,13 @@ This repository contains research documentation only. No source code is included
 !                                                                    !
 !  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
 !                                                                    !
+!  As seen on:                                                       !
+!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
+!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
-!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
+!  HuggingFace ! Blog ! Bluesky ! Mastodon                           !
+!  Internet Archive ! ORCID ! Figshare                               !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -373,3 +380,6 @@ References:
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
 13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
+14. Lois-Kleinner Academia: https://independent.academia.edu/kleinner
+15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net
+16. Lois-Kleinner Fandom: https://anticloud.fandom.com
