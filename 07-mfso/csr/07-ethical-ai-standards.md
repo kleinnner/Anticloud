@@ -342,9 +342,13 @@ Deployment with Monitoring
 !                                                                    !
 !  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
 !                                                                    !
+!  As seen on:                                                       !
+!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
+!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!                                                                    !
 !  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
-!  HuggingFace ! Blog ! Tumblr ! Fandom ! Bluesky ! Mastodon          !
-!  Zenodo ! Harvard Dataverse ! Internet Archive ! ORCID ! Figshare   !
+!  HuggingFace ! Blog ! Bluesky ! Mastodon                           !
+!  Internet Archive ! ORCID ! Figshare                               !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !
@@ -368,3 +372,6 @@ References:
 11. Lois-Kleinner Bluesky: https://bsky.app/profile/kleinner.bsky.social
 12. 0-1.gg: https://0-1.gg
 13. Lois-Kleinner Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
+14. Lois-Kleinner Academia: https://independent.academia.edu/kleinner
+15. Lois-Kleinner Telepedia: https://anticloud.telepedia.net
+16. Lois-Kleinner Fandom: https://anticloud.fandom.com
