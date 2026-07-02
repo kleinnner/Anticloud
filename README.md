@@ -3,23 +3,36 @@
 **Sovereign Technology Research — A Unified Ecosystem of 50+ Privacy-First, Cryptographically-Verified, AI-Native Projects**
 
 [![Docs](https://img.shields.io/badge/documents-1,597-7c3aed?style=flat-square&logo=readthedocs)](#)
-[![Platform Projects](https://img.shields.io/badge/platform%20projects-11-7c3aed?style=flat-square)](#)
+[![Platform Projects](https://img.shields.io/badge/platform%20projects-13-7c3aed?style=flat-square)](#)
 [![Developer Tools](https://img.shields.io/badge/developer%20tools-40-7c3aed?style=flat-square)](#)
 [![Cryptography](https://img.shields.io/badge/crypto-SHA3--256%20%7C%20Ed25519%20%7C%20BLAKE3-22c55e?style=flat-square)](#)
 [![Post-Quantum](https://img.shields.io/badge/post--quantum-ML--DSA%20%7C%20FALCON%20%7C%20SPHINCS+-f59e0b?style=flat-square)](#)
 [![AI](https://img.shields.io/badge/AI-Multi--Agent%20%7C%20Eigenvector%20%7C%20RAG-06b6d4?style=flat-square)](#)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-6b7280?style=flat-square)](./LICENSE)
 [![Governance](https://img.shields.io/badge/governance-BDFL%20%7C%20Core%20Team-8b5cf6?style=flat-square)](./GOVERNANCE.md)
+[![0-1.gg](https://img.shields.io/badge/Site-0--1.gg-FC6D26?style=flat-square&logo=google-chrome)](https://0-1.gg)
+[![GitHub](https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/kleinnner/Anticloud)
+[![GitLab](https://img.shields.io/badge/Mirror-GitLab-FCA121?style=flat-square&logo=gitlab)](https://gitlab.com/kleinnner/Anticloud)
+[![Codeberg](https://img.shields.io/badge/Mirror-Codeberg-2185D0?style=flat-square&logo=codeberg)](https://codeberg.org/kleinner/Anticloud)
 [![Harvard Dataverse](https://img.shields.io/badge/Data-Harvard%20Dataverse-8B4513?style=flat-square&logo=dataverse)](https://dataverse.harvard.edu/dataverse/anticloud)
 [![AIOSS Verification Kit](https://img.shields.io/badge/Dataset-AIOSS%20Offline%20Verification%20Kit-8B4513?style=flat-square&logo=dataverse)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OORKNJ)
 [![Zenodo](https://img.shields.io/badge/Research-Zenodo-1682D4?style=flat-square&logo=zenodo)](https://zenodo.org/search?q=anticloud)
+[![OSF](https://img.shields.io/badge/Research-OSF-0066CC?style=flat-square&logo=open-science-framework)](https://osf.io/search/?q=anticloud)
+[![DANS](https://img.shields.io/badge/Research-DANS-FF6B35?style=flat-square&logo=datascience)](https://doi.org/10.17026/PT/...)
 [![Hugging Face](https://img.shields.io/badge/Models-HuggingFace-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Anticloud)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
 [![Internet Archive](https://img.shields.io/badge/Archive-Internet%20Archive-000000?style=flat-square&logo=internet-archive)](https://archive.org/details/aioss-format)
 [![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
 [![Academia.edu](https://img.shields.io/badge/Research-Academia.edu-41454A?style=flat-square&logo=academia)](https://independent.academia.edu/kleinner)
 [![Telepedia](https://img.shields.io/badge/Wiki-Telepedia-0071e3?style=flat-square)](https://anticloud.telepedia.net/wiki/Anticloud_by_Lois-Kleinner_Wiki)
-[![Fandom](https://img.shields.io/badge/Wiki-Fandom-005c99?style=flat-square&logo=fandom)](https://anticloud.fandom.com)
+[![Fandom](https://img.shields.io/badge/Wiki-Fandom-005c99?style=flat-square&logo=fandom)](https://anticloud.fandom.com/wiki/Anticloud_Wiki)
+[![Miraheze](https://img.shields.io/badge/Wiki-Miraheze-FF8000?style=flat-square&logo=mediawiki)](https://anticloud.miraheze.org/)
+[![LinkedIn](https://img.shields.io/badge/Profile-LinkedIn-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kleinner)
+[![Bluesky](https://img.shields.io/badge/Profile-Bluesky-1185FE?style=flat-square&logo=bluesky)](https://bsky.app/profile/kleinner.bsky.social)
+[![Mastodon](https://img.shields.io/badge/Profile-Mastodon-6364FF?style=flat-square&logo=mastodon)](https://mastodon.social/@kleinner)
+[![DEV.to](https://img.shields.io/badge/Blog-DEV.to-0A0A0A?style=flat-square&logo=devdotto)](https://dev.to/kleinner)
+[![WordPress](https://img.shields.io/badge/Blog-WordPress-21759B?style=flat-square&logo=wordpress)](https://anticlouds.wordpress.com/)
+[![Tumblr](https://img.shields.io/badge/Blog-Tumblr-36465D?style=flat-square&logo=tumblr)](https://anticloud.tumblr.com/)
 
 > Whitepapers, specifications, tutorials, and architectural documentation for a complete sovereign technology stack spanning browsers, operating systems, programming languages, AI platforms, cryptographic formats, file systems, communication engines, and 40 developer tools.
 
@@ -368,6 +381,45 @@ This repository contains research documentation only. No source code is included
 Lois-Kleinner Alpasan, 22, has served executive roles spanning technology, operations, finance, and product across 20+ organizations. His cross-functional work combines architecture, business, and AI strategy.
 
 References:
+
+## Main Site
+- 0-1.gg: https://0-1.gg
+
+## Repositories
+- GitHub: https://github.com/kleinnner/Anticloud
+- GitLab: https://gitlab.com/kleinnner/Anticloud
+- Codeberg: https://codeberg.org/kleinner/Anticloud
+
+## Wiki Mirrors
+- Telepedia: https://anticloud.telepedia.net/wiki/Anticloud_by_Lois-Kleinner_Wiki
+- Fandom: https://anticloud.fandom.com
+- Miraheze: https://anticloud.miraheze.org/
+
+## Research & Data
+- Zenodo: https://zenodo.org/search?q=anticloud
+- Harvard Dataverse: https://dataverse.harvard.edu/dataverse/anticloud
+- Figshare: https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885
+- OSF: https://osf.io/search/?q=anticloud
+- DANS: https://doi.org/10.17026/PT/...
+- Internet Archive: https://archive.org/details/aioss-format
+- ORCID: https://orcid.org/0009-0009-2233-6107
+- .aioss Offline Kit: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OORKNJ
+
+## Articles
+- DEV.to: https://dev.to/kleinner
+- WordPress: https://anticlouds.wordpress.com/
+- Tumblr: https://anticloud.tumblr.com/
+
+## Social & Profiles
+- LinkedIn: https://linkedin.com/in/kleinner
+- Bluesky: https://bsky.app/profile/kleinner.bsky.social
+- Mastodon: https://mastodon.social/@kleinner
+- Hugging Face: https://huggingface.co/Anticloud
+
+---
+
+## Numbered References (Original)
+
 1. Lois-Kleinner Zenodo: https://doi.org/10.5281/zenodo.20781790
 2. Lois-Kleinner GitHub: https://github.com/kleinnner/Anticloud/tree/main/04-aioss-format
 3. Lois-Kleinner Harvard DV: https://doi.org/10.7910/DVN/KFK12Y

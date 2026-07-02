@@ -157,12 +157,14 @@ flowchart LR
 !  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
 !                                                                    !
 !  As seen on:                                                       !
-!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
-!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!  Harvard Dataverse ! Zenodo/CERN ! OSF ! DANS ! Figshare           !
+!  Academia.edu ! HuggingFace ! ORCID                                !
+!  Internet Archive ! anticloud.telepedia.net ! Miraheze             !
+!  anticloud.fandom.com                                             !
 !                                                                    !
-!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  0-1.gg ! GitHub ! GitLab ! Codeberg ! GH Pages                    !
 !  HuggingFace ! Blog ! Bluesky ! Mastodon                           !
-!  Internet Archive ! ORCID ! Figshare                               !
+!  LinkedIn ! DEV ! WordPress ! Tumblr                               !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !

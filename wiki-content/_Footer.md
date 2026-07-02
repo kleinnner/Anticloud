@@ -2,7 +2,7 @@
 
 [Home](Home) · [Architecture](Architecture) · [Projects](Projects) · [Tools](Tools) · [Ecosystem](Ecosystem) · [Roadmap](Roadmap) · [FAQ](FAQ) · [Glossary](Glossary) · [Security](Security) · [Protocol Spec](Protocol-Spec)
 
-[Anticloud](https://0-1.gg) · [GitHub](https://github.com/kleinnner/Anticloud) · [Telepedia](https://anticloud.telepedia.net) · [Fandom](https://anticloud.fandom.com) · [LinkedIn](https://linkedin.com/in/kleinner) · [DEV](https://dev.to/kleinner) · [Academia](https://independent.academia.edu/kleinner)
+[Anticloud](https://0-1.gg) · [GitHub](https://github.com/kleinnner/Anticloud) · [GitLab](https://gitlab.com/kleinnner/Anticloud) · [Codeberg](https://codeberg.org/kleinner/Anticloud) · [Hugging Face](https://huggingface.co/Anticloud) · [Telepedia](https://anticloud.telepedia.net) · [Fandom](https://anticloud.fandom.com) · [Miraheze](https://anticloud.miraheze.org/) · [LinkedIn](https://linkedin.com/in/kleinner) · [DEV](https://dev.to/kleinner) · [WordPress](https://anticlouds.wordpress.com/) · [Tumblr](https://anticloud.tumblr.com/) · [Bluesky](https://bsky.app/profile/kleinner.bsky.social) · [Mastodon](https://mastodon.social/@kleinner) · [Academia](https://independent.academia.edu/kleinner)
 
 Copyright © Lois-Kleinner & 0-1.gg. Shared under MIT / Apache 2.0.
 
@@ -14,16 +14,14 @@ Copyright © Lois-Kleinner & 0-1.gg. Shared under MIT / Apache 2.0.
 !  Lois-Kleinner Alpasan - The Anticloud 2026-                       !
 !                                                                    !
 !  As seen on:                                                       !
-!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
-!  anticloud.telepedia.net ! anticloud.fandom.com                    !
+!  Harvard Dataverse ! Zenodo/CERN ! OSF ! DANS ! Figshare           !
+!  Academia.edu ! HuggingFace ! ORCID                                !
+!  Internet Archive ! anticloud.telepedia.net ! Miraheze             !
+!  anticloud.fandom.com                                             !
 !                                                                    !
-!  As seen on:                                                       !
-!  Harvard Dataverse ! Zenodo/CERN ! Academia.edu ! HuggingFace      !
-!  anticloud.telepedia.net ! anticloud.fandom.com                    !
-!                                                                    !
-!  0-1.gg ! GitHub ! LinkedIn ! DEV ! GH Pages                       !
+!  0-1.gg ! GitHub ! GitLab ! Codeberg ! GH Pages                    !
 !  HuggingFace ! Blog ! Bluesky ! Mastodon                           !
-!  Internet Archive ! ORCID ! Figshare                               !
+!  LinkedIn ! DEV ! WordPress ! Tumblr                               !
 !                                                                    !
 !  Sovereign AI ! Local-First ! Privacy ! Zero Trust ! No Datacenter !
 !  Air-Gapped ! Open Source ! Rust ! Hash Chain ! Single Binary      !

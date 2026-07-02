@@ -1,5 +1,5 @@
 <!-- SEO -->
-<meta name="description" content="Anticloud ecosystem wiki — 11 open-source projects building sovereign, privacy-first, cryptographically-verified technology. 40 developer tools across 4 domains.">
+<meta name="description" content="Anticloud ecosystem wiki — 13 open-source projects building sovereign, privacy-first, cryptographically-verified technology. 40 developer tools across 4 domains.">
 <meta name="keywords" content="anticloud, wiki, sovereign technology, cryptography, open source, kathon, kamelot, kasteran">
 
 
@@ -13,14 +13,29 @@
 ![Languages](https://img.shields.io/badge/Languages-Rust%20%7C%20Go%20%7C%20TS%20%7C%20JSON-8b5cf6?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/kleinnner/Anticloud?style=flat-square&label=Stars)
 ![Last Commit](https://img.shields.io/github/last-commit/kleinnner/Anticloud?style=flat-square&label=Updated)
+[![0-1.gg](https://img.shields.io/badge/Site-0--1.gg-FC6D26?style=flat-square&logo=google-chrome)](https://0-1.gg)
+[![GitHub](https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/kleinnner/Anticloud)
+[![GitLab](https://img.shields.io/badge/Mirror-GitLab-FCA121?style=flat-square&logo=gitlab)](https://gitlab.com/kleinnner/Anticloud)
+[![Codeberg](https://img.shields.io/badge/Mirror-Codeberg-2185D0?style=flat-square&logo=codeberg)](https://codeberg.org/kleinner/Anticloud)
 [![Harvard Dataverse](https://img.shields.io/badge/Data-Harvard%20Dataverse-8B4513?style=flat-square&logo=dataverse)](https://dataverse.harvard.edu/dataverse/anticloud)
 [![AIOSS Verification Kit](https://img.shields.io/badge/Dataset-AIOSS%20Offline%20Verification%20Kit-8B4513?style=flat-square&logo=dataverse)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OORKNJ)
 [![Zenodo](https://img.shields.io/badge/Research-Zenodo-1682D4?style=flat-square&logo=zenodo)](https://zenodo.org/search?q=anticloud)
+[![OSF](https://img.shields.io/badge/Research-OSF-0066CC?style=flat-square&logo=open-science-framework)](https://osf.io/search/?q=anticloud)
+[![DANS](https://img.shields.io/badge/Research-DANS-FF6B35?style=flat-square&logo=datascience)](https://doi.org/10.17026/PT/...)
 [![Hugging Face](https://img.shields.io/badge/Models-HuggingFace-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/Anticloud)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2233--6107-A6CE39?style=flat-square&logo=orcid)](https://orcid.org/0009-0009-2233-6107)
+[![Internet Archive](https://img.shields.io/badge/Archive-Internet%20Archive-000000?style=flat-square&logo=internet-archive)](https://archive.org/details/aioss-format)
 [![Figshare](https://img.shields.io/badge/Data-Figshare-FF5722?style=flat-square&logo=figshare)](https://figshare.com/authors/Lois-Kleinner_Alpasan/20849885)
 [![Academia.edu](https://img.shields.io/badge/Research-Academia.edu-41454A?style=flat-square&logo=academia)](https://independent.academia.edu/kleinner)
 [![Telepedia](https://img.shields.io/badge/Wiki-Telepedia-0071e3?style=flat-square)](https://anticloud.telepedia.net/wiki/Anticloud_by_Lois-Kleinner_Wiki)
 [![Fandom](https://img.shields.io/badge/Wiki-Fandom-005c99?style=flat-square&logo=fandom)](https://anticloud.fandom.com)
+[![Miraheze](https://img.shields.io/badge/Wiki-Miraheze-FF8000?style=flat-square&logo=mediawiki)](https://anticloud.miraheze.org/)
+[![LinkedIn](https://img.shields.io/badge/Profile-LinkedIn-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kleinner)
+[![Bluesky](https://img.shields.io/badge/Profile-Bluesky-1185FE?style=flat-square&logo=bluesky)](https://bsky.app/profile/kleinner.bsky.social)
+[![Mastodon](https://img.shields.io/badge/Profile-Mastodon-6364FF?style=flat-square&logo=mastodon)](https://mastodon.social/@kleinner)
+[![DEV.to](https://img.shields.io/badge/Blog-DEV.to-0A0A0A?style=flat-square&logo=devdotto)](https://dev.to/kleinner)
+[![WordPress](https://img.shields.io/badge/Blog-WordPress-21759B?style=flat-square&logo=wordpress)](https://anticlouds.wordpress.com/)
+[![Tumblr](https://img.shields.io/badge/Blog-Tumblr-36465D?style=flat-square&logo=tumblr)](https://anticloud.tumblr.com/)
 
 ---
 
